@@ -1,7 +1,9 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/website/',
+  base: process.env.READTHEDOCS_CANONICAL_URL
+     ? new URL(process.env.READTHEDOCS_CANONICAL_URL).pathname.replace(/\/$/, "")
+     : "",
   title: 'ICC CE',
   description: '智能课堂绘图增强工具',
   head: [
