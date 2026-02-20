@@ -1,14 +1,23 @@
-name: 生成DocFX文档
+name: Generate DocFX Documentation
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - v2
+    paths-ignore:
+      - './docs/**'
+      - '.readthedocs.yml'
+      - 'package-lock.json'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
 
 permissions:
   contents: write
 
 jobs:
   build-docfx:
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout current repo
         uses: actions/checkout@v5
@@ -22,33 +31,37 @@ jobs:
           path: community
           fetch-depth: 0
 
+      - name: Clone docfx branch to community/output
+        run: |
+          git clone --branch docfx https://github.com/${{ github.repository }} community/output || true
+          cd community/output
+          git reset --soft HEAD~
+
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
 
       - name: Install DocFX
         run: dotnet tool update -g docfx
 
-      - name: Copy docfx.json
-        run: cp docfx.json community/docfx.json
+      - name: Copy docfx.json and related files
+        run: |
+          cp docfx.json community/docfx.json
+          cp index.md community/index.md
+          cp toc.yml community/toc.yml
 
       - name: Generate DocFX Document
         run: |
           cd community
           docfx docfx.json
 
-      - name: Checkout docfx 分支
-        uses: actions/checkout@v5
-        with:
-          ref: docfx
-          path: docfx-branch
-
-      - name: 复制生成的文档到 docfx 分支
+      - name: Configure Git
         run: |
-          rm -rf docfx-branch/*
-          cp -r community/output/* docfx-branch/
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: 提交并推送
-        uses: EndBug/add-and-commit@v9
-        with:
-          cwd: docfx-branch
-          message: Update docfx documentation
+      - name: Reset soft and update docs
+        run: |
+          cd community/output
+          git add -A
+          git commit -m "Update docfx documentation"
+          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:docfx

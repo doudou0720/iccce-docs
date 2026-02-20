@@ -1,7 +1,8 @@
 {
   "type": "module",
   "devDependencies": {
-    "vitepress": "^1.6.3"
+    "vitepress": "^2.0.0-alpha.6",
+    "oxc-minify": "^0.114.0"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
@@ -13,5 +14,10 @@
     "busuanzi.pure.js": "^1.0.3",
     "marked": "^16.2.0",
     "medium-zoom": "^1.1.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:rolldown-vite@latest"
+    }
   }
 }
