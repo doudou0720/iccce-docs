@@ -17,7 +17,8 @@ export default defineConfig({
       { text: '<i class="fa-solid fa-list-ul"></i> 功能', link: '/features/overview' },
       { text: '<i class="fa-solid fa-download"></i> 下载', link: '/download' },
       { text: '<i class="fa-solid fa-globe"></i> 官网', link: 'https://inkcanvasforclass.github.io/' },
-      { text: '<i class="fa-brands fa-github"></i> 源码仓库', link: 'https://github.com/InkCanvasForClass/community' }
+      { text: '<i class="fa-brands fa-github"></i> 源码仓库', link: 'https://github.com/InkCanvasForClass/community' },
+      { text: '<i class="fa-solid fa-code"></i> 返回Dev Docs', link: '/..' },
     ],
     sidebar: {
       '/guide/': [
