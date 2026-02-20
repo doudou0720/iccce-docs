@@ -1,0 +1,50 @@
+{
+  "$schema": "https://gh-proxy.com/raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": ".",
+          "files": [
+            "**/*.csproj"
+          ]
+        }
+      ],
+      "dest": "api",
+      "allowCompilationErrors": true,
+      "properties": {
+        "TargetFramework":"net472"
+      }
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "output/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "output",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "InkCanvasForClass CommunityEdition Dev docs",
+      "_appTitle": "InkCanvasForClass CommunityEdition Dev docs",
+      "_enableSearch": true,
+      "pdf": true
+    }
+  }
+}
