@@ -47,6 +47,7 @@
       "_disableContribution": true,
       "_enableSearch": true,
       "_appFaviconPath": "favicon.ico",
+      "_appLogoPath": "favicon.ico",
       "pdf": false
     }
   }
