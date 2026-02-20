@@ -24,6 +24,9 @@ hero:
     - theme: alt
       text: 开发文档
       link: /dev/uri
+    - theme: alt
+      text: 返回Dev Docs
+      link: /..
 
 features:
   - icon: 🖊️
