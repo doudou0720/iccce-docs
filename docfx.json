@@ -42,9 +42,11 @@
       "modern"
     ],
     "globalMetadata": {
-      "_appName": "InkCanvasForClass CommunityEdition Dev docs",
+      "_appName": "ICC-CE Dev docs",
       "_appTitle": "InkCanvasForClass CommunityEdition Dev docs",
+      "_disableContribution": true,
       "_enableSearch": true,
+      "_appFaviconPath": "favicon.ico",
       "pdf": false
     }
   }

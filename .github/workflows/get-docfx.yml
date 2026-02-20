@@ -48,6 +48,7 @@ jobs:
           cp docfx.json community/docfx.json
           cp index.md community/index.md
           cp toc.yml community/toc.yml
+          cp favicon.ico community/favicon.ico
 
       - name: Generate DocFX Document
         run: |
