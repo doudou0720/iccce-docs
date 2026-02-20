@@ -32,8 +32,7 @@
       {
         "files": [
           "images/**",
-          "icc.png",
-          "toc.yml"
+          "icc.png"
         ]
       }
     ],
