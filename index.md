@@ -1,4 +1,4 @@
 ---
 _layout: landing
-redirect_url: [./README.md]
+redirect_url: [/README.html]
 ---
