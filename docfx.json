@@ -32,7 +32,8 @@
       {
         "files": [
           "images/**",
-          "icc.png"
+          "icc.png",
+          "toc.yml"
         ]
       }
     ],
@@ -45,7 +46,7 @@
       "_appName": "InkCanvasForClass CommunityEdition Dev docs",
       "_appTitle": "InkCanvasForClass CommunityEdition Dev docs",
       "_enableSearch": true,
-      "pdf": true
+      "pdf": false
     }
   }
 }
