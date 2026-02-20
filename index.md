@@ -9,6 +9,6 @@ _layout: landing
 - [ICC-CE CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md)
 - [ICC-CE Manual(不被维护)](./Manual.md)
 - [ICC-CE API Reference](./api/Ink_Canvas.html)
-- [ICC-CE 文档站[^1]](./dev/uri.md)
+- [ICC-CE 文档站](./dev/uri.md)
 
-[^1]: 文档站无法主动跳转回该页面，请手动编辑网页链接返回。
+注: 文档站无法主动跳转回该页面，请手动编辑网页链接返回。
