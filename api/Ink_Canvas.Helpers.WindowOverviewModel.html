@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class WindowOverviewModel | InkCanvasForClass CommunityEdition Dev docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class WindowOverviewModel | InkCanvasForClass CommunityEdition Dev docs ">
+      
+      <meta name="description" content="窗口概览模型 - 实时监控桌面所有可见窗口并计算遮挡情况">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InkCanvasForClass/community/new/v2/apiSpec/new?filename=Ink_Canvas_Helpers_WindowOverviewModel.md&amp;value=---%0Auid%3A%20Ink_Canvas.Helpers.WindowOverviewModel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ICC-CE Dev docs">
+            ICC-CE Dev docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Ink_Canvas.Helpers.WindowOverviewModel">
+
+
+
+  <h1 id="Ink_Canvas_Helpers_WindowOverviewModel" data-uid="Ink_Canvas.Helpers.WindowOverviewModel" class="text-break">
+Class WindowOverviewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/WindowOverviewModel.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Ink_Canvas.html">Ink_Canvas</a>.<a class="xref" href="Ink_Canvas.Helpers.html">Helpers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InkCanvasForClass.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>窗口概览模型 - 实时监控桌面所有可见窗口并计算遮挡情况</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class WindowOverviewModel : IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">WindowOverviewModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Ink_Canvas_Helpers_WindowOverviewModel__ctor_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.#ctor*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_WindowOverviewModel__ctor" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.#ctor">
+  WindowOverviewModel()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/WindowOverviewModel.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造函数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WindowOverviewModel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Ink_Canvas_Helpers_WindowOverviewModel_Windows_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.Windows*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_WindowOverviewModel_Windows" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.Windows">
+  Windows
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/WindowOverviewModel.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当前窗口列表（按Z顺序排序，最上层在前）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;WindowInfo&gt; Windows { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Ink_Canvas.Helpers.WindowInfo.html">WindowInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Ink_Canvas_Helpers_WindowOverviewModel_Dispose_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.Dispose*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_WindowOverviewModel_Dispose" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.Dispose">
+  Dispose()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/WindowOverviewModel.cs/#L591"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>释放资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_WindowOverviewModel_FindWindowsByProcessName_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.FindWindowsByProcessName*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_WindowOverviewModel_FindWindowsByProcessName_System_String_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.FindWindowsByProcessName(System.String)">
+  FindWindowsByProcessName(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/WindowOverviewModel.cs/#L567"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>根据进程名查找窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;WindowInfo&gt; FindWindowsByProcessName(string processName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>processName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>进程名</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Ink_Canvas.Helpers.WindowInfo.html">WindowInfo</a>&gt;</dt>
+    <dd><p>匹配的窗口列表</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_WindowOverviewModel_FindWindowsByTitle_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.FindWindowsByTitle*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_WindowOverviewModel_FindWindowsByTitle_System_String_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.FindWindowsByTitle(System.String)">
+  FindWindowsByTitle(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/WindowOverviewModel.cs/#L580"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>根据窗口标题查找窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;WindowInfo&gt; FindWindowsByTitle(string title)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>窗口标题（支持部分匹配）</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Ink_Canvas.Helpers.WindowInfo.html">WindowInfo</a>&gt;</dt>
+    <dd><p>匹配的窗口列表</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_WindowOverviewModel_GetCoveringWindows_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.GetCoveringWindows*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_WindowOverviewModel_GetCoveringWindows_Ink_Canvas_Helpers_WindowRect_System_Collections_Generic_List_System_String__System_Double_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.GetCoveringWindows(Ink_Canvas.Helpers.WindowRect,System.Collections.Generic.List{System.String},System.Double)">
+  GetCoveringWindows(WindowRect, List&lt;string&gt;, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/WindowOverviewModel.cs/#L508"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取覆盖指定区域的所有窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;WindowInfo&gt; GetCoveringWindows(WindowRect area, List&lt;string&gt; excludeProcessNames = null, double coverageThreshold = 0.1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>area</code> <a class="xref" href="Ink_Canvas.Helpers.WindowRect.html">WindowRect</a></dt>
+    <dd><p>要检查的区域</p>
+</dd>
+    <dt><code>excludeProcessNames</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>要排除的进程名列表</p>
+</dd>
+    <dt><code>coverageThreshold</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>覆盖阈值</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Ink_Canvas.Helpers.WindowInfo.html">WindowInfo</a>&gt;</dt>
+    <dd><p>覆盖该区域的窗口列表（按Z顺序，最上层在前）</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_WindowOverviewModel_GetFullScreenWindows_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.GetFullScreenWindows*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_WindowOverviewModel_GetFullScreenWindows_System_Collections_Generic_List_System_String__" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.GetFullScreenWindows(System.Collections.Generic.List{System.String})">
+  GetFullScreenWindows(List&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/WindowOverviewModel.cs/#L552"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取所有全屏窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;WindowInfo&gt; GetFullScreenWindows(List&lt;string&gt; excludeProcessNames = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>excludeProcessNames</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>要排除的进程名列表</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Ink_Canvas.Helpers.WindowInfo.html">WindowInfo</a>&gt;</dt>
+    <dd><p>全屏窗口列表</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_WindowOverviewModel_HasFullScreenWindow_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.HasFullScreenWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_WindowOverviewModel_HasFullScreenWindow_System_Collections_Generic_List_System_String__" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.HasFullScreenWindow(System.Collections.Generic.List{System.String})">
+  HasFullScreenWindow(List&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/WindowOverviewModel.cs/#L537"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>检查是否有全屏窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasFullScreenWindow(List&lt;string&gt; excludeProcessNames = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>excludeProcessNames</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>要排除的进程名列表</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果有全屏窗口返回true</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_WindowOverviewModel_IsAreaCovered_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.IsAreaCovered*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_WindowOverviewModel_IsAreaCovered_Ink_Canvas_Helpers_WindowRect_System_Collections_Generic_List_System_String__System_Double_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.IsAreaCovered(Ink_Canvas.Helpers.WindowRect,System.Collections.Generic.List{System.String},System.Double)">
+  IsAreaCovered(WindowRect, List&lt;string&gt;, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/WindowOverviewModel.cs/#L448"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>检查指定区域是否被其他窗口覆盖</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAreaCovered(WindowRect area, List&lt;string&gt; excludeProcessNames = null, double coverageThreshold = 0.5)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>area</code> <a class="xref" href="Ink_Canvas.Helpers.WindowRect.html">WindowRect</a></dt>
+    <dd><p>要检查的区域</p>
+</dd>
+    <dt><code>excludeProcessNames</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>要排除的进程名列表（例如当前应用程序）</p>
+</dd>
+    <dt><code>coverageThreshold</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>覆盖阈值（0.0-1.0），超过此阈值认为被覆盖</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果被覆盖返回true</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_WindowOverviewModel_IsAreaCoveredByFullScreenWindow_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.IsAreaCoveredByFullScreenWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_WindowOverviewModel_IsAreaCoveredByFullScreenWindow_Ink_Canvas_Helpers_WindowRect_System_Collections_Generic_List_System_String__" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.IsAreaCoveredByFullScreenWindow(Ink_Canvas.Helpers.WindowRect,System.Collections.Generic.List{System.String})">
+  IsAreaCoveredByFullScreenWindow(WindowRect, List&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/WindowOverviewModel.cs/#L478"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>检查指定区域是否被全屏窗口覆盖</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAreaCoveredByFullScreenWindow(WindowRect area, List&lt;string&gt; excludeProcessNames = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>area</code> <a class="xref" href="Ink_Canvas.Helpers.WindowRect.html">WindowRect</a></dt>
+    <dd><p>要检查的区域</p>
+</dd>
+    <dt><code>excludeProcessNames</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>要排除的进程名列表</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果被全屏窗口覆盖返回true</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_WindowOverviewModel_UpdateWindows_" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.UpdateWindows*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_WindowOverviewModel_UpdateWindows" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.UpdateWindows">
+  UpdateWindows()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/WindowOverviewModel.cs/#L295"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>更新窗口列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateWindows()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="Ink_Canvas_Helpers_WindowOverviewModel_WindowsUpdated" data-uid="Ink_Canvas.Helpers.WindowOverviewModel.WindowsUpdated">
+  WindowsUpdated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/WindowOverviewModel.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>窗口列表更新事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;List&lt;WindowInfo&gt;&gt; WindowsUpdated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Ink_Canvas.Helpers.WindowInfo.html">WindowInfo</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

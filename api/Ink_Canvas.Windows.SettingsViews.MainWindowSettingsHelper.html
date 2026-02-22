@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MainWindowSettingsHelper | InkCanvasForClass CommunityEdition Dev docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MainWindowSettingsHelper | InkCanvasForClass CommunityEdition Dev docs ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InkCanvasForClass/community/new/v2/apiSpec/new?filename=Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper.md&amp;value=---%0Auid%3A%20Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ICC-CE Dev docs">
+            ICC-CE Dev docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper">
+
+
+
+  <h1 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper" class="text-break">
+Class MainWindowSettingsHelper  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Ink_Canvas.html">Ink_Canvas</a>.<a class="xref" href="Ink_Canvas.Windows.html">Windows</a>.<a class="xref" href="Ink_Canvas.Windows.SettingsViews.html">SettingsViews</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InkCanvasForClass.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class MainWindowSettingsHelper</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">MainWindowSettingsHelper</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_EnableTouchSupportForControls_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.EnableTouchSupportForControls*"></a>
+
+  <h3 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_EnableTouchSupportForControls_System_Windows_DependencyObject_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.EnableTouchSupportForControls(System.Windows.DependencyObject)">
+  EnableTouchSupportForControls(DependencyObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L639"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>为控件树中的所有交互控件启用触摸支持（公共方法，可在外部调用）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EnableTouchSupportForControls(DependencyObject parent)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd><p>父控件</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_ForceUpdateAllPanelsTheme_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.ForceUpdateAllPanelsTheme*"></a>
+
+  <h3 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_ForceUpdateAllPanelsTheme" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.ForceUpdateAllPanelsTheme">
+  ForceUpdateAllPanelsTheme()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L612"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>强制更新所有设置面板的主题（公共方法，可在外部调用）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ForceUpdateAllPanelsTheme()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeCheckBoxCheckedChanged_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeCheckBoxCheckedChanged*"></a>
+
+  <h3 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeCheckBoxCheckedChanged_System_String_System_Boolean_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeCheckBoxCheckedChanged(System.String,System.Boolean)">
+  InvokeCheckBoxCheckedChanged(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>调用 MainWindow 中的 CheckBox 事件处理方法</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeCheckBoxCheckedChanged(string checkBoxName, bool isChecked)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>checkBoxName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>isChecked</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeComboBoxSelectionChanged_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeComboBoxSelectionChanged*"></a>
+
+  <h3 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeComboBoxSelectionChanged_System_String_System_Object_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeComboBoxSelectionChanged(System.String,System.Object)">
+  InvokeComboBoxSelectionChanged(string, object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>调用 MainWindow 中的 ComboBox 事件处理方法</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeComboBoxSelectionChanged(string comboBoxName, object selectedItem)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>comboBoxName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>selectedItem</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeComboBoxSelectionChangedWithThemeCheck_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeComboBoxSelectionChangedWithThemeCheck*"></a>
+
+  <h3 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeComboBoxSelectionChangedWithThemeCheck_System_String_System_Object_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeComboBoxSelectionChangedWithThemeCheck(System.String,System.Object)">
+  InvokeComboBoxSelectionChangedWithThemeCheck(string, object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L620"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>调用 MainWindow 中的 ComboBox 事件处理方法（增强版，支持主题更新通知）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeComboBoxSelectionChangedWithThemeCheck(string comboBoxName, object selectedItem)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>comboBoxName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>selectedItem</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeMainWindowMethod_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeMainWindowMethod*"></a>
+
+  <h3 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeMainWindowMethod_System_String_System_Object___" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeMainWindowMethod(System.String,System.Object[])">
+  InvokeMainWindowMethod(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>调用 MainWindow 中的方法</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeMainWindowMethod(string methodName, params object[] parameters)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>methodName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeSliderValueChanged_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeSliderValueChanged*"></a>
+
+  <h3 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeSliderValueChanged_System_String_System_Double_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeSliderValueChanged(System.String,System.Double)">
+  InvokeSliderValueChanged(string, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>调用 MainWindow 中的 Slider 事件处理方法</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeSliderValueChanged(string sliderName, double value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sliderName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeTextBoxTextChanged_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeTextBoxTextChanged*"></a>
+
+  <h3 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeTextBoxTextChanged_System_String_System_String_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeTextBoxTextChanged(System.String,System.String)">
+  InvokeTextBoxTextChanged(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L293"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>调用 MainWindow 中的 TextBox 事件处理方法</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeTextBoxTextChanged(string textBoxName, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>textBoxName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeToggleSwitchToggled_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeToggleSwitchToggled*"></a>
+
+  <h3 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeToggleSwitchToggled_System_String_System_Boolean_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeToggleSwitchToggled(System.String,System.Boolean)">
+  InvokeToggleSwitchToggled(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>调用 MainWindow 中的 ToggleSwitch 事件处理方法</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeToggleSwitchToggled(string toggleSwitchName, bool isOn)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>toggleSwitchName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>isOn</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeToggleSwitchToggledWithThemeCheck_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeToggleSwitchToggledWithThemeCheck*"></a>
+
+  <h3 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_InvokeToggleSwitchToggledWithThemeCheck_System_String_System_Boolean_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.InvokeToggleSwitchToggledWithThemeCheck(System.String,System.Boolean)">
+  InvokeToggleSwitchToggledWithThemeCheck(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L629"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>调用 MainWindow 中的 ToggleSwitch 事件处理方法（增强版，支持主题更新通知）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeToggleSwitchToggledWithThemeCheck(string toggleSwitchName, bool isOn)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>toggleSwitchName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>isOn</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_NotifySettingsPanelsSyncState_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.NotifySettingsPanelsSyncState*"></a>
+
+  <h3 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_NotifySettingsPanelsSyncState_System_String_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.NotifySettingsPanelsSyncState(System.String)">
+  NotifySettingsPanelsSyncState(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>通知所有新设置面板同步指定控件的状态</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void NotifySettingsPanelsSyncState(string controlName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>controlName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_NotifyThemeUpdateIfNeeded_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.NotifyThemeUpdateIfNeeded*"></a>
+
+  <h3 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_NotifyThemeUpdateIfNeeded_System_String_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.NotifyThemeUpdateIfNeeded(System.String)">
+  NotifyThemeUpdateIfNeeded(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L514"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>检查并通知设置窗口更新主题（如果设置变化可能影响主题）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void NotifyThemeUpdateIfNeeded(string controlName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>controlName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>控件名称，用于判断是否是主题相关的设置</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_UpdateSettingDirectly_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.UpdateSettingDirectly*"></a>
+
+  <h3 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_UpdateSettingDirectly_System_Action_System_String_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.UpdateSettingDirectly(System.Action,System.String)">
+  UpdateSettingDirectly(Action, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L271"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>直接修改设置属性并保存（用于没有对应事件处理方法的设置项）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateSettingDirectly(Action action, string controlName = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>设置修改的 Action</p>
+</dd>
+    <dt><code>controlName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>可选：控件名称，用于状态同步（如 &quot;ToggleSwitchIsAutoUpdate&quot;）</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_UpdateSettingSafely_" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.UpdateSettingSafely*"></a>
+
+  <h3 id="Ink_Canvas_Windows_SettingsViews_MainWindowSettingsHelper_UpdateSettingSafely_System_Action_System_String_System_String_System_Object___" data-uid="Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.UpdateSettingSafely(System.Action,System.String,System.String,System.Object[])">
+  UpdateSettingSafely(Action, string, string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Windows/SettingsViews/SettingsViews/MainWindowSettingsHelper.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>安全地修改设置并保存，优先调用 MainWindow 中的事件处理方法
+如果找不到对应的事件处理方法，则直接修改设置并保存</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateSettingSafely(Action action, string eventHandlerName = null, string controlName = null, params object[] eventHandlerParams)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>设置修改的 Action，例如：() =&gt; MainWindow.Settings.Startup.IsAutoUpdate = true</p>
+</dd>
+    <dt><code>eventHandlerName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>可选：要调用的 MainWindow 事件处理方法名（如 &quot;ToggleSwitchIsAutoUpdate_Toggled&quot;）</p>
+</dd>
+    <dt><code>controlName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>可选：控件名称，用于状态同步（如 &quot;ToggleSwitchIsAutoUpdate&quot;）</p>
+</dd>
+    <dt><code>eventHandlerParams</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>可选：事件处理方法的参数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

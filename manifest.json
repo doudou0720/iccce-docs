@@ -1,0 +1,3237 @@
+{
+  "source_base_path": "/home/runner/work/iccce-docs/iccce-docs/community",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CODE_OF_CONDUCT.md",
+      "output": {
+        ".html": {
+          "relative_path": "CODE_OF_CONDUCT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/icc ce.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/icc ce.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "UpdateLog.md",
+      "output": {
+        ".html": {
+          "relative_path": "UpdateLog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.AddCustomIconWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.AddCustomIconWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.AddCustomIconWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.AddCustomIconWindow.yml\" sourcestartlinenumber=\"1\">AddCustomIconWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.AddPickNameBackgroundWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.AddPickNameBackgroundWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.AddPickNameBackgroundWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.AddPickNameBackgroundWindow.yml\" sourcestartlinenumber=\"1\">AddPickNameBackgroundWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Advanced.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Advanced.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Advanced",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.App.CrashActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.App.CrashActionType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.App.CrashActionType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.App",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.App.yml\" sourcestartlinenumber=\"1\">Interaction logic for App.xaml</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Appearance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Appearance.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Appearance",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Automation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Automation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Automation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.CameraSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.CameraSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.CameraSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Canvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Canvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Canvas",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.CanvasElementInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.CanvasElementInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.CanvasElementInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.ChickenSoup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.ChickenSoup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.ChickenSoup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.ClipboardNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.ClipboardNotification.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.ClipboardNotification",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.ClipboardNotification.yml\" sourcestartlinenumber=\"1\">剪贴板通知类，用于监控剪贴板变化</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Controls.QuickDrawFloatingButtonControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Controls.QuickDrawFloatingButtonControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Controls.QuickDrawFloatingButtonControl",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Controls.QuickDrawFloatingButtonControl.yml\" sourcestartlinenumber=\"1\">快抽悬浮按钮控件</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Controls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Controls.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Controls",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Converter.BooleanToVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Converter.BooleanToVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Converter.BooleanToVisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Converter.IntNumberToString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Converter.IntNumberToString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Converter.IntNumberToString",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Converter.IntNumberToString2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Converter.IntNumberToString2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Converter.IntNumberToString2",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Converter.InverseBooleanToVisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Converter.InverseBooleanToVisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Converter.InverseBooleanToVisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Converter.IsEnabledToOpacityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Converter.IsEnabledToOpacityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Converter.IsEnabledToOpacityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Converter.RippleEffectTranslationConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Converter.RippleEffectTranslationConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Converter.RippleEffectTranslationConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Converter.VisibilityConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Converter.VisibilityConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Converter.VisibilityConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Converter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Converter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Converter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.CountdownTimerWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.CountdownTimerWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.CountdownTimerWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.CountdownTimerWindow.yml\" sourcestartlinenumber=\"1\">Interaction logic for StopwatchWindow.xaml</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.CustomFloatingBarIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.CustomFloatingBarIcon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.CustomFloatingBarIcon",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.CustomIconWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.CustomIconWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.CustomIconWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.CustomIconWindow.yml\" sourcestartlinenumber=\"1\">CustomIconWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.CustomPickNameBackground.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.CustomPickNameBackground.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.CustomPickNameBackground",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.DlassSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.DlassSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.DlassSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.FloatingWindowInterceptorManager.InterceptStatistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.FloatingWindowInterceptorManager.InterceptStatistics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.FloatingWindowInterceptorManager.InterceptStatistics",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.FloatingWindowInterceptorManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.FloatingWindowInterceptorManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.FloatingWindowInterceptorManager",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.FloatingWindowInterceptorManager.yml\" sourcestartlinenumber=\"1\">悬浮窗拦截管理器</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.FloatingWindowInterceptorSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.FloatingWindowInterceptorSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.FloatingWindowInterceptorSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Gesture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Gesture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Gesture",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.HasNewUpdateWindow.UpdateResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.HasNewUpdateWindow.UpdateResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.HasNewUpdateWindow.UpdateResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.HasNewUpdateWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.HasNewUpdateWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.HasNewUpdateWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.HasNewUpdateWindow.yml\" sourcestartlinenumber=\"1\">HasNewUpdateWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.AdvancedBezierSmoothing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.AdvancedBezierSmoothing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.AdvancedBezierSmoothing",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.AdvancedBezierSmoothing.yml\" sourcestartlinenumber=\"1\">原有的同步版本（保持向后兼容）</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.AsyncAdvancedBezierSmoothing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.AsyncAdvancedBezierSmoothing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.AsyncAdvancedBezierSmoothing",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.AsyncAdvancedBezierSmoothing.yml\" sourcestartlinenumber=\"1\">改进的异步硬件加速墨迹平滑处理器，使用优化的三次贝塞尔曲线拟合</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.AutoBackupManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.AutoBackupManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.AutoBackupManager",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.AutoBackupManager.yml\" sourcestartlinenumber=\"1\">自动备份管理器\n负责管理配置文件的自动备份功能</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.AvoidFullScreenHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.AvoidFullScreenHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.AvoidFullScreenHelper",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.AvoidFullScreenHelper.yml\" sourcestartlinenumber=\"1\">防止窗口进入全屏状态的辅助类</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.CameraService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.CameraService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.CameraService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Circle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Circle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Circle",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Circle.yml\" sourcestartlinenumber=\"1\">图形识别类</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.ComPPTLinkManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.ComPPTLinkManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.ComPPTLinkManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.DelayAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.DelayAction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.DelayAction",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.DlassApiClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.DlassApiClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.DlassApiClient",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.DlassApiClient.yml\" sourcestartlinenumber=\"1\">Dlass API 客户端，用于与服务端通信</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.DlassNoteUploader.UploadNoteResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.DlassNoteUploader.UploadNoteResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.DlassNoteUploader.UploadNoteResponse",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.DlassNoteUploader.UploadNoteResponse.yml\" sourcestartlinenumber=\"1\">上传笔记响应模型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.DlassNoteUploader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.DlassNoteUploader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.DlassNoteUploader",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.DlassNoteUploader.yml\" sourcestartlinenumber=\"1\">Dlass笔记自动上传辅助类</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.EdgeGestureUtil.IPropertyStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.EdgeGestureUtil.IPropertyStore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.EdgeGestureUtil.IPropertyStore",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.EdgeGestureUtil.PropVariant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.EdgeGestureUtil.PropVariant.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.EdgeGestureUtil.PropVariant",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.EdgeGestureUtil.PropertyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.EdgeGestureUtil.PropertyKey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.EdgeGestureUtil.PropertyKey",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.EdgeGestureUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.EdgeGestureUtil.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.EdgeGestureUtil",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.FileAssociationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.FileAssociationManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.FileAssociationManager",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.FileAssociationManager.yml\" sourcestartlinenumber=\"1\">文件关联管理器，用于注册和处理.icstk文件的关联</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.FloatingWindowInterceptor.InterceptRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.FloatingWindowInterceptor.InterceptRule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.FloatingWindowInterceptor.InterceptRule",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.FloatingWindowInterceptor.InterceptRule.yml\" sourcestartlinenumber=\"1\">拦截规则</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.FloatingWindowInterceptor.InterceptType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.FloatingWindowInterceptor.InterceptType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.FloatingWindowInterceptor.InterceptType",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.FloatingWindowInterceptor.InterceptType.yml\" sourcestartlinenumber=\"1\">拦截规则类型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.FloatingWindowInterceptor.WindowInterceptedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.FloatingWindowInterceptor.WindowInterceptedEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.FloatingWindowInterceptor.WindowInterceptedEventArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.FloatingWindowInterceptor.WindowRestoredEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.FloatingWindowInterceptor.WindowRestoredEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.FloatingWindowInterceptor.WindowRestoredEventArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.FloatingWindowInterceptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.FloatingWindowInterceptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.FloatingWindowInterceptor",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.FloatingWindowInterceptor.yml\" sourcestartlinenumber=\"1\">悬浮窗拦截器 - 检测和隐藏指定的悬浮窗</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.FullScreenHelper.WindowPositionFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.FullScreenHelper.WindowPositionFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.FullScreenHelper.WindowPositionFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.FullScreenHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.FullScreenHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.FullScreenHelper",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.FullScreenHelper.yml\" sourcestartlinenumber=\"1\">用来使窗口变得全屏的辅助类\n采用设置窗口位置和尺寸，确保盖住整个屏幕的方式来实现全屏\n目前已知需要满足的条件是：窗口盖住整个屏幕、窗口没有WS_THICKFRAME样式、窗口不能有标题栏且最大化</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.GlobalHotkeyManager.HotkeyInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.GlobalHotkeyManager.HotkeyInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.GlobalHotkeyManager.HotkeyInfo",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.GlobalHotkeyManager.HotkeyInfo.yml\" sourcestartlinenumber=\"1\">快捷键信息类</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.GlobalHotkeyManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.GlobalHotkeyManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.GlobalHotkeyManager",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.GlobalHotkeyManager.yml\" sourcestartlinenumber=\"1\">全局快捷键管理器 - 使用NHotkey库实现全局快捷键功能</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.HardwareAcceleratedInkProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.HardwareAcceleratedInkProcessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.HardwareAcceleratedInkProcessor",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.HardwareAcceleratedInkProcessor.yml\" sourcestartlinenumber=\"1\">硬件加速的墨迹处理器，利用WPF的GPU渲染能力</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.IACoreDllExtractor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.IACoreDllExtractor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.IACoreDllExtractor",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.IACoreDllExtractor.yml\" sourcestartlinenumber=\"1\">IACore DLL自动释放器\n在应用启动时自动释放IACore相关的DLL文件到应用程序目录</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.IPPTLinkManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.IPPTLinkManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.IPPTLinkManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.ImprovedBezierSmoothing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.ImprovedBezierSmoothing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.ImprovedBezierSmoothing",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.ImprovedBezierSmoothing.yml\" sourcestartlinenumber=\"1\">改进的三次贝塞尔曲线平滑算法</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.InkFadeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.InkFadeManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.InkFadeManager",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.InkFadeManager.yml\" sourcestartlinenumber=\"1\">墨迹渐隐管理器 - 管理墨迹的渐隐动画和状态</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.InkRecognizeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.InkRecognizeHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.InkRecognizeHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.InkSmoothingConfig.InkSmoothingQuality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.InkSmoothingConfig.InkSmoothingQuality.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.InkSmoothingConfig.InkSmoothingQuality",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.InkSmoothingConfig.SmoothingQuality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.InkSmoothingConfig.SmoothingQuality.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.InkSmoothingConfig.SmoothingQuality",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.InkSmoothingConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.InkSmoothingConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.InkSmoothingConfig",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.InkSmoothingConfig.yml\" sourcestartlinenumber=\"1\">墨迹平滑配置类</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.InkSmoothingEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.InkSmoothingEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.InkSmoothingEventArgs",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.InkSmoothingEventArgs.yml\" sourcestartlinenumber=\"1\">墨迹平滑事件参数</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.InkSmoothingManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.InkSmoothingManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.InkSmoothingManager",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.InkSmoothingManager.yml\" sourcestartlinenumber=\"1\">统一的墨迹平滑管理器，整合异步处理和硬件加速</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.InkSmoothingPerformanceMonitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.InkSmoothingPerformanceMonitor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.InkSmoothingPerformanceMonitor",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.InkSmoothingPerformanceMonitor.yml\" sourcestartlinenumber=\"1\">性能监控器</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.PPTInkManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.PPTInkManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.PPTInkManager",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.PPTInkManager.yml\" sourcestartlinenumber=\"1\">PPT墨迹管理器 - 负责按幻灯片保存/加载墨迹、自动保存与内存管理。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.PPTManager.RECT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.PPTManager.RECT.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.PPTManager.RECT",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.PPTManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.PPTManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.PPTManager",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.PPTManager.yml\" sourcestartlinenumber=\"1\">PPT联动管理器 - 统一管理PPT和WPS的连接、事件处理和进程管理</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.PPTROTConnectionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.PPTROTConnectionHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.PPTROTConnectionHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.PPTUIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.PPTUIManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.PPTUIManager",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.PPTUIManager.yml\" sourcestartlinenumber=\"1\">PPT UI管理器 - 统一管理PPT相关的UI更新和样式设置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.IconExtractor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.IconExtractor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.IconExtractor",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.IconExtractor.yml\" sourcestartlinenumber=\"1\">图标提取工具类</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherButton.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherButton",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherButton.yml\" sourcestartlinenumber=\"1\">启动台按钮控件</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherButtonPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherButtonPosition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherButtonPosition",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherButtonPosition.yml\" sourcestartlinenumber=\"1\">启动台按钮位置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherConfig",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherConfig.yml\" sourcestartlinenumber=\"1\">启动台配置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherItem",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherItem.yml\" sourcestartlinenumber=\"1\">启动台应用项</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherSettingsControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherSettingsControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherSettingsControl",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherSettingsControl.yml\" sourcestartlinenumber=\"1\">LauncherSettingsControl.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherWindow.yml\" sourcestartlinenumber=\"1\">LauncherWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.yml\" sourcestartlinenumber=\"1\">超级启动台插件</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.BuiltIn.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.BuiltIn",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.EnhancedPluginBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.EnhancedPluginBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.EnhancedPluginBase",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.EnhancedPluginBase.yml\" sourcestartlinenumber=\"1\">增强的插件基类，提供对插件服务的访问和基本实现</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.yml\" sourcestartlinenumber=\"1\">增强的插件基类 V2，提供对三个专门服务接口的访问\n插件开发者可以根据需要选择性地使用这些服务</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.IActionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.IActionService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.IActionService",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.IActionService.yml\" sourcestartlinenumber=\"1\">操作服务接口，统一所有执行操作相关的方法</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.ICCPPPluginAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.ICCPPPluginAdapter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.ICCPPPluginAdapter",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.ICCPPPluginAdapter.yml\" sourcestartlinenumber=\"1\">ICCPP 插件适配器，用于加载和管理 .iccpp 格式的插件</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.IEnhancedPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.IEnhancedPlugin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.IEnhancedPlugin",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.IEnhancedPlugin.yml\" sourcestartlinenumber=\"1\">增强的插件接口，提供对插件服务的访问</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.IGetService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.IGetService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.IGetService",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.IGetService.yml\" sourcestartlinenumber=\"1\">获取服务接口，统一所有获取类的方法</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.IPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.IPlugin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.IPlugin",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.IPlugin.yml\" sourcestartlinenumber=\"1\">定义插件的基本接口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.IPluginService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.IPluginService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.IPluginService",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.IPluginService.yml\" sourcestartlinenumber=\"1\">插件服务接口，提供对软件内部功能的访问\n继承自三个专门的服务接口：获取服务、窗口服务、操作服务</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.IWindowService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.IWindowService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.IWindowService",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.IWindowService.yml\" sourcestartlinenumber=\"1\">窗口服务接口，统一所有窗口操作相关的方法</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.NotificationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.NotificationType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.NotificationType",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.NotificationType.yml\" sourcestartlinenumber=\"1\">通知类型枚举</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.PluginBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.PluginBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.PluginBase",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.PluginBase.yml\" sourcestartlinenumber=\"1\">插件基类，提供基本实现</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.PluginConfigurationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.PluginConfigurationManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.PluginConfigurationManager",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.PluginConfigurationManager.yml\" sourcestartlinenumber=\"1\">插件配置管理器，允许插件管理自己的配置</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.PluginManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.PluginManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.PluginManager",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.PluginManager.yml\" sourcestartlinenumber=\"1\">插件管理器，负责插件的加载、卸载和管理</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.PluginServiceManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.PluginServiceManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.PluginServiceManager",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.PluginServiceManager.yml\" sourcestartlinenumber=\"1\">插件服务管理器，实现IPluginService接口，提供对软件内部功能的访问</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.PluginTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.PluginTemplate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.PluginTemplate",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.PluginTemplate.yml\" sourcestartlinenumber=\"1\">插件模板，用于开发者参考\n注意：实际开发时，请将此类移到单独的程序集中</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.PluginTemplateSettingsControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.PluginTemplateSettingsControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins.PluginTemplateSettingsControl",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.Plugins.PluginTemplateSettingsControl.yml\" sourcestartlinenumber=\"1\">插件设置控件</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.Plugins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.Plugins.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.Plugins",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.ROTPPTManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.ROTPPTManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.ROTPPTManager",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.ROTPPTManager.yml\" sourcestartlinenumber=\"1\">基于 ROT 的 PPT 联动管理器实现。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.RecognizeLanguage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.RecognizeLanguage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.RecognizeLanguage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.SafeZipExtractor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.SafeZipExtractor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.SafeZipExtractor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.ScreenDetectionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.ScreenDetectionHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.ScreenDetectionHelper",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.ScreenDetectionHelper.yml\" sourcestartlinenumber=\"1\">屏幕检测帮助类 - 用于检测窗口所在的屏幕和屏幕信息</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.ShapeRecognizeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.ShapeRecognizeResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.ShapeRecognizeResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.StartupCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.StartupCount.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.StartupCount",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.StrokeVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.StrokeVisual.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.StrokeVisual",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.StrokeVisual.yml\" sourcestartlinenumber=\"1\">用于显示笔迹的类</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.TimeMachine.OnRedoStateChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.TimeMachine.OnRedoStateChange.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.TimeMachine.OnRedoStateChange",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.TimeMachine.OnUndoStateChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.TimeMachine.OnUndoStateChange.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.TimeMachine.OnUndoStateChange",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.TimeMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.TimeMachine.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.TimeMachine",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.TimeMachineHistory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.TimeMachineHistory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.TimeMachineHistory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.TimeMachineHistoryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.TimeMachineHistoryType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.TimeMachineHistoryType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.UIAccessDllExtractor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.UIAccessDllExtractor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.UIAccessDllExtractor",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.UIAccessDllExtractor.yml\" sourcestartlinenumber=\"1\">UIAccess DLL释放器</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.UriSchemeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.UriSchemeHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.UriSchemeHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.VisualCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.VisualCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.VisualCanvas",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.WindowInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.WindowInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.WindowInfo",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.WindowInfo.yml\" sourcestartlinenumber=\"1\">窗口信息结构</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.WindowOverviewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.WindowOverviewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.WindowOverviewModel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.WindowOverviewModel.yml\" sourcestartlinenumber=\"1\">窗口概览模型 - 实时监控桌面所有可见窗口并计算遮挡情况</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.WindowRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.WindowRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.WindowRect",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.WindowRect.yml\" sourcestartlinenumber=\"1\">矩形结构体（用于窗口位置和大小）</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.WindowZOrderManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.WindowZOrderManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers.WindowZOrderManager",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Helpers.WindowZOrderManager.yml\" sourcestartlinenumber=\"1\">窗口Z-Order管理器，用于管理窗口的层级顺序\n在无焦点模式下，确保后打开的窗口能够置顶于先打开的窗口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Helpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Helpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.HistoryRollbackWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.HistoryRollbackWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.HistoryRollbackWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.HistoryRollbackWindow.yml\" sourcestartlinenumber=\"1\">HistoryRollbackWindow</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.InkToShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.InkToShape.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.InkToShape",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.MainWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.MainWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.MainWindow.yml\" sourcestartlinenumber=\"1\">主窗口类的部分类，包含压感模拟和墨水到形状识别的功能</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.ManagePickNameBackgroundsWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.ManagePickNameBackgroundsWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.ManagePickNameBackgroundsWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.ManagePickNameBackgroundsWindow.yml\" sourcestartlinenumber=\"1\">ManagePickNameBackgroundsWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.ModeSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.ModeSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.ModeSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Models.CapturedImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Models.CapturedImage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Models.CapturedImage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.NamesInputWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.NamesInputWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.NamesInputWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.NamesInputWindow.yml\" sourcestartlinenumber=\"1\">Interaction logic for NamesInputWindow.xaml</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.NewStyleRollCallWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.NewStyleRollCallWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.NewStyleRollCallWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.NewStyleRollCallWindow.yml\" sourcestartlinenumber=\"1\">新点名UI风格的窗口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.OperatingGuideWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.OperatingGuideWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.OperatingGuideWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.OperatingGuideWindow.yml\" sourcestartlinenumber=\"1\">Interaction logic for StopwatchWindow.xaml</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.OptionalOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.OptionalOperation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.OptionalOperation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.PowerPointSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.PowerPointSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.PowerPointSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.PrivacyAgreementWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.PrivacyAgreementWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.PrivacyAgreementWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.PrivacyAgreementWindow.yml\" sourcestartlinenumber=\"1\">PrivacyAgreementWindow</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.ProcessBars.CycleProcessBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.ProcessBars.CycleProcessBar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.ProcessBars.CycleProcessBar",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.ProcessBars.CycleProcessBar.yml\" sourcestartlinenumber=\"1\">CycleProcessBar1.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.ProcessBars.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.ProcessBars.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.ProcessBars",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.QuickDrawWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.QuickDrawWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.QuickDrawWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.QuickDrawWindow.yml\" sourcestartlinenumber=\"1\">快抽窗口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.RandSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.RandSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.RandSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.RandWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.RandWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.RandWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.RandWindow.yml\" sourcestartlinenumber=\"1\">Interaction logic for RandWindow.xaml</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.RecentRollCallData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.RecentRollCallData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.RecentRollCallData",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.RecentRollCallData.yml\" sourcestartlinenumber=\"1\">最近点名记录数据模型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Resources.ICCConfiguration.ElementCornerRadiusTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Resources.ICCConfiguration.ElementCornerRadiusTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Resources.ICCConfiguration.ElementCornerRadiusTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Resources.ICCConfiguration.ICCConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Resources.ICCConfiguration.ICCConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Resources.ICCConfiguration.ICCConfiguration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Resources.ICCConfiguration.ICCFloatingBarConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Resources.ICCConfiguration.ICCFloatingBarConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Resources.ICCConfiguration.ICCFloatingBarConfiguration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Resources.ICCConfiguration.InitialPositionTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Resources.ICCConfiguration.InitialPositionTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Resources.ICCConfiguration.InitialPositionTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Resources.ICCConfiguration.NearSnapAreaSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Resources.ICCConfiguration.NearSnapAreaSize.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Resources.ICCConfiguration.NearSnapAreaSize",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Resources.ICCConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Resources.ICCConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Resources.ICCConfiguration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.RollCallHistoryData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.RollCallHistoryData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.RollCallHistoryData",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.RollCallHistoryData.yml\" sourcestartlinenumber=\"1\">点名历史记录数据模型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.RollCallHistoryWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.RollCallHistoryWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.RollCallHistoryWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.RollCallHistoryWindow.yml\" sourcestartlinenumber=\"1\">Interaction logic for RollCallHistoryWindow.xaml</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.ScreenshotResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.ScreenshotResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.ScreenshotResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.ScreenshotSelectorWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.ScreenshotSelectorWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.ScreenshotSelectorWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.ScreenshotSelectorWindow.yml\" sourcestartlinenumber=\"1\">ScreenshotSelectorWindow</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Security.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Security.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Security",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Settings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Settings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Startup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Startup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.TelemetryUploadLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.TelemetryUploadLevel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.TelemetryUploadLevel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.TelemetryUploadLevel.yml\" sourcestartlinenumber=\"1\">遥测上传等级</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.TimeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.TimeViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.TimeViewModel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.TimeViewModel.yml\" sourcestartlinenumber=\"1\">时间视图模型类，用于绑定显示时间和日期</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.UpdateChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.UpdateChannel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.UpdateChannel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.AuthWithTokenResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.AuthWithTokenResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.AuthWithTokenResponse",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.AuthWithTokenResponse.yml\" sourcestartlinenumber=\"1\">auth-with-token接口响应模型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.ClassSelectionItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.ClassSelectionItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.ClassSelectionItem",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.ClassSelectionItem.yml\" sourcestartlinenumber=\"1\">班级选择项</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.Controls.WinUI3CloseButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.Controls.WinUI3CloseButton.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.Controls.WinUI3CloseButton",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.Controls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.Controls.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.Controls",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.DlassSettingsWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.DlassSettingsWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.DlassSettingsWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.DlassSettingsWindow.yml\" sourcestartlinenumber=\"1\">DlassSettingsWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.FullscreenTimerWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.FullscreenTimerWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.FullscreenTimerWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.FullscreenTimerWindow.yml\" sourcestartlinenumber=\"1\">全屏计时器窗口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.HotkeyChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.HotkeyChangedEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.HotkeyChangedEventArgs",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.HotkeyChangedEventArgs.yml\" sourcestartlinenumber=\"1\">快捷键变更事件参数</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.HotkeyItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.HotkeyItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.HotkeyItem",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.HotkeyItem.yml\" sourcestartlinenumber=\"1\">快捷键项控件</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.HotkeySettingsWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.HotkeySettingsWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.HotkeySettingsWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.HotkeySettingsWindow.yml\" sourcestartlinenumber=\"1\">快捷键设置窗口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.MinimizedTimerControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.MinimizedTimerControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.MinimizedTimerControl",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.MinimizedTimerControl.yml\" sourcestartlinenumber=\"1\">最小化计时器窗口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.OobeWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.OobeWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.OobeWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.OobeWindow.yml\" sourcestartlinenumber=\"1\">首次启动体验（OOBE）窗口，用于引导用户选择遥测与隐私设置。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.PPTQuickPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.PPTQuickPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.PPTQuickPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.PPTQuickPanel.yml\" sourcestartlinenumber=\"1\">PPT侧滑快捷面板</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.PPTTimeCapsule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.PPTTimeCapsule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.PPTTimeCapsule",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.PPTTimeCapsule.yml\" sourcestartlinenumber=\"1\">PPT时间显示胶囊控件</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.PluginSettingsWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.PluginSettingsWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.PluginSettingsWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.PluginSettingsWindow.yml\" sourcestartlinenumber=\"1\">PluginSettingsWindow.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.PluginViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.PluginViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.PluginViewModel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.PluginViewModel.yml\" sourcestartlinenumber=\"1\">插件视图模型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.RecentTimersData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.RecentTimersData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.RecentTimersData",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.RecentTimersData.yml\" sourcestartlinenumber=\"1\">最近计时记录数据模型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.AboutPanel.FileBuildTimeHelper._IMAGE_FILE_HEADER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.AboutPanel.FileBuildTimeHelper._IMAGE_FILE_HEADER.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.AboutPanel.FileBuildTimeHelper._IMAGE_FILE_HEADER",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.AboutPanel.FileBuildTimeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.AboutPanel.FileBuildTimeHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.AboutPanel.FileBuildTimeHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.AboutPanel.TouchTabletDetectHelper.USBDeviceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.AboutPanel.TouchTabletDetectHelper.USBDeviceInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.AboutPanel.TouchTabletDetectHelper.USBDeviceInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.AboutPanel.TouchTabletDetectHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.AboutPanel.TouchTabletDetectHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.AboutPanel.TouchTabletDetectHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.AboutPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.AboutPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.AboutPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.AboutPanel.yml\" sourcestartlinenumber=\"1\">AboutPanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.AdvancedPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.AdvancedPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.AdvancedPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.AdvancedPanel.yml\" sourcestartlinenumber=\"1\">AdvancedPanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.AppearancePanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.AppearancePanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.AppearancePanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.AppearancePanel.yml\" sourcestartlinenumber=\"1\">AppearancePanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.AutomationPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.AutomationPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.AutomationPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.AutomationPanel.yml\" sourcestartlinenumber=\"1\">AutomationPanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.CanvasAndInkPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.CanvasAndInkPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.CanvasAndInkPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.CanvasAndInkPanel.yml\" sourcestartlinenumber=\"1\">CanvasAndInkPanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.CrashActionPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.CrashActionPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.CrashActionPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.CrashActionPanel.yml\" sourcestartlinenumber=\"1\">CrashActionPanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.FloatingBarDnDSettingsPanel.BarDrawerItemsDropTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.FloatingBarDnDSettingsPanel.BarDrawerItemsDropTarget.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.FloatingBarDnDSettingsPanel.BarDrawerItemsDropTarget",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.FloatingBarDnDSettingsPanel.BarItemsDropTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.FloatingBarDnDSettingsPanel.BarItemsDropTarget.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.FloatingBarDnDSettingsPanel.BarItemsDropTarget",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.FloatingBarDnDSettingsPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.FloatingBarDnDSettingsPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.FloatingBarDnDSettingsPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.FloatingBarDnDSettingsPanel.yml\" sourcestartlinenumber=\"1\">FloatingBarDnDSettingsPanel</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.FloatingBarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.FloatingBarItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.FloatingBarItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.GesturesPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.GesturesPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.GesturesPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.GesturesPanel.yml\" sourcestartlinenumber=\"1\">GesturesPanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.InkRecognitionPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.InkRecognitionPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.InkRecognitionPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.InkRecognitionPanel.yml\" sourcestartlinenumber=\"1\">InkRecognitionPanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.LuckyRandomPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.LuckyRandomPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.LuckyRandomPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.LuckyRandomPanel.yml\" sourcestartlinenumber=\"1\">LuckyRandomPanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.MainWindowSettingsHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.MatchType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.MatchType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.MatchType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.PowerPointPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.PowerPointPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.PowerPointPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.PowerPointPanel.yml\" sourcestartlinenumber=\"1\">PowerPointPanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.SearchPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.SearchPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.SearchPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.SearchPanel.yml\" sourcestartlinenumber=\"1\">SearchPanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.SearchResultItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.SearchResultItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.SearchResultItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.SecurityPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.SecurityPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.SecurityPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.SecurityPanel.yml\" sourcestartlinenumber=\"1\">SecurityPanel</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.SettingItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.SettingItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.SettingItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.SettingItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.SettingItemType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.SettingItemType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.SettingsBaseView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.SettingsBaseView.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.SettingsBaseView",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.SettingsBaseView.yml\" sourcestartlinenumber=\"1\">SettingsBaseView</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.SettingsItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.SettingsItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.SettingsItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.SettingsItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.SettingsItemType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.SettingsItemType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.SettingsPanelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.SettingsPanelBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.SettingsPanelBase",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.SettingsPanelBase.yml\" sourcestartlinenumber=\"1\">设置面板基类，提供通用的辅助方法</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.SettingsViewPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.SettingsViewPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.SettingsViewPanel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.ShortcutsPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.ShortcutsPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.ShortcutsPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.ShortcutsPanel.yml\" sourcestartlinenumber=\"1\">ShortcutsPanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.SnapshotPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.SnapshotPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.SnapshotPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.SnapshotPanel.yml\" sourcestartlinenumber=\"1\">SnapshotPanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.StartupPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.StartupPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.StartupPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.StartupPanel.yml\" sourcestartlinenumber=\"1\">StartupPanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.StoragePanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.StoragePanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.StoragePanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.StoragePanel.yml\" sourcestartlinenumber=\"1\">StoragePanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.ThemeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.ThemeHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.ThemeHelper",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.ThemeHelper.yml\" sourcestartlinenumber=\"1\">主题辅助类：提供统一的主题颜色资源</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.ThemePanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.ThemePanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.ThemePanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.ThemePanel.yml\" sourcestartlinenumber=\"1\">ThemePanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.TimerPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.TimerPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.TimerPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.TimerPanel.yml\" sourcestartlinenumber=\"1\">TimerPanel.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.UpdateCenterPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.UpdateCenterPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews.UpdateCenterPanel",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsViews.UpdateCenterPanel.yml\" sourcestartlinenumber=\"1\">UpdateCenterPanel</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsViews.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsViews.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsViews",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsWindow.SidebarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsWindow.SidebarItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsWindow.SidebarItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsWindow.SidebarItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsWindow.SidebarItemType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsWindow.SidebarItemType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SettingsWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SettingsWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SettingsWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SettingsWindow.yml\" sourcestartlinenumber=\"1\">SettingsWindow</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.SplashScreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.SplashScreen.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.SplashScreen",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.SplashScreen.yml\" sourcestartlinenumber=\"1\">SplashScreen.xaml 的交互逻辑</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.TimerControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.TimerControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.TimerControl",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.TimerControl.yml\" sourcestartlinenumber=\"1\">新计时器UI风格的倒计时器窗口</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.UserInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.UserInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.UserInfo",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.UserInfo.yml\" sourcestartlinenumber=\"1\">用户信息模型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.WhiteboardInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.WhiteboardInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows.WhiteboardInfo",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.Windows.WhiteboardInfo.yml\" sourcestartlinenumber=\"1\">白板信息模型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.Windows.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.Windows",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.XamlGraphicsIconGeometries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.XamlGraphicsIconGeometries.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.XamlGraphicsIconGeometries",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.XamlGraphicsIconGeometries.yml\" sourcestartlinenumber=\"1\">图标几何路径定义类，包含各种工具图标的XAML几何路径</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.YesOrNoNotificationWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.YesOrNoNotificationWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas.YesOrNoNotificationWindow",
+      "Summary": "<p sourcefile=\"api/Ink_Canvas.YesOrNoNotificationWindow.yml\" sourcestartlinenumber=\"1\">Interaction logic for RestoreHiddenSlidesWindow.xaml</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ink_Canvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ink_Canvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Ink_Canvas",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "icc.png",
+      "output": {
+        "resource": {
+          "relative_path": "icc.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

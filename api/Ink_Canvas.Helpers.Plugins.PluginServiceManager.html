@@ -1,0 +1,3396 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PluginServiceManager | InkCanvasForClass CommunityEdition Dev docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PluginServiceManager | InkCanvasForClass CommunityEdition Dev docs ">
+      
+      <meta name="description" content="插件服务管理器，实现IPluginService接口，提供对软件内部功能的访问">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InkCanvasForClass/community/new/v2/apiSpec/new?filename=Ink_Canvas_Helpers_Plugins_PluginServiceManager.md&amp;value=---%0Auid%3A%20Ink_Canvas.Helpers.Plugins.PluginServiceManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ICC-CE Dev docs">
+            ICC-CE Dev docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager">
+
+
+
+  <h1 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager" class="text-break">
+Class PluginServiceManager  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Ink_Canvas.html">Ink_Canvas</a>.<a class="xref" href="Ink_Canvas.Helpers.html">Helpers</a>.<a class="xref" href="Ink_Canvas.Helpers.Plugins.html">Plugins</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InkCanvasForClass.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>插件服务管理器，实现IPluginService接口，提供对软件内部功能的访问</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PluginServiceManager : IPluginService, IGetService, IWindowService, IActionService</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">PluginServiceManager</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Ink_Canvas.Helpers.Plugins.IPluginService.html">IPluginService</a></div>
+      <div><a class="xref" href="Ink_Canvas.Helpers.Plugins.IGetService.html">IGetService</a></div>
+      <div><a class="xref" href="Ink_Canvas.Helpers.Plugins.IWindowService.html">IWindowService</a></div>
+      <div><a class="xref" href="Ink_Canvas.Helpers.Plugins.IActionService.html">IActionService</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_AllCanvasPages_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.AllCanvasPages*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_AllCanvasPages" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.AllCanvasPages">
+  AllCanvasPages
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取所有画布页面</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Canvas&gt; AllCanvasPages { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Ink_Canvas.Canvas.html">Canvas</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_BottomPanel_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.BottomPanel*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_BottomPanel" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.BottomPanel">
+  BottomPanel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取底部面板</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FrameworkElement BottomPanel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement">FrameworkElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CanRedo_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CanRedo*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CanRedo" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CanRedo">
+  CanRedo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取是否可以重做</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanRedo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CanUndo_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CanUndo*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CanUndo" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CanUndo">
+  CanUndo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取是否可以撤销</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanUndo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentBackgroundColor_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentBackgroundColor*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentBackgroundColor" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentBackgroundColor">
+  CurrentBackgroundColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前背景颜色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CurrentBackgroundColor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentCanvas_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentCanvas*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentCanvas" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentCanvas">
+  CurrentCanvas
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前画布</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InkCanvas CurrentCanvas { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.inkcanvas">InkCanvas</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentDrawingMode_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentDrawingMode*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentDrawingMode" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentDrawingMode">
+  CurrentDrawingMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前绘制模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CurrentDrawingMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentEraserShape_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentEraserShape*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentEraserShape" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentEraserShape">
+  CurrentEraserShape
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前橡皮擦形状</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CurrentEraserShape { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentEraserSize_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentEraserSize*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentEraserSize" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentEraserSize">
+  CurrentEraserSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前橡皮擦大小</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CurrentEraserSize { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentEraserType_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentEraserType*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentEraserType" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentEraserType">
+  CurrentEraserType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前橡皮擦类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CurrentEraserType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentHighlighterWidth_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentHighlighterWidth*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentHighlighterWidth" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentHighlighterWidth">
+  CurrentHighlighterWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前高亮笔宽度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double CurrentHighlighterWidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentInkAlpha_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentInkAlpha*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentInkAlpha" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentInkAlpha">
+  CurrentInkAlpha
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前笔触透明度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double CurrentInkAlpha { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentInkColor_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentInkColor*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentInkColor" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentInkColor">
+  CurrentInkColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前笔触颜色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color CurrentInkColor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.color">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentInkStyle_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentInkStyle*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentInkStyle" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentInkStyle">
+  CurrentInkStyle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前笔触样式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CurrentInkStyle { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentInkWidth_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentInkWidth*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentInkWidth" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentInkWidth">
+  CurrentInkWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前笔触宽度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double CurrentInkWidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentPageIndex_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentPageIndex*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CurrentPageIndex" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CurrentPageIndex">
+  CurrentPageIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前页面索引</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CurrentPageIndex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_FloatingToolBar_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.FloatingToolBar*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_FloatingToolBar" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.FloatingToolBar">
+  FloatingToolBar
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取浮动工具栏</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FrameworkElement FloatingToolBar { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement">FrameworkElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_Instance_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.Instance*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_Instance" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.Instance">
+  Instance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>单例实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PluginServiceManager Instance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginServiceManager.html">PluginServiceManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsCanvasMode_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsCanvasMode*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsCanvasMode" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsCanvasMode">
+  IsCanvasMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前是否为画板模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCanvasMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsDarkTheme_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsDarkTheme*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsDarkTheme" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsDarkTheme">
+  IsDarkTheme
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前主题模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDarkTheme { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsEraserMode_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsEraserMode*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsEraserMode" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsEraserMode">
+  IsEraserMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前是否为擦除模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEraserMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsFullScreenMode_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsFullScreenMode*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsFullScreenMode" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsFullScreenMode">
+  IsFullScreenMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前是否为全屏模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFullScreenMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsHighlighterMode_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsHighlighterMode*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsHighlighterMode" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsHighlighterMode">
+  IsHighlighterMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前是否为高亮模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsHighlighterMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsPPTMode_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsPPTMode*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsPPTMode" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsPPTMode">
+  IsPPTMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前是否为PPT模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPPTMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsSelectionMode_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsSelectionMode*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsSelectionMode" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsSelectionMode">
+  IsSelectionMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前是否为选择模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSelectionMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsShapeDrawingMode_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsShapeDrawingMode*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsShapeDrawingMode" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsShapeDrawingMode">
+  IsShapeDrawingMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前是否为形状绘制模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsShapeDrawingMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsWhiteboardMode_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsWhiteboardMode*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_IsWhiteboardMode" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.IsWhiteboardMode">
+  IsWhiteboardMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前是否为白板模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsWhiteboardMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_LeftPanel_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.LeftPanel*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_LeftPanel" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.LeftPanel">
+  LeftPanel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取左侧面板</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FrameworkElement LeftPanel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement">FrameworkElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_MainWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.MainWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_MainWindow" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.MainWindow">
+  MainWindow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取主窗口引用</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Window MainWindow { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.window">Window</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_RightPanel_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.RightPanel*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_RightPanel" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.RightPanel">
+  RightPanel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取右侧面板</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FrameworkElement RightPanel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement">FrameworkElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_TopPanel_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.TopPanel*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_TopPanel" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.TopPanel">
+  TopPanel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取顶部面板</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FrameworkElement TopPanel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement">FrameworkElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_TotalPageCount_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.TotalPageCount*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_TotalPageCount" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.TotalPageCount">
+  TotalPageCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前页面数量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TotalPageCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_AddNewPage_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.AddNewPage*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_AddNewPage" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.AddNewPage">
+  AddNewPage()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加新页面</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddNewPage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CheckForUpdates_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CheckForUpdates*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CheckForUpdates" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CheckForUpdates">
+  CheckForUpdates()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L492"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>检查更新</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CheckForUpdates()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ClearAllCanvases_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ClearAllCanvases*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ClearAllCanvases" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ClearAllCanvases">
+  ClearAllCanvases()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L267"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>清除所有画布</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAllCanvases()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ClearCanvas_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ClearCanvas*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ClearCanvas" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ClearCanvas">
+  ClearCanvas()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>清除当前画布</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCanvas()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CloseWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CloseWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CloseWindow" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CloseWindow">
+  CloseWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>关闭窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CloseWindow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CopySelected_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CopySelected*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CopySelected" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CopySelected">
+  CopySelected()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L392"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>复制选中内容</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CopySelected()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CutSelected_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CutSelected*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_CutSelected" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.CutSelected">
+  CutSelected()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L397"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>剪切选中内容</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CutSelected()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_DeleteCurrentPage_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.DeleteCurrentPage*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_DeleteCurrentPage" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.DeleteCurrentPage">
+  DeleteCurrentPage()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>删除当前页面</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteCurrentPage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_DeleteSelected_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.DeleteSelected*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_DeleteSelected" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.DeleteSelected">
+  DeleteSelected()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L387"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>删除选中内容</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteSelected()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_DeselectAll_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.DeselectAll*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_DeselectAll" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.DeselectAll">
+  DeselectAll()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L382"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>取消选择</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeselectAll()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_DisablePlugin_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.DisablePlugin*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_DisablePlugin_System_String_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.DisablePlugin(System.String)">
+  DisablePlugin(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L436"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>禁用插件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DisablePlugin(string pluginName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pluginName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>插件名称</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_EnablePlugin_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.EnablePlugin*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_EnablePlugin_System_String_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.EnablePlugin(System.String)">
+  EnablePlugin(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L427"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>启用插件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnablePlugin(string pluginName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pluginName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>插件名称</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ExitApplication_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ExitApplication*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ExitApplication" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ExitApplication">
+  ExitApplication()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L487"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>退出应用程序</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExitApplication()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ExportAsImage_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ExportAsImage*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ExportAsImage_System_String_System_String_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ExportAsImage(System.String,System.String)">
+  ExportAsImage(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>导出为图片</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExportAsImage(string filePath, string format)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>文件路径</p>
+</dd>
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>图片格式</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ExportAsPDF_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ExportAsPDF*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ExportAsPDF_System_String_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ExportAsPDF(System.String)">
+  ExportAsPDF(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L362"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>导出为PDF</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExportAsPDF(string filePath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>文件路径</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_GetAllPlugins_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.GetAllPlugins*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_GetAllPlugins" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.GetAllPlugins">
+  GetAllPlugins()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取所有已加载的插件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;IPlugin&gt; GetAllPlugins()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Ink_Canvas.Helpers.Plugins.IPlugin.html">IPlugin</a>&gt;</dt>
+    <dd><p>插件列表</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_GetPlugin_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.GetPlugin*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_GetPlugin_System_String_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.GetPlugin(System.String)">
+  GetPlugin(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取指定插件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPlugin GetPlugin(string pluginName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pluginName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>插件名称</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Ink_Canvas.Helpers.Plugins.IPlugin.html">IPlugin</a></dt>
+    <dd><p>插件实例</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_GetSetting_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.GetSetting*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_GetSetting__1_System_String___0_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.GetSetting``1(System.String,``0)">
+  GetSetting&lt;T&gt;(string, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取系统设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetSetting&lt;T&gt;(string key, T defaultValue = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>设置键</p>
+</dd>
+    <dt><code>defaultValue</code> <span class="xref">T</span></dt>
+    <dd><p>默认值</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>设置值</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>设置类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_GetWindowPosition_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.GetWindowPosition*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_GetWindowPosition" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.GetWindowPosition">
+  GetWindowPosition()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取窗口位置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public (double x, double y) GetWindowPosition()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.double,system.double-.x">x</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.double,system.double-.y">y</a>)</dt>
+    <dd><p>窗口位置</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_GetWindowSize_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.GetWindowSize*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_GetWindowSize" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.GetWindowSize">
+  GetWindowSize()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取窗口大小</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public (double width, double height) GetWindowSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.double,system.double-.x">x</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.double,system.double-.y">y</a>)</dt>
+    <dd><p>窗口大小</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_HideAboutWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.HideAboutWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_HideAboutWindow" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.HideAboutWindow">
+  HideAboutWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>隐藏关于窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HideAboutWindow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_HideHelpWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.HideHelpWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_HideHelpWindow" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.HideHelpWindow">
+  HideHelpWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>隐藏帮助窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HideHelpWindow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_HidePluginSettingsWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.HidePluginSettingsWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_HidePluginSettingsWindow" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.HidePluginSettingsWindow">
+  HidePluginSettingsWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>隐藏插件设置窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HidePluginSettingsWindow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_HideSettingsWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.HideSettingsWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_HideSettingsWindow" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.HideSettingsWindow">
+  HideSettingsWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>隐藏设置窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HideSettingsWindow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_LoadCanvas_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.LoadCanvas*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_LoadCanvas_System_String_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.LoadCanvas(System.String)">
+  LoadCanvas(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L352"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>加载画布内容</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadCanvas(string filePath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>文件路径</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_LoadSettings_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.LoadSettings*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_LoadSettings" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.LoadSettings">
+  LoadSettings()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>从文件加载设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadSettings()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_MaximizeWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.MaximizeWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_MaximizeWindow" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.MaximizeWindow">
+  MaximizeWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>最大化窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MaximizeWindow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_MinimizeWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.MinimizeWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_MinimizeWindow" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.MinimizeWindow">
+  MinimizeWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>最小化窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MinimizeWindow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_NextPage_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.NextPage*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_NextPage" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.NextPage">
+  NextPage()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L287"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>切换到下一页</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NextPage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_OpenAboutPage_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.OpenAboutPage*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_OpenAboutPage" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.OpenAboutPage">
+  OpenAboutPage()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L502"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>打开关于页面</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenAboutPage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_OpenHelpDocument_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.OpenHelpDocument*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_OpenHelpDocument" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.OpenHelpDocument">
+  OpenHelpDocument()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L497"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>打开帮助文档</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenHelpDocument()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_Paste_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.Paste*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_Paste" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.Paste">
+  Paste()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L402"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>粘贴内容</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Paste()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_PreviousPage_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.PreviousPage*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_PreviousPage" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.PreviousPage">
+  PreviousPage()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>切换到上一页</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PreviousPage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_Redo_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.Redo*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_Redo" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.Redo">
+  Redo()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L372"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>重做操作</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Redo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_RegisterEventHandler_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.RegisterEventHandler*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_RegisterEventHandler_System_String_System_EventHandler_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.RegisterEventHandler(System.String,System.EventHandler)">
+  RegisterEventHandler(string, EventHandler)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L454"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>注册事件处理器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterEventHandler(string eventName, EventHandler handler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>事件名称</p>
+</dd>
+    <dt><code>handler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd><p>事件处理器</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ResetSettings_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ResetSettings*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ResetSettings" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ResetSettings">
+  ResetSettings()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L422"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>重置设置为默认值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetSettings()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_RestartApplication_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.RestartApplication*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_RestartApplication" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.RestartApplication">
+  RestartApplication()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L482"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>重启应用程序</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RestartApplication()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_RestoreWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.RestoreWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_RestoreWindow" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.RestoreWindow">
+  RestoreWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>恢复窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RestoreWindow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SaveCanvas_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SaveCanvas*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SaveCanvas_System_String_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SaveCanvas(System.String)">
+  SaveCanvas(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L347"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>保存画布内容</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveCanvas(string filePath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>文件路径</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SaveSettings_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SaveSettings*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SaveSettings" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SaveSettings">
+  SaveSettings()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>保存设置到文件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveSettings()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SelectAll_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SelectAll*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SelectAll" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SelectAll">
+  SelectAll()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L377"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>全选</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SelectAll()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetBackgroundColor_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetBackgroundColor*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetBackgroundColor_System_String_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetBackgroundColor(System.String)">
+  SetBackgroundColor(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L342"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置背景颜色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBackgroundColor(string color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>color</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>颜色</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetDrawingMode_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetDrawingMode*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetDrawingMode_System_Int32_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetDrawingMode(System.Int32)">
+  SetDrawingMode(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置绘制模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDrawingMode(int mode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>绘制模式</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetEraserShape_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetEraserShape*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetEraserShape_System_Int32_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetEraserShape(System.Int32)">
+  SetEraserShape(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L327"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置橡皮擦形状</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetEraserShape(int shape)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>shape</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>形状</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetEraserSize_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetEraserSize*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetEraserSize_System_Int32_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetEraserSize(System.Int32)">
+  SetEraserSize(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置橡皮擦大小</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetEraserSize(int size)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>大小</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetEraserType_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetEraserType*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetEraserType_System_Int32_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetEraserType(System.Int32)">
+  SetEraserType(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L322"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置橡皮擦类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetEraserType(int type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetFullScreen_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetFullScreen*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetFullScreen_System_Boolean_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetFullScreen(System.Boolean)">
+  SetFullScreen(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置窗口全屏状态</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFullScreen(bool isFullScreen)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>isFullScreen</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否全屏</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetHighlighterWidth_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetHighlighterWidth*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetHighlighterWidth_System_Double_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetHighlighterWidth(System.Double)">
+  SetHighlighterWidth(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置高亮笔宽度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHighlighterWidth(double width)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>宽度</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetInkAlpha_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetInkAlpha*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetInkAlpha_System_Double_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetInkAlpha(System.Double)">
+  SetInkAlpha(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L332"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置笔触透明度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInkAlpha(double alpha)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>alpha</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>透明度</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetInkColor_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetInkColor*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetInkColor_System_Windows_Media_Color_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetInkColor(System.Windows.Media.Color)">
+  SetInkColor(Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L307"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置笔触颜色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInkColor(Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>color</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.color">Color</a></dt>
+    <dd><p>颜色</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetInkStyle_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetInkStyle*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetInkStyle_System_Int32_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetInkStyle(System.Int32)">
+  SetInkStyle(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置笔触样式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInkStyle(int style)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>style</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>样式</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetInkWidth_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetInkWidth*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetInkWidth_System_Double_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetInkWidth(System.Double)">
+  SetInkWidth(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置笔触宽度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInkWidth(double width)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>宽度</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetMainWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetMainWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetMainWindow_Ink_Canvas_MainWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetMainWindow(Ink_Canvas.MainWindow)">
+  SetMainWindow(MainWindow)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置主窗口引用</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMainWindow(MainWindow mainWindow)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mainWindow</code> <a class="xref" href="Ink_Canvas.MainWindow.html">MainWindow</a></dt>
+    <dd><p>主窗口实例</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetSetting_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetSetting*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetSetting__1_System_String___0_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetSetting``1(System.String,``0)">
+  SetSetting&lt;T&gt;(string, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L407"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置系统设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSetting&lt;T&gt;(string key, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>设置键</p>
+</dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>设置值</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>设置类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetTopMost_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetTopMost*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetTopMost_System_Boolean_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetTopMost(System.Boolean)">
+  SetTopMost(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置窗口置顶状态</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTopMost(bool isTopMost)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>isTopMost</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否置顶</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetWindowPosition_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetWindowPosition*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetWindowPosition_System_Double_System_Double_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetWindowPosition(System.Double,System.Double)">
+  SetWindowPosition(double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置窗口位置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetWindowPosition(double x, double y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>X坐标</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Y坐标</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetWindowSize_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetWindowSize*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetWindowSize_System_Double_System_Double_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetWindowSize(System.Double,System.Double)">
+  SetWindowSize(double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置窗口大小</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetWindowSize(double width, double height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>宽度</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>高度</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetWindowVisibility_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetWindowVisibility*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SetWindowVisibility_System_Boolean_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SetWindowVisibility(System.Boolean)">
+  SetWindowVisibility(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置窗口可见性</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetWindowVisibility(bool isVisible)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>isVisible</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否可见</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ShowAboutWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ShowAboutWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ShowAboutWindow" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ShowAboutWindow">
+  ShowAboutWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示关于窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowAboutWindow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ShowConfirmDialog_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ShowConfirmDialog*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ShowConfirmDialog_System_String_System_String_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ShowConfirmDialog(System.String,System.String)">
+  ShowConfirmDialog(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示确认对话框</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShowConfirmDialog(string message, string title = &quot;确认&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>消息内容</p>
+</dd>
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>标题</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>用户选择结果</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ShowHelpWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ShowHelpWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ShowHelpWindow" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ShowHelpWindow">
+  ShowHelpWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示帮助窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowHelpWindow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ShowInputDialog_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ShowInputDialog*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ShowInputDialog_System_String_System_String_System_String_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ShowInputDialog(System.String,System.String,System.String)">
+  ShowInputDialog(string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示输入对话框</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ShowInputDialog(string message, string title = &quot;输入&quot;, string defaultValue = &quot;&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>提示消息</p>
+</dd>
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>标题</p>
+</dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>默认值</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>用户输入内容</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ShowNotification_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ShowNotification*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ShowNotification_System_String_Ink_Canvas_Helpers_Plugins_NotificationType_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ShowNotification(System.String,Ink_Canvas.Helpers.Plugins.NotificationType)">
+  ShowNotification(string, NotificationType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L184"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示通知消息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowNotification(string message, NotificationType type = NotificationType.Info)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>消息内容</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="Ink_Canvas.Helpers.Plugins.NotificationType.html">NotificationType</a></dt>
+    <dd><p>消息类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ShowPluginSettingsWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ShowPluginSettingsWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ShowPluginSettingsWindow" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ShowPluginSettingsWindow">
+  ShowPluginSettingsWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示插件设置窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowPluginSettingsWindow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ShowSettingsWindow_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ShowSettingsWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_ShowSettingsWindow" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.ShowSettingsWindow">
+  ShowSettingsWindow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示设置窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowSettingsWindow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SwitchToPage_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SwitchToPage*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_SwitchToPage_System_Int32_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.SwitchToPage(System.Int32)">
+  SwitchToPage(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>切换到指定页面</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SwitchToPage(int pageIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pageIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>页面索引</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_TriggerEvent_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.TriggerEvent*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_TriggerEvent_System_String_System_Object_System_EventArgs_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.TriggerEvent(System.String,System.Object,System.EventArgs)">
+  TriggerEvent(string, object, EventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L474"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>触发事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TriggerEvent(string eventName, object sender, EventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>事件名称</p>
+</dd>
+    <dt><code>sender</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>事件发送者</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventargs">EventArgs</a></dt>
+    <dd><p>事件参数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_Undo_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.Undo*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_Undo" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.Undo">
+  Undo()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L367"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>撤销操作</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Undo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_UnloadPlugin_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.UnloadPlugin*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_UnloadPlugin_System_String_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.UnloadPlugin(System.String)">
+  UnloadPlugin(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L445"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>卸载插件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnloadPlugin(string pluginName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pluginName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>插件名称</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_UnregisterEventHandler_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.UnregisterEventHandler*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_PluginServiceManager_UnregisterEventHandler_System_String_System_EventHandler_" data-uid="Ink_Canvas.Helpers.Plugins.PluginServiceManager.UnregisterEventHandler(System.String,System.EventHandler)">
+  UnregisterEventHandler(string, EventHandler)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/PluginServiceManager.cs/#L466"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>注销事件处理器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterEventHandler(string eventName, EventHandler handler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>事件名称</p>
+</dd>
+    <dt><code>handler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd><p>事件处理器</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

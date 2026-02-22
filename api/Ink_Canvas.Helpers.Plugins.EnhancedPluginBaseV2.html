@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class EnhancedPluginBaseV2 | InkCanvasForClass CommunityEdition Dev docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class EnhancedPluginBaseV2 | InkCanvasForClass CommunityEdition Dev docs ">
+      
+      <meta name="description" content="增强的插件基类 V2，提供对三个专门服务接口的访问 插件开发者可以根据需要选择性地使用这些服务">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InkCanvasForClass/community/new/v2/apiSpec/new?filename=Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2.md&amp;value=---%0Auid%3A%20Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ICC-CE Dev docs">
+            ICC-CE Dev docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2">
+
+
+
+  <h1 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2" class="text-break">
+Class EnhancedPluginBaseV2  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Ink_Canvas.html">Ink_Canvas</a>.<a class="xref" href="Ink_Canvas.Helpers.html">Helpers</a>.<a class="xref" href="Ink_Canvas.Helpers.Plugins.html">Plugins</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InkCanvasForClass.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>增强的插件基类 V2，提供对三个专门服务接口的访问
+插件开发者可以根据需要选择性地使用这些服务</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class EnhancedPluginBaseV2 : PluginBase, IEnhancedPlugin, IPlugin</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html">PluginBase</a></div>
+      <div><span class="xref">EnhancedPluginBaseV2</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Ink_Canvas.Helpers.Plugins.IEnhancedPlugin.html">IEnhancedPlugin</a></div>
+      <div><a class="xref" href="Ink_Canvas.Helpers.Plugins.IPlugin.html">IPlugin</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_IsEnabled">PluginBase.IsEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_Id">PluginBase.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_PluginPath">PluginBase.PluginPath</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_Name">PluginBase.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_Description">PluginBase.Description</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_Version">PluginBase.Version</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_Author">PluginBase.Author</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_IsBuiltIn">PluginBase.IsBuiltIn</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_EnabledStateChanged">PluginBase.EnabledStateChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_Initialize">PluginBase.Initialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_Enable">PluginBase.Enable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_Disable">PluginBase.Disable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_GetSettingsView">PluginBase.GetSettingsView()</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_Cleanup">PluginBase.Cleanup()</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_SavePluginSettings">PluginBase.SavePluginSettings()</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_OnEnabledStateChanged_System_Boolean_">PluginBase.OnEnabledStateChanged(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2__ctor_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.#ctor*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2__ctor" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.#ctor">
+  EnhancedPluginBaseV2()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造函数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected EnhancedPluginBaseV2()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_ActionService_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.ActionService*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_ActionService" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.ActionService">
+  ActionService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>操作服务实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IActionService ActionService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Ink_Canvas.Helpers.Plugins.IActionService.html">IActionService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_CanRedo_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.CanRedo*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_CanRedo" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.CanRedo">
+  CanRedo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>检查是否可以重做</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool CanRedo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_CanUndo_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.CanUndo*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_CanUndo" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.CanUndo">
+  CanUndo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>检查是否可以撤销</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool CanUndo { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_CurrentDrawingMode_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.CurrentDrawingMode*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_CurrentDrawingMode" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.CurrentDrawingMode">
+  CurrentDrawingMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前绘制模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int CurrentDrawingMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_GetService_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.GetService*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_GetService" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.GetService">
+  GetService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取服务实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IGetService GetService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Ink_Canvas.Helpers.Plugins.IGetService.html">IGetService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_PluginService_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.PluginService*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_PluginService" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.PluginService">
+  PluginService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>插件服务实例（兼容性）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPluginService PluginService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Ink_Canvas.Helpers.Plugins.IPluginService.html">IPluginService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_WindowService_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.WindowService*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_WindowService" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.WindowService">
+  WindowService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>窗口服务实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IWindowService WindowService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Ink_Canvas.Helpers.Plugins.IWindowService.html">IWindowService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_ClearCanvas_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.ClearCanvas*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_ClearCanvas" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.ClearCanvas">
+  ClearCanvas()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>清除当前画布</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ClearCanvas()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_GetMenuItems_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.GetMenuItems*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_GetMenuItems" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.GetMenuItems">
+  GetMenuItems()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取插件的菜单项</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual MenuItem[] GetMenuItems()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.menuitem">MenuItem</a>[]</dt>
+    <dd><p>菜单项集合</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_GetSetting_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.GetSetting*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_GetSetting__1_System_String___0_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.GetSetting``1(System.String,``0)">
+  GetSetting&lt;T&gt;(string, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取系统设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected T GetSetting&lt;T&gt;(string key, T defaultValue = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>设置键</p>
+</dd>
+    <dt><code>defaultValue</code> <span class="xref">T</span></dt>
+    <dd><p>默认值</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>设置值</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>设置类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_GetStatusBarInfo_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.GetStatusBarInfo*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_GetStatusBarInfo" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.GetStatusBarInfo">
+  GetStatusBarInfo()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取插件的状态栏信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string GetStatusBarInfo()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>状态栏信息</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_GetToolbarButtons_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.GetToolbarButtons*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_GetToolbarButtons" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.GetToolbarButtons">
+  GetToolbarButtons()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取插件的工具栏按钮</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Button[] GetToolbarButtons()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.button">Button</a>[]</dt>
+    <dd><p>工具栏按钮集合</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_OnConfigurationChanged_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.OnConfigurationChanged*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_OnConfigurationChanged" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.OnConfigurationChanged">
+  OnConfigurationChanged()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>插件配置变更时调用</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnConfigurationChanged()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_OnShutdown_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.OnShutdown*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_OnShutdown" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.OnShutdown">
+  OnShutdown()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>插件关闭时调用，在Cleanup之前</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnShutdown()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_OnStartup_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.OnStartup*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_OnStartup" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.OnStartup">
+  OnStartup()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>插件启动时调用，在Initialize之后</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnStartup()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_Redo_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.Redo*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_Redo" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.Redo">
+  Redo()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>重做操作</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Redo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_RegisterEventHandler_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.RegisterEventHandler*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_RegisterEventHandler_System_String_System_EventHandler_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.RegisterEventHandler(System.String,System.EventHandler)">
+  RegisterEventHandler(string, EventHandler)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>注册事件处理器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RegisterEventHandler(string eventName, EventHandler handler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>事件名称</p>
+</dd>
+    <dt><code>handler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd><p>事件处理器</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_SaveSettings_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.SaveSettings*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_SaveSettings" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.SaveSettings">
+  SaveSettings()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>保存设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SaveSettings()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_SetDrawingMode_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.SetDrawingMode*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_SetDrawingMode_System_Int32_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.SetDrawingMode(System.Int32)">
+  SetDrawingMode(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置绘制模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetDrawingMode(int mode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>绘制模式</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_SetSetting_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.SetSetting*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_SetSetting__1_System_String___0_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.SetSetting``1(System.String,``0)">
+  SetSetting&lt;T&gt;(string, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置系统设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetSetting&lt;T&gt;(string key, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>设置键</p>
+</dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>设置值</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>设置类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_ShowConfirmDialog_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.ShowConfirmDialog*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_ShowConfirmDialog_System_String_System_String_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.ShowConfirmDialog(System.String,System.String)">
+  ShowConfirmDialog(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示确认对话框</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool ShowConfirmDialog(string message, string title = &quot;确认&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>消息内容</p>
+</dd>
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>标题</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>用户选择结果</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_ShowInputDialog_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.ShowInputDialog*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_ShowInputDialog_System_String_System_String_System_String_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.ShowInputDialog(System.String,System.String,System.String)">
+  ShowInputDialog(string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示输入对话框</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string ShowInputDialog(string message, string title = &quot;输入&quot;, string defaultValue = &quot;&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>提示消息</p>
+</dd>
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>标题</p>
+</dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>默认值</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>用户输入内容</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_ShowNotification_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.ShowNotification*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_ShowNotification_System_String_Ink_Canvas_Helpers_Plugins_NotificationType_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.ShowNotification(System.String,Ink_Canvas.Helpers.Plugins.NotificationType)">
+  ShowNotification(string, NotificationType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示通知消息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ShowNotification(string message, NotificationType type = NotificationType.Info)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>消息内容</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="Ink_Canvas.Helpers.Plugins.NotificationType.html">NotificationType</a></dt>
+    <dd><p>消息类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_TriggerEvent_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.TriggerEvent*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_TriggerEvent_System_String_System_Object_System_EventArgs_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.TriggerEvent(System.String,System.Object,System.EventArgs)">
+  TriggerEvent(string, object, EventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>触发事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void TriggerEvent(string eventName, object sender, EventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>事件名称</p>
+</dd>
+    <dt><code>sender</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>事件发送者</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventargs">EventArgs</a></dt>
+    <dd><p>事件参数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_Undo_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.Undo*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_Undo" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.Undo">
+  Undo()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>撤销操作</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Undo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_UnregisterEventHandler_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.UnregisterEventHandler*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_EnhancedPluginBaseV2_UnregisterEventHandler_System_String_System_EventHandler_" data-uid="Ink_Canvas.Helpers.Plugins.EnhancedPluginBaseV2.UnregisterEventHandler(System.String,System.EventHandler)">
+  UnregisterEventHandler(string, EventHandler)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/EnhancedPluginBaseV2.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>注销事件处理器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void UnregisterEventHandler(string eventName, EventHandler handler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>事件名称</p>
+</dd>
+    <dt><code>handler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd><p>事件处理器</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
