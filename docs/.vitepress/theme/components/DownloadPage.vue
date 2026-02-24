@@ -1,6 +1,6 @@
 <template>
   <div class="download-container">
-    <div class="version-selector">
+    <div class="version-selector" v-if="showSelectors">
       <button :class="{ active: currentChannel === 'stable' }" @click="selectChannel('stable')">
         正式版
       </button>
@@ -15,7 +15,7 @@
     </div>
 
     <div v-else>
-      <div class="history-selector" v-if="releasesHistory.length > 0">
+      <div class="history-selector" v-if="showSelectors && releasesHistory.length > 0">
         <label for="version-select">选择版本:</label>
         <div style="display: flex; gap: 12px; align-items: center;">
           <select id="version-select" v-model="selectedVersionTag" @change="updateVersionDetails">
@@ -34,6 +34,12 @@
       <div class="version-info">
         <h2>当前版本: <span>{{ versionInfo.version }}</span></h2>
         <p>{{ versionInfo.description }}</p>
+
+        <div class="download-button" v-if="!showSelectors">
+          <button @click="downloadFile" :disabled="!versionInfo.downloadUrl">
+            下载
+          </button>
+        </div>
 
         <div class="release-notes" v-if="versionInfo.releaseNotes">
           <h3>更新说明:</h3>
@@ -61,8 +67,23 @@
 </template>
 
 <script setup>
-import { ref, onMounted, reactive } from 'vue';
+import { ref, onMounted, reactive, computed } from 'vue';
 import { marked } from 'marked';
+
+const props = defineProps({
+  version: {
+    type: String,
+    default: ''
+  }
+});
+
+const getUrlParam = (param) => {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
+};
+
+const actualVersion = computed(() => props.version || String(getUrlParam('version') || '') || '');
+const showSelectors = computed(() => !actualVersion.value);
 
 // --- 响应式状态定义 ---
 const currentChannel = ref('stable');
@@ -85,14 +106,14 @@ const apiConfig = {
     description: '这是稳定的正式发布版本，适合日常使用。'
   },
   beta: {
-    repo: 'InkCanvasForClass/community-beta',
+    repo: 'InkCanvasForClass/community',
     description: '这是测试版本，包含最新功能，但可能不稳定。'
   }
 };
 
 const downloadTemplates = {
   stable: 'https://github.com/InkCanvasForClass/community/releases/download/{version}/InkCanvasForClass.CE.{version}.zip',
-  beta: 'https://github.com/InkCanvasForClass/community-beta/releases/download/{version}/InkCanvasForClass.CE.{version}.zip'
+  beta: 'https://github.com/InkCanvasForClass/community/releases/download/{version}/InkCanvasForClass.CE.{version}.zip'
 };
 
 // --- 新增：镜像与国内优先相关常量与状态 ---
@@ -128,19 +149,53 @@ const fetchAllReleases = async (channel) => {
   const config = apiConfig[channel];
 
   try {
-    // 构建候选 API URL 列表并尝试
     const urls = buildApiUrls(`${config.repo}/releases`);
-    const releases = await fetchDataWithMirrors(urls, '未能获取版本列表');
-    if (releases && releases.length > 0) {
-      releasesHistory.value = releases;
-      selectedVersionTag.value = releases[0].tag_name;
-      updateVersionDetails();
+    const allReleases = await fetchDataWithMirrors(urls, '未能获取版本列表');
+    
+    if (allReleases && allReleases.length > 0) {
+      const isBeta = channel === 'beta';
+      const filteredReleases = allReleases.filter(release => release.prerelease === isBeta);
+      
+      if (filteredReleases.length > 0) {
+        releasesHistory.value = filteredReleases;
+        selectedVersionTag.value = filteredReleases[0].tag_name;
+        updateVersionDetails();
+      } else {
+        throw new Error(isBeta ? '未找到测试版本。' : '未找到正式版本。');
+      }
     } else {
       throw new Error('未找到任何发布版本。');
     }
   } catch (error) {
     console.error('获取版本列表失败:', error);
     useFallbackData(channel);
+  } finally {
+    isLoading.value = false;
+  }
+};
+
+const fetchSpecificVersion = async (versionTag) => {
+  isLoading.value = true;
+  const config = apiConfig.stable;
+
+  try {
+    const urls = buildApiUrls(`${config.repo}/releases/tags/${versionTag}`);
+    const release = await fetchDataWithMirrors(urls, `未能获取版本 ${versionTag}`);
+    
+    if (release) {
+      releasesHistory.value = [release];
+      selectedVersionTag.value = release.tag_name;
+      currentChannel.value = release.prerelease ? 'beta' : 'stable';
+      updateVersionDetails();
+    } else {
+      throw new Error(`未找到版本 ${versionTag}。`);
+    }
+  } catch (error) {
+    console.error('获取指定版本失败:', error);
+    versionInfo.version = versionTag;
+    versionInfo.description = '这是您指定的版本。';
+    versionInfo.releaseNotes = '';
+    versionInfo.downloadUrl = downloadTemplates.stable.replace(/{version}/g, versionTag);
   } finally {
     isLoading.value = false;
   }
@@ -350,14 +405,16 @@ const detectFastestMirror = async () => {
 
 // --- 生命周期钩子：先检测智教与镜像，再拉取 releases ---
 onMounted(async () => {
-  // 1. 检查智教镜像可用性
   smartTeachAvailable = await testSmartTeachAvailability();
   if (!smartTeachAvailable) {
-    // 2. 智教不可用则检测最快镜像
     fastestMirror = await detectFastestMirror();
   }
-  // 3. 请求默认通道
-  fetchAllReleases('stable');
+  
+  if (actualVersion.value) {
+    await fetchSpecificVersion(actualVersion.value);
+  } else {
+    fetchAllReleases('stable');
+  }
 });
 </script>
 

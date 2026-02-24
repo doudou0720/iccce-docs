@@ -13,7 +13,7 @@ build:
                 # The site was created by running `vitepress init`
                 # and following the official guide
                 # https://vitepress.dev/guide/getting-started
-                - pnpm run docs:build
+                - pnpm run build
                 - mkdir -p $READTHEDOCS_OUTPUT/html
                 - mkdir -p $READTHEDOCS_OUTPUT/html/docs
                 - git clone --depth 1 --branch docfx https://github.com/doudou0720/iccce-docs docfx-branch --depth 1

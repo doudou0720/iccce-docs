@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import timeline from "vitepress-markdown-timeline"; 
 
 export default defineConfig({
   base: (process.env.READTHEDOCS_CANONICAL_URL
@@ -16,6 +17,7 @@ export default defineConfig({
       { text: '<i class="fa-solid fa-book"></i> 指南', link: '/guide/getting-started' },
       { text: '<i class="fa-solid fa-list-ul"></i> 功能', link: '/features/overview' },
       { text: '<i class="fa-solid fa-download"></i> 下载', link: '/download' },
+      { text: '<i class="fa-solid fa-code"></i> 开发文档', link: '/dev/uri' },
       { text: '<i class="fa-solid fa-globe"></i> 官网', link: 'https://inkcanvasforclass.github.io/' },
       { text: '<i class="fa-brands fa-github"></i> 源码仓库', link: 'https://github.com/InkCanvasForClass/community' },
     ],
@@ -104,7 +106,7 @@ export default defineConfig({
       label: '页面导航'
     },
     editLink: {
-      pattern: 'https://github.com/InkCanvasForClass/website/edit/main/docs/:path',
+      pattern: 'https://github.com/doudou0720/iccce-docs/edit/v2/docs/:path',
       text: '在 GitHub 上编辑此页面'
     },
     docFooter: {
@@ -137,6 +139,7 @@ export default defineConfig({
   
   markdown: {
     config: (md) => {
+      md.use(timeline);
       md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
           let htmlResult = slf.renderToken(tokens, idx, options);
           if (tokens[idx].tag === 'h1') htmlResult += `<ArticleMetadata />`; 

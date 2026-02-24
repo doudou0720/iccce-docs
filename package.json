@@ -1,19 +1,23 @@
 {
   "type": "module",
   "devDependencies": {
+    "@types/node": "^25.3.0",
+    "medium-zoom": "^1.1.0",
+    "nprogress-v2": "^1.1.10",
+    "oxc-minify": "^0.114.0",
     "vitepress": "^2.0.0-alpha.6",
-    "oxc-minify": "^0.114.0"
+    "vitepress-markdown-timeline": "^1.2.2",
+    "vue": "^3.5.29"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "busuanzi.pure.js": "^1.0.3",
-    "marked": "^16.2.0",
-    "medium-zoom": "^1.1.0"
+    "marked": "^16.2.0"
   },
   "pnpm": {
     "overrides": {

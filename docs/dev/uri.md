@@ -1,5 +1,6 @@
-# Ink Canvas 外部协议 (URI Scheme) 说明文档
+# Ink Canvas 外部协议 (URI Scheme) 说明文档 
 
+<VersionBadge version="1.7.18.6" type="added" /> <VersionBadge version="1.7.18.7" type="changed" />
 Ink Canvas 支持通过自定义协议 `icc://` 进行外部调用。通过此功能，其他应用程序、网页脚本或系统快捷方式可以远程控制 Ink Canvas 的运行状态。
 
 ## 启用方法
@@ -16,7 +17,7 @@ Ink Canvas 支持通过自定义协议 `icc://` 进行外部调用。通过此�
 
 ## 命令列表
 
-### 1. 基础控制命令
+### 1. 基础控制命令 <VersionBadge version="1.7.18.6" type="added" />
 
 | 命令 | 完整 URI | 作用 |
 | :--- | :--- | :--- |
@@ -25,7 +26,7 @@ Ink Canvas 支持通过自定义协议 `icc://` 进行外部调用。通过此�
 | **Toggle** | `icc://toggle` | **切换**状态。已展开则收起，已收起则展开。 |
 | **Show** | `icc://show` | 与 `unfold` 作用相同，用于兼容旧版指令。 |
 
-### 2. 侧边栏工具命令
+### 2. 侧边栏工具命令 <VersionBadge version="1.7.18.6" type="added" />
 
 以下命令对应收纳模式下侧边栏提供的快速工具。
 
@@ -36,7 +37,7 @@ Ink Canvas 支持通过自定义协议 `icc://` 进行外部调用。通过此�
 | **计时器** | `icc://timer` | 打开**计时器/倒计时**工具。 |
 | **白板** | `icc://whiteboard` | 切换到**白板模式**（也可使用 `icc://board`）。 |
 
-### 3. 工具状态命令
+### 3. 工具状态命令 <VersionBadge version="1.7.18.7" type="added" />
 
 用于切换当前批注工具，或查询当前工具状态。URI 不区分大小写。
 
@@ -57,7 +58,7 @@ Ink Canvas 支持通过自定义协议 `icc://` 进行外部调用。通过此�
 
 可能的值：`cursor`（鼠标）、`pen`（笔）、`color`（荧光笔）、`eraser`（面积橡皮擦）、`eraserByStrokes`（笔画橡皮擦）、`select`（选择）、`shape`（图形）。默认或无法识别时为 `cursor`。
 
-### 4. 进阶功能命令（隐藏功能）
+### 4. 进阶功能命令（隐藏功能） <VersionBadge version="1.7.18.6" type="added" />
 
 以下功能专门用于解决与第三方侧边栏或悬浮窗程序的兼容性问题，未在常规设置界面显示。URI 不区分大小写，下表为小写形式。
 
