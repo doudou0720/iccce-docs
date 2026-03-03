@@ -17,28 +17,26 @@
     <div v-else>
       <div class="history-selector" v-if="showSelectors && releasesHistory.length > 0">
         <label for="version-select">选择版本:</label>
-        <div style="display: flex; gap: 12px; align-items: center;">
+        <div style="display: flex; gap: 12px; align-items: center">
           <select id="version-select" v-model="selectedVersionTag" @change="updateVersionDetails">
             <option v-for="release in releasesHistory" :key="release.id" :value="release.tag_name">
-              {{ release.tag_name }} {{ release.prerelease ? '(Pre-release)' : '' }}
+              {{ release.tag_name }} {{ release.prerelease ? "(Pre-release)" : "" }}
             </option>
           </select>
           <div class="download-button">
-            <button @click="downloadFile" :disabled="!versionInfo.downloadUrl">
-              下载
-            </button>
+            <button @click="downloadFile" :disabled="!versionInfo.downloadUrl">下载</button>
           </div>
         </div>
       </div>
 
       <div class="version-info">
-        <h2>当前版本: <span>{{ versionInfo.version }}</span></h2>
+        <h2>
+          当前版本: <span>{{ versionInfo.version }}</span>
+        </h2>
         <p>{{ versionInfo.description }}</p>
 
         <div class="download-button" v-if="!showSelectors">
-          <button @click="downloadFile" :disabled="!versionInfo.downloadUrl">
-            下载
-          </button>
+          <button @click="downloadFile" :disabled="!versionInfo.downloadUrl">下载</button>
         </div>
 
         <div class="release-notes" v-if="versionInfo.releaseNotes">
@@ -53,13 +51,48 @@
         <div class="modal-content">
           <button class="modal-close" @click="closeModal" aria-label="关闭弹窗">&times;</button>
           <h2>感谢您的下载！</h2>
-          <p>您的文件将在 <strong>{{ countdown }}</strong> 秒后开始自动下载。</p>
-          <p v-if="manualDownloadTipVisible" style="margin-top:0.5rem;">若未开始，请使用下方手动下载：</p>
-          <div style="margin:0.75rem 0; display:flex; gap:0.5rem; justify-content:center; align-items:center;">
-            <a v-if="manualDownloadUrl" :href="manualDownloadUrl" @click.prevent="onManualDownload" class="download-link" style="padding:8px 14px; background:var(--vp-c-brand,#0078d4); color:white; border-radius:4px; text-decoration:none;">手动下载</a>
-            <button @click="closeModal" style="padding:8px 12px; border-radius:4px; background:transparent; border:1px solid var(--vp-c-border,#ccc);">关闭</button>
+          <p>
+            您的文件将在 <strong>{{ countdown }}</strong> 秒后开始自动下载。
+          </p>
+          <p v-if="manualDownloadTipVisible" style="margin-top: 0.5rem">
+            若未开始，请使用下方手动下载：
+          </p>
+          <div
+            style="
+              margin: 0.75rem 0;
+              display: flex;
+              gap: 0.5rem;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <a
+              v-if="manualDownloadUrl"
+              :href="manualDownloadUrl"
+              @click.prevent="onManualDownload"
+              class="download-link"
+              style="
+                padding: 8px 14px;
+                background: var(--vp-c-brand, #0078d4);
+                color: white;
+                border-radius: 4px;
+                text-decoration: none;
+              "
+              >手动下载</a
+            >
+            <button
+              @click="closeModal"
+              style="
+                padding: 8px 12px;
+                border-radius: 4px;
+                background: transparent;
+                border: 1px solid var(--vp-c-border, #ccc);
+              "
+            >
+              关闭
+            </button>
           </div>
-          <p style="margin-top:0.5rem;">如果遇到任何问题，请通过社区或 GitHub Issues 联系我们。</p>
+          <p style="margin-top: 0.5rem">如果遇到任何问题，请通过社区或 GitHub Issues 联系我们。</p>
         </div>
       </div>
     </transition>
@@ -67,68 +100,69 @@
 </template>
 
 <script setup>
-import { ref, onMounted, reactive, computed } from 'vue';
-import { marked } from 'marked';
+import { ref, onMounted, reactive, computed } from "vue";
+import { marked } from "marked";
 
 const props = defineProps({
   version: {
     type: String,
-    default: ''
-  }
+    default: "",
+  },
 });
 
 const getUrlParam = (param) => {
-  if (typeof window === 'undefined') return null;
+  if (typeof window === "undefined") return null;
   const urlParams = new URLSearchParams(window.location.search);
   return urlParams.get(param);
 };
 
-const actualVersion = computed(() => props.version || String(getUrlParam('version') || '') || '');
+const actualVersion = computed(() => props.version || String(getUrlParam("version") || "") || "");
 const showSelectors = computed(() => !actualVersion.value);
 
 // --- 响应式状态定义 ---
-const currentChannel = ref('stable');
+const currentChannel = ref("stable");
 const isLoading = ref(true);
 const releasesHistory = ref([]);
-const selectedVersionTag = ref('');
+const selectedVersionTag = ref("");
 const showThankYouModal = ref(false); // 新增: 控制弹窗显示
 
 const versionInfo = reactive({
-  version: '检测中...',
-  description: '',
-  releaseNotes: '',
-  downloadUrl: ''
+  version: "检测中...",
+  description: "",
+  releaseNotes: "",
+  downloadUrl: "",
 });
 
 // --- API 和配置 ---
 const apiConfig = {
   stable: {
-    repo: 'InkCanvasForClass/community',
-    description: '这是稳定的正式发布版本，适合日常使用。'
+    repo: "InkCanvasForClass/community",
+    description: "这是稳定的正式发布版本，适合日常使用。",
   },
   beta: {
-    repo: 'InkCanvasForClass/community',
-    description: '这是测试版本，包含最新功能，但可能不稳定。'
-  }
+    repo: "InkCanvasForClass/community",
+    description: "这是测试版本，包含最新功能，但可能不稳定。",
+  },
 };
 
 const downloadTemplates = {
-  stable: 'https://github.com/InkCanvasForClass/community/releases/download/{version}/InkCanvasForClass.CE.{version}.zip',
-  beta: 'https://github.com/InkCanvasForClass/community/releases/download/{version}/InkCanvasForClass.CE.{version}.zip'
+  stable:
+    "https://github.com/InkCanvasForClass/community/releases/download/{version}/InkCanvasForClass.CE.{version}.zip",
+  beta: "https://github.com/InkCanvasForClass/community/releases/download/{version}/InkCanvasForClass.CE.{version}.zip",
 };
 
 // --- 新增：镜像与国内优先相关常量与状态 ---
-const SMART_TEACH_DOMAIN = 'https://get.smart-teach.cn';
-const COMMUNITY_PATH = '/d/Ningbo-S3/shared/jiangling/community';
-const COMMUNITY_BETA_PATH = '/d/Ningbo-S3/shared/jiangling/community-beta';
-const GITHUB_API_BASE = 'https://api.github.com/repos/';
+const SMART_TEACH_DOMAIN = "https://get.smart-teach.cn";
+const COMMUNITY_PATH = "/d/Ningbo-S3/shared/jiangling/community";
+const COMMUNITY_BETA_PATH = "/d/Ningbo-S3/shared/jiangling/community-beta";
+const GITHUB_API_BASE = "https://api.github.com/repos/";
 const MIRROR_URLS = [
-  'https://gh.llkk.cc',
-  'https://ghfile.geekertao.top',
-  'https://gh.dpik.top',
-  'https://github.dpik.top',
-  'https://github.acmsz.top',
-  'https://git.yylx.win'
+  "https://gh.llkk.cc",
+  "https://ghfile.geekertao.top",
+  "https://gh.dpik.top",
+  "https://github.dpik.top",
+  "https://github.acmsz.top",
+  "https://git.yylx.win",
 ];
 
 let fastestMirror = null;
@@ -140,7 +174,7 @@ const selectChannel = (channel) => {
   if (currentChannel.value !== channel) {
     currentChannel.value = channel;
     releasesHistory.value = [];
-    selectedVersionTag.value = '';
+    selectedVersionTag.value = "";
     fetchAllReleases(channel);
   }
 };
@@ -151,24 +185,24 @@ const fetchAllReleases = async (channel) => {
 
   try {
     const urls = buildApiUrls(`${config.repo}/releases`);
-    const allReleases = await fetchDataWithMirrors(urls, '未能获取版本列表');
-    
+    const allReleases = await fetchDataWithMirrors(urls, "未能获取版本列表");
+
     if (allReleases && allReleases.length > 0) {
-      const isBeta = channel === 'beta';
-      const filteredReleases = allReleases.filter(release => release.prerelease === isBeta);
-      
+      const isBeta = channel === "beta";
+      const filteredReleases = allReleases.filter((release) => release.prerelease === isBeta);
+
       if (filteredReleases.length > 0) {
         releasesHistory.value = filteredReleases;
         selectedVersionTag.value = filteredReleases[0].tag_name;
         updateVersionDetails();
       } else {
-        throw new Error(isBeta ? '未找到测试版本。' : '未找到正式版本。');
+        throw new Error(isBeta ? "未找到测试版本。" : "未找到正式版本。");
       }
     } else {
-      throw new Error('未找到任何发布版本。');
+      throw new Error("未找到任何发布版本。");
     }
   } catch (error) {
-    console.error('获取版本列表失败:', error);
+    console.error("获取版本列表失败:", error);
     useFallbackData(channel);
   } finally {
     isLoading.value = false;
@@ -182,20 +216,20 @@ const fetchSpecificVersion = async (versionTag) => {
   try {
     const urls = buildApiUrls(`${config.repo}/releases/tags/${versionTag}`);
     const release = await fetchDataWithMirrors(urls, `未能获取版本 ${versionTag}`);
-    
+
     if (release) {
       releasesHistory.value = [release];
       selectedVersionTag.value = release.tag_name;
-      currentChannel.value = release.prerelease ? 'beta' : 'stable';
+      currentChannel.value = release.prerelease ? "beta" : "stable";
       updateVersionDetails();
     } else {
       throw new Error(`未找到版本 ${versionTag}。`);
     }
   } catch (error) {
-    console.error('获取指定版本失败:', error);
+    console.error("获取指定版本失败:", error);
     versionInfo.version = versionTag;
-    versionInfo.description = '这是您指定的版本。';
-    versionInfo.releaseNotes = '';
+    versionInfo.description = "这是您指定的版本。";
+    versionInfo.releaseNotes = "";
     versionInfo.downloadUrl = downloadTemplates.stable.replace(/{version}/g, versionTag);
   } finally {
     isLoading.value = false;
@@ -204,7 +238,7 @@ const fetchSpecificVersion = async (versionTag) => {
 
 const updateVersionDetails = () => {
   const selectedRelease = releasesHistory.value.find(
-    release => release.tag_name === selectedVersionTag.value
+    (release) => release.tag_name === selectedVersionTag.value,
   );
 
   if (!selectedRelease) return;
@@ -212,32 +246,38 @@ const updateVersionDetails = () => {
   const config = apiConfig[currentChannel.value];
   versionInfo.version = selectedRelease.tag_name;
   versionInfo.description = config.description;
-  versionInfo.releaseNotes = selectedRelease.body ? marked.parse(selectedRelease.body) : '';
+  versionInfo.releaseNotes = selectedRelease.body ? marked.parse(selectedRelease.body) : "";
 
-  const asset = selectedRelease.assets.find(asset =>
-    asset.name.includes('InkCanvasForClass.CE') && asset.name.endsWith('.zip')
+  const asset = selectedRelease.assets.find(
+    (asset) => asset.name.includes("InkCanvasForClass.CE") && asset.name.endsWith(".zip"),
   );
 
   if (asset) {
-    versionInfo.downloadUrl = convertDownloadUrl(asset.browser_download_url, currentChannel.value === 'beta');
+    versionInfo.downloadUrl = convertDownloadUrl(
+      asset.browser_download_url,
+      currentChannel.value === "beta",
+    );
   } else {
-    const rawUrl = downloadTemplates[currentChannel.value].replace(/{version}/g, selectedRelease.tag_name);
-    versionInfo.downloadUrl = convertDownloadUrl(rawUrl, currentChannel.value === 'beta');
+    const rawUrl = downloadTemplates[currentChannel.value].replace(
+      /{version}/g,
+      selectedRelease.tag_name,
+    );
+    versionInfo.downloadUrl = convertDownloadUrl(rawUrl, currentChannel.value === "beta");
   }
 };
 
 const useFallbackData = (channel) => {
-  console.log('GitHub API 请求失败，使用备用数据...');
+  console.log("GitHub API 请求失败，使用备用数据...");
   releasesHistory.value = [];
   const fallbackData = {
-    stable: { version: '1.7.3.0', desc: '这是稳定的正式发布版本，适合日常使用。' },
-    beta: { version: '1.7.3.0', desc: '这是测试版本，包含最新功能，但可能不稳定。' }
+    stable: { version: "1.7.3.0", desc: "这是稳定的正式发布版本，适合日常使用。" },
+    beta: { version: "1.7.3.0", desc: "这是测试版本，包含最新功能，但可能不稳定。" },
   };
 
   const data = fallbackData[channel];
   versionInfo.version = data.version;
   versionInfo.description = data.desc;
-  versionInfo.releaseNotes = '';
+  versionInfo.releaseNotes = "";
   versionInfo.downloadUrl = downloadTemplates[channel].replace(/{version}/g, data.version);
 };
 
@@ -247,7 +287,7 @@ const parseMarkdown = (text) => {
 
 // --- 新增：倒计时与手动下载相关状态（修复 ReferenceError） ---
 const countdown = ref(5);
-const manualDownloadUrl = ref('');
+const manualDownloadUrl = ref("");
 const manualDownloadTipVisible = ref(false);
 // 计时器句柄（非响应式）
 let countdownTimer = null;
@@ -277,15 +317,15 @@ const downloadFile = () => {
         countdownTimer = null;
         // 自动触发下载
         try {
-          const a = document.createElement('a');
+          const a = document.createElement("a");
           a.href = manualDownloadUrl.value;
-          a.download = '';
-          a.style.display = 'none';
+          a.download = "";
+          a.style.display = "none";
           document.body.appendChild(a);
           a.click();
           document.body.removeChild(a);
         } catch (e) {
-          console.error('自动下载触发失败:', e);
+          console.error("自动下载触发失败:", e);
         }
         // 显示手动下载提示
         manualDownloadTipVisible.value = true;
@@ -303,10 +343,10 @@ const onManualDownload = () => {
     countdownTimer = null;
   }
   if (manualDownloadUrl.value) {
-    const a = document.createElement('a');
+    const a = document.createElement("a");
     a.href = manualDownloadUrl.value;
-    a.download = '';
-    a.style.display = 'none';
+    a.download = "";
+    a.style.display = "none";
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -330,7 +370,7 @@ const buildApiUrls = (endpoint) => {
   const unique = new Set();
   if (fastestMirror) unique.add(`${fastestMirror}/${GITHUB_API_BASE}${endpoint}`);
   unique.add(`${GITHUB_API_BASE}${endpoint}`);
-  MIRROR_URLS.forEach(m => unique.add(`${m}/${GITHUB_API_BASE}${endpoint}`));
+  MIRROR_URLS.forEach((m) => unique.add(`${m}/${GITHUB_API_BASE}${endpoint}`));
   return Array.from(unique);
 };
 
@@ -340,7 +380,11 @@ const testSmartTeachAvailability = async () => {
     const testUrl = `${SMART_TEACH_DOMAIN}${COMMUNITY_PATH}/test.txt`;
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 3000);
-    const res = await fetch(testUrl, { method: 'HEAD', signal: controller.signal, cache: 'no-store' });
+    const res = await fetch(testUrl, {
+      method: "HEAD",
+      signal: controller.signal,
+      cache: "no-store",
+    });
     clearTimeout(timeoutId);
     return res && (res.status === 200 || res.status < 400);
   } catch (e) {
@@ -350,7 +394,7 @@ const testSmartTeachAvailability = async () => {
 
 // --- 新增：将 GitHub 下载 URL 转为智教或镜像 URL（优先智教，特殊处理 .exe） ---
 const buildSmartTeachUrl = (url, isBeta = false) => {
-  const fileName = url.split('/').pop();
+  const fileName = url.split("/").pop();
   const basePath = isBeta ? COMMUNITY_BETA_PATH : COMMUNITY_PATH;
   return `${SMART_TEACH_DOMAIN}${basePath}/${fileName}`;
 };
@@ -358,25 +402,25 @@ const buildSmartTeachUrl = (url, isBeta = false) => {
 const convertDownloadUrl = (url, isBeta = false) => {
   if (!url) return url;
   // .exe 强制走镜像（不通过智教）
-  if (url.endsWith('.exe')) {
-    if (fastestMirror && url.startsWith('https://github.com/')) {
-      return url.replace('https://github.com/', `${fastestMirror}/https://github.com/`);
+  if (url.endsWith(".exe")) {
+    if (fastestMirror && url.startsWith("https://github.com/")) {
+      return url.replace("https://github.com/", `${fastestMirror}/https://github.com/`);
     }
     return url;
   }
   // 非 .exe：智教优先
   if (smartTeachAvailable) return buildSmartTeachUrl(url, isBeta);
-  if (fastestMirror && url.startsWith('https://github.com/')) {
-    return url.replace('https://github.com/', `${fastestMirror}/https://github.com/`);
+  if (fastestMirror && url.startsWith("https://github.com/")) {
+    return url.replace("https://github.com/", `${fastestMirror}/https://github.com/`);
   }
   return url;
 };
 
 // --- 新增：按候选 URL 列表尝试获取数据 ---
-const fetchDataWithMirrors = async (urls, errorMessage = '获取数据失败') => {
+const fetchDataWithMirrors = async (urls, errorMessage = "获取数据失败") => {
   for (const url of urls) {
     try {
-      const res = await fetch(url, { cache: 'no-store' });
+      const res = await fetch(url, { cache: "no-store" });
       if (res.ok) return await res.json();
       console.log(`镜像尝试失败: ${url}, status: ${res.status}`);
     } catch (e) {
@@ -390,17 +434,25 @@ const fetchDataWithMirrors = async (urls, errorMessage = '获取数据失败') =
 // --- 新增：检测最快镜像（HEAD 请求测时长） ---
 const detectFastestMirror = async () => {
   const endpoint = `${apiConfig.stable.repo}/releases/latest`;
-  const testUrls = [`${GITHUB_API_BASE}${endpoint}`, ...MIRROR_URLS.map(m => `${m}/${GITHUB_API_BASE}${endpoint}`)];
-  const results = await Promise.all(testUrls.map(u => new Promise(resolve => {
-    const start = performance.now();
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 3000);
-    fetch(u, { method: 'HEAD', cache: 'no-store', signal: controller.signal })
-      .then(() => resolve({ url: u, time: performance.now() - start }))
-      .catch(() => resolve({ url: u, time: Infinity }))
-      .finally(() => clearTimeout(timeoutId));
-  })));
-  const ok = results.filter(r => r.time !== Infinity).sort((a, b) => a.time - b.time);
+  const testUrls = [
+    `${GITHUB_API_BASE}${endpoint}`,
+    ...MIRROR_URLS.map((m) => `${m}/${GITHUB_API_BASE}${endpoint}`),
+  ];
+  const results = await Promise.all(
+    testUrls.map(
+      (u) =>
+        new Promise((resolve) => {
+          const start = performance.now();
+          const controller = new AbortController();
+          const timeoutId = setTimeout(() => controller.abort(), 3000);
+          fetch(u, { method: "HEAD", cache: "no-store", signal: controller.signal })
+            .then(() => resolve({ url: u, time: performance.now() - start }))
+            .catch(() => resolve({ url: u, time: Infinity }))
+            .finally(() => clearTimeout(timeoutId));
+        }),
+    ),
+  );
+  const ok = results.filter((r) => r.time !== Infinity).sort((a, b) => a.time - b.time);
   return ok.length > 0 ? ok[0].url : null;
 };
 
@@ -410,11 +462,11 @@ onMounted(async () => {
   if (!smartTeachAvailable) {
     fastestMirror = await detectFastestMirror();
   }
-  
+
   if (actualVersion.value) {
     await fetchSpecificVersion(actualVersion.value);
   } else {
-    fetchAllReleases('stable');
+    fetchAllReleases("stable");
   }
 });
 </script>

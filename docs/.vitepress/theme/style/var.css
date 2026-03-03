@@ -1,12 +1,12 @@
 :root {
-  --vp-c-brand-1: #32A6BA;
-  --vp-c-brand-2: #2D8FA6;
-  --vp-c-brand-3: #276B7D;
+  --vp-c-brand-1: #32a6ba;
+  --vp-c-brand-2: #2d8fa6;
+  --vp-c-brand-3: #276b7d;
 }
 
 .dark {
-  --vp-c-brand-1: #376BA9;
-  --vp-c-brand-2: #2E5A8F;
+  --vp-c-brand-1: #376ba9;
+  --vp-c-brand-2: #2e5a8f;
   --vp-c-brand-3: #254875;
 }
 
@@ -30,22 +30,22 @@
 }
 
 .medium-zoom-image {
-  z-index: 9999 !important;/* 给的值是21，但是实测盖不住，直接999 */
+  z-index: 9999 !important; /* 给的值是21，但是实测盖不住，直接999 */
 }
 
-.rendered-md img { 
-    max-width: 100%;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+.rendered-md img {
+  max-width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .rendered-md {
-    display: none;  /* 默认隐藏 */
+  display: none; /* 默认隐藏 */
 }
 
 .rendered-md.active {
-    display: block; /* 只有在 active 状态下才显示 */
-    max-width: 100%;
+  display: block; /* 只有在 active 状态下才显示 */
+  max-width: 100%;
 }
 
 /* VPFeatures 页卡悬浮效果 */

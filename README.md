@@ -3,6 +3,7 @@
 使用 VitePress 搭建
 
 ## 快速开始
+
 - 环境要求
   - Node.js 20+
   - pnpm
@@ -23,6 +24,7 @@
 - 预览生产版本
   ```bash
   pnpm run docs:preview
+  ```
 - 内容编写指南
   - 所有文档使用 Markdown 格式编写
   - 在 docs 目录下创建新的 .md 文件即可自动生成对应页面
@@ -30,6 +32,7 @@
   - 在 `/docs/.vitepress/config.ts` 中配置站点
 
 ## 贡献指南
+
 欢迎贡献文档：
 
 - Fork 本项目
@@ -39,6 +42,7 @@
 - 创建 Pull Request
 
 ## 贡献者
+
 <a href="https://github.com/InkCanvasForClass/website/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=InkCanvasForClass/website" />
 </a>

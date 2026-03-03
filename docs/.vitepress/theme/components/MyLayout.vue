@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import DefaultTheme from 'vitepress/theme'
+import DefaultTheme from "vitepress/theme";
 import backtotop from "./backtotop.vue";
 </script>
 
@@ -11,5 +11,4 @@ import backtotop from "./backtotop.vue";
   </DefaultTheme.Layout>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

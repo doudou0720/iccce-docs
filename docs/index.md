@@ -47,5 +47,5 @@ features:
 <HomeUnderline />
 
 ## 宣传视频
-<BilibiliVideo bvid="BV1yH8ezcEKk" />
 
+<BilibiliVideo bvid="BV1yH8ezcEKk" />

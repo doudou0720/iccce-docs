@@ -6,11 +6,11 @@ on:
     branches:
       - v2
     paths-ignore:
-      - './docs/**'
-      - '.readthedocs.yml'
-      - 'package-lock.json'
-      - 'package.json'
-      - 'pnpm-lock.yaml'
+      - "./docs/**"
+      - ".readthedocs.yml"
+      - "package-lock.json"
+      - "package.json"
+      - "pnpm-lock.yaml"
 
 permissions:
   contents: write
