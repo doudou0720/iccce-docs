@@ -10,7 +10,7 @@
     "fmt:check": "oxfmt --check"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@fortawesome/fontawesome-free": "^7.0.0",
     "busuanzi.pure.js": "^1.0.3",
     "marked": "^16.2.0"
   },
