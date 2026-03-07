@@ -18,8 +18,8 @@ importers:
         specifier: ^1.0.3
         version: 1.0.3
       marked:
-        specifier: ^16.2.0
-        version: 16.2.0
+        specifier: ^17.0.0
+        version: 17.0.4
     devDependencies:
       '@types/node':
         specifier: ^25.3.0
@@ -883,8 +883,8 @@ packages:
   mark.js@8.11.1:
     resolution: {integrity: sha512-1I+1qpDt4idfgLQG+BNWmrqku+7/2bi5nLf4YwF8y8zXvmfiTBY3PV3ZibfrjBueCByROpuBjLLFCajqkgYoLQ==}
 
-  marked@16.2.0:
-    resolution: {integrity: sha512-LbbTuye+0dWRz2TS9KJ7wsnD4KAtpj0MVkWc90XvBa6AslXsT0hTBVH5k32pcSyHH1fst9XEFJunXHktVy0zlg==}
+  marked@17.0.4:
+    resolution: {integrity: sha512-NOmVMM+KAokHMvjWmC5N/ZOvgmSWuqJB8FoYI019j4ogb/PeRMKoKIjReZ2w3376kkA8dSJIP8uD993Kxc0iRQ==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -1685,7 +1685,7 @@ snapshots:
 
   mark.js@8.11.1: {}
 
-  marked@16.2.0: {}
+  marked@17.0.4: {}
 
   mdast-util-to-hast@13.2.0:
     dependencies:
