@@ -18,7 +18,7 @@
     "@types/node": "^25.3.0",
     "medium-zoom": "^1.1.0",
     "nprogress-v2": "^1.1.10",
-    "oxc-minify": "^0.114.0",
+    "oxc-minify": "^0.116.0",
     "oxfmt": "^0.36.0",
     "oxlint": "^1.51.0",
     "vitepress": "^2.0.0-alpha.6",
