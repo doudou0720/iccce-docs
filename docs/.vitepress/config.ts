@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import timeline from "vitepress-markdown-timeline";
+import markedAlert from "marked-alert";
 
 export default defineConfig({
   base:
@@ -140,6 +141,7 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(timeline);
+      md.use(markedAlert);
       md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
         let htmlResult = slf.renderToken(tokens, idx, options);
         if (tokens[idx].tag === "h1") htmlResult += `<ArticleMetadata />`;

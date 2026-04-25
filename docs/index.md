@@ -6,7 +6,7 @@ hero:
   text: "智能课堂绘图增强工具"
   tagline: 为教师打造的高效交互式绘图解决方案
   image:
-    src: /images/logo.png
+    src: /images/logo.webp
     alt: ICC-CE Logo
   actions:
     - theme: brand
