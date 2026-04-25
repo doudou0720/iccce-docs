@@ -71,10 +71,17 @@ jobs:
     runs-on: ubuntu-latest
     needs: build-docfx
     steps:
-      - name: Checkout repository
+      - name: Checkout v2 branch
+        uses: actions/checkout@v5
+        with:
+          ref: v2
+          fetch-depth: 1
+
+      - name: Fetch docfx branch
         uses: actions/checkout@v5
         with:
           ref: docfx
+          path: docs/dev
           fetch-depth: 1
 
       - name: Setup pnpm
@@ -86,15 +93,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 24
+          cache: "pnpm"
 
       - name: Install dependencies
         run: pnpm install
-
-      - name: Copy docfx output to docs/dev
-        run: |
-          mkdir -p docs/dev
-          cp -r . docs/dev/
-          rm -rf docs/dev/.git
 
       - name: Build VitePress
         run: pnpm build
