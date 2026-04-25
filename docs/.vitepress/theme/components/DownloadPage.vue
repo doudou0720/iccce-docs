@@ -945,6 +945,12 @@ watch(releasesHistory, async (newReleases) => {
   max-width: 90%;
   width: 500px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.modal-fade-enter-from .modal-content,
+.modal-fade-leave-to .modal-content {
+  transform: scale(0.9);
 }
 
 html.dark .modal-content {
