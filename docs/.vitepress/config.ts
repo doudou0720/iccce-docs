@@ -9,9 +9,9 @@ export default defineConfig({
       : "") + "/docs",
   title: "ICC CE",
   description: "智能课堂绘图增强工具",
-  head: [["link", { rel: "icon", href: "/icc-ce-web/images/logo.png" }]],
+  head: [["link", { rel: "icon", href: "/icc-ce-web/images/logo.webp" }]],
   themeConfig: {
-    logo: "/images/logo.png",
+    logo: "/images/logo.webp",
     nav: [
       { text: '<i class="fa-solid fa-house"></i> 首页', link: "/" },
       { text: '<i class="fa-solid fa-book"></i> 指南', link: "/guide/getting-started" },

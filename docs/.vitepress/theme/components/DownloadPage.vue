@@ -134,15 +134,37 @@
               <p class="download-version">版本: <strong>{{ pendingDownloadVersion }}</strong></p>
               
               <div class="download-channels">
-                <a 
-                  v-if="pendingDownloadUrl"
-                  :href="pendingDownloadUrl" 
-                  class="download-channel primary"
-                  target="_blank"
-                >
-                  <i class="fa-brands fa-github"></i>
-                  <span>GitHub 直链下载</span>
-                </a>
+                <div v-if="pendingDownloadUrl" class="mirror-dropdown-container">
+                  <button 
+                    class="download-channel primary dropdown-toggle" 
+                    @click="showMirrorDropdown = !showMirrorDropdown"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub 直链下载</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </button>
+                  <div v-if="showMirrorDropdown" class="mirror-dropdown">
+                    <a 
+                      :href="pendingDownloadUrl"
+                      class="mirror-link"
+                      target="_blank"
+                      @click="showMirrorDropdown = false"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                      GitHub 直链下载
+                    </a>
+                    <a 
+                      v-for="mirror in mirrorDownloadUrls" 
+                      :key="mirror.name"
+                      :href="mirror.url"
+                      class="mirror-link"
+                      target="_blank"
+                      @click="showMirrorDropdown = false"
+                    >
+                      {{ mirror.name }}
+                    </a>
+                  </div>
+                </div>
                 
                 <a 
                   v-if="smartTeachAvailable && pendingDownloadUrl"
@@ -224,9 +246,23 @@ const pendingDownloadVersion = ref("");
 const pendingDownloadUrl = ref("");
 const pendingSmartTeachUrl = ref("");
 const pendingIsBeta = ref(false);
+const showMirrorDropdown = ref(false);
 const expandedVersions = ref(new Set());
 const changelogs = reactive({});
 const loadingChangelogs = reactive({});
+
+const mirrorDownloadUrls = computed(() => {
+  if (!pendingDownloadUrl.value) return [];
+  return MIRROR_URLS.map((mirror) => {
+    const url = pendingDownloadUrl.value.startsWith("https://github.com/")
+      ? pendingDownloadUrl.value.replace("https://github.com/", `${mirror}/https://github.com/`)
+      : null;
+    return {
+      name: mirror.replace(/^https?:\/\//, ""),
+      url: url,
+    };
+  }).filter((m) => m.url);
+});
 
 const versionInfo = reactive({
   version: "检测中...",
@@ -257,12 +293,16 @@ const COMMUNITY_PATH = "/d/Ningbo-S3/shared/jiangling/community";
 const COMMUNITY_BETA_PATH = "/d/Ningbo-S3/shared/jiangling/community-beta";
 const GITHUB_API_BASE = "https://api.github.com/repos/";
 const MIRROR_URLS = [
+  "https://gh-proxy.com",
+  "https://cdn.gh-proxy.com",
+  "https://hk.gh-proxy.com",
+  "https://ghfast.top",
   "https://gh.llkk.cc",
   "https://ghfile.geekertao.top",
   "https://gh.dpik.top",
   "https://github.dpik.top",
   "https://github.acmsz.top",
-  "https://git.yylx.win",
+  "https://git.yylx.win"
 ];
 
 let fastestMirror = null;
@@ -944,13 +984,26 @@ watch(releasesHistory, async (newReleases) => {
   text-align: center;
   max-width: 90%;
   width: 500px;
+  min-height: 400px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease, min-height 0.3s ease;
+  overflow: hidden;
+}
+
+.modal-tab-content {
+  transition: max-height 0.3s ease;
 }
 
 .modal-fade-enter-from .modal-content,
 .modal-fade-leave-to .modal-content {
   transform: scale(0.9);
+  opacity: 0;
+}
+
+.modal-fade-enter-to .modal-content,
+.modal-fade-leave-from .modal-content {
+  transform: scale(1);
+  opacity: 1;
 }
 
 html.dark .modal-content {
@@ -1154,6 +1207,22 @@ html.dark .marker-line {
 
 .modal-tab-content {
   min-height: 300px;
+  position: relative;
+}
+
+.modal-tab-content > div {
+  animation: tabFadeIn 0.35s ease;
+}
+
+@keyframes tabFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .license-content h3,
@@ -1283,6 +1352,74 @@ html.dark .marker-line {
   font-size: 20px;
 }
 
+.mirror-dropdown-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 15px 20px;
+  background: var(--vp-c-brand, #0078d4);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.dropdown-toggle:hover {
+  background: var(--vp-c-brand-dark, #005a9e);
+}
+
+.dropdown-toggle .fa-chevron-down {
+  font-size: 12px;
+  transition: transform 0.3s;
+}
+
+.dropdown-toggle:hover .fa-chevron-down {
+  transform: translateY(2px);
+}
+
+.mirror-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 4px;
+  background: var(--vp-c-bg-soft, #fff);
+  border: 1px solid var(--vp-c-border, #ddd);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.mirror-link {
+  display: block;
+  padding: 12px 20px;
+  color: var(--vp-c-text-1, #333);
+  text-decoration: none;
+  transition: background 0.2s;
+  font-size: 14px;
+}
+
+.mirror-link:hover {
+  background: var(--vp-c-bg-soft, #f5f5f5);
+  color: var(--vp-c-brand, #0078d4);
+}
+
+.mirror-link + .mirror-link {
+  border-top: 1px solid var(--vp-c-border, #eee);
+}
+
 .countdown-tip {
   text-align: center;
   color: var(--vp-c-text-2, #666);
@@ -1342,6 +1479,34 @@ html.dark .license-scroll h4,
 html.dark .license-scroll a,
 html.dark .download-channel {
   color: var(--vp-c-text-1-dark, #fff);
+}
+
+html.dark .dropdown-toggle {
+  background: var(--vp-c-bg-dark, #333);
+  border-color: var(--vp-c-border-dark, #444);
+  color: var(--vp-c-text-1-dark, #fff);
+}
+
+html.dark .dropdown-toggle:hover {
+  background: var(--vp-c-bg-dark, #444);
+}
+
+html.dark .mirror-dropdown {
+  background: var(--vp-c-bg-dark, #333);
+  border-color: var(--vp-c-border-dark, #444);
+}
+
+html.dark .mirror-link {
+  color: var(--vp-c-text-1-dark, #fff);
+}
+
+html.dark .mirror-link:hover {
+  background: var(--vp-c-bg-dark, #444);
+  color: var(--vp-c-brand, #0078d4);
+}
+
+html.dark .mirror-link + .mirror-link {
+  border-top-color: var(--vp-c-border-dark, #444);
 }
 
 html.dark .tab-btn {
