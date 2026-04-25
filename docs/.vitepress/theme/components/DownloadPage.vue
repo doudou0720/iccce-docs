@@ -187,6 +187,20 @@ const props = defineProps({
   },
 });
 
+const parseMarkdown = (content) => {
+  if (!content) return "";
+  let processed = content.replace(
+    /^> \[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]\s*\n([\s\S]*?)(?=\n## |\n--- |\n\n[^>])/gm,
+    (match, type, text) => {
+      const typeClass = type.toLowerCase();
+      const textContent = text.replace(/^> /gm, "").replace(/\n$/, "").trim();
+      const innerHtml = marked.parseInline(textContent);
+      return `<div class="markdown-alert markdown-alert-${typeClass}">\n<p class="markdown-alert-title">${type}</p>\n${innerHtml}\n</div>`;
+    }
+  );
+  return marked.parse(processed);
+};
+
 const getUrlParam = (param) => {
   if (typeof window === "undefined") return null;
   const urlParams = new URLSearchParams(window.location.search);
@@ -326,7 +340,7 @@ const updateVersionDetails = () => {
   const config = apiConfig[currentChannel.value];
   versionInfo.version = selectedRelease.tag_name;
   versionInfo.description = config.description;
-  versionInfo.releaseNotes = selectedRelease.body ? marked.parse(selectedRelease.body) : "";
+  versionInfo.releaseNotes = selectedRelease.body ? parseMarkdown(selectedRelease.body) : "";
 
   const asset = selectedRelease.assets.find(
     (asset) => asset.name.includes("InkCanvasForClass.CE") && asset.name.endsWith(".zip"),
@@ -424,7 +438,7 @@ const loadGplText = async () => {
     const response = await fetch("./license.md");
     if (response.ok) {
       gplText.value = await response.text();
-      gplHtml.value = marked.parse(gplText.value);
+      gplHtml.value = parseMarkdown(gplText.value);
     } else {
       gplError.value = true;
     }
@@ -470,7 +484,7 @@ const fetchChangelog = async (versionTag) => {
     const release = await fetchDataWithMirrors(urls, `未能获取版本 ${versionTag} 的更新说明`);
 
     if (release && release.body) {
-      changelogs[versionTag] = marked.parse(release.body);
+      changelogs[versionTag] = parseMarkdown(release.body);
     } else {
       changelogs[versionTag] = "";
     }

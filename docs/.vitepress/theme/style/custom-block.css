@@ -190,3 +190,92 @@
   left: -5px;
   top: -1px;
 }
+
+/* GitHub 风格的 markdown-alert */
+.markdown-alert {
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 6px;
+  border-left: 4px solid;
+}
+
+.markdown-alert p {
+  margin: 0;
+}
+
+.markdown-alert p + p {
+  margin-top: 8px;
+}
+
+.markdown-alert-title {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.markdown-alert-note {
+  background-color: #f6f8fa;
+  border-left-color: #0969da;
+}
+
+.markdown-alert-note .markdown-alert-title {
+  color: #0969da;
+}
+
+.dark .markdown-alert-note {
+  background-color: #1f2937;
+}
+
+.markdown-alert-tip {
+  background-color: #dafbe1;
+  border-left-color: #1a7f37;
+}
+
+.markdown-alert-tip .markdown-alert-title {
+  color: #1a7f37;
+}
+
+.dark .markdown-alert-tip {
+  background-color: #0d2818;
+}
+
+.markdown-alert-important {
+  background-color: #f4eefe;
+  border-left-color: #8250df;
+}
+
+.markdown-alert-important .markdown-alert-title {
+  color: #8250df;
+}
+
+.dark .markdown-alert-important {
+  background-color: #2e1065;
+}
+
+.markdown-alert-warning {
+  background-color: #fff8c5;
+  border-left-color: #9a6700;
+}
+
+.markdown-alert-warning .markdown-alert-title {
+  color: #9a6700;
+}
+
+.dark .markdown-alert-warning {
+  background-color: #422006;
+}
+
+.markdown-alert-caution {
+  background-color: #ffebe9;
+  border-left-color: #cf222e;
+}
+
+.markdown-alert-caution .markdown-alert-title {
+  color: #cf222e;
+}
+
+.dark .markdown-alert-caution {
+  background-color: #4a1d1f;
+}
