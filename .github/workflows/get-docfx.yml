@@ -66,3 +66,56 @@ jobs:
           git add -A
           git commit -m "Update docfx documentation"
           git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:docfx
+
+  build-vitepress:
+    runs-on: ubuntu-latest
+    needs: build-docfx
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          ref: docfx
+          fetch-depth: 1
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Copy docfx output to docs/dev
+        run: |
+          mkdir -p docs/dev
+          cp -r . docs/dev/
+          rm -rf docs/dev/.git
+
+      - name: Build VitePress
+        run: pnpm build
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Checkout page branch
+        uses: actions/checkout@v5
+        with:
+          ref: page
+          fetch-depth: 0
+
+      - name: Push to page branch
+        run: |
+          rm -rf docs/.vitepress/cache
+          rm -rf docs/.vitepress/dist
+          cp -r docs/.vitepress/dist/. page/
+          git add -A
+          git commit -m "Update VitePress documentation" || echo "No changes to commit"
+          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:page

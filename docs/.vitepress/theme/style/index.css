@@ -5,3 +5,14 @@
 @import "./hidden.css";
 @import "./blur.css";
 @import "./marker.css";
+
+.VPSidebarItem .item {
+  overflow: hidden;
+}
+
+.VPSidebarItem .text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 140px;
+}

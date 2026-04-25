@@ -5,9 +5,6 @@ build:
   tools:
     nodejs: "latest"
   jobs:
-    install:
-      - npm install -g pnpm@latest-10
-      - pnpm install
     build:
       html:
         # The site was created by running `vitepress init`
@@ -15,8 +12,6 @@ build:
         # https://vitepress.dev/guide/getting-started
         - pnpm run build
         - mkdir -p $READTHEDOCS_OUTPUT/html
-        - mkdir -p $READTHEDOCS_OUTPUT/html/docs
-        - git clone --depth 1 --branch docfx https://github.com/doudou0720/iccce-docs docfx-branch --depth 1
-        - cp -r docfx-branch/* $READTHEDOCS_OUTPUT/html/
-        - cp -r docs/.vitepress/dist/* $READTHEDOCS_OUTPUT/html/docs/
+        - git clone --depth 1 --branch page https://github.com/doudou0720/iccce-docs page-branch --depth 1
+        - cp -r page-branch/* $READTHEDOCS_OUTPUT/html/
         - ls $READTHEDOCS_OUTPUT/html/docs

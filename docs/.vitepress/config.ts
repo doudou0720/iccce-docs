@@ -1,6 +1,72 @@
 import { defineConfig } from "vitepress";
 import timeline from "vitepress-markdown-timeline";
 import markedAlert from "marked-alert";
+import fs from "fs";
+import path from "path";
+
+function getDevSidebar() {
+  const devDir = path.resolve(__dirname, "../dev");
+  const files = fs.readdirSync(devDir).filter((f) => f.endsWith(".md"));
+
+  const groups: Record<string, { text: string; items: { text: string; link: string }[] }[]> = {};
+
+  const groupOrder = [
+    "Ink_Canvas",
+    "Ink_Canvas.Helpers",
+    "Ink_Canvas.Controls",
+    "Ink_Canvas.Plugins",
+    "Ink_Canvas.Windows",
+    "Ink_Canvas.ProcessBars",
+    "Ink_Canvas.Models",
+    "Ink_Canvas.Converter",
+    "Ink_Canvas.MarkupExtensions",
+    "Ink_Canvas.Resources",
+    "Ink_Canvas.Properties",
+  ];
+
+  files.forEach((file) => {
+    const name = file.replace(".md", "");
+    const parts = name.split(".");
+    let groupName = parts.slice(0, 2).join(".");
+
+    if (!groups[groupName]) {
+      groups[groupName] = [];
+    }
+
+    const displayName = parts.length > 2 ? parts.slice(2).join(".") : name;
+    groups[groupName].push({
+      text: displayName,
+      link: `/dev/${name}`,
+    });
+  });
+
+  const result: { text: string; collapsed: boolean; items: { text: string; link: string }[] }[] = [];
+
+  groupOrder.forEach((groupName) => {
+    if (groups[groupName]) {
+      const items = groups[groupName].sort((a, b) => a.text.localeCompare(b.text));
+      result.push({
+        text: groupName.replace("Ink_Canvas.", ""),
+        collapsed: true,
+        items: items,
+      });
+      delete groups[groupName];
+    }
+  });
+
+  Object.keys(groups)
+    .sort()
+    .forEach((groupName) => {
+      const items = groups[groupName].sort((a, b) => a.text.localeCompare(b.text));
+      result.push({
+        text: groupName.replace("Ink_Canvas.", ""),
+        collapsed: true,
+        items: items,
+      });
+    });
+
+  return result;
+}
 
 export default defineConfig({
   base:
@@ -44,14 +110,17 @@ export default defineConfig({
         {
           text: "功能文档",
           collapsed: false,
-          items: [{ text: "功能概览", link: "/features/overview" }],
+          items: [
+            { text: "功能概览", link: "/features/overview" },
+            { text: "URI 协议", link: "/features/uri" },
+          ],
         },
       ],
       "/dev/": [
         {
           text: "开发文档",
           collapsed: false,
-          items: [{ text: "URI 协议", link: "/dev/uri" }],
+          items: getDevSidebar(),
         },
       ],
     },

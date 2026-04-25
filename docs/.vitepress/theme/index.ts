@@ -41,15 +41,26 @@ export default {
   setup() {
     const route = useRoute();
     const initZoom = () => {
-      // mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' }); // 默认
-      mediumZoom(".main img", { background: "var(--vp-c-bg)" }); // 不显式添加{data-zoomable}的情况下为所有图像启用此功能
+      mediumZoom(".main img", { background: "var(--vp-c-bg)" });
+    };
+    const initSidebarTooltip = () => {
+      document.querySelectorAll(".VPSidebarItem a").forEach((link) => {
+        const text = link.querySelector(".text")?.textContent;
+        if (text && !link.getAttribute("title")) {
+          link.setAttribute("title", text);
+        }
+      });
     };
     onMounted(() => {
       initZoom();
+      initSidebarTooltip();
     });
     watch(
       () => route.path,
-      () => nextTick(() => initZoom()),
+      () => nextTick(() => {
+        initZoom();
+        initSidebarTooltip();
+      }),
     );
   },
 } as Theme;
