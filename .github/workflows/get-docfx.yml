@@ -101,6 +101,13 @@ jobs:
       - name: Build VitePress
         run: pnpm build
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: vitepress-dist
+          path: docs/.vitepress/dist
+          retention-days: 1
+
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
@@ -112,11 +119,14 @@ jobs:
           ref: page
           fetch-depth: 0
 
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: vitepress-dist
+          path: .
+
       - name: Push to page branch
         run: |
-          rm -rf docs/.vitepress/cache
-          rm -rf docs/.vitepress/dist
-          cp -r docs/.vitepress/dist/. page/
           git add -A
           git commit -m "Update VitePress documentation" || echo "No changes to commit"
           git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:page
