@@ -1,0 +1,18 @@
+version: 2
+
+build:
+  os: ubuntu-lts-latest
+  tools:
+    nodejs: "latest"
+  jobs:
+    post_create_environment:
+      - npm install -g pnpm
+    build:
+      html:
+        - mkdir -p $READTHEDOCS_OUTPUT/
+        - git clone --depth 1 --branch page https://github.com/doudou0720/iccce-docs docs-repo
+        - cd docs-repo
+        - pnpm install
+        - pnpm build
+        - mv docs-repo/docs/.vitepress/dist $READTHEDOCS_OUTPUT/html
+        - ls $READTHEDOCS_OUTPUT/html

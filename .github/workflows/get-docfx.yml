@@ -69,50 +69,29 @@ jobs:
 
   build-vitepress:
     runs-on: ubuntu-latest
-    needs: build-docfx
     steps:
       - name: Checkout v2 branch
         uses: actions/checkout@v5
         with:
           ref: v2
-          fetch-depth: 1
+          fetch-depth: 0
 
       - name: Fetch docfx branch
         uses: actions/checkout@v5
         with:
           ref: docfx
           path: docs/dev
-          fetch-depth: 1
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 24
-          cache: "pnpm"
-
-      - name: Install dependencies
-        run: pnpm install
-
-      - name: Build VitePress
-        run: pnpm build
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: vitepress-dist
-          path: docs/.vitepress/dist
-          retention-days: 1
-          include-hidden-files: true
+          fetch-depth: 0
 
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Merge v2 and docfx branches
+        run: |
+          git checkout v2
+          git merge docfx --no-edit || echo "Already up to date or nothing to merge"
 
       - name: Checkout page branch
         uses: actions/checkout@v5
@@ -120,14 +99,8 @@ jobs:
           ref: page
           fetch-depth: 0
 
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: vitepress-dist
-          path: .
-
-      - name: Push to page branch
+      - name: Merge v2 to page
         run: |
-          git add -A
-          git commit -m "Update VitePress documentation" || echo "No changes to commit"
+          git checkout page
+          git merge v2 --no-edit
           git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:page
