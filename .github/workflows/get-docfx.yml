@@ -107,6 +107,7 @@ jobs:
           name: vitepress-dist
           path: docs/.vitepress/dist
           retention-days: 1
+          include-hidden-files: true
 
       - name: Configure Git
         run: |
