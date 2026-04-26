@@ -5,12 +5,6 @@ on:
   push:
     branches:
       - v2
-    paths-ignore:
-      - "./docs/**"
-      - ".readthedocs.yml"
-      - "package-lock.json"
-      - "package.json"
-      - "pnpm-lock.yaml"
 
 permissions:
   contents: write
@@ -69,6 +63,7 @@ jobs:
 
   build-vitepress:
     runs-on: ubuntu-latest
+    require: build-docfx
     steps:
       - name: Checkout v2 branch
         uses: actions/checkout@v5
@@ -98,6 +93,9 @@ jobs:
         with:
           ref: page
           fetch-depth: 0
+
+      - name: Fetch v2 branch
+        run: git fetch origin v2:v2
 
       - name: Merge v2 to page
         run: |
