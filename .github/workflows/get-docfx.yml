@@ -72,11 +72,10 @@ jobs:
           fetch-depth: 0
 
       - name: Fetch docfx branch
-        uses: actions/checkout@v5
-        with:
-          ref: docfx
-          path: docs/dev
-          fetch-depth: 0
+        run: |
+          git clone --depth 1 --branch docfx https://github.com/${{ github.repository }} /tmp/docfx
+          cp -r /tmp/docfx/* docs/dev/
+          rm -rf /tmp/docfx
 
       - name: Configure Git
         run: |

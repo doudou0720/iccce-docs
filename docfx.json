@@ -8,33 +8,13 @@
           "files": ["**/*.csproj"]
         }
       ],
-      "dest": "api",
-      "allowCompilationErrors": true,
-      "properties": {
-        "TargetFramework": "net472"
-      }
+      "outputFormat": "markdown",
+      "output": "./output",
+      "allowCompilationErrors": true
     }
   ],
   "build": {
-    "content": [
-      {
-        "files": ["**/*.{md,yml}"],
-        "exclude": ["output/**"]
-      }
-    ],
-    "resource": [
-      {
-        "files": ["images/**", "icc.png"]
-      }
-    ],
-    "output": "output",
-    "template": ["default", "modern"],
-    "globalMetadata": {
-      "_appName": "ICC-CE Dev docs",
-      "_appTitle": "InkCanvasForClass CommunityEdition Dev docs",
-      "_disableContribution": true,
-      "_enableSearch": true,
-      "pdf": false
-    }
+    "output": "./output",
+    "template": ["default", "modern"]
   }
 }
