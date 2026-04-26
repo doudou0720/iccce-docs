@@ -72,10 +72,10 @@ export default defineConfig({
   base:
     (process.env.READTHEDOCS_CANONICAL_URL
       ? new URL(process.env.READTHEDOCS_CANONICAL_URL).pathname.replace(/\/$/, "")
-      : "") + "/docs",
+      : "") + "/",
   title: "ICC CE",
   description: "智能课堂绘图增强工具",
-  head: [["link", { rel: "icon", href: "/icc-ce-web/images/logo.webp" }]],
+  head: [["link", { rel: "icon", href: "/images/logo.webp" }]],
   themeConfig: {
     logo: "/images/logo.webp",
     nav: [
@@ -83,7 +83,7 @@ export default defineConfig({
       { text: '<i class="fa-solid fa-book"></i> 指南', link: "/guide/getting-started" },
       { text: '<i class="fa-solid fa-list-ul"></i> 功能', link: "/features/overview" },
       { text: '<i class="fa-solid fa-download"></i> 下载', link: "/download" },
-      { text: '<i class="fa-solid fa-code"></i> 开发文档', link: "/dev/uri" },
+      { text: '<i class="fa-solid fa-code"></i> 开发文档', link: "/dev/index" },
       {
         text: '<i class="fa-solid fa-globe"></i> 官网',
         link: "https://inkcanvasforclass.github.io/",

@@ -23,7 +23,7 @@ hero:
       link: /guide/instruction-manual
     - theme: alt
       text: 开发文档
-      link: /dev/uri
+      link: /dev/index
 
 features:
   - icon: 🖊️
