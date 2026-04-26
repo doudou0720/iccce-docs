@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ROTPPTManager | InkCanvasForClass CommunityEdition Dev docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ROTPPTManager | InkCanvasForClass CommunityEdition Dev docs ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InkCanvasForClass/community/new/v2/apiSpec/new?filename=Ink_Canvas_Helpers_ROTPPTManager.md&amp;value=---%0Auid%3A%20Ink_Canvas.Helpers.ROTPPTManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ICC-CE Dev docs">
+            ICC-CE Dev docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Ink_Canvas.Helpers.ROTPPTManager">
+
+
+
+  <h1 id="Ink_Canvas_Helpers_ROTPPTManager" data-uid="Ink_Canvas.Helpers.ROTPPTManager" class="text-break">
+Class ROTPPTManager  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Ink_Canvas.html">Ink_Canvas</a>.<a class="xref" href="Ink_Canvas.Helpers.html">Helpers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InkCanvasForClass.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ROTPPTManager : IPPTLinkManager, IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">ROTPPTManager</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Ink_Canvas.Helpers.IPPTLinkManager.html">IPPTLinkManager</a></div>
+      <div><span class="xref">IDisposable</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager__ctor_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.#ctor*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager__ctor" data-uid="Ink_Canvas.Helpers.ROTPPTManager.#ctor">
+  ROTPPTManager()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ROTPPTManager()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_CurrentPresentation_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.CurrentPresentation*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_CurrentPresentation" data-uid="Ink_Canvas.Helpers.ROTPPTManager.CurrentPresentation">
+  CurrentPresentation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public dynamic CurrentPresentation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">dynamic</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_CurrentSlide_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.CurrentSlide*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_CurrentSlide" data-uid="Ink_Canvas.Helpers.ROTPPTManager.CurrentSlide">
+  CurrentSlide
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public dynamic CurrentSlide { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">dynamic</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_CurrentSlides_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.CurrentSlides*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_CurrentSlides" data-uid="Ink_Canvas.Helpers.ROTPPTManager.CurrentSlides">
+  CurrentSlides
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public dynamic CurrentSlides { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">dynamic</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_IsConnected_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.IsConnected*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_IsConnected" data-uid="Ink_Canvas.Helpers.ROTPPTManager.IsConnected">
+  IsConnected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsConnected { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_IsInSlideShow_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.IsInSlideShow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_IsInSlideShow" data-uid="Ink_Canvas.Helpers.ROTPPTManager.IsInSlideShow">
+  IsInSlideShow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInSlideShow { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_IsSupportWPS_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.IsSupportWPS*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_IsSupportWPS" data-uid="Ink_Canvas.Helpers.ROTPPTManager.IsSupportWPS">
+  IsSupportWPS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSupportWPS { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_PPTApplication_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.PPTApplication*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_PPTApplication" data-uid="Ink_Canvas.Helpers.ROTPPTManager.PPTApplication">
+  PPTApplication
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public dynamic PPTApplication { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">dynamic</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_SkipAnimationsWhenNavigating_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.SkipAnimationsWhenNavigating*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_SkipAnimationsWhenNavigating" data-uid="Ink_Canvas.Helpers.ROTPPTManager.SkipAnimationsWhenNavigating">
+  SkipAnimationsWhenNavigating
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SkipAnimationsWhenNavigating { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_SlidesCount_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.SlidesCount*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_SlidesCount" data-uid="Ink_Canvas.Helpers.ROTPPTManager.SlidesCount">
+  SlidesCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SlidesCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_Dispose_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.Dispose*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_Dispose" data-uid="Ink_Canvas.Helpers.ROTPPTManager.Dispose">
+  Dispose()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L3545"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_GetCurrentActivePresentation_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.GetCurrentActivePresentation*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_GetCurrentActivePresentation" data-uid="Ink_Canvas.Helpers.ROTPPTManager.GetCurrentActivePresentation">
+  GetCurrentActivePresentation()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L2237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前活跃的演示文稿</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object GetCurrentActivePresentation()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">object</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_GetCurrentSlideNumber_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.GetCurrentSlideNumber*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_GetCurrentSlideNumber" data-uid="Ink_Canvas.Helpers.ROTPPTManager.GetCurrentSlideNumber">
+  GetCurrentSlideNumber()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L2415"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetCurrentSlideNumber()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_GetPptHwnd_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.GetPptHwnd*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_GetPptHwnd" data-uid="Ink_Canvas.Helpers.ROTPPTManager.GetPptHwnd">
+  GetPptHwnd()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L3370"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取PPT窗口句柄</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IntPtr GetPptHwnd()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IntPtr</span></dt>
+    <dd><p>窗口句柄，如果获取失败返回 IntPtr.Zero</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_GetPresentationName_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.GetPresentationName*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_GetPresentationName" data-uid="Ink_Canvas.Helpers.ROTPPTManager.GetPresentationName">
+  GetPresentationName()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L2486"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetPresentationName()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_GetPresentationPath_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.GetPresentationPath*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_GetPresentationPath" data-uid="Ink_Canvas.Helpers.ROTPPTManager.GetPresentationPath">
+  GetPresentationPath()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L2512"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetPresentationPath()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_ReloadConnection_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.ReloadConnection*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_ReloadConnection" data-uid="Ink_Canvas.Helpers.ROTPPTManager.ReloadConnection">
+  ReloadConnection()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>重新加载或重建与 PowerPoint 的连接。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReloadConnection()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_Helpers_ROTPPTManager_ReloadConnection_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>调用后实现应刷新内部连接与状态，必要时重建与 PowerPoint 的会话；此操作可能导致 IsConnected 变化并触发 PPTConnectionChanged 或其他相关事件（例如 SlideShowStateChanged）。</p>
+</div>
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_StartMonitoring_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.StartMonitoring*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_StartMonitoring" data-uid="Ink_Canvas.Helpers.ROTPPTManager.StartMonitoring">
+  StartMonitoring()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>开始监视与 PowerPoint 的连接以及幻灯片放映相关状态，并在状态变化时触发对应事件。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartMonitoring()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_StopMonitoring_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.StopMonitoring*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_StopMonitoring" data-uid="Ink_Canvas.Helpers.ROTPPTManager.StopMonitoring">
+  StopMonitoring()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>停止监控 PowerPoint 的连接与事件，停止接收并处理与演示文稿和幻灯片放映相关的通知。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopMonitoring()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_TryEndSlideShow_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.TryEndSlideShow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_TryEndSlideShow" data-uid="Ink_Canvas.Helpers.ROTPPTManager.TryEndSlideShow">
+  TryEndSlideShow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L2154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>尝试结束当前正在进行的幻灯片放映。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryEndSlideShow()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><code>true</code> 如果放映已成功结束，<code>false</code> 否则。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_TryNavigateNext_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.TryNavigateNext*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_TryNavigateNext" data-uid="Ink_Canvas.Helpers.ROTPPTManager.TryNavigateNext">
+  TryNavigateNext()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L2028"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryNavigateNext()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_TryNavigatePrevious_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.TryNavigatePrevious*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_TryNavigatePrevious" data-uid="Ink_Canvas.Helpers.ROTPPTManager.TryNavigatePrevious">
+  TryNavigatePrevious()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L2091"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryNavigatePrevious()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_TryNavigateToSlide_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.TryNavigateToSlide*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_TryNavigateToSlide_System_Int32_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.TryNavigateToSlide(System.Int32)">
+  TryNavigateToSlide(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L1941"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryNavigateToSlide(int slideNumber)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>slideNumber</code> <span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_TryShowSlideNavigation_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.TryShowSlideNavigation*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_TryShowSlideNavigation" data-uid="Ink_Canvas.Helpers.ROTPPTManager.TryShowSlideNavigation">
+  TryShowSlideNavigation()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L2538"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryShowSlideNavigation()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_ROTPPTManager_TryStartSlideShow_" data-uid="Ink_Canvas.Helpers.ROTPPTManager.TryStartSlideShow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_TryStartSlideShow" data-uid="Ink_Canvas.Helpers.ROTPPTManager.TryStartSlideShow">
+  TryStartSlideShow()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L2206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>尝试启动当前演示文稿的放映模式。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryStartSlideShow()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd><p><code>true</code> 如果放映已成功启动，<code>false</code> 否则。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_PPTConnectionChanged" data-uid="Ink_Canvas.Helpers.ROTPPTManager.PPTConnectionChanged">
+  PPTConnectionChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;bool&gt; PPTConnectionChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Action</span>&lt;<span class="xref">bool</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_PresentationClose" data-uid="Ink_Canvas.Helpers.ROTPPTManager.PresentationClose">
+  PresentationClose
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;object&gt; PresentationClose</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Action</span>&lt;<span class="xref">object</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_PresentationOpen" data-uid="Ink_Canvas.Helpers.ROTPPTManager.PresentationOpen">
+  PresentationOpen
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;object&gt; PresentationOpen</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Action</span>&lt;<span class="xref">object</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_SlideShowBegin" data-uid="Ink_Canvas.Helpers.ROTPPTManager.SlideShowBegin">
+  SlideShowBegin
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;object&gt; SlideShowBegin</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Action</span>&lt;<span class="xref">object</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_SlideShowEnd" data-uid="Ink_Canvas.Helpers.ROTPPTManager.SlideShowEnd">
+  SlideShowEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;object&gt; SlideShowEnd</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Action</span>&lt;<span class="xref">object</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_SlideShowNextSlide" data-uid="Ink_Canvas.Helpers.ROTPPTManager.SlideShowNextSlide">
+  SlideShowNextSlide
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;object&gt; SlideShowNextSlide</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Action</span>&lt;<span class="xref">object</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_Helpers_ROTPPTManager_SlideShowStateChanged" data-uid="Ink_Canvas.Helpers.ROTPPTManager.SlideShowStateChanged">
+  SlideShowStateChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/ROTPPTManager.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;bool&gt; SlideShowStateChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Action</span>&lt;<span class="xref">bool</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

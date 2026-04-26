@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SuperLauncherPlugin | InkCanvasForClass CommunityEdition Dev docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SuperLauncherPlugin | InkCanvasForClass CommunityEdition Dev docs ">
+      
+      <meta name="description" content="超级启动台插件">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InkCanvasForClass/community/new/v2/apiSpec/new?filename=Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin.md&amp;value=---%0Auid%3A%20Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ICC-CE Dev docs">
+            ICC-CE Dev docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin">
+
+
+
+  <h1 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin" class="text-break">
+Class SuperLauncherPlugin  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Ink_Canvas.html">Ink_Canvas</a>.<a class="xref" href="Ink_Canvas.Helpers.html">Helpers</a>.<a class="xref" href="Ink_Canvas.Helpers.Plugins.html">Plugins</a>.<a class="xref" href="Ink_Canvas.Helpers.Plugins.BuiltIn.html">BuiltIn</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InkCanvasForClass.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>超级启动台插件</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SuperLauncherPlugin : PluginBase, IPlugin</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html">PluginBase</a></div>
+      <div><span class="xref">SuperLauncherPlugin</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Ink_Canvas.Helpers.Plugins.IPlugin.html">IPlugin</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_IsEnabled">PluginBase.IsEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_Id">PluginBase.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_PluginPath">PluginBase.PluginPath</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_EnabledStateChanged">PluginBase.EnabledStateChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Ink_Canvas.Helpers.Plugins.PluginBase.html#Ink_Canvas_Helpers_Plugins_PluginBase_OnEnabledStateChanged_System_Boolean_">PluginBase.OnEnabledStateChanged(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Author_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Author*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Author" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Author">
+  Author
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>插件作者</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Author { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Config_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Config*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Config" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Config">
+  Config
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>启动台配置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LauncherConfig Config { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherConfig.html">LauncherConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Description_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Description*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Description" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Description">
+  Description
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>插件描述</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Description { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_IsBuiltIn_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.IsBuiltIn*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_IsBuiltIn" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.IsBuiltIn">
+  IsBuiltIn
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>是否为内置插件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBuiltIn { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_LauncherItems_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.LauncherItems*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_LauncherItems" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.LauncherItems">
+  LauncherItems
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>启动台应用程序列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;LauncherItem&gt; LauncherItems { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherItem.html">LauncherItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Name_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Name*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Name" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>插件名称</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Version_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Version*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Version" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>插件版本</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Version Version { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.version">Version</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_AddLauncherItem_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.AddLauncherItem*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_AddLauncherItem_Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncher_LauncherItem_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.AddLauncherItem(Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherItem)">
+  AddLauncherItem(LauncherItem)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L542"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加应用到启动台</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddLauncherItem(LauncherItem item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncher.LauncherItem.html">LauncherItem</a></dt>
+    <dd><p>启动台项</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Cleanup_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Cleanup*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Cleanup" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Cleanup">
+  Cleanup()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>插件卸载时的清理工作</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Cleanup()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Disable_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Disable*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Disable" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Disable">
+  Disable()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>禁用插件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Disable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Enable_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Enable*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Enable" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Enable">
+  Enable()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>启用插件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Enable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_GetSettingsView_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.GetSettingsView*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_GetSettingsView" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.GetSettingsView">
+  GetSettingsView()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取插件设置界面</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override UserControl GetSettingsView()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol">UserControl</a></dt>
+    <dd><p>插件设置界面</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Initialize_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Initialize*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_Initialize" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.Initialize">
+  Initialize()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>初始化插件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_SaveConfig_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.SaveConfig*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_SaveConfig" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.SaveConfig">
+  SaveConfig()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>保存配置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveConfig()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_SavePluginSettings_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.SavePluginSettings*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_SavePluginSettings" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.SavePluginSettings">
+  SavePluginSettings()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>保存插件设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SavePluginSettings()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_ShowLauncherWindow_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.ShowLauncherWindow*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_ShowLauncherWindow_System_Windows_Point_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.ShowLauncherWindow(System.Windows.Point)">
+  ShowLauncherWindow(Point)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L469"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示启动台窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowLauncherWindow(Point buttonPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>buttonPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd><p>按钮在屏幕上的位置</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_UpdateButtonPosition_" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.UpdateButtonPosition*"></a>
+
+  <h3 id="Ink_Canvas_Helpers_Plugins_BuiltIn_SuperLauncherPlugin_UpdateButtonPosition" data-uid="Ink_Canvas.Helpers.Plugins.BuiltIn.SuperLauncherPlugin.UpdateButtonPosition">
+  UpdateButtonPosition()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/Helpers/Plugins/BuiltIn/SuperLauncherPlugin.cs/#L442"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>更新启动台按钮位置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateButtonPosition()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

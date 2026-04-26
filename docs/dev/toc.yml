@@ -1,0 +1,508 @@
+### YamlMime:TableOfContent
+- name: Ink_Canvas
+  href: Ink_Canvas.md
+  items:
+  - name: Classes
+  - name: AddCustomIconWindow
+    href: Ink_Canvas.AddCustomIconWindow.md
+  - name: AddPickNameBackgroundWindow
+    href: Ink_Canvas.AddPickNameBackgroundWindow.md
+  - name: Advanced
+    href: Ink_Canvas.Advanced.md
+  - name: App
+    href: Ink_Canvas.App.md
+  - name: Appearance
+    href: Ink_Canvas.Appearance.md
+  - name: Automation
+    href: Ink_Canvas.Automation.md
+  - name: CameraSettings
+    href: Ink_Canvas.CameraSettings.md
+  - name: Canvas
+    href: Ink_Canvas.Canvas.md
+  - name: CanvasElementInfo
+    href: Ink_Canvas.CanvasElementInfo.md
+  - name: ChickenSoup
+    href: Ink_Canvas.ChickenSoup.md
+  - name: ClipboardNotification
+    href: Ink_Canvas.ClipboardNotification.md
+  - name: CountdownTimerWindow
+    href: Ink_Canvas.CountdownTimerWindow.md
+  - name: CustomFloatingBarIcon
+    href: Ink_Canvas.CustomFloatingBarIcon.md
+  - name: CustomIconWindow
+    href: Ink_Canvas.CustomIconWindow.md
+  - name: CustomPickNameBackground
+    href: Ink_Canvas.CustomPickNameBackground.md
+  - name: DlassSettings
+    href: Ink_Canvas.DlassSettings.md
+  - name: FloatingWindowInterceptorManager
+    href: Ink_Canvas.FloatingWindowInterceptorManager.md
+  - name: FloatingWindowInterceptorManager.InterceptStatistics
+    href: Ink_Canvas.FloatingWindowInterceptorManager.InterceptStatistics.md
+  - name: FloatingWindowInterceptorSettings
+    href: Ink_Canvas.FloatingWindowInterceptorSettings.md
+  - name: Gesture
+    href: Ink_Canvas.Gesture.md
+  - name: HasNewUpdateWindow
+    href: Ink_Canvas.HasNewUpdateWindow.md
+  - name: HistoryRollbackWindow
+    href: Ink_Canvas.HistoryRollbackWindow.md
+  - name: InkToShape
+    href: Ink_Canvas.InkToShape.md
+  - name: MainWindow
+    href: Ink_Canvas.MainWindow.md
+  - name: ManagePickNameBackgroundsWindow
+    href: Ink_Canvas.ManagePickNameBackgroundsWindow.md
+  - name: ModeSettings
+    href: Ink_Canvas.ModeSettings.md
+  - name: NamesInputWindow
+    href: Ink_Canvas.NamesInputWindow.md
+  - name: NewStyleRollCallWindow
+    href: Ink_Canvas.NewStyleRollCallWindow.md
+  - name: OperatingGuideWindow
+    href: Ink_Canvas.OperatingGuideWindow.md
+  - name: PowerPointSettings
+    href: Ink_Canvas.PowerPointSettings.md
+  - name: PrivacyAgreementWindow
+    href: Ink_Canvas.PrivacyAgreementWindow.md
+  - name: QuickDrawWindow
+    href: Ink_Canvas.QuickDrawWindow.md
+  - name: RandSettings
+    href: Ink_Canvas.RandSettings.md
+  - name: RandWindow
+    href: Ink_Canvas.RandWindow.md
+  - name: RecentRollCallData
+    href: Ink_Canvas.RecentRollCallData.md
+  - name: RollCallHistoryData
+    href: Ink_Canvas.RollCallHistoryData.md
+  - name: RollCallHistoryWindow
+    href: Ink_Canvas.RollCallHistoryWindow.md
+  - name: ScreenshotSelectorWindow
+    href: Ink_Canvas.ScreenshotSelectorWindow.md
+  - name: Security
+    href: Ink_Canvas.Security.md
+  - name: Settings
+    href: Ink_Canvas.Settings.md
+  - name: Startup
+    href: Ink_Canvas.Startup.md
+  - name: TimeViewModel
+    href: Ink_Canvas.TimeViewModel.md
+  - name: UploadSettings
+    href: Ink_Canvas.UploadSettings.md
+  - name: XamlGraphicsIconGeometries
+    href: Ink_Canvas.XamlGraphicsIconGeometries.md
+  - name: YesOrNoNotificationWindow
+    href: Ink_Canvas.YesOrNoNotificationWindow.md
+  - name: Structs
+  - name: ScreenshotResult
+    href: Ink_Canvas.ScreenshotResult.md
+  - name: Enums
+  - name: App.CrashActionType
+    href: Ink_Canvas.App.CrashActionType.md
+  - name: HasNewUpdateWindow.UpdateResult
+    href: Ink_Canvas.HasNewUpdateWindow.UpdateResult.md
+  - name: OptionalOperation
+    href: Ink_Canvas.OptionalOperation.md
+  - name: TelemetryUploadLevel
+    href: Ink_Canvas.TelemetryUploadLevel.md
+  - name: UpdateChannel
+    href: Ink_Canvas.UpdateChannel.md
+  - name: UpdatePackageArchitecture
+    href: Ink_Canvas.UpdatePackageArchitecture.md
+- name: Ink_Canvas.Controls
+  href: Ink_Canvas.Controls.md
+  items:
+  - name: Classes
+  - name: BoardToolbarButton
+    href: Ink_Canvas.Controls.BoardToolbarButton.md
+  - name: CircularColorButton
+    href: Ink_Canvas.Controls.CircularColorButton.md
+  - name: ColorPickerButton
+    href: Ink_Canvas.Controls.ColorPickerButton.md
+  - name: CopyButton
+    href: Ink_Canvas.Controls.CopyButton.md
+  - name: GeometryButton
+    href: Ink_Canvas.Controls.GeometryButton.md
+  - name: LabeledSettingsCard
+    href: Ink_Canvas.Controls.LabeledSettingsCard.md
+  - name: LabeledToggleSwitch
+    href: Ink_Canvas.Controls.LabeledToggleSwitch.md
+  - name: PdfEmbeddedView
+    href: Ink_Canvas.Controls.PdfEmbeddedView.md
+  - name: PenColorButton
+    href: Ink_Canvas.Controls.PenColorButton.md
+  - name: QuickDrawFloatingButtonControl
+    href: Ink_Canvas.Controls.QuickDrawFloatingButtonControl.md
+  - name: QuickPanelButton
+    href: Ink_Canvas.Controls.QuickPanelButton.md
+  - name: ToolMenuButton
+    href: Ink_Canvas.Controls.ToolMenuButton.md
+  - name: ToolbarImageButton
+    href: Ink_Canvas.Controls.ToolbarImageButton.md
+  - name: Enums
+  - name: ButtonPosition
+    href: Ink_Canvas.Controls.ButtonPosition.md
+- name: Ink_Canvas.Converter
+  href: Ink_Canvas.Converter.md
+  items:
+  - name: Classes
+  - name: BooleanToVisibilityConverter
+    href: Ink_Canvas.Converter.BooleanToVisibilityConverter.md
+  - name: IntNumberToString
+    href: Ink_Canvas.Converter.IntNumberToString.md
+  - name: IntNumberToString2
+    href: Ink_Canvas.Converter.IntNumberToString2.md
+  - name: InverseBooleanToVisibilityConverter
+    href: Ink_Canvas.Converter.InverseBooleanToVisibilityConverter.md
+  - name: IsEnabledToOpacityConverter
+    href: Ink_Canvas.Converter.IsEnabledToOpacityConverter.md
+  - name: RippleEffectTranslationConverter
+    href: Ink_Canvas.Converter.RippleEffectTranslationConverter.md
+  - name: StringToGeometryConverter
+    href: Ink_Canvas.Converter.StringToGeometryConverter.md
+  - name: VisibilityConverter
+    href: Ink_Canvas.Converter.VisibilityConverter.md
+- name: Ink_Canvas.Helpers
+  href: Ink_Canvas.Helpers.md
+  items:
+  - name: Classes
+  - name: AdvancedBezierSmoothing
+    href: Ink_Canvas.Helpers.AdvancedBezierSmoothing.md
+  - name: AppRestartHelper
+    href: Ink_Canvas.Helpers.AppRestartHelper.md
+  - name: AsyncAdvancedBezierSmoothing
+    href: Ink_Canvas.Helpers.AsyncAdvancedBezierSmoothing.md
+  - name: AutoBackupManager
+    href: Ink_Canvas.Helpers.AutoBackupManager.md
+  - name: AutoFontSizeHelper
+    href: Ink_Canvas.Helpers.AutoFontSizeHelper.md
+  - name: AvoidFullScreenHelper
+    href: Ink_Canvas.Helpers.AvoidFullScreenHelper.md
+  - name: BaseUploadQueue
+    href: Ink_Canvas.Helpers.BaseUploadQueue.md
+  - name: CameraService
+    href: Ink_Canvas.Helpers.CameraService.md
+  - name: Circle
+    href: Ink_Canvas.Helpers.Circle.md
+  - name: ComPPTLinkManager
+    href: Ink_Canvas.Helpers.ComPPTLinkManager.md
+  - name: ConfigProfileManager
+    href: Ink_Canvas.Helpers.ConfigProfileManager.md
+  - name: DelayAction
+    href: Ink_Canvas.Helpers.DelayAction.md
+  - name: DlassApiClient
+    href: Ink_Canvas.Helpers.DlassApiClient.md
+  - name: DlassUploadProvider
+    href: Ink_Canvas.Helpers.DlassUploadProvider.md
+  - name: DlassUploadQueue
+    href: Ink_Canvas.Helpers.DlassUploadQueue.md
+  - name: DlassUploadQueue.UploadNoteResponse
+    href: Ink_Canvas.Helpers.DlassUploadQueue.UploadNoteResponse.md
+  - name: EdgeGestureUtil
+    href: Ink_Canvas.Helpers.EdgeGestureUtil.md
+  - name: ExternalCallerLauncher
+    href: Ink_Canvas.Helpers.ExternalCallerLauncher.md
+  - name: FileAssociationManager
+    href: Ink_Canvas.Helpers.FileAssociationManager.md
+  - name: FloatingWindowInterceptor
+    href: Ink_Canvas.Helpers.FloatingWindowInterceptor.md
+  - name: FloatingWindowInterceptor.InterceptRule
+    href: Ink_Canvas.Helpers.FloatingWindowInterceptor.InterceptRule.md
+  - name: FloatingWindowInterceptor.WindowInterceptedEventArgs
+    href: Ink_Canvas.Helpers.FloatingWindowInterceptor.WindowInterceptedEventArgs.md
+  - name: FloatingWindowInterceptor.WindowRestoredEventArgs
+    href: Ink_Canvas.Helpers.FloatingWindowInterceptor.WindowRestoredEventArgs.md
+  - name: FullScreenHelper
+    href: Ink_Canvas.Helpers.FullScreenHelper.md
+  - name: GlobalHotkeyManager
+    href: Ink_Canvas.Helpers.GlobalHotkeyManager.md
+  - name: GlobalHotkeyManager.HotkeyInfo
+    href: Ink_Canvas.Helpers.GlobalHotkeyManager.HotkeyInfo.md
+  - name: HandwritingRecognitionResult
+    href: Ink_Canvas.Helpers.HandwritingRecognitionResult.md
+  - name: HandwritingWordSegment
+    href: Ink_Canvas.Helpers.HandwritingWordSegment.md
+  - name: HardwareAcceleratedInkProcessor
+    href: Ink_Canvas.Helpers.HardwareAcceleratedInkProcessor.md
+  - name: IACoreDllExtractor
+    href: Ink_Canvas.Helpers.IACoreDllExtractor.md
+  - name: ImprovedBezierSmoothing
+    href: Ink_Canvas.Helpers.ImprovedBezierSmoothing.md
+  - name: InkFadeManager
+    href: Ink_Canvas.Helpers.InkFadeManager.md
+  - name: InkRecognitionManager
+    href: Ink_Canvas.Helpers.InkRecognitionManager.md
+  - name: InkRecognizeHelper
+    href: Ink_Canvas.Helpers.InkRecognizeHelper.md
+  - name: InkShapeRecognitionResult
+    href: Ink_Canvas.Helpers.InkShapeRecognitionResult.md
+  - name: InkSmoothingConfig
+    href: Ink_Canvas.Helpers.InkSmoothingConfig.md
+  - name: InkSmoothingEventArgs
+    href: Ink_Canvas.Helpers.InkSmoothingEventArgs.md
+  - name: InkSmoothingManager
+    href: Ink_Canvas.Helpers.InkSmoothingManager.md
+  - name: InkSmoothingPerformanceMonitor
+    href: Ink_Canvas.Helpers.InkSmoothingPerformanceMonitor.md
+  - name: LocalizationHelper
+    href: Ink_Canvas.Helpers.LocalizationHelper.md
+  - name: PPTInkManager
+    href: Ink_Canvas.Helpers.PPTInkManager.md
+  - name: PPTManager
+    href: Ink_Canvas.Helpers.PPTManager.md
+  - name: PPTROTConnectionHelper
+    href: Ink_Canvas.Helpers.PPTROTConnectionHelper.md
+  - name: PPTUIManager
+    href: Ink_Canvas.Helpers.PPTUIManager.md
+  - name: ROTPPTManager
+    href: Ink_Canvas.Helpers.ROTPPTManager.md
+  - name: SafeZipExtractor
+    href: Ink_Canvas.Helpers.SafeZipExtractor.md
+  - name: ScreenDetectionHelper
+    href: Ink_Canvas.Helpers.ScreenDetectionHelper.md
+  - name: ShapeRecognitionRouter
+    href: Ink_Canvas.Helpers.ShapeRecognitionRouter.md
+  - name: ShapeRecognizeResult
+    href: Ink_Canvas.Helpers.ShapeRecognizeResult.md
+  - name: StartupCount
+    href: Ink_Canvas.Helpers.StartupCount.md
+  - name: StrokeVisual
+    href: Ink_Canvas.Helpers.StrokeVisual.md
+  - name: TimeMachine
+    href: Ink_Canvas.Helpers.TimeMachine.md
+  - name: TimeMachineHistory
+    href: Ink_Canvas.Helpers.TimeMachineHistory.md
+  - name: UIAccessDllExtractor
+    href: Ink_Canvas.Helpers.UIAccessDllExtractor.md
+  - name: UploadHelper
+    href: Ink_Canvas.Helpers.UploadHelper.md
+  - name: UploadQueueHelper
+    href: Ink_Canvas.Helpers.UploadQueueHelper.md
+  - name: UploadQueueItem
+    href: Ink_Canvas.Helpers.UploadQueueItem.md
+  - name: UploadQueueItemData
+    href: Ink_Canvas.Helpers.UploadQueueItemData.md
+  - name: UriSchemeHelper
+    href: Ink_Canvas.Helpers.UriSchemeHelper.md
+  - name: VisualCanvas
+    href: Ink_Canvas.Helpers.VisualCanvas.md
+  - name: WebDavUploadProvider
+    href: Ink_Canvas.Helpers.WebDavUploadProvider.md
+  - name: WebDavUploadQueue
+    href: Ink_Canvas.Helpers.WebDavUploadQueue.md
+  - name: WebDavUploader
+    href: Ink_Canvas.Helpers.WebDavUploader.md
+  - name: WindowInfo
+    href: Ink_Canvas.Helpers.WindowInfo.md
+  - name: WindowOverviewModel
+    href: Ink_Canvas.Helpers.WindowOverviewModel.md
+  - name: WindowZOrderManager
+    href: Ink_Canvas.Helpers.WindowZOrderManager.md
+  - name: Structs
+  - name: EdgeGestureUtil.PropVariant
+    href: Ink_Canvas.Helpers.EdgeGestureUtil.PropVariant.md
+  - name: EdgeGestureUtil.PropertyKey
+    href: Ink_Canvas.Helpers.EdgeGestureUtil.PropertyKey.md
+  - name: PPTManager.RECT
+    href: Ink_Canvas.Helpers.PPTManager.RECT.md
+  - name: ROTPPTManager.RECT
+    href: Ink_Canvas.Helpers.ROTPPTManager.RECT.md
+  - name: WindowRect
+    href: Ink_Canvas.Helpers.WindowRect.md
+  - name: Interfaces
+  - name: EdgeGestureUtil.IPropertyStore
+    href: Ink_Canvas.Helpers.EdgeGestureUtil.IPropertyStore.md
+  - name: IPPTLinkManager
+    href: Ink_Canvas.Helpers.IPPTLinkManager.md
+  - name: IUploadProvider
+    href: Ink_Canvas.Helpers.IUploadProvider.md
+  - name: Enums
+  - name: FloatingWindowInterceptor.InterceptType
+    href: Ink_Canvas.Helpers.FloatingWindowInterceptor.InterceptType.md
+  - name: FullScreenHelper.WindowPositionFlags
+    href: Ink_Canvas.Helpers.FullScreenHelper.WindowPositionFlags.md
+  - name: InkSmoothingConfig.InkSmoothingQuality
+    href: Ink_Canvas.Helpers.InkSmoothingConfig.InkSmoothingQuality.md
+  - name: InkSmoothingConfig.SmoothingQuality
+    href: Ink_Canvas.Helpers.InkSmoothingConfig.SmoothingQuality.md
+  - name: RecognizeLanguage
+    href: Ink_Canvas.Helpers.RecognizeLanguage.md
+  - name: ShapeRecognitionEngineMode
+    href: Ink_Canvas.Helpers.ShapeRecognitionEngineMode.md
+  - name: TimeMachineHistoryType
+    href: Ink_Canvas.Helpers.TimeMachineHistoryType.md
+  - name: Delegates
+  - name: TimeMachine.OnRedoStateChange
+    href: Ink_Canvas.Helpers.TimeMachine.OnRedoStateChange.md
+  - name: TimeMachine.OnUndoStateChange
+    href: Ink_Canvas.Helpers.TimeMachine.OnUndoStateChange.md
+- name: Ink_Canvas.MarkupExtensions
+  href: Ink_Canvas.MarkupExtensions.md
+  items:
+  - name: Classes
+  - name: I18nExtension
+    href: Ink_Canvas.MarkupExtensions.I18nExtension.md
+- name: Ink_Canvas.Models
+  href: Ink_Canvas.Models.md
+  items:
+  - name: Classes
+  - name: CapturedImage
+    href: Ink_Canvas.Models.CapturedImage.md
+- name: Ink_Canvas.Plugins
+  href: Ink_Canvas.Plugins.md
+  items:
+  - name: Classes
+  - name: AppRestartService
+    href: Ink_Canvas.Plugins.AppRestartService.md
+  - name: InkCanvasService
+    href: Ink_Canvas.Plugins.InkCanvasService.md
+  - name: PluginBase
+    href: Ink_Canvas.Plugins.PluginBase.md
+  - name: PluginInfo
+    href: Ink_Canvas.Plugins.PluginInfo.md
+  - name: PluginManager
+    href: Ink_Canvas.Plugins.PluginManager.md
+  - name: Interfaces
+  - name: IAppRestartService
+    href: Ink_Canvas.Plugins.IAppRestartService.md
+  - name: IInkCanvasService
+    href: Ink_Canvas.Plugins.IInkCanvasService.md
+  - name: IPlugin
+    href: Ink_Canvas.Plugins.IPlugin.md
+  - name: IPluginHost
+    href: Ink_Canvas.Plugins.IPluginHost.md
+- name: Ink_Canvas.ProcessBars
+  href: Ink_Canvas.ProcessBars.md
+  items:
+  - name: Classes
+  - name: CycleProcessBar
+    href: Ink_Canvas.ProcessBars.CycleProcessBar.md
+- name: Ink_Canvas.Properties
+  href: Ink_Canvas.Properties.md
+  items:
+  - name: Classes
+  - name: Strings
+    href: Ink_Canvas.Properties.Strings.md
+- name: Ink_Canvas.Resources.ICCConfiguration
+  href: Ink_Canvas.Resources.ICCConfiguration.md
+  items:
+  - name: Classes
+  - name: ICCConfiguration
+    href: Ink_Canvas.Resources.ICCConfiguration.ICCConfiguration.md
+  - name: ICCFloatingBarConfiguration
+    href: Ink_Canvas.Resources.ICCConfiguration.ICCFloatingBarConfiguration.md
+  - name: NearSnapAreaSize
+    href: Ink_Canvas.Resources.ICCConfiguration.NearSnapAreaSize.md
+  - name: Enums
+  - name: ElementCornerRadiusTypes
+    href: Ink_Canvas.Resources.ICCConfiguration.ElementCornerRadiusTypes.md
+  - name: InitialPositionTypes
+    href: Ink_Canvas.Resources.ICCConfiguration.InitialPositionTypes.md
+- name: Ink_Canvas.Windows
+  href: Ink_Canvas.Windows.md
+  items:
+  - name: Classes
+  - name: AuthWithTokenResponse
+    href: Ink_Canvas.Windows.AuthWithTokenResponse.md
+  - name: ClassSelectionItem
+    href: Ink_Canvas.Windows.ClassSelectionItem.md
+  - name: CloudStorageManagementWindow
+    href: Ink_Canvas.Windows.CloudStorageManagementWindow.md
+  - name: FullscreenTimerWindow
+    href: Ink_Canvas.Windows.FullscreenTimerWindow.md
+  - name: HotkeyChangedEventArgs
+    href: Ink_Canvas.Windows.HotkeyChangedEventArgs.md
+  - name: HotkeyItem
+    href: Ink_Canvas.Windows.HotkeyItem.md
+  - name: HotkeySettingsWindow
+    href: Ink_Canvas.Windows.HotkeySettingsWindow.md
+  - name: MinimizedTimerControl
+    href: Ink_Canvas.Windows.MinimizedTimerControl.md
+  - name: OobeWindow
+    href: Ink_Canvas.Windows.OobeWindow.md
+  - name: PPTQuickPanel
+    href: Ink_Canvas.Windows.PPTQuickPanel.md
+  - name: PPTTimeCapsule
+    href: Ink_Canvas.Windows.PPTTimeCapsule.md
+  - name: RecentTimersData
+    href: Ink_Canvas.Windows.RecentTimersData.md
+  - name: SplashScreen
+    href: Ink_Canvas.Windows.SplashScreen.md
+  - name: TimerControl
+    href: Ink_Canvas.Windows.TimerControl.md
+  - name: UserInfo
+    href: Ink_Canvas.Windows.UserInfo.md
+  - name: WhiteboardInfo
+    href: Ink_Canvas.Windows.WhiteboardInfo.md
+- name: Ink_Canvas.Windows.Controls
+  href: Ink_Canvas.Windows.Controls.md
+  items:
+  - name: Classes
+  - name: WinUI3CloseButton
+    href: Ink_Canvas.Windows.Controls.WinUI3CloseButton.md
+- name: Ink_Canvas.Windows.SettingsViews
+  href: Ink_Canvas.Windows.SettingsViews.md
+  items:
+  - name: Classes
+  - name: SettingsWindow
+    href: Ink_Canvas.Windows.SettingsViews.SettingsWindow.md
+- name: Ink_Canvas.Windows.SettingsViews.Helpers
+  href: Ink_Canvas.Windows.SettingsViews.Helpers.md
+  items:
+  - name: Classes
+  - name: AutoStartHelper
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.AutoStartHelper.md
+  - name: MainWindowSettingsHelper
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.MainWindowSettingsHelper.md
+  - name: SettingsManager
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.SettingsManager.md
+  - name: TopMostModeButtonItem
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.TopMostModeButtonItem.md
+  - name: TopMostModeSelectionItem
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.TopMostModeSelectionItem.md
+  - name: TopMostModeTemplateSelector
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.TopMostModeTemplateSelector.md
+  - name: WindowSettingsHelper
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.WindowSettingsHelper.md
+- name: Ink_Canvas.Windows.SettingsViews.Pages
+  href: Ink_Canvas.Windows.SettingsViews.Pages.md
+  items:
+  - name: Classes
+  - name: AboutPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.AboutPage.md
+  - name: AdvancedPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.AdvancedPage.md
+  - name: AppearancePage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.AppearancePage.md
+  - name: AutomationPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.AutomationPage.md
+  - name: AvatarItem
+    href: Ink_Canvas.Windows.SettingsViews.Pages.AvatarItem.md
+  - name: CanvasPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.CanvasPage.md
+  - name: ExperimentalPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.ExperimentalPage.md
+  - name: HomePage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.HomePage.md
+  - name: IconographyPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.IconographyPage.md
+  - name: InkRecognitionPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.InkRecognitionPage.md
+  - name: PluginPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.PluginPage.md
+  - name: PluginSettingsPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.PluginSettingsPage.md
+  - name: PowerPointPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.PowerPointPage.md
+  - name: PrivacyPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.PrivacyPage.md
+  - name: RandomDrawPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.RandomDrawPage.md
+  - name: SettingsPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.SettingsPage.md
+  - name: StartupPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.StartupPage.md
+  - name: UpdatePage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.UpdatePage.md
+  - name: WindowPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.WindowPage.md

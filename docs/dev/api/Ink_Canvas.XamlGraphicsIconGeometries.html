@@ -1,0 +1,1879 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class XamlGraphicsIconGeometries | InkCanvasForClass CommunityEdition Dev docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class XamlGraphicsIconGeometries | InkCanvasForClass CommunityEdition Dev docs ">
+      
+      <meta name="description" content="图标几何路径定义类，包含各种工具图标的XAML几何路径">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InkCanvasForClass/community/new/v2/apiSpec/new?filename=Ink_Canvas_XamlGraphicsIconGeometries.md&amp;value=---%0Auid%3A%20Ink_Canvas.XamlGraphicsIconGeometries%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ICC-CE Dev docs">
+            ICC-CE Dev docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Ink_Canvas.XamlGraphicsIconGeometries">
+
+
+
+  <h1 id="Ink_Canvas_XamlGraphicsIconGeometries" data-uid="Ink_Canvas.XamlGraphicsIconGeometries" class="text-break">
+Class XamlGraphicsIconGeometries  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Ink_Canvas.html">Ink_Canvas</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InkCanvasForClass.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>图标几何路径定义类，包含各种工具图标的XAML几何路径</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class XamlGraphicsIconGeometries</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">XamlGraphicsIconGeometries</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+  <h2 id="Ink_Canvas_XamlGraphicsIconGeometries_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>该类定义了应用程序中使用的所有工具图标，包括：</p>
+<ul>
+<li>光标图标</li>
+<li>画笔图标</li>
+<li>橡皮擦图标</li>
+<li>选择工具图标</li>
+<li>手势图标</li>
+<li>老版本浮动栏图标
+每个图标都有实线(Lined)和虚线(Solid)两种变体</li>
+</ul>
+</div>
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_ClearInkIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.ClearInkIconGeometry">
+  ClearInkIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ClearInkIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_ClipGeometry24x24" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.ClipGeometry24x24">
+  ClipGeometry24x24
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ClipGeometry24x24</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_CursorWithDelFloatingBarBtnIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.CursorWithDelFloatingBarBtnIcon">
+  CursorWithDelFloatingBarBtnIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>鼠并清</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CursorWithDelFloatingBarBtnIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_DeleteIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.DeleteIcon">
+  DeleteIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DeleteIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_DisabledGestureIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.DisabledGestureIcon">
+  DisabledGestureIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>禁用手势图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DisabledGestureIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_DisabledGestureIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>用于表示手势功能已禁用的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_EnabledGestureIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.EnabledGestureIcon">
+  EnabledGestureIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>启用手势图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string EnabledGestureIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_EnabledGestureIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>用于表示手势功能已启用的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_EnabledGestureIconBadgeCheck" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.EnabledGestureIconBadgeCheck">
+  EnabledGestureIconBadgeCheck
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>启用手势图标徽章（带勾选标记）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string EnabledGestureIconBadgeCheck</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_EnabledGestureIconBadgeCheck_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>用于表示手势功能已启用并带有勾选标记的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_FoldIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.FoldIcon">
+  FoldIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FoldIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LegacyLinedCursorIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LegacyLinedCursorIcon">
+  LegacyLinedCursorIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>老版虚线光标图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LegacyLinedCursorIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LegacyLinedCursorIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>老版浮动栏中用于表示鼠标模式的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LegacyLinedEraserCircleIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LegacyLinedEraserCircleIcon">
+  LegacyLinedEraserCircleIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>老版虚线橡皮擦图标（圆形擦除模式）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LegacyLinedEraserCircleIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LegacyLinedEraserCircleIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>老版浮动栏中用于表示橡皮擦工具的圆形擦除模式的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LegacyLinedEraserStrokeIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LegacyLinedEraserStrokeIcon">
+  LegacyLinedEraserStrokeIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>老版虚线橡皮擦图标（按笔画擦除模式）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LegacyLinedEraserStrokeIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LegacyLinedEraserStrokeIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>老版浮动栏中用于表示橡皮擦工具的按笔画擦除模式的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LegacyLinedLassoSelectIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LegacyLinedLassoSelectIcon">
+  LegacyLinedLassoSelectIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>老版虚线套索选择工具图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LegacyLinedLassoSelectIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LegacyLinedLassoSelectIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>老版浮动栏中用于表示套索选择工具的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LegacyLinedPenIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LegacyLinedPenIcon">
+  LegacyLinedPenIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>老版虚线画笔图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LegacyLinedPenIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LegacyLinedPenIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>老版浮动栏中用于表示画笔工具的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LegacySolidCursorIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LegacySolidCursorIcon">
+  LegacySolidCursorIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>老版实线光标图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LegacySolidCursorIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LegacySolidCursorIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>老版浮动栏中用于表示鼠标模式的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LegacySolidEraserCircleIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LegacySolidEraserCircleIcon">
+  LegacySolidEraserCircleIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>老版实线橡皮擦图标（圆形擦除模式）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LegacySolidEraserCircleIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LegacySolidEraserCircleIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>老版浮动栏中用于表示橡皮擦工具的圆形擦除模式的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LegacySolidEraserStrokeIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LegacySolidEraserStrokeIcon">
+  LegacySolidEraserStrokeIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>老版实线橡皮擦图标（按笔画擦除模式）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LegacySolidEraserStrokeIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LegacySolidEraserStrokeIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>老版浮动栏中用于表示橡皮擦工具的按笔画擦除模式的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LegacySolidLassoSelectIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LegacySolidLassoSelectIcon">
+  LegacySolidLassoSelectIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>老版实线套索选择工具图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LegacySolidLassoSelectIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LegacySolidLassoSelectIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>老版浮动栏中用于表示套索选择工具的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LegacySolidPenIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LegacySolidPenIcon">
+  LegacySolidPenIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>老版实线画笔图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LegacySolidPenIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LegacySolidPenIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>老版浮动栏中用于表示画笔工具的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LinedCursorIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LinedCursorIcon">
+  LinedCursorIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>虚线光标图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LinedCursorIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LinedCursorIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>用于表示鼠标模式的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LinedEraserCircleIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LinedEraserCircleIcon">
+  LinedEraserCircleIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>虚线橡皮擦图标（圆形擦除模式）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LinedEraserCircleIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LinedEraserCircleIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>用于表示橡皮擦工具的圆形擦除模式的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LinedEraserStrokeIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LinedEraserStrokeIcon">
+  LinedEraserStrokeIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>虚线橡皮擦图标（按笔画擦除模式）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LinedEraserStrokeIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LinedEraserStrokeIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>用于表示橡皮擦工具的按笔画擦除模式的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LinedLassoSelectIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LinedLassoSelectIcon">
+  LinedLassoSelectIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>虚线套索选择工具图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LinedLassoSelectIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LinedLassoSelectIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>用于表示套索选择工具的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_LinedPenIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.LinedPenIcon">
+  LinedPenIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>虚线画笔图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LinedPenIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_LinedPenIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>用于表示画笔工具的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_ManualIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.ManualIconGeometry">
+  ManualIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ManualIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_NavAboutIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.NavAboutIconGeometry">
+  NavAboutIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NavAboutIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_NavAdvancedIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.NavAdvancedIconGeometry">
+  NavAdvancedIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NavAdvancedIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_NavAutomationIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.NavAutomationIconGeometry">
+  NavAutomationIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NavAutomationIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_NavCanvasIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.NavCanvasIconGeometry">
+  NavCanvasIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NavCanvasIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_NavCollapseSidebarIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.NavCollapseSidebarIconGeometry">
+  NavCollapseSidebarIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NavCollapseSidebarIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_NavInkRecognitionIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.NavInkRecognitionIconGeometry">
+  NavInkRecognitionIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NavInkRecognitionIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_NavPPTIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.NavPPTIconGeometry">
+  NavPPTIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NavPPTIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_NavRandomWindowIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.NavRandomWindowIconGeometry">
+  NavRandomWindowIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NavRandomWindowIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_NavShortcutsIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.NavShortcutsIconGeometry">
+  NavShortcutsIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NavShortcutsIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_NavShowSidebarIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.NavShowSidebarIconGeometry">
+  NavShowSidebarIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NavShowSidebarIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_NavStartupIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.NavStartupIconGeometry">
+  NavStartupIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NavStartupIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_NavThemeIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.NavThemeIconGeometry">
+  NavThemeIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string NavThemeIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_OpenIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.OpenIconGeometry">
+  OpenIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string OpenIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_RandomDrawIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.RandomDrawIconGeometry">
+  RandomDrawIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string RandomDrawIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_RedoIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.RedoIcon">
+  RedoIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string RedoIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_ReplayIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.ReplayIconGeometry">
+  ReplayIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReplayIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_SaveIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.SaveIconGeometry">
+  SaveIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SaveIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_ScreenshotIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.ScreenshotIconGeometry">
+  ScreenshotIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ScreenshotIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_SettingsIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.SettingsIconGeometry">
+  SettingsIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SettingsIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_ShapesIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.ShapesIcon">
+  ShapesIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ShapesIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_SingleDrawIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.SingleDrawIconGeometry">
+  SingleDrawIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SingleDrawIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_SolidCursorIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.SolidCursorIcon">
+  SolidCursorIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>实线光标图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SolidCursorIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_SolidCursorIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>用于表示鼠标模式的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_SolidEraserCircleIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.SolidEraserCircleIcon">
+  SolidEraserCircleIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>实线橡皮擦图标（圆形擦除模式）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SolidEraserCircleIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_SolidEraserCircleIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>用于表示橡皮擦工具的圆形擦除模式的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_SolidEraserStrokeIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.SolidEraserStrokeIcon">
+  SolidEraserStrokeIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>实线橡皮擦图标（按笔画擦除模式）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SolidEraserStrokeIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_SolidEraserStrokeIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>用于表示橡皮擦工具的按笔画擦除模式的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_SolidLassoSelectIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.SolidLassoSelectIcon">
+  SolidLassoSelectIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>实线套索选择工具图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SolidLassoSelectIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_SolidLassoSelectIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>用于表示套索选择工具的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_SolidPenIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.SolidPenIcon">
+  SolidPenIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>实线画笔图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SolidPenIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Ink_Canvas_XamlGraphicsIconGeometries_SolidPenIcon_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>用于表示画笔工具的图标</p>
+</div>
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_TimerIconGeometry" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.TimerIconGeometry">
+  TimerIconGeometry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TimerIconGeometry</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_ToolsFloatingBarBtnIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.ToolsFloatingBarBtnIcon">
+  ToolsFloatingBarBtnIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToolsFloatingBarBtnIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_UndoIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.UndoIcon">
+  UndoIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UndoIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Ink_Canvas_XamlGraphicsIconGeometries_WhiteboardFloatingBarBtnIcon" data-uid="Ink_Canvas.XamlGraphicsIconGeometries.WhiteboardFloatingBarBtnIcon">
+  WhiteboardFloatingBarBtnIcon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/InkCanvasForClass/community/blob/v2/Ink Canvas/MainWindow_cs/MW_Icons.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>白板</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string WhiteboardFloatingBarBtnIcon</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
