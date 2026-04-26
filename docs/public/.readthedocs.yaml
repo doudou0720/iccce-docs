@@ -10,5 +10,7 @@ build:
         # The site was created by running `vitepress init`
         # and following the official guide
         # https://vitepress.dev/guide/getting-started
-        - mkdir -p $READTHEDOCS_OUTPUT/html
-        - cp -r ./* $READTHEDOCS_OUTPUT/html/
+        - mkdir -p $READTHEDOCS_OUTPUT/
+        - git clone --depth 1 --branch page https://github.com/doudou0720/iccce-docs page-branch
+        - mv -r page-branch $READTHEDOCS_OUTPUT/html
+        - ls $READTHEDOCS_OUTPUT/html
