@@ -77,15 +77,15 @@ jobs:
           cp -r /tmp/docfx/* docs/dev/
           rm -rf /tmp/docfx
 
-      - name: Configure Git
+      - name: Merge v2 and docfx locally
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Merge v2 and docfx branches
-        run: |
           git checkout v2
           git merge docfx --no-edit || echo "Already up to date or nothing to merge"
+
+      - name: Copy docs/dev to temp
+        run: cp -r docs/dev /tmp/dev
 
       - name: Checkout page branch
         uses: actions/checkout@v5
@@ -93,11 +93,10 @@ jobs:
           ref: page
           fetch-depth: 0
 
-      - name: Fetch v2 branch
-        run: git fetch origin v2:v2
-
-      - name: Merge v2 to page
+      - name: Copy docs/dev to page
         run: |
-          git checkout page
-          git merge v2 --no-edit
+          mkdir -p docs/dev
+          cp -r /tmp/dev/* docs/dev/
+          git add -A
+          git commit -m "Add docs/dev from v2 branch" || echo "No changes to commit"
           git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:page
