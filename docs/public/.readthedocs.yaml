@@ -12,5 +12,5 @@ build:
         # https://vitepress.dev/guide/getting-started
         - mkdir -p $READTHEDOCS_OUTPUT/
         - git clone --depth 1 --branch page https://github.com/doudou0720/iccce-docs page-branch
-        - mv -r page-branch $READTHEDOCS_OUTPUT/html
+        - mv page-branch $READTHEDOCS_OUTPUT/html
         - ls $READTHEDOCS_OUTPUT/html
