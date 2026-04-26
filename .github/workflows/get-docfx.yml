@@ -63,7 +63,7 @@ jobs:
 
   build-vitepress:
     runs-on: ubuntu-latest
-    require: build-docfx
+    needs: build-docfx
     steps:
       - name: Checkout v2 branch
         uses: actions/checkout@v5
