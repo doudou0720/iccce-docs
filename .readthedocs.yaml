@@ -14,5 +14,5 @@ build:
         - cd docs-repo
         - pnpm install
         - pnpm build
-        - mv docs-repo/docs/.vitepress/dist $READTHEDOCS_OUTPUT/html
+        - mv docs/.vitepress/dist $READTHEDOCS_OUTPUT/html
         - ls $READTHEDOCS_OUTPUT/html
