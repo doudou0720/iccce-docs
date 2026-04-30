@@ -14,12 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout current repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Checkout community repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: InkCanvasForClass/community
           path: community
@@ -32,7 +32,7 @@ jobs:
           git reset --soft HEAD~
 
       - name: Setup .NET
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v5
 
       - name: Install DocFX
         run: dotnet tool update -g docfx
@@ -66,7 +66,7 @@ jobs:
     needs: build-docfx
     steps:
       - name: Checkout v2 branch
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: v2
           fetch-depth: 0
@@ -74,21 +74,10 @@ jobs:
       - name: Fetch docfx branch
         run: |
           git clone --depth 1 --branch docfx https://github.com/${{ github.repository }} /tmp/docfx
-          cp -r /tmp/docfx/* docs/dev/
-          rm -rf /tmp/docfx
-
-      - name: Configure Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Merge v2 and docfx branches
-        run: |
-          git checkout v2
-          git merge docfx --no-edit || echo "Already up to date or nothing to merge"
+          rm -rf /tmp/docfx/.git
 
       - name: Checkout page branch
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: page
           fetch-depth: 0
@@ -96,8 +85,16 @@ jobs:
       - name: Fetch v2 branch
         run: git fetch origin v2:v2
 
-      - name: Merge v2 to page
+      - name: Configure Git
         run: |
-          git checkout page
-          git merge v2 --no-edit
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Overwrite with v2 then add docfx to docs/dev
+        run: |
+          git checkout v2 -- .
+          mkdir -p docs/dev
+          cp -r /tmp/docfx/* docs/dev/
+          git add -A
+          git commit -m "Update docs from v2 branch with docfx" || echo "No changes to commit"
           git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:page

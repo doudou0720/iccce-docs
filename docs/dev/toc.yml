@@ -272,8 +272,8 @@
     href: Ink_Canvas.Helpers.TimeMachine.md
   - name: TimeMachineHistory
     href: Ink_Canvas.Helpers.TimeMachineHistory.md
-  - name: UIAccessDllExtractor
-    href: Ink_Canvas.Helpers.UIAccessDllExtractor.md
+  - name: UIAccessHelper
+    href: Ink_Canvas.Helpers.UIAccessHelper.md
   - name: UploadHelper
     href: Ink_Canvas.Helpers.UploadHelper.md
   - name: UploadQueueHelper

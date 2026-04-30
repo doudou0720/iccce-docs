@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # Ink Canvas 外部协议 (URI Scheme) 说明文档
 
 <VersionBadge version="1.7.18.6" type="added" /> <VersionBadge version="1.7.18.7" type="changed" />

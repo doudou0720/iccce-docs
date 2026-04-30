@@ -1551,26 +1551,6 @@ public void OpenXMLStrokeFile(string filePath)
 public void PauseTopmostMaintenance()
 ```
 
-### <a id="Ink_Canvas_MainWindow_PrepareUIAccessX64"></a> PrepareUIAccessX64\(\)
-
-```csharp
-public static extern int PrepareUIAccessX64()
-```
-
-#### Returns
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
-### <a id="Ink_Canvas_MainWindow_PrepareUIAccessX86"></a> PrepareUIAccessX86\(\)
-
-```csharp
-public static extern int PrepareUIAccessX86()
-```
-
-#### Returns
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 ### <a id="Ink_Canvas_MainWindow_PureViewboxFloatingBarMarginAnimationInDesktopMode"></a> PureViewboxFloatingBarMarginAnimationInDesktopMode\(\)
 
 桌面模式下的浮动工具栏边距动画处理

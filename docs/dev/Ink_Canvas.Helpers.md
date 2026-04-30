@@ -177,9 +177,14 @@ PPT UI管理器 - 统一管理PPT相关的UI更新和样式设置
 
  [TimeMachineHistory](Ink\_Canvas.Helpers.TimeMachineHistory.md)
 
- [UIAccessDllExtractor](Ink\_Canvas.Helpers.UIAccessDllExtractor.md)
+ [UIAccessHelper](Ink\_Canvas.Helpers.UIAccessHelper.md)
 
-UIAccess DLL释放器
+通过 Winlogon 令牌模拟实现 UIAccess 提权重启。
+1. 找到当前会话中 winlogon.exe 的令牌，复制为模拟令牌；
+2. SetThreadToken 暂时模拟 winlogon（拥有 TCB 权限）；
+3. 在自身令牌副本上 SetTokenInformation(TokenUIAccess, TRUE)；
+4. RevertToSelf 后用 CreateProcessWithTokenW 启动新进程；
+5. 新进程具有 UIAccess 权限，可置顶于 UAC 提示之上。
 
  [UploadHelper](Ink\_Canvas.Helpers.UploadHelper.md)
 
