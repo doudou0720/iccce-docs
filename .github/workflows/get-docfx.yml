@@ -29,7 +29,7 @@ jobs:
         run: |
           git clone --branch docfx https://github.com/${{ github.repository }} community/output || true
           cd community/output
-          git reset --soft HEAD~
+          git reset --hard HEAD~
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v5
