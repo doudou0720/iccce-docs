@@ -24,6 +24,7 @@
     "oxlint": "^1.61.0",
     "vitepress": "^2.0.0-alpha.16",
     "vitepress-markdown-timeline": "^1.2.2",
+    "vitepress-plugin-comment-with-giscus": "^1.1.15",
     "vue": "^3.5.33"
   },
   "pnpm": {
