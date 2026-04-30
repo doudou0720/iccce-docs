@@ -5,6 +5,10 @@ on:
   push:
     branches:
       - v2
+  cron:
+    - cron: "0 4 * * *"
+    - timezone: "Asia/Shanghai"
+  
 
 permissions:
   contents: write
@@ -92,9 +96,11 @@ jobs:
 
       - name: Overwrite with v2 then add docfx to docs/dev
         run: |
+          ls -A | grep -v '^\.git$' | xargs rm -rf
           git checkout v2 -- .
+          rm -rf .github
           mkdir -p docs/dev
-          cp -r /tmp/docfx/* docs/dev/
+          cp -r /tmp/docfx/* docs/dev/ 2>/dev/null || true
           git add -A
           git commit -m "Update docs from v2 branch with docfx" || echo "No changes to commit"
           git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:page
