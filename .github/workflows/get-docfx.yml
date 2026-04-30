@@ -74,18 +74,7 @@ jobs:
       - name: Fetch docfx branch
         run: |
           git clone --depth 1 --branch docfx https://github.com/${{ github.repository }} /tmp/docfx
-          cp -r /tmp/docfx/* docs/dev/
-          rm -rf /tmp/docfx
-
-      - name: Merge v2 and docfx locally
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout v2
-          git merge docfx --no-edit || echo "Already up to date or nothing to merge"
-
-      - name: Copy docs/dev to temp
-        run: cp -r docs/dev /tmp/dev
+          rm -rf /tmp/docfx/.git
 
       - name: Checkout page branch
         uses: actions/checkout@v6
@@ -93,10 +82,16 @@ jobs:
           ref: page
           fetch-depth: 0
 
-      - name: Copy docs/dev to page
+      - name: Configure Git
         run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Overwrite with v2 then add docfx to docs/dev
+        run: |
+          git checkout v2 -- .
           mkdir -p docs/dev
-          cp -r /tmp/dev/* docs/dev/
+          cp -r /tmp/docfx/* docs/dev/
           git add -A
-          git commit -m "Add docs/dev from v2 branch" || echo "No changes to commit"
+          git commit -m "Update docs from v2 branch with docfx" || echo "No changes to commit"
           git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:page
