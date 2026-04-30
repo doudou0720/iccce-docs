@@ -662,7 +662,7 @@ public PluginSettingsPage()
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_PluginSettingsPage_CurrentPlugin"></a> CurrentPlugin
 
 ```csharp
-public static PluginInfo CurrentPlugin { get; set; }
+public PluginInfo CurrentPlugin { get; set; }
 ```
 
 #### Property Value

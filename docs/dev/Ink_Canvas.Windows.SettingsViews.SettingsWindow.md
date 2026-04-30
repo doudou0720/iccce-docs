@@ -786,13 +786,21 @@ InitializeComponent
 public void InitializeComponent()
 ```
 
-### <a id="Ink_Canvas_Windows_SettingsViews_SettingsWindow_NavigateToPage_System_String_"></a> NavigateToPage\(string\)
+### <a id="Ink_Canvas_Windows_SettingsViews_SettingsWindow_NavigateToPage_System_String_Ink_Canvas_Plugins_PluginInfo_"></a> NavigateToPage\(string, PluginInfo\)
 
 ```csharp
-public void NavigateToPage(string pageTag)
+public void NavigateToPage(string pageTag, PluginInfo pluginInfo = null)
 ```
 
 #### Parameters
 
 `pageTag` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`pluginInfo` PluginInfo
+
+### <a id="Ink_Canvas_Windows_SettingsViews_SettingsWindow_RefreshTheme"></a> RefreshTheme\(\)
+
+```csharp
+public void RefreshTheme()
+```
 

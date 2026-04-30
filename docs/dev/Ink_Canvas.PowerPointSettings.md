@@ -24,6 +24,17 @@ public class PowerPointSettings
 
 ## Properties
 
+### <a id="Ink_Canvas_PowerPointSettings_EnablePPTButtonEnhancedPreview"></a> EnablePPTButtonEnhancedPreview
+
+```csharp
+[JsonProperty("enablePPTButtonEnhancedPreview")]
+public bool EnablePPTButtonEnhancedPreview { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_PowerPointSettings_EnablePPTButtonLongPressPageTurn"></a> EnablePPTButtonLongPressPageTurn
 
 ```csharp

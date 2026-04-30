@@ -727,6 +727,16 @@ public static readonly DependencyProperty IconProperty
 
  [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
 
+### <a id="Ink_Canvas_Controls_LabeledSettingsCard_IconSourceProperty"></a> IconSourceProperty
+
+```csharp
+public static readonly DependencyProperty IconSourceProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
 ### <a id="Ink_Canvas_Controls_LabeledSettingsCard_IsOnProperty"></a> IsOnProperty
 
 ```csharp
@@ -798,6 +808,16 @@ public FontIconData? Icon { get; set; }
 #### Property Value
 
  [FontIconData](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Common/IconKeys/FontDictionary.cs)?
+
+### <a id="Ink_Canvas_Controls_LabeledSettingsCard_IconSource"></a> IconSource
+
+```csharp
+public ImageSource IconSource { get; set; }
+```
+
+#### Property Value
+
+ [ImageSource](https://learn.microsoft.com/dotnet/api/system.windows.media.imagesource)
 
 ### <a id="Ink_Canvas_Controls_LabeledSettingsCard_IsOn"></a> IsOn
 

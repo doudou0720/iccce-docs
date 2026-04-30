@@ -46,6 +46,17 @@ public bool EdgeGestureUtilOnlyAffectBlackboardMode { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Advanced_EnableMultiScreenSupport"></a> EnableMultiScreenSupport
+
+```csharp
+[JsonProperty("enableMultiScreenSupport")]
+public bool EnableMultiScreenSupport { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Advanced_EnableUIAccessTopMost"></a> EnableUIAccessTopMost
 
 ```csharp
@@ -100,6 +111,17 @@ public double FingerModeBoundsWidthThresholdValue { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Advanced_FollowMouseForScreenSelection"></a> FollowMouseForScreenSelection
+
+```csharp
+[JsonProperty("followMouseForScreenSelection")]
+public bool FollowMouseForScreenSelection { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsAlwaysOnTop"></a> IsAlwaysOnTop
 

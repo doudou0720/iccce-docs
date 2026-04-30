@@ -176,6 +176,14 @@ public void LoadHotkeysFromSettings()
 public void RefreshCurrentScreenHotkeys()
 ```
 
+### <a id="Ink_Canvas_Helpers_GlobalHotkeyManager_RefreshMultiScreenSettings"></a> RefreshMultiScreenSettings\(\)
+
+刷新多屏相关设置（开关和跟随鼠标策略）。
+
+```csharp
+public void RefreshMultiScreenSettings()
+```
+
 ### <a id="Ink_Canvas_Helpers_GlobalHotkeyManager_RegisterDefaultHotkeys"></a> RegisterDefaultHotkeys\(\)
 
 注册默认快捷键集合

@@ -1046,6 +1046,14 @@ public void ApplyAdvancedEraserShape()
 public void ApplyAlwaysOnTop()
 ```
 
+### <a id="Ink_Canvas_MainWindow_ApplyMultiScreenSettings"></a> ApplyMultiScreenSettings\(\)
+
+应用多屏设置到全局热键管理器。
+
+```csharp
+public void ApplyMultiScreenSettings()
+```
+
 ### <a id="Ink_Canvas_MainWindow_ApplyNoFocusMode"></a> ApplyNoFocusMode\(\)
 
 ```csharp
@@ -1487,6 +1495,20 @@ public static extern bool MoveWindow(IntPtr hWnd, int X, int Y, int nWidth, int 
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_MainWindow_OnClosing_System_ComponentModel_CancelEventArgs_"></a> OnClosing\(CancelEventArgs\)
+
+Raises the <xref href="System.Windows.Window.Closing" data-throw-if-not-resolved="false"></xref> event.
+
+```csharp
+protected override void OnClosing(CancelEventArgs e)
+```
+
+#### Parameters
+
+`e` [CancelEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs)
+
+A <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
 
 ### <a id="Ink_Canvas_MainWindow_OpenSingleStrokeFile_System_String_"></a> OpenSingleStrokeFile\(string\)
 
