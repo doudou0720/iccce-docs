@@ -7,7 +7,7 @@ on:
       - v2
   schedule:
     - cron: "0 4 * * *"
-    - timezone: "Asia/Shanghai"
+      timezone: "Asia/Shanghai"
 
 permissions:
   contents: write
