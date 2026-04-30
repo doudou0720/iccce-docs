@@ -82,6 +82,9 @@ jobs:
           ref: page
           fetch-depth: 0
 
+      - name: Fetch v2 branch
+        run: git fetch origin v2:v2
+
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
