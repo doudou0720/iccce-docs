@@ -5,10 +5,9 @@ on:
   push:
     branches:
       - v2
-  cron:
+  schedule:
     - cron: "0 4 * * *"
     - timezone: "Asia/Shanghai"
-  
 
 permissions:
   contents: write
