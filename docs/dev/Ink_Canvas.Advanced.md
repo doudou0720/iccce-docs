@@ -156,6 +156,17 @@ public bool IsAutoBackupEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Advanced_IsDebugConsoleEnabled"></a> IsDebugConsoleEnabled
+
+```csharp
+[JsonProperty("isDebugConsoleEnabled")]
+public bool IsDebugConsoleEnabled { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Advanced_IsEnableAvoidFullScreenHelper"></a> IsEnableAvoidFullScreenHelper
 
 ```csharp

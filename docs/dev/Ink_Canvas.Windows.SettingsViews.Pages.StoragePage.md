@@ -1,10 +1,12 @@
-# <a id="Ink_Canvas_Windows_SettingsViews_Pages_IconographyPage"></a> Class IconographyPage
+# <a id="Ink_Canvas_Windows_SettingsViews_Pages_StoragePage"></a> Class StoragePage
 
 Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
 
+StoragePage
+
 ```csharp
-public class IconographyPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
+public class StoragePage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
 ```
 
 #### Inheritance
@@ -17,7 +19,7 @@ public class IconographyPage : Page, IAnimatable, ISupportInitialize, IFramework
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
 [Page](https://learn.microsoft.com/dotnet/api/system.windows.controls.page) ← 
 [Page](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs) ← 
-[IconographyPage](Ink\_Canvas.Windows.SettingsViews.Pages.IconographyPage.md)
+[StoragePage](Ink\_Canvas.Windows.SettingsViews.Pages.StoragePage.md)
 
 #### Implements
 
@@ -26,7 +28,8 @@ public class IconographyPage : Page, IAnimatable, ISupportInitialize, IFramework
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
+[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
+[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
 
 #### Inherited Members
 
@@ -648,9 +651,19 @@ public class IconographyPage : Page, IAnimatable, ISupportInitialize, IFramework
 
 ## Constructors
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_IconographyPage__ctor"></a> IconographyPage\(\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_StoragePage__ctor"></a> StoragePage\(\)
 
 ```csharp
-public IconographyPage()
+public StoragePage()
+```
+
+## Methods
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_StoragePage_InitializeComponent"></a> InitializeComponent\(\)
+
+InitializeComponent
+
+```csharp
+public void InitializeComponent()
 ```
 

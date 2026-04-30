@@ -188,6 +188,8 @@
     href: Ink_Canvas.Helpers.ComPPTLinkManager.md
   - name: ConfigProfileManager
     href: Ink_Canvas.Helpers.ConfigProfileManager.md
+  - name: DebugConsoleManager
+    href: Ink_Canvas.Helpers.DebugConsoleManager.md
   - name: DelayAction
     href: Ink_Canvas.Helpers.DelayAction.md
   - name: DlassApiClient
@@ -480,12 +482,12 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.AvatarItem.md
   - name: CanvasPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.CanvasPage.md
+  - name: DebugPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.DebugPage.md
   - name: ExperimentalPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.ExperimentalPage.md
   - name: HomePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.HomePage.md
-  - name: IconographyPage
-    href: Ink_Canvas.Windows.SettingsViews.Pages.IconographyPage.md
   - name: InkRecognitionPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.InkRecognitionPage.md
   - name: PluginPage
@@ -498,10 +500,14 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.PrivacyPage.md
   - name: RandomDrawPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.RandomDrawPage.md
+  - name: SecurityPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.SecurityPage.md
   - name: SettingsPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.SettingsPage.md
   - name: StartupPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.StartupPage.md
+  - name: StoragePage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.StoragePage.md
   - name: UpdatePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.UpdatePage.md
   - name: WindowPage

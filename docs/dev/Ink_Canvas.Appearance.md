@@ -101,17 +101,6 @@ public bool EnableTrayIcon { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Appearance_EnableViewboxBlackBoardScaleTransform"></a> EnableViewboxBlackBoardScaleTransform
-
-```csharp
-[JsonProperty("enableViewboxBlackBoardScaleTransform")]
-public bool EnableViewboxBlackBoardScaleTransform { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 ### <a id="Ink_Canvas_Appearance_EraserDisplayOption"></a> EraserDisplayOption
 
 ```csharp
@@ -408,6 +397,17 @@ public bool UseLegacyFloatingBarUI { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Appearance_ViewboxBlackBoardScaleTransformValue"></a> ViewboxBlackBoardScaleTransformValue
+
+```csharp
+[JsonProperty("viewboxBlackBoardScaleTransformValue")]
+public double ViewboxBlackBoardScaleTransformValue { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_ViewboxFloatingBarOpacityInPPTValue"></a> ViewboxFloatingBarOpacityInPPTValue
 

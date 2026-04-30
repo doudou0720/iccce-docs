@@ -44,6 +44,8 @@ Only shrinks, never enlarges above MaxFontSize.
 提供多配置文件保存、切换与热重载支持。
 方案保存在 Configs/Profiles 目录下，当前生效的配置仍为 Configs/Settings.json。
 
+ [DebugConsoleManager](Ink\_Canvas.Helpers.DebugConsoleManager.md)
+
  [DelayAction](Ink\_Canvas.Helpers.DelayAction.md)
 
  [DlassApiClient](Ink\_Canvas.Helpers.DlassApiClient.md)
@@ -245,9 +247,9 @@ WebDav上传工具类
 
  [EdgeGestureUtil.PropertyKey](Ink\_Canvas.Helpers.EdgeGestureUtil.PropertyKey.md)
 
- [PPTManager.RECT](Ink\_Canvas.Helpers.PPTManager.RECT.md)
-
  [ROTPPTManager.RECT](Ink\_Canvas.Helpers.ROTPPTManager.RECT.md)
+
+ [PPTManager.RECT](Ink\_Canvas.Helpers.PPTManager.RECT.md)
 
  [WindowRect](Ink\_Canvas.Helpers.WindowRect.md)
 
