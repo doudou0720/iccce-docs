@@ -44,8 +44,6 @@ export default {
     const route = useRoute();
     const { frontmatter } = toRefs(useData());
 
-    const isCommentEnabled = frontmatter.value.comment === true;
-
     giscusTalk(
       {
         repo: "doudou0720/iccce-docs",
@@ -65,7 +63,7 @@ export default {
         frontmatter,
         route,
       },
-      isCommentEnabled,
+      false,
     );
 
     const initZoom = () => {
