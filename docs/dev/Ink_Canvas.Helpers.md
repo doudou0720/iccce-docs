@@ -161,6 +161,13 @@ PPT UI管理器 - 统一管理PPT相关的UI更新和样式设置
 
  [SafeZipExtractor](Ink\_Canvas.Helpers.SafeZipExtractor.md)
 
+ [SaveFileNameContext](Ink\_Canvas.Helpers.SaveFileNameContext.md)
+
+ [SaveFileNameHelper](Ink\_Canvas.Helpers.SaveFileNameHelper.md)
+
+渲染保存文件名模板。支持占位符: {date} {time} {datetime} {mode} {page} {count} {type}。
+当模板为空、渲染结果非法或仅含分隔符时，回退到默认时间戳命名。
+
  [ScreenDetectionHelper](Ink\_Canvas.Helpers.ScreenDetectionHelper.md)
 
 屏幕检测帮助类 - 用于检测窗口所在的屏幕和屏幕信息
@@ -174,6 +181,8 @@ PPT UI管理器 - 统一管理PPT相关的UI更新和样式设置
  [StrokeVisual](Ink\_Canvas.Helpers.StrokeVisual.md)
 
 用于显示笔迹的类
+
+ [ThemeHelper](Ink\_Canvas.Helpers.ThemeHelper.md)
 
  [TimeMachine](Ink\_Canvas.Helpers.TimeMachine.md)
 

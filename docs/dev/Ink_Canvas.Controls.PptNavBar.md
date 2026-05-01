@@ -1,12 +1,14 @@
-# <a id="Ink_Canvas_HasNewUpdateWindow"></a> Class HasNewUpdateWindow
+# <a id="Ink_Canvas_Controls_PptNavBar"></a> Class PptNavBar
 
-Namespace: [Ink\_Canvas](Ink\_Canvas.md)  
+Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)  
 Assembly: InkCanvasForClass.dll  
 
-HasNewUpdateWindow.xaml 的交互逻辑
+PPT 翻页 + 增强预览一体化控件。
+通过 <xref href="Ink_Canvas.Controls.PptNavBar.Direction" data-throw-if-not-resolved="false"></xref> 切换底部条 (LB/RB) 与侧边条 (LS/RS) 布局,
+预览列表内嵌于同一个 Border,展开时占据按钮组之外的剩余空间。
 
 ```csharp
-public class HasNewUpdateWindow : Window, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+public class PptNavBar : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
 ```
 
 #### Inheritance
@@ -19,8 +21,8 @@ public class HasNewUpdateWindow : Window, IAnimatable, ISupportInitialize, IFram
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
 [Control](https://learn.microsoft.com/dotnet/api/system.windows.controls.control) ← 
 [ContentControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol) ← 
-[Window](https://learn.microsoft.com/dotnet/api/system.windows.window) ← 
-[HasNewUpdateWindow](Ink\_Canvas.HasNewUpdateWindow.md)
+[UserControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol) ← 
+[PptNavBar](Ink\_Canvas.Controls.PptNavBar.md)
 
 #### Implements
 
@@ -34,73 +36,7 @@ public class HasNewUpdateWindow : Window, IAnimatable, ISupportInitialize, IFram
 
 #### Inherited Members
 
-[Window.AllowsTransparencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.allowstransparencyproperty), 
-[Window.DpiChangedEvent](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichangedevent), 
-[Window.IconProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.iconproperty), 
-[Window.IsActiveProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.isactiveproperty), 
-[Window.LeftProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.leftproperty), 
-[Window.ResizeModeProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.resizemodeproperty), 
-[Window.ShowActivatedProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.showactivatedproperty), 
-[Window.ShowInTaskbarProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbarproperty), 
-[Window.SizeToContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontentproperty), 
-[Window.TaskbarItemInfoProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfoproperty), 
-[Window.TitleProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.titleproperty), 
-[Window.TopmostProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.topmostproperty), 
-[Window.TopProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.topproperty), 
-[Window.WindowStateProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstateproperty), 
-[Window.WindowStyleProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstyleproperty), 
-[Window.Activate\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.activate), 
-[Window.ArrangeOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.window.arrangeoverride), 
-[Window.Close\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.close), 
-[Window.DragMove\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.dragmove), 
-[Window.GetWindow\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.getwindow), 
-[Window.Hide\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.hide), 
-[Window.MeasureOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.window.measureoverride), 
-[Window.OnActivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onactivated), 
-[Window.OnClosed\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onclosed), 
-[Window.OnClosing\(CancelEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onclosing), 
-[Window.OnContentChanged\(object, object\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncontentchanged), 
-[Window.OnContentRendered\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncontentrendered), 
-[Window.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncreateautomationpeer), 
-[Window.OnDeactivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.ondeactivated), 
-[Window.OnDpiChanged\(DpiScale, DpiScale\)](https://learn.microsoft.com/dotnet/api/system.windows.window.ondpichanged), 
-[Window.OnLocationChanged\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onlocationchanged), 
-[Window.OnManipulationBoundaryFeedback\(ManipulationBoundaryFeedbackEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onmanipulationboundaryfeedback), 
-[Window.OnSourceInitialized\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onsourceinitialized), 
-[Window.OnStateChanged\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onstatechanged), 
-[Window.OnVisualChildrenChanged\(DependencyObject, DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onvisualchildrenchanged), 
-[Window.OnVisualParentChanged\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onvisualparentchanged), 
-[Window.Show\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.show), 
-[Window.ShowDialog\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.showdialog), 
-[Window.AllowsTransparency](https://learn.microsoft.com/dotnet/api/system.windows.window.allowstransparency), 
-[Window.DialogResult](https://learn.microsoft.com/dotnet/api/system.windows.window.dialogresult), 
-[Window.Icon](https://learn.microsoft.com/dotnet/api/system.windows.window.icon), 
-[Window.IsActive](https://learn.microsoft.com/dotnet/api/system.windows.window.isactive), 
-[Window.Left](https://learn.microsoft.com/dotnet/api/system.windows.window.left), 
-[Window.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.window.logicalchildren), 
-[Window.OwnedWindows](https://learn.microsoft.com/dotnet/api/system.windows.window.ownedwindows), 
-[Window.Owner](https://learn.microsoft.com/dotnet/api/system.windows.window.owner), 
-[Window.ResizeMode](https://learn.microsoft.com/dotnet/api/system.windows.window.resizemode), 
-[Window.RestoreBounds](https://learn.microsoft.com/dotnet/api/system.windows.window.restorebounds), 
-[Window.ShowActivated](https://learn.microsoft.com/dotnet/api/system.windows.window.showactivated), 
-[Window.ShowInTaskbar](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbar), 
-[Window.SizeToContent](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontent), 
-[Window.TaskbarItemInfo](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfo), 
-[Window.Title](https://learn.microsoft.com/dotnet/api/system.windows.window.title), 
-[Window.Top](https://learn.microsoft.com/dotnet/api/system.windows.window.top), 
-[Window.Topmost](https://learn.microsoft.com/dotnet/api/system.windows.window.topmost), 
-[Window.WindowStartupLocation](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstartuplocation), 
-[Window.WindowState](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstate), 
-[Window.WindowStyle](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstyle), 
-[Window.Activated](https://learn.microsoft.com/dotnet/api/system.windows.window.activated), 
-[Window.Closed](https://learn.microsoft.com/dotnet/api/system.windows.window.closed), 
-[Window.Closing](https://learn.microsoft.com/dotnet/api/system.windows.window.closing), 
-[Window.ContentRendered](https://learn.microsoft.com/dotnet/api/system.windows.window.contentrendered), 
-[Window.Deactivated](https://learn.microsoft.com/dotnet/api/system.windows.window.deactivated), 
-[Window.DpiChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichanged), 
-[Window.LocationChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.locationchanged), 
-[Window.SourceInitialized](https://learn.microsoft.com/dotnet/api/system.windows.window.sourceinitialized), 
-[Window.StateChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.statechanged), 
+[UserControl.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol.oncreateautomationpeer), 
 [ContentControl.ContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentproperty), 
 [ContentControl.ContentStringFormatProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentstringformatproperty), 
 [ContentControl.ContentTemplateProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateproperty), 
@@ -745,81 +681,233 @@ public class HasNewUpdateWindow : Window, IAnimatable, ISupportInitialize, IFram
 
 ## Constructors
 
-### <a id="Ink_Canvas_HasNewUpdateWindow__ctor_System_String_System_String_System_String_System_String_"></a> HasNewUpdateWindow\(string, string, string, string\)
+### <a id="Ink_Canvas_Controls_PptNavBar__ctor"></a> PptNavBar\(\)
 
 ```csharp
-public HasNewUpdateWindow(string currentVersion, string newVersion, string releaseDate, string releaseNotes = null)
+public PptNavBar()
+```
+
+## Fields
+
+### <a id="Ink_Canvas_Controls_PptNavBar_CurrentSlideProperty"></a> CurrentSlideProperty
+
+```csharp
+public static readonly DependencyProperty CurrentSlideProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_DirectionProperty"></a> DirectionProperty
+
+```csharp
+public static readonly DependencyProperty DirectionProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_IsPreviewExpandedProperty"></a> IsPreviewExpandedProperty
+
+```csharp
+public static readonly DependencyProperty IsPreviewExpandedProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_PreviewItemsProperty"></a> PreviewItemsProperty
+
+```csharp
+public static readonly DependencyProperty PreviewItemsProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_TotalSlidesProperty"></a> TotalSlidesProperty
+
+```csharp
+public static readonly DependencyProperty TotalSlidesProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+## Properties
+
+### <a id="Ink_Canvas_Controls_PptNavBar_CurrentSlide"></a> CurrentSlide
+
+```csharp
+public int CurrentSlide { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_Direction"></a> Direction
+
+```csharp
+public PptNavBar.NavDirection Direction { get; set; }
+```
+
+#### Property Value
+
+ [PptNavBar](Ink\_Canvas.Controls.PptNavBar.md).[NavDirection](Ink\_Canvas.Controls.PptNavBar.NavDirection.md)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_IsPreviewExpanded"></a> IsPreviewExpanded
+
+```csharp
+public bool IsPreviewExpanded { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_PreviewItems"></a> PreviewItems
+
+```csharp
+public IList<PptNavBar.PreviewItem> PreviewItems { get; set; }
+```
+
+#### Property Value
+
+ [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[PptNavBar](Ink\_Canvas.Controls.PptNavBar.md).[PreviewItem](Ink\_Canvas.Controls.PptNavBar.PreviewItem.md)\>
+
+### <a id="Ink_Canvas_Controls_PptNavBar_TotalSlides"></a> TotalSlides
+
+```csharp
+public int TotalSlides { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+## Methods
+
+### <a id="Ink_Canvas_Controls_PptNavBar_ApplyTheme_System_Boolean_"></a> ApplyTheme\(bool\)
+
+```csharp
+public void ApplyTheme(bool isDark)
 ```
 
 #### Parameters
 
-`currentVersion` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`isDark` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-`newVersion` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-`releaseDate` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-`releaseNotes` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-## Properties
-
-### <a id="Ink_Canvas_HasNewUpdateWindow_CurrentVersion"></a> CurrentVersion
-
-```csharp
-public string CurrentVersion { get; set; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_HasNewUpdateWindow_NewVersion"></a> NewVersion
-
-```csharp
-public string NewVersion { get; set; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_HasNewUpdateWindow_ReleaseDate"></a> ReleaseDate
-
-```csharp
-public string ReleaseDate { get; set; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_HasNewUpdateWindow_ReleaseNotes"></a> ReleaseNotes
-
-```csharp
-public string ReleaseNotes { get; set; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_HasNewUpdateWindow_Result"></a> Result
-
-```csharp
-public HasNewUpdateWindow.UpdateResult Result { get; }
-```
-
-#### Property Value
-
- [HasNewUpdateWindow](Ink\_Canvas.HasNewUpdateWindow.md).[UpdateResult](Ink\_Canvas.HasNewUpdateWindow.UpdateResult.md)
-
-## Methods
-
-### <a id="Ink_Canvas_HasNewUpdateWindow_InitializeComponent"></a> InitializeComponent\(\)
+### <a id="Ink_Canvas_Controls_PptNavBar_InitializeComponent"></a> InitializeComponent\(\)
 
 InitializeComponent
 
 ```csharp
 public void InitializeComponent()
 ```
+
+### <a id="Ink_Canvas_Controls_PptNavBar_SetBarOpacity_System_Double_"></a> SetBarOpacity\(double\)
+
+```csharp
+public void SetBarOpacity(double opacity)
+```
+
+#### Parameters
+
+`opacity` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_SetPageButtonVisibility_System_Windows_Visibility_"></a> SetPageButtonVisibility\(Visibility\)
+
+```csharp
+public void SetPageButtonVisibility(Visibility v)
+```
+
+#### Parameters
+
+`v` [Visibility](https://learn.microsoft.com/dotnet/api/system.windows.visibility)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_NextClick"></a> NextClick
+
+```csharp
+public event EventHandler NextClick
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_NextPressedDown"></a> NextPressedDown
+
+```csharp
+public event EventHandler NextPressedDown
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_PageClick"></a> PageClick
+
+```csharp
+public event EventHandler PageClick
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_PressEnded"></a> PressEnded
+
+```csharp
+public event EventHandler PressEnded
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_PreviewExpandedChanged"></a> PreviewExpandedChanged
+
+```csharp
+public event EventHandler<bool> PreviewExpandedChanged
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+
+### <a id="Ink_Canvas_Controls_PptNavBar_PreviousClick"></a> PreviousClick
+
+```csharp
+public event EventHandler PreviousClick
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_PreviousPressedDown"></a> PreviousPressedDown
+
+```csharp
+public event EventHandler PreviousPressedDown
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+
+### <a id="Ink_Canvas_Controls_PptNavBar_SlideSelected"></a> SlideSelected
+
+```csharp
+public event EventHandler<int> SlideSelected
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 

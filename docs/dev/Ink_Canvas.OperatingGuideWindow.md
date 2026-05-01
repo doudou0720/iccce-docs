@@ -763,8 +763,6 @@ public void InitializeComponent()
 
 ### <a id="Ink_Canvas_OperatingGuideWindow_RefreshTheme"></a> RefreshTheme\(\)
 
-刷新主题
-
 ```csharp
 public void RefreshTheme()
 ```

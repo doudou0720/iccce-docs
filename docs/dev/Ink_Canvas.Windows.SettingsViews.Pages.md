@@ -24,6 +24,8 @@ AboutPage
 
 HomePage
 
+ [HotkeyPage](Ink\_Canvas.Windows.SettingsViews.Pages.HotkeyPage.md)
+
  [InkRecognitionPage](Ink\_Canvas.Windows.SettingsViews.Pages.InkRecognitionPage.md)
 
  [PluginPage](Ink\_Canvas.Windows.SettingsViews.Pages.PluginPage.md)

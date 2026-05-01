@@ -32,10 +32,6 @@ auth-with-token接口响应模型
 
 快捷键项控件
 
- [HotkeySettingsWindow](Ink\_Canvas.Windows.HotkeySettingsWindow.md)
-
-快捷键设置窗口
-
  [MinimizedTimerControl](Ink\_Canvas.Windows.MinimizedTimerControl.md)
 
 最小化计时器窗口

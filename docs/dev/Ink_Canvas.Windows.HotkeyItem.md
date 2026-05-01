@@ -685,6 +685,28 @@ public class HotkeyItem : UserControl, IAnimatable, ISupportInitialize, IFramewo
 public HotkeyItem()
 ```
 
+## Fields
+
+### <a id="Ink_Canvas_Windows_HotkeyItem_DescriptionProperty"></a> DescriptionProperty
+
+```csharp
+public static readonly DependencyProperty DescriptionProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Windows_HotkeyItem_TitleProperty"></a> TitleProperty
+
+```csharp
+public static readonly DependencyProperty TitleProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
 ## Properties
 
 ### <a id="Ink_Canvas_Windows_HotkeyItem_DefaultKey"></a> DefaultKey
@@ -743,8 +765,6 @@ public string Title { get; set; }
 
 ### <a id="Ink_Canvas_Windows_HotkeyItem_GetCurrentHotkey"></a> GetCurrentHotkey\(\)
 
-获取当前快捷键
-
 ```csharp
 public (Key key, ModifierKeys modifiers) GetCurrentHotkey()
 ```
@@ -752,8 +772,6 @@ public (Key key, ModifierKeys modifiers) GetCurrentHotkey()
 #### Returns
 
  \([Key](https://learn.microsoft.com/dotnet/api/system.windows.input.key) [key](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.windows.input.key,system.windows.input.modifierkeys\-.key), [ModifierKeys](https://learn.microsoft.com/dotnet/api/system.windows.input.modifierkeys) [modifiers](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.windows.input.key,system.windows.input.modifierkeys\-.modifiers)\)
-
-快捷键信息
 
 ### <a id="Ink_Canvas_Windows_HotkeyItem_InitializeComponent"></a> InitializeComponent\(\)
 
@@ -765,8 +783,6 @@ public void InitializeComponent()
 
 ### <a id="Ink_Canvas_Windows_HotkeyItem_SetCurrentHotkey_System_Windows_Input_Key_System_Windows_Input_ModifierKeys_"></a> SetCurrentHotkey\(Key, ModifierKeys\)
 
-设置当前快捷键
-
 ```csharp
 public void SetCurrentHotkey(Key key, ModifierKeys modifiers)
 ```
@@ -775,11 +791,7 @@ public void SetCurrentHotkey(Key key, ModifierKeys modifiers)
 
 `key` [Key](https://learn.microsoft.com/dotnet/api/system.windows.input.key)
 
-按键
-
 `modifiers` [ModifierKeys](https://learn.microsoft.com/dotnet/api/system.windows.input.modifierkeys)
-
-修饰键
 
 ### <a id="Ink_Canvas_Windows_HotkeyItem_HotkeyChanged"></a> HotkeyChanged
 

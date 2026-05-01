@@ -81,6 +81,17 @@ public int AutoSaveStrokesIntervalMinutes { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Automation_CustomSaveFileNameTemplate"></a> CustomSaveFileNameTemplate
+
+```csharp
+[JsonProperty("customSaveFileNameTemplate")]
+public string CustomSaveFileNameTemplate { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Automation_FloatingWindowInterceptor"></a> FloatingWindowInterceptor
 
 ```csharp
@@ -515,6 +526,17 @@ public bool IsSaveScreenshotsInDateFolders { get; set; }
 ```csharp
 [JsonProperty("isSaveStrokesAsXML")]
 public bool IsSaveStrokesAsXML { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Automation_IsUseCustomSaveFileName"></a> IsUseCustomSaveFileName
+
+```csharp
+[JsonProperty("isUseCustomSaveFileName")]
+public bool IsUseCustomSaveFileName { get; set; }
 ```
 
 #### Property Value

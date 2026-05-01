@@ -1,12 +1,12 @@
-# <a id="Ink_Canvas_HistoryRollbackWindow"></a> Class HistoryRollbackWindow
+# <a id="Ink_Canvas_Controls_BoardMenuFrame"></a> Class BoardMenuFrame
 
-Namespace: [Ink\_Canvas](Ink\_Canvas.md)  
+Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)  
 Assembly: InkCanvasForClass.dll  
 
-HistoryRollbackWindow
-
 ```csharp
-public class HistoryRollbackWindow : Window, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+[TemplatePart(Name = "PART_CloseImage", Type = typeof(UIElement))]
+[TemplatePart(Name = "PART_AnimationRoot", Type = typeof(UIElement))]
+public class BoardMenuFrame : ContentControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
 ```
 
 #### Inheritance
@@ -19,8 +19,7 @@ public class HistoryRollbackWindow : Window, IAnimatable, ISupportInitialize, IF
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
 [Control](https://learn.microsoft.com/dotnet/api/system.windows.controls.control) ← 
 [ContentControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol) ← 
-[Window](https://learn.microsoft.com/dotnet/api/system.windows.window) ← 
-[HistoryRollbackWindow](Ink\_Canvas.HistoryRollbackWindow.md)
+[BoardMenuFrame](Ink\_Canvas.Controls.BoardMenuFrame.md)
 
 #### Implements
 
@@ -29,78 +28,10 @@ public class HistoryRollbackWindow : Window, IAnimatable, ISupportInitialize, IF
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
-[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
+[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
 
 #### Inherited Members
 
-[Window.AllowsTransparencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.allowstransparencyproperty), 
-[Window.DpiChangedEvent](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichangedevent), 
-[Window.IconProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.iconproperty), 
-[Window.IsActiveProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.isactiveproperty), 
-[Window.LeftProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.leftproperty), 
-[Window.ResizeModeProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.resizemodeproperty), 
-[Window.ShowActivatedProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.showactivatedproperty), 
-[Window.ShowInTaskbarProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbarproperty), 
-[Window.SizeToContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontentproperty), 
-[Window.TaskbarItemInfoProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfoproperty), 
-[Window.TitleProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.titleproperty), 
-[Window.TopmostProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.topmostproperty), 
-[Window.TopProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.topproperty), 
-[Window.WindowStateProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstateproperty), 
-[Window.WindowStyleProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstyleproperty), 
-[Window.Activate\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.activate), 
-[Window.ArrangeOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.window.arrangeoverride), 
-[Window.Close\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.close), 
-[Window.DragMove\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.dragmove), 
-[Window.GetWindow\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.getwindow), 
-[Window.Hide\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.hide), 
-[Window.MeasureOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.window.measureoverride), 
-[Window.OnActivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onactivated), 
-[Window.OnClosed\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onclosed), 
-[Window.OnClosing\(CancelEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onclosing), 
-[Window.OnContentChanged\(object, object\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncontentchanged), 
-[Window.OnContentRendered\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncontentrendered), 
-[Window.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncreateautomationpeer), 
-[Window.OnDeactivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.ondeactivated), 
-[Window.OnDpiChanged\(DpiScale, DpiScale\)](https://learn.microsoft.com/dotnet/api/system.windows.window.ondpichanged), 
-[Window.OnLocationChanged\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onlocationchanged), 
-[Window.OnManipulationBoundaryFeedback\(ManipulationBoundaryFeedbackEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onmanipulationboundaryfeedback), 
-[Window.OnSourceInitialized\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onsourceinitialized), 
-[Window.OnStateChanged\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onstatechanged), 
-[Window.OnVisualChildrenChanged\(DependencyObject, DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onvisualchildrenchanged), 
-[Window.OnVisualParentChanged\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onvisualparentchanged), 
-[Window.Show\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.show), 
-[Window.ShowDialog\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.showdialog), 
-[Window.AllowsTransparency](https://learn.microsoft.com/dotnet/api/system.windows.window.allowstransparency), 
-[Window.DialogResult](https://learn.microsoft.com/dotnet/api/system.windows.window.dialogresult), 
-[Window.Icon](https://learn.microsoft.com/dotnet/api/system.windows.window.icon), 
-[Window.IsActive](https://learn.microsoft.com/dotnet/api/system.windows.window.isactive), 
-[Window.Left](https://learn.microsoft.com/dotnet/api/system.windows.window.left), 
-[Window.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.window.logicalchildren), 
-[Window.OwnedWindows](https://learn.microsoft.com/dotnet/api/system.windows.window.ownedwindows), 
-[Window.Owner](https://learn.microsoft.com/dotnet/api/system.windows.window.owner), 
-[Window.ResizeMode](https://learn.microsoft.com/dotnet/api/system.windows.window.resizemode), 
-[Window.RestoreBounds](https://learn.microsoft.com/dotnet/api/system.windows.window.restorebounds), 
-[Window.ShowActivated](https://learn.microsoft.com/dotnet/api/system.windows.window.showactivated), 
-[Window.ShowInTaskbar](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbar), 
-[Window.SizeToContent](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontent), 
-[Window.TaskbarItemInfo](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfo), 
-[Window.Title](https://learn.microsoft.com/dotnet/api/system.windows.window.title), 
-[Window.Top](https://learn.microsoft.com/dotnet/api/system.windows.window.top), 
-[Window.Topmost](https://learn.microsoft.com/dotnet/api/system.windows.window.topmost), 
-[Window.WindowStartupLocation](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstartuplocation), 
-[Window.WindowState](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstate), 
-[Window.WindowStyle](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstyle), 
-[Window.Activated](https://learn.microsoft.com/dotnet/api/system.windows.window.activated), 
-[Window.Closed](https://learn.microsoft.com/dotnet/api/system.windows.window.closed), 
-[Window.Closing](https://learn.microsoft.com/dotnet/api/system.windows.window.closing), 
-[Window.ContentRendered](https://learn.microsoft.com/dotnet/api/system.windows.window.contentrendered), 
-[Window.Deactivated](https://learn.microsoft.com/dotnet/api/system.windows.window.deactivated), 
-[Window.DpiChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichanged), 
-[Window.LocationChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.locationchanged), 
-[Window.SourceInitialized](https://learn.microsoft.com/dotnet/api/system.windows.window.sourceinitialized), 
-[Window.StateChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.statechanged), 
 [ContentControl.ContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentproperty), 
 [ContentControl.ContentStringFormatProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentstringformatproperty), 
 [ContentControl.ContentTemplateProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateproperty), 
@@ -743,39 +674,327 @@ public class HistoryRollbackWindow : Window, IAnimatable, ISupportInitialize, IF
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
-## Constructors
+## Fields
 
-### <a id="Ink_Canvas_HistoryRollbackWindow__ctor_Ink_Canvas_UpdateChannel_"></a> HistoryRollbackWindow\(UpdateChannel\)
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_CustomPopupPlacementCallbackProperty"></a> CustomPopupPlacementCallbackProperty
 
 ```csharp
-public HistoryRollbackWindow(UpdateChannel channel = UpdateChannel.Release)
+public static readonly DependencyProperty CustomPopupPlacementCallbackProperty
 ```
 
-#### Parameters
+#### Field Value
 
-`channel` [UpdateChannel](Ink\_Canvas.UpdateChannel.md)
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_HeaderBackgroundProperty"></a> HeaderBackgroundProperty
+
+```csharp
+public static readonly DependencyProperty HeaderBackgroundProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_HeaderBorderBrushProperty"></a> HeaderBorderBrushProperty
+
+```csharp
+public static readonly DependencyProperty HeaderBorderBrushProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_HeaderCornerRadiusProperty"></a> HeaderCornerRadiusProperty
+
+```csharp
+public static readonly DependencyProperty HeaderCornerRadiusProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_HeaderHeightProperty"></a> HeaderHeightProperty
+
+```csharp
+public static readonly DependencyProperty HeaderHeightProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_IsOpenProperty"></a> IsOpenProperty
+
+```csharp
+public static readonly DependencyProperty IsOpenProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_PanelBackgroundProperty"></a> PanelBackgroundProperty
+
+```csharp
+public static readonly DependencyProperty PanelBackgroundProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_PanelCornerRadiusProperty"></a> PanelCornerRadiusProperty
+
+```csharp
+public static readonly DependencyProperty PanelCornerRadiusProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_PlacementProperty"></a> PlacementProperty
+
+```csharp
+public static readonly DependencyProperty PlacementProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_PlacementTargetProperty"></a> PlacementTargetProperty
+
+```csharp
+public static readonly DependencyProperty PlacementTargetProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_PopupHorizontalOffsetProperty"></a> PopupHorizontalOffsetProperty
+
+```csharp
+public static readonly DependencyProperty PopupHorizontalOffsetProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_PopupVerticalOffsetProperty"></a> PopupVerticalOffsetProperty
+
+```csharp
+public static readonly DependencyProperty PopupVerticalOffsetProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_TitleFontSizeProperty"></a> TitleFontSizeProperty
+
+```csharp
+public static readonly DependencyProperty TitleFontSizeProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_TitleProperty"></a> TitleProperty
+
+```csharp
+public static readonly DependencyProperty TitleProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+## Properties
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_AnimationTarget"></a> AnimationTarget
+
+```csharp
+public UIElement AnimationTarget { get; }
+```
+
+#### Property Value
+
+ [UIElement](https://learn.microsoft.com/dotnet/api/system.windows.uielement)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_CustomPopupPlacementCallback"></a> CustomPopupPlacementCallback
+
+```csharp
+public CustomPopupPlacementCallback CustomPopupPlacementCallback { get; set; }
+```
+
+#### Property Value
+
+ [CustomPopupPlacementCallback](https://learn.microsoft.com/dotnet/api/system.windows.controls.primitives.custompopupplacementcallback)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_HeaderBackground"></a> HeaderBackground
+
+```csharp
+public Brush HeaderBackground { get; set; }
+```
+
+#### Property Value
+
+ [Brush](https://learn.microsoft.com/dotnet/api/system.windows.media.brush)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_HeaderBorderBrush"></a> HeaderBorderBrush
+
+```csharp
+public Brush HeaderBorderBrush { get; set; }
+```
+
+#### Property Value
+
+ [Brush](https://learn.microsoft.com/dotnet/api/system.windows.media.brush)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_HeaderCornerRadius"></a> HeaderCornerRadius
+
+```csharp
+public CornerRadius HeaderCornerRadius { get; set; }
+```
+
+#### Property Value
+
+ [CornerRadius](https://learn.microsoft.com/dotnet/api/system.windows.cornerradius)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_HeaderHeight"></a> HeaderHeight
+
+```csharp
+public double HeaderHeight { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_IsOpen"></a> IsOpen
+
+```csharp
+public bool IsOpen { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_PanelBackground"></a> PanelBackground
+
+```csharp
+public Brush PanelBackground { get; set; }
+```
+
+#### Property Value
+
+ [Brush](https://learn.microsoft.com/dotnet/api/system.windows.media.brush)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_PanelCornerRadius"></a> PanelCornerRadius
+
+```csharp
+public CornerRadius PanelCornerRadius { get; set; }
+```
+
+#### Property Value
+
+ [CornerRadius](https://learn.microsoft.com/dotnet/api/system.windows.cornerradius)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_Placement"></a> Placement
+
+```csharp
+public PlacementMode Placement { get; set; }
+```
+
+#### Property Value
+
+ [PlacementMode](https://learn.microsoft.com/dotnet/api/system.windows.controls.primitives.placementmode)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_PlacementTarget"></a> PlacementTarget
+
+```csharp
+public UIElement PlacementTarget { get; set; }
+```
+
+#### Property Value
+
+ [UIElement](https://learn.microsoft.com/dotnet/api/system.windows.uielement)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_PopupHorizontalOffset"></a> PopupHorizontalOffset
+
+```csharp
+public double PopupHorizontalOffset { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_PopupVerticalOffset"></a> PopupVerticalOffset
+
+```csharp
+public double PopupVerticalOffset { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_Title"></a> Title
+
+```csharp
+public object Title { get; set; }
+```
+
+#### Property Value
+
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_TitleFontSize"></a> TitleFontSize
+
+```csharp
+public double TitleFontSize { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ## Methods
 
-### <a id="Ink_Canvas_HistoryRollbackWindow_InitializeComponent"></a> InitializeComponent\(\)
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_OnApplyTemplate"></a> OnApplyTemplate\(\)
 
-InitializeComponent
-
-```csharp
-public void InitializeComponent()
-```
-
-### <a id="Ink_Canvas_HistoryRollbackWindow_OnClosing_System_ComponentModel_CancelEventArgs_"></a> OnClosing\(CancelEventArgs\)
-
-Raises the <xref href="System.Windows.Window.Closing" data-throw-if-not-resolved="false"></xref> event.
+When overridden in a derived class, is invoked whenever application code or internal processes call <xref href="System.Windows.FrameworkElement.ApplyTemplate" data-throw-if-not-resolved="false"></xref>.
 
 ```csharp
-protected override void OnClosing(CancelEventArgs e)
+public override void OnApplyTemplate()
 ```
 
-#### Parameters
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_CloseMouseDown"></a> CloseMouseDown
 
-`e` [CancelEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs)
+```csharp
+public event MouseButtonEventHandler CloseMouseDown
+```
 
-A <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
+#### Event Type
+
+ [MouseButtonEventHandler](https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventhandler)
+
+### <a id="Ink_Canvas_Controls_BoardMenuFrame_CloseMouseUp"></a> CloseMouseUp
+
+```csharp
+public event MouseButtonEventHandler CloseMouseUp
+```
+
+#### Event Type
+
+ [MouseButtonEventHandler](https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventhandler)
 

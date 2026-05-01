@@ -74,14 +74,6 @@ CustomIconWindow.xaml 的交互逻辑
 
  [Gesture](Ink\_Canvas.Gesture.md)
 
- [HasNewUpdateWindow](Ink\_Canvas.HasNewUpdateWindow.md)
-
-HasNewUpdateWindow.xaml 的交互逻辑
-
- [HistoryRollbackWindow](Ink\_Canvas.HistoryRollbackWindow.md)
-
-HistoryRollbackWindow
-
  [InkToShape](Ink\_Canvas.InkToShape.md)
 
  [FloatingWindowInterceptorManager.InterceptStatistics](Ink\_Canvas.FloatingWindowInterceptorManager.InterceptStatistics.md)
@@ -179,6 +171,4 @@ Interaction logic for RestoreHiddenSlidesWindow.xaml
  [UpdatePackageArchitecture](Ink\_Canvas.UpdatePackageArchitecture.md)
 
 自动更新要下载的安装包架构（与当前运行进程的位数无关）。默认 32 位包；64 位包对应发布物 ZIP 文件名在 .zip 前增加 -x64。
-
- [HasNewUpdateWindow.UpdateResult](Ink\_Canvas.HasNewUpdateWindow.UpdateResult.md)
 

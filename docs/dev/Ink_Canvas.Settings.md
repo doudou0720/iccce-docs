@@ -167,6 +167,17 @@ public Startup Startup { get; set; }
 
  [Startup](Ink\_Canvas.Startup.md)
 
+### <a id="Ink_Canvas_Settings_Toolbar"></a> Toolbar
+
+```csharp
+[JsonProperty("toolbar")]
+public ToolbarLayoutSettings Toolbar { get; set; }
+```
+
+#### Property Value
+
+ [ToolbarLayoutSettings](Ink\_Canvas.Controls.Toolbar.ToolbarLayoutSettings.md)
+
 ### <a id="Ink_Canvas_Settings_Upload"></a> Upload
 
 ```csharp
