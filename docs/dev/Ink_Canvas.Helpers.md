@@ -35,8 +35,6 @@ Only shrinks, never enlarges above MaxFontSize.
 
  [Circle](Ink\_Canvas.Helpers.Circle.md)
 
-图形识别类
-
  [ComPPTLinkManager](Ink\_Canvas.Helpers.ComPPTLinkManager.md)
 
  [ConfigProfileManager](Ink\_Canvas.Helpers.ConfigProfileManager.md)
@@ -115,6 +113,10 @@ IACore DLL自动释放器
 
  [InkRecognizeHelper](Ink\_Canvas.Helpers.InkRecognizeHelper.md)
 
+墨迹形状/手写识别的对外门面。
+IACore 路径通过 IPC 调用 x86 辅助进程；WinRT 路径在主进程内直接调用。
+主进程 (.NET 6 x64) 不再直接引用 IAWinFX 类型。
+
  [InkShapeRecognitionResult](Ink\_Canvas.Helpers.InkShapeRecognitionResult.md)
 
 与具体识别后端无关的形状识别结果，供统一纠正模块消费。
@@ -138,6 +140,8 @@ IACore DLL自动释放器
  [FloatingWindowInterceptor.InterceptRule](Ink\_Canvas.Helpers.FloatingWindowInterceptor.InterceptRule.md)
 
 拦截规则
+
+ [IpcIACoreClient](Ink\_Canvas.Helpers.IpcIACoreClient.md)
 
  [LocalizationHelper](Ink\_Canvas.Helpers.LocalizationHelper.md)
 
@@ -173,8 +177,6 @@ PPT UI管理器 - 统一管理PPT相关的UI更新和样式设置
 屏幕检测帮助类 - 用于检测窗口所在的屏幕和屏幕信息
 
  [ShapeRecognitionRouter](Ink\_Canvas.Helpers.ShapeRecognitionRouter.md)
-
- [ShapeRecognizeResult](Ink\_Canvas.Helpers.ShapeRecognizeResult.md)
 
  [StartupCount](Ink\_Canvas.Helpers.StartupCount.md)
 

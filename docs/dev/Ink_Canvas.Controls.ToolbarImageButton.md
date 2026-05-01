@@ -707,6 +707,16 @@ public static readonly DependencyProperty IconGeometryDrawingProperty
 
  [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
 
+### <a id="Ink_Canvas_Controls_ToolbarImageButton_LabelBrushProperty"></a> LabelBrushProperty
+
+```csharp
+public static readonly DependencyProperty LabelBrushProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
 ### <a id="Ink_Canvas_Controls_ToolbarImageButton_LabelProperty"></a> LabelProperty
 
 ```csharp
@@ -778,6 +788,16 @@ public string Label { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Controls_ToolbarImageButton_LabelBrush"></a> LabelBrush
+
+```csharp
+public Brush LabelBrush { get; set; }
+```
+
+#### Property Value
+
+ [Brush](https://learn.microsoft.com/dotnet/api/system.windows.media.brush)
 
 ## Methods
 

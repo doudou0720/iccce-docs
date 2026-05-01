@@ -6,8 +6,6 @@
 
 ### Classes
 
- [BoardMenuFrame](Ink\_Canvas.Controls.BoardMenuFrame.md)
-
  [BoardToolbarButton](Ink\_Canvas.Controls.BoardToolbarButton.md)
 
 BoardToolbarButton

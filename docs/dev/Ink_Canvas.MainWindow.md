@@ -1799,9 +1799,16 @@ public void StartPPTMonitoring()
 
 ### <a id="Ink_Canvas_MainWindow_StartPowerPointProcessMonitoring"></a> StartPowerPointProcessMonitoring\(\)
 
+启动PowerPoint应用程序守护
+
 ```csharp
 public void StartPowerPointProcessMonitoring()
 ```
+
+#### Remarks
+
+启动对本地 PowerPoint 应用实例的守护监控并在需要时创建应用程序实例。
+仅在 PowerPoint 增强功能已启用且未使用 ROT 链接时生效；方法将创建 PowerPoint 应用（若不存在）并启动用于定期检查应用状态的定时器。
 
 ### <a id="Ink_Canvas_MainWindow_StartSilentUpdateTimer"></a> StartSilentUpdateTimer\(\)
 

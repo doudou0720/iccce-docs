@@ -3,8 +3,6 @@
 Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)  
 Assembly: InkCanvasForClass.dll  
 
-图形识别类
-
 ```csharp
 public class Circle
 ```
