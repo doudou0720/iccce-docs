@@ -3,8 +3,8 @@
 Namespace: [Ink\_Canvas.Windows](Ink\_Canvas.Windows.md)  
 Assembly: InkCanvasForClass.dll  
 
-首次启动体验(OOBE)窗口,使用与设置窗口一致的卡片化 UI 引导用户完成初始配置。
-切换步骤时使用横向滑动 + 淡入,模仿 ClassIsland 的设置向导动画风格。
+首次启动体验(OOBE)窗口。使用 iNKORE.UI.WPF.Modern 的 NavigationView 作为左侧导航,
+引导用户依次完成欢迎页、8 个配置步骤与完成摘要页。
 
 ```csharp
 public class OobeWindow : Window, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
@@ -754,20 +754,4 @@ public OobeWindow(Settings settings)
 #### Parameters
 
 `settings` [Settings](Ink\_Canvas.Settings.md)
-
-## Methods
-
-### <a id="Ink_Canvas_Windows_OobeWindow_OnRenderSizeChanged_System_Windows_SizeChangedInfo_"></a> OnRenderSizeChanged\(SizeChangedInfo\)
-
-Raises the <xref href="System.Windows.FrameworkElement.SizeChanged" data-throw-if-not-resolved="false"></xref> event, using the specified information as part of the eventual event data.
-
-```csharp
-protected override void OnRenderSizeChanged(SizeChangedInfo sizeInfo)
-```
-
-#### Parameters
-
-`sizeInfo` [SizeChangedInfo](https://learn.microsoft.com/dotnet/api/system.windows.sizechangedinfo)
-
-Details of the old and new size involved in the change.
 

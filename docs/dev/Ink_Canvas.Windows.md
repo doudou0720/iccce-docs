@@ -42,8 +42,8 @@ auth-with-token接口响应模型
 
  [OobeWindow](Ink\_Canvas.Windows.OobeWindow.md)
 
-首次启动体验(OOBE)窗口,使用与设置窗口一致的卡片化 UI 引导用户完成初始配置。
-切换步骤时使用横向滑动 + 淡入,模仿 ClassIsland 的设置向导动画风格。
+首次启动体验(OOBE)窗口。使用 iNKORE.UI.WPF.Modern 的 NavigationView 作为左侧导航,
+引导用户依次完成欢迎页、8 个配置步骤与完成摘要页。
 
  [PPTQuickPanel](Ink\_Canvas.Windows.PPTQuickPanel.md)
 
