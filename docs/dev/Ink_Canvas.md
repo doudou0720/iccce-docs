@@ -166,6 +166,8 @@ Interaction logic for RestoreHiddenSlidesWindow.xaml
 
 遥测上传等级
 
+ [TrayClickAction](Ink\_Canvas.TrayClickAction.md)
+
  [UpdateChannel](Ink\_Canvas.UpdateChannel.md)
 
  [UpdatePackageArchitecture](Ink\_Canvas.UpdatePackageArchitecture.md)

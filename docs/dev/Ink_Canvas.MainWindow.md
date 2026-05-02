@@ -1605,6 +1605,14 @@ public void ResetPPTStateVariables()
 - 成功时记录追踪日志
 - 发生异常时记录错误日志并继续执行
 
+### <a id="Ink_Canvas_MainWindow_ResetPPTTimeCapsuleOffset"></a> ResetPPTTimeCapsuleOffset\(\)
+
+重置PPT时间胶囊拖拽偏移量
+
+```csharp
+public void ResetPPTTimeCapsuleOffset()
+```
+
 ### <a id="Ink_Canvas_MainWindow_ResetUpdateCheckRetry"></a> ResetUpdateCheckRetry\(\)
 
 重置更新检查重试状态方法
@@ -1626,6 +1634,20 @@ public void ResetUpdateCheckRetry()
 ```csharp
 public void ResumeTopmostMaintenance()
 ```
+
+### <a id="Ink_Canvas_MainWindow_SavePPTTimeCapsuleOffset_System_Double_System_Double_"></a> SavePPTTimeCapsuleOffset\(double, double\)
+
+保存PPT时间胶囊拖拽偏移量
+
+```csharp
+public void SavePPTTimeCapsuleOffset(double offsetX, double offsetY)
+```
+
+#### Parameters
+
+`offsetX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+`offsetY` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_MainWindow_SaveSettingsToFile"></a> SaveSettingsToFile\(\)
 
@@ -2033,12 +2055,28 @@ public void UpdatePPTBtnSlidersStatus()
 public void UpdatePPTQuickPanelVisibility()
 ```
 
+### <a id="Ink_Canvas_MainWindow_UpdatePPTTimeCapsuleOpacity"></a> UpdatePPTTimeCapsuleOpacity\(\)
+
+更新PPT时间胶囊的透明度
+
+```csharp
+public void UpdatePPTTimeCapsuleOpacity()
+```
+
 ### <a id="Ink_Canvas_MainWindow_UpdatePPTTimeCapsulePosition"></a> UpdatePPTTimeCapsulePosition\(\)
 
 更新PPT时间胶囊的位置
 
 ```csharp
 public void UpdatePPTTimeCapsulePosition()
+```
+
+### <a id="Ink_Canvas_MainWindow_UpdatePPTTimeCapsuleScale"></a> UpdatePPTTimeCapsuleScale\(\)
+
+更新PPT时间胶囊的大小
+
+```csharp
+public void UpdatePPTTimeCapsuleScale()
 ```
 
 ### <a id="Ink_Canvas_MainWindow_UpdatePPTTimeCapsuleVisibility"></a> UpdatePPTTimeCapsuleVisibility\(\)

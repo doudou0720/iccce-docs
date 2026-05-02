@@ -56,6 +56,12 @@ SettingsPage
 
 StoragePage
 
+ [ToolbarPage.ToolbarItemViewModel](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarPage.ToolbarItemViewModel.md)
+
+ [ToolbarPage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarPage.md)
+
+ToolbarPage
+
  [UpdatePage](Ink\_Canvas.Windows.SettingsViews.Pages.UpdatePage.md)
 
  [WindowPage](Ink\_Canvas.Windows.SettingsViews.Pages.WindowPage.md)

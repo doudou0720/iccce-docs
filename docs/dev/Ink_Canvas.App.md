@@ -6,7 +6,7 @@ Assembly: InkCanvasForClass.dll
 Interaction logic for App.xaml
 
 ```csharp
-public class App : Application, IQueryAmbient, IComponentConnector, IStyleConnector
+public class App : Application, IQueryAmbient, IComponentConnector
 ```
 
 #### Inheritance
@@ -19,8 +19,7 @@ public class App : Application, IQueryAmbient, IComponentConnector, IStyleConnec
 #### Implements
 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector), 
-[IStyleConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.istyleconnector)
+[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
 
 #### Inherited Members
 

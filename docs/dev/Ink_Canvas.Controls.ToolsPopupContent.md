@@ -1,12 +1,10 @@
-# <a id="Ink_Canvas_Windows_PPTTimeCapsule"></a> Class PPTTimeCapsule
+# <a id="Ink_Canvas_Controls_ToolsPopupContent"></a> Class ToolsPopupContent
 
-Namespace: [Ink\_Canvas.Windows](Ink\_Canvas.Windows.md)  
+Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)  
 Assembly: InkCanvasForClass.dll  
 
-PPT时间显示胶囊控件
-
 ```csharp
-public class PPTTimeCapsule : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IDisposable, IComponentConnector
+public class ToolsPopupContent : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
 ```
 
 #### Inheritance
@@ -20,7 +18,7 @@ public class PPTTimeCapsule : UserControl, IAnimatable, ISupportInitialize, IFra
 [Control](https://learn.microsoft.com/dotnet/api/system.windows.controls.control) ← 
 [ContentControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol) ← 
 [UserControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol) ← 
-[PPTTimeCapsule](Ink\_Canvas.Windows.PPTTimeCapsule.md)
+[ToolsPopupContent](Ink\_Canvas.Controls.ToolsPopupContent.md)
 
 #### Implements
 
@@ -29,9 +27,7 @@ public class PPTTimeCapsule : UserControl, IAnimatable, ISupportInitialize, IFra
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
-[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable), 
-[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
+[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
 
 #### Inherited Members
 
@@ -680,103 +676,133 @@ public class PPTTimeCapsule : UserControl, IAnimatable, ISupportInitialize, IFra
 
 ## Constructors
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule__ctor"></a> PPTTimeCapsule\(\)
+### <a id="Ink_Canvas_Controls_ToolsPopupContent__ctor"></a> ToolsPopupContent\(\)
 
 ```csharp
-public PPTTimeCapsule()
+public ToolsPopupContent()
 ```
+
+## Fields
+
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_IsBoardModeProperty"></a> IsBoardModeProperty
+
+```csharp
+public static readonly DependencyProperty IsBoardModeProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
 
 ## Properties
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_IsCountdownRunning"></a> IsCountdownRunning
-
-获取当前倒计时状态
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_CloseFontIcon"></a> CloseFontIcon
 
 ```csharp
-public bool IsCountdownRunning { get; }
+public FontIcon CloseFontIcon { get; }
+```
+
+#### Property Value
+
+ [FontIcon](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/FontIcon.cs)
+
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_IsBoardMode"></a> IsBoardMode
+
+```csharp
+public bool IsBoardMode { get; set; }
 ```
 
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_IsOvertime"></a> IsOvertime
-
-获取是否超时
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_ManualBtn"></a> ManualBtn
 
 ```csharp
-public bool IsOvertime { get; }
+public ToolMenuButton ManualBtn { get; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ ToolMenuButton
 
-## Methods
-
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_ApplyDragOffset_System_Double_System_Double_"></a> ApplyDragOffset\(double, double\)
-
-应用拖拽偏移量
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_OpenBtn"></a> OpenBtn
 
 ```csharp
-public void ApplyDragOffset(double offsetX, double offsetY)
+public ToolMenuButton OpenBtn { get; }
 ```
 
-#### Parameters
+#### Property Value
 
-`offsetX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+ ToolMenuButton
 
-`offsetY` [double](https://learn.microsoft.com/dotnet/api/system.double)
-
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_Dispose"></a> Dispose\(\)
-
-实现 IDisposable
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_RandomDrawBtn"></a> RandomDrawBtn
 
 ```csharp
-public void Dispose()
+public ToolMenuButton RandomDrawBtn { get; }
 ```
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_InitializeComponent"></a> InitializeComponent\(\)
+#### Property Value
 
-InitializeComponent
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_ReplayBtn"></a> ReplayBtn
 
 ```csharp
-public void InitializeComponent()
+public ToolMenuButton ReplayBtn { get; }
 ```
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_OnTimerCompleted"></a> OnTimerCompleted\(\)
+#### Property Value
 
-处理计时器完成事件
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_SaveBtn"></a> SaveBtn
 
 ```csharp
-public void OnTimerCompleted()
+public ToolMenuButton SaveBtn { get; }
 ```
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_ResetDragOffset"></a> ResetDragOffset\(\)
+#### Property Value
 
-重置拖拽偏移量到默认位置
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_ScreenshotBtn"></a> ScreenshotBtn
 
 ```csharp
-public void ResetDragOffset()
+public ToolMenuButton ScreenshotBtn { get; }
 ```
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_SetParentControl_Ink_Canvas_Windows_TimerControl_"></a> SetParentControl\(TimerControl\)
+#### Property Value
 
-设置父计时器控件
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_SettingsBtn"></a> SettingsBtn
 
 ```csharp
-public void SetParentControl(TimerControl parent)
+public ToolMenuButton SettingsBtn { get; }
 ```
 
-#### Parameters
+#### Property Value
 
-`parent` [TimerControl](Ink\_Canvas.Windows.TimerControl.md)
+ ToolMenuButton
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_StopCountdown"></a> StopCountdown\(\)
-
-停止倒计时
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_SingleDrawBtn"></a> SingleDrawBtn
 
 ```csharp
-public void StopCountdown()
+public ToolMenuButton SingleDrawBtn { get; }
 ```
+
+#### Property Value
+
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_TimerBtn"></a> TimerBtn
+
+```csharp
+public ToolMenuButton TimerBtn { get; }
+```
+
+#### Property Value
+
+ ToolMenuButton
 

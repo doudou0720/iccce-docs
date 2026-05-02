@@ -26,6 +26,16 @@ CopyButton
 
 GeometryButton
 
+ [ImageMoveDeltaEventArgs](Ink\_Canvas.Controls.ImageMoveDeltaEventArgs.md)
+
+ [ImageResizeDeltaEventArgs](Ink\_Canvas.Controls.ImageResizeDeltaEventArgs.md)
+
+ [ImageRotateDeltaEventArgs](Ink\_Canvas.Controls.ImageRotateDeltaEventArgs.md)
+
+ [ImageSelectionOverlay](Ink\_Canvas.Controls.ImageSelectionOverlay.md)
+
+ImageSelectionOverlay
+
  [LabeledSettingsCard](Ink\_Canvas.Controls.LabeledSettingsCard.md)
 
 LabeledSettingsCard
@@ -66,9 +76,13 @@ ToolMenuButton
 
 ToolbarImageButton
 
+ [ToolsPopupContent](Ink\_Canvas.Controls.ToolsPopupContent.md)
+
 ### Enums
 
  [ButtonPosition](Ink\_Canvas.Controls.ButtonPosition.md)
+
+ [ImageResizeCorner](Ink\_Canvas.Controls.ImageResizeCorner.md)
 
  [PptNavBar.NavDirection](Ink\_Canvas.Controls.PptNavBar.NavDirection.md)
 

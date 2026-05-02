@@ -1,12 +1,12 @@
-# <a id="Ink_Canvas_Windows_PPTTimeCapsule"></a> Class PPTTimeCapsule
+# <a id="Ink_Canvas_Controls_ImageSelectionOverlay"></a> Class ImageSelectionOverlay
 
-Namespace: [Ink\_Canvas.Windows](Ink\_Canvas.Windows.md)  
+Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)  
 Assembly: InkCanvasForClass.dll  
 
-PPT时间显示胶囊控件
+ImageSelectionOverlay
 
 ```csharp
-public class PPTTimeCapsule : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IDisposable, IComponentConnector
+public class ImageSelectionOverlay : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
 ```
 
 #### Inheritance
@@ -20,7 +20,7 @@ public class PPTTimeCapsule : UserControl, IAnimatable, ISupportInitialize, IFra
 [Control](https://learn.microsoft.com/dotnet/api/system.windows.controls.control) ← 
 [ContentControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol) ← 
 [UserControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol) ← 
-[PPTTimeCapsule](Ink\_Canvas.Windows.PPTTimeCapsule.md)
+[ImageSelectionOverlay](Ink\_Canvas.Controls.ImageSelectionOverlay.md)
 
 #### Implements
 
@@ -30,7 +30,6 @@ public class PPTTimeCapsule : UserControl, IAnimatable, ISupportInitialize, IFra
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
 [IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
-[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable), 
 [IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
 
 #### Inherited Members
@@ -680,63 +679,27 @@ public class PPTTimeCapsule : UserControl, IAnimatable, ISupportInitialize, IFra
 
 ## Constructors
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule__ctor"></a> PPTTimeCapsule\(\)
+### <a id="Ink_Canvas_Controls_ImageSelectionOverlay__ctor"></a> ImageSelectionOverlay\(\)
 
 ```csharp
-public PPTTimeCapsule()
+public ImageSelectionOverlay()
 ```
 
 ## Properties
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_IsCountdownRunning"></a> IsCountdownRunning
-
-获取当前倒计时状态
+### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_CoordinateSource"></a> CoordinateSource
 
 ```csharp
-public bool IsCountdownRunning { get; }
+public IInputElement CoordinateSource { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_IsOvertime"></a> IsOvertime
-
-获取是否超时
-
-```csharp
-public bool IsOvertime { get; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement)
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_ApplyDragOffset_System_Double_System_Double_"></a> ApplyDragOffset\(double, double\)
-
-应用拖拽偏移量
-
-```csharp
-public void ApplyDragOffset(double offsetX, double offsetY)
-```
-
-#### Parameters
-
-`offsetX` [double](https://learn.microsoft.com/dotnet/api/system.double)
-
-`offsetY` [double](https://learn.microsoft.com/dotnet/api/system.double)
-
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_Dispose"></a> Dispose\(\)
-
-实现 IDisposable
-
-```csharp
-public void Dispose()
-```
-
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_InitializeComponent"></a> InitializeComponent\(\)
+### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_InitializeComponent"></a> InitializeComponent\(\)
 
 InitializeComponent
 
@@ -744,39 +707,72 @@ InitializeComponent
 public void InitializeComponent()
 ```
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_OnTimerCompleted"></a> OnTimerCompleted\(\)
+### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_UpdateFrame_System_Windows_Point_System_Double_System_Double_System_Double_"></a> UpdateFrame\(Point, double, double, double\)
 
-处理计时器完成事件
-
-```csharp
-public void OnTimerCompleted()
-```
-
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_ResetDragOffset"></a> ResetDragOffset\(\)
-
-重置拖拽偏移量到默认位置
+Position overlay so its logical rect (width × height) is centered at centerCanvas,
+then rotated by rotationAngleDegrees around that center to match the target element.
 
 ```csharp
-public void ResetDragOffset()
-```
-
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_SetParentControl_Ink_Canvas_Windows_TimerControl_"></a> SetParentControl\(TimerControl\)
-
-设置父计时器控件
-
-```csharp
-public void SetParentControl(TimerControl parent)
+public void UpdateFrame(Point centerCanvas, double width, double height, double rotationAngleDegrees)
 ```
 
 #### Parameters
 
-`parent` [TimerControl](Ink\_Canvas.Windows.TimerControl.md)
+`centerCanvas` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_StopCountdown"></a> StopCountdown\(\)
+`width` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-停止倒计时
+`height` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+`rotationAngleDegrees` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_InteractionEnded"></a> InteractionEnded
 
 ```csharp
-public void StopCountdown()
+public event EventHandler InteractionEnded
 ```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+
+### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_InteractionStarted"></a> InteractionStarted
+
+```csharp
+public event EventHandler InteractionStarted
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+
+### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_MoveDelta"></a> MoveDelta
+
+```csharp
+public event EventHandler<ImageMoveDeltaEventArgs> MoveDelta
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[ImageMoveDeltaEventArgs](Ink\_Canvas.Controls.ImageMoveDeltaEventArgs.md)\>
+
+### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_ResizeDelta"></a> ResizeDelta
+
+```csharp
+public event EventHandler<ImageResizeDeltaEventArgs> ResizeDelta
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[ImageResizeDeltaEventArgs](Ink\_Canvas.Controls.ImageResizeDeltaEventArgs.md)\>
+
+### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_RotateDelta"></a> RotateDelta
+
+```csharp
+public event EventHandler<ImageRotateDeltaEventArgs> RotateDelta
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[ImageRotateDeltaEventArgs](Ink\_Canvas.Controls.ImageRotateDeltaEventArgs.md)\>
 

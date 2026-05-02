@@ -99,6 +99,8 @@
     href: Ink_Canvas.OptionalOperation.md
   - name: TelemetryUploadLevel
     href: Ink_Canvas.TelemetryUploadLevel.md
+  - name: TrayClickAction
+    href: Ink_Canvas.TrayClickAction.md
   - name: UpdateChannel
     href: Ink_Canvas.UpdateChannel.md
   - name: UpdatePackageArchitecture
@@ -117,6 +119,14 @@
     href: Ink_Canvas.Controls.CopyButton.md
   - name: GeometryButton
     href: Ink_Canvas.Controls.GeometryButton.md
+  - name: ImageMoveDeltaEventArgs
+    href: Ink_Canvas.Controls.ImageMoveDeltaEventArgs.md
+  - name: ImageResizeDeltaEventArgs
+    href: Ink_Canvas.Controls.ImageResizeDeltaEventArgs.md
+  - name: ImageRotateDeltaEventArgs
+    href: Ink_Canvas.Controls.ImageRotateDeltaEventArgs.md
+  - name: ImageSelectionOverlay
+    href: Ink_Canvas.Controls.ImageSelectionOverlay.md
   - name: LabeledSettingsCard
     href: Ink_Canvas.Controls.LabeledSettingsCard.md
   - name: LabeledToggleSwitch
@@ -137,9 +147,13 @@
     href: Ink_Canvas.Controls.ToolMenuButton.md
   - name: ToolbarImageButton
     href: Ink_Canvas.Controls.ToolbarImageButton.md
+  - name: ToolsPopupContent
+    href: Ink_Canvas.Controls.ToolsPopupContent.md
   - name: Enums
   - name: ButtonPosition
     href: Ink_Canvas.Controls.ButtonPosition.md
+  - name: ImageResizeCorner
+    href: Ink_Canvas.Controls.ImageResizeCorner.md
   - name: PptNavBar.NavDirection
     href: Ink_Canvas.Controls.PptNavBar.NavDirection.md
 - name: Ink_Canvas.Controls.Toolbar
@@ -280,6 +294,10 @@
     href: Ink_Canvas.Helpers.PPTROTConnectionHelper.md
   - name: PPTUIManager
     href: Ink_Canvas.Helpers.PPTUIManager.md
+  - name: PopupManagerHelper
+    href: Ink_Canvas.Helpers.PopupManagerHelper.md
+  - name: PopupManagerHelper.Config
+    href: Ink_Canvas.Helpers.PopupManagerHelper.Config.md
   - name: ROTPPTManager
     href: Ink_Canvas.Helpers.ROTPPTManager.md
   - name: SafeZipExtractor
@@ -446,6 +464,8 @@
     href: Ink_Canvas.Windows.HotkeyItem.md
   - name: MinimizedTimerControl
     href: Ink_Canvas.Windows.MinimizedTimerControl.md
+  - name: OobePresetWindow
+    href: Ink_Canvas.Windows.OobePresetWindow.md
   - name: OobeWindow
     href: Ink_Canvas.Windows.OobeWindow.md
   - name: PPTQuickPanel
@@ -462,6 +482,9 @@
     href: Ink_Canvas.Windows.UserInfo.md
   - name: WhiteboardInfo
     href: Ink_Canvas.Windows.WhiteboardInfo.md
+  - name: Enums
+  - name: OobePresetWindow.PresetKind
+    href: Ink_Canvas.Windows.OobePresetWindow.PresetKind.md
 - name: Ink_Canvas.Windows.Controls
   href: Ink_Canvas.Windows.Controls.md
   items:
@@ -536,6 +559,10 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.StartupPage.md
   - name: StoragePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.StoragePage.md
+  - name: ToolbarPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.ToolbarPage.md
+  - name: ToolbarPage.ToolbarItemViewModel
+    href: Ink_Canvas.Windows.SettingsViews.Pages.ToolbarPage.ToolbarItemViewModel.md
   - name: UpdatePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.UpdatePage.md
   - name: WindowPage

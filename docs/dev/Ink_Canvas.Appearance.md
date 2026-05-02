@@ -376,6 +376,28 @@ public int Theme { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Appearance_TrayLeftClickAction"></a> TrayLeftClickAction
+
+```csharp
+[JsonProperty("trayLeftClickAction")]
+public TrayClickAction TrayLeftClickAction { get; set; }
+```
+
+#### Property Value
+
+ [TrayClickAction](Ink\_Canvas.TrayClickAction.md)
+
+### <a id="Ink_Canvas_Appearance_TrayRightClickAction"></a> TrayRightClickAction
+
+```csharp
+[JsonProperty("trayRightClickAction")]
+public TrayClickAction TrayRightClickAction { get; set; }
+```
+
+#### Property Value
+
+ [TrayClickAction](Ink\_Canvas.TrayClickAction.md)
+
 ### <a id="Ink_Canvas_Appearance_UnFoldButtonImageType"></a> UnFoldButtonImageType
 
 ```csharp

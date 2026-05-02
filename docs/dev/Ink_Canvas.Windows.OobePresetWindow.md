@@ -1,12 +1,12 @@
-# <a id="Ink_Canvas_Windows_PPTTimeCapsule"></a> Class PPTTimeCapsule
+# <a id="Ink_Canvas_Windows_OobePresetWindow"></a> Class OobePresetWindow
 
 Namespace: [Ink\_Canvas.Windows](Ink\_Canvas.Windows.md)  
 Assembly: InkCanvasForClass.dll  
 
-PPT时间显示胶囊控件
+OobePresetWindow
 
 ```csharp
-public class PPTTimeCapsule : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IDisposable, IComponentConnector
+public class OobePresetWindow : Window, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
 ```
 
 #### Inheritance
@@ -19,8 +19,8 @@ public class PPTTimeCapsule : UserControl, IAnimatable, ISupportInitialize, IFra
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
 [Control](https://learn.microsoft.com/dotnet/api/system.windows.controls.control) ← 
 [ContentControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol) ← 
-[UserControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol) ← 
-[PPTTimeCapsule](Ink\_Canvas.Windows.PPTTimeCapsule.md)
+[Window](https://learn.microsoft.com/dotnet/api/system.windows.window) ← 
+[OobePresetWindow](Ink\_Canvas.Windows.OobePresetWindow.md)
 
 #### Implements
 
@@ -30,12 +30,77 @@ public class PPTTimeCapsule : UserControl, IAnimatable, ISupportInitialize, IFra
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
 [IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
-[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable), 
 [IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
 
 #### Inherited Members
 
-[UserControl.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol.oncreateautomationpeer), 
+[Window.AllowsTransparencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.allowstransparencyproperty), 
+[Window.DpiChangedEvent](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichangedevent), 
+[Window.IconProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.iconproperty), 
+[Window.IsActiveProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.isactiveproperty), 
+[Window.LeftProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.leftproperty), 
+[Window.ResizeModeProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.resizemodeproperty), 
+[Window.ShowActivatedProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.showactivatedproperty), 
+[Window.ShowInTaskbarProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbarproperty), 
+[Window.SizeToContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontentproperty), 
+[Window.TaskbarItemInfoProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfoproperty), 
+[Window.TitleProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.titleproperty), 
+[Window.TopmostProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.topmostproperty), 
+[Window.TopProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.topproperty), 
+[Window.WindowStateProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstateproperty), 
+[Window.WindowStyleProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstyleproperty), 
+[Window.Activate\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.activate), 
+[Window.ArrangeOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.window.arrangeoverride), 
+[Window.Close\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.close), 
+[Window.DragMove\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.dragmove), 
+[Window.GetWindow\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.getwindow), 
+[Window.Hide\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.hide), 
+[Window.MeasureOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.window.measureoverride), 
+[Window.OnActivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onactivated), 
+[Window.OnClosed\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onclosed), 
+[Window.OnClosing\(CancelEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onclosing), 
+[Window.OnContentChanged\(object, object\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncontentchanged), 
+[Window.OnContentRendered\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncontentrendered), 
+[Window.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncreateautomationpeer), 
+[Window.OnDeactivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.ondeactivated), 
+[Window.OnDpiChanged\(DpiScale, DpiScale\)](https://learn.microsoft.com/dotnet/api/system.windows.window.ondpichanged), 
+[Window.OnLocationChanged\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onlocationchanged), 
+[Window.OnManipulationBoundaryFeedback\(ManipulationBoundaryFeedbackEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onmanipulationboundaryfeedback), 
+[Window.OnSourceInitialized\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onsourceinitialized), 
+[Window.OnStateChanged\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onstatechanged), 
+[Window.OnVisualChildrenChanged\(DependencyObject, DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onvisualchildrenchanged), 
+[Window.OnVisualParentChanged\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onvisualparentchanged), 
+[Window.Show\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.show), 
+[Window.ShowDialog\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.showdialog), 
+[Window.AllowsTransparency](https://learn.microsoft.com/dotnet/api/system.windows.window.allowstransparency), 
+[Window.DialogResult](https://learn.microsoft.com/dotnet/api/system.windows.window.dialogresult), 
+[Window.Icon](https://learn.microsoft.com/dotnet/api/system.windows.window.icon), 
+[Window.IsActive](https://learn.microsoft.com/dotnet/api/system.windows.window.isactive), 
+[Window.Left](https://learn.microsoft.com/dotnet/api/system.windows.window.left), 
+[Window.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.window.logicalchildren), 
+[Window.OwnedWindows](https://learn.microsoft.com/dotnet/api/system.windows.window.ownedwindows), 
+[Window.Owner](https://learn.microsoft.com/dotnet/api/system.windows.window.owner), 
+[Window.ResizeMode](https://learn.microsoft.com/dotnet/api/system.windows.window.resizemode), 
+[Window.RestoreBounds](https://learn.microsoft.com/dotnet/api/system.windows.window.restorebounds), 
+[Window.ShowActivated](https://learn.microsoft.com/dotnet/api/system.windows.window.showactivated), 
+[Window.ShowInTaskbar](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbar), 
+[Window.SizeToContent](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontent), 
+[Window.TaskbarItemInfo](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfo), 
+[Window.Title](https://learn.microsoft.com/dotnet/api/system.windows.window.title), 
+[Window.Top](https://learn.microsoft.com/dotnet/api/system.windows.window.top), 
+[Window.Topmost](https://learn.microsoft.com/dotnet/api/system.windows.window.topmost), 
+[Window.WindowStartupLocation](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstartuplocation), 
+[Window.WindowState](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstate), 
+[Window.WindowStyle](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstyle), 
+[Window.Activated](https://learn.microsoft.com/dotnet/api/system.windows.window.activated), 
+[Window.Closed](https://learn.microsoft.com/dotnet/api/system.windows.window.closed), 
+[Window.Closing](https://learn.microsoft.com/dotnet/api/system.windows.window.closing), 
+[Window.ContentRendered](https://learn.microsoft.com/dotnet/api/system.windows.window.contentrendered), 
+[Window.Deactivated](https://learn.microsoft.com/dotnet/api/system.windows.window.deactivated), 
+[Window.DpiChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichanged), 
+[Window.LocationChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.locationchanged), 
+[Window.SourceInitialized](https://learn.microsoft.com/dotnet/api/system.windows.window.sourceinitialized), 
+[Window.StateChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.statechanged), 
 [ContentControl.ContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentproperty), 
 [ContentControl.ContentStringFormatProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentstringformatproperty), 
 [ContentControl.ContentTemplateProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateproperty), 
@@ -680,103 +745,55 @@ public class PPTTimeCapsule : UserControl, IAnimatable, ISupportInitialize, IFra
 
 ## Constructors
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule__ctor"></a> PPTTimeCapsule\(\)
+### <a id="Ink_Canvas_Windows_OobePresetWindow__ctor"></a> OobePresetWindow\(\)
 
 ```csharp
-public PPTTimeCapsule()
+public OobePresetWindow()
 ```
 
 ## Properties
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_IsCountdownRunning"></a> IsCountdownRunning
-
-获取当前倒计时状态
+### <a id="Ink_Canvas_Windows_OobePresetWindow_SelectedPreset"></a> SelectedPreset
 
 ```csharp
-public bool IsCountdownRunning { get; }
+public OobePresetWindow.PresetKind SelectedPreset { get; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_IsOvertime"></a> IsOvertime
-
-获取是否超时
-
-```csharp
-public bool IsOvertime { get; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ [OobePresetWindow](Ink\_Canvas.Windows.OobePresetWindow.md).[PresetKind](Ink\_Canvas.Windows.OobePresetWindow.PresetKind.md)
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_ApplyDragOffset_System_Double_System_Double_"></a> ApplyDragOffset\(double, double\)
+### <a id="Ink_Canvas_Windows_OobePresetWindow_ApplyLite_Ink_Canvas_Settings_"></a> ApplyLite\(Settings\)
 
-应用拖拽偏移量
+简洁轻量配置：最小化后台行为，适合简单批注场景。
 
 ```csharp
-public void ApplyDragOffset(double offsetX, double offsetY)
+public static void ApplyLite(Settings settings)
 ```
 
 #### Parameters
 
-`offsetX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`settings` [Settings](Ink\_Canvas.Settings.md)
 
-`offsetY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+### <a id="Ink_Canvas_Windows_OobePresetWindow_ApplyStandard_Ink_Canvas_Settings_"></a> ApplyStandard\(Settings\)
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_Dispose"></a> Dispose\(\)
-
-实现 IDisposable
+课堂标准配置：适合大多数教学场景，启用 PPT 联动、自动保存、手势等。
 
 ```csharp
-public void Dispose()
+public static void ApplyStandard(Settings settings)
 ```
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_InitializeComponent"></a> InitializeComponent\(\)
+#### Parameters
+
+`settings` [Settings](Ink\_Canvas.Settings.md)
+
+### <a id="Ink_Canvas_Windows_OobePresetWindow_InitializeComponent"></a> InitializeComponent\(\)
 
 InitializeComponent
 
 ```csharp
 public void InitializeComponent()
-```
-
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_OnTimerCompleted"></a> OnTimerCompleted\(\)
-
-处理计时器完成事件
-
-```csharp
-public void OnTimerCompleted()
-```
-
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_ResetDragOffset"></a> ResetDragOffset\(\)
-
-重置拖拽偏移量到默认位置
-
-```csharp
-public void ResetDragOffset()
-```
-
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_SetParentControl_Ink_Canvas_Windows_TimerControl_"></a> SetParentControl\(TimerControl\)
-
-设置父计时器控件
-
-```csharp
-public void SetParentControl(TimerControl parent)
-```
-
-#### Parameters
-
-`parent` [TimerControl](Ink\_Canvas.Windows.TimerControl.md)
-
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_StopCountdown"></a> StopCountdown\(\)
-
-停止倒计时
-
-```csharp
-public void StopCountdown()
 ```
 

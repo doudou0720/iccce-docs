@@ -37,6 +37,8 @@ Only shrinks, never enlarges above MaxFontSize.
 
  [ComPPTLinkManager](Ink\_Canvas.Helpers.ComPPTLinkManager.md)
 
+ [PopupManagerHelper.Config](Ink\_Canvas.Helpers.PopupManagerHelper.Config.md)
+
  [ConfigProfileManager](Ink\_Canvas.Helpers.ConfigProfileManager.md)
 
 提供多配置文件保存、切换与热重载支持。
@@ -161,6 +163,8 @@ PPT联动管理器 - 统一管理PPT和WPS的连接、事件处理和进程管�
 
 PPT UI管理器 - 统一管理PPT相关的UI更新和样式设置
 
+ [PopupManagerHelper](Ink\_Canvas.Helpers.PopupManagerHelper.md)
+
  [ROTPPTManager](Ink\_Canvas.Helpers.ROTPPTManager.md)
 
  [SafeZipExtractor](Ink\_Canvas.Helpers.SafeZipExtractor.md)
@@ -258,9 +262,9 @@ WebDav上传工具类
 
  [EdgeGestureUtil.PropertyKey](Ink\_Canvas.Helpers.EdgeGestureUtil.PropertyKey.md)
 
- [ROTPPTManager.RECT](Ink\_Canvas.Helpers.ROTPPTManager.RECT.md)
-
  [PPTManager.RECT](Ink\_Canvas.Helpers.PPTManager.RECT.md)
+
+ [ROTPPTManager.RECT](Ink\_Canvas.Helpers.ROTPPTManager.RECT.md)
 
  [WindowRect](Ink\_Canvas.Helpers.WindowRect.md)
 

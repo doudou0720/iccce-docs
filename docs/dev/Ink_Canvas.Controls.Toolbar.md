@@ -17,8 +17,6 @@ MainWindow 版的 IToolbarHost 实现。Phase 1 直接把 MainWindow 引用暴�
 
  [ToolbarRegistry](Ink\_Canvas.Controls.Toolbar.ToolbarRegistry.md)
 
-扫描当前程序集里的 IToolbarItem 实现，按用户配置（Settings.Toolbar）排序/过滤后注入到目标容器。
-
 ### Interfaces
 
  [IToolbarHost](Ink\_Canvas.Controls.Toolbar.IToolbarHost.md)
@@ -26,9 +24,6 @@ MainWindow 版的 IToolbarHost 实现。Phase 1 直接把 MainWindow 引用暴�
 工具栏按钮插件与宿主之间的桥梁。Phase 1 粗粒度暴露 MainWindow，后续收窄。
 
  [IToolbarItem](Ink\_Canvas.Controls.Toolbar.IToolbarItem.md)
-
-一个工具栏按钮（或任意浮动栏/白板栏条目）的插件化契约。
-实现类必须有无参构造函数，启动时会被 ToolbarRegistry 反射实例化。
 
 ### Enums
 

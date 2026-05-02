@@ -343,6 +343,39 @@ public int PPTSButtonsOption { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_PowerPointSettings_PPTTimeCapsuleOffsetX"></a> PPTTimeCapsuleOffsetX
+
+```csharp
+[JsonProperty("pptTimeCapsuleOffsetX")]
+public double PPTTimeCapsuleOffsetX { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTTimeCapsuleOffsetY"></a> PPTTimeCapsuleOffsetY
+
+```csharp
+[JsonProperty("pptTimeCapsuleOffsetY")]
+public double PPTTimeCapsuleOffsetY { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTTimeCapsuleOpacity"></a> PPTTimeCapsuleOpacity
+
+```csharp
+[JsonProperty("pptTimeCapsuleOpacity")]
+public double PPTTimeCapsuleOpacity { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_PowerPointSettings_PPTTimeCapsulePosition"></a> PPTTimeCapsulePosition
 
 ```csharp
@@ -353,6 +386,17 @@ public int PPTTimeCapsulePosition { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTTimeCapsuleScale"></a> PPTTimeCapsuleScale
+
+```csharp
+[JsonProperty("pptTimeCapsuleScale")]
+public double PPTTimeCapsuleScale { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_PowerPointSettings_PowerPointSupport"></a> PowerPointSupport
 

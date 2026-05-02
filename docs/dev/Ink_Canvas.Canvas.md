@@ -457,6 +457,28 @@ public int PalmEraserSensitivity { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Canvas_PauseStraightenDelay"></a> PauseStraightenDelay
+
+```csharp
+[JsonProperty("pauseStraightenDelay")]
+public int PauseStraightenDelay { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Canvas_PauseStraightenLine"></a> PauseStraightenLine
+
+```csharp
+[JsonProperty("pauseStraightenLine")]
+public bool PauseStraightenLine { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Canvas_ShowCircleCenter"></a> ShowCircleCenter
 
 ```csharp

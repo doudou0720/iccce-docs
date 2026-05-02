@@ -36,6 +36,10 @@ auth-with-token接口响应模型
 
 最小化计时器窗口
 
+ [OobePresetWindow](Ink\_Canvas.Windows.OobePresetWindow.md)
+
+OobePresetWindow
+
  [OobeWindow](Ink\_Canvas.Windows.OobeWindow.md)
 
 首次启动体验(OOBE)窗口。使用 iNKORE.UI.WPF.Modern 的 NavigationView 作为左侧导航,
@@ -68,4 +72,8 @@ SplashScreen.xaml 的交互逻辑
  [WhiteboardInfo](Ink\_Canvas.Windows.WhiteboardInfo.md)
 
 白板信息模型
+
+### Enums
+
+ [OobePresetWindow.PresetKind](Ink\_Canvas.Windows.OobePresetWindow.PresetKind.md)
 

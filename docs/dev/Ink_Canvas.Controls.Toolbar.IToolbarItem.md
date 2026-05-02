@@ -3,9 +3,6 @@
 Namespace: [Ink\_Canvas.Controls.Toolbar](Ink\_Canvas.Controls.Toolbar.md)  
 Assembly: InkCanvasForClass.dll  
 
-一个工具栏按钮（或任意浮动栏/白板栏条目）的插件化契约。
-实现类必须有无参构造函数，启动时会被 ToolbarRegistry 反射实例化。
-
 ```csharp
 public interface IToolbarItem
 ```
@@ -13,8 +10,6 @@ public interface IToolbarItem
 ## Properties
 
 ### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DefaultAnchorName"></a> DefaultAnchorName
-
-仅当 Position 为 BeforeAnchor/AfterAnchor 时有意义，对应 XAML 里 x:Name。
 
 ```csharp
 string DefaultAnchorName { get; }
@@ -25,8 +20,6 @@ string DefaultAnchorName { get; }
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DefaultOrder"></a> DefaultOrder
-
-同一 slot 内的默认顺序，小的在前。
 
 ```csharp
 int DefaultOrder { get; }
@@ -66,9 +59,17 @@ bool DefaultVisible { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_Id"></a> Id
+### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DisplayName"></a> DisplayName
 
-稳定、唯一的 id，用于持久化用户配置。不要随便改。
+```csharp
+string DisplayName { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_Id"></a> Id
 
 ```csharp
 string Id { get; }
@@ -78,11 +79,19 @@ string Id { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_MenuPanelName"></a> MenuPanelName
+
+```csharp
+string MenuPanelName { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ## Methods
 
 ### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_BuildView_Ink_Canvas_Controls_Toolbar_IToolbarHost_"></a> BuildView\(IToolbarHost\)
-
-构造 UI 元素并接线所有行为。
 
 ```csharp
 FrameworkElement BuildView(IToolbarHost host)
