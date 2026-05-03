@@ -19,10 +19,10 @@ importers:
         version: 1.0.3
       marked:
         specifier: ^18.0.2
-        version: 18.0.2
+        version: 18.0.3
       marked-alert:
         specifier: ^2.1.2
-        version: 2.1.2(marked@18.0.2)
+        version: 2.1.2(marked@18.0.3)
     devDependencies:
       '@types/node':
         specifier: ^25.6.0
@@ -912,8 +912,8 @@ packages:
     peerDependencies:
       marked: '>=7.0.0'
 
-  marked@18.0.2:
-    resolution: {integrity: sha512-NsmlUYBS/Zg57rgDWMYdnre6OTj4e+qq/JS2ot3KrYLSoHLw+sDu0Nm1ZGpRgYAq6c+b1ekaY5NzVchMCQnzcg==}
+  marked@18.0.3:
+    resolution: {integrity: sha512-7VT90JOkDeaRWpfjOReRGPEKn0ecdARBkDGL+tT1wZY0efPPqkUxLUSmzy/C7TIylQYJC9STISEsCHrqb/7VIA==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -1738,11 +1738,11 @@ snapshots:
 
   mark.js@8.11.1: {}
 
-  marked-alert@2.1.2(marked@18.0.2):
+  marked-alert@2.1.2(marked@18.0.3):
     dependencies:
-      marked: 18.0.2
+      marked: 18.0.3
 
-  marked@18.0.2: {}
+  marked@18.0.3: {}
 
   mdast-util-to-hast@13.2.1:
     dependencies:
