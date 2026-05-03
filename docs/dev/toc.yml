@@ -109,6 +109,8 @@
   href: Ink_Canvas.Controls.md
   items:
   - name: Classes
+  - name: BackgroundPalettePopupContent
+    href: Ink_Canvas.Controls.BackgroundPalettePopupContent.md
   - name: BoardToolbarButton
     href: Ink_Canvas.Controls.BoardToolbarButton.md
   - name: CircularColorButton
@@ -117,10 +119,16 @@
     href: Ink_Canvas.Controls.ColorPickerButton.md
   - name: CopyButton
     href: Ink_Canvas.Controls.CopyButton.md
+  - name: EraserPopupContent
+    href: Ink_Canvas.Controls.EraserPopupContent.md
   - name: GeometryButton
     href: Ink_Canvas.Controls.GeometryButton.md
+  - name: GesturePopupContent
+    href: Ink_Canvas.Controls.GesturePopupContent.md
   - name: ImageMoveDeltaEventArgs
     href: Ink_Canvas.Controls.ImageMoveDeltaEventArgs.md
+  - name: ImageOptionsPopupContent
+    href: Ink_Canvas.Controls.ImageOptionsPopupContent.md
   - name: ImageResizeDeltaEventArgs
     href: Ink_Canvas.Controls.ImageResizeDeltaEventArgs.md
   - name: ImageRotateDeltaEventArgs
@@ -135,6 +143,10 @@
     href: Ink_Canvas.Controls.PdfEmbeddedView.md
   - name: PenColorButton
     href: Ink_Canvas.Controls.PenColorButton.md
+  - name: PenPalettePopupContent
+    href: Ink_Canvas.Controls.PenPalettePopupContent.md
+  - name: PopupShellContent
+    href: Ink_Canvas.Controls.PopupShellContent.md
   - name: PopupTitleBar
     href: Ink_Canvas.Controls.PopupTitleBar.md
   - name: PptNavBar

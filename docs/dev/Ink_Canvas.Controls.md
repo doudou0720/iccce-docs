@@ -6,6 +6,8 @@
 
 ### Classes
 
+ [BackgroundPalettePopupContent](Ink\_Canvas.Controls.BackgroundPalettePopupContent.md)
+
  [BoardToolbarButton](Ink\_Canvas.Controls.BoardToolbarButton.md)
 
 BoardToolbarButton
@@ -22,11 +24,17 @@ ColorPickerButton
 
 CopyButton
 
+ [EraserPopupContent](Ink\_Canvas.Controls.EraserPopupContent.md)
+
  [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 GeometryButton
 
+ [GesturePopupContent](Ink\_Canvas.Controls.GesturePopupContent.md)
+
  [ImageMoveDeltaEventArgs](Ink\_Canvas.Controls.ImageMoveDeltaEventArgs.md)
+
+ [ImageOptionsPopupContent](Ink\_Canvas.Controls.ImageOptionsPopupContent.md)
 
  [ImageResizeDeltaEventArgs](Ink\_Canvas.Controls.ImageResizeDeltaEventArgs.md)
 
@@ -51,6 +59,12 @@ LabeledToggleSwitch
  [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 PenColorButton
+
+ [PenPalettePopupContent](Ink\_Canvas.Controls.PenPalettePopupContent.md)
+
+ [PopupShellContent](Ink\_Canvas.Controls.PopupShellContent.md)
+
+PopupShellContent
 
  [PopupTitleBar](Ink\_Canvas.Controls.PopupTitleBar.md)
 

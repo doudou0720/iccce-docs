@@ -62,16 +62,26 @@ public void BringToFrontLight(Popup popup)
 public void Cleanup()
 ```
 
-### <a id="Ink_Canvas_Helpers_PopupManagerHelper_Initialize"></a> Initialize\(\)
+### <a id="Ink_Canvas_Helpers_PopupManagerHelper_Initialize_System_Windows_Window_"></a> Initialize\(Window\)
 
 ```csharp
-public void Initialize()
+public void Initialize(Window ownerWindow)
 ```
+
+#### Parameters
+
+`ownerWindow` [Window](https://learn.microsoft.com/dotnet/api/system.windows.window)
 
 ### <a id="Ink_Canvas_Helpers_PopupManagerHelper_MarkNeedsUpdate"></a> MarkNeedsUpdate\(\)
 
 ```csharp
 public void MarkNeedsUpdate()
+```
+
+### <a id="Ink_Canvas_Helpers_PopupManagerHelper_NotifyTopmostMaintained"></a> NotifyTopmostMaintained\(\)
+
+```csharp
+public static void NotifyTopmostMaintained()
 ```
 
 ### <a id="Ink_Canvas_Helpers_PopupManagerHelper_OnOwnerActivated"></a> OnOwnerActivated\(\)
