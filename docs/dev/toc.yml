@@ -135,6 +135,8 @@
     href: Ink_Canvas.Controls.PdfEmbeddedView.md
   - name: PenColorButton
     href: Ink_Canvas.Controls.PenColorButton.md
+  - name: PopupTitleBar
+    href: Ink_Canvas.Controls.PopupTitleBar.md
   - name: PptNavBar
     href: Ink_Canvas.Controls.PptNavBar.md
   - name: PptNavBar.PreviewItem
@@ -143,6 +145,8 @@
     href: Ink_Canvas.Controls.QuickDrawFloatingButtonControl.md
   - name: QuickPanelButton
     href: Ink_Canvas.Controls.QuickPanelButton.md
+  - name: ShapeDrawPopupContent
+    href: Ink_Canvas.Controls.ShapeDrawPopupContent.md
   - name: ToolMenuButton
     href: Ink_Canvas.Controls.ToolMenuButton.md
   - name: ToolbarImageButton
@@ -236,6 +240,8 @@
     href: Ink_Canvas.Helpers.DlassUploadQueue.md
   - name: DlassUploadQueue.UploadNoteResponse
     href: Ink_Canvas.Helpers.DlassUploadQueue.UploadNoteResponse.md
+  - name: DwmCompositionHelper
+    href: Ink_Canvas.Helpers.DwmCompositionHelper.md
   - name: EdgeGestureUtil
     href: Ink_Canvas.Helpers.EdgeGestureUtil.md
   - name: ExternalCallerLauncher
@@ -294,10 +300,10 @@
     href: Ink_Canvas.Helpers.PPTROTConnectionHelper.md
   - name: PPTUIManager
     href: Ink_Canvas.Helpers.PPTUIManager.md
+  - name: PerformanceTransparentWin
+    href: Ink_Canvas.Helpers.PerformanceTransparentWin.md
   - name: PopupManagerHelper
     href: Ink_Canvas.Helpers.PopupManagerHelper.md
-  - name: PopupManagerHelper.Config
-    href: Ink_Canvas.Helpers.PopupManagerHelper.Config.md
   - name: ROTPPTManager
     href: Ink_Canvas.Helpers.ROTPPTManager.md
   - name: SafeZipExtractor
@@ -535,6 +541,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.DebugPage.md
   - name: ExperimentalPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.ExperimentalPage.md
+  - name: FriendlyLinksPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.FriendlyLinksPage.md
   - name: HomePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.HomePage.md
   - name: HotkeyPage

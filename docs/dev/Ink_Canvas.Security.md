@@ -112,3 +112,25 @@ public bool RequirePasswordOnResetConfig { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Security_TotpEnabled"></a> TotpEnabled
+
+```csharp
+[JsonProperty("totpEnabled")]
+public bool TotpEnabled { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Security_TotpSecret"></a> TotpSecret
+
+```csharp
+[JsonProperty("totpSecret")]
+public string TotpSecret { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+

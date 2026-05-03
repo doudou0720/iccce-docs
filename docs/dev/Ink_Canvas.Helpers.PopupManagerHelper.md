@@ -22,24 +22,6 @@ public class PopupManagerHelper
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
-## Constructors
-
-### <a id="Ink_Canvas_Helpers_PopupManagerHelper__ctor"></a> PopupManagerHelper\(\)
-
-```csharp
-public PopupManagerHelper()
-```
-
-### <a id="Ink_Canvas_Helpers_PopupManagerHelper__ctor_Ink_Canvas_Helpers_PopupManagerHelper_Config_"></a> PopupManagerHelper\(Config\)
-
-```csharp
-public PopupManagerHelper(PopupManagerHelper.Config config)
-```
-
-#### Parameters
-
-`config` [PopupManagerHelper](Ink\_Canvas.Helpers.PopupManagerHelper.md).[Config](Ink\_Canvas.Helpers.PopupManagerHelper.Config.md)
-
 ## Properties
 
 ### <a id="Ink_Canvas_Helpers_PopupManagerHelper_ShouldBeTopmost"></a> ShouldBeTopmost
@@ -90,6 +72,12 @@ public void Initialize()
 
 ```csharp
 public void MarkNeedsUpdate()
+```
+
+### <a id="Ink_Canvas_Helpers_PopupManagerHelper_OnOwnerActivated"></a> OnOwnerActivated\(\)
+
+```csharp
+public void OnOwnerActivated()
 ```
 
 ### <a id="Ink_Canvas_Helpers_PopupManagerHelper_RegisterPopup_System_Windows_Controls_Primitives_Popup_"></a> RegisterPopup\(Popup\)

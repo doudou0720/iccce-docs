@@ -46,6 +46,16 @@ public static string SettingsFileName { get; }
 
 ## Methods
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsManager_ReadEnableWindowChromeRendering"></a> ReadEnableWindowChromeRendering\(\)
+
+```csharp
+public static bool ReadEnableWindowChromeRendering()
+```
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsManager_SaveSettingsToFile"></a> SaveSettingsToFile\(\)
 
 ```csharp

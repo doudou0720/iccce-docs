@@ -20,6 +20,10 @@ AboutPage
 
  [ExperimentalPage](Ink\_Canvas.Windows.SettingsViews.Pages.ExperimentalPage.md)
 
+ [FriendlyLinksPage](Ink\_Canvas.Windows.SettingsViews.Pages.FriendlyLinksPage.md)
+
+FriendlyLinksPage
+
  [HomePage](Ink\_Canvas.Windows.SettingsViews.Pages.HomePage.md)
 
 HomePage

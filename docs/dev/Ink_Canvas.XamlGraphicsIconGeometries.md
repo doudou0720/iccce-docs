@@ -137,6 +137,16 @@ public static string FoldIcon
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_XamlGraphicsIconGeometries_FreezeIconGeometry"></a> FreezeIconGeometry
+
+```csharp
+public static string FreezeIconGeometry
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_LegacyLinedCursorIcon"></a> LegacyLinedCursorIcon
 
 老版虚线光标图标
@@ -701,6 +711,16 @@ public static string ToolsFloatingBarBtnIcon
 
 ```csharp
 public static string UndoIcon
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_XamlGraphicsIconGeometries_UnfreezeIconGeometry"></a> UnfreezeIconGeometry
+
+```csharp
+public static string UnfreezeIconGeometry
 ```
 
 #### Field Value

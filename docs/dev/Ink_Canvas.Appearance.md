@@ -464,3 +464,14 @@ public double ViewboxFloatingBarScaleTransformValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_Appearance_WindowBackdrop"></a> WindowBackdrop
+
+```csharp
+[JsonProperty("windowBackdrop")]
+public string WindowBackdrop { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+

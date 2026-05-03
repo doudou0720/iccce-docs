@@ -52,6 +52,10 @@ LabeledToggleSwitch
 
 PenColorButton
 
+ [PopupTitleBar](Ink\_Canvas.Controls.PopupTitleBar.md)
+
+PopupTitleBar
+
  [PptNavBar](Ink\_Canvas.Controls.PptNavBar.md)
 
 PPT 翻页 + 增强预览一体化控件。
@@ -67,6 +71,8 @@ PPT 翻页 + 增强预览一体化控件。
  [QuickPanelButton](Ink\_Canvas.Controls.QuickPanelButton.md)
 
 QuickPanelButton
+
+ [ShapeDrawPopupContent](Ink\_Canvas.Controls.ShapeDrawPopupContent.md)
 
  [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 

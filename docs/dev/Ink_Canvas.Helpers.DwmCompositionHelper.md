@@ -1,16 +1,16 @@
-# <a id="Ink_Canvas_Helpers_PopupManagerHelper_Config"></a> Class PopupManagerHelper.Config
+# <a id="Ink_Canvas_Helpers_DwmCompositionHelper"></a> Class DwmCompositionHelper
 
 Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)  
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public class PopupManagerHelper.Config
+public static class DwmCompositionHelper
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[PopupManagerHelper.Config](Ink\_Canvas.Helpers.PopupManagerHelper.Config.md)
+[DwmCompositionHelper](Ink\_Canvas.Helpers.DwmCompositionHelper.md)
 
 #### Inherited Members
 
@@ -22,35 +22,15 @@ public class PopupManagerHelper.Config
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
-## Properties
+## Methods
 
-### <a id="Ink_Canvas_Helpers_PopupManagerHelper_Config_InitialTopmostAttempts"></a> InitialTopmostAttempts
-
-```csharp
-public int InitialTopmostAttempts { get; set; }
-```
-
-#### Property Value
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
-### <a id="Ink_Canvas_Helpers_PopupManagerHelper_Config_TopmostCheckInterval"></a> TopmostCheckInterval
+### <a id="Ink_Canvas_Helpers_DwmCompositionHelper_IsCompositionEnabled"></a> IsCompositionEnabled\(\)
 
 ```csharp
-public int TopmostCheckInterval { get; set; }
+public static bool IsCompositionEnabled()
 ```
 
-#### Property Value
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
-### <a id="Ink_Canvas_Helpers_PopupManagerHelper_Config_UseRenderingSync"></a> UseRenderingSync
-
-```csharp
-public bool UseRenderingSync { get; set; }
-```
-
-#### Property Value
+#### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

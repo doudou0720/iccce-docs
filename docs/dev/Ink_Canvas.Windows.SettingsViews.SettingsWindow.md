@@ -768,6 +768,16 @@ public AutoSuggestBox controlsSearchBox
 
 ## Methods
 
+### <a id="Ink_Canvas_Windows_SettingsViews_SettingsWindow_ApplyWindowBackdrop_System_String_"></a> ApplyWindowBackdrop\(string\)
+
+```csharp
+public void ApplyWindowBackdrop(string backdropName)
+```
+
+#### Parameters
+
+`backdropName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_SettingsWindow_GetNavigationView"></a> GetNavigationView\(\)
 
 ```csharp
