@@ -88,6 +88,10 @@ QuickPanelButton
 
  [ShapeDrawPopupContent](Ink\_Canvas.Controls.ShapeDrawPopupContent.md)
 
+ [SidePanelToggle](Ink\_Canvas.Controls.SidePanelToggle.md)
+
+SidePanelToggle
+
  [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 
 ToolMenuButton

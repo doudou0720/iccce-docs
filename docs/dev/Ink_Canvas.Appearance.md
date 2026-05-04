@@ -354,6 +354,17 @@ public int QuickColorPaletteDisplayMode { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Appearance_QuickPanelBottomOffset"></a> QuickPanelBottomOffset
+
+```csharp
+[JsonProperty("quickPanelBottomOffset")]
+public double QuickPanelBottomOffset { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Appearance_SplashScreenStyle"></a> SplashScreenStyle
 
 ```csharp

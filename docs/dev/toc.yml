@@ -159,6 +159,8 @@
     href: Ink_Canvas.Controls.QuickPanelButton.md
   - name: ShapeDrawPopupContent
     href: Ink_Canvas.Controls.ShapeDrawPopupContent.md
+  - name: SidePanelToggle
+    href: Ink_Canvas.Controls.SidePanelToggle.md
   - name: ToolMenuButton
     href: Ink_Canvas.Controls.ToolMenuButton.md
   - name: ToolbarImageButton
