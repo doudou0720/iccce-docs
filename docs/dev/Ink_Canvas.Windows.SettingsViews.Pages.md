@@ -4,8 +4,6 @@
 
  [AboutPage](Ink\_Canvas.Windows.SettingsViews.Pages.AboutPage.md)
 
-AboutPage
-
  [AdvancedPage](Ink\_Canvas.Windows.SettingsViews.Pages.AdvancedPage.md)
 
  [AppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.AppearancePage.md)
@@ -22,11 +20,7 @@ AboutPage
 
  [FriendlyLinksPage](Ink\_Canvas.Windows.SettingsViews.Pages.FriendlyLinksPage.md)
 
-FriendlyLinksPage
-
  [HomePage](Ink\_Canvas.Windows.SettingsViews.Pages.HomePage.md)
-
-HomePage
 
  [HotkeyPage](Ink\_Canvas.Windows.SettingsViews.Pages.HotkeyPage.md)
 
@@ -34,17 +28,11 @@ HomePage
 
  [PluginPage](Ink\_Canvas.Windows.SettingsViews.Pages.PluginPage.md)
 
-PluginPage
-
  [PluginSettingsPage](Ink\_Canvas.Windows.SettingsViews.Pages.PluginSettingsPage.md)
-
-PluginSettingsPage
 
  [PowerPointPage](Ink\_Canvas.Windows.SettingsViews.Pages.PowerPointPage.md)
 
  [PrivacyPage](Ink\_Canvas.Windows.SettingsViews.Pages.PrivacyPage.md)
-
-PrivacyPage
 
  [RandomDrawPage](Ink\_Canvas.Windows.SettingsViews.Pages.RandomDrawPage.md)
 
@@ -52,19 +40,13 @@ PrivacyPage
 
  [SettingsPage](Ink\_Canvas.Windows.SettingsViews.Pages.SettingsPage.md)
 
-SettingsPage
-
  [StartupPage](Ink\_Canvas.Windows.SettingsViews.Pages.StartupPage.md)
 
  [StoragePage](Ink\_Canvas.Windows.SettingsViews.Pages.StoragePage.md)
 
-StoragePage
-
  [ToolbarPage.ToolbarItemViewModel](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarPage.ToolbarItemViewModel.md)
 
  [ToolbarPage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarPage.md)
-
-ToolbarPage
 
  [UpdatePage](Ink\_Canvas.Windows.SettingsViews.Pages.UpdatePage.md)
 

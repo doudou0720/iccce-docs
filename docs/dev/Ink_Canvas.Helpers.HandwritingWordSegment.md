@@ -11,21 +11,12 @@ public sealed class HandwritingWordSegment
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [HandwritingWordSegment](Ink\_Canvas.Helpers.HandwritingWordSegment.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
-### <a id="Ink_Canvas_Helpers_HandwritingWordSegment__ctor_System_String_System_Collections_Generic_IReadOnlyList_System_String__System_Windows_Rect_System_Collections_Generic_IReadOnlyList_System_Windows_Ink_Stroke__"></a> HandwritingWordSegment\(string, IReadOnlyList<string\>, Rect, IReadOnlyList<Stroke\>\)
+### <a id="Ink_Canvas_Helpers_HandwritingWordSegment__ctor_System_String_IReadOnlyList_System_String__Rect_IReadOnlyList_Stroke__"></a> HandwritingWordSegment\(string, IReadOnlyList<string\>, Rect, IReadOnlyList<Stroke\>\)
 
 ```csharp
 public HandwritingWordSegment(string text, IReadOnlyList<string> textCandidates, Rect boundingRectangle, IReadOnlyList<Stroke> strokes)
@@ -33,13 +24,13 @@ public HandwritingWordSegment(string text, IReadOnlyList<string> textCandidates,
 
 #### Parameters
 
-`text` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`text` string
 
-`textCandidates` [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+`textCandidates` IReadOnlyList<string\>
 
-`boundingRectangle` [Rect](https://learn.microsoft.com/dotnet/api/system.windows.rect)
+`boundingRectangle` Rect
 
-`strokes` [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)\>
+`strokes` IReadOnlyList<Stroke\>
 
 ## Properties
 
@@ -51,7 +42,7 @@ public Rect BoundingRectangle { get; }
 
 #### Property Value
 
- [Rect](https://learn.microsoft.com/dotnet/api/system.windows.rect)
+ Rect
 
 ### <a id="Ink_Canvas_Helpers_HandwritingWordSegment_Strokes"></a> Strokes
 
@@ -61,7 +52,7 @@ public IReadOnlyList<Stroke> Strokes { get; }
 
 #### Property Value
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)\>
+ IReadOnlyList<Stroke\>
 
 ### <a id="Ink_Canvas_Helpers_HandwritingWordSegment_Text"></a> Text
 
@@ -71,7 +62,7 @@ public string Text { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_HandwritingWordSegment_TextCandidates"></a> TextCandidates
 
@@ -81,5 +72,5 @@ public IReadOnlyList<string> TextCandidates { get; }
 
 #### Property Value
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ IReadOnlyList<string\>
 

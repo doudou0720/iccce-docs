@@ -7,28 +7,19 @@ Assembly: InkCanvasForClass.dll
 public struct EdgeGestureUtil.PropertyKey
 ```
 
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
-
 ## Constructors
 
-### <a id="Ink_Canvas_Helpers_EdgeGestureUtil_PropertyKey__ctor_System_Guid_System_UInt32_"></a> PropertyKey\(Guid, uint\)
+### <a id="Ink_Canvas_Helpers_EdgeGestureUtil_PropertyKey__ctor_Guid_UInt32_"></a> PropertyKey\(Guid, UInt32\)
 
 ```csharp
-public PropertyKey(Guid guid, uint pid)
+public PropertyKey(Guid guid, UInt32 pid)
 ```
 
 #### Parameters
 
-`guid` [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
+`guid` Guid
 
-`pid` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`pid` UInt32
 
 ## Fields
 
@@ -40,7 +31,7 @@ public Guid fmtid
 
 #### Field Value
 
- [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
+ Guid
 
 ### <a id="Ink_Canvas_Helpers_EdgeGestureUtil_PropertyKey_pid"></a> pid
 
@@ -50,5 +41,5 @@ public uint pid
 
 #### Field Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 

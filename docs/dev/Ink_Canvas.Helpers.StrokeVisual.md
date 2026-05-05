@@ -11,18 +11,8 @@ public class StrokeVisual
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [StrokeVisual](Ink\_Canvas.Helpers.StrokeVisual.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -34,7 +24,7 @@ public class StrokeVisual
 public StrokeVisual()
 ```
 
-### <a id="Ink_Canvas_Helpers_StrokeVisual__ctor_System_Windows_Ink_DrawingAttributes_"></a> StrokeVisual\(DrawingAttributes\)
+### <a id="Ink_Canvas_Helpers_StrokeVisual__ctor_DrawingAttributes_"></a> StrokeVisual\(DrawingAttributes\)
 
 创建显示笔迹的类
 
@@ -44,7 +34,7 @@ public StrokeVisual(DrawingAttributes drawingAttributes)
 
 #### Parameters
 
-`drawingAttributes` [DrawingAttributes](https://learn.microsoft.com/dotnet/api/system.windows.ink.drawingattributes)
+`drawingAttributes` DrawingAttributes
 
 ## Properties
 
@@ -58,11 +48,11 @@ public Stroke Stroke { get; set; }
 
 #### Property Value
 
- [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
+ Stroke
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_StrokeVisual_Add_System_Windows_Input_StylusPoint_"></a> Add\(StylusPoint\)
+### <a id="Ink_Canvas_Helpers_StrokeVisual_Add_StylusPoint_"></a> Add\(StylusPoint\)
 
 在笔迹中添加点
 
@@ -72,7 +62,7 @@ public void Add(StylusPoint point)
 
 #### Parameters
 
-`point` [StylusPoint](https://learn.microsoft.com/dotnet/api/system.windows.input.styluspoint)
+`point` StylusPoint
 
 ### <a id="Ink_Canvas_Helpers_StrokeVisual_ForceRedraw"></a> ForceRedraw\(\)
 

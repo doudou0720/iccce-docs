@@ -9,46 +9,36 @@ public class Circle
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Circle](Ink\_Canvas.Helpers.Circle.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
-### <a id="Ink_Canvas_Helpers_Circle__ctor_System_Windows_Point_System_Double_System_Windows_Ink_Stroke_"></a> Circle\(Point, double, Stroke\)
+### <a id="Ink_Canvas_Helpers_Circle__ctor_System_Windows_Point_System_Double_Stroke_"></a> Circle\(Point, double, Stroke\)
 
 ```csharp
-public Circle(Point centroid, double r, Stroke stroke)
+public Circle(System.Windows.Point centroid, double r, Stroke stroke)
 ```
 
 #### Parameters
 
-`centroid` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+`centroid` System.Windows.Point
 
-`r` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`r` double
 
-`stroke` [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
+`stroke` Stroke
 
 ## Properties
 
 ### <a id="Ink_Canvas_Helpers_Circle_Centroid"></a> Centroid
 
 ```csharp
-public Point Centroid { get; set; }
+public System.Windows.Point Centroid { get; set; }
 ```
 
 #### Property Value
 
- [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+ System.Windows.Point
 
 ### <a id="Ink_Canvas_Helpers_Circle_R"></a> R
 
@@ -58,7 +48,7 @@ public double R { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_Circle_Stroke"></a> Stroke
 
@@ -68,5 +58,5 @@ public Stroke Stroke { get; set; }
 
 #### Property Value
 
- [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
+ Stroke
 

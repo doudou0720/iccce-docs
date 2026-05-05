@@ -11,18 +11,8 @@ public static class Strings
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Strings](Ink\_Canvas.Properties.Strings.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -34,7 +24,7 @@ public static string App_Title { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Booth_Resolution_Tooltip"></a> Booth\_Resolution\_Tooltip
 
@@ -44,7 +34,7 @@ public static string Booth_Resolution_Tooltip { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Culture"></a> Culture
 
@@ -57,7 +47,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
+ CultureInfo
 
 ### <a id="Ink_Canvas_Properties_Strings_Nav_About"></a> Nav\_About
 
@@ -67,7 +57,7 @@ public static string Nav_About { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Nav_Advanced"></a> Nav\_Advanced
 
@@ -77,7 +67,7 @@ public static string Nav_Advanced { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Nav_Automation"></a> Nav\_Automation
 
@@ -87,7 +77,7 @@ public static string Nav_Automation { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Nav_Canvas"></a> Nav\_Canvas
 
@@ -97,7 +87,7 @@ public static string Nav_Canvas { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Nav_CrashAction"></a> Nav\_CrashAction
 
@@ -107,7 +97,7 @@ public static string Nav_CrashAction { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Nav_Gesture"></a> Nav\_Gesture
 
@@ -117,7 +107,7 @@ public static string Nav_Gesture { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Nav_InkRecognition"></a> Nav\_InkRecognition
 
@@ -127,7 +117,7 @@ public static string Nav_InkRecognition { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Nav_PPT"></a> Nav\_PPT
 
@@ -137,7 +127,7 @@ public static string Nav_PPT { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Nav_Plugins"></a> Nav\_Plugins
 
@@ -147,7 +137,7 @@ public static string Nav_Plugins { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Nav_RandomWindow"></a> Nav\_RandomWindow
 
@@ -157,7 +147,7 @@ public static string Nav_RandomWindow { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Nav_Shortcuts"></a> Nav\_Shortcuts
 
@@ -167,7 +157,7 @@ public static string Nav_Shortcuts { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Nav_Startup"></a> Nav\_Startup
 
@@ -177,7 +167,7 @@ public static string Nav_Startup { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Nav_Theme"></a> Nav\_Theme
 
@@ -187,7 +177,7 @@ public static string Nav_Theme { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_ResourceManager"></a> ResourceManager
 
@@ -209,7 +199,7 @@ public static string Tray_OpenSettings { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_Strings_Tray_TempShowMainWindow"></a> Tray\_TempShowMainWindow
 
@@ -219,7 +209,7 @@ public static string Tray_TempShowMainWindow { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -233,9 +223,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`key` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

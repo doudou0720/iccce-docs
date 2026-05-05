@@ -11,18 +11,8 @@ public static class LocalizationHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [LocalizationHelper](Ink\_Canvas.Helpers.LocalizationHelper.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -36,7 +26,7 @@ public static CultureInfo CurrentCulture { get; set; }
 
 #### Property Value
 
- [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
+ CultureInfo
 
 ## Methods
 
@@ -50,11 +40,11 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`key` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_LocalizationHelper_TrySetCulture_System_String_"></a> TrySetCulture\(string\)
 
@@ -67,9 +57,9 @@ public static bool TrySetCulture(string cultureName)
 
 #### Parameters
 
-`cultureName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`cultureName` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

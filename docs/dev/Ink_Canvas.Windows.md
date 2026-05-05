@@ -38,8 +38,6 @@ auth-with-token接口响应模型
 
  [OobePresetWindow](Ink\_Canvas.Windows.OobePresetWindow.md)
 
-OobePresetWindow
-
  [OobeWindow](Ink\_Canvas.Windows.OobeWindow.md)
 
 首次启动体验(OOBE)窗口。使用 iNKORE.UI.WPF.Modern 的 NavigationView 作为左侧导航,

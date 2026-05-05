@@ -42,8 +42,6 @@ GeometryButton
 
  [ImageSelectionOverlay](Ink\_Canvas.Controls.ImageSelectionOverlay.md)
 
-ImageSelectionOverlay
-
  [LabeledSettingsCard](Ink\_Canvas.Controls.LabeledSettingsCard.md)
 
 LabeledSettingsCard
@@ -89,8 +87,6 @@ QuickPanelButton
  [ShapeDrawPopupContent](Ink\_Canvas.Controls.ShapeDrawPopupContent.md)
 
  [SidePanelToggle](Ink\_Canvas.Controls.SidePanelToggle.md)
-
-SidePanelToggle
 
  [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 

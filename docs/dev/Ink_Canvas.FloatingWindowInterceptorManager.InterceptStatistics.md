@@ -9,18 +9,8 @@ public class FloatingWindowInterceptorManager.InterceptStatistics
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [FloatingWindowInterceptorManager.InterceptStatistics](Ink\_Canvas.FloatingWindowInterceptorManager.InterceptStatistics.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -32,7 +22,7 @@ public int EnabledRules { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_FloatingWindowInterceptorManager_InterceptStatistics_IsRunning"></a> IsRunning
 
@@ -42,7 +32,7 @@ public bool IsRunning { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_FloatingWindowInterceptorManager_InterceptStatistics_ScanIntervalMs"></a> ScanIntervalMs
 
@@ -52,7 +42,7 @@ public int ScanIntervalMs { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_FloatingWindowInterceptorManager_InterceptStatistics_TotalRules"></a> TotalRules
 
@@ -62,5 +52,5 @@ public int TotalRules { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

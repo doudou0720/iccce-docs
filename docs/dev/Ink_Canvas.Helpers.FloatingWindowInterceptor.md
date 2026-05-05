@@ -11,22 +11,8 @@ public class FloatingWindowInterceptor : IDisposable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+IDisposable ← 
 [FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md)
-
-#### Implements
-
-[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -46,13 +32,11 @@ public bool IsRunning { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_Dispose"></a> Dispose\(\)
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ```csharp
 public void Dispose()
@@ -68,7 +52,7 @@ public Dictionary<FloatingWindowInterceptor.InterceptType, FloatingWindowInterce
 
 #### Returns
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md).[InterceptType](Ink\_Canvas.Helpers.FloatingWindowInterceptor.InterceptType.md), [FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md).[InterceptRule](Ink\_Canvas.Helpers.FloatingWindowInterceptor.InterceptRule.md)\>
+ Dictionary<[FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md).[InterceptType](Ink\_Canvas.Helpers.FloatingWindowInterceptor.InterceptType.md), [FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md).[InterceptRule](Ink\_Canvas.Helpers.FloatingWindowInterceptor.InterceptRule.md)\>
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_GetInterceptRule_Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptType_"></a> GetInterceptRule\(InterceptType\)
 
@@ -96,7 +80,7 @@ public int GetInterceptedWindowsCount()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_RestoreAllWindows"></a> RestoreAllWindows\(\)
 
@@ -106,7 +90,7 @@ public int GetInterceptedWindowsCount()
 public void RestoreAllWindows()
 ```
 
-### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_RestoreWindow_System_IntPtr_"></a> RestoreWindow\(IntPtr\)
+### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_RestoreWindow_IntPtr_"></a> RestoreWindow\(IntPtr\)
 
 恢复指定窗口
 
@@ -116,11 +100,11 @@ public bool RestoreWindow(IntPtr hWnd)
 
 #### Parameters
 
-`hWnd` [IntPtr](https://learn.microsoft.com/dotnet/api/system.intptr)
+`hWnd` IntPtr
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_RestoreWindowsByType_Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptType_"></a> RestoreWindowsByType\(InterceptType\)
 
@@ -154,7 +138,7 @@ public void SetInterceptRule(FloatingWindowInterceptor.InterceptType type, bool 
 
 `type` [FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md).[InterceptType](Ink\_Canvas.Helpers.FloatingWindowInterceptor.InterceptType.md)
 
-`enabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`enabled` bool
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_Start_System_Int32_"></a> Start\(int\)
 
@@ -166,7 +150,7 @@ public void Start(int scanIntervalMs = 5000)
 
 #### Parameters
 
-`scanIntervalMs` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`scanIntervalMs` int
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_Stop"></a> Stop\(\)
 
@@ -184,7 +168,7 @@ public event EventHandler<FloatingWindowInterceptor.WindowInterceptedEventArgs> 
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md).[WindowInterceptedEventArgs](Ink\_Canvas.Helpers.FloatingWindowInterceptor.WindowInterceptedEventArgs.md)\>
+ EventHandler<[FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md).[WindowInterceptedEventArgs](Ink\_Canvas.Helpers.FloatingWindowInterceptor.WindowInterceptedEventArgs.md)\>
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_WindowRestored"></a> WindowRestored
 
@@ -194,5 +178,5 @@ public event EventHandler<FloatingWindowInterceptor.WindowRestoredEventArgs> Win
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md).[WindowRestoredEventArgs](Ink\_Canvas.Helpers.FloatingWindowInterceptor.WindowRestoredEventArgs.md)\>
+ EventHandler<[FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md).[WindowRestoredEventArgs](Ink\_Canvas.Helpers.FloatingWindowInterceptor.WindowRestoredEventArgs.md)\>
 

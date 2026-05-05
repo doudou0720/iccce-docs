@@ -9,23 +9,23 @@ public enum TrayClickAction
 
 ## Fields
 
-`CloseApp = 9` 
+`CloseApp` 
 
-`DisableAllHotkeys = 4` 
+`DisableAllHotkeys` 
 
-`ForceFullScreen = 5` 
+`ForceFullScreen` 
 
-`HideShowMainWindow = 1` 
+`HideShowMainWindow` 
 
-`OpenSettings = 3` 
+`OpenSettings` 
 
-`ResetFloatingBarPosition = 7` 
+`ResetFloatingBarPosition` 
 
-`RestartApp = 8` 
+`RestartApp` 
 
-`ShowMenu = 0` 
+`ShowMenu` 
 
-`TempShowMainWindow = 2` 
+`TempShowMainWindow` 
 
-`ToggleFoldFloatingBar = 6` 
+`ToggleFoldFloatingBar` 
 

@@ -11,20 +11,8 @@ public class HotkeyChangedEventArgs : EventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+EventArgs ← 
 [HotkeyChangedEventArgs](Ink\_Canvas.Windows.HotkeyChangedEventArgs.md)
-
-#### Inherited Members
-
-[EventArgs.Empty](https://learn.microsoft.com/dotnet/api/system.eventargs.empty), 
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -36,7 +24,7 @@ public string HotkeyName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Windows_HotkeyChangedEventArgs_Key"></a> Key
 
@@ -46,7 +34,7 @@ public Key Key { get; set; }
 
 #### Property Value
 
- [Key](https://learn.microsoft.com/dotnet/api/system.windows.input.key)
+ Key
 
 ### <a id="Ink_Canvas_Windows_HotkeyChangedEventArgs_Modifiers"></a> Modifiers
 
@@ -56,5 +44,5 @@ public ModifierKeys Modifiers { get; set; }
 
 #### Property Value
 
- [ModifierKeys](https://learn.microsoft.com/dotnet/api/system.windows.input.modifierkeys)
+ ModifierKeys
 

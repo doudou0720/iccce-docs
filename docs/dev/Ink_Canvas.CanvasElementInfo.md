@@ -9,18 +9,8 @@ public class CanvasElementInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CanvasElementInfo](Ink\_Canvas.CanvasElementInfo.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -32,7 +22,7 @@ public double Height { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_CanvasElementInfo_Left"></a> Left
 
@@ -42,7 +32,7 @@ public double Left { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_CanvasElementInfo_PdfCurrentPage"></a> PdfCurrentPage
 
@@ -54,7 +44,7 @@ public int? PdfCurrentPage { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)?
+ int?
 
 ### <a id="Ink_Canvas_CanvasElementInfo_PdfPageCount"></a> PdfPageCount
 
@@ -66,7 +56,7 @@ public int? PdfPageCount { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)?
+ int?
 
 ### <a id="Ink_Canvas_CanvasElementInfo_SourcePath"></a> SourcePath
 
@@ -76,7 +66,7 @@ public string SourcePath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_CanvasElementInfo_Stretch"></a> Stretch
 
@@ -86,7 +76,7 @@ public string Stretch { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_CanvasElementInfo_Top"></a> Top
 
@@ -96,7 +86,7 @@ public double Top { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_CanvasElementInfo_Type"></a> Type
 
@@ -106,7 +96,7 @@ public string Type { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_CanvasElementInfo_Width"></a> Width
 
@@ -116,5 +106,5 @@ public double Width { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

@@ -11,18 +11,8 @@ public static class UploadHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [UploadHelper](Ink\_Canvas.Helpers.UploadHelper.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -36,7 +26,7 @@ public static List<IUploadProvider> GetEnabledProviders()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[IUploadProvider](Ink\_Canvas.Helpers.IUploadProvider.md)\>
+ List<[IUploadProvider](Ink\_Canvas.Helpers.IUploadProvider.md)\>
 
 启用的上传提供者列表
 
@@ -50,7 +40,7 @@ public static List<IUploadProvider> GetProviders()
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[IUploadProvider](Ink\_Canvas.Helpers.IUploadProvider.md)\>
+ List<[IUploadProvider](Ink\_Canvas.Helpers.IUploadProvider.md)\>
 
 上传提供者列表
 
@@ -76,27 +66,27 @@ public static void RegisterProvider(IUploadProvider provider)
 
 上传提供者
 
-### <a id="Ink_Canvas_Helpers_UploadHelper_UploadFileAsync_System_String_System_Threading_CancellationToken_"></a> UploadFileAsync\(string, CancellationToken\)
+### <a id="Ink_Canvas_Helpers_UploadHelper_UploadFileAsync_System_String_CancellationToken_"></a> UploadFileAsync\(string, CancellationToken\)
 
 上传文件到所有启用的提供者
 
 ```csharp
-public static Task<bool> UploadFileAsync(string filePath, CancellationToken cancellationToken = default)
+public static Task<bool> UploadFileAsync(string filePath, CancellationToken cancellationToken = null)
 ```
 
 #### Parameters
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 文件路径
 
-`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+`cancellationToken` CancellationToken
 
 取消令牌
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+ Task<bool\>
 
 是否至少有一个提供者上传成功
 

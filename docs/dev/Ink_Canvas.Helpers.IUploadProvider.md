@@ -21,7 +21,7 @@ bool IsEnabled { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_IUploadProvider_Name"></a> Name
 
@@ -33,31 +33,31 @@ string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_IUploadProvider_UploadAsync_System_String_System_Threading_CancellationToken_"></a> UploadAsync\(string, CancellationToken\)
+### <a id="Ink_Canvas_Helpers_IUploadProvider_UploadAsync_System_String_CancellationToken_"></a> UploadAsync\(string, CancellationToken\)
 
 上传文件
 
 ```csharp
-Task<bool> UploadAsync(string filePath, CancellationToken cancellationToken = default)
+Task<bool> UploadAsync(string filePath, CancellationToken cancellationToken = null)
 ```
 
 #### Parameters
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 文件路径
 
-`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+`cancellationToken` CancellationToken
 
 取消令牌
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+ Task<bool\>
 
 是否上传成功
 

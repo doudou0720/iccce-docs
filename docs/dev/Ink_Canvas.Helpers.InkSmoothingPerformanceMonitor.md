@@ -11,18 +11,8 @@ public class InkSmoothingPerformanceMonitor
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [InkSmoothingPerformanceMonitor](Ink\_Canvas.Helpers.InkSmoothingPerformanceMonitor.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -34,7 +24,7 @@ public double GetAverageProcessingTimeMs()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetMaxProcessingTimeMs"></a> GetMaxProcessingTimeMs\(\)
 
@@ -44,7 +34,7 @@ public double GetMaxProcessingTimeMs()
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetSampleCount"></a> GetSampleCount\(\)
 
@@ -54,9 +44,9 @@ public int GetSampleCount()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
-### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_RecordProcessingTime_System_TimeSpan_"></a> RecordProcessingTime\(TimeSpan\)
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_RecordProcessingTime_TimeSpan_"></a> RecordProcessingTime\(TimeSpan\)
 
 ```csharp
 public void RecordProcessingTime(TimeSpan time)
@@ -64,5 +54,5 @@ public void RecordProcessingTime(TimeSpan time)
 
 #### Parameters
 
-`time` [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)
+`time` TimeSpan
 

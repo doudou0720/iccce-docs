@@ -9,18 +9,8 @@ public static class AppRestartHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AppRestartHelper](Ink\_Canvas.Helpers.AppRestartHelper.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -32,7 +22,7 @@ public static bool IsRunningAsAdmin()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_AppRestartHelper_RestartApp_System_Boolean_"></a> RestartApp\(bool\)
 
@@ -42,7 +32,7 @@ public static void RestartApp(bool asAdmin)
 
 #### Parameters
 
-`asAdmin` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`asAdmin` bool
 
 ### <a id="Ink_Canvas_Helpers_AppRestartHelper_RestartAsAdmin"></a> RestartAsAdmin\(\)
 

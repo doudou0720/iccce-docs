@@ -11,22 +11,8 @@ public class DlassApiClient : IDisposable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+IDisposable ← 
 [DlassApiClient](Ink\_Canvas.Helpers.DlassApiClient.md)
-
-#### Implements
-
-[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -40,49 +26,49 @@ public DlassApiClient(string appId, string appSecret, string baseUrl = null, str
 
 #### Parameters
 
-`appId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`appId` string
 
 应用ID
 
-`appSecret` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`appSecret` string
 
 应用密钥
 
-`baseUrl` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`baseUrl` string
 
 API基础URL，如果为空则使用默认URL
 
-`userToken` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`userToken` string
 
 用户Token，如果提供则优先使用用户token而不是App Secret
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_DlassApiClient_DeleteAsync_System_String_System_Boolean_System_Threading_CancellationToken_"></a> DeleteAsync\(string, bool, CancellationToken\)
+### <a id="Ink_Canvas_Helpers_DlassApiClient_DeleteAsync_System_String_System_Boolean_CancellationToken_"></a> DeleteAsync\(string, bool, CancellationToken\)
 
 发送DELETE请求
 
 ```csharp
-public Task<bool> DeleteAsync(string endpoint, bool requireAuth = true, CancellationToken cancellationToken = default)
+public Task<bool> DeleteAsync(string endpoint, bool requireAuth = true, CancellationToken cancellationToken = null)
 ```
 
 #### Parameters
 
-`endpoint` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`endpoint` string
 
 API端点
 
-`requireAuth` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`requireAuth` bool
 
 是否需要认证
 
-`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+`cancellationToken` CancellationToken
 
 取消令牌
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+ Task<bool\>
 
 ### <a id="Ink_Canvas_Helpers_DlassApiClient_Dispose"></a> Dispose\(\)
 
@@ -92,167 +78,167 @@ API端点
 public void Dispose()
 ```
 
-### <a id="Ink_Canvas_Helpers_DlassApiClient_GetAccessTokenAsync_System_Threading_CancellationToken_"></a> GetAccessTokenAsync\(CancellationToken\)
+### <a id="Ink_Canvas_Helpers_DlassApiClient_GetAccessTokenAsync_CancellationToken_"></a> GetAccessTokenAsync\(CancellationToken\)
 
 获取访问令牌（Access Token）
 
 ```csharp
-public Task<string> GetAccessTokenAsync(CancellationToken cancellationToken = default)
+public Task<string> GetAccessTokenAsync(CancellationToken cancellationToken = null)
 ```
 
 #### Parameters
 
-`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+`cancellationToken` CancellationToken
 
 取消令牌
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ Task<string\>
 
-### <a id="Ink_Canvas_Helpers_DlassApiClient_GetAsync__1_System_String_System_Boolean_System_Threading_CancellationToken_"></a> GetAsync<T\>\(string, bool, CancellationToken\)
+### <a id="Ink_Canvas_Helpers_DlassApiClient_GetAsync__1_System_String_System_Boolean_CancellationToken_"></a> GetAsync<T\>\(string, bool, CancellationToken\)
 
 发送GET请求
 
 ```csharp
-public Task<T> GetAsync<T>(string endpoint, bool requireAuth = true, CancellationToken cancellationToken = default)
+public Task<T> GetAsync<T>(string endpoint, bool requireAuth = true, CancellationToken cancellationToken = null)
 ```
 
 #### Parameters
 
-`endpoint` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`endpoint` string
 
 API端点
 
-`requireAuth` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`requireAuth` bool
 
 是否需要认证
 
-`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+`cancellationToken` CancellationToken
 
 取消令牌
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<T\>
+ Task<T\>
 
 #### Type Parameters
 
 `T` 
 
-### <a id="Ink_Canvas_Helpers_DlassApiClient_PostAsync__1_System_String_System_Object_System_Boolean_System_Threading_CancellationToken_"></a> PostAsync<T\>\(string, object, bool, CancellationToken\)
+### <a id="Ink_Canvas_Helpers_DlassApiClient_PostAsync__1_System_String_System_Object_System_Boolean_CancellationToken_"></a> PostAsync<T\>\(string, object, bool, CancellationToken\)
 
 发送POST请求
 
 ```csharp
-public Task<T> PostAsync<T>(string endpoint, object data = null, bool requireAuth = true, CancellationToken cancellationToken = default)
+public Task<T> PostAsync<T>(string endpoint, object data = null, bool requireAuth = true, CancellationToken cancellationToken = null)
 ```
 
 #### Parameters
 
-`endpoint` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`endpoint` string
 
 API端点
 
-`data` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`data` object
 
 请求数据
 
-`requireAuth` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`requireAuth` bool
 
 是否需要认证
 
-`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+`cancellationToken` CancellationToken
 
 取消令牌
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<T\>
+ Task<T\>
 
 #### Type Parameters
 
 `T` 
 
-### <a id="Ink_Canvas_Helpers_DlassApiClient_PutAsync__1_System_String_System_Object_System_Boolean_System_Threading_CancellationToken_"></a> PutAsync<T\>\(string, object, bool, CancellationToken\)
+### <a id="Ink_Canvas_Helpers_DlassApiClient_PutAsync__1_System_String_System_Object_System_Boolean_CancellationToken_"></a> PutAsync<T\>\(string, object, bool, CancellationToken\)
 
 发送PUT请求
 
 ```csharp
-public Task<T> PutAsync<T>(string endpoint, object data = null, bool requireAuth = true, CancellationToken cancellationToken = default)
+public Task<T> PutAsync<T>(string endpoint, object data = null, bool requireAuth = true, CancellationToken cancellationToken = null)
 ```
 
 #### Parameters
 
-`endpoint` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`endpoint` string
 
 API端点
 
-`data` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`data` object
 
 请求数据
 
-`requireAuth` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`requireAuth` bool
 
 是否需要认证
 
-`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+`cancellationToken` CancellationToken
 
 取消令牌
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<T\>
+ Task<T\>
 
 #### Type Parameters
 
 `T` 
 
-### <a id="Ink_Canvas_Helpers_DlassApiClient_UploadNoteAsync__1_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_Threading_CancellationToken_"></a> UploadNoteAsync<T\>\(string, string, string, string, string, string, string, CancellationToken\)
+### <a id="Ink_Canvas_Helpers_DlassApiClient_UploadNoteAsync__1_System_String_System_String_System_String_System_String_System_String_System_String_System_String_CancellationToken_"></a> UploadNoteAsync<T\>\(string, string, string, string, string, string, string, CancellationToken\)
 
 上传笔记文件
 
 ```csharp
-public Task<T> UploadNoteAsync<T>(string endpoint, string filePath, string boardId, string secretKey, string title = null, string description = null, string tags = null, CancellationToken cancellationToken = default)
+public Task<T> UploadNoteAsync<T>(string endpoint, string filePath, string boardId, string secretKey, string title = null, string description = null, string tags = null, CancellationToken cancellationToken = null)
 ```
 
 #### Parameters
 
-`endpoint` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`endpoint` string
 
 上传端点
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 文件路径
 
-`boardId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`boardId` string
 
 白板ID
 
-`secretKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`secretKey` string
 
 白板密钥
 
-`title` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`title` string
 
 笔记标题（可选）
 
-`description` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`description` string
 
 笔记描述（可选）
 
-`tags` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`tags` string
 
 笔记标签（可选）
 
-`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+`cancellationToken` CancellationToken
 
 取消令牌
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<T\>
+ Task<T\>
 
 #### Type Parameters
 

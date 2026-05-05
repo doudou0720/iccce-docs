@@ -13,21 +13,12 @@ public sealed class ToolbarHost : IToolbarHost
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ToolbarHost](Ink\_Canvas.Controls.Toolbar.ToolbarHost.md)
 
 #### Implements
 
 [IToolbarHost](Ink\_Canvas.Controls.Toolbar.IToolbarHost.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -65,13 +56,13 @@ public FrameworkElement FindView(string id)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 #### Returns
 
- [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+ FrameworkElement
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarHost_RegisterView_System_String_System_Windows_FrameworkElement_"></a> RegisterView\(string, FrameworkElement\)
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarHost_RegisterView_System_String_FrameworkElement_"></a> RegisterView\(string, FrameworkElement\)
 
 按 id 登记按钮的 view 实例（供 MainWindow 字段回填和互相查找）。
 
@@ -81,7 +72,7 @@ public void RegisterView(string id, FrameworkElement view)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
-`view` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+`view` FrameworkElement
 

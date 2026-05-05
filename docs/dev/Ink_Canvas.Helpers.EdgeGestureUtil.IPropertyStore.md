@@ -4,8 +4,6 @@ Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-[Guid("886D8EEB-8CF2-4446-8D02-CDBA1DBDCF99")]
-[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
 public interface EdgeGestureUtil.IPropertyStore
 ```
 
@@ -25,7 +23,7 @@ void GetAt(uint iProp, ref EdgeGestureUtil.PropertyKey pkey)
 
 #### Parameters
 
-`iProp` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`iProp` uint
 
 `pkey` [EdgeGestureUtil](Ink\_Canvas.Helpers.EdgeGestureUtil.md).[PropertyKey](Ink\_Canvas.Helpers.EdgeGestureUtil.PropertyKey.md)
 
@@ -37,7 +35,7 @@ void GetCount(ref uint cProps)
 
 #### Parameters
 
-`cProps` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`cProps` uint
 
 ### <a id="Ink_Canvas_Helpers_EdgeGestureUtil_IPropertyStore_GetValue_Ink_Canvas_Helpers_EdgeGestureUtil_PropertyKey__Ink_Canvas_Helpers_EdgeGestureUtil_PropVariant__"></a> GetValue\(ref PropertyKey, ref PropVariant\)
 

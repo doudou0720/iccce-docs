@@ -9,21 +9,8 @@ public sealed class IpcIACoreClient : IDisposable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+IDisposable ← 
 [IpcIACoreClient](Ink\_Canvas.Helpers.IpcIACoreClient.md)
-
-#### Implements
-
-[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -45,19 +32,17 @@ public bool IsAvailable { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
 ### <a id="Ink_Canvas_Helpers_IpcIACoreClient_Dispose"></a> Dispose\(\)
 
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
-
 ```csharp
 public void Dispose()
 ```
 
-### <a id="Ink_Canvas_Helpers_IpcIACoreClient_Recognize_System_Windows_Ink_StrokeCollection_"></a> Recognize\(StrokeCollection\)
+### <a id="Ink_Canvas_Helpers_IpcIACoreClient_Recognize_StrokeCollection_"></a> Recognize\(StrokeCollection\)
 
 ```csharp
 public InkShapeRecognitionResult Recognize(StrokeCollection strokes)
@@ -65,7 +50,7 @@ public InkShapeRecognitionResult Recognize(StrokeCollection strokes)
 
 #### Parameters
 
-`strokes` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
+`strokes` StrokeCollection
 
 #### Returns
 
@@ -79,5 +64,5 @@ public bool Start()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

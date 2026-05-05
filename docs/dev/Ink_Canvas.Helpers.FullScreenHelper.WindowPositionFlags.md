@@ -4,13 +4,12 @@ Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-[Flags]
 public enum FullScreenHelper.WindowPositionFlags
 ```
 
 ## Fields
 
-`SWP_NOCOPYBITS = 256` 
+`SWP_NOCOPYBITS` 
 
 <p>
 清除客户区的所有内容。如果未设置该标志，客户区的有效内容被保存并且在窗口尺寸更新和重定位后拷贝回客户区
@@ -21,7 +20,7 @@ public enum FullScreenHelper.WindowPositionFlags
 
 
 
-`SWP_NOMOVE = 2` 
+`SWP_NOMOVE` 
 
 <p>
 维持当前位置（忽略X和Y参数）
@@ -31,7 +30,7 @@ public enum FullScreenHelper.WindowPositionFlags
 
 
 
-`SWP_NOREDRAW = 8` 
+`SWP_NOREDRAW` 
 
 <p>
 不重画改变的内容。如果设置了这个标志，则不发生任何重画动作。适用于客户区和非客户区（包括标题栏和滚动条）和任何由于窗回移动而露出的父窗口的所有部分。如果设置了这个标志，应用程序必须明确地使窗口无效并区重画窗口的任何部分和父窗口需要重画的部分
@@ -44,7 +43,7 @@ public enum FullScreenHelper.WindowPositionFlags
 
 
 
-`SWP_NOSIZE = 1` 
+`SWP_NOSIZE` 
 
 <p>
 维持当前尺寸（忽略 cx 和 cy 参数）
@@ -54,7 +53,7 @@ public enum FullScreenHelper.WindowPositionFlags
 
 
 
-`SWP_NOZORDER = 4` 
+`SWP_NOZORDER` 
 
 <p>
 维持当前 Z 序（忽略 hWndlnsertAfter 参数）

@@ -11,19 +11,19 @@ public enum TelemetryUploadLevel
 
 ## Fields
 
-`Basic = 1` 
+`Basic` 
 
 仅上传基础数据
 
 
 
-`Extended = 2` 
+`Extended` 
 
 上传基础数据 + 可选数据
 
 
 
-`None = 0` 
+`None` 
 
 不上传任何匿名使用数据
 
