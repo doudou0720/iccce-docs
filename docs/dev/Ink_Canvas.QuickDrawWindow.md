@@ -22,3 +22,13 @@ Window ←
 public QuickDrawWindow()
 ```
 
+## Methods
+
+### <a id="Ink_Canvas_QuickDrawWindow_RefreshTheme"></a> RefreshTheme\(\)
+
+刷新主题，当主窗口主题切换时调用
+
+```csharp
+public void RefreshTheme()
+```
+
