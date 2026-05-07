@@ -6,17 +6,77 @@ Assembly: InkCanvasForClass.dll
 Interaction logic for App.xaml
 
 ```csharp
-public class App : System.Windows.Application, System.Windows.Application
+public class App : Application, IQueryAmbient, IComponentConnector
 ```
 
 #### Inheritance
 
-System.Windows.Application ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[DispatcherObject](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject) ← 
+[Application](https://learn.microsoft.com/dotnet/api/system.windows.application) ← 
 [App](Ink\_Canvas.App.md)
 
 #### Implements
 
-System.Windows.Application
+[IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
+[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
+
+#### Inherited Members
+
+[Application.FindResource\(object\)](https://learn.microsoft.com/dotnet/api/system.windows.application.findresource), 
+[Application.GetContentStream\(Uri\)](https://learn.microsoft.com/dotnet/api/system.windows.application.getcontentstream), 
+[Application.GetCookie\(Uri\)](https://learn.microsoft.com/dotnet/api/system.windows.application.getcookie), 
+[Application.GetRemoteStream\(Uri\)](https://learn.microsoft.com/dotnet/api/system.windows.application.getremotestream), 
+[Application.GetResourceStream\(Uri\)](https://learn.microsoft.com/dotnet/api/system.windows.application.getresourcestream), 
+[Application.LoadComponent\(object, Uri\)](https://learn.microsoft.com/dotnet/api/system.windows.application.loadcomponent\#system\-windows\-application\-loadcomponent\(system\-object\-system\-uri\)), 
+[Application.LoadComponent\(Uri\)](https://learn.microsoft.com/dotnet/api/system.windows.application.loadcomponent\#system\-windows\-application\-loadcomponent\(system\-uri\)), 
+[Application.OnActivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.application.onactivated), 
+[Application.OnDeactivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.application.ondeactivated), 
+[Application.OnExit\(ExitEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.application.onexit), 
+[Application.OnFragmentNavigation\(FragmentNavigationEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.application.onfragmentnavigation), 
+[Application.OnLoadCompleted\(NavigationEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.application.onloadcompleted), 
+[Application.OnNavigated\(NavigationEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.application.onnavigated), 
+[Application.OnNavigating\(NavigatingCancelEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.application.onnavigating), 
+[Application.OnNavigationFailed\(NavigationFailedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.application.onnavigationfailed), 
+[Application.OnNavigationProgress\(NavigationProgressEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.application.onnavigationprogress), 
+[Application.OnNavigationStopped\(NavigationEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.application.onnavigationstopped), 
+[Application.OnSessionEnding\(SessionEndingCancelEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.application.onsessionending), 
+[Application.OnStartup\(StartupEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.application.onstartup), 
+[Application.Run\(\)](https://learn.microsoft.com/dotnet/api/system.windows.application.run\#system\-windows\-application\-run), 
+[Application.Run\(Window\)](https://learn.microsoft.com/dotnet/api/system.windows.application.run\#system\-windows\-application\-run\(system\-windows\-window\)), 
+[Application.SetCookie\(Uri, string\)](https://learn.microsoft.com/dotnet/api/system.windows.application.setcookie), 
+[Application.Shutdown\(\)](https://learn.microsoft.com/dotnet/api/system.windows.application.shutdown\#system\-windows\-application\-shutdown), 
+[Application.Shutdown\(int\)](https://learn.microsoft.com/dotnet/api/system.windows.application.shutdown\#system\-windows\-application\-shutdown\(system\-int32\)), 
+[Application.TryFindResource\(object\)](https://learn.microsoft.com/dotnet/api/system.windows.application.tryfindresource), 
+[Application.Current](https://learn.microsoft.com/dotnet/api/system.windows.application.current), 
+[Application.MainWindow](https://learn.microsoft.com/dotnet/api/system.windows.application.mainwindow), 
+[Application.Properties](https://learn.microsoft.com/dotnet/api/system.windows.application.properties), 
+[Application.ResourceAssembly](https://learn.microsoft.com/dotnet/api/system.windows.application.resourceassembly), 
+[Application.Resources](https://learn.microsoft.com/dotnet/api/system.windows.application.resources), 
+[Application.ShutdownMode](https://learn.microsoft.com/dotnet/api/system.windows.application.shutdownmode), 
+[Application.StartupUri](https://learn.microsoft.com/dotnet/api/system.windows.application.startupuri), 
+[Application.Windows](https://learn.microsoft.com/dotnet/api/system.windows.application.windows), 
+[Application.Activated](https://learn.microsoft.com/dotnet/api/system.windows.application.activated), 
+[Application.Deactivated](https://learn.microsoft.com/dotnet/api/system.windows.application.deactivated), 
+[Application.DispatcherUnhandledException](https://learn.microsoft.com/dotnet/api/system.windows.application.dispatcherunhandledexception), 
+[Application.Exit](https://learn.microsoft.com/dotnet/api/system.windows.application.exit), 
+[Application.FragmentNavigation](https://learn.microsoft.com/dotnet/api/system.windows.application.fragmentnavigation), 
+[Application.LoadCompleted](https://learn.microsoft.com/dotnet/api/system.windows.application.loadcompleted), 
+[Application.Navigated](https://learn.microsoft.com/dotnet/api/system.windows.application.navigated), 
+[Application.Navigating](https://learn.microsoft.com/dotnet/api/system.windows.application.navigating), 
+[Application.NavigationFailed](https://learn.microsoft.com/dotnet/api/system.windows.application.navigationfailed), 
+[Application.NavigationProgress](https://learn.microsoft.com/dotnet/api/system.windows.application.navigationprogress), 
+[Application.NavigationStopped](https://learn.microsoft.com/dotnet/api/system.windows.application.navigationstopped), 
+[Application.SessionEnding](https://learn.microsoft.com/dotnet/api/system.windows.application.sessionending), 
+[Application.Startup](https://learn.microsoft.com/dotnet/api/system.windows.application.startup), 
+[DispatcherObject.Dispatcher](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject.dispatcher), 
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -46,7 +106,7 @@ public static bool IsAppExitByUser
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_App_IsOobeShowing"></a> IsOobeShowing
 
@@ -56,7 +116,7 @@ public static bool IsOobeShowing
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_App_IsUIAccessTopMostEnabled"></a> IsUIAccessTopMostEnabled
 
@@ -66,7 +126,7 @@ public static bool IsUIAccessTopMostEnabled
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_App_IsUpdateInstalling"></a> IsUpdateInstalling
 
@@ -76,7 +136,7 @@ public static bool IsUpdateInstalling
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_App_RootPath"></a> RootPath
 
@@ -86,7 +146,7 @@ public static string RootPath
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_App_StartArgs"></a> StartArgs
 
@@ -96,7 +156,7 @@ public static string[] StartArgs
 
 #### Field Value
 
- string\[\]
+ [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 ### <a id="Ink_Canvas_App_StartWithBoardMode"></a> StartWithBoardMode
 
@@ -106,7 +166,7 @@ public static bool StartWithBoardMode
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_App_StartWithShowMode"></a> StartWithShowMode
 
@@ -116,7 +176,7 @@ public static bool StartWithShowMode
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_App_watchdogProcess"></a> watchdogProcess
 
@@ -126,7 +186,7 @@ public static Process watchdogProcess
 
 #### Field Value
 
- Process
+ [Process](https://learn.microsoft.com/dotnet/api/system.diagnostics.process)
 
 ## Methods
 
@@ -134,6 +194,23 @@ public static Process watchdogProcess
 
 ```csharp
 public static void CloseSplashScreen()
+```
+
+### <a id="Ink_Canvas_App_InitializeComponent"></a> InitializeComponent\(\)
+
+InitializeComponent
+
+```csharp
+public void InitializeComponent()
+```
+
+### <a id="Ink_Canvas_App_Main"></a> Main\(\)
+
+Application Entry Point.
+
+```csharp
+[STAThread]
+public static void Main()
 ```
 
 ### <a id="Ink_Canvas_App_ReleaseMutexForRestart"></a> ReleaseMutexForRestart\(\)
@@ -166,7 +243,7 @@ public static void SetSplashMessage(string message)
 
 #### Parameters
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_App_SetSplashProgress_System_Int32_"></a> SetSplashProgress\(int\)
 
@@ -176,7 +253,7 @@ public static void SetSplashProgress(int progress)
 
 #### Parameters
 
-`progress` int
+`progress` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_App_ShowSplashScreen"></a> ShowSplashScreen\(\)
 

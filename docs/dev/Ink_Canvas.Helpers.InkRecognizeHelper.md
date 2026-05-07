@@ -13,12 +13,22 @@ public class InkRecognizeHelper
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [InkRecognizeHelper](Ink\_Canvas.Helpers.InkRecognizeHelper.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_InkRecognizeHelper_CorrectHandwritingStrokesUnifiedAsync_StrokeCollection_Ink_Canvas_Helpers_ShapeRecognitionEngineMode_"></a> CorrectHandwritingStrokesUnifiedAsync\(StrokeCollection, ShapeRecognitionEngineMode\)
+### <a id="Ink_Canvas_Helpers_InkRecognizeHelper_CorrectHandwritingStrokesUnifiedAsync_System_Windows_Ink_StrokeCollection_Ink_Canvas_Helpers_ShapeRecognitionEngineMode_"></a> CorrectHandwritingStrokesUnifiedAsync\(StrokeCollection, ShapeRecognitionEngineMode\)
 
 ```csharp
 public static Task<StrokeCollection> CorrectHandwritingStrokesUnifiedAsync(StrokeCollection strokes, ShapeRecognitionEngineMode mode)
@@ -26,15 +36,15 @@ public static Task<StrokeCollection> CorrectHandwritingStrokesUnifiedAsync(Strok
 
 #### Parameters
 
-`strokes` StrokeCollection
+`strokes` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
 
 `mode` [ShapeRecognitionEngineMode](Ink\_Canvas.Helpers.ShapeRecognitionEngineMode.md)
 
 #### Returns
 
- Task<StrokeCollection\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)\>
 
-### <a id="Ink_Canvas_Helpers_InkRecognizeHelper_CorrectHandwritingStrokesUnifiedAsync_StrokeCollection_Ink_Canvas_Helpers_ShapeRecognitionEngineMode_System_Boolean_"></a> CorrectHandwritingStrokesUnifiedAsync\(StrokeCollection, ShapeRecognitionEngineMode, bool\)
+### <a id="Ink_Canvas_Helpers_InkRecognizeHelper_CorrectHandwritingStrokesUnifiedAsync_System_Windows_Ink_StrokeCollection_Ink_Canvas_Helpers_ShapeRecognitionEngineMode_System_Boolean_"></a> CorrectHandwritingStrokesUnifiedAsync\(StrokeCollection, ShapeRecognitionEngineMode, bool\)
 
 ```csharp
 public static Task<StrokeCollection> CorrectHandwritingStrokesUnifiedAsync(StrokeCollection strokes, ShapeRecognitionEngineMode mode, bool applyHandwritingBeautify)
@@ -42,15 +52,15 @@ public static Task<StrokeCollection> CorrectHandwritingStrokesUnifiedAsync(Strok
 
 #### Parameters
 
-`strokes` StrokeCollection
+`strokes` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
 
 `mode` [ShapeRecognitionEngineMode](Ink\_Canvas.Helpers.ShapeRecognitionEngineMode.md)
 
-`applyHandwritingBeautify` bool
+`applyHandwritingBeautify` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 #### Returns
 
- Task<StrokeCollection\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)\>
 
 ### <a id="Ink_Canvas_Helpers_InkRecognizeHelper_IsContainShapeType_System_String_"></a> IsContainShapeType\(string\)
 
@@ -60,13 +70,13 @@ public static bool IsContainShapeType(string name)
 
 #### Parameters
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Helpers_InkRecognizeHelper_RecognizeHandwritingUnifiedAsync_StrokeCollection_Ink_Canvas_Helpers_ShapeRecognitionEngineMode_"></a> RecognizeHandwritingUnifiedAsync\(StrokeCollection, ShapeRecognitionEngineMode\)
+### <a id="Ink_Canvas_Helpers_InkRecognizeHelper_RecognizeHandwritingUnifiedAsync_System_Windows_Ink_StrokeCollection_Ink_Canvas_Helpers_ShapeRecognitionEngineMode_"></a> RecognizeHandwritingUnifiedAsync\(StrokeCollection, ShapeRecognitionEngineMode\)
 
 ```csharp
 public static Task<HandwritingRecognitionResult> RecognizeHandwritingUnifiedAsync(StrokeCollection strokes, ShapeRecognitionEngineMode mode)
@@ -74,15 +84,15 @@ public static Task<HandwritingRecognitionResult> RecognizeHandwritingUnifiedAsyn
 
 #### Parameters
 
-`strokes` StrokeCollection
+`strokes` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
 
 `mode` [ShapeRecognitionEngineMode](Ink\_Canvas.Helpers.ShapeRecognitionEngineMode.md)
 
 #### Returns
 
- Task<[HandwritingRecognitionResult](Ink\_Canvas.Helpers.HandwritingRecognitionResult.md)\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[HandwritingRecognitionResult](Ink\_Canvas.Helpers.HandwritingRecognitionResult.md)\>
 
-### <a id="Ink_Canvas_Helpers_InkRecognizeHelper_RecognizeShapeUnified_StrokeCollection_Ink_Canvas_Helpers_ShapeRecognitionEngineMode_"></a> RecognizeShapeUnified\(StrokeCollection, ShapeRecognitionEngineMode\)
+### <a id="Ink_Canvas_Helpers_InkRecognizeHelper_RecognizeShapeUnified_System_Windows_Ink_StrokeCollection_Ink_Canvas_Helpers_ShapeRecognitionEngineMode_"></a> RecognizeShapeUnified\(StrokeCollection, ShapeRecognitionEngineMode\)
 
 ```csharp
 public static InkShapeRecognitionResult RecognizeShapeUnified(StrokeCollection strokes, ShapeRecognitionEngineMode mode)
@@ -90,7 +100,7 @@ public static InkShapeRecognitionResult RecognizeShapeUnified(StrokeCollection s
 
 #### Parameters
 
-`strokes` StrokeCollection
+`strokes` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
 
 `mode` [ShapeRecognitionEngineMode](Ink\_Canvas.Helpers.ShapeRecognitionEngineMode.md)
 
@@ -98,7 +108,7 @@ public static InkShapeRecognitionResult RecognizeShapeUnified(StrokeCollection s
 
  [InkShapeRecognitionResult](Ink\_Canvas.Helpers.InkShapeRecognitionResult.md)
 
-### <a id="Ink_Canvas_Helpers_InkRecognizeHelper_RecognizeShapeUnifiedAsync_StrokeCollection_Ink_Canvas_Helpers_ShapeRecognitionEngineMode_"></a> RecognizeShapeUnifiedAsync\(StrokeCollection, ShapeRecognitionEngineMode\)
+### <a id="Ink_Canvas_Helpers_InkRecognizeHelper_RecognizeShapeUnifiedAsync_System_Windows_Ink_StrokeCollection_Ink_Canvas_Helpers_ShapeRecognitionEngineMode_"></a> RecognizeShapeUnifiedAsync\(StrokeCollection, ShapeRecognitionEngineMode\)
 
 ```csharp
 public static Task<InkShapeRecognitionResult> RecognizeShapeUnifiedAsync(StrokeCollection strokes, ShapeRecognitionEngineMode mode)
@@ -106,13 +116,13 @@ public static Task<InkShapeRecognitionResult> RecognizeShapeUnifiedAsync(StrokeC
 
 #### Parameters
 
-`strokes` StrokeCollection
+`strokes` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
 
 `mode` [ShapeRecognitionEngineMode](Ink\_Canvas.Helpers.ShapeRecognitionEngineMode.md)
 
 #### Returns
 
- Task<[InkShapeRecognitionResult](Ink\_Canvas.Helpers.InkShapeRecognitionResult.md)\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[InkShapeRecognitionResult](Ink\_Canvas.Helpers.InkShapeRecognitionResult.md)\>
 
 ### <a id="Ink_Canvas_Helpers_InkRecognizeHelper_WarmupShapeRecognition_Ink_Canvas_Helpers_ShapeRecognitionEngineMode_"></a> WarmupShapeRecognition\(ShapeRecognitionEngineMode\)
 

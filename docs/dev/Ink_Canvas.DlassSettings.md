@@ -9,108 +9,128 @@ public class DlassSettings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DlassSettings](Ink\_Canvas.DlassSettings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
 ### <a id="Ink_Canvas_DlassSettings_ApiBaseUrl"></a> ApiBaseUrl
 
 ```csharp
+[JsonProperty("apiBaseUrl")]
 public string ApiBaseUrl { get; set; }
 ```
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_DlassSettings_AutoUploadDelayMinutes"></a> AutoUploadDelayMinutes
 
 ```csharp
+[JsonProperty("autoUploadDelayMinutes")]
 public int AutoUploadDelayMinutes { get; set; }
 ```
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_DlassSettings_IsAutoUploadNotes"></a> IsAutoUploadNotes
 
 ```csharp
+[JsonProperty("isAutoUploadNotes")]
 public bool IsAutoUploadNotes { get; set; }
 ```
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_DlassSettings_SavedTokens"></a> SavedTokens
 
 ```csharp
+[JsonProperty("savedTokens")]
 public List<string> SavedTokens { get; set; }
 ```
 
 #### Property Value
 
- List<string\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_DlassSettings_SelectedClassName"></a> SelectedClassName
 
 ```csharp
+[JsonProperty("selectedClassName")]
 public string SelectedClassName { get; set; }
 ```
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_DlassSettings_UserToken"></a> UserToken
 
 ```csharp
+[JsonProperty("userToken")]
 public string UserToken { get; set; }
 ```
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_DlassSettings_WebDavPassword"></a> WebDavPassword
 
 ```csharp
+[JsonProperty("webDavPassword")]
 public string WebDavPassword { get; set; }
 ```
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_DlassSettings_WebDavRootDirectory"></a> WebDavRootDirectory
 
 ```csharp
+[JsonProperty("webDavRootDirectory")]
 public string WebDavRootDirectory { get; set; }
 ```
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_DlassSettings_WebDavUrl"></a> WebDavUrl
 
 ```csharp
+[JsonProperty("webDavUrl")]
 public string WebDavUrl { get; set; }
 ```
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_DlassSettings_WebDavUsername"></a> WebDavUsername
 
 ```csharp
+[JsonProperty("webDavUsername")]
 public string WebDavUsername { get; set; }
 ```
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

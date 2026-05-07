@@ -1,16 +1,16 @@
-# <a id="Ink_Canvas_Resources_ICCConfiguration_ICCConfiguration"></a> Class ICCConfiguration
+# <a id="Ink_Canvas_Controls_PopupTabItem"></a> Class PopupTabItem
 
-Namespace: [Ink\_Canvas.Resources.ICCConfiguration](Ink\_Canvas.Resources.ICCConfiguration.md)  
-Assembly: InkCanvasForClass.dll  
+Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)  
+Assembly: InkCanvas.Controls.dll  
 
 ```csharp
-public class ICCConfiguration
+public class PopupTabItem
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[ICCConfiguration](Ink\_Canvas.Resources.ICCConfiguration.ICCConfiguration.md)
+[PopupTabItem](Ink\_Canvas.Controls.PopupTabItem.md)
 
 #### Inherited Members
 
@@ -24,13 +24,23 @@ public class ICCConfiguration
 
 ## Properties
 
-### <a id="Ink_Canvas_Resources_ICCConfiguration_ICCConfiguration_FloatingBar"></a> FloatingBar
+### <a id="Ink_Canvas_Controls_PopupTabItem_Header"></a> Header
 
 ```csharp
-public ICCFloatingBarConfiguration FloatingBar { get; set; }
+public string Header { get; set; }
 ```
 
 #### Property Value
 
- [ICCFloatingBarConfiguration](Ink\_Canvas.Resources.ICCConfiguration.ICCFloatingBarConfiguration.md)
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Controls_PopupTabItem_IconSource"></a> IconSource
+
+```csharp
+public string IconSource { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

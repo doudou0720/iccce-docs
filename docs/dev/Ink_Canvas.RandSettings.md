@@ -9,228 +9,260 @@ public class RandSettings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [RandSettings](Ink\_Canvas.RandSettings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
 ### <a id="Ink_Canvas_RandSettings_CustomPickNameBackgrounds"></a> CustomPickNameBackgrounds
 
 ```csharp
+[JsonProperty("customPickNameBackgrounds")]
 public List<CustomPickNameBackground> CustomPickNameBackgrounds { get; set; }
 ```
 
 #### Property Value
 
- List<[CustomPickNameBackground](Ink\_Canvas.CustomPickNameBackground.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[CustomPickNameBackground](Ink\_Canvas.CustomPickNameBackground.md)\>
 
 ### <a id="Ink_Canvas_RandSettings_CustomTimerSoundPath"></a> CustomTimerSoundPath
 
 ```csharp
+[JsonProperty("customTimerSoundPath")]
 public string CustomTimerSoundPath { get; set; }
 ```
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_RandSettings_DirectCallCiRand"></a> DirectCallCiRand
 
 ```csharp
+[JsonProperty("directCallCiRand")]
 public bool DirectCallCiRand { get; set; }
 ```
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_RandSettings_DisplayRandWindowNamesInputBtn"></a> DisplayRandWindowNamesInputBtn
 
 ```csharp
+[JsonProperty("displayRandWindowNamesInputBtn")]
 public bool DisplayRandWindowNamesInputBtn { get; set; }
 ```
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_RandSettings_EnableMLAvoidance"></a> EnableMLAvoidance
 
 ```csharp
+[JsonProperty("enableMLAvoidance")]
 public bool EnableMLAvoidance { get; set; }
 ```
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_RandSettings_EnableOvertimeCountUp"></a> EnableOvertimeCountUp
 
 ```csharp
+[JsonProperty("enableOvertimeCountUp")]
 public bool EnableOvertimeCountUp { get; set; }
 ```
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_RandSettings_EnableOvertimeRedText"></a> EnableOvertimeRedText
 
 ```csharp
+[JsonProperty("enableOvertimeRedText")]
 public bool EnableOvertimeRedText { get; set; }
 ```
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_RandSettings_EnableProgressiveReminder"></a> EnableProgressiveReminder
 
 ```csharp
+[JsonProperty("enableProgressiveReminder")]
 public bool EnableProgressiveReminder { get; set; }
 ```
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_RandSettings_EnableQuickDraw"></a> EnableQuickDraw
 
 ```csharp
+[JsonProperty("enableQuickDraw")]
 public bool EnableQuickDraw { get; set; }
 ```
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_RandSettings_ExternalCallerType"></a> ExternalCallerType
 
 ```csharp
+[JsonProperty("externalCallerType")]
 public int ExternalCallerType { get; set; }
 ```
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_RandSettings_MLAvoidanceHistoryCount"></a> MLAvoidanceHistoryCount
 
 ```csharp
+[JsonProperty("mlAvoidanceHistoryCount")]
 public int MLAvoidanceHistoryCount { get; set; }
 ```
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_RandSettings_MLAvoidanceWeight"></a> MLAvoidanceWeight
 
 ```csharp
+[JsonProperty("mlAvoidanceWeight")]
 public double MLAvoidanceWeight { get; set; }
 ```
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_RandSettings_ProgressiveReminderSoundPath"></a> ProgressiveReminderSoundPath
 
 ```csharp
+[JsonProperty("progressiveReminderSoundPath")]
 public string ProgressiveReminderSoundPath { get; set; }
 ```
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_RandSettings_ProgressiveReminderVolume"></a> ProgressiveReminderVolume
 
 ```csharp
+[JsonProperty("progressiveReminderVolume")]
 public double ProgressiveReminderVolume { get; set; }
 ```
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_RandSettings_RandWindowOnceCloseLatency"></a> RandWindowOnceCloseLatency
 
 ```csharp
+[JsonProperty("randWindowOnceCloseLatency")]
 public double RandWindowOnceCloseLatency { get; set; }
 ```
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_RandSettings_RandWindowOnceMaxStudents"></a> RandWindowOnceMaxStudents
 
 ```csharp
+[JsonProperty("randWindowOnceMaxStudents")]
 public int RandWindowOnceMaxStudents { get; set; }
 ```
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_RandSettings_SelectedBackgroundIndex"></a> SelectedBackgroundIndex
 
 ```csharp
+[JsonProperty("selectedBackgroundIndex")]
 public int SelectedBackgroundIndex { get; set; }
 ```
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_RandSettings_ShowRandomAndSingleDraw"></a> ShowRandomAndSingleDraw
 
 ```csharp
+[JsonProperty("showRandomAndSingleDraw")]
 public bool ShowRandomAndSingleDraw { get; set; }
 ```
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_RandSettings_TimerVolume"></a> TimerVolume
 
 ```csharp
+[JsonProperty("timerVolume")]
 public double TimerVolume { get; set; }
 ```
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_RandSettings_UseLegacyTimerUI"></a> UseLegacyTimerUI
 
 ```csharp
+[JsonProperty("useLegacyTimerUI")]
 public bool UseLegacyTimerUI { get; set; }
 ```
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_RandSettings_UseNewRollCallUI"></a> UseNewRollCallUI
 
 ```csharp
+[JsonProperty("useNewRollCallUI")]
 public bool UseNewRollCallUI { get; set; }
 ```
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_RandSettings_UseNewStyleUI"></a> UseNewStyleUI
 
 ```csharp
+[JsonProperty("useNewStyleUI")]
 public bool UseNewStyleUI { get; set; }
 ```
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

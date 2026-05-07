@@ -9,8 +9,18 @@ public static class ShapeRecognitionRouter
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ShapeRecognitionRouter](Ink\_Canvas.Helpers.ShapeRecognitionRouter.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -22,7 +32,7 @@ public static ShapeRecognitionEngineMode FromSettingsInt(int value)
 
 #### Parameters
 
-`value` int
+`value` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 #### Returns
 
@@ -42,7 +52,7 @@ public static bool ResolveUseWinRt(ShapeRecognitionEngineMode mode)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_ShapeRecognitionRouter_ShouldRunShapeRecognition_System_Boolean_Ink_Canvas_Helpers_ShapeRecognitionEngineMode_"></a> ShouldRunShapeRecognition\(bool, ShapeRecognitionEngineMode\)
 
@@ -52,11 +62,11 @@ public static bool ShouldRunShapeRecognition(bool inkToShapeEnabled, ShapeRecogn
 
 #### Parameters
 
-`inkToShapeEnabled` bool
+`inkToShapeEnabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 `mode` [ShapeRecognitionEngineMode](Ink\_Canvas.Helpers.ShapeRecognitionEngineMode.md)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

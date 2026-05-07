@@ -9,8 +9,18 @@ public class CustomFloatingBarIcon
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [CustomFloatingBarIcon](Ink\_Canvas.CustomFloatingBarIcon.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -22,9 +32,9 @@ public CustomFloatingBarIcon(string name, string filePath)
 
 #### Parameters
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`filePath` string
+`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_CustomFloatingBarIcon__ctor"></a> CustomFloatingBarIcon\(\)
 
@@ -37,20 +47,22 @@ public CustomFloatingBarIcon()
 ### <a id="Ink_Canvas_CustomFloatingBarIcon_FilePath"></a> FilePath
 
 ```csharp
+[JsonProperty("filePath")]
 public string FilePath { get; set; }
 ```
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_CustomFloatingBarIcon_Name"></a> Name
 
 ```csharp
+[JsonProperty("name")]
 public string Name { get; set; }
 ```
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

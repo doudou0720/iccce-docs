@@ -7,6 +7,15 @@ Assembly: InkCanvasForClass.dll
 public struct PPTManager.RECT
 ```
 
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+
 ## Fields
 
 ### <a id="Ink_Canvas_Helpers_PPTManager_RECT_Bottom"></a> Bottom
@@ -17,7 +26,7 @@ public int Bottom
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_PPTManager_RECT_Left"></a> Left
 
@@ -27,7 +36,7 @@ public int Left
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_PPTManager_RECT_Right"></a> Right
 
@@ -37,7 +46,7 @@ public int Right
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_PPTManager_RECT_Top"></a> Top
 
@@ -47,7 +56,7 @@ public int Top
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Properties
 
@@ -59,7 +68,7 @@ public int Height { get; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_PPTManager_RECT_Width"></a> Width
 
@@ -69,5 +78,5 @@ public int Width { get; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

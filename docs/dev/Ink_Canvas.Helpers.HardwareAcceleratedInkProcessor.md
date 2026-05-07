@@ -11,8 +11,18 @@ public class HardwareAcceleratedInkProcessor
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [HardwareAcceleratedInkProcessor](Ink\_Canvas.Helpers.HardwareAcceleratedInkProcessor.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -24,9 +34,9 @@ public HardwareAcceleratedInkProcessor(int width = 1920, int height = 1080)
 
 #### Parameters
 
-`width` int
+`width` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`height` int
+`height` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 
@@ -38,7 +48,7 @@ public HardwareAcceleratedInkProcessor(int width = 1920, int height = 1080)
 public void Dispose()
 ```
 
-### <a id="Ink_Canvas_Helpers_HardwareAcceleratedInkProcessor_ParallelBezierInterpolation_StylusPoint___System_Int32_"></a> ParallelBezierInterpolation\(StylusPoint\[\], int\)
+### <a id="Ink_Canvas_Helpers_HardwareAcceleratedInkProcessor_ParallelBezierInterpolation_System_Windows_Input_StylusPoint___System_Int32_"></a> ParallelBezierInterpolation\(StylusPoint\[\], int\)
 
 使用GPU加速的并行贝塞尔计算
 
@@ -48,15 +58,15 @@ public static StylusPoint[] ParallelBezierInterpolation(StylusPoint[] controlPoi
 
 #### Parameters
 
-`controlPoints` StylusPoint\[\]
+`controlPoints` [StylusPoint](https://learn.microsoft.com/dotnet/api/system.windows.input.styluspoint)\[\]
 
-`segments` int
+`segments` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 #### Returns
 
- StylusPoint\[\]
+ [StylusPoint](https://learn.microsoft.com/dotnet/api/system.windows.input.styluspoint)\[\]
 
-### <a id="Ink_Canvas_Helpers_HardwareAcceleratedInkProcessor_SmoothStrokeWithGPU_Stroke_"></a> SmoothStrokeWithGPU\(Stroke\)
+### <a id="Ink_Canvas_Helpers_HardwareAcceleratedInkProcessor_SmoothStrokeWithGPU_System_Windows_Ink_Stroke_"></a> SmoothStrokeWithGPU\(Stroke\)
 
 使用GPU加速的贝塞尔曲线平滑
 
@@ -66,9 +76,9 @@ public Task<Stroke> SmoothStrokeWithGPU(Stroke originalStroke)
 
 #### Parameters
 
-`originalStroke` Stroke
+`originalStroke` [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
 
 #### Returns
 
- Task<Stroke\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)\>
 

@@ -16,8 +16,18 @@ public static class UIAccessHelper
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UIAccessHelper](Ink\_Canvas.Helpers.UIAccessHelper.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -31,7 +41,7 @@ public static bool HasUIAccess()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_UIAccessHelper_RestartAsNormalUser_System_String_"></a> RestartAsNormalUser\(string\)
 
@@ -46,13 +56,13 @@ public static bool RestartAsNormalUser(string extraArgs = null)
 
 #### Parameters
 
-`extraArgs` string
+`extraArgs` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 追加到新进程的额外命令行参数。
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_UIAccessHelper_RestartWithUIAccess_System_String_"></a> RestartWithUIAccess\(string\)
 
@@ -65,11 +75,11 @@ public static bool RestartWithUIAccess(string extraArgs = null)
 
 #### Parameters
 
-`extraArgs` string
+`extraArgs` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 追加到新进程的额外命令行参数（例如 --skip-mutex-check）。
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

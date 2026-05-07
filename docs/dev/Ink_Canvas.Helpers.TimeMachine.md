@@ -9,8 +9,18 @@ public class TimeMachine
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [TimeMachine](Ink\_Canvas.Helpers.TimeMachine.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -24,7 +34,7 @@ public bool CanRedo { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_TimeMachine_CanUndo"></a> CanUndo
 
@@ -36,7 +46,7 @@ public bool CanUndo { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -46,7 +56,7 @@ public bool CanUndo { get; }
 public void ClearStrokeHistory()
 ```
 
-### <a id="Ink_Canvas_Helpers_TimeMachine_CommitElementInsertHistory_UIElement_"></a> CommitElementInsertHistory\(UIElement\)
+### <a id="Ink_Canvas_Helpers_TimeMachine_CommitElementInsertHistory_System_Windows_UIElement_"></a> CommitElementInsertHistory\(UIElement\)
 
 ```csharp
 public void CommitElementInsertHistory(UIElement element)
@@ -54,9 +64,9 @@ public void CommitElementInsertHistory(UIElement element)
 
 #### Parameters
 
-`element` UIElement
+`element` [UIElement](https://learn.microsoft.com/dotnet/api/system.windows.uielement)
 
-### <a id="Ink_Canvas_Helpers_TimeMachine_CommitElementRemoveHistory_UIElement_"></a> CommitElementRemoveHistory\(UIElement\)
+### <a id="Ink_Canvas_Helpers_TimeMachine_CommitElementRemoveHistory_System_Windows_UIElement_"></a> CommitElementRemoveHistory\(UIElement\)
 
 ```csharp
 public void CommitElementRemoveHistory(UIElement element)
@@ -64,9 +74,9 @@ public void CommitElementRemoveHistory(UIElement element)
 
 #### Parameters
 
-`element` UIElement
+`element` [UIElement](https://learn.microsoft.com/dotnet/api/system.windows.uielement)
 
-### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeDrawingAttributesHistory_Dictionary_Stroke_Tuple_DrawingAttributes_DrawingAttributes___"></a> CommitStrokeDrawingAttributesHistory\(Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes\>\>\)
+### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeDrawingAttributesHistory_System_Collections_Generic_Dictionary_System_Windows_Ink_Stroke_System_Tuple_System_Windows_Ink_DrawingAttributes_System_Windows_Ink_DrawingAttributes___"></a> CommitStrokeDrawingAttributesHistory\(Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes\>\>\)
 
 ```csharp
 public void CommitStrokeDrawingAttributesHistory(Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes>> drawingAttributes)
@@ -74,9 +84,9 @@ public void CommitStrokeDrawingAttributesHistory(Dictionary<Stroke, Tuple<Drawin
 
 #### Parameters
 
-`drawingAttributes` Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes\>\>
+`drawingAttributes` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke), [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[DrawingAttributes](https://learn.microsoft.com/dotnet/api/system.windows.ink.drawingattributes), [DrawingAttributes](https://learn.microsoft.com/dotnet/api/system.windows.ink.drawingattributes)\>\>
 
-### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeEraseHistory_StrokeCollection_StrokeCollection_"></a> CommitStrokeEraseHistory\(StrokeCollection, StrokeCollection\)
+### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeEraseHistory_System_Windows_Ink_StrokeCollection_System_Windows_Ink_StrokeCollection_"></a> CommitStrokeEraseHistory\(StrokeCollection, StrokeCollection\)
 
 ```csharp
 public void CommitStrokeEraseHistory(StrokeCollection stroke, StrokeCollection sourceStroke = null)
@@ -84,11 +94,11 @@ public void CommitStrokeEraseHistory(StrokeCollection stroke, StrokeCollection s
 
 #### Parameters
 
-`stroke` StrokeCollection
+`stroke` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
 
-`sourceStroke` StrokeCollection
+`sourceStroke` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
 
-### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeManipulationHistory_Dictionary_Stroke_Tuple_StylusPointCollection_StylusPointCollection___"></a> CommitStrokeManipulationHistory\(Dictionary<Stroke, Tuple<StylusPointCollection, StylusPointCollection\>\>\)
+### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeManipulationHistory_System_Collections_Generic_Dictionary_System_Windows_Ink_Stroke_System_Tuple_System_Windows_Input_StylusPointCollection_System_Windows_Input_StylusPointCollection___"></a> CommitStrokeManipulationHistory\(Dictionary<Stroke, Tuple<StylusPointCollection, StylusPointCollection\>\>\)
 
 ```csharp
 public void CommitStrokeManipulationHistory(Dictionary<Stroke, Tuple<StylusPointCollection, StylusPointCollection>> stylusPointDictionary)
@@ -96,9 +106,9 @@ public void CommitStrokeManipulationHistory(Dictionary<Stroke, Tuple<StylusPoint
 
 #### Parameters
 
-`stylusPointDictionary` Dictionary<Stroke, Tuple<StylusPointCollection, StylusPointCollection\>\>
+`stylusPointDictionary` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke), [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[StylusPointCollection](https://learn.microsoft.com/dotnet/api/system.windows.input.styluspointcollection), [StylusPointCollection](https://learn.microsoft.com/dotnet/api/system.windows.input.styluspointcollection)\>\>
 
-### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeShapeHistory_StrokeCollection_StrokeCollection_"></a> CommitStrokeShapeHistory\(StrokeCollection, StrokeCollection\)
+### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeShapeHistory_System_Windows_Ink_StrokeCollection_System_Windows_Ink_StrokeCollection_"></a> CommitStrokeShapeHistory\(StrokeCollection, StrokeCollection\)
 
 ```csharp
 public void CommitStrokeShapeHistory(StrokeCollection strokeToBeReplaced, StrokeCollection generatedStroke)
@@ -106,11 +116,11 @@ public void CommitStrokeShapeHistory(StrokeCollection strokeToBeReplaced, Stroke
 
 #### Parameters
 
-`strokeToBeReplaced` StrokeCollection
+`strokeToBeReplaced` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
 
-`generatedStroke` StrokeCollection
+`generatedStroke` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
 
-### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeUserInputHistory_StrokeCollection_"></a> CommitStrokeUserInputHistory\(StrokeCollection\)
+### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeUserInputHistory_System_Windows_Ink_StrokeCollection_"></a> CommitStrokeUserInputHistory\(StrokeCollection\)
 
 ```csharp
 public void CommitStrokeUserInputHistory(StrokeCollection stroke)
@@ -118,7 +128,7 @@ public void CommitStrokeUserInputHistory(StrokeCollection stroke)
 
 #### Parameters
 
-`stroke` StrokeCollection
+`stroke` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
 
 ### <a id="Ink_Canvas_Helpers_TimeMachine_ExportTimeMachineHistory"></a> ExportTimeMachineHistory\(\)
 
@@ -142,7 +152,7 @@ public bool ImportTimeMachineHistory(TimeMachineHistory[] sourceHistory)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_TimeMachine_Redo"></a> Redo\(\)
 

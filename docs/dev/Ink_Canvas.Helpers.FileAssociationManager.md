@@ -11,8 +11,18 @@ public static class FileAssociationManager
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [FileAssociationManager](Ink\_Canvas.Helpers.FileAssociationManager.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -26,13 +36,13 @@ public static string GetIcstkFileFromArgs(string[] args)
 
 #### Parameters
 
-`args` string\[\]
+`args` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 命令行参数
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 找到的.icstk文件路径，如果没有找到则返回null
 
@@ -46,7 +56,7 @@ public static bool IsFileAssociationRegistered()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_FileAssociationManager_RegisterFileAssociation"></a> RegisterFileAssociation\(\)
 
@@ -58,7 +68,7 @@ public static bool RegisterFileAssociation()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_FileAssociationManager_ShowFileAssociationStatus"></a> ShowFileAssociationStatus\(\)
 
@@ -86,7 +96,7 @@ public static bool TrySendBoardModeCommandToExistingInstance()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否成功发送
 
@@ -100,13 +110,13 @@ public static bool TrySendFileToExistingInstance(string filePath)
 
 #### Parameters
 
-`filePath` string
+`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 要打开的文件路径
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否成功发送
 
@@ -120,7 +130,7 @@ public static bool TrySendShowModeCommandToExistingInstance()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否成功发送
 
@@ -134,13 +144,13 @@ public static bool TrySendUriCommandToExistingInstance(string uri)
 
 #### Parameters
 
-`uri` string
+`uri` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 URI命令
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否成功发送
 
@@ -154,5 +164,5 @@ public static bool UnregisterFileAssociation()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

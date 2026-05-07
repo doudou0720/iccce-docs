@@ -33,13 +33,13 @@ FrameworkElement FindView(string id)
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- FrameworkElement
+ [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
 
-### <a id="Ink_Canvas_Controls_Toolbar_IToolbarHost_RegisterView_System_String_FrameworkElement_"></a> RegisterView\(string, FrameworkElement\)
+### <a id="Ink_Canvas_Controls_Toolbar_IToolbarHost_RegisterView_System_String_System_Windows_FrameworkElement_"></a> RegisterView\(string, FrameworkElement\)
 
 按 id 登记按钮的 view 实例（供 MainWindow 字段回填和互相查找）。
 
@@ -49,7 +49,7 @@ void RegisterView(string id, FrameworkElement view)
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`view` FrameworkElement
+`view` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
 

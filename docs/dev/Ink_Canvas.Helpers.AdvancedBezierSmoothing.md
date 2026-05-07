@@ -11,8 +11,18 @@ public class AdvancedBezierSmoothing
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AdvancedBezierSmoothing](Ink\_Canvas.Helpers.AdvancedBezierSmoothing.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -24,7 +34,7 @@ public int InterpolationSteps { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_AdvancedBezierSmoothing_ResampleInterval"></a> ResampleInterval
 
@@ -34,7 +44,7 @@ public double ResampleInterval { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_AdvancedBezierSmoothing_SmoothingStrength"></a> SmoothingStrength
 
@@ -44,11 +54,11 @@ public double SmoothingStrength { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_AdvancedBezierSmoothing_SmoothStroke_Stroke_"></a> SmoothStroke\(Stroke\)
+### <a id="Ink_Canvas_Helpers_AdvancedBezierSmoothing_SmoothStroke_System_Windows_Ink_Stroke_"></a> SmoothStroke\(Stroke\)
 
 ```csharp
 public Stroke SmoothStroke(Stroke stroke)
@@ -56,9 +66,9 @@ public Stroke SmoothStroke(Stroke stroke)
 
 #### Parameters
 
-`stroke` Stroke
+`stroke` [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
 
 #### Returns
 
- Stroke
+ [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
 

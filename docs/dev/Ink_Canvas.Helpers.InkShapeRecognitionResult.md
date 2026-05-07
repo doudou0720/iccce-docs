@@ -11,12 +11,21 @@ public sealed class InkShapeRecognitionResult
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [InkShapeRecognitionResult](Ink\_Canvas.Helpers.InkShapeRecognitionResult.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
-### <a id="Ink_Canvas_Helpers_InkShapeRecognitionResult__ctor_System_String_Point_PointCollection_System_Double_System_Double_StrokeCollection_"></a> InkShapeRecognitionResult\(string, Point, PointCollection, double, double, StrokeCollection\)
+### <a id="Ink_Canvas_Helpers_InkShapeRecognitionResult__ctor_System_String_System_Windows_Point_System_Windows_Media_PointCollection_System_Double_System_Double_System_Windows_Ink_StrokeCollection_"></a> InkShapeRecognitionResult\(string, Point, PointCollection, double, double, StrokeCollection\)
 
 ```csharp
 public InkShapeRecognitionResult(string shapeName, Point centroid, PointCollection hotPoints, double shapeWidth, double shapeHeight, StrokeCollection strokesToRemove)
@@ -24,17 +33,17 @@ public InkShapeRecognitionResult(string shapeName, Point centroid, PointCollecti
 
 #### Parameters
 
-`shapeName` string
+`shapeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`centroid` Point
+`centroid` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
 
-`hotPoints` PointCollection
+`hotPoints` [PointCollection](https://learn.microsoft.com/dotnet/api/system.windows.media.pointcollection)
 
-`shapeWidth` double
+`shapeWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-`shapeHeight` double
+`shapeHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-`strokesToRemove` StrokeCollection
+`strokesToRemove` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
 
 ## Fields
 
@@ -58,7 +67,7 @@ public Point Centroid { get; set; }
 
 #### Property Value
 
- Point
+ [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
 
 ### <a id="Ink_Canvas_Helpers_InkShapeRecognitionResult_HotPoints"></a> HotPoints
 
@@ -68,7 +77,7 @@ public PointCollection HotPoints { get; }
 
 #### Property Value
 
- PointCollection
+ [PointCollection](https://learn.microsoft.com/dotnet/api/system.windows.media.pointcollection)
 
 ### <a id="Ink_Canvas_Helpers_InkShapeRecognitionResult_IsSuccess"></a> IsSuccess
 
@@ -78,7 +87,7 @@ public bool IsSuccess { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_InkShapeRecognitionResult_ShapeHeight"></a> ShapeHeight
 
@@ -88,7 +97,7 @@ public double ShapeHeight { get; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_InkShapeRecognitionResult_ShapeName"></a> ShapeName
 
@@ -98,7 +107,7 @@ public string ShapeName { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_InkShapeRecognitionResult_ShapeWidth"></a> ShapeWidth
 
@@ -108,7 +117,7 @@ public double ShapeWidth { get; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_InkShapeRecognitionResult_StrokesToRemove"></a> StrokesToRemove
 
@@ -118,5 +127,5 @@ public StrokeCollection StrokesToRemove { get; }
 
 #### Property Value
 
- StrokeCollection
+ [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
 

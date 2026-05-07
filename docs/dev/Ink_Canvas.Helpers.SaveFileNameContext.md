@@ -9,8 +9,18 @@ public class SaveFileNameContext
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [SaveFileNameContext](Ink\_Canvas.Helpers.SaveFileNameContext.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public int? Count { get; set; }
 
 #### Property Value
 
- int?
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)?
 
 ### <a id="Ink_Canvas_Helpers_SaveFileNameContext_Mode"></a> Mode
 
@@ -34,7 +44,7 @@ public string Mode { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_SaveFileNameContext_Page"></a> Page
 
@@ -44,7 +54,7 @@ public int? Page { get; set; }
 
 #### Property Value
 
- int?
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)?
 
 ### <a id="Ink_Canvas_Helpers_SaveFileNameContext_Time"></a> Time
 
@@ -54,7 +64,7 @@ public DateTime? Time { get; set; }
 
 #### Property Value
 
- DateTime?
+ [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)?
 
 ### <a id="Ink_Canvas_Helpers_SaveFileNameContext_Type"></a> Type
 
@@ -66,5 +76,5 @@ public string Type { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

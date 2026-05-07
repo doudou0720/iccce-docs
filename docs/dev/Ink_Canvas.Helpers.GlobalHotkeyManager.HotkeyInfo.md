@@ -11,8 +11,18 @@ public class GlobalHotkeyManager.HotkeyInfo
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [GlobalHotkeyManager.HotkeyInfo](Ink\_Canvas.Helpers.GlobalHotkeyManager.HotkeyInfo.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -24,7 +34,7 @@ public Action Action { get; set; }
 
 #### Property Value
 
- Action
+ [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
 ### <a id="Ink_Canvas_Helpers_GlobalHotkeyManager_HotkeyInfo_Key"></a> Key
 
@@ -34,7 +44,7 @@ public Key Key { get; set; }
 
 #### Property Value
 
- Key
+ [Key](https://learn.microsoft.com/dotnet/api/system.windows.input.key)
 
 ### <a id="Ink_Canvas_Helpers_GlobalHotkeyManager_HotkeyInfo_Modifiers"></a> Modifiers
 
@@ -44,7 +54,7 @@ public ModifierKeys Modifiers { get; set; }
 
 #### Property Value
 
- ModifierKeys
+ [ModifierKeys](https://learn.microsoft.com/dotnet/api/system.windows.input.modifierkeys)
 
 ### <a id="Ink_Canvas_Helpers_GlobalHotkeyManager_HotkeyInfo_Name"></a> Name
 
@@ -54,11 +64,13 @@ public string Name { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
 ### <a id="Ink_Canvas_Helpers_GlobalHotkeyManager_HotkeyInfo_ToString"></a> ToString\(\)
+
+Returns a string that represents the current object.
 
 ```csharp
 public override string ToString()
@@ -66,5 +78,7 @@ public override string ToString()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+A string that represents the current object.
 

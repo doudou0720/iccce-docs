@@ -104,6 +104,8 @@ Interaction logic for StopwatchWindow.xaml
 
  [PrivacyAgreementWindow](Ink\_Canvas.PrivacyAgreementWindow.md)
 
+PrivacyAgreementWindow
+
  [QuickDrawWindow](Ink\_Canvas.QuickDrawWindow.md)
 
 快抽窗口
@@ -127,6 +129,8 @@ Interaction logic for RandWindow.xaml
 Interaction logic for RollCallHistoryWindow.xaml
 
  [ScreenshotSelectorWindow](Ink\_Canvas.ScreenshotSelectorWindow.md)
+
+ScreenshotSelectorWindow
 
  [Security](Ink\_Canvas.Security.md)
 

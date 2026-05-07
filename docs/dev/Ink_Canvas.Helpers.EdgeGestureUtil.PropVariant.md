@@ -7,6 +7,15 @@ Assembly: InkCanvasForClass.dll
 public struct EdgeGestureUtil.PropVariant
 ```
 
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+
 ## Fields
 
 ### <a id="Ink_Canvas_Helpers_EdgeGestureUtil_PropVariant_boolVal"></a> boolVal
@@ -17,7 +26,7 @@ public bool boolVal
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_EdgeGestureUtil_PropVariant_uiVal"></a> uiVal
 
@@ -27,7 +36,7 @@ public ushort uiVal
 
 #### Field Value
 
- ushort
+ [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
 ### <a id="Ink_Canvas_Helpers_EdgeGestureUtil_PropVariant_vt"></a> vt
 
@@ -37,7 +46,7 @@ public short vt
 
 #### Field Value
 
- short
+ [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
 ## Properties
 
@@ -51,5 +60,5 @@ public object Value { get; }
 
 #### Property Value
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 

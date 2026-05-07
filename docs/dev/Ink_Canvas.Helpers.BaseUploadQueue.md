@@ -11,7 +11,7 @@ public abstract class BaseUploadQueue : IDisposable
 
 #### Inheritance
 
-IDisposable ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [BaseUploadQueue](Ink\_Canvas.Helpers.BaseUploadQueue.md)
 
 #### Derived
@@ -19,27 +19,41 @@ IDisposable ←
 [DlassUploadQueue](Ink\_Canvas.Helpers.DlassUploadQueue.md), 
 [WebDavUploadQueue](Ink\_Canvas.Helpers.WebDavUploadQueue.md)
 
+#### Implements
+
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+
 ## Fields
 
 ### <a id="Ink_Canvas_Helpers_BaseUploadQueue_BATCH_SIZE"></a> BATCH\_SIZE
 
 ```csharp
-protected const int BATCH_SIZE
+protected const int BATCH_SIZE = 10
 ```
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_BaseUploadQueue_MAX_RETRY_COUNT"></a> MAX\_RETRY\_COUNT
 
 ```csharp
-protected const int MAX_RETRY_COUNT
+protected const int MAX_RETRY_COUNT = 3
 ```
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_BaseUploadQueue__isQueueInitialized"></a> \_isQueueInitialized
 
@@ -51,7 +65,7 @@ protected bool _isQueueInitialized
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_BaseUploadQueue__queueProcessingLock"></a> \_queueProcessingLock
 
@@ -63,7 +77,7 @@ protected readonly SemaphoreSlim _queueProcessingLock
 
 #### Field Value
 
- SemaphoreSlim
+ [SemaphoreSlim](https://learn.microsoft.com/dotnet/api/system.threading.semaphoreslim)
 
 ### <a id="Ink_Canvas_Helpers_BaseUploadQueue__queueSaveLock"></a> \_queueSaveLock
 
@@ -75,7 +89,7 @@ protected readonly SemaphoreSlim _queueSaveLock
 
 #### Field Value
 
- SemaphoreSlim
+ [SemaphoreSlim](https://learn.microsoft.com/dotnet/api/system.threading.semaphoreslim)
 
 ### <a id="Ink_Canvas_Helpers_BaseUploadQueue__uploadQueue"></a> \_uploadQueue
 
@@ -87,7 +101,7 @@ protected readonly ConcurrentQueue<UploadQueueItem> _uploadQueue
 
 #### Field Value
 
- ConcurrentQueue<[UploadQueueItem](Ink\_Canvas.Helpers.UploadQueueItem.md)\>
+ [ConcurrentQueue](https://learn.microsoft.com/dotnet/api/system.collections.concurrent.concurrentqueue\-1)<[UploadQueueItem](Ink\_Canvas.Helpers.UploadQueueItem.md)\>
 
 ## Properties
 
@@ -101,7 +115,7 @@ protected virtual HashSet<string> AllowedExtensions { get; }
 
 #### Property Value
 
- HashSet<string\>
+ [HashSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Helpers_BaseUploadQueue_QueueFileName"></a> QueueFileName
 
@@ -113,7 +127,7 @@ protected abstract string QueueFileName { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -143,25 +157,25 @@ protected virtual void Dispose(bool disposing)
 
 #### Parameters
 
-`disposing` bool
+`disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否手动释放
 
-### <a id="Ink_Canvas_Helpers_BaseUploadQueue_EnqueueFile_System_String_System_Int32_CancellationToken_"></a> EnqueueFile\(string, int, CancellationToken\)
+### <a id="Ink_Canvas_Helpers_BaseUploadQueue_EnqueueFile_System_String_System_Int32_System_Threading_CancellationToken_"></a> EnqueueFile\(string, int, CancellationToken\)
 
 将文件加入上传队列
 
 ```csharp
-protected void EnqueueFile(string filePath, int retryCount = 0, CancellationToken cancellationToken = null)
+protected void EnqueueFile(string filePath, int retryCount = 0, CancellationToken cancellationToken = default)
 ```
 
 #### Parameters
 
-`filePath` string
+`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`retryCount` int
+`retryCount` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`cancellationToken` CancellationToken
+`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
 
 ### <a id="Ink_Canvas_Helpers_BaseUploadQueue_Finalize"></a> \~BaseUploadQueue\(\)
 
@@ -181,13 +195,13 @@ protected virtual long GetMaxFileSize(string extension)
 
 #### Parameters
 
-`extension` string
+`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 文件扩展名
 
 #### Returns
 
- long
+ [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
 最大文件大小（字节）
 
@@ -201,7 +215,7 @@ protected string GetQueueFilePath()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_BaseUploadQueue_InitializeQueue"></a> InitializeQueue\(\)
 
@@ -221,11 +235,11 @@ protected bool IsRetryableError(string filePath)
 
 #### Parameters
 
-`filePath` string
+`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_BaseUploadQueue_IsUploadEnabled"></a> IsUploadEnabled\(\)
 
@@ -237,7 +251,7 @@ protected abstract bool IsUploadEnabled()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_BaseUploadQueue_IsValidFile_System_String_"></a> IsValidFile\(string\)
 
@@ -249,63 +263,63 @@ protected virtual bool IsValidFile(string filePath)
 
 #### Parameters
 
-`filePath` string
+`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Helpers_BaseUploadQueue_ProcessUploadQueueAsync_CancellationToken_"></a> ProcessUploadQueueAsync\(CancellationToken\)
+### <a id="Ink_Canvas_Helpers_BaseUploadQueue_ProcessUploadQueueAsync_System_Threading_CancellationToken_"></a> ProcessUploadQueueAsync\(CancellationToken\)
 
 处理上传队列，批量上传文件
 
 ```csharp
-protected Task ProcessUploadQueueAsync(CancellationToken cancellationToken = null)
+protected Task ProcessUploadQueueAsync(CancellationToken cancellationToken = default)
 ```
 
 #### Parameters
 
-`cancellationToken` CancellationToken
+`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
 
 #### Returns
 
- Task
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
-### <a id="Ink_Canvas_Helpers_BaseUploadQueue_SaveQueueToFileAsync_CancellationToken_"></a> SaveQueueToFileAsync\(CancellationToken\)
+### <a id="Ink_Canvas_Helpers_BaseUploadQueue_SaveQueueToFileAsync_System_Threading_CancellationToken_"></a> SaveQueueToFileAsync\(CancellationToken\)
 
 保存队列到文件
 
 ```csharp
-protected Task SaveQueueToFileAsync(CancellationToken cancellationToken = null)
+protected Task SaveQueueToFileAsync(CancellationToken cancellationToken = default)
 ```
 
 #### Parameters
 
-`cancellationToken` CancellationToken
+`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
 
 #### Returns
 
- Task
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
-### <a id="Ink_Canvas_Helpers_BaseUploadQueue_UploadFileAsync_System_String_CancellationToken_"></a> UploadFileAsync\(string, CancellationToken\)
+### <a id="Ink_Canvas_Helpers_BaseUploadQueue_UploadFileAsync_System_String_System_Threading_CancellationToken_"></a> UploadFileAsync\(string, CancellationToken\)
 
 异步上传文件
 
 ```csharp
-public Task<bool> UploadFileAsync(string filePath, CancellationToken cancellationToken = null)
+public Task<bool> UploadFileAsync(string filePath, CancellationToken cancellationToken = default)
 ```
 
 #### Parameters
 
-`filePath` string
+`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`cancellationToken` CancellationToken
+`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
 
 #### Returns
 
- Task<bool\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
-### <a id="Ink_Canvas_Helpers_BaseUploadQueue_UploadFileInternalAsync_System_String_CancellationToken_"></a> UploadFileInternalAsync\(string, CancellationToken\)
+### <a id="Ink_Canvas_Helpers_BaseUploadQueue_UploadFileInternalAsync_System_String_System_Threading_CancellationToken_"></a> UploadFileInternalAsync\(string, CancellationToken\)
 
 内部上传方法，执行实际上传操作
 
@@ -315,11 +329,11 @@ protected abstract Task<bool> UploadFileInternalAsync(string filePath, Cancellat
 
 #### Parameters
 
-`filePath` string
+`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`cancellationToken` CancellationToken
+`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
 
 #### Returns
 
- Task<bool\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 

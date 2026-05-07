@@ -11,8 +11,22 @@ public class TimeViewModel : INotifyPropertyChanged
 
 #### Inheritance
 
-INotifyPropertyChanged ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [TimeViewModel](Ink\_Canvas.TimeViewModel.md)
+
+#### Implements
+
+[INotifyPropertyChanged](https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -26,7 +40,7 @@ public string nowDate { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_TimeViewModel_nowTime"></a> nowTime
 
@@ -38,7 +52,7 @@ public string nowTime { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -52,7 +66,7 @@ protected virtual void OnPropertyChanged(string propertyName = null)
 
 #### Parameters
 
-`propertyName` string
+`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 属性名称
 
@@ -66,5 +80,5 @@ public event PropertyChangedEventHandler PropertyChanged
 
 #### Event Type
 
- PropertyChangedEventHandler
+ [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
 

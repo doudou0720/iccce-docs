@@ -9,8 +9,22 @@ public class ToolbarPage.ToolbarItemViewModel : INotifyPropertyChanged
 
 #### Inheritance
 
-INotifyPropertyChanged ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ToolbarPage.ToolbarItemViewModel](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarPage.ToolbarItemViewModel.md)
+
+#### Implements
+
+[INotifyPropertyChanged](https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -22,13 +36,13 @@ public ToolbarItemViewModel(string id, string displayName, int order, bool isVis
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`displayName` string
+`displayName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`order` int
+`order` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`isVisible` bool
+`isVisible` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Properties
 
@@ -40,7 +54,7 @@ public string DisplayName { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_ToolbarItemViewModel_Id"></a> Id
 
@@ -50,7 +64,7 @@ public string Id { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_ToolbarItemViewModel_IsVisible"></a> IsVisible
 
@@ -60,7 +74,7 @@ public bool IsVisible { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_ToolbarItemViewModel_Order"></a> Order
 
@@ -70,7 +84,7 @@ public int Order { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 
@@ -82,9 +96,11 @@ protected void OnPropertyChanged(string name)
 
 #### Parameters
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_ToolbarItemViewModel_PropertyChanged"></a> PropertyChanged
+
+Occurs when a property value changes.
 
 ```csharp
 public event PropertyChangedEventHandler PropertyChanged
@@ -92,5 +108,5 @@ public event PropertyChangedEventHandler PropertyChanged
 
 #### Event Type
 
- PropertyChangedEventHandler
+ [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
 

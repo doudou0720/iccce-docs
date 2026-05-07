@@ -9,8 +9,18 @@ public class NearSnapAreaSize
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [NearSnapAreaSize](Ink\_Canvas.Resources.ICCConfiguration.NearSnapAreaSize.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public double BottomCenter { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Resources_ICCConfiguration_NearSnapAreaSize_BottomLeft"></a> BottomLeft
 
@@ -32,7 +42,7 @@ public double[] BottomLeft { get; set; }
 
 #### Property Value
 
- double\[\]
+ [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
 ### <a id="Ink_Canvas_Resources_ICCConfiguration_NearSnapAreaSize_BottomRight"></a> BottomRight
 
@@ -42,7 +52,7 @@ public double[] BottomRight { get; set; }
 
 #### Property Value
 
- double\[\]
+ [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
 ### <a id="Ink_Canvas_Resources_ICCConfiguration_NearSnapAreaSize_TopCenter"></a> TopCenter
 
@@ -52,7 +62,7 @@ public double TopCenter { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Resources_ICCConfiguration_NearSnapAreaSize_TopLeft"></a> TopLeft
 
@@ -62,7 +72,7 @@ public double[] TopLeft { get; set; }
 
 #### Property Value
 
- double\[\]
+ [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
 ### <a id="Ink_Canvas_Resources_ICCConfiguration_NearSnapAreaSize_TopRight"></a> TopRight
 
@@ -72,5 +82,5 @@ public double[] TopRight { get; set; }
 
 #### Property Value
 
- double\[\]
+ [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 

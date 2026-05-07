@@ -13,12 +13,22 @@ public static class FullScreenHelper
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [FullScreenHelper](Ink\_Canvas.Helpers.FullScreenHelper.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_FullScreenHelper_EndFullScreen_Window_"></a> EndFullScreen\(Window\)
+### <a id="Ink_Canvas_Helpers_FullScreenHelper_EndFullScreen_System_Windows_Window_"></a> EndFullScreen\(Window\)
 
 退出全屏模式
 窗口会回到进入全屏模式时保存的状态
@@ -30,9 +40,9 @@ public static void EndFullScreen(Window window)
 
 #### Parameters
 
-`window` Window
+`window` [Window](https://learn.microsoft.com/dotnet/api/system.windows.window)
 
-### <a id="Ink_Canvas_Helpers_FullScreenHelper_MarkFullscreenWindowTaskbarList_IntPtr_System_Boolean_"></a> MarkFullscreenWindowTaskbarList\(IntPtr, bool\)
+### <a id="Ink_Canvas_Helpers_FullScreenHelper_MarkFullscreenWindowTaskbarList_System_IntPtr_System_Boolean_"></a> MarkFullscreenWindowTaskbarList\(IntPtr, bool\)
 
 ```csharp
 public static void MarkFullscreenWindowTaskbarList(IntPtr hwnd, bool isFullscreen)
@@ -40,11 +50,11 @@ public static void MarkFullscreenWindowTaskbarList(IntPtr hwnd, bool isFullscree
 
 #### Parameters
 
-`hwnd` IntPtr
+`hwnd` [IntPtr](https://learn.microsoft.com/dotnet/api/system.intptr)
 
-`isFullscreen` bool
+`isFullscreen` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Helpers_FullScreenHelper_StartFullScreen_Window_"></a> StartFullScreen\(Window\)
+### <a id="Ink_Canvas_Helpers_FullScreenHelper_StartFullScreen_System_Windows_Window_"></a> StartFullScreen\(Window\)
 
 开始进入全屏模式
 进入全屏模式后，窗口可通过 API 方式（也可以用 Win + Shift + Left/Right）移动，调整大小，但会根据目标矩形寻找显示器重新调整到全屏状态。
@@ -57,5 +67,5 @@ public static void StartFullScreen(Window window)
 
 #### Parameters
 
-`window` Window
+`window` [Window](https://learn.microsoft.com/dotnet/api/system.windows.window)
 

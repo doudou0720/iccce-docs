@@ -9,12 +9,28 @@ public class VisibilityConverter : IValueConverter
 
 #### Inheritance
 
-IValueConverter ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [VisibilityConverter](Ink\_Canvas.Converter.VisibilityConverter.md)
+
+#### Implements
+
+[IValueConverter](https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
-### <a id="Ink_Canvas_Converter_VisibilityConverter_Convert_System_Object_Type_System_Object_CultureInfo_"></a> Convert\(object, Type, object, CultureInfo\)
+### <a id="Ink_Canvas_Converter_VisibilityConverter_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> Convert\(object, Type, object, CultureInfo\)
+
+Converts a value.
 
 ```csharp
 public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
@@ -22,19 +38,31 @@ public object Convert(object value, Type targetType, object parameter, CultureIn
 
 #### Parameters
 
-`value` object
+`value` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-`targetType` Type
+The value produced by the binding source.
 
-`parameter` object
+`targetType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-`culture` CultureInfo
+The type of the binding target property.
+
+`parameter` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
+The converter parameter to use.
+
+`culture` [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
+
+The culture to use in the converter.
 
 #### Returns
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="Ink_Canvas_Converter_VisibilityConverter_ConvertBack_System_Object_Type_System_Object_CultureInfo_"></a> ConvertBack\(object, Type, object, CultureInfo\)
+A converted value. If the method returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, the valid null value is used.
+
+### <a id="Ink_Canvas_Converter_VisibilityConverter_ConvertBack_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> ConvertBack\(object, Type, object, CultureInfo\)
+
+Converts a value.
 
 ```csharp
 public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
@@ -42,15 +70,25 @@ public object ConvertBack(object value, Type targetType, object parameter, Cultu
 
 #### Parameters
 
-`value` object
+`value` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-`targetType` Type
+The value that is produced by the binding target.
 
-`parameter` object
+`targetType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-`culture` CultureInfo
+The type to convert to.
+
+`parameter` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
+The converter parameter to use.
+
+`culture` [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
+
+The culture to use in the converter.
 
 #### Returns
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
+
+A converted value. If the method returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, the valid null value is used.
 

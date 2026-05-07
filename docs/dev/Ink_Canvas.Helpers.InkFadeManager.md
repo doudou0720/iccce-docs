@@ -11,8 +11,18 @@ public class InkFadeManager
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [InkFadeManager](Ink\_Canvas.Helpers.InkFadeManager.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -38,7 +48,7 @@ public int AnimationDuration { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_InkFadeManager_FadeTime"></a> FadeTime
 
@@ -50,7 +60,7 @@ public int FadeTime { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_InkFadeManager_IsEnabled"></a> IsEnabled
 
@@ -62,11 +72,11 @@ public bool IsEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_InkFadeManager_AddFadingStroke_Stroke_Point_Point_"></a> AddFadingStroke\(Stroke, Point, Point\)
+### <a id="Ink_Canvas_Helpers_InkFadeManager_AddFadingStroke_System_Windows_Ink_Stroke_System_Windows_Point_System_Windows_Point_"></a> AddFadingStroke\(Stroke, Point, Point\)
 
 添加需要渐隐的墨迹
 
@@ -76,15 +86,15 @@ public void AddFadingStroke(Stroke stroke, Point startPoint, Point endPoint)
 
 #### Parameters
 
-`stroke` Stroke
+`stroke` [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
 
 墨迹对象
 
-`startPoint` Point
+`startPoint` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
 
 落笔点
 
-`endPoint` Point
+`endPoint` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
 
 抬笔点
 
@@ -112,7 +122,7 @@ public void Disable()
 public void Enable()
 ```
 
-### <a id="Ink_Canvas_Helpers_InkFadeManager_RemoveStroke_Stroke_"></a> RemoveStroke\(Stroke\)
+### <a id="Ink_Canvas_Helpers_InkFadeManager_RemoveStroke_System_Windows_Ink_Stroke_"></a> RemoveStroke\(Stroke\)
 
 移除墨迹
 
@@ -122,7 +132,7 @@ public void RemoveStroke(Stroke stroke)
 
 #### Parameters
 
-`stroke` Stroke
+`stroke` [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
 
 要移除的墨迹
 
@@ -136,7 +146,7 @@ public void UpdateFadeTime(int fadeTime)
 
 #### Parameters
 
-`fadeTime` int
+`fadeTime` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 新的渐隐时间（毫秒）
 

@@ -9,13 +9,23 @@ public class ROTPPTManager : IPPTLinkManager, IDisposable
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ROTPPTManager](Ink\_Canvas.Helpers.ROTPPTManager.md)
 
 #### Implements
 
 [IPPTLinkManager](Ink\_Canvas.Helpers.IPPTLinkManager.md), 
-IDisposable
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -65,7 +75,7 @@ public bool IsConnected { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_IsInSlideShow"></a> IsInSlideShow
 
@@ -75,7 +85,7 @@ public bool IsInSlideShow { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_IsSupportWPS"></a> IsSupportWPS
 
@@ -85,7 +95,7 @@ public bool IsSupportWPS { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_PPTApplication"></a> PPTApplication
 
@@ -105,7 +115,7 @@ public bool SkipAnimationsWhenNavigating { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_SlidesCount"></a> SlidesCount
 
@@ -115,11 +125,13 @@ public int SlidesCount { get; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_Dispose"></a> Dispose\(\)
+
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ```csharp
 public void Dispose()
@@ -135,7 +147,7 @@ public object GetCurrentActivePresentation()
 
 #### Returns
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_GetCurrentSlideNumber"></a> GetCurrentSlideNumber\(\)
 
@@ -145,7 +157,7 @@ public int GetCurrentSlideNumber()
 
 #### Returns
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_GetPptHwnd"></a> GetPptHwnd\(\)
 
@@ -157,7 +169,7 @@ public IntPtr GetPptHwnd()
 
 #### Returns
 
- IntPtr
+ [IntPtr](https://learn.microsoft.com/dotnet/api/system.intptr)
 
 窗口句柄，如果获取失败返回 IntPtr.Zero
 
@@ -169,7 +181,7 @@ public string GetPresentationName()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_GetPresentationPath"></a> GetPresentationPath\(\)
 
@@ -179,7 +191,7 @@ public string GetPresentationPath()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_ReloadConnection"></a> ReloadConnection\(\)
 
@@ -219,7 +231,7 @@ public bool TryEndSlideShow()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> 如果放映已成功结束，<code>false</code> 否则。
 
@@ -231,7 +243,7 @@ public bool TryNavigateNext()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_TryNavigatePrevious"></a> TryNavigatePrevious\(\)
 
@@ -241,7 +253,7 @@ public bool TryNavigatePrevious()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_TryNavigateToSlide_System_Int32_"></a> TryNavigateToSlide\(int\)
 
@@ -251,11 +263,11 @@ public bool TryNavigateToSlide(int slideNumber)
 
 #### Parameters
 
-`slideNumber` int
+`slideNumber` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_TryShowSlideNavigation"></a> TryShowSlideNavigation\(\)
 
@@ -265,7 +277,7 @@ public bool TryShowSlideNavigation()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_TryStartSlideShow"></a> TryStartSlideShow\(\)
 
@@ -277,7 +289,7 @@ public bool TryStartSlideShow()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> 如果放映已成功启动，<code>false</code> 否则。
 
@@ -289,7 +301,7 @@ public event Action<bool> PPTConnectionChanged
 
 #### Event Type
 
- Action<bool\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_PresentationClose"></a> PresentationClose
 
@@ -299,7 +311,7 @@ public event Action<object> PresentationClose
 
 #### Event Type
 
- Action<object\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_PresentationOpen"></a> PresentationOpen
 
@@ -309,7 +321,7 @@ public event Action<object> PresentationOpen
 
 #### Event Type
 
- Action<object\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_SlideShowBegin"></a> SlideShowBegin
 
@@ -319,7 +331,7 @@ public event Action<object> SlideShowBegin
 
 #### Event Type
 
- Action<object\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_SlideShowEnd"></a> SlideShowEnd
 
@@ -329,7 +341,7 @@ public event Action<object> SlideShowEnd
 
 #### Event Type
 
- Action<object\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_SlideShowNextSlide"></a> SlideShowNextSlide
 
@@ -339,7 +351,7 @@ public event Action<object> SlideShowNextSlide
 
 #### Event Type
 
- Action<object\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_SlideShowStateChanged"></a> SlideShowStateChanged
 
@@ -349,5 +361,5 @@ public event Action<bool> SlideShowStateChanged
 
 #### Event Type
 
- Action<bool\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 

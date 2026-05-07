@@ -9,8 +9,18 @@ public static class ToolbarRegistry
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ToolbarRegistry](Ink\_Canvas.Controls.Toolbar.ToolbarRegistry.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -26,7 +36,7 @@ public static void ApplyMenuVisibility(IToolbarHost host, ToolbarLayoutSettings 
 
 `layout` [ToolbarLayoutSettings](Ink\_Canvas.Controls.Toolbar.ToolbarLayoutSettings.md)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_ClearInjected_Panel_"></a> ClearInjected\(Panel\)
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_ClearInjected_System_Windows_Controls_Panel_"></a> ClearInjected\(Panel\)
 
 ```csharp
 public static void ClearInjected(Panel container)
@@ -34,7 +44,7 @@ public static void ClearInjected(Panel container)
 
 #### Parameters
 
-`container` Panel
+`container` [Panel](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_Discover"></a> Discover\(\)
 
@@ -44,9 +54,9 @@ public static IReadOnlyList<IToolbarItem> Discover()
 
 #### Returns
 
- IReadOnlyList<[IToolbarItem](Ink\_Canvas.Controls.Toolbar.IToolbarItem.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[IToolbarItem](Ink\_Canvas.Controls.Toolbar.IToolbarItem.md)\>
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_Populate_Ink_Canvas_Controls_Toolbar_IToolbarHost_IDictionary_Ink_Canvas_Controls_Toolbar_ToolbarSlot_Panel__Ink_Canvas_Controls_Toolbar_ToolbarLayoutSettings_"></a> Populate\(IToolbarHost, IDictionary<ToolbarSlot, Panel\>, ToolbarLayoutSettings\)
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_Populate_Ink_Canvas_Controls_Toolbar_IToolbarHost_System_Collections_Generic_IDictionary_Ink_Canvas_Controls_Toolbar_ToolbarSlot_System_Windows_Controls_Panel__Ink_Canvas_Controls_Toolbar_ToolbarLayoutSettings_"></a> Populate\(IToolbarHost, IDictionary<ToolbarSlot, Panel\>, ToolbarLayoutSettings\)
 
 ```csharp
 public static void Populate(IToolbarHost host, IDictionary<ToolbarSlot, Panel> slots, ToolbarLayoutSettings layout)
@@ -56,7 +66,7 @@ public static void Populate(IToolbarHost host, IDictionary<ToolbarSlot, Panel> s
 
 `host` [IToolbarHost](Ink\_Canvas.Controls.Toolbar.IToolbarHost.md)
 
-`slots` IDictionary<[ToolbarSlot](Ink\_Canvas.Controls.Toolbar.ToolbarSlot.md), Panel\>
+`slots` [IDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary\-2)<[ToolbarSlot](Ink\_Canvas.Controls.Toolbar.ToolbarSlot.md), [Panel](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel)\>
 
 `layout` [ToolbarLayoutSettings](Ink\_Canvas.Controls.Toolbar.ToolbarLayoutSettings.md)
 

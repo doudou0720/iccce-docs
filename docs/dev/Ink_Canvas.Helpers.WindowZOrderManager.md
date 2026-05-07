@@ -12,12 +12,22 @@ public static class WindowZOrderManager
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [WindowZOrderManager](Ink\_Canvas.Helpers.WindowZOrderManager.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_WindowZOrderManager_BringToTop_Window_"></a> BringToTop\(Window\)
+### <a id="Ink_Canvas_Helpers_WindowZOrderManager_BringToTop_System_Windows_Window_"></a> BringToTop\(Window\)
 
 将窗口移到最顶层
 
@@ -27,7 +37,7 @@ public static void BringToTop(Window window)
 
 #### Parameters
 
-`window` Window
+`window` [Window](https://learn.microsoft.com/dotnet/api/system.windows.window)
 
 要移到最顶层的窗口
 
@@ -57,7 +67,7 @@ public static int GetWindowCount()
 
 #### Returns
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 窗口数量
 
@@ -71,11 +81,11 @@ public static bool HasChildWindowInForeground()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 如果有子窗口在前景返回true
 
-### <a id="Ink_Canvas_Helpers_WindowZOrderManager_RegisterWindow_Window_System_Boolean_System_Boolean_"></a> RegisterWindow\(Window, bool, bool\)
+### <a id="Ink_Canvas_Helpers_WindowZOrderManager_RegisterWindow_System_Windows_Window_System_Boolean_System_Boolean_"></a> RegisterWindow\(Window, bool, bool\)
 
 注册窗口到Z-Order管理器
 
@@ -85,19 +95,19 @@ public static void RegisterWindow(Window window, bool isTopmost = false, bool is
 
 #### Parameters
 
-`window` Window
+`window` [Window](https://learn.microsoft.com/dotnet/api/system.windows.window)
 
 要注册的窗口
 
-`isTopmost` bool
+`isTopmost` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否置顶
 
-`isNoFocusMode` bool
+`isNoFocusMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否无焦点模式
 
-### <a id="Ink_Canvas_Helpers_WindowZOrderManager_SetWindowTopmost_Window_System_Boolean_"></a> SetWindowTopmost\(Window, bool\)
+### <a id="Ink_Canvas_Helpers_WindowZOrderManager_SetWindowTopmost_System_Windows_Window_System_Boolean_"></a> SetWindowTopmost\(Window, bool\)
 
 设置窗口为置顶状态
 
@@ -107,15 +117,15 @@ public static void SetWindowTopmost(Window window, bool isTopmost)
 
 #### Parameters
 
-`window` Window
+`window` [Window](https://learn.microsoft.com/dotnet/api/system.windows.window)
 
 要置顶的窗口
 
-`isTopmost` bool
+`isTopmost` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否置顶
 
-### <a id="Ink_Canvas_Helpers_WindowZOrderManager_UnregisterWindow_Window_"></a> UnregisterWindow\(Window\)
+### <a id="Ink_Canvas_Helpers_WindowZOrderManager_UnregisterWindow_System_Windows_Window_"></a> UnregisterWindow\(Window\)
 
 从Z-Order管理器中移除窗口
 
@@ -125,7 +135,7 @@ public static void UnregisterWindow(Window window)
 
 #### Parameters
 
-`window` Window
+`window` [Window](https://learn.microsoft.com/dotnet/api/system.windows.window)
 
 要移除的窗口
 

@@ -17,7 +17,7 @@ string DefaultAnchorName { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DefaultOrder"></a> DefaultOrder
 
@@ -27,7 +27,7 @@ int DefaultOrder { get; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DefaultPosition"></a> DefaultPosition
 
@@ -57,7 +57,7 @@ bool DefaultVisible { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DisplayName"></a> DisplayName
 
@@ -67,7 +67,7 @@ string DisplayName { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_Id"></a> Id
 
@@ -77,7 +77,7 @@ string Id { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_MenuPanelName"></a> MenuPanelName
 
@@ -87,7 +87,7 @@ string MenuPanelName { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -103,5 +103,5 @@ FrameworkElement BuildView(IToolbarHost host)
 
 #### Returns
 
- FrameworkElement
+ [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
 

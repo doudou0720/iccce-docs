@@ -1,10 +1,12 @@
-# <a id="Ink_Canvas_Controls_ImageOptionsPopupContent"></a> Class ImageOptionsPopupContent
+# <a id="Ink_Canvas_Controls_PopupTabTitleBar"></a> Class PopupTabTitleBar
 
 Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)  
-Assembly: InkCanvasForClass.dll  
+Assembly: InkCanvas.Controls.dll  
+
+PopupTabTitleBar
 
 ```csharp
-public class ImageOptionsPopupContent : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
+public class PopupTabTitleBar : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
 ```
 
 #### Inheritance
@@ -18,7 +20,7 @@ public class ImageOptionsPopupContent : UserControl, IAnimatable, ISupportInitia
 [Control](https://learn.microsoft.com/dotnet/api/system.windows.controls.control) ← 
 [ContentControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol) ← 
 [UserControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol) ← 
-[ImageOptionsPopupContent](Ink\_Canvas.Controls.ImageOptionsPopupContent.md)
+[PopupTabTitleBar](Ink\_Canvas.Controls.PopupTabTitleBar.md)
 
 #### Implements
 
@@ -27,7 +29,8 @@ public class ImageOptionsPopupContent : UserControl, IAnimatable, ISupportInitia
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
+[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
+[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
 
 #### Inherited Members
 
@@ -676,15 +679,27 @@ public class ImageOptionsPopupContent : UserControl, IAnimatable, ISupportInitia
 
 ## Constructors
 
-### <a id="Ink_Canvas_Controls_ImageOptionsPopupContent__ctor"></a> ImageOptionsPopupContent\(\)
+### <a id="Ink_Canvas_Controls_PopupTabTitleBar__ctor"></a> PopupTabTitleBar\(\)
 
 ```csharp
-public ImageOptionsPopupContent()
+public PopupTabTitleBar()
 ```
+
+## Fields
+
+### <a id="Ink_Canvas_Controls_PopupTabTitleBar_SelectedIndexProperty"></a> SelectedIndexProperty
+
+```csharp
+public static readonly DependencyProperty SelectedIndexProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
 
 ## Properties
 
-### <a id="Ink_Canvas_Controls_ImageOptionsPopupContent_CloseFontIcon"></a> CloseFontIcon
+### <a id="Ink_Canvas_Controls_PopupTabTitleBar_CloseFontIcon"></a> CloseFontIcon
 
 ```csharp
 public FontIcon CloseFontIcon { get; }
@@ -694,23 +709,43 @@ public FontIcon CloseFontIcon { get; }
 
  [FontIcon](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/FontIcon.cs)
 
-### <a id="Ink_Canvas_Controls_ImageOptionsPopupContent_ScreenshotOption"></a> ScreenshotOption
+### <a id="Ink_Canvas_Controls_PopupTabTitleBar_SelectedIndex"></a> SelectedIndex
 
 ```csharp
-public Border ScreenshotOption { get; }
+public int SelectedIndex { get; set; }
 ```
 
 #### Property Value
 
- [Border](https://learn.microsoft.com/dotnet/api/system.windows.controls.border)
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="Ink_Canvas_Controls_ImageOptionsPopupContent_SelectFileOption"></a> SelectFileOption
+### <a id="Ink_Canvas_Controls_PopupTabTitleBar_Tabs"></a> Tabs
 
 ```csharp
-public Border SelectFileOption { get; }
+public ObservableCollection<PopupTabItem> Tabs { get; }
 ```
 
 #### Property Value
 
- [Border](https://learn.microsoft.com/dotnet/api/system.windows.controls.border)
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[PopupTabItem](Ink\_Canvas.Controls.PopupTabItem.md)\>
+
+## Methods
+
+### <a id="Ink_Canvas_Controls_PopupTabTitleBar_InitializeComponent"></a> InitializeComponent\(\)
+
+InitializeComponent
+
+```csharp
+public void InitializeComponent()
+```
+
+### <a id="Ink_Canvas_Controls_PopupTabTitleBar_SelectedIndexChanged"></a> SelectedIndexChanged
+
+```csharp
+public event EventHandler<int> SelectedIndexChanged
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 

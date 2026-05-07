@@ -9,12 +9,24 @@ public class ImageResizeDeltaEventArgs : EventArgs
 
 #### Inheritance
 
-EventArgs ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
 [ImageResizeDeltaEventArgs](Ink\_Canvas.Controls.ImageResizeDeltaEventArgs.md)
+
+#### Inherited Members
+
+[EventArgs.Empty](https://learn.microsoft.com/dotnet/api/system.eventargs.empty), 
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
-### <a id="Ink_Canvas_Controls_ImageResizeDeltaEventArgs__ctor_Ink_Canvas_Controls_ImageResizeCorner_Vector_System_Boolean_"></a> ImageResizeDeltaEventArgs\(ImageResizeCorner, Vector, bool\)
+### <a id="Ink_Canvas_Controls_ImageResizeDeltaEventArgs__ctor_Ink_Canvas_Controls_ImageResizeCorner_System_Windows_Vector_System_Boolean_"></a> ImageResizeDeltaEventArgs\(ImageResizeCorner, Vector, bool\)
 
 ```csharp
 public ImageResizeDeltaEventArgs(ImageResizeCorner corner, Vector canvasDelta, bool lockAspect)
@@ -24,9 +36,9 @@ public ImageResizeDeltaEventArgs(ImageResizeCorner corner, Vector canvasDelta, b
 
 `corner` [ImageResizeCorner](Ink\_Canvas.Controls.ImageResizeCorner.md)
 
-`canvasDelta` Vector
+`canvasDelta` [Vector](https://learn.microsoft.com/dotnet/api/system.windows.vector)
 
-`lockAspect` bool
+`lockAspect` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Properties
 
@@ -38,7 +50,7 @@ public Vector CanvasDelta { get; }
 
 #### Property Value
 
- Vector
+ [Vector](https://learn.microsoft.com/dotnet/api/system.windows.vector)
 
 ### <a id="Ink_Canvas_Controls_ImageResizeDeltaEventArgs_Corner"></a> Corner
 
@@ -58,5 +70,5 @@ public bool LockAspectRatio { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

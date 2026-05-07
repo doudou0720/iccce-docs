@@ -9,8 +9,22 @@ public class CameraService : IDisposable
 
 #### Inheritance
 
-IDisposable ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [CameraService](Ink\_Canvas.Helpers.CameraService.md)
+
+#### Implements
+
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -28,11 +42,11 @@ public CameraService(int rotationAngle, int resolutionWidth, int resolutionHeigh
 
 #### Parameters
 
-`rotationAngle` int
+`rotationAngle` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`resolutionWidth` int
+`resolutionWidth` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`resolutionHeight` int
+`resolutionHeight` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Properties
 
@@ -44,7 +58,7 @@ public List<FilterInfo> AvailableCameras { get; }
 
 #### Property Value
 
- List<FilterInfo\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<FilterInfo\>
 
 ### <a id="Ink_Canvas_Helpers_CameraService_CurrentCamera"></a> CurrentCamera
 
@@ -64,7 +78,7 @@ public bool IsCapturing { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_CameraService_ResolutionHeight"></a> ResolutionHeight
 
@@ -74,7 +88,7 @@ public int ResolutionHeight { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_CameraService_ResolutionWidth"></a> ResolutionWidth
 
@@ -84,7 +98,7 @@ public int ResolutionWidth { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_CameraService_RotationAngle"></a> RotationAngle
 
@@ -94,11 +108,13 @@ public int RotationAngle { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 
 ### <a id="Ink_Canvas_Helpers_CameraService_Dispose"></a> Dispose\(\)
+
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ```csharp
 public void Dispose()
@@ -114,7 +130,7 @@ public List<string> GetCameraNames()
 
 #### Returns
 
- List<string\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Helpers_CameraService_GetCurrentFrameAsBitmapSource"></a> GetCurrentFrameAsBitmapSource\(\)
 
@@ -126,7 +142,7 @@ public BitmapSource GetCurrentFrameAsBitmapSource()
 
 #### Returns
 
- BitmapSource
+ [BitmapSource](https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource)
 
 ### <a id="Ink_Canvas_Helpers_CameraService_HasAvailableCameras"></a> HasAvailableCameras\(\)
 
@@ -138,7 +154,7 @@ public bool HasAvailableCameras()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_CameraService_RefreshCameraList"></a> RefreshCameraList\(\)
 
@@ -158,13 +174,13 @@ public bool StartPreview(int cameraIndex = 0)
 
 #### Parameters
 
-`cameraIndex` int
+`cameraIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 摄像头索引
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_CameraService_StopPreview"></a> StopPreview\(\)
 
@@ -184,13 +200,13 @@ public bool SwitchCamera(int cameraIndex)
 
 #### Parameters
 
-`cameraIndex` int
+`cameraIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 摄像头索引
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_CameraService_ErrorOccurred"></a> ErrorOccurred
 
@@ -200,7 +216,7 @@ public event EventHandler<string> ErrorOccurred
 
 #### Event Type
 
- EventHandler<string\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Helpers_CameraService_FrameReceived"></a> FrameReceived
 
@@ -210,5 +226,5 @@ public event EventHandler<Bitmap> FrameReceived
 
 #### Event Type
 
- EventHandler<Bitmap\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[Bitmap](https://learn.microsoft.com/dotnet/api/system.drawing.bitmap)\>
 

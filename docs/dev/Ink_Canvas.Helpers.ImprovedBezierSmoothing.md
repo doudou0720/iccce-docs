@@ -11,8 +11,18 @@ public class ImprovedBezierSmoothing
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ImprovedBezierSmoothing](Ink\_Canvas.Helpers.ImprovedBezierSmoothing.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -28,7 +38,7 @@ public ImprovedBezierSmoothing(InkSmoothingConfig config = null)
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_ImprovedBezierSmoothing_SmoothStroke_Stroke_"></a> SmoothStroke\(Stroke\)
+### <a id="Ink_Canvas_Helpers_ImprovedBezierSmoothing_SmoothStroke_System_Windows_Ink_Stroke_"></a> SmoothStroke\(Stroke\)
 
 使用改进的贝塞尔曲线算法平滑笔画
 
@@ -38,9 +48,9 @@ public Stroke SmoothStroke(Stroke originalStroke)
 
 #### Parameters
 
-`originalStroke` Stroke
+`originalStroke` [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
 
 #### Returns
 
- Stroke
+ [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
 

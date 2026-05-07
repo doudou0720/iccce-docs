@@ -11,12 +11,21 @@ public sealed class HandwritingRecognitionResult
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [HandwritingRecognitionResult](Ink\_Canvas.Helpers.HandwritingRecognitionResult.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
-### <a id="Ink_Canvas_Helpers_HandwritingRecognitionResult__ctor_IReadOnlyList_Ink_Canvas_Helpers_HandwritingWordSegment__"></a> HandwritingRecognitionResult\(IReadOnlyList<HandwritingWordSegment\>\)
+### <a id="Ink_Canvas_Helpers_HandwritingRecognitionResult__ctor_System_Collections_Generic_IReadOnlyList_Ink_Canvas_Helpers_HandwritingWordSegment__"></a> HandwritingRecognitionResult\(IReadOnlyList<HandwritingWordSegment\>\)
 
 ```csharp
 public HandwritingRecognitionResult(IReadOnlyList<HandwritingWordSegment> words)
@@ -24,7 +33,7 @@ public HandwritingRecognitionResult(IReadOnlyList<HandwritingWordSegment> words)
 
 #### Parameters
 
-`words` IReadOnlyList<[HandwritingWordSegment](Ink\_Canvas.Helpers.HandwritingWordSegment.md)\>
+`words` [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[HandwritingWordSegment](Ink\_Canvas.Helpers.HandwritingWordSegment.md)\>
 
 ## Fields
 
@@ -48,7 +57,7 @@ public string CombinedText { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_HandwritingRecognitionResult_IsSuccess"></a> IsSuccess
 
@@ -58,7 +67,7 @@ public bool IsSuccess { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_HandwritingRecognitionResult_Words"></a> Words
 
@@ -68,5 +77,5 @@ public IReadOnlyList<HandwritingWordSegment> Words { get; }
 
 #### Property Value
 
- IReadOnlyList<[HandwritingWordSegment](Ink\_Canvas.Helpers.HandwritingWordSegment.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[HandwritingWordSegment](Ink\_Canvas.Helpers.HandwritingWordSegment.md)\>
 

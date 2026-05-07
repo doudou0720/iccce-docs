@@ -9,12 +9,22 @@ public class PluginManager : IPluginHost
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PluginManager](Ink\_Canvas.Plugins.PluginManager.md)
 
 #### Implements
 
 IPluginHost
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -36,7 +46,7 @@ public IReadOnlyList<PluginInfo> Plugins { get; }
 
 #### Property Value
 
- IReadOnlyList<PluginInfo\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<PluginInfo\>
 
 ## Methods
 
@@ -62,7 +72,7 @@ public Task LoadAllAsync()
 
 #### Returns
 
- Task
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_Log_System_String_"></a> Log\(string\)
 
@@ -72,9 +82,9 @@ public void Log(string message)
 
 #### Parameters
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Plugins_PluginManager_LogError_System_String_Exception_"></a> LogError\(string, Exception\)
+### <a id="Ink_Canvas_Plugins_PluginManager_LogError_System_String_System_Exception_"></a> LogError\(string, Exception\)
 
 ```csharp
 public void LogError(string message, Exception ex = null)
@@ -82,9 +92,9 @@ public void LogError(string message, Exception ex = null)
 
 #### Parameters
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`ex` Exception
+`ex` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_OnLogMessage_System_String_"></a> OnLogMessage\(string\)
 
@@ -94,7 +104,7 @@ protected virtual void OnLogMessage(string message)
 
 #### Parameters
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_OnPluginLoaded_Ink_Canvas_Plugins_PluginInfo_"></a> OnPluginLoaded\(PluginInfo\)
 
@@ -154,7 +164,7 @@ public event EventHandler<string> LogMessage
 
 #### Event Type
 
- EventHandler<string\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_PluginLoaded"></a> PluginLoaded
 
@@ -164,7 +174,7 @@ public event EventHandler<PluginInfo> PluginLoaded
 
 #### Event Type
 
- EventHandler<PluginInfo\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<PluginInfo\>
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_PluginUnloaded"></a> PluginUnloaded
 
@@ -174,5 +184,5 @@ public event EventHandler<PluginInfo> PluginUnloaded
 
 #### Event Type
 
- EventHandler<PluginInfo\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<PluginInfo\>
 

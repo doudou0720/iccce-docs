@@ -147,6 +147,10 @@
     href: Ink_Canvas.Controls.PenPalettePopupContent.md
   - name: PopupShellContent
     href: Ink_Canvas.Controls.PopupShellContent.md
+  - name: PopupTabItem
+    href: Ink_Canvas.Controls.PopupTabItem.md
+  - name: PopupTabTitleBar
+    href: Ink_Canvas.Controls.PopupTabTitleBar.md
   - name: PopupTitleBar
     href: Ink_Canvas.Controls.PopupTitleBar.md
   - name: PptNavBar

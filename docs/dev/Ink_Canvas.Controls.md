@@ -42,6 +42,8 @@ GeometryButton
 
  [ImageSelectionOverlay](Ink\_Canvas.Controls.ImageSelectionOverlay.md)
 
+ImageSelectionOverlay
+
  [LabeledSettingsCard](Ink\_Canvas.Controls.LabeledSettingsCard.md)
 
 LabeledSettingsCard
@@ -63,6 +65,12 @@ PenColorButton
  [PopupShellContent](Ink\_Canvas.Controls.PopupShellContent.md)
 
 PopupShellContent
+
+ [PopupTabItem](Ink\_Canvas.Controls.PopupTabItem.md)
+
+ [PopupTabTitleBar](Ink\_Canvas.Controls.PopupTabTitleBar.md)
+
+PopupTabTitleBar
 
  [PopupTitleBar](Ink\_Canvas.Controls.PopupTitleBar.md)
 
@@ -87,6 +95,8 @@ QuickPanelButton
  [ShapeDrawPopupContent](Ink\_Canvas.Controls.ShapeDrawPopupContent.md)
 
  [SidePanelToggle](Ink\_Canvas.Controls.SidePanelToggle.md)
+
+SidePanelToggle
 
  [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 
