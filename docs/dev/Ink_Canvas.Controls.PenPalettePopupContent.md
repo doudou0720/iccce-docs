@@ -859,12 +859,12 @@ public FrameworkElement DefaultPenColorsPanel { get; }
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_DefaultPenPropsPanel"></a> DefaultPenPropsPanel
 
 ```csharp
-public Viewbox DefaultPenPropsPanel { get; }
+public FrameworkElement DefaultPenPropsPanel { get; }
 ```
 
 #### Property Value
 
- [Viewbox](https://learn.microsoft.com/dotnet/api/system.windows.controls.viewbox)
+ [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_HighlighterPenColorBlack"></a> HighlighterPenColorBlack
 
@@ -979,12 +979,12 @@ public FrameworkElement HighlighterPenColorsPanel { get; }
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_HighlighterPenPropsPanel"></a> HighlighterPenPropsPanel
 
 ```csharp
-public Viewbox HighlighterPenPropsPanel { get; }
+public FrameworkElement HighlighterPenPropsPanel { get; }
 ```
 
 #### Property Value
 
- [Viewbox](https://learn.microsoft.com/dotnet/api/system.windows.controls.viewbox)
+ [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_HighlighterWidthSlider"></a> HighlighterWidthSlider
 

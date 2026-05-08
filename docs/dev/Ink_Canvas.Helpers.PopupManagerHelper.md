@@ -90,6 +90,12 @@ public static void NotifyTopmostMaintained()
 public void OnOwnerActivated()
 ```
 
+### <a id="Ink_Canvas_Helpers_PopupManagerHelper_OnTopmostSettingChanged"></a> OnTopmostSettingChanged\(\)
+
+```csharp
+public void OnTopmostSettingChanged()
+```
+
 ### <a id="Ink_Canvas_Helpers_PopupManagerHelper_RegisterPopup_System_Windows_Controls_Primitives_Popup_"></a> RegisterPopup\(Popup\)
 
 ```csharp
