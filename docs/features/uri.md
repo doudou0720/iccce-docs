@@ -4,7 +4,7 @@ comment: true
 
 # Ink Canvas 外部协议 (URI Scheme) 说明文档
 
-<VersionBadge version="1.7.18.6" type="added" /> <VersionBadge version="1.7.18.7" type="changed" />
+<VersionBadge version="1.7.18.6" type="added" /> <VersionBadge version="1.7.18.7" type="changed" /> <VersionBadge version="1.7.19.0" type="changed" />
 Ink Canvas 支持通过自定义协议 `icc://` 进行外部调用。通过此功能，其他应用程序、网页脚本或系统快捷方式可以远程控制 Ink Canvas 的运行状态。
 
 ## 启用方法
@@ -114,7 +114,32 @@ Ink Canvas 支持通过自定义协议 `icc://` 进行外部调用。通过此�
 | :--------------------- | :------------------------- | :----------------------------------------------------------------------- |
 | **ThoroughHideOn**     | `icc://thoroughhideon`     | **开启**“收起时彻底隐藏”功能。开启后，进入收纳模式时主窗口将完全不可见。 |
 | **ThoroughHideOff**    | `icc://thoroughhideoff`    | **关闭**“收起时彻底隐藏”功能。恢复默认的侧边栏边缘留痕模式。             |
-| **ThoroughHideToggle** | `icc://thoroughhidetoggle` | **切换**“收起时彻底隐藏”功能的开启/关闭状态。                            |
+| **ThoroughHideToggle** | `icc://thoroughhidetoggle` | **切换**"收起时彻底隐藏"功能的开启/关闭状态。                            |
+
+### 6. 冻结/锁定命令 <VersionBadge version="1.7.19.0" type="added" />
+
+用于冻结或解冻指定页面的墨迹，支持单个页面操作和课程冻结模式。所有命令都支持可选的 `page` 参数（0-100），用于指定目标页面；未指定时默认为当前页面。
+
+| 命令             | 完整 URI                                                        | 作用                                                         |
+| :--------------- | :-------------------------------------------------------------- | :----------------------------------------------------------- |
+| **冻结**         | `icc://freeze` 或 `icc://lock` 或 `icc://ink-freeze`           | 冻结当前页面（或指定页面）的墨迹，防止被误擦除。             |
+| **解冻**         | `icc://unfreeze` 或 `icc://unlock` 或 `icc://ink-unfreeze`     | 解冻当前页面（或指定页面），恢复编辑能力。                   |
+| **冻结课程开始** | `icc://freeze/start` 或 `icc://lock/start`                      | 开始"冻结课程"模式，持续冻结后续新写的墨迹直到课程结束。     |
+| **冻结课程结束** | `icc://freeze/end` 或 `icc://lock/end`                          | 结束"冻结课程"模式，解冻所有被冻结的页面。                   |
+| **取消冻结**     | `icc://freeze/cancel` 或 `icc://lock/cancel`                     | 取消当前的冻结课程操作（如果正在进行）。                     |
+
+#### 参数说明
+
+- **page 参数**（可选）：指定目标页面编号，范围 0-100。
+  - 示例：`icc://freeze?page=1` 冻结第 1 页
+  - 示例：`icc://unfreeze?page=2` 解冻第 2 页
+  - 不指定时，操作当前页面
+
+#### 课程冻结模式说明
+
+`icc://freeze/start` 和 `icc://freeze/end` 用于教学场景：
+- **开始冻结课程**：锁定当前及后续所有页面的墨迹，教师授课期间学生无法擦除
+- **结束冻结课程**：一次性解冻所有被冻结的页面
 
 ---
 
