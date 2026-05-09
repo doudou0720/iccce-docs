@@ -84,6 +84,8 @@ PPT 翻页 + 增强预览一体化控件。
 
  [PptNavBar.PreviewItem](Ink\_Canvas.Controls.PptNavBar.PreviewItem.md)
 
+ [QuickColorPaletteControl](Ink\_Canvas.Controls.QuickColorPaletteControl.md)
+
  [QuickDrawFloatingButtonControl](Ink\_Canvas.Controls.QuickDrawFloatingButtonControl.md)
 
 快抽悬浮按钮控件

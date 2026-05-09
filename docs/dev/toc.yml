@@ -157,6 +157,8 @@
     href: Ink_Canvas.Controls.PptNavBar.md
   - name: PptNavBar.PreviewItem
     href: Ink_Canvas.Controls.PptNavBar.PreviewItem.md
+  - name: QuickColorPaletteControl
+    href: Ink_Canvas.Controls.QuickColorPaletteControl.md
   - name: QuickDrawFloatingButtonControl
     href: Ink_Canvas.Controls.QuickDrawFloatingButtonControl.md
   - name: QuickPanelButton
