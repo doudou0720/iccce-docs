@@ -184,24 +184,30 @@
   href: Ink_Canvas.Controls.Toolbar.md
   items:
   - name: Classes
+  - name: ToolbarComponentEntry
+    href: Ink_Canvas.Controls.Toolbar.ToolbarComponentEntry.md
   - name: ToolbarHost
     href: Ink_Canvas.Controls.Toolbar.ToolbarHost.md
-  - name: ToolbarItemConfig
-    href: Ink_Canvas.Controls.Toolbar.ToolbarItemConfig.md
   - name: ToolbarLayoutSettings
     href: Ink_Canvas.Controls.Toolbar.ToolbarLayoutSettings.md
   - name: ToolbarRegistry
     href: Ink_Canvas.Controls.Toolbar.ToolbarRegistry.md
+  - name: ToolbarRule
+    href: Ink_Canvas.Controls.Toolbar.ToolbarRule.md
+  - name: ToolbarRuleGroup
+    href: Ink_Canvas.Controls.Toolbar.ToolbarRuleGroup.md
+  - name: ToolbarRuleset
+    href: Ink_Canvas.Controls.Toolbar.ToolbarRuleset.md
   - name: Interfaces
   - name: IToolbarHost
     href: Ink_Canvas.Controls.Toolbar.IToolbarHost.md
   - name: IToolbarItem
     href: Ink_Canvas.Controls.Toolbar.IToolbarItem.md
   - name: Enums
-  - name: ToolbarInsertPosition
-    href: Ink_Canvas.Controls.Toolbar.ToolbarInsertPosition.md
-  - name: ToolbarSlot
-    href: Ink_Canvas.Controls.Toolbar.ToolbarSlot.md
+  - name: ToolbarHidingRule
+    href: Ink_Canvas.Controls.Toolbar.ToolbarHidingRule.md
+  - name: ToolbarLogicalMode
+    href: Ink_Canvas.Controls.Toolbar.ToolbarLogicalMode.md
 - name: Ink_Canvas.Converter
   href: Ink_Canvas.Converter.md
   items:
@@ -476,12 +482,6 @@
   href: Ink_Canvas.Windows.md
   items:
   - name: Classes
-  - name: AuthWithTokenResponse
-    href: Ink_Canvas.Windows.AuthWithTokenResponse.md
-  - name: ClassSelectionItem
-    href: Ink_Canvas.Windows.ClassSelectionItem.md
-  - name: CloudStorageManagementWindow
-    href: Ink_Canvas.Windows.CloudStorageManagementWindow.md
   - name: FullscreenTimerWindow
     href: Ink_Canvas.Windows.FullscreenTimerWindow.md
   - name: HotkeyChangedEventArgs
@@ -504,10 +504,6 @@
     href: Ink_Canvas.Windows.SplashScreen.md
   - name: TimerControl
     href: Ink_Canvas.Windows.TimerControl.md
-  - name: UserInfo
-    href: Ink_Canvas.Windows.UserInfo.md
-  - name: WhiteboardInfo
-    href: Ink_Canvas.Windows.WhiteboardInfo.md
   - name: Enums
   - name: OobePresetWindow.PresetKind
     href: Ink_Canvas.Windows.OobePresetWindow.PresetKind.md
@@ -551,24 +547,40 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.AdvancedPage.md
   - name: AppearancePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.AppearancePage.md
+  - name: AuthWithTokenResponse
+    href: Ink_Canvas.Windows.SettingsViews.Pages.AuthWithTokenResponse.md
   - name: AutomationPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.AutomationPage.md
   - name: AvatarItem
     href: Ink_Canvas.Windows.SettingsViews.Pages.AvatarItem.md
   - name: CanvasPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.CanvasPage.md
+  - name: ClassSelectionItem
+    href: Ink_Canvas.Windows.SettingsViews.Pages.ClassSelectionItem.md
+  - name: CloudStoragePage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.CloudStoragePage.md
+  - name: ConditionIdToNameConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.ConditionIdToNameConverter.md
   - name: DebugPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.DebugPage.md
   - name: ExperimentalPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.ExperimentalPage.md
   - name: FriendlyLinksPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.FriendlyLinksPage.md
+  - name: GroupChildrenDropHandler
+    href: Ink_Canvas.Windows.SettingsViews.Pages.GroupChildrenDropHandler.md
   - name: HomePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.HomePage.md
   - name: HotkeyPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.HotkeyPage.md
+  - name: IdToDisplayNameConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.IdToDisplayNameConverter.md
   - name: InkRecognitionPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.InkRecognitionPage.md
+  - name: InputDialog
+    href: Ink_Canvas.Windows.SettingsViews.Pages.InputDialog.md
+  - name: LogicalModeToIntConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.LogicalModeToIntConverter.md
   - name: PluginPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.PluginPage.md
   - name: PluginSettingsPage
@@ -585,13 +597,17 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.SettingsPage.md
   - name: StartupPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.StartupPage.md
+  - name: StateToBrushConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.StateToBrushConverter.md
   - name: StoragePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.StoragePage.md
   - name: ToolbarPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.ToolbarPage.md
-  - name: ToolbarPage.ToolbarItemViewModel
-    href: Ink_Canvas.Windows.SettingsViews.Pages.ToolbarPage.ToolbarItemViewModel.md
   - name: UpdatePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.UpdatePage.md
+  - name: UserInfo
+    href: Ink_Canvas.Windows.SettingsViews.Pages.UserInfo.md
+  - name: WhiteboardInfo
+    href: Ink_Canvas.Windows.SettingsViews.Pages.WhiteboardInfo.md
   - name: WindowPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.WindowPage.md

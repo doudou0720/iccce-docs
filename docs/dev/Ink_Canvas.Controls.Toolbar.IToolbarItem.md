@@ -9,55 +9,35 @@ public interface IToolbarItem
 
 ## Properties
 
-### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DefaultAnchorName"></a> DefaultAnchorName
+### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DefaultHidingRuleset"></a> DefaultHidingRuleset
 
 ```csharp
-string DefaultAnchorName { get; }
+ToolbarRuleset DefaultHidingRuleset { get; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ [ToolbarRuleset](Ink\_Canvas.Controls.Toolbar.ToolbarRuleset.md)
 
-### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DefaultOrder"></a> DefaultOrder
-
-```csharp
-int DefaultOrder { get; }
-```
-
-#### Property Value
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
-### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DefaultPosition"></a> DefaultPosition
+### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DefaultShowSeparateBorder"></a> DefaultShowSeparateBorder
 
 ```csharp
-ToolbarInsertPosition DefaultPosition { get; }
-```
-
-#### Property Value
-
- [ToolbarInsertPosition](Ink\_Canvas.Controls.Toolbar.ToolbarInsertPosition.md)
-
-### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DefaultSlot"></a> DefaultSlot
-
-```csharp
-ToolbarSlot DefaultSlot { get; }
-```
-
-#### Property Value
-
- [ToolbarSlot](Ink\_Canvas.Controls.Toolbar.ToolbarSlot.md)
-
-### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DefaultVisible"></a> DefaultVisible
-
-```csharp
-bool DefaultVisible { get; }
+bool DefaultShowSeparateBorder { get; }
 ```
 
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_Description"></a> Description
+
+```csharp
+string Description { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DisplayName"></a> DisplayName
 
@@ -73,16 +53,6 @@ string DisplayName { get; }
 
 ```csharp
 string Id { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_MenuPanelName"></a> MenuPanelName
-
-```csharp
-string MenuPanelName { get; }
 ```
 
 #### Property Value

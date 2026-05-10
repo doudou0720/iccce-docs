@@ -1,18 +1,16 @@
-# <a id="Ink_Canvas_Windows_UserInfo"></a> Class UserInfo
+# <a id="Ink_Canvas_Windows_SettingsViews_Pages_ClassSelectionItem"></a> Class ClassSelectionItem
 
-Namespace: [Ink\_Canvas.Windows](Ink\_Canvas.Windows.md)  
+Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
 
-用户信息模型
-
 ```csharp
-public class UserInfo
+public class ClassSelectionItem
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[UserInfo](Ink\_Canvas.Windows.UserInfo.md)
+[ClassSelectionItem](Ink\_Canvas.Windows.SettingsViews.Pages.ClassSelectionItem.md)
 
 #### Inherited Members
 
@@ -26,36 +24,49 @@ public class UserInfo
 
 ## Properties
 
-### <a id="Ink_Canvas_Windows_UserInfo_Email"></a> Email
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ClassSelectionItem_ClassName"></a> ClassName
 
 ```csharp
-[JsonProperty("email")]
-public string Email { get; set; }
+public string ClassName { get; set; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Windows_UserInfo_Id"></a> Id
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ClassSelectionItem_DisplayText"></a> DisplayText
 
 ```csharp
-[JsonProperty("id")]
-public int Id { get; set; }
-```
-
-#### Property Value
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
-### <a id="Ink_Canvas_Windows_UserInfo_Username"></a> Username
-
-```csharp
-[JsonProperty("username")]
-public string Username { get; set; }
+public string DisplayText { get; set; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ClassSelectionItem_TeacherName"></a> TeacherName
+
+```csharp
+public string TeacherName { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+## Methods
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ClassSelectionItem_ToString"></a> ToString\(\)
+
+Returns a string that represents the current object.
+
+```csharp
+public override string ToString()
+```
+
+#### Returns
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+A string that represents the current object.
 

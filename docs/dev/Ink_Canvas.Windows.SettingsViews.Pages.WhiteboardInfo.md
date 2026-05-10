@@ -1,9 +1,7 @@
-# <a id="Ink_Canvas_Windows_WhiteboardInfo"></a> Class WhiteboardInfo
+# <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo"></a> Class WhiteboardInfo
 
-Namespace: [Ink\_Canvas.Windows](Ink\_Canvas.Windows.md)  
+Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
-
-白板信息模型
 
 ```csharp
 public class WhiteboardInfo
@@ -12,7 +10,7 @@ public class WhiteboardInfo
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[WhiteboardInfo](Ink\_Canvas.Windows.WhiteboardInfo.md)
+[WhiteboardInfo](Ink\_Canvas.Windows.SettingsViews.Pages.WhiteboardInfo.md)
 
 #### Inherited Members
 
@@ -26,7 +24,7 @@ public class WhiteboardInfo
 
 ## Properties
 
-### <a id="Ink_Canvas_Windows_WhiteboardInfo_BoardId"></a> BoardId
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_BoardId"></a> BoardId
 
 ```csharp
 [JsonProperty("board_id")]
@@ -37,7 +35,7 @@ public string BoardId { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Windows_WhiteboardInfo_ClassId"></a> ClassId
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_ClassId"></a> ClassId
 
 ```csharp
 [JsonProperty("class_id")]
@@ -48,7 +46,7 @@ public int ClassId { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="Ink_Canvas_Windows_WhiteboardInfo_ClassName"></a> ClassName
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_ClassName"></a> ClassName
 
 ```csharp
 [JsonProperty("class_name")]
@@ -59,7 +57,7 @@ public string ClassName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Windows_WhiteboardInfo_CreatedAt"></a> CreatedAt
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_CreatedAt"></a> CreatedAt
 
 ```csharp
 [JsonProperty("created_at")]
@@ -70,7 +68,7 @@ public string CreatedAt { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Windows_WhiteboardInfo_Id"></a> Id
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_Id"></a> Id
 
 ```csharp
 [JsonProperty("id")]
@@ -81,7 +79,7 @@ public int Id { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="Ink_Canvas_Windows_WhiteboardInfo_IsOnline"></a> IsOnline
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_IsOnline"></a> IsOnline
 
 ```csharp
 [JsonProperty("is_online")]
@@ -92,7 +90,7 @@ public bool IsOnline { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Windows_WhiteboardInfo_LastHeartbeat"></a> LastHeartbeat
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_LastHeartbeat"></a> LastHeartbeat
 
 ```csharp
 [JsonProperty("last_heartbeat")]
@@ -103,7 +101,7 @@ public string LastHeartbeat { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Windows_WhiteboardInfo_Name"></a> Name
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_Name"></a> Name
 
 ```csharp
 [JsonProperty("name")]
@@ -114,7 +112,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Windows_WhiteboardInfo_SecretKey"></a> SecretKey
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_SecretKey"></a> SecretKey
 
 ```csharp
 [JsonProperty("secret_key")]

@@ -8,18 +8,6 @@
 
 ### Classes
 
- [AuthWithTokenResponse](Ink\_Canvas.Windows.AuthWithTokenResponse.md)
-
-auth-with-token接口响应模型
-
- [ClassSelectionItem](Ink\_Canvas.Windows.ClassSelectionItem.md)
-
-班级选择项
-
- [CloudStorageManagementWindow](Ink\_Canvas.Windows.CloudStorageManagementWindow.md)
-
-云储存管理窗口
-
  [FullscreenTimerWindow](Ink\_Canvas.Windows.FullscreenTimerWindow.md)
 
 全屏计时器窗口
@@ -64,14 +52,6 @@ SplashScreen.xaml 的交互逻辑
  [TimerControl](Ink\_Canvas.Windows.TimerControl.md)
 
 新计时器UI风格的倒计时器窗口
-
- [UserInfo](Ink\_Canvas.Windows.UserInfo.md)
-
-用户信息模型
-
- [WhiteboardInfo](Ink\_Canvas.Windows.WhiteboardInfo.md)
-
-白板信息模型
 
 ### Enums
 

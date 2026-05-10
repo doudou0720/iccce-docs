@@ -24,14 +24,14 @@ public class ToolbarLayoutSettings
 
 ## Properties
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarLayoutSettings_Items"></a> Items
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarLayoutSettings_Components"></a> Components
 
 ```csharp
-[JsonProperty("items")]
-public Dictionary<string, ToolbarItemConfig> Items { get; set; }
+[JsonProperty("components")]
+public List<ToolbarComponentEntry> Components { get; set; }
 ```
 
 #### Property Value
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [ToolbarItemConfig](Ink\_Canvas.Controls.Toolbar.ToolbarItemConfig.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.ToolbarComponentEntry.md)\>
 

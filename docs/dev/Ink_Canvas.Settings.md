@@ -178,6 +178,17 @@ public ToolbarLayoutSettings Toolbar { get; set; }
 
  [ToolbarLayoutSettings](Ink\_Canvas.Controls.Toolbar.ToolbarLayoutSettings.md)
 
+### <a id="Ink_Canvas_Settings_ToolbarConfigName"></a> ToolbarConfigName
+
+```csharp
+[JsonProperty("toolbarConfigName")]
+public string ToolbarConfigName { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Settings_Upload"></a> Upload
 
 ```csharp
