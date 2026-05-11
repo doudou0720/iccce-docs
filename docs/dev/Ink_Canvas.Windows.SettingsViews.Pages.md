@@ -50,6 +50,8 @@ HomePage
 
  [LogicalModeToIntConverter](Ink\_Canvas.Windows.SettingsViews.Pages.LogicalModeToIntConverter.md)
 
+ [NullToVisibilityConverter](Ink\_Canvas.Windows.SettingsViews.Pages.NullToVisibilityConverter.md)
+
  [PluginPage](Ink\_Canvas.Windows.SettingsViews.Pages.PluginPage.md)
 
 PluginPage

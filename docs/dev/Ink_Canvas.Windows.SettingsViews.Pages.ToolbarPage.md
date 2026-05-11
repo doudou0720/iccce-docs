@@ -671,6 +671,26 @@ public static readonly DependencyProperty SelectedEntryProperty
 
  [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_SelectedGroupChildProperty"></a> SelectedGroupChildProperty
+
+```csharp
+public static readonly DependencyProperty SelectedGroupChildProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_SettingsTabIndexProperty"></a> SettingsTabIndexProperty
+
+```csharp
+public static readonly DependencyProperty SettingsTabIndexProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
 ## Properties
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_AddedComponents"></a> AddedComponents
@@ -722,6 +742,26 @@ public ToolbarComponentEntry SelectedEntry { get; set; }
 #### Property Value
 
  [ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.ToolbarComponentEntry.md)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_SelectedGroupChild"></a> SelectedGroupChild
+
+```csharp
+public ToolbarComponentEntry SelectedGroupChild { get; set; }
+```
+
+#### Property Value
+
+ [ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.ToolbarComponentEntry.md)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_SettingsTabIndex"></a> SettingsTabIndex
+
+```csharp
+public int SettingsTabIndex { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 

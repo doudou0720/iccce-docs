@@ -2,6 +2,8 @@
 
 ### Classes
 
+ [ComponentSettingKeys](Ink\_Canvas.Controls.Toolbar.ComponentSettingKeys.md)
+
  [ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.ToolbarComponentEntry.md)
 
  [ToolbarHost](Ink\_Canvas.Controls.Toolbar.ToolbarHost.md)

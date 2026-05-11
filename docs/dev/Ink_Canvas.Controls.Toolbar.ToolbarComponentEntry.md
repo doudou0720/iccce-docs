@@ -100,3 +100,45 @@ public bool ShowSeparateBorder { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+## Methods
+
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarComponentEntry_GetSettingDouble_System_String_"></a> GetSettingDouble\(string\)
+
+```csharp
+public double? GetSettingDouble(string key)
+```
+
+#### Parameters
+
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)?
+
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarComponentEntry_GetSettingString_System_String_"></a> GetSettingString\(string\)
+
+```csharp
+public string GetSettingString(string key)
+```
+
+#### Parameters
+
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarComponentEntry_SetSetting_System_String_System_Object_"></a> SetSetting\(string, object\)
+
+```csharp
+public void SetSetting(string key, object value)
+```
+
+#### Parameters
+
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`value` [object](https://learn.microsoft.com/dotnet/api/system.object)
+

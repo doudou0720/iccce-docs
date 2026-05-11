@@ -127,6 +127,16 @@ public static string EnabledGestureIconBadgeCheck
 
 用于表示手势功能已启用并带有勾选标记的图标
 
+### <a id="Ink_Canvas_XamlGraphicsIconGeometries_ExitPresentationIconGeometry"></a> ExitPresentationIconGeometry
+
+```csharp
+public static string ExitPresentationIconGeometry
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_FoldIcon"></a> FoldIcon
 
 ```csharp

@@ -779,6 +779,16 @@ public GeometryDrawing IconGeometryDrawing { get; set; }
 
  [GeometryDrawing](https://learn.microsoft.com/dotnet/api/system.windows.media.geometrydrawing)
 
+### <a id="Ink_Canvas_Controls_ToolbarImageButton_IconHeight"></a> IconHeight
+
+```csharp
+public double IconHeight { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Controls_ToolbarImageButton_Label"></a> Label
 
 ```csharp
@@ -798,6 +808,16 @@ public Brush LabelBrush { get; set; }
 #### Property Value
 
  [Brush](https://learn.microsoft.com/dotnet/api/system.windows.media.brush)
+
+### <a id="Ink_Canvas_Controls_ToolbarImageButton_LabelFontSize"></a> LabelFontSize
+
+```csharp
+public double LabelFontSize { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ## Methods
 

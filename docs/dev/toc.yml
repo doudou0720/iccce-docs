@@ -184,6 +184,8 @@
   href: Ink_Canvas.Controls.Toolbar.md
   items:
   - name: Classes
+  - name: ComponentSettingKeys
+    href: Ink_Canvas.Controls.Toolbar.ComponentSettingKeys.md
   - name: ToolbarComponentEntry
     href: Ink_Canvas.Controls.Toolbar.ToolbarComponentEntry.md
   - name: ToolbarHost
@@ -581,6 +583,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.InputDialog.md
   - name: LogicalModeToIntConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.LogicalModeToIntConverter.md
+  - name: NullToVisibilityConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.NullToVisibilityConverter.md
   - name: PluginPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.PluginPage.md
   - name: PluginSettingsPage

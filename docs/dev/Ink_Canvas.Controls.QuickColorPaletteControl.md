@@ -4,7 +4,7 @@ Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public class QuickColorPaletteControl : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
+public class QuickColorPaletteControl : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, INotifyPropertyChanged
 ```
 
 #### Inheritance
@@ -27,7 +27,8 @@ public class QuickColorPaletteControl : UserControl, IAnimatable, ISupportInitia
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
+[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
+[INotifyPropertyChanged](https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged)
 
 #### Inherited Members
 
@@ -694,6 +695,46 @@ public static readonly RoutedEvent ColorClickedEvent
 
  [RoutedEvent](https://learn.microsoft.com/dotnet/api/system.windows.routedevent)
 
+### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_DisplayModeProperty"></a> DisplayModeProperty
+
+```csharp
+public static readonly DependencyProperty DisplayModeProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+## Properties
+
+### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_DisplayMode"></a> DisplayMode
+
+```csharp
+public int DisplayMode { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+## Methods
+
+### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_OnPropertyChanged_System_String_"></a> OnPropertyChanged\(string\)
+
+```csharp
+protected virtual void OnPropertyChanged(string propertyName = null)
+```
+
+#### Parameters
+
+`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_SyncFromSettings"></a> SyncFromSettings\(\)
+
+```csharp
+public void SyncFromSettings()
+```
+
 ### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_ColorClicked"></a> ColorClicked
 
 ```csharp
@@ -703,4 +744,16 @@ public event RoutedEventHandler ColorClicked
 #### Event Type
 
  [RoutedEventHandler](https://learn.microsoft.com/dotnet/api/system.windows.routedeventhandler)
+
+### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_PropertyChanged"></a> PropertyChanged
+
+Occurs when a property value changes.
+
+```csharp
+public event PropertyChangedEventHandler PropertyChanged
+```
+
+#### Event Type
+
+ [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
 

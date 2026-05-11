@@ -185,14 +185,14 @@ public static ToolbarLayoutSettings LoadConfigFile(string name)
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_Populate_Ink_Canvas_Controls_Toolbar_IToolbarHost_System_Windows_Controls_Panel_Ink_Canvas_Controls_Toolbar_ToolbarLayoutSettings_"></a> Populate\(IToolbarHost, Panel, ToolbarLayoutSettings\)
 
 ```csharp
-public static void Populate(IToolbarHost host, Panel container, ToolbarLayoutSettings layout)
+public static void Populate(IToolbarHost host, Panel rootPanel, ToolbarLayoutSettings layout)
 ```
 
 #### Parameters
 
 `host` [IToolbarHost](Ink\_Canvas.Controls.Toolbar.IToolbarHost.md)
 
-`container` [Panel](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel)
+`rootPanel` [Panel](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel)
 
 `layout` [ToolbarLayoutSettings](Ink\_Canvas.Controls.Toolbar.ToolbarLayoutSettings.md)
 
@@ -223,12 +223,12 @@ public static void SetHidingRuleset(FrameworkElement element, ToolbarRuleset val
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_UpdateVisibilityByMode_System_Windows_Controls_Panel_System_Boolean_System_Boolean_System_Boolean_"></a> UpdateVisibilityByMode\(Panel, bool, bool, bool\)
 
 ```csharp
-public static void UpdateVisibilityByMode(Panel container, bool isAnnotating, bool isPptMode, bool isGestureEnabled = false)
+public static void UpdateVisibilityByMode(Panel rootPanel, bool isAnnotating, bool isPptMode, bool isGestureEnabled = false)
 ```
 
 #### Parameters
 
-`container` [Panel](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel)
+`rootPanel` [Panel](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel)
 
 `isAnnotating` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
