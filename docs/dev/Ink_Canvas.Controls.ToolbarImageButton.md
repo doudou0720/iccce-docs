@@ -739,6 +739,16 @@ public Brush Background { get; set; }
 
  [Brush](https://learn.microsoft.com/dotnet/api/system.windows.media.brush)
 
+### <a id="Ink_Canvas_Controls_ToolbarImageButton_Badge"></a> Badge
+
+```csharp
+public GeometryDrawing Badge { get; }
+```
+
+#### Property Value
+
+ [GeometryDrawing](https://learn.microsoft.com/dotnet/api/system.windows.media.geometrydrawing)
+
 ### <a id="Ink_Canvas_Controls_ToolbarImageButton_GeometryDrawing"></a> GeometryDrawing
 
 ```csharp
