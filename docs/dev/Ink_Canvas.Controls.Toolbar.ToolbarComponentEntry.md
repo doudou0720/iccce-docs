@@ -68,10 +68,32 @@ public string Id { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarComponentEntry_InstanceId"></a> InstanceId
+
+```csharp
+[JsonProperty("instanceId")]
+public string InstanceId { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolbarComponentEntry_IsGroup"></a> IsGroup
 
 ```csharp
 public bool IsGroup { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarComponentEntry_PreventHideOnDragClick"></a> PreventHideOnDragClick
+
+```csharp
+[JsonProperty("preventHideOnDragClick")]
+public bool PreventHideOnDragClick { get; set; }
 ```
 
 #### Property Value

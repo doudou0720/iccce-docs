@@ -19,6 +19,16 @@ ToolbarRuleset DefaultHidingRuleset { get; }
 
  [ToolbarRuleset](Ink\_Canvas.Controls.Toolbar.ToolbarRuleset.md)
 
+### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DefaultPreventHideOnDragClick"></a> DefaultPreventHideOnDragClick
+
+```csharp
+bool DefaultPreventHideOnDragClick { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Controls_Toolbar_IToolbarItem_DefaultShowSeparateBorder"></a> DefaultShowSeparateBorder
 
 ```csharp

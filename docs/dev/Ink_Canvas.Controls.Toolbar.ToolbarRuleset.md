@@ -100,16 +100,6 @@ public ToolbarRuleset Clone()
 
  [ToolbarRuleset](Ink\_Canvas.Controls.Toolbar.ToolbarRuleset.md)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRuleset_GestureRule"></a> GestureRule\(\)
-
-```csharp
-public static ToolbarRuleset GestureRule()
-```
-
-#### Returns
-
- [ToolbarRuleset](Ink\_Canvas.Controls.Toolbar.ToolbarRuleset.md)
-
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRuleset_PptAnnotationOnly"></a> PptAnnotationOnly\(\)
 
 ```csharp
@@ -124,6 +114,26 @@ public static ToolbarRuleset PptAnnotationOnly()
 
 ```csharp
 public static ToolbarRuleset PptOnly()
+```
+
+#### Returns
+
+ [ToolbarRuleset](Ink\_Canvas.Controls.Toolbar.ToolbarRuleset.md)
+
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRuleset_WithHideOnCollapsed"></a> WithHideOnCollapsed\(\)
+
+```csharp
+public ToolbarRuleset WithHideOnCollapsed()
+```
+
+#### Returns
+
+ [ToolbarRuleset](Ink\_Canvas.Controls.Toolbar.ToolbarRuleset.md)
+
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRuleset_WithPreventHideOnCollapsed"></a> WithPreventHideOnCollapsed\(\)
+
+```csharp
+public ToolbarRuleset WithPreventHideOnCollapsed()
 ```
 
 #### Returns

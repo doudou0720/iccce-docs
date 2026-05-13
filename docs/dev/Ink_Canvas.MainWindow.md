@@ -2056,14 +2056,6 @@ public void UpdateFloatingBarIcon()
 public void UpdateFloatingBarIcons()
 ```
 
-### <a id="Ink_Canvas_MainWindow_UpdateGestureButtonVisibilityInPPTMode"></a> UpdateGestureButtonVisibilityInPPTMode\(\)
-
-更新PPT模式下手势按钮的显示状态
-
-```csharp
-public void UpdateGestureButtonVisibilityInPPTMode()
-```
-
 ### <a id="Ink_Canvas_MainWindow_UpdateInkFadeManager_System_Boolean_System_Int32_"></a> UpdateInkFadeManager\(bool, int\)
 
 ```csharp

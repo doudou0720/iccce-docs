@@ -409,17 +409,6 @@ public bool PowerPointSupport { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_PowerPointSettings_ShowGestureButtonInSlideShow"></a> ShowGestureButtonInSlideShow
-
-```csharp
-[JsonProperty("showGestureButtonInSlideShow")]
-public bool ShowGestureButtonInSlideShow { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 ### <a id="Ink_Canvas_PowerPointSettings_ShowPPTButton"></a> ShowPPTButton
 
 ```csharp

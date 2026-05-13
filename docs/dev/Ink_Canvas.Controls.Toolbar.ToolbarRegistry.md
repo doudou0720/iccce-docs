@@ -34,6 +34,26 @@ public static readonly DependencyProperty HidingRulesetProperty
 
  [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
 
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_IsContentCollapsedByUserProperty"></a> IsContentCollapsedByUserProperty
+
+```csharp
+public static readonly DependencyProperty IsContentCollapsedByUserProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_PreventHideOnDragClickProperty"></a> PreventHideOnDragClickProperty
+
+```csharp
+public static readonly DependencyProperty PreventHideOnDragClickProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
 ## Properties
 
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_AvailableConditions"></a> AvailableConditions
@@ -45,6 +65,16 @@ public static List<KeyValuePair<string, string>> AvailableConditions { get; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
+
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_IsContentCollapsedByUser"></a> IsContentCollapsedByUser
+
+```csharp
+public static bool IsContentCollapsedByUser { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -148,6 +178,34 @@ public static ToolbarRuleset GetHidingRuleset(FrameworkElement element)
 
  [ToolbarRuleset](Ink\_Canvas.Controls.Toolbar.ToolbarRuleset.md)
 
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_GetIsContentCollapsedByUser_System_Windows_FrameworkElement_"></a> GetIsContentCollapsedByUser\(FrameworkElement\)
+
+```csharp
+public static bool GetIsContentCollapsedByUser(FrameworkElement element)
+```
+
+#### Parameters
+
+`element` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_GetPreventHideOnDragClick_System_Windows_FrameworkElement_"></a> GetPreventHideOnDragClick\(FrameworkElement\)
+
+```csharp
+public static bool GetPreventHideOnDragClick(FrameworkElement element)
+```
+
+#### Parameters
+
+`element` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_ListConfigFiles"></a> ListConfigFiles\(\)
 
 ```csharp
@@ -220,10 +278,34 @@ public static void SetHidingRuleset(FrameworkElement element, ToolbarRuleset val
 
 `value` [ToolbarRuleset](Ink\_Canvas.Controls.Toolbar.ToolbarRuleset.md)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_UpdateVisibilityByMode_System_Windows_Controls_Panel_System_Boolean_System_Boolean_System_Boolean_"></a> UpdateVisibilityByMode\(Panel, bool, bool, bool\)
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_SetIsContentCollapsedByUser_System_Windows_FrameworkElement_System_Boolean_"></a> SetIsContentCollapsedByUser\(FrameworkElement, bool\)
 
 ```csharp
-public static void UpdateVisibilityByMode(Panel rootPanel, bool isAnnotating, bool isPptMode, bool isGestureEnabled = false)
+public static void SetIsContentCollapsedByUser(FrameworkElement element, bool value)
+```
+
+#### Parameters
+
+`element` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+
+`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_SetPreventHideOnDragClick_System_Windows_FrameworkElement_System_Boolean_"></a> SetPreventHideOnDragClick\(FrameworkElement, bool\)
+
+```csharp
+public static void SetPreventHideOnDragClick(FrameworkElement element, bool value)
+```
+
+#### Parameters
+
+`element` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+
+`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_UpdateVisibilityByMode_System_Windows_Controls_Panel_System_Boolean_System_Boolean_"></a> UpdateVisibilityByMode\(Panel, bool, bool\)
+
+```csharp
+public static void UpdateVisibilityByMode(Panel rootPanel, bool isAnnotating, bool isPptMode)
 ```
 
 #### Parameters
@@ -233,6 +315,4 @@ public static void UpdateVisibilityByMode(Panel rootPanel, bool isAnnotating, bo
 `isAnnotating` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 `isPptMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-`isGestureEnabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
