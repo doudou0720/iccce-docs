@@ -24,6 +24,16 @@ public static class ComponentSettingKeys
 
 ## Fields
 
+### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_DisplayMode"></a> DisplayMode
+
+```csharp
+public const string DisplayMode = "displayMode"
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_FixedHeight"></a> FixedHeight
 
 ```csharp

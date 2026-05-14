@@ -719,6 +719,12 @@ public int DisplayMode { get; set; }
 
 ## Methods
 
+### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_ClearAllChecked"></a> ClearAllChecked\(\)
+
+```csharp
+public void ClearAllChecked()
+```
+
 ### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_OnPropertyChanged_System_String_"></a> OnPropertyChanged\(string\)
 
 ```csharp
@@ -728,6 +734,18 @@ protected virtual void OnPropertyChanged(string propertyName = null)
 #### Parameters
 
 `propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_SetCheckedByColor_System_Windows_Media_Color_System_Int32_"></a> SetCheckedByColor\(Color, int\)
+
+```csharp
+public void SetCheckedByColor(Color color, int tolerance = 15)
+```
+
+#### Parameters
+
+`color` [Color](https://learn.microsoft.com/dotnet/api/system.windows.media.color)
+
+`tolerance` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_SyncFromSettings"></a> SyncFromSettings\(\)
 
