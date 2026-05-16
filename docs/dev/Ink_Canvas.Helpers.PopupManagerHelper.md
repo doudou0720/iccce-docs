@@ -4,13 +4,17 @@ Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public class PopupManagerHelper
+public class PopupManagerHelper : IDisposable
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PopupManagerHelper](Ink\_Canvas.Helpers.PopupManagerHelper.md)
+
+#### Implements
+
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 #### Inherited Members
 
@@ -60,6 +64,14 @@ public void BringToFrontLight(Popup popup)
 
 ```csharp
 public void Cleanup()
+```
+
+### <a id="Ink_Canvas_Helpers_PopupManagerHelper_Dispose"></a> Dispose\(\)
+
+释放资源，防止内存泄漏
+
+```csharp
+public void Dispose()
 ```
 
 ### <a id="Ink_Canvas_Helpers_PopupManagerHelper_Initialize_System_Windows_Window_"></a> Initialize\(Window\)

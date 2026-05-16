@@ -123,6 +123,17 @@ public ModeSettings ModeSettings { get; set; }
 
  [ModeSettings](Ink\_Canvas.ModeSettings.md)
 
+### <a id="Ink_Canvas_Settings_Notification"></a> Notification
+
+```csharp
+[JsonProperty("notification")]
+public NotificationSettings Notification { get; set; }
+```
+
+#### Property Value
+
+ [NotificationSettings](Ink\_Canvas.NotificationSettings.md)
+
 ### <a id="Ink_Canvas_Settings_PowerPointSettings"></a> PowerPointSettings
 
 ```csharp

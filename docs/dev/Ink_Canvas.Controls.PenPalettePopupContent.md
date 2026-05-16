@@ -716,15 +716,15 @@ public Path BrushModeIcon { get; }
 
  [Path](https://learn.microsoft.com/dotnet/api/system.windows.shapes.path)
 
-### <a id="Ink_Canvas_Controls_PenPalettePopupContent_CloseFontIcon"></a> CloseFontIcon
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_CloseButtonControl"></a> CloseButtonControl
 
 ```csharp
-public FontIcon CloseFontIcon { get; }
+public Button CloseButtonControl { get; }
 ```
 
 #### Property Value
 
- [FontIcon](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/FontIcon.cs)
+ [Button](https://learn.microsoft.com/dotnet/api/system.windows.controls.button)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_ColorThemeSwitch"></a> ColorThemeSwitch
 
@@ -1006,46 +1006,6 @@ public Slider InkAlphaSlider { get; }
 
  [Slider](https://learn.microsoft.com/dotnet/api/system.windows.controls.slider)
 
-### <a id="Ink_Canvas_Controls_PenPalettePopupContent_InkFadeControlPanel"></a> InkFadeControlPanel
-
-```csharp
-public FrameworkElement InkFadeControlPanel { get; }
-```
-
-#### Property Value
-
- [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
-
-### <a id="Ink_Canvas_Controls_PenPalettePopupContent_InkFadeControlPanel2"></a> InkFadeControlPanel2
-
-```csharp
-public FrameworkElement InkFadeControlPanel2 { get; }
-```
-
-#### Property Value
-
- [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
-
-### <a id="Ink_Canvas_Controls_PenPalettePopupContent_InkFadeToggle"></a> InkFadeToggle
-
-```csharp
-public ToggleSwitch InkFadeToggle { get; }
-```
-
-#### Property Value
-
- [ToggleSwitch](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/iNKORE.UI.WPF.Modern.Controls/Controls/Windows/ToggleSwitch/ToggleSwitch.cs)
-
-### <a id="Ink_Canvas_Controls_PenPalettePopupContent_InkFadeToggle2"></a> InkFadeToggle2
-
-```csharp
-public ToggleSwitch InkFadeToggle2 { get; }
-```
-
-#### Property Value
-
- [ToggleSwitch](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/iNKORE.UI.WPF.Modern.Controls/Controls/Windows/ToggleSwitch/ToggleSwitch.cs)
-
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_InkToShapeToggle"></a> InkToShapeToggle
 
 ```csharp
@@ -1075,6 +1035,176 @@ public bool IsBoardMode { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenAlphaSlider"></a> LaserPenAlphaSlider
+
+```csharp
+public Slider LaserPenAlphaSlider { get; }
+```
+
+#### Property Value
+
+ [Slider](https://learn.microsoft.com/dotnet/api/system.windows.controls.slider)
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorBlack"></a> LaserPenColorBlack
+
+```csharp
+public PenColorButton LaserPenColorBlack { get; }
+```
+
+#### Property Value
+
+ PenColorButton
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorBlue"></a> LaserPenColorBlue
+
+```csharp
+public PenColorButton LaserPenColorBlue { get; }
+```
+
+#### Property Value
+
+ PenColorButton
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorGreen"></a> LaserPenColorGreen
+
+```csharp
+public PenColorButton LaserPenColorGreen { get; }
+```
+
+#### Property Value
+
+ PenColorButton
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorOrange"></a> LaserPenColorOrange
+
+```csharp
+public PenColorButton LaserPenColorOrange { get; }
+```
+
+#### Property Value
+
+ PenColorButton
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorPink"></a> LaserPenColorPink
+
+```csharp
+public PenColorButton LaserPenColorPink { get; }
+```
+
+#### Property Value
+
+ PenColorButton
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorRed"></a> LaserPenColorRed
+
+```csharp
+public PenColorButton LaserPenColorRed { get; }
+```
+
+#### Property Value
+
+ PenColorButton
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorTeal"></a> LaserPenColorTeal
+
+```csharp
+public PenColorButton LaserPenColorTeal { get; }
+```
+
+#### Property Value
+
+ PenColorButton
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorThemeSwitch"></a> LaserPenColorThemeSwitch
+
+```csharp
+public Border LaserPenColorThemeSwitch { get; }
+```
+
+#### Property Value
+
+ [Border](https://learn.microsoft.com/dotnet/api/system.windows.controls.border)
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorThemeSwitchIcon"></a> LaserPenColorThemeSwitchIcon
+
+```csharp
+public Image LaserPenColorThemeSwitchIcon { get; }
+```
+
+#### Property Value
+
+ [Image](https://learn.microsoft.com/dotnet/api/system.windows.controls.image)
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorThemeSwitchText"></a> LaserPenColorThemeSwitchText
+
+```csharp
+public TextBlock LaserPenColorThemeSwitchText { get; }
+```
+
+#### Property Value
+
+ [TextBlock](https://learn.microsoft.com/dotnet/api/system.windows.controls.textblock)
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorWhite"></a> LaserPenColorWhite
+
+```csharp
+public PenColorButton LaserPenColorWhite { get; }
+```
+
+#### Property Value
+
+ PenColorButton
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorYellow"></a> LaserPenColorYellow
+
+```csharp
+public PenColorButton LaserPenColorYellow { get; }
+```
+
+#### Property Value
+
+ PenColorButton
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorsPanel"></a> LaserPenColorsPanel
+
+```csharp
+public FrameworkElement LaserPenColorsPanel { get; }
+```
+
+#### Property Value
+
+ [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenFadeTimeSlider"></a> LaserPenFadeTimeSlider
+
+```csharp
+public Slider LaserPenFadeTimeSlider { get; }
+```
+
+#### Property Value
+
+ [Slider](https://learn.microsoft.com/dotnet/api/system.windows.controls.slider)
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenPropsPanel"></a> LaserPenPropsPanel
+
+```csharp
+public FrameworkElement LaserPenPropsPanel { get; }
+```
+
+#### Property Value
+
+ [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenWidthSlider"></a> LaserPenWidthSlider
+
+```csharp
+public Slider LaserPenWidthSlider { get; }
+```
+
+#### Property Value
+
+ [Slider](https://learn.microsoft.com/dotnet/api/system.windows.controls.slider)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_NibModePanel"></a> NibModePanel
 
@@ -1138,5 +1268,11 @@ public void SwitchToDefaultPen()
 
 ```csharp
 public void SwitchToHighlighterPen()
+```
+
+### <a id="Ink_Canvas_Controls_PenPalettePopupContent_SwitchToLaserPen"></a> SwitchToLaserPen\(\)
+
+```csharp
+public void SwitchToLaserPen()
 ```
 

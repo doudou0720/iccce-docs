@@ -47,6 +47,16 @@ public bool IsAvailable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Helpers_IpcIACoreClient_IsHelperExecutableAvailable"></a> IsHelperExecutableAvailable
+
+```csharp
+public bool IsHelperExecutableAvailable { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ## Methods
 
 ### <a id="Ink_Canvas_Helpers_IpcIACoreClient_Dispose"></a> Dispose\(\)

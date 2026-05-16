@@ -157,13 +157,17 @@ public void ReloadConnection()
 public void StartMonitoring()
 ```
 
-### <a id="Ink_Canvas_Helpers_ComPPTLinkManager_StopMonitoring"></a> StopMonitoring\(\)
+### <a id="Ink_Canvas_Helpers_ComPPTLinkManager_StopMonitoring_System_Boolean_"></a> StopMonitoring\(bool\)
 
 停止对 PowerPoint 的监控，断开当前连接并停止触发相关事件。
 
 ```csharp
-public void StopMonitoring()
+public void StopMonitoring(bool isShutdown = false)
 ```
+
+#### Parameters
+
+`isShutdown` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_ComPPTLinkManager_TryEndSlideShow"></a> TryEndSlideShow\(\)
 

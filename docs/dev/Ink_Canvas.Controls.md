@@ -24,6 +24,10 @@ ColorPickerButton
 
 CopyButton
 
+ [DynamicNotificationControl](Ink\_Canvas.Controls.DynamicNotificationControl.md)
+
+DynamicNotificationControl
+
  [EraserPopupContent](Ink\_Canvas.Controls.EraserPopupContent.md)
 
  [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)

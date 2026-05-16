@@ -724,15 +724,15 @@ public Border BlackboardBtn { get; }
 
  [Border](https://learn.microsoft.com/dotnet/api/system.windows.controls.border)
 
-### <a id="Ink_Canvas_Controls_BackgroundPalettePopupContent_CloseFontIcon"></a> CloseFontIcon
+### <a id="Ink_Canvas_Controls_BackgroundPalettePopupContent_CloseButtonControl"></a> CloseButtonControl
 
 ```csharp
-public FontIcon CloseFontIcon { get; }
+public Button CloseButtonControl { get; }
 ```
 
 #### Property Value
 
- [FontIcon](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/FontIcon.cs)
+ [Button](https://learn.microsoft.com/dotnet/api/system.windows.controls.button)
 
 ### <a id="Ink_Canvas_Controls_BackgroundPalettePopupContent_ColorPreview"></a> ColorPreview
 

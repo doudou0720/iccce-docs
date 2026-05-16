@@ -684,15 +684,15 @@ public ImageOptionsPopupContent()
 
 ## Properties
 
-### <a id="Ink_Canvas_Controls_ImageOptionsPopupContent_CloseFontIcon"></a> CloseFontIcon
+### <a id="Ink_Canvas_Controls_ImageOptionsPopupContent_CloseButtonControl"></a> CloseButtonControl
 
 ```csharp
-public FontIcon CloseFontIcon { get; }
+public Button CloseButtonControl { get; }
 ```
 
 #### Property Value
 
- [FontIcon](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/FontIcon.cs)
+ [Button](https://learn.microsoft.com/dotnet/api/system.windows.controls.button)
 
 ### <a id="Ink_Canvas_Controls_ImageOptionsPopupContent_ScreenshotOption"></a> ScreenshotOption
 

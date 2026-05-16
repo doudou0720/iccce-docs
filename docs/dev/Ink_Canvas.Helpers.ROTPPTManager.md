@@ -213,13 +213,15 @@ public void ReloadConnection()
 public void StartMonitoring()
 ```
 
-### <a id="Ink_Canvas_Helpers_ROTPPTManager_StopMonitoring"></a> StopMonitoring\(\)
-
-停止监控 PowerPoint 的连接与事件，停止接收并处理与演示文稿和幻灯片放映相关的通知。
+### <a id="Ink_Canvas_Helpers_ROTPPTManager_StopMonitoring_System_Boolean_"></a> StopMonitoring\(bool\)
 
 ```csharp
-public void StopMonitoring()
+public void StopMonitoring(bool isShutdown = false)
 ```
+
+#### Parameters
+
+`isShutdown` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_TryEndSlideShow"></a> TryEndSlideShow\(\)
 

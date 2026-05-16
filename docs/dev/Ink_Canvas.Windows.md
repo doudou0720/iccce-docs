@@ -8,6 +8,10 @@
 
 ### Classes
 
+ [AnnouncementCenterWindow](Ink\_Canvas.Windows.AnnouncementCenterWindow.md)
+
+AnnouncementCenterWindow
+
  [FullscreenTimerWindow](Ink\_Canvas.Windows.FullscreenTimerWindow.md)
 
 全屏计时器窗口

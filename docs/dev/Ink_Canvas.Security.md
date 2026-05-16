@@ -123,6 +123,17 @@ public bool TotpEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Security_TotpOnlyMode"></a> TotpOnlyMode
+
+```csharp
+[JsonProperty("totpOnlyMode")]
+public bool TotpOnlyMode { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Security_TotpSecret"></a> TotpSecret
 
 ```csharp

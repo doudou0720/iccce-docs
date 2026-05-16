@@ -1,10 +1,12 @@
-# <a id="Ink_Canvas_Controls_ShapeDrawPopupContent"></a> Class ShapeDrawPopupContent
+# <a id="Ink_Canvas_Windows_SettingsViews_Pages_AnnouncementCenterPage"></a> Class AnnouncementCenterPage
 
-Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)  
+Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
 
+AnnouncementCenterPage
+
 ```csharp
-public class ShapeDrawPopupContent : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
+public class AnnouncementCenterPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
 ```
 
 #### Inheritance
@@ -15,10 +17,9 @@ public class ShapeDrawPopupContent : UserControl, IAnimatable, ISupportInitializ
 [Visual](https://learn.microsoft.com/dotnet/api/system.windows.media.visual) ← 
 [UIElement](https://learn.microsoft.com/dotnet/api/system.windows.uielement) ← 
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
-[Control](https://learn.microsoft.com/dotnet/api/system.windows.controls.control) ← 
-[ContentControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol) ← 
-[UserControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol) ← 
-[ShapeDrawPopupContent](Ink\_Canvas.Controls.ShapeDrawPopupContent.md)
+[Page](https://learn.microsoft.com/dotnet/api/system.windows.controls.page) ← 
+[Page](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs) ← 
+[AnnouncementCenterPage](Ink\_Canvas.Windows.SettingsViews.Pages.AnnouncementCenterPage.md)
 
 #### Implements
 
@@ -27,69 +28,43 @@ public class ShapeDrawPopupContent : UserControl, IAnimatable, ISupportInitializ
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
+[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
+[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
 
 #### Inherited Members
 
-[UserControl.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol.oncreateautomationpeer), 
-[ContentControl.ContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentproperty), 
-[ContentControl.ContentStringFormatProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentstringformatproperty), 
-[ContentControl.ContentTemplateProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateproperty), 
-[ContentControl.ContentTemplateSelectorProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateselectorproperty), 
-[ContentControl.HasContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.hascontentproperty), 
-[ContentControl.AddChild\(object\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.addchild), 
-[ContentControl.AddText\(string\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.addtext), 
-[ContentControl.OnContentChanged\(object, object\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontentchanged), 
-[ContentControl.OnContentStringFormatChanged\(string, string\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontentstringformatchanged), 
-[ContentControl.OnContentTemplateChanged\(DataTemplate, DataTemplate\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontenttemplatechanged), 
-[ContentControl.OnContentTemplateSelectorChanged\(DataTemplateSelector, DataTemplateSelector\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontenttemplateselectorchanged), 
-[ContentControl.Content](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.content), 
-[ContentControl.ContentStringFormat](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentstringformat), 
-[ContentControl.ContentTemplate](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplate), 
-[ContentControl.ContentTemplateSelector](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateselector), 
-[ContentControl.HasContent](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.hascontent), 
-[ContentControl.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.logicalchildren), 
-[Control.BackgroundProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.backgroundproperty), 
-[Control.BorderBrushProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderbrushproperty), 
-[Control.BorderThicknessProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderthicknessproperty), 
-[Control.FontFamilyProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontfamilyproperty), 
-[Control.FontSizeProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontsizeproperty), 
-[Control.FontStretchProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstretchproperty), 
-[Control.FontStyleProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstyleproperty), 
-[Control.FontWeightProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontweightproperty), 
-[Control.ForegroundProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.foregroundproperty), 
-[Control.HorizontalContentAlignmentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.horizontalcontentalignmentproperty), 
-[Control.IsTabStopProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.istabstopproperty), 
-[Control.MouseDoubleClickEvent](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.mousedoubleclickevent), 
-[Control.PaddingProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.paddingproperty), 
-[Control.PreviewMouseDoubleClickEvent](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.previewmousedoubleclickevent), 
-[Control.TabIndexProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.tabindexproperty), 
-[Control.TemplateProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.templateproperty), 
-[Control.VerticalContentAlignmentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.verticalcontentalignmentproperty), 
-[Control.ArrangeOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.arrangeoverride), 
-[Control.MeasureOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.measureoverride), 
-[Control.OnMouseDoubleClick\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.onmousedoubleclick), 
-[Control.OnPreviewMouseDoubleClick\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.onpreviewmousedoubleclick), 
-[Control.OnTemplateChanged\(ControlTemplate, ControlTemplate\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.ontemplatechanged), 
-[Control.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.tostring), 
-[Control.Background](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.background), 
-[Control.BorderBrush](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderbrush), 
-[Control.BorderThickness](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderthickness), 
-[Control.FontFamily](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontfamily), 
-[Control.FontSize](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontsize), 
-[Control.FontStretch](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstretch), 
-[Control.FontStyle](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstyle), 
-[Control.FontWeight](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontweight), 
-[Control.Foreground](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.foreground), 
-[Control.HandlesScrolling](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.handlesscrolling), 
-[Control.HorizontalContentAlignment](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.horizontalcontentalignment), 
-[Control.IsTabStop](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.istabstop), 
-[Control.Padding](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.padding), 
-[Control.TabIndex](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.tabindex), 
-[Control.Template](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.template), 
-[Control.VerticalContentAlignment](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.verticalcontentalignment), 
-[Control.MouseDoubleClick](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.mousedoubleclick), 
-[Control.PreviewMouseDoubleClick](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.previewmousedoubleclick), 
+[Page.FrameProperty](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
+[Page.OnNavigatedTo\(NavigationEventArgs\)](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
+[Page.OnNavigatingFrom\(NavigatingCancelEventArgs\)](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
+[Page.OnNavigatedFrom\(NavigationEventArgs\)](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
+[Page.OnPropertyChanged\(DependencyPropertyChangedEventArgs\)](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
+[Page.Frame](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
+[Page.BackgroundProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.backgroundproperty), 
+[Page.ContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.contentproperty), 
+[Page.FontFamilyProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.fontfamilyproperty), 
+[Page.FontSizeProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.fontsizeproperty), 
+[Page.ForegroundProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.foregroundproperty), 
+[Page.KeepAliveProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.keepaliveproperty), 
+[Page.TemplateProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.templateproperty), 
+[Page.TitleProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.titleproperty), 
+[Page.ArrangeOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.arrangeoverride), 
+[Page.MeasureOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.measureoverride), 
+[Page.OnTemplateChanged\(ControlTemplate, ControlTemplate\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.ontemplatechanged), 
+[Page.OnVisualParentChanged\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.onvisualparentchanged), 
+[Page.Background](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.background), 
+[Page.Content](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.content), 
+[Page.FontFamily](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.fontfamily), 
+[Page.FontSize](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.fontsize), 
+[Page.Foreground](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.foreground), 
+[Page.KeepAlive](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.keepalive), 
+[Page.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.logicalchildren), 
+[Page.NavigationService](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.navigationservice), 
+[Page.ShowsNavigationUI](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.showsnavigationui), 
+[Page.Template](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.template), 
+[Page.Title](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.title), 
+[Page.WindowHeight](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.windowheight), 
+[Page.WindowTitle](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.windowtitle), 
+[Page.WindowWidth](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.windowwidth), 
 [FrameworkElement.ActualHeightProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.actualheightproperty), 
 [FrameworkElement.ActualWidthProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.actualwidthproperty), 
 [FrameworkElement.BindingGroupProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.bindinggroupproperty), 
@@ -676,251 +651,19 @@ public class ShapeDrawPopupContent : UserControl, IAnimatable, ISupportInitializ
 
 ## Constructors
 
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent__ctor"></a> ShapeDrawPopupContent\(\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AnnouncementCenterPage__ctor"></a> AnnouncementCenterPage\(\)
 
 ```csharp
-public ShapeDrawPopupContent()
+public AnnouncementCenterPage()
 ```
 
-## Properties
+## Methods
 
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_CloseButtonControl"></a> CloseButtonControl
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AnnouncementCenterPage_InitializeComponent"></a> InitializeComponent\(\)
+
+InitializeComponent
 
 ```csharp
-public Button CloseButtonControl { get; }
+public void InitializeComponent()
 ```
-
-#### Property Value
-
- [Button](https://learn.microsoft.com/dotnet/api/system.windows.controls.button)
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawArrowBtn"></a> DrawArrowBtn
-
-```csharp
-public GeometryButton DrawArrowBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCircleBtn"></a> DrawCircleBtn
-
-```csharp
-public GeometryButton DrawCircleBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawConeBtn"></a> DrawConeBtn
-
-```csharp
-public GeometryButton DrawConeBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCoordinate1Btn"></a> DrawCoordinate1Btn
-
-```csharp
-public GeometryButton DrawCoordinate1Btn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCoordinate2Btn"></a> DrawCoordinate2Btn
-
-```csharp
-public GeometryButton DrawCoordinate2Btn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCoordinate3Btn"></a> DrawCoordinate3Btn
-
-```csharp
-public GeometryButton DrawCoordinate3Btn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCoordinate4Btn"></a> DrawCoordinate4Btn
-
-```csharp
-public GeometryButton DrawCoordinate4Btn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCoordinate5Btn"></a> DrawCoordinate5Btn
-
-```csharp
-public GeometryButton DrawCoordinate5Btn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCuboidBtn"></a> DrawCuboidBtn
-
-```csharp
-public GeometryButton DrawCuboidBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCylinderBtn"></a> DrawCylinderBtn
-
-```csharp
-public GeometryButton DrawCylinderBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawDashedCircleBtn"></a> DrawDashedCircleBtn
-
-```csharp
-public GeometryButton DrawDashedCircleBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawDashedLineBtn"></a> DrawDashedLineBtn
-
-```csharp
-public GeometryButton DrawDashedLineBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawDotLineBtn"></a> DrawDotLineBtn
-
-```csharp
-public GeometryButton DrawDotLineBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawEllipseCenterBtn"></a> DrawEllipseCenterBtn
-
-```csharp
-public GeometryButton DrawEllipseCenterBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawHyperbolaBtn"></a> DrawHyperbolaBtn
-
-```csharp
-public GeometryButton DrawHyperbolaBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawHyperbolaWithFocalPointBtn"></a> DrawHyperbolaWithFocalPointBtn
-
-```csharp
-public GeometryButton DrawHyperbolaWithFocalPointBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawLineBtn"></a> DrawLineBtn
-
-```csharp
-public GeometryButton DrawLineBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawParabola1Btn"></a> DrawParabola1Btn
-
-```csharp
-public GeometryButton DrawParabola1Btn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawParabola2Btn"></a> DrawParabola2Btn
-
-```csharp
-public GeometryButton DrawParabola2Btn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawParabolaWithFocalPointBtn"></a> DrawParabolaWithFocalPointBtn
-
-```csharp
-public GeometryButton DrawParabolaWithFocalPointBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawParallelLineBtn"></a> DrawParallelLineBtn
-
-```csharp
-public GeometryButton DrawParallelLineBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawRectangleBtn"></a> DrawRectangleBtn
-
-```csharp
-public GeometryButton DrawRectangleBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
-
-### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawRectangleCenterBtn"></a> DrawRectangleCenterBtn
-
-```csharp
-public GeometryButton DrawRectangleCenterBtn { get; }
-```
-
-#### Property Value
-
- GeometryButton
 

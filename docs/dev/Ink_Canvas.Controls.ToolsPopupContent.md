@@ -696,15 +696,15 @@ public static readonly DependencyProperty IsBoardModeProperty
 
 ## Properties
 
-### <a id="Ink_Canvas_Controls_ToolsPopupContent_CloseFontIcon"></a> CloseFontIcon
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_CloseButtonControl"></a> CloseButtonControl
 
 ```csharp
-public FontIcon CloseFontIcon { get; }
+public Button CloseButtonControl { get; }
 ```
 
 #### Property Value
 
- [FontIcon](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/FontIcon.cs)
+ [Button](https://learn.microsoft.com/dotnet/api/system.windows.controls.button)
 
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_IsBoardMode"></a> IsBoardMode
 

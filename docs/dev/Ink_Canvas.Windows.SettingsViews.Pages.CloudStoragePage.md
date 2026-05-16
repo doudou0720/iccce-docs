@@ -3,10 +3,8 @@
 Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
 
-CloudStoragePage
-
 ```csharp
-public class CloudStoragePage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector, IStyleConnector
+public class CloudStoragePage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
 ```
 
 #### Inheritance
@@ -28,9 +26,7 @@ public class CloudStoragePage : Page, IAnimatable, ISupportInitialize, IFramewor
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
-[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector), 
-[IStyleConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.istyleconnector)
+[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
 
 #### Inherited Members
 
@@ -656,15 +652,5 @@ public class CloudStoragePage : Page, IAnimatable, ISupportInitialize, IFramewor
 
 ```csharp
 public CloudStoragePage()
-```
-
-## Methods
-
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_CloudStoragePage_InitializeComponent"></a> InitializeComponent\(\)
-
-InitializeComponent
-
-```csharp
-public void InitializeComponent()
 ```
 

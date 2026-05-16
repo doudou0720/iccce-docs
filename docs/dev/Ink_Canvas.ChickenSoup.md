@@ -54,3 +54,13 @@ public static string[] OSUPlayerYuLu
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
+### <a id="Ink_Canvas_ChickenSoup_PhigrosTips"></a> PhigrosTips
+
+```csharp
+public static string[] PhigrosTips
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+

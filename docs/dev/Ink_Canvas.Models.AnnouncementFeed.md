@@ -1,18 +1,16 @@
-# <a id="Ink_Canvas_Helpers_UploadQueueItem"></a> Class UploadQueueItem
+# <a id="Ink_Canvas_Models_AnnouncementFeed"></a> Class AnnouncementFeed
 
-Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)  
+Namespace: [Ink\_Canvas.Models](Ink\_Canvas.Models.md)  
 Assembly: InkCanvasForClass.dll  
 
-上传队列项
-
 ```csharp
-public class UploadQueueItem
+public class AnnouncementFeed
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[UploadQueueItem](Ink\_Canvas.Helpers.UploadQueueItem.md)
+[AnnouncementFeed](Ink\_Canvas.Models.AnnouncementFeed.md)
 
 #### Inherited Members
 
@@ -26,33 +24,36 @@ public class UploadQueueItem
 
 ## Properties
 
-### <a id="Ink_Canvas_Helpers_UploadQueueItem_AddedTime"></a> AddedTime
+### <a id="Ink_Canvas_Models_AnnouncementFeed_Items"></a> Items
 
 ```csharp
-public DateTime AddedTime { get; set; }
+[JsonProperty("items")]
+public List<AnnouncementItem> Items { get; set; }
 ```
 
 #### Property Value
 
- [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[AnnouncementItem](Ink\_Canvas.Models.AnnouncementItem.md)\>
 
-### <a id="Ink_Canvas_Helpers_UploadQueueItem_FilePath"></a> FilePath
-
-```csharp
-public string FilePath { get; set; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Helpers_UploadQueueItem_RetryCount"></a> RetryCount
+### <a id="Ink_Canvas_Models_AnnouncementFeed_SchemaVersion"></a> SchemaVersion
 
 ```csharp
-public int RetryCount { get; set; }
+[JsonProperty("schemaVersion")]
+public int SchemaVersion { get; set; }
 ```
 
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Models_AnnouncementFeed_UpdatedAt"></a> UpdatedAt
+
+```csharp
+[JsonProperty("updatedAt")]
+public DateTimeOffset? UpdatedAt { get; set; }
+```
+
+#### Property Value
+
+ [DateTimeOffset](https://learn.microsoft.com/dotnet/api/system.datetimeoffset)?
 

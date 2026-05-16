@@ -266,17 +266,6 @@ public bool FitToCurve { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Canvas_HideInkFadeControlInPenMenu"></a> HideInkFadeControlInPenMenu
-
-```csharp
-[JsonProperty("hideInkFadeControlInPenMenu")]
-public bool HideInkFadeControlInPenMenu { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 ### <a id="Ink_Canvas_Canvas_HideStrokeWhenSelecting"></a> HideStrokeWhenSelecting
 
 ```csharp
@@ -400,6 +389,28 @@ public bool IsShowCursor { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Canvas_LaserPenAlpha"></a> LaserPenAlpha
+
+```csharp
+[JsonProperty("laserPenAlpha")]
+public int LaserPenAlpha { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Canvas_LaserPenWidth"></a> LaserPenWidth
+
+```csharp
+[JsonProperty("laserPenWidth")]
+public double LaserPenWidth { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Canvas_LaunchSeewoVideoShowcaseForWhiteboardBooth"></a> LaunchSeewoVideoShowcaseForWhiteboardBooth
 
 为 true 时，白板工具栏「展台」按钮启动希沃视频展台（sweclauncher），否则使用内置展台。
@@ -484,6 +495,17 @@ public bool PauseStraightenLine { get; set; }
 ```csharp
 [JsonProperty("showCircleCenter")]
 public bool ShowCircleCenter { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Canvas_ShowCoordinateUnitMarks"></a> ShowCoordinateUnitMarks
+
+```csharp
+[JsonProperty("showCoordinateUnitMarks")]
+public bool ShowCoordinateUnitMarks { get; set; }
 ```
 
 #### Property Value

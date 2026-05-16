@@ -11,5 +11,7 @@ public enum App.CrashActionType
 
 `NoAction = 1` 
 
+`ShowCrashWindow = 2` 
+
 `SilentRestart = 0` 
 

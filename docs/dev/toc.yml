@@ -1,4 +1,12 @@
 ### YamlMime:TableOfContent
+- name: InkCanvas.IACoreHelper
+  href: InkCanvas.IACoreHelper.md
+  items:
+  - name: Classes
+  - name: IpcConstants
+    href: InkCanvas.IACoreHelper.IpcConstants.md
+  - name: SharedMemoryHeader
+    href: InkCanvas.IACoreHelper.SharedMemoryHeader.md
 - name: Ink_Canvas
   href: Ink_Canvas.md
   items:
@@ -27,6 +35,8 @@
     href: Ink_Canvas.ClipboardNotification.md
   - name: CountdownTimerWindow
     href: Ink_Canvas.CountdownTimerWindow.md
+  - name: CrashWindow
+    href: Ink_Canvas.CrashWindow.md
   - name: CustomFloatingBarIcon
     href: Ink_Canvas.CustomFloatingBarIcon.md
   - name: CustomIconWindow
@@ -55,6 +65,8 @@
     href: Ink_Canvas.NamesInputWindow.md
   - name: NewStyleRollCallWindow
     href: Ink_Canvas.NewStyleRollCallWindow.md
+  - name: NotificationSettings
+    href: Ink_Canvas.NotificationSettings.md
   - name: OperatingGuideWindow
     href: Ink_Canvas.OperatingGuideWindow.md
   - name: PowerPointSettings
@@ -119,6 +131,8 @@
     href: Ink_Canvas.Controls.ColorPickerButton.md
   - name: CopyButton
     href: Ink_Canvas.Controls.CopyButton.md
+  - name: DynamicNotificationControl
+    href: Ink_Canvas.Controls.DynamicNotificationControl.md
   - name: EraserPopupContent
     href: Ink_Canvas.Controls.EraserPopupContent.md
   - name: GeometryButton
@@ -428,8 +442,25 @@
   href: Ink_Canvas.Models.md
   items:
   - name: Classes
+  - name: AnnouncementCenterItem
+    href: Ink_Canvas.Models.AnnouncementCenterItem.md
+  - name: AnnouncementFeed
+    href: Ink_Canvas.Models.AnnouncementFeed.md
+  - name: AnnouncementItem
+    href: Ink_Canvas.Models.AnnouncementItem.md
+  - name: AnnouncementWebSocketMessage
+    href: Ink_Canvas.Models.AnnouncementWebSocketMessage.md
   - name: CapturedImage
     href: Ink_Canvas.Models.CapturedImage.md
+  - name: NotificationMessage
+    href: Ink_Canvas.Models.NotificationMessage.md
+  - name: NotificationProviderStatus
+    href: Ink_Canvas.Models.NotificationProviderStatus.md
+  - name: Enums
+  - name: NotificationMessageLevel
+    href: Ink_Canvas.Models.NotificationMessageLevel.md
+  - name: NotificationMessageType
+    href: Ink_Canvas.Models.NotificationMessageType.md
 - name: Ink_Canvas.Plugins
   href: Ink_Canvas.Plugins.md
   items:
@@ -484,6 +515,8 @@
   href: Ink_Canvas.Windows.md
   items:
   - name: Classes
+  - name: AnnouncementCenterWindow
+    href: Ink_Canvas.Windows.AnnouncementCenterWindow.md
   - name: FullscreenTimerWindow
     href: Ink_Canvas.Windows.FullscreenTimerWindow.md
   - name: HotkeyChangedEventArgs
@@ -547,6 +580,10 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.AboutPage.md
   - name: AdvancedPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.AdvancedPage.md
+  - name: AnnouncementCenterPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.AnnouncementCenterPage.md
+  - name: AnnouncementPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.AnnouncementPage.md
   - name: AppearancePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.AppearancePage.md
   - name: AuthWithTokenResponse
@@ -583,6 +620,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.InputDialog.md
   - name: LogicalModeToIntConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.LogicalModeToIntConverter.md
+  - name: NotificationPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.NotificationPage.md
   - name: NullToVisibilityConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.NullToVisibilityConverter.md
   - name: PluginPage

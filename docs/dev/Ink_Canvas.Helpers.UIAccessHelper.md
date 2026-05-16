@@ -64,6 +64,20 @@ public static bool RestartAsNormalUser(string extraArgs = null)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Helpers_UIAccessHelper_RestartAsNormalUserWithUIAccess_System_String_"></a> RestartAsNormalUserWithUIAccess\(string\)
+
+```csharp
+public static bool RestartAsNormalUserWithUIAccess(string extraArgs = null)
+```
+
+#### Parameters
+
+`extraArgs` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Helpers_UIAccessHelper_RestartWithUIAccess_System_String_"></a> RestartWithUIAccess\(string\)
 
 以 UIAccess 令牌重启自身。当前进程必须已经以管理员身份运行。

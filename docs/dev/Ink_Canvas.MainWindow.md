@@ -829,6 +829,8 @@ public string _lastAppliedProfileName
 
 ### <a id="Ink_Canvas_MainWindow_dpiChangedDelayAction"></a> dpiChangedDelayAction
 
+响应显示器/分辨率配置变化：在检测启用时显示分辨率变更通知，并在后台检查悬浮工具栏是否位于屏幕之外，若是则在延迟后尝试将其通过动画恢复到可见区域（在演示模式下使用不同的动画偏移）。
+
 ```csharp
 public DelayAction dpiChangedDelayAction
 ```
@@ -1772,8 +1774,6 @@ protected override bool ShouldHandleWindowChromeHitTest(Point windowPoint)
 
 ### <a id="Ink_Canvas_MainWindow_ShowNewMessage_System_String_System_Boolean_"></a> ShowNewMessage\(string, bool\)
 
-静态方法，用于在主窗口中显示通知
-
 ```csharp
 public static void ShowNewMessage(string notice, bool isShowImmediately = true)
 ```
@@ -1782,21 +1782,9 @@ public static void ShowNewMessage(string notice, bool isShowImmediately = true)
 
 `notice` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-要显示的通知文本
-
 `isShowImmediately` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-指示是否应立即显示通知
-
-#### Remarks
-
-该方法会：
-1. 获取应用程序中的主窗口实例
-2. 调用主窗口的ShowNotification方法显示通知
-
 ### <a id="Ink_Canvas_MainWindow_ShowNotification_System_String_System_Boolean_"></a> ShowNotification\(string, bool\)
-
-在窗口中显示带从底部滑入并淡入的通知文本，并在配置的时长后自动隐藏（若未被新通知覆盖）。
 
 ```csharp
 public void ShowNotification(string notice, bool isShowImmediately = true)
@@ -1806,11 +1794,7 @@ public void ShowNotification(string notice, bool isShowImmediately = true)
 
 `notice` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-要显示的通知文本。
-
 `isShowImmediately` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-指示是否应立即显示通知；当前实现默认立即显示。
 
 ### <a id="Ink_Canvas_MainWindow_ShowQuickDrawFloatingButton"></a> ShowQuickDrawFloatingButton\(\)
 
@@ -2146,12 +2130,12 @@ public void UpdatePickNameBackgroundDisplay()
 public void UpdatePickNameBackgroundsInComboBox()
 ```
 
-### <a id="Ink_Canvas_MainWindow_ViewboxFloatingBarMarginAnimation_System_Int32_System_Boolean_"></a> ViewboxFloatingBarMarginAnimation\(int, bool\)
+### <a id="Ink_Canvas_MainWindow_ViewboxFloatingBarMarginAnimation_System_Int32_System_Boolean_System_Boolean_"></a> ViewboxFloatingBarMarginAnimation\(int, bool, bool\)
 
 浮动工具栏边距动画处理
 
 ```csharp
-public void ViewboxFloatingBarMarginAnimation(int MarginFromEdge, bool PosXCaculatedWithTaskbarHeight = false)
+public void ViewboxFloatingBarMarginAnimation(int MarginFromEdge, bool PosXCaculatedWithTaskbarHeight = false, bool skipAnimation = false)
 ```
 
 #### Parameters
@@ -2163,4 +2147,8 @@ public void ViewboxFloatingBarMarginAnimation(int MarginFromEdge, bool PosXCacul
 `PosXCaculatedWithTaskbarHeight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否考虑任务栏高度计算位置
+
+`skipAnimation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+是否跳过动画直接定位（用于启动时快速恢复位置）
 

@@ -45,6 +45,26 @@ protected const int BATCH_SIZE = 10
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Helpers_BaseUploadQueue_MAX_ITEM_AGE_HOURS"></a> MAX\_ITEM\_AGE\_HOURS
+
+```csharp
+protected const int MAX_ITEM_AGE_HOURS = 72
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Helpers_BaseUploadQueue_MAX_QUEUE_SIZE"></a> MAX\_QUEUE\_SIZE
+
+```csharp
+protected const int MAX_QUEUE_SIZE = 1000
+```
+
+#### Field Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Ink_Canvas_Helpers_BaseUploadQueue_MAX_RETRY_COUNT"></a> MAX\_RETRY\_COUNT
 
 ```csharp

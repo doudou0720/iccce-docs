@@ -56,6 +56,10 @@ Interaction logic for App.xaml
 
 Interaction logic for StopwatchWindow.xaml
 
+ [CrashWindow](Ink\_Canvas.CrashWindow.md)
+
+CrashWindow
+
  [CustomFloatingBarIcon](Ink\_Canvas.CustomFloatingBarIcon.md)
 
  [CustomIconWindow](Ink\_Canvas.CustomIconWindow.md)
@@ -95,6 +99,8 @@ Interaction logic for NamesInputWindow.xaml
  [NewStyleRollCallWindow](Ink\_Canvas.NewStyleRollCallWindow.md)
 
 新点名UI风格的窗口
+
+ [NotificationSettings](Ink\_Canvas.NotificationSettings.md)
 
  [OperatingGuideWindow](Ink\_Canvas.OperatingGuideWindow.md)
 

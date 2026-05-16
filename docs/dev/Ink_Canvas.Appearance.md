@@ -46,6 +46,28 @@ public List<CustomFloatingBarIcon> CustomFloatingBarImgs { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[CustomFloatingBarIcon](Ink\_Canvas.CustomFloatingBarIcon.md)\>
 
+### <a id="Ink_Canvas_Appearance_CustomSplashImagePath"></a> CustomSplashImagePath
+
+```csharp
+[JsonProperty("customSplashImagePath")]
+public string CustomSplashImagePath { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Appearance_CustomSplashTextPosition"></a> CustomSplashTextPosition
+
+```csharp
+[JsonProperty("customSplashTextPosition")]
+public int CustomSplashTextPosition { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Ink_Canvas_Appearance_EnableChickenSoupInWhiteboardMode"></a> EnableChickenSoupInWhiteboardMode
 
 ```csharp
@@ -419,6 +441,17 @@ public int UnFoldButtonImageType { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Appearance_Use24HourTimeFormat"></a> Use24HourTimeFormat
+
+```csharp
+[JsonProperty("use24HourTimeFormat")]
+public bool Use24HourTimeFormat { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_UseLegacyFloatingBarUI"></a> UseLegacyFloatingBarUI
 

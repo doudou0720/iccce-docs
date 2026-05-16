@@ -23,6 +23,8 @@ public class DlassUploadQueue : BaseUploadQueue, IDisposable
 
 [BaseUploadQueue.BATCH\_SIZE](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_BATCH\_SIZE), 
 [BaseUploadQueue.MAX\_RETRY\_COUNT](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_MAX\_RETRY\_COUNT), 
+[BaseUploadQueue.MAX\_QUEUE\_SIZE](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_MAX\_QUEUE\_SIZE), 
+[BaseUploadQueue.MAX\_ITEM\_AGE\_HOURS](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_MAX\_ITEM\_AGE\_HOURS), 
 [BaseUploadQueue.\_uploadQueue](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_\_uploadQueue), 
 [BaseUploadQueue.\_queueProcessingLock](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_\_queueProcessingLock), 
 [BaseUploadQueue.\_queueSaveLock](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_\_queueSaveLock), 

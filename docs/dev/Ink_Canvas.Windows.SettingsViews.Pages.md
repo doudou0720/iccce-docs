@@ -8,6 +8,12 @@ AboutPage
 
  [AdvancedPage](Ink\_Canvas.Windows.SettingsViews.Pages.AdvancedPage.md)
 
+ [AnnouncementCenterPage](Ink\_Canvas.Windows.SettingsViews.Pages.AnnouncementCenterPage.md)
+
+AnnouncementCenterPage
+
+ [AnnouncementPage](Ink\_Canvas.Windows.SettingsViews.Pages.AnnouncementPage.md)
+
  [AppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.AppearancePage.md)
 
  [AuthWithTokenResponse](Ink\_Canvas.Windows.SettingsViews.Pages.AuthWithTokenResponse.md)
@@ -21,8 +27,6 @@ AboutPage
  [ClassSelectionItem](Ink\_Canvas.Windows.SettingsViews.Pages.ClassSelectionItem.md)
 
  [CloudStoragePage](Ink\_Canvas.Windows.SettingsViews.Pages.CloudStoragePage.md)
-
-CloudStoragePage
 
  [ConditionIdToNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.ConditionIdToNameConverter.md)
 
@@ -49,6 +53,8 @@ HomePage
  [InputDialog](Ink\_Canvas.Windows.SettingsViews.Pages.InputDialog.md)
 
  [LogicalModeToIntConverter](Ink\_Canvas.Windows.SettingsViews.Pages.LogicalModeToIntConverter.md)
+
+ [NotificationPage](Ink\_Canvas.Windows.SettingsViews.Pages.NotificationPage.md)
 
  [NullToVisibilityConverter](Ink\_Canvas.Windows.SettingsViews.Pages.NullToVisibilityConverter.md)
 

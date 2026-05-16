@@ -188,11 +188,15 @@ public string GetPresentationPath()
 public void StartMonitoring()
 ```
 
-### <a id="Ink_Canvas_Helpers_PPTManager_StopMonitoring"></a> StopMonitoring\(\)
+### <a id="Ink_Canvas_Helpers_PPTManager_StopMonitoring_System_Boolean_"></a> StopMonitoring\(bool\)
 
 ```csharp
-public void StopMonitoring()
+public void StopMonitoring(bool isShutdown = false)
 ```
+
+#### Parameters
+
+`isShutdown` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_PPTManager_TryEndSlideShow"></a> TryEndSlideShow\(\)
 

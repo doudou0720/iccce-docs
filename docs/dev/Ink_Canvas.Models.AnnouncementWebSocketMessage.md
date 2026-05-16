@@ -1,19 +1,16 @@
-# <a id="Ink_Canvas_Helpers_IACoreDllExtractor"></a> Class IACoreDllExtractor
+# <a id="Ink_Canvas_Models_AnnouncementWebSocketMessage"></a> Class AnnouncementWebSocketMessage
 
-Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)  
+Namespace: [Ink\_Canvas.Models](Ink\_Canvas.Models.md)  
 Assembly: InkCanvasForClass.dll  
 
-IACore DLL自动释放器
-在应用启动时自动释放IACore相关的DLL文件到应用程序目录
-
 ```csharp
-public static class IACoreDllExtractor
+public class AnnouncementWebSocketMessage
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[IACoreDllExtractor](Ink\_Canvas.Helpers.IACoreDllExtractor.md)
+[AnnouncementWebSocketMessage](Ink\_Canvas.Models.AnnouncementWebSocketMessage.md)
 
 #### Inherited Members
 
@@ -25,25 +22,27 @@ public static class IACoreDllExtractor
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
-## Methods
+## Properties
 
-### <a id="Ink_Canvas_Helpers_IACoreDllExtractor_CleanupExtractedDlls"></a> CleanupExtractedDlls\(\)
-
-清理释放的DLL文件（可选，在应用退出时调用）
+### <a id="Ink_Canvas_Models_AnnouncementWebSocketMessage_Data"></a> Data
 
 ```csharp
-public static void CleanupExtractedDlls()
+[JsonProperty("data")]
+public AnnouncementItem Data { get; set; }
 ```
 
-### <a id="Ink_Canvas_Helpers_IACoreDllExtractor_ExtractIACoreDllsAsync"></a> ExtractIACoreDllsAsync\(\)
+#### Property Value
 
-在应用启动时释放IACore相关DLL
+ [AnnouncementItem](Ink\_Canvas.Models.AnnouncementItem.md)
+
+### <a id="Ink_Canvas_Models_AnnouncementWebSocketMessage_Type"></a> Type
 
 ```csharp
-public static Task ExtractIACoreDllsAsync()
+[JsonProperty("type")]
+public string Type { get; set; }
 ```
 
-#### Returns
+#### Property Value
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

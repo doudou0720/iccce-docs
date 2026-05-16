@@ -145,6 +145,17 @@ public bool IsFoldAtStartup { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Startup_IsSmartUpdate"></a> IsSmartUpdate
+
+```csharp
+[JsonProperty("isSmartUpdate")]
+public bool IsSmartUpdate { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Startup_SkippedVersion"></a> SkippedVersion
 
 ```csharp
