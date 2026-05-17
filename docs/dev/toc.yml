@@ -163,6 +163,8 @@
     href: Ink_Canvas.Controls.PopupShellContent.md
   - name: PopupTabItem
     href: Ink_Canvas.Controls.PopupTabItem.md
+  - name: PopupTabShellContent
+    href: Ink_Canvas.Controls.PopupTabShellContent.md
   - name: PopupTabTitleBar
     href: Ink_Canvas.Controls.PopupTabTitleBar.md
   - name: PopupTitleBar

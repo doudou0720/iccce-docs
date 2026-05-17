@@ -167,17 +167,6 @@ public bool IsColorfulViewboxFloatingBar { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Appearance_IsEnableDisPlayNibModeToggler"></a> IsEnableDisPlayNibModeToggler
-
-```csharp
-[JsonProperty("isEnableDisPlayNibModeToggler")]
-public bool IsEnableDisPlayNibModeToggler { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 ### <a id="Ink_Canvas_Appearance_IsShowClearAndMouseButton"></a> IsShowClearAndMouseButton
 
 ```csharp

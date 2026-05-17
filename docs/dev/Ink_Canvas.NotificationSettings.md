@@ -90,6 +90,39 @@ public bool IsAnnouncementEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_NotificationSettings_IsDictationDoNotDisturbEnabled"></a> IsDictationDoNotDisturbEnabled
+
+```csharp
+[JsonProperty("isDictationDoNotDisturbEnabled")]
+public bool IsDictationDoNotDisturbEnabled { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_NotificationSettings_IsDictationDoNotDisturbInPptEnabled"></a> IsDictationDoNotDisturbInPptEnabled
+
+```csharp
+[JsonProperty("isDictationDoNotDisturbInPptEnabled")]
+public bool IsDictationDoNotDisturbInPptEnabled { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_NotificationSettings_IsDictationDoNotDisturbInWhiteboardEnabled"></a> IsDictationDoNotDisturbInWhiteboardEnabled
+
+```csharp
+[JsonProperty("isDictationDoNotDisturbInWhiteboardEnabled")]
+public bool IsDictationDoNotDisturbInWhiteboardEnabled { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_NotificationSettings_IsDynamicNotificationEnabled"></a> IsDynamicNotificationEnabled
 
 ```csharp

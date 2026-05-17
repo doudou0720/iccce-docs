@@ -814,6 +814,12 @@ public void NavigateToPage(string pageTag, PluginInfo pluginInfo = null)
 public void RefreshTheme()
 ```
 
+### <a id="Ink_Canvas_Windows_SettingsViews_SettingsWindow_UpdateAnnouncementUnreadBadge"></a> UpdateAnnouncementUnreadBadge\(\)
+
+```csharp
+public void UpdateAnnouncementUnreadBadge()
+```
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_SettingsWindow_UpdateUpdateBadgeVisibility"></a> UpdateUpdateBadgeVisibility\(\)
 
 ```csharp

@@ -288,6 +288,28 @@ public bool HighPrecisionLineStraighten { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Canvas_HighlighterAlpha"></a> HighlighterAlpha
+
+```csharp
+[JsonProperty("highlighterAlpha")]
+public double HighlighterAlpha { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Canvas_HighlighterOverlapEnabled"></a> HighlighterOverlapEnabled
+
+```csharp
+[JsonProperty("highlighterOverlapEnabled")]
+public bool HighlighterOverlapEnabled { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Canvas_HighlighterWidth"></a> HighlighterWidth
 
 ```csharp
@@ -315,6 +337,17 @@ public OptionalOperation HyperbolaAsymptoteOption { get; set; }
 ```csharp
 [JsonProperty("inkAlpha")]
 public double InkAlpha { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Canvas_InkFadeSpeedMultiplier"></a> InkFadeSpeedMultiplier
+
+```csharp
+[JsonProperty("inkFadeSpeedMultiplier")]
+public double InkFadeSpeedMultiplier { get; set; }
 ```
 
 #### Property Value

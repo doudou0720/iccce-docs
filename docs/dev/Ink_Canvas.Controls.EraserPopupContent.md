@@ -696,36 +696,6 @@ public static readonly DependencyProperty IsBoardModeProperty
 
 ## Properties
 
-### <a id="Ink_Canvas_Controls_EraserPopupContent_CircleTab"></a> CircleTab
-
-```csharp
-public Border CircleTab { get; }
-```
-
-#### Property Value
-
- [Border](https://learn.microsoft.com/dotnet/api/system.windows.controls.border)
-
-### <a id="Ink_Canvas_Controls_EraserPopupContent_CircleTabIndicator"></a> CircleTabIndicator
-
-```csharp
-public FrameworkElement CircleTabIndicator { get; }
-```
-
-#### Property Value
-
- [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
-
-### <a id="Ink_Canvas_Controls_EraserPopupContent_CircleTabText"></a> CircleTabText
-
-```csharp
-public TextBlock CircleTabText { get; }
-```
-
-#### Property Value
-
- [TextBlock](https://learn.microsoft.com/dotnet/api/system.windows.controls.textblock)
-
 ### <a id="Ink_Canvas_Controls_EraserPopupContent_ClearInkAndHistoryBtn"></a> ClearInkAndHistoryBtn
 
 ```csharp
@@ -766,6 +736,16 @@ public ComboBox EraserSizeComboBox { get; }
 
  [ComboBox](https://learn.microsoft.com/dotnet/api/system.windows.controls.combobox)
 
+### <a id="Ink_Canvas_Controls_EraserPopupContent_EraserTypeTab"></a> EraserTypeTab
+
+```csharp
+public TabControl EraserTypeTab { get; }
+```
+
+#### Property Value
+
+ [TabControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.tabcontrol)
+
 ### <a id="Ink_Canvas_Controls_EraserPopupContent_IsBoardMode"></a> IsBoardMode
 
 ```csharp
@@ -775,34 +755,4 @@ public bool IsBoardMode { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-### <a id="Ink_Canvas_Controls_EraserPopupContent_RectangleTab"></a> RectangleTab
-
-```csharp
-public Border RectangleTab { get; }
-```
-
-#### Property Value
-
- [Border](https://learn.microsoft.com/dotnet/api/system.windows.controls.border)
-
-### <a id="Ink_Canvas_Controls_EraserPopupContent_RectangleTabIndicator"></a> RectangleTabIndicator
-
-```csharp
-public FrameworkElement RectangleTabIndicator { get; }
-```
-
-#### Property Value
-
- [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
-
-### <a id="Ink_Canvas_Controls_EraserPopupContent_RectangleTabText"></a> RectangleTabText
-
-```csharp
-public TextBlock RectangleTabText { get; }
-```
-
-#### Property Value
-
- [TextBlock](https://learn.microsoft.com/dotnet/api/system.windows.controls.textblock)
 

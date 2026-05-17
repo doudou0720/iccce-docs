@@ -64,10 +64,30 @@ public string Id { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Models_AnnouncementCenterItem_IsNew"></a> IsNew
+
+```csharp
+public bool IsNew { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Models_AnnouncementCenterItem_IsRead"></a> IsRead
 
 ```csharp
 public bool IsRead { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Models_AnnouncementCenterItem_IsUnread"></a> IsUnread
+
+```csharp
+public bool IsUnread { get; }
 ```
 
 #### Property Value

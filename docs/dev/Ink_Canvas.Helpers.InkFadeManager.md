@@ -40,8 +40,6 @@ public InkFadeManager(MainWindow mainWindow)
 
 ### <a id="Ink_Canvas_Helpers_InkFadeManager_AnimationDuration"></a> AnimationDuration
 
-渐隐动画持续时间（毫秒）
-
 ```csharp
 public int AnimationDuration { get; set; }
 ```
@@ -49,6 +47,16 @@ public int AnimationDuration { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Helpers_InkFadeManager_FadeSpeedMultiplier"></a> FadeSpeedMultiplier
+
+```csharp
+public double FadeSpeedMultiplier { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_InkFadeManager_FadeTime"></a> FadeTime
 
@@ -76,12 +84,12 @@ public bool IsEnabled { get; set; }
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_InkFadeManager_AddFadingStroke_System_Windows_Ink_Stroke_System_Windows_Point_System_Windows_Point_"></a> AddFadingStroke\(Stroke, Point, Point\)
+### <a id="Ink_Canvas_Helpers_InkFadeManager_AddFadingStroke_System_Windows_Ink_Stroke_System_Windows_Point_System_Windows_Point_System_Int64_"></a> AddFadingStroke\(Stroke, Point, Point, long\)
 
 添加需要渐隐的墨迹
 
 ```csharp
-public void AddFadingStroke(Stroke stroke, Point startPoint, Point endPoint)
+public void AddFadingStroke(Stroke stroke, Point startPoint, Point endPoint, long strokeDurationMs = 0)
 ```
 
 #### Parameters
@@ -97,6 +105,8 @@ public void AddFadingStroke(Stroke stroke, Point startPoint, Point endPoint)
 `endPoint` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
 
 抬笔点
+
+`strokeDurationMs` [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
 ### <a id="Ink_Canvas_Helpers_InkFadeManager_ClearAllFadingStrokes"></a> ClearAllFadingStrokes\(\)
 
@@ -135,6 +145,16 @@ public void RemoveStroke(Stroke stroke)
 `stroke` [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
 
 要移除的墨迹
+
+### <a id="Ink_Canvas_Helpers_InkFadeManager_UpdateFadeSpeedMultiplier_System_Double_"></a> UpdateFadeSpeedMultiplier\(double\)
+
+```csharp
+public void UpdateFadeSpeedMultiplier(double multiplier)
+```
+
+#### Parameters
+
+`multiplier` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_InkFadeManager_UpdateFadeTime_System_Int32_"></a> UpdateFadeTime\(int\)
 

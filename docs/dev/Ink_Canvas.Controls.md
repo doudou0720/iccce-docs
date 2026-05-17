@@ -72,6 +72,10 @@ PopupShellContent
 
  [PopupTabItem](Ink\_Canvas.Controls.PopupTabItem.md)
 
+ [PopupTabShellContent](Ink\_Canvas.Controls.PopupTabShellContent.md)
+
+PopupTabShellContent
+
  [PopupTabTitleBar](Ink\_Canvas.Controls.PopupTabTitleBar.md)
 
 PopupTabTitleBar
