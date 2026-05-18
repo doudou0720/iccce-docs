@@ -725,6 +725,14 @@ public int DisplayMode { get; set; }
 public void ClearAllChecked()
 ```
 
+### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_ForceApplyDisplayMode"></a> ForceApplyDisplayMode\(\)
+
+强制应用显示模式，确保即使在控件初始化期间也能正确显示
+
+```csharp
+public void ForceApplyDisplayMode()
+```
+
 ### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_OnPropertyChanged_System_String_"></a> OnPropertyChanged\(string\)
 
 ```csharp
