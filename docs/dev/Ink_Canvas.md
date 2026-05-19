@@ -154,10 +154,6 @@ ScreenshotSelectorWindow
 
 图标几何路径定义类，包含各种工具图标的XAML几何路径
 
- [YesOrNoNotificationWindow](Ink\_Canvas.YesOrNoNotificationWindow.md)
-
-Interaction logic for RestoreHiddenSlidesWindow.xaml
-
 ### Structs
 
  [ScreenshotResult](Ink\_Canvas.ScreenshotResult.md)

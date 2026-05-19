@@ -99,8 +99,6 @@
     href: Ink_Canvas.UploadSettings.md
   - name: XamlGraphicsIconGeometries
     href: Ink_Canvas.XamlGraphicsIconGeometries.md
-  - name: YesOrNoNotificationWindow
-    href: Ink_Canvas.YesOrNoNotificationWindow.md
   - name: Structs
   - name: ScreenshotResult
     href: Ink_Canvas.ScreenshotResult.md
