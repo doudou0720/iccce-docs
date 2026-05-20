@@ -3,7 +3,7 @@
 Namespace: [Ink\_Canvas](Ink\_Canvas.md)  
 Assembly: InkCanvasForClass.dll  
 
-自动更新要下载的安装包架构（与当前运行进程的位数无关）。默认 32 位包；64 位包对应发布物 ZIP 文件名在 .zip 前增加 -x64。
+自动更新要下载的安装包架构。默认跟随当前软件进程架构；64 位包对应发布物 ZIP 文件名在 .zip 前增加 -x64。
 
 ```csharp
 public enum UpdatePackageArchitecture
