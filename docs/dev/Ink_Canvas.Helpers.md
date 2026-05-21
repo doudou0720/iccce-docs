@@ -147,8 +147,6 @@ IACore 路径通过 IPC 调用 x86 辅助进程；WinRT 路径在主进程内直
 
  [LocalizationHelper](Ink\_Canvas.Helpers.LocalizationHelper.md)
 
-i18n 本地化辅助：设置/获取当前 UI 语言，便于后续从配置切换语言。
-
  [PPTInkManager](Ink\_Canvas.Helpers.PPTInkManager.md)
 
 PPT墨迹管理器 - 负责按幻灯片保存/加载墨迹、自动保存与内存管理。

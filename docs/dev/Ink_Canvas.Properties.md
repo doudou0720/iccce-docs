@@ -2,7 +2,61 @@
 
 ### Classes
 
+ [AboutStrings](Ink\_Canvas.Properties.AboutStrings.md)
+
+ [AdvancedStrings](Ink\_Canvas.Properties.AdvancedStrings.md)
+
+ [AnnouncementStrings](Ink\_Canvas.Properties.AnnouncementStrings.md)
+
+ [AutomationStrings](Ink\_Canvas.Properties.AutomationStrings.md)
+
+ [BoothStrings](Ink\_Canvas.Properties.BoothStrings.md)
+
+ [BtnStrings](Ink\_Canvas.Properties.BtnStrings.md)
+
+ [CanvasStrings](Ink\_Canvas.Properties.CanvasStrings.md)
+
+ [CloudStorageStrings](Ink\_Canvas.Properties.CloudStorageStrings.md)
+
+ [CommonStrings](Ink\_Canvas.Properties.CommonStrings.md)
+
+ [ConfigStrings](Ink\_Canvas.Properties.ConfigStrings.md)
+
+ [CrashStrings](Ink\_Canvas.Properties.CrashStrings.md)
+
+ [FloatingBarStrings](Ink\_Canvas.Properties.FloatingBarStrings.md)
+
+ [FriendlyLinksStrings](Ink\_Canvas.Properties.FriendlyLinksStrings.md)
+
+ [GeometryStrings](Ink\_Canvas.Properties.GeometryStrings.md)
+
+ [GestureStrings](Ink\_Canvas.Properties.GestureStrings.md)
+
+ [HomeStrings](Ink\_Canvas.Properties.HomeStrings.md)
+
+ [NavStrings](Ink\_Canvas.Properties.NavStrings.md)
+
+ [NotificationStrings](Ink\_Canvas.Properties.NotificationStrings.md)
+
+ [PPTStrings](Ink\_Canvas.Properties.PPTStrings.md)
+
+ [RandomStrings](Ink\_Canvas.Properties.RandomStrings.md)
+
+ [SecurityStrings](Ink\_Canvas.Properties.SecurityStrings.md)
+
+ [StartupStrings](Ink\_Canvas.Properties.StartupStrings.md)
+
+ [StorageStrings](Ink\_Canvas.Properties.StorageStrings.md)
+
  [Strings](Ink\_Canvas.Properties.Strings.md)
 
-本地化字符串资源，用于 i18n。当前 UI 语言由 Thread.CurrentThread.CurrentUICulture 决定。
+ [ThemeStrings](Ink\_Canvas.Properties.ThemeStrings.md)
+
+ [TimerStrings](Ink\_Canvas.Properties.TimerStrings.md)
+
+ [UpdateCenterPanelStrings](Ink\_Canvas.Properties.UpdateCenterPanelStrings.md)
+
+ [UpdateStrings](Ink\_Canvas.Properties.UpdateStrings.md)
+
+ [WindowStrings](Ink\_Canvas.Properties.WindowStrings.md)
 

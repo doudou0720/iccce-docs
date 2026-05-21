@@ -455,11 +455,11 @@ public bool IsAutoKillVComYouJiao { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Automation_IsAutoSaveStrokesAtClear"></a> IsAutoSaveStrokesAtClear
+### <a id="Ink_Canvas_Automation_IsAutoSaveScreenshotAtClear"></a> IsAutoSaveScreenshotAtClear
 
 ```csharp
 [JsonProperty("isAutoSaveStrokesAtClear")]
-public bool IsAutoSaveStrokesAtClear { get; set; }
+public bool IsAutoSaveScreenshotAtClear { get; set; }
 ```
 
 #### Property Value

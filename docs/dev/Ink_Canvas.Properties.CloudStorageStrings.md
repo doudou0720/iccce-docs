@@ -1,16 +1,16 @@
-# <a id="Ink_Canvas_Properties_Strings"></a> Class Strings
+# <a id="Ink_Canvas_Properties_CloudStorageStrings"></a> Class CloudStorageStrings
 
 Namespace: [Ink\_Canvas.Properties](Ink\_Canvas.Properties.md)  
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public static class Strings
+public static class CloudStorageStrings
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Strings](Ink\_Canvas.Properties.Strings.md)
+[CloudStorageStrings](Ink\_Canvas.Properties.CloudStorageStrings.md)
 
 #### Inherited Members
 
@@ -24,7 +24,17 @@ public static class Strings
 
 ## Properties
 
-### <a id="Ink_Canvas_Properties_Strings_Culture"></a> Culture
+### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_Manage"></a> CloudStorage\_Manage
+
+```csharp
+public static string CloudStorage_Manage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CloudStorageStrings_Culture"></a> Culture
 
 ```csharp
 public static CultureInfo Culture { get; set; }
@@ -34,7 +44,7 @@ public static CultureInfo Culture { get; set; }
 
  [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
-### <a id="Ink_Canvas_Properties_Strings_ResourceManager"></a> ResourceManager
+### <a id="Ink_Canvas_Properties_CloudStorageStrings_ResourceManager"></a> ResourceManager
 
 ```csharp
 public static ResourceManager ResourceManager { get; }
@@ -46,7 +56,7 @@ public static ResourceManager ResourceManager { get; }
 
 ## Methods
 
-### <a id="Ink_Canvas_Properties_Strings_GetString_System_String_"></a> GetString\(string\)
+### <a id="Ink_Canvas_Properties_CloudStorageStrings_GetString_System_String_"></a> GetString\(string\)
 
 ```csharp
 public static string GetString(string key)

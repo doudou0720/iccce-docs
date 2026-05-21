@@ -494,8 +494,64 @@
   href: Ink_Canvas.Properties.md
   items:
   - name: Classes
+  - name: AboutStrings
+    href: Ink_Canvas.Properties.AboutStrings.md
+  - name: AdvancedStrings
+    href: Ink_Canvas.Properties.AdvancedStrings.md
+  - name: AnnouncementStrings
+    href: Ink_Canvas.Properties.AnnouncementStrings.md
+  - name: AutomationStrings
+    href: Ink_Canvas.Properties.AutomationStrings.md
+  - name: BoothStrings
+    href: Ink_Canvas.Properties.BoothStrings.md
+  - name: BtnStrings
+    href: Ink_Canvas.Properties.BtnStrings.md
+  - name: CanvasStrings
+    href: Ink_Canvas.Properties.CanvasStrings.md
+  - name: CloudStorageStrings
+    href: Ink_Canvas.Properties.CloudStorageStrings.md
+  - name: CommonStrings
+    href: Ink_Canvas.Properties.CommonStrings.md
+  - name: ConfigStrings
+    href: Ink_Canvas.Properties.ConfigStrings.md
+  - name: CrashStrings
+    href: Ink_Canvas.Properties.CrashStrings.md
+  - name: FloatingBarStrings
+    href: Ink_Canvas.Properties.FloatingBarStrings.md
+  - name: FriendlyLinksStrings
+    href: Ink_Canvas.Properties.FriendlyLinksStrings.md
+  - name: GeometryStrings
+    href: Ink_Canvas.Properties.GeometryStrings.md
+  - name: GestureStrings
+    href: Ink_Canvas.Properties.GestureStrings.md
+  - name: HomeStrings
+    href: Ink_Canvas.Properties.HomeStrings.md
+  - name: NavStrings
+    href: Ink_Canvas.Properties.NavStrings.md
+  - name: NotificationStrings
+    href: Ink_Canvas.Properties.NotificationStrings.md
+  - name: PPTStrings
+    href: Ink_Canvas.Properties.PPTStrings.md
+  - name: RandomStrings
+    href: Ink_Canvas.Properties.RandomStrings.md
+  - name: SecurityStrings
+    href: Ink_Canvas.Properties.SecurityStrings.md
+  - name: StartupStrings
+    href: Ink_Canvas.Properties.StartupStrings.md
+  - name: StorageStrings
+    href: Ink_Canvas.Properties.StorageStrings.md
   - name: Strings
     href: Ink_Canvas.Properties.Strings.md
+  - name: ThemeStrings
+    href: Ink_Canvas.Properties.ThemeStrings.md
+  - name: TimerStrings
+    href: Ink_Canvas.Properties.TimerStrings.md
+  - name: UpdateCenterPanelStrings
+    href: Ink_Canvas.Properties.UpdateCenterPanelStrings.md
+  - name: UpdateStrings
+    href: Ink_Canvas.Properties.UpdateStrings.md
+  - name: WindowStrings
+    href: Ink_Canvas.Properties.WindowStrings.md
 - name: Ink_Canvas.Resources.ICCConfiguration
   href: Ink_Canvas.Resources.ICCConfiguration.md
   items:

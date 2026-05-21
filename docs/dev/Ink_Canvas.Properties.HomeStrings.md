@@ -1,16 +1,16 @@
-# <a id="Ink_Canvas_Properties_Strings"></a> Class Strings
+# <a id="Ink_Canvas_Properties_HomeStrings"></a> Class HomeStrings
 
 Namespace: [Ink\_Canvas.Properties](Ink\_Canvas.Properties.md)  
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public static class Strings
+public static class HomeStrings
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Strings](Ink\_Canvas.Properties.Strings.md)
+[HomeStrings](Ink\_Canvas.Properties.HomeStrings.md)
 
 #### Inherited Members
 
@@ -24,7 +24,7 @@ public static class Strings
 
 ## Properties
 
-### <a id="Ink_Canvas_Properties_Strings_Culture"></a> Culture
+### <a id="Ink_Canvas_Properties_HomeStrings_Culture"></a> Culture
 
 ```csharp
 public static CultureInfo Culture { get; set; }
@@ -34,7 +34,37 @@ public static CultureInfo Culture { get; set; }
 
  [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
-### <a id="Ink_Canvas_Properties_Strings_ResourceManager"></a> ResourceManager
+### <a id="Ink_Canvas_Properties_HomeStrings_Home_ExitApp"></a> Home\_ExitApp
+
+```csharp
+public static string Home_ExitApp { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_HomeStrings_Home_ResetSettings"></a> Home\_ResetSettings
+
+```csharp
+public static string Home_ResetSettings { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_HomeStrings_Home_RestartApp"></a> Home\_RestartApp
+
+```csharp
+public static string Home_RestartApp { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_HomeStrings_ResourceManager"></a> ResourceManager
 
 ```csharp
 public static ResourceManager ResourceManager { get; }
@@ -44,9 +74,19 @@ public static ResourceManager ResourceManager { get; }
 
  ResourceManager
 
+### <a id="Ink_Canvas_Properties_HomeStrings_Splash_Starting"></a> Splash\_Starting
+
+```csharp
+public static string Splash_Starting { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ## Methods
 
-### <a id="Ink_Canvas_Properties_Strings_GetString_System_String_"></a> GetString\(string\)
+### <a id="Ink_Canvas_Properties_HomeStrings_GetString_System_String_"></a> GetString\(string\)
 
 ```csharp
 public static string GetString(string key)

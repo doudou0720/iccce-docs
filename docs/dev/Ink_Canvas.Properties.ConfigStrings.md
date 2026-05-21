@@ -1,16 +1,16 @@
-# <a id="Ink_Canvas_Properties_Strings"></a> Class Strings
+# <a id="Ink_Canvas_Properties_ConfigStrings"></a> Class ConfigStrings
 
 Namespace: [Ink\_Canvas.Properties](Ink\_Canvas.Properties.md)  
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public static class Strings
+public static class ConfigStrings
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[Strings](Ink\_Canvas.Properties.Strings.md)
+[ConfigStrings](Ink\_Canvas.Properties.ConfigStrings.md)
 
 #### Inherited Members
 
@@ -24,7 +24,7 @@ public static class Strings
 
 ## Properties
 
-### <a id="Ink_Canvas_Properties_Strings_Culture"></a> Culture
+### <a id="Ink_Canvas_Properties_ConfigStrings_Culture"></a> Culture
 
 ```csharp
 public static CultureInfo Culture { get; set; }
@@ -34,7 +34,37 @@ public static CultureInfo Culture { get; set; }
 
  [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
-### <a id="Ink_Canvas_Properties_Strings_ResourceManager"></a> ResourceManager
+### <a id="Ink_Canvas_Properties_ConfigStrings_Delete"></a> Delete
+
+```csharp
+public static string Delete { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ConfigStrings_Desc"></a> Desc
+
+```csharp
+public static string Desc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ConfigStrings_Label"></a> Label
+
+```csharp
+public static string Label { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ConfigStrings_ResourceManager"></a> ResourceManager
 
 ```csharp
 public static ResourceManager ResourceManager { get; }
@@ -44,9 +74,29 @@ public static ResourceManager ResourceManager { get; }
 
  ResourceManager
 
+### <a id="Ink_Canvas_Properties_ConfigStrings_SaveAs"></a> SaveAs
+
+```csharp
+public static string SaveAs { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ConfigStrings_Title"></a> Title
+
+```csharp
+public static string Title { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ## Methods
 
-### <a id="Ink_Canvas_Properties_Strings_GetString_System_String_"></a> GetString\(string\)
+### <a id="Ink_Canvas_Properties_ConfigStrings_GetString_System_String_"></a> GetString\(string\)
 
 ```csharp
 public static string GetString(string key)
