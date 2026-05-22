@@ -334,16 +334,6 @@ public static string OtherDurationHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_NotificationStrings_PageTitle"></a> PageTitle
-
-```csharp
-public static string PageTitle { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Placement"></a> Placement
 
 ```csharp

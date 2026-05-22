@@ -526,12 +526,16 @@
     href: Ink_Canvas.Properties.GestureStrings.md
   - name: HomeStrings
     href: Ink_Canvas.Properties.HomeStrings.md
+  - name: HotkeyStrings
+    href: Ink_Canvas.Properties.HotkeyStrings.md
   - name: NavStrings
     href: Ink_Canvas.Properties.NavStrings.md
   - name: NotificationStrings
     href: Ink_Canvas.Properties.NotificationStrings.md
   - name: PPTStrings
     href: Ink_Canvas.Properties.PPTStrings.md
+  - name: PluginStrings
+    href: Ink_Canvas.Properties.PluginStrings.md
   - name: RandomStrings
     href: Ink_Canvas.Properties.RandomStrings.md
   - name: SecurityStrings

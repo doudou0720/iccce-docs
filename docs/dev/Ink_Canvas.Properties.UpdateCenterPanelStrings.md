@@ -44,56 +44,6 @@ public static ResourceManager ResourceManager { get; }
 
  ResourceManager
 
-### <a id="Ink_Canvas_Properties_UpdateCenterPanelStrings_UpdateCenterPanel_Hint"></a> UpdateCenterPanel\_Hint
-
-```csharp
-public static string UpdateCenterPanel_Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_UpdateCenterPanelStrings_UpdateCenterPanel_Hint_1"></a> UpdateCenterPanel\_Hint\_1
-
-```csharp
-public static string UpdateCenterPanel_Hint_1 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_UpdateCenterPanelStrings_UpdateCenterPanel_Hint_2"></a> UpdateCenterPanel\_Hint\_2
-
-```csharp
-public static string UpdateCenterPanel_Hint_2 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_UpdateCenterPanelStrings_UpdateCenterPanel_Hint_3"></a> UpdateCenterPanel\_Hint\_3
-
-```csharp
-public static string UpdateCenterPanel_Hint_3 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_UpdateCenterPanelStrings_UpdateCenterPanel_Hint_4"></a> UpdateCenterPanel\_Hint\_4
-
-```csharp
-public static string UpdateCenterPanel_Hint_4 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ## Methods
 
 ### <a id="Ink_Canvas_Properties_UpdateCenterPanelStrings_GetString_System_String_"></a> GetString\(string\)

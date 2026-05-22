@@ -34,11 +34,15 @@
 
  [HomeStrings](Ink\_Canvas.Properties.HomeStrings.md)
 
+ [HotkeyStrings](Ink\_Canvas.Properties.HotkeyStrings.md)
+
  [NavStrings](Ink\_Canvas.Properties.NavStrings.md)
 
  [NotificationStrings](Ink\_Canvas.Properties.NotificationStrings.md)
 
  [PPTStrings](Ink\_Canvas.Properties.PPTStrings.md)
+
+ [PluginStrings](Ink\_Canvas.Properties.PluginStrings.md)
 
  [RandomStrings](Ink\_Canvas.Properties.RandomStrings.md)
 

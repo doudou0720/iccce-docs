@@ -1,16 +1,16 @@
-# <a id="Ink_Canvas_Properties_GestureStrings"></a> Class GestureStrings
+# <a id="Ink_Canvas_Properties_PluginStrings"></a> Class PluginStrings
 
 Namespace: [Ink\_Canvas.Properties](Ink\_Canvas.Properties.md)  
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public static class GestureStrings
+public static class PluginStrings
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[GestureStrings](Ink\_Canvas.Properties.GestureStrings.md)
+[PluginStrings](Ink\_Canvas.Properties.PluginStrings.md)
 
 #### Inherited Members
 
@@ -24,7 +24,7 @@ public static class GestureStrings
 
 ## Properties
 
-### <a id="Ink_Canvas_Properties_GestureStrings_Culture"></a> Culture
+### <a id="Ink_Canvas_Properties_PluginStrings_Culture"></a> Culture
 
 ```csharp
 public static CultureInfo Culture { get; set; }
@@ -34,97 +34,77 @@ public static CultureInfo Culture { get; set; }
 
  [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
-### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_AllowRotateScale"></a> Gesture\_AllowRotateScale
+### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_Author"></a> Plugin\_Author
 
 ```csharp
-public static string Gesture_AllowRotateScale { get; }
+public static string Plugin_Author { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_AllowRotateScaleHint"></a> Gesture\_AllowRotateScaleHint
+### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_LoadError"></a> Plugin\_LoadError
 
 ```csharp
-public static string Gesture_AllowRotateScaleHint { get; }
+public static string Plugin_LoadError { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_EnablePalmEraser"></a> Gesture\_EnablePalmEraser
+### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_LoadedCount"></a> Plugin\_LoadedCount
 
 ```csharp
-public static string Gesture_EnablePalmEraser { get; }
+public static string Plugin_LoadedCount { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_PalmHint"></a> Gesture\_PalmHint
+### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_Loading"></a> Plugin\_Loading
 
 ```csharp
-public static string Gesture_PalmHint { get; }
+public static string Plugin_Loading { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_PalmSensitivity"></a> Gesture\_PalmSensitivity
+### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_NoPlugins"></a> Plugin\_NoPlugins
 
 ```csharp
-public static string Gesture_PalmSensitivity { get; }
+public static string Plugin_NoPlugins { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_PalmSensitivityHigh"></a> Gesture\_PalmSensitivityHigh
+### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_Settings"></a> Plugin\_Settings
 
 ```csharp
-public static string Gesture_PalmSensitivityHigh { get; }
+public static string Plugin_Settings { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_PalmSensitivityLow"></a> Gesture\_PalmSensitivityLow
+### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_Title"></a> Plugin\_Title
 
 ```csharp
-public static string Gesture_PalmSensitivityLow { get; }
+public static string Plugin_Title { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_PalmSensitivityMedium"></a> Gesture\_PalmSensitivityMedium
-
-```csharp
-public static string Gesture_PalmSensitivityMedium { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_Title"></a> Gesture\_Title
-
-```csharp
-public static string Gesture_Title { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_GestureStrings_ResourceManager"></a> ResourceManager
+### <a id="Ink_Canvas_Properties_PluginStrings_ResourceManager"></a> ResourceManager
 
 ```csharp
 public static ResourceManager ResourceManager { get; }
@@ -136,7 +116,7 @@ public static ResourceManager ResourceManager { get; }
 
 ## Methods
 
-### <a id="Ink_Canvas_Properties_GestureStrings_GetString_System_String_"></a> GetString\(string\)
+### <a id="Ink_Canvas_Properties_PluginStrings_GetString_System_String_"></a> GetString\(string\)
 
 ```csharp
 public static string GetString(string key)

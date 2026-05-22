@@ -84,16 +84,6 @@ public static string BottomGroupTitle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_PPTStrings_ConflictWithAutoFold"></a> ConflictWithAutoFold
-
-```csharp
-public static string ConflictWithAutoFold { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_PPTStrings_Culture"></a> Culture
 
 ```csharp
@@ -178,16 +168,6 @@ public static string FlipButtonsTitle { get; }
 
 ```csharp
 public static string GoToFirstPageOnReenter { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_GroupHint"></a> GroupHint
-
-```csharp
-public static string GroupHint { get; }
 ```
 
 #### Property Value
@@ -314,26 +294,6 @@ public static string NotifyHiddenPage { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_PPTStrings_OffsetHint"></a> OffsetHint
-
-```csharp
-public static string OffsetHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_OffsetHintHorizontal"></a> OffsetHintHorizontal
-
-```csharp
-public static string OffsetHintHorizontal { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_PPTStrings_PageButtonClickable"></a> PageButtonClickable
 
 ```csharp
@@ -348,16 +308,6 @@ public static string PageButtonClickable { get; }
 
 ```csharp
 public static string PageButtonClickableHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PageButtonClickable_SubSettings"></a> PageButtonClickable\_SubSettings
-
-```csharp
-public static string PageButtonClickable_SubSettings { get; }
 ```
 
 #### Property Value
@@ -398,176 +348,6 @@ public static string Position_Right { get; }
 
 ```csharp
 public static string Position_RightBottom { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_0Hint"></a> PowerPointPanel\_0Hint
-
-```csharp
-public static string PowerPointPanel_0Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_0Hint_1"></a> PowerPointPanel\_0Hint\_1
-
-```csharp
-public static string PowerPointPanel_0Hint_1 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_Hint"></a> PowerPointPanel\_Hint
-
-```csharp
-public static string PowerPointPanel_Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_Hint_1"></a> PowerPointPanel\_Hint\_1
-
-```csharp
-public static string PowerPointPanel_Hint_1 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_Hint_2"></a> PowerPointPanel\_Hint\_2
-
-```csharp
-public static string PowerPointPanel_Hint_2 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_Hint_3"></a> PowerPointPanel\_Hint\_3
-
-```csharp
-public static string PowerPointPanel_Hint_3 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_Hint_4"></a> PowerPointPanel\_Hint\_4
-
-```csharp
-public static string PowerPointPanel_Hint_4 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_Hint_5"></a> PowerPointPanel\_Hint\_5
-
-```csharp
-public static string PowerPointPanel_Hint_5 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_Hint_6"></a> PowerPointPanel\_Hint\_6
-
-```csharp
-public static string PowerPointPanel_Hint_6 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_Hint_7"></a> PowerPointPanel\_Hint\_7
-
-```csharp
-public static string PowerPointPanel_Hint_7 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_Hint_8"></a> PowerPointPanel\_Hint\_8
-
-```csharp
-public static string PowerPointPanel_Hint_8 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_PPTHint"></a> PowerPointPanel\_PPTHint
-
-```csharp
-public static string PowerPointPanel_PPTHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_PPTHint_1"></a> PowerPointPanel\_PPTHint\_1
-
-```csharp
-public static string PowerPointPanel_PPTHint_1 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_PPTHint_2"></a> PowerPointPanel\_PPTHint\_2
-
-```csharp
-public static string PowerPointPanel_PPTHint_2 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_PPTHint_3"></a> PowerPointPanel\_PPTHint\_3
-
-```csharp
-public static string PowerPointPanel_PPTHint_3 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel__PPT_Hint"></a> PowerPointPanel\_\_PPT\_Hint
-
-```csharp
-public static string PowerPointPanel__PPT_Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_PowerPointPanel_quotquotHint"></a> PowerPointPanel\_quotquotHint
-
-```csharp
-public static string PowerPointPanel_quotquotHint { get; }
 ```
 
 #### Property Value
@@ -648,26 +428,6 @@ public static string RightOpacity { get; }
 
 ```csharp
 public static string ShowFlipButtons { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_ShowGestureButtonInShow"></a> ShowGestureButtonInShow
-
-```csharp
-public static string ShowGestureButtonInShow { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_ShowGestureButtonInShowHint"></a> ShowGestureButtonInShowHint
-
-```csharp
-public static string ShowGestureButtonInShowHint { get; }
 ```
 
 #### Property Value
@@ -858,36 +618,6 @@ public static string TwoFingerGesture { get; }
 
 ```csharp
 public static string UseRot { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_WpsHint1"></a> WpsHint1
-
-```csharp
-public static string WpsHint1 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_WpsLagWarning"></a> WpsLagWarning
-
-```csharp
-public static string WpsLagWarning { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_WpsSupportHint"></a> WpsSupportHint
-
-```csharp
-public static string WpsSupportHint { get; }
 ```
 
 #### Property Value

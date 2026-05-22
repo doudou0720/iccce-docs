@@ -114,16 +114,6 @@ public static string ItemCount { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_AnnouncementStrings_LoadFailed"></a> LoadFailed
-
-```csharp
-public static string LoadFailed { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_MarkAllAsRead"></a> MarkAllAsRead
 
 ```csharp

@@ -104,16 +104,6 @@ public static string Crash_Desc { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_CrashStrings_Crash_Hint"></a> Crash\_Hint
-
-```csharp
-public static string Crash_Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_CrashStrings_Crash_NoAction"></a> Crash\_NoAction
 
 ```csharp

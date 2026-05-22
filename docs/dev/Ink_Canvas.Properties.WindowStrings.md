@@ -34,6 +34,46 @@ public static CultureInfo Culture { get; set; }
 
  [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
+### <a id="Ink_Canvas_Properties_WindowStrings_FollowMouseScreen"></a> FollowMouseScreen
+
+```csharp
+public static string FollowMouseScreen { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_WindowStrings_FollowMouseScreenHint"></a> FollowMouseScreenHint
+
+```csharp
+public static string FollowMouseScreenHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_WindowStrings_MultiScreenSupport"></a> MultiScreenSupport
+
+```csharp
+public static string MultiScreenSupport { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_WindowStrings_MultiScreenSupportHint"></a> MultiScreenSupportHint
+
+```csharp
+public static string MultiScreenSupportHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_WindowStrings_ResourceManager"></a> ResourceManager
 
 ```csharp
@@ -43,6 +83,16 @@ public static ResourceManager ResourceManager { get; }
 #### Property Value
 
  ResourceManager
+
+### <a id="Ink_Canvas_Properties_WindowStrings_Title"></a> Title
+
+```csharp
+public static string Title { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_WindowStrings_Tray_ClickAction_CloseApp"></a> Tray\_ClickAction\_CloseApp
 
@@ -178,6 +228,16 @@ public static string Tray_LeftClickAction { get; }
 
 ```csharp
 public static string Tray_RightClickAction { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_WindowStrings_WindowSettings"></a> WindowSettings
+
+```csharp
+public static string WindowSettings { get; }
 ```
 
 #### Property Value

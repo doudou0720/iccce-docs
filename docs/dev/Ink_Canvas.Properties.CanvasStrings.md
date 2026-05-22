@@ -34,150 +34,10 @@ public static string CanvasAndInkPanel_1920_1080Hint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel_Hint"></a> CanvasAndInkPanel\_Hint
-
-```csharp
-public static string CanvasAndInkPanel_Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel_Hint_1"></a> CanvasAndInkPanel\_Hint\_1
-
-```csharp
-public static string CanvasAndInkPanel_Hint_1 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel_Hint_2"></a> CanvasAndInkPanel\_Hint\_2
-
-```csharp
-public static string CanvasAndInkPanel_Hint_2 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel_Hint_3"></a> CanvasAndInkPanel\_Hint\_3
-
-```csharp
-public static string CanvasAndInkPanel_Hint_3 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel_Hint_4"></a> CanvasAndInkPanel\_Hint\_4
-
-```csharp
-public static string CanvasAndInkPanel_Hint_4 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel_Hint_5"></a> CanvasAndInkPanel\_Hint\_5
-
-```csharp
-public static string CanvasAndInkPanel_Hint_5 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel_Hint_6"></a> CanvasAndInkPanel\_Hint\_6
-
-```csharp
-public static string CanvasAndInkPanel_Hint_6 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel_Hint_7"></a> CanvasAndInkPanel\_Hint\_7
-
-```csharp
-public static string CanvasAndInkPanel_Hint_7 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel_Hint_8"></a> CanvasAndInkPanel\_Hint\_8
-
-```csharp
-public static string CanvasAndInkPanel_Hint_8 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel_Hint_9"></a> CanvasAndInkPanel\_Hint\_9
 
 ```csharp
 public static string CanvasAndInkPanel_Hint_9 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel_WPFHint"></a> CanvasAndInkPanel\_WPFHint
-
-```csharp
-public static string CanvasAndInkPanel_WPFHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel_XMLISFHint"></a> CanvasAndInkPanel\_XMLISFHint
-
-```csharp
-public static string CanvasAndInkPanel_XMLISFHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel__PPT_Hint"></a> CanvasAndInkPanel\_\_PPT\_Hint
-
-```csharp
-public static string CanvasAndInkPanel__PPT_Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel_quotquotHint"></a> CanvasAndInkPanel\_quotquotHint
-
-```csharp
-public static string CanvasAndInkPanel_quotquotHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_AdvancedBezierSmoothing"></a> Canvas\_AdvancedBezierSmoothing
-
-```csharp
-public static string Canvas_AdvancedBezierSmoothing { get; }
 ```
 
 #### Property Value
@@ -194,30 +54,10 @@ public static string Canvas_AdvancedSmoothing { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_AndInk"></a> Canvas\_AndInk
-
-```csharp
-public static string Canvas_AndInk { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_AskEachTime"></a> Canvas\_AskEachTime
 
 ```csharp
 public static string Canvas_AskEachTime { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_AsymptoteHint"></a> Canvas\_AsymptoteHint
-
-```csharp
-public static string Canvas_AsymptoteHint { get; }
 ```
 
 #### Property Value
@@ -264,30 +104,10 @@ public static string Canvas_ClearCanvasAlsoClearImages { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_ClearImageOnClear"></a> Canvas\_ClearImageOnClear
-
-```csharp
-public static string Canvas_ClearImageOnClear { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_ClearInkAlsoClearHistory"></a> Canvas\_ClearInkAlsoClearHistory
 
 ```csharp
 public static string Canvas_ClearInkAlsoClearHistory { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_ClearInkHistory"></a> Canvas\_ClearInkHistory
-
-```csharp
-public static string Canvas_ClearInkHistory { get; }
 ```
 
 #### Property Value
@@ -384,16 +204,6 @@ public static string Canvas_Color_Yellow { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_CompressImage"></a> Canvas\_CompressImage
-
-```csharp
-public static string Canvas_CompressImage { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_CompressPicturesUploaded"></a> Canvas\_CompressPicturesUploaded
 
 ```csharp
@@ -444,40 +254,10 @@ public static string Canvas_DisableHardwareAccelerationHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_DisablePressure"></a> Canvas\_DisablePressure
-
-```csharp
-public static string Canvas_DisablePressure { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_DisablePressureHint"></a> Canvas\_DisablePressureHint
 
 ```csharp
 public static string Canvas_DisablePressureHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EnableInkFade"></a> Canvas\_EnableInkFade
-
-```csharp
-public static string Canvas_EnableInkFade { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EnableInkFadeHint"></a> Canvas\_EnableInkFadeHint
-
-```csharp
-public static string Canvas_EnableInkFadeHint { get; }
 ```
 
 #### Property Value
@@ -584,70 +364,10 @@ public static string Canvas_GroupTitle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_HideFadeInPenMenu"></a> Canvas\_HideFadeInPenMenu
-
-```csharp
-public static string Canvas_HideFadeInPenMenu { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_HideFadeInPenMenuHint"></a> Canvas\_HideFadeInPenMenuHint
-
-```csharp
-public static string Canvas_HideFadeInPenMenuHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_HideInkFadeInPenMenu"></a> Canvas\_HideInkFadeInPenMenu
-
-```csharp
-public static string Canvas_HideInkFadeInPenMenu { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_HideInkFadeInPenMenuHint"></a> Canvas\_HideInkFadeInPenMenuHint
-
-```csharp
-public static string Canvas_HideInkFadeInPenMenuHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_HideInkOnExit"></a> Canvas\_HideInkOnExit
 
 ```csharp
 public static string Canvas_HideInkOnExit { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_HideInkOnExitHint"></a> Canvas\_HideInkOnExitHint
-
-```csharp
-public static string Canvas_HideInkOnExitHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_HideStrokeWhenSelecting"></a> Canvas\_HideStrokeWhenSelecting
-
-```csharp
-public static string Canvas_HideStrokeWhenSelecting { get; }
 ```
 
 #### Property Value
@@ -684,60 +404,10 @@ public static string Canvas_IgnorePressure { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_IgnorePressureHint"></a> Canvas\_IgnorePressureHint
-
-```csharp
-public static string Canvas_IgnorePressureHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_InkFade"></a> Canvas\_InkFade
-
-```csharp
-public static string Canvas_InkFade { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_InkFadeHint"></a> Canvas\_InkFadeHint
-
-```csharp
-public static string Canvas_InkFadeHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_InkFadeTime"></a> Canvas\_InkFadeTime
-
-```csharp
-public static string Canvas_InkFadeTime { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_KeepAsymptote"></a> Canvas\_KeepAsymptote
 
 ```csharp
 public static string Canvas_KeepAsymptote { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_KeepHyperbolaAsymptote"></a> Canvas\_KeepHyperbolaAsymptote
-
-```csharp
-public static string Canvas_KeepHyperbolaAsymptote { get; }
 ```
 
 #### Property Value
@@ -774,26 +444,6 @@ public static string Canvas_No { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_PressureTouch"></a> Canvas\_PressureTouch
-
-```csharp
-public static string Canvas_PressureTouch { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_PressureTouchHint"></a> Canvas\_PressureTouchHint
-
-```csharp
-public static string Canvas_PressureTouchHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_RestoreColor"></a> Canvas\_RestoreColor
 
 ```csharp
@@ -824,6 +474,16 @@ public static string Canvas_RestoreWidth { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_SecondsFormat"></a> Canvas\_SecondsFormat
+
+```csharp
+public static string Canvas_SecondsFormat { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_ShowCircleCenter"></a> Canvas\_ShowCircleCenter
 
 ```csharp
@@ -848,16 +508,6 @@ public static string Canvas_ShowCoordinateUnitMarks { get; }
 
 ```csharp
 public static string Canvas_ShowCoordinateUnitMarksHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_ShowCursor"></a> Canvas\_ShowCursor
-
-```csharp
-public static string Canvas_ShowCursor { get; }
 ```
 
 #### Property Value
@@ -918,16 +568,6 @@ public static string Canvas_SwitchBackDelayHint { get; }
 
 ```csharp
 public static string Canvas_WPFBezier { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_WPFBezierSmoothing"></a> Canvas\_WPFBezierSmoothing
-
-```csharp
-public static string Canvas_WPFBezierSmoothing { get; }
 ```
 
 #### Property Value
@@ -1018,6 +658,86 @@ public static string InkRecog_FixRectangle { get; }
 
 ```csharp
 public static string InkRecog_FixTriangle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_FangSong"></a> InkRecog\_Font\_FangSong
+
+```csharp
+public static string InkRecog_Font_FangSong { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_InkFreeKaiti"></a> InkRecog\_Font\_InkFreeKaiti
+
+```csharp
+public static string InkRecog_Font_InkFreeKaiti { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_Kaiti"></a> InkRecog\_Font\_Kaiti
+
+```csharp
+public static string InkRecog_Font_Kaiti { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_LiSu"></a> InkRecog\_Font\_LiSu
+
+```csharp
+public static string InkRecog_Font_LiSu { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_STFangsong"></a> InkRecog\_Font\_STFangsong
+
+```csharp
+public static string InkRecog_Font_STFangsong { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_STKaiti"></a> InkRecog\_Font\_STKaiti
+
+```csharp
+public static string InkRecog_Font_STKaiti { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_STXingkai"></a> InkRecog\_Font\_STXingkai
+
+```csharp
+public static string InkRecog_Font_STXingkai { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_YouYuan"></a> InkRecog\_Font\_YouYuan
+
+```csharp
+public static string InkRecog_Font_YouYuan { get; }
 ```
 
 #### Property Value
@@ -1154,6 +874,16 @@ public static string InkRecog_Sensitivity { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_ShapeCorrection"></a> InkRecog\_ShapeCorrection
+
+```csharp
+public static string InkRecog_ShapeCorrection { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_ShapeEngine"></a> InkRecog\_ShapeEngine
 
 ```csharp
@@ -1184,26 +914,6 @@ public static string InkRecog_ShapeEngineHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_ShapeEngineIACore"></a> InkRecog\_ShapeEngineIACore
-
-```csharp
-public static string InkRecog_ShapeEngineIACore { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_ShapeEngineWinRT"></a> InkRecog\_ShapeEngineWinRT
-
-```csharp
-public static string InkRecog_ShapeEngineWinRT { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_SnappingDistance"></a> InkRecog\_SnappingDistance
 
 ```csharp
@@ -1218,66 +928,6 @@ public static string InkRecog_SnappingDistance { get; }
 
 ```csharp
 public static string InkRecog_Title { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecognitionPanel_10Hint"></a> InkRecognitionPanel\_10Hint
-
-```csharp
-public static string InkRecognitionPanel_10Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecognitionPanel_Hint"></a> InkRecognitionPanel\_Hint
-
-```csharp
-public static string InkRecognitionPanel_Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecognitionPanel_Hint_1"></a> InkRecognitionPanel\_Hint\_1
-
-```csharp
-public static string InkRecognitionPanel_Hint_1 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecognitionPanel_Hint_2"></a> InkRecognitionPanel\_Hint\_2
-
-```csharp
-public static string InkRecognitionPanel_Hint_2 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecognitionPanel_Hint_3"></a> InkRecognitionPanel\_Hint\_3
-
-```csharp
-public static string InkRecognitionPanel_Hint_3 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecognitionPanel_Hint_4"></a> InkRecognitionPanel\_Hint\_4
-
-```csharp
-public static string InkRecognitionPanel_Hint_4 { get; }
 ```
 
 #### Property Value

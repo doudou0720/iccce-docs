@@ -24,136 +24,6 @@ public static class AdvancedStrings
 
 ## Properties
 
-### <a id="Ink_Canvas_Properties_AdvancedStrings_AdvancedPanel_Hint"></a> AdvancedPanel\_Hint
-
-```csharp
-public static string AdvancedPanel_Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_AdvancedPanel_Hint_1"></a> AdvancedPanel\_Hint\_1
-
-```csharp
-public static string AdvancedPanel_Hint_1 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_AdvancedPanel_Hint_10"></a> AdvancedPanel\_Hint\_10
-
-```csharp
-public static string AdvancedPanel_Hint_10 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_AdvancedPanel_Hint_11"></a> AdvancedPanel\_Hint\_11
-
-```csharp
-public static string AdvancedPanel_Hint_11 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_AdvancedPanel_Hint_2"></a> AdvancedPanel\_Hint\_2
-
-```csharp
-public static string AdvancedPanel_Hint_2 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_AdvancedPanel_Hint_3"></a> AdvancedPanel\_Hint\_3
-
-```csharp
-public static string AdvancedPanel_Hint_3 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_AdvancedPanel_Hint_4"></a> AdvancedPanel\_Hint\_4
-
-```csharp
-public static string AdvancedPanel_Hint_4 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_AdvancedPanel_Hint_5"></a> AdvancedPanel\_Hint\_5
-
-```csharp
-public static string AdvancedPanel_Hint_5 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_AdvancedPanel_Hint_6"></a> AdvancedPanel\_Hint\_6
-
-```csharp
-public static string AdvancedPanel_Hint_6 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_AdvancedPanel_Hint_7"></a> AdvancedPanel\_Hint\_7
-
-```csharp
-public static string AdvancedPanel_Hint_7 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_AdvancedPanel_Hint_8"></a> AdvancedPanel\_Hint\_8
-
-```csharp
-public static string AdvancedPanel_Hint_8 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_AdvancedPanel_Hint_9"></a> AdvancedPanel\_Hint\_9
-
-```csharp
-public static string AdvancedPanel_Hint_9 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_AdvancedPanel__iccfold___iccunfold__Hint"></a> AdvancedPanel\_\_iccfold\_\_\_iccunfold\_\_Hint
-
-```csharp
-public static string AdvancedPanel__iccfold___iccunfold__Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_AvoidFullScreenHelper"></a> AvoidFullScreenHelper
 
 ```csharp
@@ -214,6 +84,26 @@ public static string DPIChangeDetectionHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_IconSettings"></a> Debug\_IconSettings
+
+```csharp
+public static string Debug_IconSettings { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SettingsExpanderExample"></a> Debug\_SettingsExpanderExample
+
+```csharp
+public static string Debug_SettingsExpanderExample { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_ShowConsole_Desc"></a> Debug\_ShowConsole\_Desc
 
 ```csharp
@@ -248,16 +138,6 @@ public static string EdgeGestureUtil { get; }
 
 ```csharp
 public static string EdgeGestureUtilHint_Part1 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_EdgeGestureUtilHint_Part2"></a> EdgeGestureUtilHint\_Part2
-
-```csharp
-public static string EdgeGestureUtilHint_Part2 { get; }
 ```
 
 #### Property Value
@@ -478,16 +358,6 @@ public static string TouchMultiplierHint { get; }
 
 ```csharp
 public static string TouchMultiplierValueHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_UriSchemeName"></a> UriSchemeName
-
-```csharp
-public static string UriSchemeName { get; }
 ```
 
 #### Property Value

@@ -24,16 +24,6 @@ public static class FloatingBarStrings
 
 ## Properties
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_AutoHide"></a> Board\_AutoHide
-
-```csharp
-public static string Board_AutoHide { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Background"></a> Board\_Background
 
 ```csharp
@@ -94,16 +84,6 @@ public static string Board_EraserOptions { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_EraserShape"></a> Board\_EraserShape
-
-```csharp
-public static string Board_EraserShape { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_EraserShape_Blackboard"></a> Board\_EraserShape\_Blackboard
 
 ```csharp
@@ -124,30 +104,10 @@ public static string Board_EraserShape_Circle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Exit"></a> Board\_Exit
-
-```csharp
-public static string Board_Exit { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Gesture"></a> Board\_Gesture
 
 ```csharp
 public static string Board_Gesture { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_GestureOptions"></a> Board\_GestureOptions
-
-```csharp
-public static string Board_GestureOptions { get; }
 ```
 
 #### Property Value
@@ -178,16 +138,6 @@ public static string Board_InsertImage { get; }
 
 ```csharp
 public static string Board_LaserPen { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_MultiTouchWriting"></a> Board\_MultiTouchWriting
-
-```csharp
-public static string Board_MultiTouchWriting { get; }
 ```
 
 #### Property Value
@@ -294,30 +244,10 @@ public static string Board_Shape { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_ShapeHintLongPress"></a> Board\_ShapeHintLongPress
-
-```csharp
-public static string Board_ShapeHintLongPress { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Size"></a> Board\_Size
 
 ```csharp
 public static string Board_Size { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_StrokeEraser"></a> Board\_StrokeEraser
-
-```csharp
-public static string Board_StrokeEraser { get; }
 ```
 
 #### Property Value
@@ -338,26 +268,6 @@ public static string Board_Tools { get; }
 
 ```csharp
 public static string Board_TwoFingerMove { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_TwoFingerRotate"></a> Board\_TwoFingerRotate
-
-```csharp
-public static string Board_TwoFingerRotate { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_TwoFingerZoom"></a> Board\_TwoFingerZoom
-
-```csharp
-public static string Board_TwoFingerZoom { get; }
 ```
 
 #### Property Value
@@ -464,30 +374,10 @@ public static string FloatingBar_GestureButton { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_GesturePanelTitle"></a> FloatingBar\_GesturePanelTitle
-
-```csharp
-public static string FloatingBar_GesturePanelTitle { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Gesture_MultiTouchWriting"></a> FloatingBar\_Gesture\_MultiTouchWriting
 
 ```csharp
 public static string FloatingBar_Gesture_MultiTouchWriting { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Gesture_TwoFingerMove"></a> FloatingBar\_Gesture\_TwoFingerMove
-
-```csharp
-public static string FloatingBar_Gesture_TwoFingerMove { get; }
 ```
 
 #### Property Value
@@ -544,6 +434,16 @@ public static string FloatingBar_Mouse { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_QuickPaletteMode"></a> FloatingBar\_QuickPaletteMode
+
+```csharp
+public static string FloatingBar_QuickPaletteMode { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_StrokeEraser"></a> FloatingBar\_StrokeEraser
 
 ```csharp
@@ -574,36 +474,6 @@ public static string FloatingBar_Whiteboard { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_OldUI_Background"></a> OldUI\_Background
-
-```csharp
-public static string OldUI_Background { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_OldUI_Check"></a> OldUI\_Check
-
-```csharp
-public static string OldUI_Check { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_OldUI_ClearAndHide"></a> OldUI\_ClearAndHide
-
-```csharp
-public static string OldUI_ClearAndHide { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_OldUI_Dark"></a> OldUI\_Dark
 
 ```csharp
@@ -624,56 +494,6 @@ public static string OldUI_Exit { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_OldUI_HideCanvas"></a> OldUI\_HideCanvas
-
-```csharp
-public static string OldUI_HideCanvas { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_OldUI_Restore"></a> OldUI\_Restore
-
-```csharp
-public static string OldUI_Restore { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_OldUI_SingleFingerDrag"></a> OldUI\_SingleFingerDrag
-
-```csharp
-public static string OldUI_SingleFingerDrag { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_OldUI_SlideshowEnd"></a> OldUI\_SlideshowEnd
-
-```csharp
-public static string OldUI_SlideshowEnd { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_OldUI_SlideshowFromStart"></a> OldUI\_SlideshowFromStart
-
-```csharp
-public static string OldUI_SlideshowFromStart { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_OldUI_Thickness"></a> OldUI\_Thickness
 
 ```csharp
@@ -684,30 +504,10 @@ public static string OldUI_Thickness { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_QuickPanel_Exit"></a> QuickPanel\_Exit
-
-```csharp
-public static string QuickPanel_Exit { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_QuickPanel_ExitShow"></a> QuickPanel\_ExitShow
 
 ```csharp
 public static string QuickPanel_ExitShow { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_QuickPanel_RandomDraw"></a> QuickPanel\_RandomDraw
-
-```csharp
-public static string QuickPanel_RandomDraw { get; }
 ```
 
 #### Property Value
@@ -744,16 +544,6 @@ public static string QuickPanel_Timer { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_QuickPanel_Whiteboard"></a> QuickPanel\_Whiteboard
-
-```csharp
-public static string QuickPanel_Whiteboard { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ResourceManager"></a> ResourceManager
 
 ```csharp
@@ -764,60 +554,800 @@ public static ResourceManager ResourceManager { get; }
 
  ResourceManager
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_SnapshotPanel_Hint"></a> SnapshotPanel\_Hint
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarCondition_Annotating"></a> ToolbarCondition\_Annotating
 
 ```csharp
-public static string SnapshotPanel_Hint { get; }
+public static string ToolbarCondition_Annotating { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_SnapshotPanel_Hint_1"></a> SnapshotPanel\_Hint\_1
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarCondition_Collapsed"></a> ToolbarCondition\_Collapsed
 
 ```csharp
-public static string SnapshotPanel_Hint_1 { get; }
+public static string ToolbarCondition_Collapsed { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_SnapshotPanel_Hint_2"></a> SnapshotPanel\_Hint\_2
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarCondition_PptMode"></a> ToolbarCondition\_PptMode
 
 ```csharp
-public static string SnapshotPanel_Hint_2 { get; }
+public static string ToolbarCondition_PptMode { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_SnapshotPanel_Hint_3"></a> SnapshotPanel\_Hint\_3
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Clear"></a> ToolbarItem\_Desc\_Clear
 
 ```csharp
-public static string SnapshotPanel_Hint_3 { get; }
+public static string ToolbarItem_Desc_Clear { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_SnapshotPanel_Hint_4"></a> SnapshotPanel\_Hint\_4
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Cursor"></a> ToolbarItem\_Desc\_Cursor
 
 ```csharp
-public static string SnapshotPanel_Hint_4 { get; }
+public static string ToolbarItem_Desc_Cursor { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_SnapshotPanel__icstk__png_Hint"></a> SnapshotPanel\_\_icstk\_\_png\_Hint
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_CursorWithDel"></a> ToolbarItem\_Desc\_CursorWithDel
 
 ```csharp
-public static string SnapshotPanel__icstk__png_Hint { get; }
+public static string ToolbarItem_Desc_CursorWithDel { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Eraser"></a> ToolbarItem\_Desc\_Eraser
+
+```csharp
+public static string ToolbarItem_Desc_Eraser { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Exit"></a> ToolbarItem\_Desc\_Exit
+
+```csharp
+public static string ToolbarItem_Desc_Exit { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Fold"></a> ToolbarItem\_Desc\_Fold
+
+```csharp
+public static string ToolbarItem_Desc_Fold { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Gesture"></a> ToolbarItem\_Desc\_Gesture
+
+```csharp
+public static string ToolbarItem_Desc_Gesture { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Group"></a> ToolbarItem\_Desc\_Group
+
+```csharp
+public static string ToolbarItem_Desc_Group { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_InkFreeze"></a> ToolbarItem\_Desc\_InkFreeze
+
+```csharp
+public static string ToolbarItem_Desc_InkFreeze { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Pen"></a> ToolbarItem\_Desc\_Pen
+
+```csharp
+public static string ToolbarItem_Desc_Pen { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_QuickColorPalette"></a> ToolbarItem\_Desc\_QuickColorPalette
+
+```csharp
+public static string ToolbarItem_Desc_QuickColorPalette { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Select"></a> ToolbarItem\_Desc\_Select
+
+```csharp
+public static string ToolbarItem_Desc_Select { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Separator"></a> ToolbarItem\_Desc\_Separator
+
+```csharp
+public static string ToolbarItem_Desc_Separator { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_StrokeEraser"></a> ToolbarItem\_Desc\_StrokeEraser
+
+```csharp
+public static string ToolbarItem_Desc_StrokeEraser { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AddGroup"></a> ToolbarPage\_AddGroup
+
+```csharp
+public static string ToolbarPage_AddGroup { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AddToAdded"></a> ToolbarPage\_AddToAdded
+
+```csharp
+public static string ToolbarPage_AddToAdded { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AddedComponents"></a> ToolbarPage\_AddedComponents
+
+```csharp
+public static string ToolbarPage_AddedComponents { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AddedComponentsHint"></a> ToolbarPage\_AddedComponentsHint
+
+```csharp
+public static string ToolbarPage_AddedComponentsHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Alignment"></a> ToolbarPage\_Alignment
+
+```csharp
+public static string ToolbarPage_Alignment { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AllConditionGroupsMet"></a> ToolbarPage\_AllConditionGroupsMet
+
+```csharp
+public static string ToolbarPage_AllConditionGroupsMet { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AllConditionsMet"></a> ToolbarPage\_AllConditionsMet
+
+```csharp
+public static string ToolbarPage_AllConditionsMet { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AnyConditionGroupMet"></a> ToolbarPage\_AnyConditionGroupMet
+
+```csharp
+public static string ToolbarPage_AnyConditionGroupMet { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AnyConditionMet"></a> ToolbarPage\_AnyConditionMet
+
+```csharp
+public static string ToolbarPage_AnyConditionMet { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Appearance"></a> ToolbarPage\_Appearance
+
+```csharp
+public static string ToolbarPage_Appearance { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AtLeastOneConfig"></a> ToolbarPage\_AtLeastOneConfig
+
+```csharp
+public static string ToolbarPage_AtLeastOneConfig { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Bottom"></a> ToolbarPage\_Bottom
+
+```csharp
+public static string ToolbarPage_Bottom { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Cancel"></a> ToolbarPage\_Cancel
+
+```csharp
+public static string ToolbarPage_Cancel { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Center"></a> ToolbarPage\_Center
+
+```csharp
+public static string ToolbarPage_Center { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ComponentLibrary"></a> ToolbarPage\_ComponentLibrary
+
+```csharp
+public static string ToolbarPage_ComponentLibrary { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ComponentLibraryHint"></a> ToolbarPage\_ComponentLibraryHint
+
+```csharp
+public static string ToolbarPage_ComponentLibraryHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ComponentProperties"></a> ToolbarPage\_ComponentProperties
+
+```csharp
+public static string ToolbarPage_ComponentProperties { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ComponentSettings"></a> ToolbarPage\_ComponentSettings
+
+```csharp
+public static string ToolbarPage_ComponentSettings { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ConfigProfiles"></a> ToolbarPage\_ConfigProfiles
+
+```csharp
+public static string ToolbarPage_ConfigProfiles { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ConfirmDelete"></a> ToolbarPage\_ConfirmDelete
+
+```csharp
+public static string ToolbarPage_ConfirmDelete { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ConfirmDeleteConfig"></a> ToolbarPage\_ConfirmDeleteConfig
+
+```csharp
+public static string ToolbarPage_ConfirmDeleteConfig { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_CopyConfig"></a> ToolbarPage\_CopyConfig
+
+```csharp
+public static string ToolbarPage_CopyConfig { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_DeleteProfile"></a> ToolbarPage\_DeleteProfile
+
+```csharp
+public static string ToolbarPage_DeleteProfile { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_DisplayMode"></a> ToolbarPage\_DisplayMode
+
+```csharp
+public static string ToolbarPage_DisplayMode { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Duplicate"></a> ToolbarPage\_Duplicate
+
+```csharp
+public static string ToolbarPage_Duplicate { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_DuplicateConfigExists"></a> ToolbarPage\_DuplicateConfigExists
+
+```csharp
+public static string ToolbarPage_DuplicateConfigExists { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_DuplicateProfile"></a> ToolbarPage\_DuplicateProfile
+
+```csharp
+public static string ToolbarPage_DuplicateProfile { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_EnableConditionGroup"></a> ToolbarPage\_EnableConditionGroup
+
+```csharp
+public static string ToolbarPage_EnableConditionGroup { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_EnterConfigName"></a> ToolbarPage\_EnterConfigName
+
+```csharp
+public static string ToolbarPage_EnterConfigName { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_EnterNewConfigName"></a> ToolbarPage\_EnterNewConfigName
+
+```csharp
+public static string ToolbarPage_EnterNewConfigName { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_FixedHeight"></a> ToolbarPage\_FixedHeight
+
+```csharp
+public static string ToolbarPage_FixedHeight { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_FixedWidth"></a> ToolbarPage\_FixedWidth
+
+```csharp
+public static string ToolbarPage_FixedWidth { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_FontSize"></a> ToolbarPage\_FontSize
+
+```csharp
+public static string ToolbarPage_FontSize { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_GroupChildren"></a> ToolbarPage\_GroupChildren
+
+```csharp
+public static string ToolbarPage_GroupChildren { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_GroupChildrenHint"></a> ToolbarPage\_GroupChildrenHint
+
+```csharp
+public static string ToolbarPage_GroupChildrenHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_HideByRules"></a> ToolbarPage\_HideByRules
+
+```csharp
+public static string ToolbarPage_HideByRules { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_HideByRulesDesc"></a> ToolbarPage\_HideByRulesDesc
+
+```csharp
+public static string ToolbarPage_HideByRulesDesc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Hint"></a> ToolbarPage\_Hint
+
+```csharp
+public static string ToolbarPage_Hint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_HorizontalAlignment"></a> ToolbarPage\_HorizontalAlignment
+
+```csharp
+public static string ToolbarPage_HorizontalAlignment { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_IconSize"></a> ToolbarPage\_IconSize
+
+```csharp
+public static string ToolbarPage_IconSize { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Left"></a> ToolbarPage\_Left
+
+```csharp
+public static string ToolbarPage_Left { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Margin"></a> ToolbarPage\_Margin
+
+```csharp
+public static string ToolbarPage_Margin { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_MarginHint"></a> ToolbarPage\_MarginHint
+
+```csharp
+public static string ToolbarPage_MarginHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_MaxHeight"></a> ToolbarPage\_MaxHeight
+
+```csharp
+public static string ToolbarPage_MaxHeight { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_MaxWidth"></a> ToolbarPage\_MaxWidth
+
+```csharp
+public static string ToolbarPage_MaxWidth { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_MinHeight"></a> ToolbarPage\_MinHeight
+
+```csharp
+public static string ToolbarPage_MinHeight { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_MinWidth"></a> ToolbarPage\_MinWidth
+
+```csharp
+public static string ToolbarPage_MinWidth { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_NewConfig"></a> ToolbarPage\_NewConfig
+
+```csharp
+public static string ToolbarPage_NewConfig { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_NewProfile"></a> ToolbarPage\_NewProfile
+
+```csharp
+public static string ToolbarPage_NewProfile { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_OK"></a> ToolbarPage\_OK
+
+```csharp
+public static string ToolbarPage_OK { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Opacity"></a> ToolbarPage\_Opacity
+
+```csharp
+public static string ToolbarPage_Opacity { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_QuickPaletteDisplayModeDesc"></a> ToolbarPage\_QuickPaletteDisplayModeDesc
+
+```csharp
+public static string ToolbarPage_QuickPaletteDisplayModeDesc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ResetComponentSettings"></a> ToolbarPage\_ResetComponentSettings
+
+```csharp
+public static string ToolbarPage_ResetComponentSettings { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ResetLayout"></a> ToolbarPage\_ResetLayout
+
+```csharp
+public static string ToolbarPage_ResetLayout { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Reverse"></a> ToolbarPage\_Reverse
+
+```csharp
+public static string ToolbarPage_Reverse { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Right"></a> ToolbarPage\_Right
+
+```csharp
+public static string ToolbarPage_Right { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Rule"></a> ToolbarPage\_Rule
+
+```csharp
+public static string ToolbarPage_Rule { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_SeparateBorder"></a> ToolbarPage\_SeparateBorder
+
+```csharp
+public static string ToolbarPage_SeparateBorder { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_SeparateBorderDesc"></a> ToolbarPage\_SeparateBorderDesc
+
+```csharp
+public static string ToolbarPage_SeparateBorderDesc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Size"></a> ToolbarPage\_Size
+
+```csharp
+public static string ToolbarPage_Size { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Stretch"></a> ToolbarPage\_Stretch
+
+```csharp
+public static string ToolbarPage_Stretch { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Top"></a> ToolbarPage\_Top
+
+```csharp
+public static string ToolbarPage_Top { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_VerticalAlignment"></a> ToolbarPage\_VerticalAlignment
+
+```csharp
+public static string ToolbarPage_VerticalAlignment { get; }
 ```
 
 #### Property Value
@@ -888,36 +1418,6 @@ public static string Tools_Save { get; }
 
 ```csharp
 public static string Tools_Screenshot { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_Tools_Settings"></a> Tools\_Settings
-
-```csharp
-public static string Tools_Settings { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_Tools_SingleDraw"></a> Tools\_SingleDraw
-
-```csharp
-public static string Tools_SingleDraw { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_Tools_Timer"></a> Tools\_Timer
-
-```csharp
-public static string Tools_Timer { get; }
 ```
 
 #### Property Value

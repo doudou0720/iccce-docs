@@ -54,10 +54,30 @@ public static string Backup_AutoPeriodic { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_StorageStrings_Backup_CreateFailedMsg"></a> Backup\_CreateFailedMsg
+
+```csharp
+public static string Backup_CreateFailedMsg { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_StorageStrings_Backup_Desc"></a> Backup\_Desc
 
 ```csharp
 public static string Backup_Desc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Backup_FailedTitle"></a> Backup\_FailedTitle
+
+```csharp
+public static string Backup_FailedTitle { get; }
 ```
 
 #### Property Value
@@ -154,6 +174,26 @@ public static string Backup_Restore { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_StorageStrings_Backup_SuccessMsg"></a> Backup\_SuccessMsg
+
+```csharp
+public static string Backup_SuccessMsg { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Backup_SuccessTitle"></a> Backup\_SuccessTitle
+
+```csharp
+public static string Backup_SuccessTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_StorageStrings_Backup_Title"></a> Backup\_Title
 
 ```csharp
@@ -184,10 +224,110 @@ public static ResourceManager ResourceManager { get; }
 
  ResourceManager
 
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_AutoDeleteHint"></a> Storage\_AutoDeleteHint
+### <a id="Ink_Canvas_Properties_StorageStrings_Restore_AllJsonFilter"></a> Restore\_AllJsonFilter
 
 ```csharp
-public static string Storage_AutoDeleteHint { get; }
+public static string Restore_AllJsonFilter { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Restore_ConfirmMsg"></a> Restore\_ConfirmMsg
+
+```csharp
+public static string Restore_ConfirmMsg { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Restore_ConfirmTitle"></a> Restore\_ConfirmTitle
+
+```csharp
+public static string Restore_ConfirmTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Restore_FailedMsg"></a> Restore\_FailedMsg
+
+```csharp
+public static string Restore_FailedMsg { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Restore_FailedTitle"></a> Restore\_FailedTitle
+
+```csharp
+public static string Restore_FailedTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Restore_FilterLabel"></a> Restore\_FilterLabel
+
+```csharp
+public static string Restore_FilterLabel { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Restore_NoBackupFound"></a> Restore\_NoBackupFound
+
+```csharp
+public static string Restore_NoBackupFound { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Restore_ParseFailed"></a> Restore\_ParseFailed
+
+```csharp
+public static string Restore_ParseFailed { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Restore_SelectFileTitle"></a> Restore\_SelectFileTitle
+
+```csharp
+public static string Restore_SelectFileTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Restore_SuccessMsg"></a> Restore\_SuccessMsg
+
+```csharp
+public static string Restore_SuccessMsg { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Restore_SuccessTitle"></a> Restore\_SuccessTitle
+
+```csharp
+public static string Restore_SuccessTitle { get; }
 ```
 
 #### Property Value
@@ -198,16 +338,6 @@ public static string Storage_AutoDeleteHint { get; }
 
 ```csharp
 public static string Storage_AutoDeleteTitle { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_AutoSaveHint"></a> Storage\_AutoSaveHint
-
-```csharp
-public static string Storage_AutoSaveHint { get; }
 ```
 
 #### Property Value
@@ -308,16 +438,6 @@ public static string Storage_AutoSaveInterval_5Min { get; }
 
 ```csharp
 public static string Storage_AutoSaveInterval_60Min { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_AutoScreenshotMinInk"></a> Storage\_AutoScreenshotMinInk
-
-```csharp
-public static string Storage_AutoScreenshotMinInk { get; }
 ```
 
 #### Property Value
@@ -454,16 +574,6 @@ public static string Storage_Core_Desc { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_Core_Header"></a> Storage\_Core\_Header
-
-```csharp
-public static string Storage_Core_Header { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_StorageStrings_Storage_Core_NotCleanable"></a> Storage\_Core\_NotCleanable
 
 ```csharp
@@ -574,30 +684,10 @@ public static string Storage_Legend_Ink { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_Legend_Logs"></a> Storage\_Legend\_Logs
-
-```csharp
-public static string Storage_Legend_Logs { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_StorageStrings_Storage_Legend_Other"></a> Storage\_Legend\_Other
 
 ```csharp
 public static string Storage_Legend_Other { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_Legend_Plugins"></a> Storage\_Legend\_Plugins
-
-```csharp
-public static string Storage_Legend_Plugins { get; }
 ```
 
 #### Property Value
@@ -664,60 +754,10 @@ public static string Storage_Other_Desc { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_Other_Header"></a> Storage\_Other\_Header
-
-```csharp
-public static string Storage_Other_Header { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_StorageStrings_Storage_PathBrowse"></a> Storage\_PathBrowse
 
 ```csharp
 public static string Storage_PathBrowse { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_PathPermissionHint"></a> Storage\_PathPermissionHint
-
-```csharp
-public static string Storage_PathPermissionHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_PathSetToD"></a> Storage\_PathSetToD
-
-```csharp
-public static string Storage_PathSetToD { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_PathSetToDocuments"></a> Storage\_PathSetToDocuments
-
-```csharp
-public static string Storage_PathSetToDocuments { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_PathTitle"></a> Storage\_PathTitle
-
-```csharp
-public static string Storage_PathTitle { get; }
 ```
 
 #### Property Value
@@ -764,50 +804,10 @@ public static string Storage_Refresh { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_RetentionTitle"></a> Storage\_RetentionTitle
-
-```csharp
-public static string Storage_RetentionTitle { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_RetentionUnitDays"></a> Storage\_RetentionUnitDays
-
-```csharp
-public static string Storage_RetentionUnitDays { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_StorageStrings_Storage_SaveAsXml"></a> Storage\_SaveAsXml
 
 ```csharp
 public static string Storage_SaveAsXml { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_SaveAsXmlHint"></a> Storage\_SaveAsXmlHint
-
-```csharp
-public static string Storage_SaveAsXmlHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StorageStrings_Storage_SaveFullPageHint"></a> Storage\_SaveFullPageHint
-
-```csharp
-public static string Storage_SaveFullPageHint { get; }
 ```
 
 #### Property Value

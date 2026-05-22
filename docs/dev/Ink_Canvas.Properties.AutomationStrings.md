@@ -144,16 +144,6 @@ public static string AutoFold_App_SeewoLightBoard5C { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_SeewoPinco"></a> AutoFold\_App\_SeewoPinco
-
-```csharp
-public static string AutoFold_App_SeewoPinco { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_WenXiangBoard"></a> AutoFold\_App\_WenXiangBoard
 
 ```csharp
@@ -184,10 +174,30 @@ public static string AutoFold_App_YiYunBooth { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_IgnoreEasiNoteDesktopAnno"></a> AutoFold\_IgnoreEasiNoteDesktopAnno
+### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_Group_Hite"></a> AutoFold\_Group\_Hite
 
 ```csharp
-public static string AutoFold_IgnoreEasiNoteDesktopAnno { get; }
+public static string AutoFold_Group_Hite { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_Group_Other"></a> AutoFold\_Group\_Other
+
+```csharp
+public static string AutoFold_Group_Other { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_Group_Seewo"></a> AutoFold\_Group\_Seewo
+
+```csharp
+public static string AutoFold_Group_Seewo { get; }
 ```
 
 #### Property Value
@@ -294,16 +304,6 @@ public static string AutoKill_PptToolsHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_SameAppTitle"></a> AutoKill\_SameAppTitle
-
-```csharp
-public static string AutoKill_SameAppTitle { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_SeewoDesktop2Anno"></a> AutoKill\_SeewoDesktop2Anno
 
 ```csharp
@@ -338,26 +338,6 @@ public static string AutoKill_Title { get; }
 
 ```csharp
 public static string AutoKill_YouJiao { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AutomationStrings_AutomationPanel_Hint"></a> AutomationPanel\_Hint
-
-```csharp
-public static string AutomationPanel_Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AutomationStrings_AutomationPanel_Hint_1"></a> AutomationPanel\_Hint\_1
-
-```csharp
-public static string AutomationPanel_Hint_1 { get; }
 ```
 
 #### Property Value
@@ -544,10 +524,120 @@ public static CultureInfo Culture { get; set; }
 
  [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
-### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_App_AiClass"></a> FloatingInterceptor\_App\_AiClass
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_CheckDesc"></a> FileAssoc\_CheckDesc
 
 ```csharp
-public static string FloatingInterceptor_App_AiClass { get; }
+public static string FileAssoc_CheckDesc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_CheckError"></a> FileAssoc\_CheckError
+
+```csharp
+public static string FileAssoc_CheckError { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_NotChecked"></a> FileAssoc\_NotChecked
+
+```csharp
+public static string FileAssoc_NotChecked { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_NotRegistered"></a> FileAssoc\_NotRegistered
+
+```csharp
+public static string FileAssoc_NotRegistered { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_RegisterDesc"></a> FileAssoc\_RegisterDesc
+
+```csharp
+public static string FileAssoc_RegisterDesc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_RegisterFailed"></a> FileAssoc\_RegisterFailed
+
+```csharp
+public static string FileAssoc_RegisterFailed { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_RegisterHeader"></a> FileAssoc\_RegisterHeader
+
+```csharp
+public static string FileAssoc_RegisterHeader { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_RegisterSuccess"></a> FileAssoc\_RegisterSuccess
+
+```csharp
+public static string FileAssoc_RegisterSuccess { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_Registered"></a> FileAssoc\_Registered
+
+```csharp
+public static string FileAssoc_Registered { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_UnregisterDesc"></a> FileAssoc\_UnregisterDesc
+
+```csharp
+public static string FileAssoc_UnregisterDesc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_UnregisterFailed"></a> FileAssoc\_UnregisterFailed
+
+```csharp
+public static string FileAssoc_UnregisterFailed { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_UnregisterSuccess"></a> FileAssoc\_UnregisterSuccess
+
+```csharp
+public static string FileAssoc_UnregisterSuccess { get; }
 ```
 
 #### Property Value
@@ -588,26 +678,6 @@ public static string FloatingInterceptor_App_HiteAnnotation { get; }
 
 ```csharp
 public static string FloatingInterceptor_App_IntelligentClass { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_App_SeewoBoard3"></a> FloatingInterceptor\_App\_SeewoBoard3
-
-```csharp
-public static string FloatingInterceptor_App_SeewoBoard3 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_App_SeewoBoard5"></a> FloatingInterceptor\_App\_SeewoBoard5
-
-```csharp
-public static string FloatingInterceptor_App_SeewoBoard5 { get; }
 ```
 
 #### Property Value
@@ -674,16 +744,6 @@ public static string FloatingInterceptor_App_SeewoPincoDrawing { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_Desc"></a> FloatingInterceptor\_Desc
-
-```csharp
-public static string FloatingInterceptor_Desc { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_Enable"></a> FloatingInterceptor\_Enable
 
 ```csharp
@@ -694,10 +754,10 @@ public static string FloatingInterceptor_Enable { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_StatusNotRunning"></a> FloatingInterceptor\_StatusNotRunning
+### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_Group_Seewo"></a> FloatingInterceptor\_Group\_Seewo
 
 ```csharp
-public static string FloatingInterceptor_StatusNotRunning { get; }
+public static string FloatingInterceptor_Group_Seewo { get; }
 ```
 
 #### Property Value
@@ -774,16 +834,6 @@ public static string FoldMode_ExitToAnnotationHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_AutomationStrings_FoldMode_Title"></a> FoldMode\_Title
-
-```csharp
-public static string FoldMode_Title { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_AutomationStrings_ResourceManager"></a> ResourceManager
 
 ```csharp
@@ -793,6 +843,26 @@ public static ResourceManager ResourceManager { get; }
 #### Property Value
 
  ResourceManager
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_Storage_AutoDeleteDaysThreshold"></a> Storage\_AutoDeleteDaysThreshold
+
+```csharp
+public static string Storage_AutoDeleteDaysThreshold { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_Storage_MinAutomationStrokes"></a> Storage\_MinAutomationStrokes
+
+```csharp
+public static string Storage_MinAutomationStrokes { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 

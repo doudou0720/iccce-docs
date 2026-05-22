@@ -44,86 +44,6 @@ public static ResourceManager ResourceManager { get; }
 
  ResourceManager
 
-### <a id="Ink_Canvas_Properties_TimerStrings_TimeRange_Hint"></a> TimeRange\_Hint
-
-```csharp
-public static string TimeRange_Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_TimerStrings_TimerPanel_Hint"></a> TimerPanel\_Hint
-
-```csharp
-public static string TimerPanel_Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_TimerStrings_TimerPanel_Hint_1"></a> TimerPanel\_Hint\_1
-
-```csharp
-public static string TimerPanel_Hint_1 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_TimerStrings_TimerPanel_Hint_2"></a> TimerPanel\_Hint\_2
-
-```csharp
-public static string TimerPanel_Hint_2 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_TimerStrings_TimerPanel_Hint_3"></a> TimerPanel\_Hint\_3
-
-```csharp
-public static string TimerPanel_Hint_3 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_TimerStrings_TimerPanel_Hint_4"></a> TimerPanel\_Hint\_4
-
-```csharp
-public static string TimerPanel_Hint_4 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_TimerStrings_TimerPanel_Hint_5"></a> TimerPanel\_Hint\_5
-
-```csharp
-public static string TimerPanel_Hint_5 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_TimerStrings_TimerPanel_Hint_6"></a> TimerPanel\_Hint\_6
-
-```csharp
-public static string TimerPanel_Hint_6 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_CustomSoundLabel"></a> Timer\_CustomSoundLabel
 
 ```csharp
@@ -184,16 +104,6 @@ public static string Timer_ProgressiveCustomLabel { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_TimerStrings_Timer_ProgressiveReset"></a> Timer\_ProgressiveReset
-
-```csharp
-public static string Timer_ProgressiveReset { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_ProgressiveSelectFile"></a> Timer\_ProgressiveSelectFile
 
 ```csharp
@@ -218,16 +128,6 @@ public static string Timer_ProgressiveVolume { get; }
 
 ```csharp
 public static string Timer_Reset { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_TimerStrings_Timer_SelectFile"></a> Timer\_SelectFile
-
-```csharp
-public static string Timer_SelectFile { get; }
 ```
 
 #### Property Value

@@ -34,110 +34,20 @@ public static CultureInfo Culture { get; set; }
 
  [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
-### <a id="Ink_Canvas_Properties_RandomStrings_LuckyRandomPanel_Hint"></a> LuckyRandomPanel\_Hint
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_AlarmSetupSuccess"></a> Random\_AlarmSetupSuccess
 
 ```csharp
-public static string LuckyRandomPanel_Hint { get; }
+public static string Random_AlarmSetupSuccess { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_RandomStrings_LuckyRandomPanel_Hint_1"></a> LuckyRandomPanel\_Hint\_1
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_AudioFilter"></a> Random\_AudioFilter
 
 ```csharp
-public static string LuckyRandomPanel_Hint_1 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_RandomStrings_LuckyRandomPanel_Hint_10"></a> LuckyRandomPanel\_Hint\_10
-
-```csharp
-public static string LuckyRandomPanel_Hint_10 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_RandomStrings_LuckyRandomPanel_Hint_2"></a> LuckyRandomPanel\_Hint\_2
-
-```csharp
-public static string LuckyRandomPanel_Hint_2 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_RandomStrings_LuckyRandomPanel_Hint_3"></a> LuckyRandomPanel\_Hint\_3
-
-```csharp
-public static string LuckyRandomPanel_Hint_3 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_RandomStrings_LuckyRandomPanel_Hint_4"></a> LuckyRandomPanel\_Hint\_4
-
-```csharp
-public static string LuckyRandomPanel_Hint_4 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_RandomStrings_LuckyRandomPanel_Hint_5"></a> LuckyRandomPanel\_Hint\_5
-
-```csharp
-public static string LuckyRandomPanel_Hint_5 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_RandomStrings_LuckyRandomPanel_Hint_6"></a> LuckyRandomPanel\_Hint\_6
-
-```csharp
-public static string LuckyRandomPanel_Hint_6 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_RandomStrings_LuckyRandomPanel_Hint_7"></a> LuckyRandomPanel\_Hint\_7
-
-```csharp
-public static string LuckyRandomPanel_Hint_7 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_RandomStrings_LuckyRandomPanel_Hint_8"></a> LuckyRandomPanel\_Hint\_8
-
-```csharp
-public static string LuckyRandomPanel_Hint_8 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_RandomStrings_LuckyRandomPanel_Hint_9"></a> LuckyRandomPanel\_Hint\_9
-
-```csharp
-public static string LuckyRandomPanel_Hint_9 { get; }
+public static string Random_AudioFilter { get; }
 ```
 
 #### Property Value
@@ -164,40 +74,10 @@ public static string Random_BackgroundSettingsTitle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_RandomStrings_Random_Background_Default"></a> Random\_Background\_Default
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_CustomAlarmSuccess"></a> Random\_CustomAlarmSuccess
 
 ```csharp
-public static string Random_Background_Default { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_RandomStrings_Random_CustomBackgroundLabel"></a> Random\_CustomBackgroundLabel
-
-```csharp
-public static string Random_CustomBackgroundLabel { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_RandomStrings_Random_CustomBackground_Manage"></a> Random\_CustomBackground\_Manage
-
-```csharp
-public static string Random_CustomBackground_Manage { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_RandomStrings_Random_CustomBackground_Upload"></a> Random\_CustomBackground\_Upload
-
-```csharp
-public static string Random_CustomBackground_Upload { get; }
+public static string Random_CustomAlarmSuccess { get; }
 ```
 
 #### Property Value
@@ -338,6 +218,46 @@ public static string Random_OnceCloseDelay { get; }
 
 ```csharp
 public static string Random_OnceMaxStudents { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_ResetAlarmSuccess"></a> Random\_ResetAlarmSuccess
+
+```csharp
+public static string Random_ResetAlarmSuccess { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_ResetSuccess"></a> Random\_ResetSuccess
+
+```csharp
+public static string Random_ResetSuccess { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_SelectProgressiveAlarm"></a> Random\_SelectProgressiveAlarm
+
+```csharp
+public static string Random_SelectProgressiveAlarm { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_SelectTimerAlarm"></a> Random\_SelectTimerAlarm
+
+```csharp
+public static string Random_SelectTimerAlarm { get; }
 ```
 
 #### Property Value

@@ -34,46 +34,6 @@ public static string AutoUpdateHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_StartupStrings_Channel_Beta"></a> Channel\_Beta
-
-```csharp
-public static string Channel_Beta { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_Channel_Hint"></a> Channel\_Hint
-
-```csharp
-public static string Channel_Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_Channel_Preview"></a> Channel\_Preview
-
-```csharp
-public static string Channel_Preview { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_Channel_Release"></a> Channel\_Release
-
-```csharp
-public static string Channel_Release { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_StartupStrings_Culture"></a> Culture
 
 ```csharp
@@ -98,16 +58,6 @@ public static string EnableNibMode { get; }
 
 ```csharp
 public static string EnableNibModeHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_EndTime"></a> EndTime
-
-```csharp
-public static string EndTime { get; }
 ```
 
 #### Property Value
@@ -164,46 +114,6 @@ public static string FoldAtStartupHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_StartupStrings_HistoryRollbackHint"></a> HistoryRollbackHint
-
-```csharp
-public static string HistoryRollbackHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_ManualUpdateHint"></a> ManualUpdateHint
-
-```csharp
-public static string ManualUpdateHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_ManualUpdate_Hint"></a> ManualUpdate\_Hint
-
-```csharp
-public static string ManualUpdate_Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_MinimizeToSidebar"></a> MinimizeToSidebar
-
-```csharp
-public static string MinimizeToSidebar { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_StartupStrings_NoBorderMode"></a> NoBorderMode
 
 ```csharp
@@ -244,16 +154,6 @@ public static string NoFocusModeHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_StartupStrings_PPTOnlyModeHint"></a> PPTOnlyModeHint
-
-```csharp
-public static string PPTOnlyModeHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_StartupStrings_ResourceManager"></a> ResourceManager
 
 ```csharp
@@ -263,26 +163,6 @@ public static ResourceManager ResourceManager { get; }
 #### Property Value
 
  ResourceManager
-
-### <a id="Ink_Canvas_Properties_StartupStrings_Rollback_Hint"></a> Rollback\_Hint
-
-```csharp
-public static string Rollback_Hint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_RunAtLogin"></a> RunAtLogin
-
-```csharp
-public static string RunAtLogin { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_RunAtStartup"></a> RunAtStartup
 
@@ -318,36 +198,6 @@ public static string SilentUpdateFullHint { get; }
 
 ```csharp
 public static string SilentUpdateHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_SilentUpdateTimePeriod"></a> SilentUpdateTimePeriod
-
-```csharp
-public static string SilentUpdateTimePeriod { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_SilentUpdate_AfterDownloadHint"></a> SilentUpdate\_AfterDownloadHint
-
-```csharp
-public static string SilentUpdate_AfterDownloadHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_SilentUpdate_Hint"></a> SilentUpdate\_Hint
-
-```csharp
-public static string SilentUpdate_Hint { get; }
 ```
 
 #### Property Value
@@ -394,16 +244,6 @@ public static string Start { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_StartupStrings_StartTime"></a> StartTime
-
-```csharp
-public static string StartTime { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_StartupStrings_TimePeriodHint"></a> TimePeriodHint
 
 ```csharp
@@ -438,6 +278,16 @@ public static string TopMostHint { get; }
 
 ```csharp
 public static string TopMostMode { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_TopMostMode_CurrentUIAccessNormal"></a> TopMostMode\_CurrentUIAccessNormal
+
+```csharp
+public static string TopMostMode_CurrentUIAccessNormal { get; }
 ```
 
 #### Property Value
@@ -504,46 +354,6 @@ public static string TopMostMode_UIA_RestartRequired { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_StartupStrings_UIATopMost"></a> UIATopMost
-
-```csharp
-public static string UIATopMost { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_UIATopMostHint"></a> UIATopMostHint
-
-```csharp
-public static string UIATopMostHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_UIAccessTopMostHint"></a> UIAccessTopMostHint
-
-```csharp
-public static string UIAccessTopMostHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_UIAccessTopMostHint_1"></a> UIAccessTopMostHint\_1
-
-```csharp
-public static string UIAccessTopMostHint_1 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_StartupStrings_UpdateChannel"></a> UpdateChannel
 
 ```csharp
@@ -578,16 +388,6 @@ public static string UpdatePackageArchitecture { get; }
 
 ```csharp
 public static string UpdatePackageArchitectureHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_VersionFix_Hint"></a> VersionFix\_Hint
-
-```csharp
-public static string VersionFix_Hint { get; }
 ```
 
 #### Property Value

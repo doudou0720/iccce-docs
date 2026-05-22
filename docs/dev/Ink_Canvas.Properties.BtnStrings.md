@@ -44,66 +44,6 @@ public static string Exit { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_BtnStrings_FixVersion"></a> FixVersion
-
-```csharp
-public static string FixVersion { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_BtnStrings_HistoryRollback"></a> HistoryRollback
-
-```csharp
-public static string HistoryRollback { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_BtnStrings_ManualUpdate"></a> ManualUpdate
-
-```csharp
-public static string ManualUpdate { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_BtnStrings_OpenNewSettings"></a> OpenNewSettings
-
-```csharp
-public static string OpenNewSettings { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_BtnStrings_OpenPluginManager"></a> OpenPluginManager
-
-```csharp
-public static string OpenPluginManager { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_BtnStrings_Reset"></a> Reset
-
-```csharp
-public static string Reset { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_BtnStrings_ResourceManager"></a> ResourceManager
 
 ```csharp
@@ -118,16 +58,6 @@ public static ResourceManager ResourceManager { get; }
 
 ```csharp
 public static string Restart { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_BtnStrings_Rollback"></a> Rollback
-
-```csharp
-public static string Rollback { get; }
 ```
 
 #### Property Value

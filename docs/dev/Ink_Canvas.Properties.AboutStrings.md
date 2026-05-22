@@ -24,16 +24,6 @@ public static class AboutStrings
 
 ## Properties
 
-### <a id="Ink_Canvas_Properties_AboutStrings_App_Title"></a> App\_Title
-
-```csharp
-public static string App_Title { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_AboutStrings_Copyright"></a> Copyright
 
 ```csharp
@@ -53,46 +43,6 @@ public static CultureInfo Culture { get; set; }
 #### Property Value
 
  [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
-
-### <a id="Ink_Canvas_Properties_AboutStrings_Dev_ICA"></a> Dev\_ICA
-
-```csharp
-public static string Dev_ICA { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AboutStrings_Dev_ICC"></a> Dev\_ICC
-
-```csharp
-public static string Dev_ICC { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AboutStrings_Dev_ICCCE"></a> Dev\_ICCCE
-
-```csharp
-public static string Dev_ICCCE { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AboutStrings_Dev_InkCanvas"></a> Dev\_InkCanvas
-
-```csharp
-public static string Dev_InkCanvas { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AboutStrings_DevelopersLabel"></a> DevelopersLabel
 
@@ -124,6 +74,16 @@ public static string DeviceInfo { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_AboutStrings_DeviceInfo_Failed"></a> DeviceInfo\_Failed
+
+```csharp
+public static string DeviceInfo_Failed { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AboutStrings_DeviceInfo_Loading"></a> DeviceInfo\_Loading
 
 ```csharp
@@ -148,16 +108,6 @@ public static string LaunchCountLabel { get; }
 
 ```csharp
 public static string LicenseBody { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AboutStrings_LicenseHint"></a> LicenseHint
-
-```csharp
-public static string LicenseHint { get; }
 ```
 
 #### Property Value
@@ -214,20 +164,80 @@ public static string PrivacyAndTelemetry { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_AboutStrings_PrivacyCheckboxPrefix"></a> PrivacyCheckboxPrefix
+### <a id="Ink_Canvas_Properties_AboutStrings_Privacy_ConfirmDisableTelemetry_Message"></a> Privacy\_ConfirmDisableTelemetry\_Message
 
 ```csharp
-public static string PrivacyCheckboxPrefix { get; }
+public static string Privacy_ConfirmDisableTelemetry_Message { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_AboutStrings_PrivacyCheckboxSuffix"></a> PrivacyCheckboxSuffix
+### <a id="Ink_Canvas_Properties_AboutStrings_Privacy_ConfirmDisableTelemetry_Title"></a> Privacy\_ConfirmDisableTelemetry\_Title
 
 ```csharp
-public static string PrivacyCheckboxSuffix { get; }
+public static string Privacy_ConfirmDisableTelemetry_Title { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AboutStrings_Privacy_ConfirmRevokePrivacy_Message"></a> Privacy\_ConfirmRevokePrivacy\_Message
+
+```csharp
+public static string Privacy_ConfirmRevokePrivacy_Message { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AboutStrings_Privacy_ConfirmRevokePrivacy_Title"></a> Privacy\_ConfirmRevokePrivacy\_Title
+
+```csharp
+public static string Privacy_ConfirmRevokePrivacy_Title { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AboutStrings_Privacy_PrivacyAgreementRequired_Message"></a> Privacy\_PrivacyAgreementRequired\_Message
+
+```csharp
+public static string Privacy_PrivacyAgreementRequired_Message { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AboutStrings_Privacy_PrivacyAgreementRequired_Title"></a> Privacy\_PrivacyAgreementRequired\_Title
+
+```csharp
+public static string Privacy_PrivacyAgreementRequired_Title { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AboutStrings_Privacy_PrivacyFileNotFound_Message"></a> Privacy\_PrivacyFileNotFound\_Message
+
+```csharp
+public static string Privacy_PrivacyFileNotFound_Message { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AboutStrings_Privacy_PrivacyFileNotFound_Title"></a> Privacy\_PrivacyFileNotFound\_Title
+
+```csharp
+public static string Privacy_PrivacyFileNotFound_Title { get; }
 ```
 
 #### Property Value
@@ -253,36 +263,6 @@ public static ResourceManager ResourceManager { get; }
 #### Property Value
 
  ResourceManager
-
-### <a id="Ink_Canvas_Properties_AboutStrings_Source_ICA"></a> Source\_ICA
-
-```csharp
-public static string Source_ICA { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AboutStrings_Source_ICC"></a> Source\_ICC
-
-```csharp
-public static string Source_ICC { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_AboutStrings_Source_InkCanvas"></a> Source\_InkCanvas
-
-```csharp
-public static string Source_InkCanvas { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AboutStrings_TelemetryLabel"></a> TelemetryLabel
 
@@ -354,6 +334,16 @@ public static string TotalUsageLabel { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_AboutStrings_Unknown"></a> Unknown
+
+```csharp
+public static string Unknown { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AboutStrings_UpdatePriorityLabel"></a> UpdatePriorityLabel
 
 ```csharp
@@ -364,10 +354,70 @@ public static string UpdatePriorityLabel { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_AboutStrings_UpdatePriority_High"></a> UpdatePriority\_High
+
+```csharp
+public static string UpdatePriority_High { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AboutStrings_UpdatePriority_Low"></a> UpdatePriority\_Low
+
+```csharp
+public static string UpdatePriority_Low { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AboutStrings_UpdatePriority_Medium"></a> UpdatePriority\_Medium
+
+```csharp
+public static string UpdatePriority_Medium { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AboutStrings_UsageFrequencyLabel"></a> UsageFrequencyLabel
 
 ```csharp
 public static string UsageFrequencyLabel { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AboutStrings_UsageFrequency_High"></a> UsageFrequency\_High
+
+```csharp
+public static string UsageFrequency_High { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AboutStrings_UsageFrequency_Low"></a> UsageFrequency\_Low
+
+```csharp
+public static string UsageFrequency_Low { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AboutStrings_UsageFrequency_Medium"></a> UsageFrequency\_Medium
+
+```csharp
+public static string UsageFrequency_Medium { get; }
 ```
 
 #### Property Value

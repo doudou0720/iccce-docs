@@ -44,26 +44,6 @@ public static string FileAssoc_Check { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_SecurityStrings_FileAssoc_Desc"></a> FileAssoc\_Desc
-
-```csharp
-public static string FileAssoc_Desc { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_SecurityStrings_FileAssoc_Register"></a> FileAssoc\_Register
-
-```csharp
-public static string FileAssoc_Register { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_SecurityStrings_FileAssoc_Title"></a> FileAssoc\_Title
 
 ```csharp
@@ -124,16 +104,6 @@ public static string SecurityPanel_Hint_2 { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_SecurityStrings_SecurityPanel_Hint_3"></a> SecurityPanel\_Hint\_3
-
-```csharp
-public static string SecurityPanel_Hint_3 { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_SecurityStrings_SecurityPanel_Hint_4"></a> SecurityPanel\_Hint\_4
 
 ```csharp
@@ -164,20 +134,220 @@ public static string SecurityPanel__Settingsjson_Hint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_SecurityStrings_SettingsBaseView_Binding_DescriptionHint"></a> SettingsBaseView\_Binding\_DescriptionHint
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_DisablePasswordMessage"></a> Security\_DisablePasswordMessage
 
 ```csharp
-public static string SettingsBaseView_Binding_DescriptionHint { get; }
+public static string Security_DisablePasswordMessage { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_SecurityStrings_Tooltip_IccProtocol"></a> Tooltip\_IccProtocol
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_DisablePasswordTitle"></a> Security\_DisablePasswordTitle
 
 ```csharp
-public static string Tooltip_IccProtocol { get; }
+public static string Security_DisablePasswordTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_EnablePassword"></a> Security\_EnablePassword
+
+```csharp
+public static string Security_EnablePassword { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_EnableTotp"></a> Security\_EnableTotp
+
+```csharp
+public static string Security_EnableTotp { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_EnableTotpHint"></a> Security\_EnableTotpHint
+
+```csharp
+public static string Security_EnableTotpHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_GenerateOrResetKey"></a> Security\_GenerateOrResetKey
+
+```csharp
+public static string Security_GenerateOrResetKey { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_InfoBarTitle"></a> Security\_InfoBarTitle
+
+```csharp
+public static string Security_InfoBarTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_PasswordInfoBarMessage"></a> Security\_PasswordInfoBarMessage
+
+```csharp
+public static string Security_PasswordInfoBarMessage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_PasswordManagement"></a> Security\_PasswordManagement
+
+```csharp
+public static string Security_PasswordManagement { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_ProcessProtection"></a> Security\_ProcessProtection
+
+```csharp
+public static string Security_ProcessProtection { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_ProcessProtectionInfoBarMessage"></a> Security\_ProcessProtectionInfoBarMessage
+
+```csharp
+public static string Security_ProcessProtectionInfoBarMessage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_RequirePasswordOnEnterSettings"></a> Security\_RequirePasswordOnEnterSettings
+
+```csharp
+public static string Security_RequirePasswordOnEnterSettings { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_RequirePasswordOnExit"></a> Security\_RequirePasswordOnExit
+
+```csharp
+public static string Security_RequirePasswordOnExit { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_RequirePasswordOnModifyOrClearNameList"></a> Security\_RequirePasswordOnModifyOrClearNameList
+
+```csharp
+public static string Security_RequirePasswordOnModifyOrClearNameList { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_RequirePasswordOnModifyOrClearNameList_Hint"></a> Security\_RequirePasswordOnModifyOrClearNameList\_Hint
+
+```csharp
+public static string Security_RequirePasswordOnModifyOrClearNameList_Hint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_RequirePasswordOnResetConfig"></a> Security\_RequirePasswordOnResetConfig
+
+```csharp
+public static string Security_RequirePasswordOnResetConfig { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_ResetTotpMessage"></a> Security\_ResetTotpMessage
+
+```csharp
+public static string Security_ResetTotpMessage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_ResetTotpTitle"></a> Security\_ResetTotpTitle
+
+```csharp
+public static string Security_ResetTotpTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_SectionPassword"></a> Security\_SectionPassword
+
+```csharp
+public static string Security_SectionPassword { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_SetOrChangePassword"></a> Security\_SetOrChangePassword
+
+```csharp
+public static string Security_SetOrChangePassword { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_TotpSecretKey"></a> Security\_TotpSecretKey
+
+```csharp
+public static string Security_TotpSecretKey { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_TotpSecretKeyHint"></a> Security\_TotpSecretKeyHint
+
+```csharp
+public static string Security_TotpSecretKeyHint { get; }
 ```
 
 #### Property Value
