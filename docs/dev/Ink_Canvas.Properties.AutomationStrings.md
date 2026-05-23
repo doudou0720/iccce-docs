@@ -544,6 +544,26 @@ public static string FileAssoc_CheckError { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_ExitedFoldMode"></a> FileAssoc\_ExitedFoldMode
+
+```csharp
+public static string FileAssoc_ExitedFoldMode { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_LoadedStrokesFile"></a> FileAssoc\_LoadedStrokesFile
+
+```csharp
+public static string FileAssoc_LoadedStrokesFile { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_NotChecked"></a> FileAssoc\_NotChecked
 
 ```csharp
@@ -608,6 +628,16 @@ public static string FileAssoc_RegisterSuccess { get; }
 
 ```csharp
 public static string FileAssoc_Registered { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_SwitchedToBoardMode"></a> FileAssoc\_SwitchedToBoardMode
+
+```csharp
+public static string FileAssoc_SwitchedToBoardMode { get; }
 ```
 
 #### Property Value

@@ -44,6 +44,26 @@ public static ResourceManager ResourceManager { get; }
 
  ResourceManager
 
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_45Minutes"></a> Timer\_45Minutes
+
+```csharp
+public static string Timer_45Minutes { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_CommonTab"></a> Timer\_CommonTab
+
+```csharp
+public static string Timer_CommonTab { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_CustomSoundLabel"></a> Timer\_CustomSoundLabel
 
 ```csharp
@@ -58,6 +78,96 @@ public static string Timer_CustomSoundLabel { get; }
 
 ```csharp
 public static string Timer_EnableCountUp { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_FullScreen"></a> Timer\_FullScreen
+
+```csharp
+public static string Timer_FullScreen { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_HourDigitDown"></a> Timer\_HourDigitDown
+
+```csharp
+public static string Timer_HourDigitDown { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_HourDigitUp"></a> Timer\_HourDigitUp
+
+```csharp
+public static string Timer_HourDigitUp { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_HourDown"></a> Timer\_HourDown
+
+```csharp
+public static string Timer_HourDown { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_HourUp"></a> Timer\_HourUp
+
+```csharp
+public static string Timer_HourUp { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_MinuteDigitDown"></a> Timer\_MinuteDigitDown
+
+```csharp
+public static string Timer_MinuteDigitDown { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_MinuteDigitUp"></a> Timer\_MinuteDigitUp
+
+```csharp
+public static string Timer_MinuteDigitUp { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_MinuteDown"></a> Timer\_MinuteDown
+
+```csharp
+public static string Timer_MinuteDown { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_MinuteUp"></a> Timer\_MinuteUp
+
+```csharp
+public static string Timer_MinuteUp { get; }
 ```
 
 #### Property Value
@@ -124,10 +234,70 @@ public static string Timer_ProgressiveVolume { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_RecentTab"></a> Timer\_RecentTab
+
+```csharp
+public static string Timer_RecentTab { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_Reset"></a> Timer\_Reset
 
 ```csharp
 public static string Timer_Reset { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_SecondDigitDown"></a> Timer\_SecondDigitDown
+
+```csharp
+public static string Timer_SecondDigitDown { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_SecondDigitUp"></a> Timer\_SecondDigitUp
+
+```csharp
+public static string Timer_SecondDigitUp { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_SecondDown"></a> Timer\_SecondDown
+
+```csharp
+public static string Timer_SecondDown { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_SecondUp"></a> Timer\_SecondUp
+
+```csharp
+public static string Timer_SecondUp { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_TimerStrings_Timer_StartPause"></a> Timer\_StartPause
+
+```csharp
+public static string Timer_StartPause { get; }
 ```
 
 #### Property Value

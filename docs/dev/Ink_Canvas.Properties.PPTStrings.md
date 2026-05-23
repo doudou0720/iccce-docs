@@ -294,6 +294,126 @@ public static string NotifyHiddenPage { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_CloseMagnifier"></a> PPTQuickPanel\_CloseMagnifier
+
+```csharp
+public static string PPTQuickPanel_CloseMagnifier { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_FocusMagnifier"></a> PPTQuickPanel\_FocusMagnifier
+
+```csharp
+public static string PPTQuickPanel_FocusMagnifier { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_Insert"></a> PPTQuickPanel\_Insert
+
+```csharp
+public static string PPTQuickPanel_Insert { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_MagnifierHint"></a> PPTQuickPanel\_MagnifierHint
+
+```csharp
+public static string PPTQuickPanel_MagnifierHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_OpenMagnifier"></a> PPTQuickPanel\_OpenMagnifier
+
+```csharp
+public static string PPTQuickPanel_OpenMagnifier { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_ScreenshotInsert"></a> PPTQuickPanel\_ScreenshotInsert
+
+```csharp
+public static string PPTQuickPanel_ScreenshotInsert { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_Sound"></a> PPTQuickPanel\_Sound
+
+```csharp
+public static string PPTQuickPanel_Sound { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_Zoom"></a> PPTQuickPanel\_Zoom
+
+```csharp
+public static string PPTQuickPanel_Zoom { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPT_AutoPlay_Detected"></a> PPT\_AutoPlay\_Detected
+
+```csharp
+public static string PPT_AutoPlay_Detected { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPT_HiddenSlides_Detected"></a> PPT\_HiddenSlides\_Detected
+
+```csharp
+public static string PPT_HiddenSlides_Detected { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPT_RememberLastPage_Prompt"></a> PPT\_RememberLastPage\_Prompt
+
+```csharp
+public static string PPT_RememberLastPage_Prompt { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPT_SlidesNotFound"></a> PPT\_SlidesNotFound
+
+```csharp
+public static string PPT_SlidesNotFound { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_PPTStrings_PageButtonClickable"></a> PageButtonClickable
 
 ```csharp

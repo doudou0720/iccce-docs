@@ -36,13 +36,21 @@
 
  [HotkeyStrings](Ink\_Canvas.Properties.HotkeyStrings.md)
 
+ [MainStrings](Ink\_Canvas.Properties.MainStrings.md)
+
+ [MainWindowStrings](Ink\_Canvas.Properties.MainWindowStrings.md)
+
  [NavStrings](Ink\_Canvas.Properties.NavStrings.md)
 
  [NotificationStrings](Ink\_Canvas.Properties.NotificationStrings.md)
 
+ [OobeStrings](Ink\_Canvas.Properties.OobeStrings.md)
+
  [PPTStrings](Ink\_Canvas.Properties.PPTStrings.md)
 
  [PluginStrings](Ink\_Canvas.Properties.PluginStrings.md)
+
+ [PopupStrings](Ink\_Canvas.Properties.PopupStrings.md)
 
  [RandomStrings](Ink\_Canvas.Properties.RandomStrings.md)
 

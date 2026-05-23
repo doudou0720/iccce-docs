@@ -54,6 +54,16 @@ public static string Canvas_AdvancedSmoothing { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_ApplyColor"></a> Canvas\_ApplyColor
+
+```csharp
+public static string Canvas_ApplyColor { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_AskEachTime"></a> Canvas\_AskEachTime
 
 ```csharp
@@ -68,6 +78,36 @@ public static string Canvas_AskEachTime { get; }
 
 ```csharp
 public static string Canvas_AutoRestoreTimePoints { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_BackgroundColor"></a> Canvas\_BackgroundColor
+
+```csharp
+public static string Canvas_BackgroundColor { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_BackgroundSettings"></a> Canvas\_BackgroundSettings
+
+```csharp
+public static string Canvas_BackgroundSettings { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_Blackboard"></a> Canvas\_Blackboard
+
+```csharp
+public static string Canvas_Blackboard { get; }
 ```
 
 #### Property Value
@@ -574,6 +614,16 @@ public static string Canvas_WPFBezier { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_WhiteboardMode"></a> Canvas\_WhiteboardMode
+
+```csharp
+public static string Canvas_WhiteboardMode { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_Yes"></a> Canvas\_Yes
 
 ```csharp
@@ -943,6 +993,16 @@ public static ResourceManager ResourceManager { get; }
 #### Property Value
 
  ResourceManager
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Shape_RemoveAsymptote"></a> Shape\_RemoveAsymptote
+
+```csharp
+public static string Shape_RemoveAsymptote { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 

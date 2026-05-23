@@ -124,6 +124,20 @@ public bool ShowSeparateBorder { get; set; }
 
 ## Methods
 
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarComponentEntry_GetSettingBool_System_String_"></a> GetSettingBool\(string\)
+
+```csharp
+public bool GetSettingBool(string key)
+```
+
+#### Parameters
+
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolbarComponentEntry_GetSettingDouble_System_String_"></a> GetSettingDouble\(string\)
 
 ```csharp

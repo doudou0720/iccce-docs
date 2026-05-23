@@ -681,3 +681,13 @@ The zero-based index of the requested child element in the collection.
 
 The requested child element. This should not return <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>; if the provided index is out of range, an exception is thrown.
 
+### <a id="Ink_Canvas_Helpers_VisualCanvas_RemoveVisual_System_Windows_Media_DrawingVisual_"></a> RemoveVisual\(DrawingVisual\)
+
+```csharp
+public void RemoveVisual(DrawingVisual visual)
+```
+
+#### Parameters
+
+`visual` [DrawingVisual](https://learn.microsoft.com/dotnet/api/system.windows.media.drawingvisual)
+

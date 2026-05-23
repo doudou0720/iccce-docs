@@ -22,6 +22,18 @@ public class NotificationSettings
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
+## Fields
+
+### <a id="Ink_Canvas_NotificationSettings_BuiltInSoftwareToken"></a> BuiltInSoftwareToken
+
+```csharp
+public const string BuiltInSoftwareToken = "492e41ea8eb61fc9a1d336b3852a4478"
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ## Properties
 
 ### <a id="Ink_Canvas_NotificationSettings_AnimationMode"></a> AnimationMode
@@ -38,8 +50,8 @@ public string AnimationMode { get; set; }
 ### <a id="Ink_Canvas_NotificationSettings_AnnouncementApiBaseUrl"></a> AnnouncementApiBaseUrl
 
 ```csharp
-[JsonProperty("announcementApiBaseUrl")]
-public string AnnouncementApiBaseUrl { get; set; }
+[JsonIgnore]
+public string AnnouncementApiBaseUrl { get; }
 ```
 
 #### Property Value
@@ -49,8 +61,8 @@ public string AnnouncementApiBaseUrl { get; set; }
 ### <a id="Ink_Canvas_NotificationSettings_AnnouncementSoftwareToken"></a> AnnouncementSoftwareToken
 
 ```csharp
-[JsonProperty("announcementSoftwareToken")]
-public string AnnouncementSoftwareToken { get; set; }
+[JsonIgnore]
+public string AnnouncementSoftwareToken { get; }
 ```
 
 #### Property Value
@@ -60,8 +72,8 @@ public string AnnouncementSoftwareToken { get; set; }
 ### <a id="Ink_Canvas_NotificationSettings_AnnouncementWebSocketUrl"></a> AnnouncementWebSocketUrl
 
 ```csharp
-[JsonProperty("announcementWebSocketUrl")]
-public string AnnouncementWebSocketUrl { get; set; }
+[JsonIgnore]
+public string AnnouncementWebSocketUrl { get; }
 ```
 
 #### Property Value

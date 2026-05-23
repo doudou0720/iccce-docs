@@ -344,6 +344,16 @@ public static string Placement { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_NotificationStrings_PlacementFloatingBarAbove"></a> PlacementFloatingBarAbove
+
+```csharp
+public static string PlacementFloatingBarAbove { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_NotificationStrings_PlacementHint"></a> PlacementHint
 
 ```csharp

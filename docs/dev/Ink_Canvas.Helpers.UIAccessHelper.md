@@ -43,6 +43,16 @@ public static bool HasUIAccess()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Helpers_UIAccessHelper_LaunchNormalUserWithUIAccessFromElevatedHelper"></a> LaunchNormalUserWithUIAccessFromElevatedHelper\(\)
+
+```csharp
+public static bool LaunchNormalUserWithUIAccessFromElevatedHelper()
+```
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Helpers_UIAccessHelper_RestartAsNormalUser_System_String_"></a> RestartAsNormalUser\(string\)
 
 以普通用户权限（非提升）重启自身。

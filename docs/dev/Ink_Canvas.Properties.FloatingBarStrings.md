@@ -254,6 +254,16 @@ public static string Board_Size { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_StrokeEraser"></a> Board\_StrokeEraser
+
+```csharp
+public static string Board_StrokeEraser { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Tools"></a> Board\_Tools
 
 ```csharp
@@ -334,10 +344,40 @@ public static string FloatingBar_ClearAndMouse { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_ColorThemeLight"></a> FloatingBar\_ColorThemeLight
+
+```csharp
+public static string FloatingBar_ColorThemeLight { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_ExitButton"></a> FloatingBar\_ExitButton
 
 ```csharp
 public static string FloatingBar_ExitButton { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_FadeDelay"></a> FloatingBar\_FadeDelay
+
+```csharp
+public static string FloatingBar_FadeDelay { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_FadeSpeed"></a> FloatingBar\_FadeSpeed
+
+```csharp
+public static string FloatingBar_FadeSpeed { get; }
 ```
 
 #### Property Value
@@ -414,6 +454,16 @@ public static string FloatingBar_Hide { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_HighlighterOverlap"></a> FloatingBar\_HighlighterOverlap
+
+```csharp
+public static string FloatingBar_HighlighterOverlap { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_LassoSelect"></a> FloatingBar\_LassoSelect
 
 ```csharp
@@ -428,6 +478,66 @@ public static string FloatingBar_LassoSelect { get; }
 
 ```csharp
 public static string FloatingBar_Mouse { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Opacity"></a> FloatingBar\_Opacity
+
+```csharp
+public static string FloatingBar_Opacity { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_PenStyle_Off"></a> FloatingBar\_PenStyle\_Off
+
+```csharp
+public static string FloatingBar_PenStyle_Off { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_PenStyle_PointSet"></a> FloatingBar\_PenStyle\_PointSet
+
+```csharp
+public static string FloatingBar_PenStyle_PointSet { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_PenStyle_RealTime"></a> FloatingBar\_PenStyle\_RealTime
+
+```csharp
+public static string FloatingBar_PenStyle_RealTime { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_PenStyle_Velocity"></a> FloatingBar\_PenStyle\_Velocity
+
+```csharp
+public static string FloatingBar_PenStyle_Velocity { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_PenTipStyle"></a> FloatingBar\_PenTipStyle
+
+```csharp
+public static string FloatingBar_PenTipStyle { get; }
 ```
 
 #### Property Value
@@ -1238,6 +1348,26 @@ public static string ToolbarPage_Opacity { get; }
 
 ```csharp
 public static string ToolbarPage_QuickPaletteDisplayModeDesc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_RedStyle"></a> ToolbarPage\_RedStyle
+
+```csharp
+public static string ToolbarPage_RedStyle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_RedStyleDesc"></a> ToolbarPage\_RedStyleDesc
+
+```csharp
+public static string ToolbarPage_RedStyleDesc { get; }
 ```
 
 #### Property Value

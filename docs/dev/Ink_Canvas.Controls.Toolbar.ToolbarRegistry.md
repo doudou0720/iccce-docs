@@ -54,6 +54,16 @@ public static readonly DependencyProperty PreventHideOnDragClickProperty
 
  [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
 
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_UseRedStyleProperty"></a> UseRedStyleProperty
+
+```csharp
+public static readonly DependencyProperty UseRedStyleProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
 ## Properties
 
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_AvailableConditions"></a> AvailableConditions
@@ -206,6 +216,20 @@ public static bool GetPreventHideOnDragClick(FrameworkElement element)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_GetUseRedStyle_System_Windows_FrameworkElement_"></a> GetUseRedStyle\(FrameworkElement\)
+
+```csharp
+public static bool GetUseRedStyle(FrameworkElement element)
+```
+
+#### Parameters
+
+`element` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_ListConfigFiles"></a> ListConfigFiles\(\)
 
 ```csharp
@@ -294,6 +318,18 @@ public static void SetIsContentCollapsedByUser(FrameworkElement element, bool va
 
 ```csharp
 public static void SetPreventHideOnDragClick(FrameworkElement element, bool value)
+```
+
+#### Parameters
+
+`element` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+
+`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRegistry_SetUseRedStyle_System_Windows_FrameworkElement_System_Boolean_"></a> SetUseRedStyle\(FrameworkElement, bool\)
+
+```csharp
+public static void SetUseRedStyle(FrameworkElement element, bool value)
 ```
 
 #### Parameters

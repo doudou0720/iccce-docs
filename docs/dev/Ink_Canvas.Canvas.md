@@ -523,6 +523,17 @@ public bool PauseStraightenLine { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Canvas_RealtimeBrushTipMinDistanceScale"></a> RealtimeBrushTipMinDistanceScale
+
+```csharp
+[JsonProperty("realtimeBrushTipMinDistanceScale")]
+public double RealtimeBrushTipMinDistanceScale { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Canvas_ShowCircleCenter"></a> ShowCircleCenter
 
 ```csharp

@@ -214,6 +214,16 @@ public const string PaddingTop = "paddingTop"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_UseRedStyle"></a> UseRedStyle
+
+```csharp
+public const string UseRedStyle = "useRedStyle"
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_VerticalAlignment"></a> VerticalAlignment
 
 ```csharp
