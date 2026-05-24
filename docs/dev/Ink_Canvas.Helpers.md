@@ -227,6 +227,10 @@ Main-window base that can use WindowChrome for DWM-backed transparent rendering.
 
  [UriSchemeHelper](Ink\_Canvas.Helpers.UriSchemeHelper.md)
 
+ [UsbDriveInfo](Ink\_Canvas.Helpers.UsbDriveInfo.md)
+
+ [UsbSecurityManager](Ink\_Canvas.Helpers.UsbSecurityManager.md)
+
  [VisualCanvas](Ink\_Canvas.Helpers.VisualCanvas.md)
 
  [WebDavUploadProvider](Ink\_Canvas.Helpers.WebDavUploadProvider.md)

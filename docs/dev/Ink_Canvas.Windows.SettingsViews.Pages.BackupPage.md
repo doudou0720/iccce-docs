@@ -1,12 +1,10 @@
-# <a id="Ink_Canvas_Windows_SettingsViews_Pages_StartupPage"></a> Class StartupPage
+# <a id="Ink_Canvas_Windows_SettingsViews_Pages_BackupPage"></a> Class BackupPage
 
 Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
 
-StartupPage
-
 ```csharp
-public class StartupPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+public class BackupPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
 ```
 
 #### Inheritance
@@ -19,7 +17,7 @@ public class StartupPage : Page, IAnimatable, ISupportInitialize, IFrameworkInpu
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
 [Page](https://learn.microsoft.com/dotnet/api/system.windows.controls.page) ← 
 [Page](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs) ← 
-[StartupPage](Ink\_Canvas.Windows.SettingsViews.Pages.StartupPage.md)
+[BackupPage](Ink\_Canvas.Windows.SettingsViews.Pages.BackupPage.md)
 
 #### Implements
 
@@ -28,8 +26,7 @@ public class StartupPage : Page, IAnimatable, ISupportInitialize, IFrameworkInpu
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
-[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
+[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
 
 #### Inherited Members
 
@@ -651,19 +648,9 @@ public class StartupPage : Page, IAnimatable, ISupportInitialize, IFrameworkInpu
 
 ## Constructors
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_StartupPage__ctor"></a> StartupPage\(\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BackupPage__ctor"></a> BackupPage\(\)
 
 ```csharp
-public StartupPage()
-```
-
-## Methods
-
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_StartupPage_InitializeComponent"></a> InitializeComponent\(\)
-
-InitializeComponent
-
-```csharp
-public void InitializeComponent()
+public BackupPage()
 ```
 

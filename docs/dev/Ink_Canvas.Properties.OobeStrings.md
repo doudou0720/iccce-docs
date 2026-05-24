@@ -434,16 +434,6 @@ public static string Oobe_HideInkOnExitDesc { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_HotkeysTitle"></a> Oobe\_HotkeysTitle
-
-```csharp
-public static string Oobe_HotkeysTitle { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_IgnorePressureDesc"></a> Oobe\_IgnorePressureDesc
 
 ```csharp
@@ -984,16 +974,6 @@ public static string Oobe_SummaryAppTheme { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryLog"></a> Oobe\_SummaryLog
-
-```csharp
-public static string Oobe_SummaryLog { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryLogEnabled"></a> Oobe\_SummaryLogEnabled
 
 ```csharp
@@ -1024,16 +1004,6 @@ public static string Oobe_SummaryPptLink { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryTelemetry"></a> Oobe\_SummaryTelemetry
-
-```csharp
-public static string Oobe_SummaryTelemetry { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryTelemetryLevel"></a> Oobe\_SummaryTelemetryLevel
 
 ```csharp
@@ -1044,30 +1014,10 @@ public static string Oobe_SummaryTelemetryLevel { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryTheme"></a> Oobe\_SummaryTheme
-
-```csharp
-public static string Oobe_SummaryTheme { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryTrayIcon"></a> Oobe\_SummaryTrayIcon
 
 ```csharp
 public static string Oobe_SummaryTrayIcon { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryTwoFinger"></a> Oobe\_SummaryTwoFinger
-
-```csharp
-public static string Oobe_SummaryTwoFinger { get; }
 ```
 
 #### Property Value

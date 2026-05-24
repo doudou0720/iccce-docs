@@ -1,12 +1,12 @@
-# <a id="Ink_Canvas_Windows_SettingsViews_Pages_StartupPage"></a> Class StartupPage
+# <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarAppearancePage"></a> Class ToolbarAppearancePage
 
 Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
 
-StartupPage
+ToolbarAppearancePage
 
 ```csharp
-public class StartupPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+public class ToolbarAppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
 ```
 
 #### Inheritance
@@ -19,7 +19,7 @@ public class StartupPage : Page, IAnimatable, ISupportInitialize, IFrameworkInpu
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
 [Page](https://learn.microsoft.com/dotnet/api/system.windows.controls.page) ← 
 [Page](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs) ← 
-[StartupPage](Ink\_Canvas.Windows.SettingsViews.Pages.StartupPage.md)
+[ToolbarAppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarAppearancePage.md)
 
 #### Implements
 
@@ -651,15 +651,15 @@ public class StartupPage : Page, IAnimatable, ISupportInitialize, IFrameworkInpu
 
 ## Constructors
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_StartupPage__ctor"></a> StartupPage\(\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarAppearancePage__ctor"></a> ToolbarAppearancePage\(\)
 
 ```csharp
-public StartupPage()
+public ToolbarAppearancePage()
 ```
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_StartupPage_InitializeComponent"></a> InitializeComponent\(\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarAppearancePage_InitializeComponent"></a> InitializeComponent\(\)
 
 InitializeComponent
 

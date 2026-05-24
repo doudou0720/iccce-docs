@@ -244,6 +244,16 @@ public static string Start { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_StartupStrings_Startup_Behavior"></a> Startup\_Behavior
+
+```csharp
+public static string Startup_Behavior { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_StartupStrings_TimePeriodHint"></a> TimePeriodHint
 
 ```csharp

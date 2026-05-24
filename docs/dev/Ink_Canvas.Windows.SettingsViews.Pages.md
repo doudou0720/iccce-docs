@@ -22,9 +22,15 @@ AnnouncementCenterPage
 
  [AvatarItem](Ink\_Canvas.Windows.SettingsViews.Pages.AvatarItem.md)
 
+ [BackupPage](Ink\_Canvas.Windows.SettingsViews.Pages.BackupPage.md)
+
  [CanvasPage](Ink\_Canvas.Windows.SettingsViews.Pages.CanvasPage.md)
 
  [ClassSelectionItem](Ink\_Canvas.Windows.SettingsViews.Pages.ClassSelectionItem.md)
+
+ [ClockPage](Ink\_Canvas.Windows.SettingsViews.Pages.ClockPage.md)
+
+ClockPage
 
  [CloudStoragePage](Ink\_Canvas.Windows.SettingsViews.Pages.CloudStoragePage.md)
 
@@ -82,11 +88,17 @@ SettingsPage
 
  [StartupPage](Ink\_Canvas.Windows.SettingsViews.Pages.StartupPage.md)
 
+StartupPage
+
  [StateToBrushConverter](Ink\_Canvas.Windows.SettingsViews.Pages.StateToBrushConverter.md)
 
  [StoragePage](Ink\_Canvas.Windows.SettingsViews.Pages.StoragePage.md)
 
 StoragePage
+
+ [ToolbarAppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarAppearancePage.md)
+
+ToolbarAppearancePage
 
  [ToolbarPage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarPage.md)
 

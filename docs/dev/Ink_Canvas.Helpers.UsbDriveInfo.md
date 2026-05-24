@@ -1,16 +1,16 @@
-# <a id="Ink_Canvas_Properties_PopupStrings"></a> Class PopupStrings
+# <a id="Ink_Canvas_Helpers_UsbDriveInfo"></a> Class UsbDriveInfo
 
-Namespace: [Ink\_Canvas.Properties](Ink\_Canvas.Properties.md)  
+Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)  
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public static class PopupStrings
+public class UsbDriveInfo
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[PopupStrings](Ink\_Canvas.Properties.PopupStrings.md)
+[UsbDriveInfo](Ink\_Canvas.Helpers.UsbDriveInfo.md)
 
 #### Inherited Members
 
@@ -24,39 +24,53 @@ public static class PopupStrings
 
 ## Properties
 
-### <a id="Ink_Canvas_Properties_PopupStrings_Culture"></a> Culture
+### <a id="Ink_Canvas_Helpers_UsbDriveInfo_DeviceId"></a> DeviceId
 
 ```csharp
-public static CultureInfo Culture { get; set; }
+public string DeviceId { get; set; }
 ```
 
 #### Property Value
 
- [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_PopupStrings_ResourceManager"></a> ResourceManager
+### <a id="Ink_Canvas_Helpers_UsbDriveInfo_DriveLetter"></a> DriveLetter
 
 ```csharp
-public static ResourceManager ResourceManager { get; }
+public string DriveLetter { get; set; }
 ```
 
 #### Property Value
 
- ResourceManager
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-## Methods
-
-### <a id="Ink_Canvas_Properties_PopupStrings_GetString_System_String_"></a> GetString\(string\)
+### <a id="Ink_Canvas_Helpers_UsbDriveInfo_Model"></a> Model
 
 ```csharp
-public static string GetString(string key)
+public string Model { get; set; }
 ```
 
-#### Parameters
+#### Property Value
 
-`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+### <a id="Ink_Canvas_Helpers_UsbDriveInfo_SerialNumber"></a> SerialNumber
+
+```csharp
+public string SerialNumber { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Helpers_UsbDriveInfo_VolumeLabel"></a> VolumeLabel
+
+```csharp
+public string VolumeLabel { get; set; }
+```
+
+#### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 

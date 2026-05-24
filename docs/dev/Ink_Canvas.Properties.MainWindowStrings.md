@@ -84,16 +84,6 @@ public static string Main_Board_FrozenCannotDelete { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Board_NewPage"></a> Main\_Board\_NewPage
-
-```csharp
-public static string Main_Board_NewPage { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Clipboard_CannotGetImage"></a> Main\_Clipboard\_CannotGetImage
 
 ```csharp
@@ -638,16 +628,6 @@ public static string Main_InkReplay_Paused { get; }
 
 ```csharp
 public static string Main_PDF_InsertFailed { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_PDF_OpenFailed"></a> Main\_PDF\_OpenFailed
-
-```csharp
-public static string Main_PDF_OpenFailed { get; }
 ```
 
 #### Property Value
@@ -1418,46 +1398,6 @@ public static string Main_Timer_AutoClosedSeewoDesktop { get; }
 
 ```csharp
 public static string Main_Timer_AutoClosedYouJiao { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_TrayDisableHotkeys"></a> Main\_TrayDisableHotkeys
-
-```csharp
-public static string Main_TrayDisableHotkeys { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_TrayHideWindow"></a> Main\_TrayHideWindow
-
-```csharp
-public static string Main_TrayHideWindow { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_TrayShowWindow"></a> Main\_TrayShowWindow
-
-```csharp
-public static string Main_TrayShowWindow { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_TraySwitchFoldMode"></a> Main\_TraySwitchFoldMode
-
-```csharp
-public static string Main_TraySwitchFoldMode { get; }
 ```
 
 #### Property Value

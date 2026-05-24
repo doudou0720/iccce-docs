@@ -184,6 +184,26 @@ public static string Security_EnableTotpHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_EnableUsbVerification"></a> Security\_EnableUsbVerification
+
+```csharp
+public static string Security_EnableUsbVerification { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_EnableUsbVerification_Hint"></a> Security\_EnableUsbVerification\_Hint
+
+```csharp
+public static string Security_EnableUsbVerification_Hint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_SecurityStrings_Security_GenerateOrResetKey"></a> Security\_GenerateOrResetKey
 
 ```csharp
@@ -348,6 +368,166 @@ public static string Security_TotpSecretKey { get; }
 
 ```csharp
 public static string Security_TotpSecretKeyHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbAuthorizeDrive"></a> Security\_UsbAuthorizeDrive
+
+```csharp
+public static string Security_UsbAuthorizeDrive { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbAuthorizedSns"></a> Security\_UsbAuthorizedSns
+
+```csharp
+public static string Security_UsbAuthorizedSns { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbAuthorizedSns_Hint"></a> Security\_UsbAuthorizedSns\_Hint
+
+```csharp
+public static string Security_UsbAuthorizedSns_Hint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbBypassDialogHint"></a> Security\_UsbBypassDialogHint
+
+```csharp
+public static string Security_UsbBypassDialogHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbBypassDialogHintShort"></a> Security\_UsbBypassDialogHintShort
+
+```csharp
+public static string Security_UsbBypassDialogHintShort { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbDetectAndAuthorize"></a> Security\_UsbDetectAndAuthorize
+
+```csharp
+public static string Security_UsbDetectAndAuthorize { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbDetectAndAuthorize_Hint"></a> Security\_UsbDetectAndAuthorize\_Hint
+
+```csharp
+public static string Security_UsbDetectAndAuthorize_Hint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbInfoBarMessage"></a> Security\_UsbInfoBarMessage
+
+```csharp
+public static string Security_UsbInfoBarMessage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbPromptAlreadyAuthorized"></a> Security\_UsbPromptAlreadyAuthorized
+
+```csharp
+public static string Security_UsbPromptAlreadyAuthorized { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbPromptAuthorizeSuccess"></a> Security\_UsbPromptAuthorizeSuccess
+
+```csharp
+public static string Security_UsbPromptAuthorizeSuccess { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbPromptLocalDisk"></a> Security\_UsbPromptLocalDisk
+
+```csharp
+public static string Security_UsbPromptLocalDisk { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbPromptNoDriveDetected"></a> Security\_UsbPromptNoDriveDetected
+
+```csharp
+public static string Security_UsbPromptNoDriveDetected { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbPromptNoValidSn"></a> Security\_UsbPromptNoValidSn
+
+```csharp
+public static string Security_UsbPromptNoValidSn { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbPromptSelectDrive"></a> Security\_UsbPromptSelectDrive
+
+```csharp
+public static string Security_UsbPromptSelectDrive { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbRefreshDrives"></a> Security\_UsbRefreshDrives
+
+```csharp
+public static string Security_UsbRefreshDrives { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_SecurityStrings_Security_UsbSectionHeader"></a> Security\_UsbSectionHeader
+
+```csharp
+public static string Security_UsbSectionHeader { get; }
 ```
 
 #### Property Value

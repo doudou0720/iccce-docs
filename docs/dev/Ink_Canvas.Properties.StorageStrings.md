@@ -694,6 +694,16 @@ public static string Storage_Legend_Other { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_Legend_Plugins"></a> Storage\_Legend\_Plugins
+
+```csharp
+public static string Storage_Legend_Plugins { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_StorageStrings_Storage_Legend_Update"></a> Storage\_Legend\_Update
 
 ```csharp
@@ -718,6 +728,16 @@ public static string Storage_Logs_Desc { get; }
 
 ```csharp
 public static string Storage_Logs_Header { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_NavTitle"></a> Storage\_NavTitle
+
+```csharp
+public static string Storage_NavTitle { get; }
 ```
 
 #### Property Value

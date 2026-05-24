@@ -145,3 +145,25 @@ public string TotpSecret { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Security_UsbAuthorizedSns"></a> UsbAuthorizedSns
+
+```csharp
+[JsonProperty("usbAuthorizedSns")]
+public string UsbAuthorizedSns { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Security_UsbVerificationEnabled"></a> UsbVerificationEnabled
+
+```csharp
+[JsonProperty("usbVerificationEnabled")]
+public bool UsbVerificationEnabled { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+

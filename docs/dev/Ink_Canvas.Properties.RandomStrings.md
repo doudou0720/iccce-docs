@@ -424,16 +424,6 @@ public static string Random_History_NoHistory { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_RandomStrings_Random_History_RecentCountFormat"></a> Random\_History\_RecentCountFormat
-
-```csharp
-public static string Random_History_RecentCountFormat { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_History_StatsTitle"></a> Random\_History\_StatsTitle
 
 ```csharp

@@ -7,6 +7,14 @@
     href: InkCanvas.IACoreHelper.IpcConstants.md
   - name: SharedMemoryHeader
     href: InkCanvas.IACoreHelper.SharedMemoryHeader.md
+- name: InkCanvas.SettingsTreeView
+  href: InkCanvas.SettingsTreeView.md
+  items:
+  - name: Classes
+  - name: App
+    href: InkCanvas.SettingsTreeView.App.md
+  - name: SettingsTreeViewWindow
+    href: InkCanvas.SettingsTreeView.SettingsTreeViewWindow.md
 - name: Ink_Canvas
   href: Ink_Canvas.md
   items:
@@ -380,6 +388,10 @@
     href: Ink_Canvas.Helpers.UploadQueueItemData.md
   - name: UriSchemeHelper
     href: Ink_Canvas.Helpers.UriSchemeHelper.md
+  - name: UsbDriveInfo
+    href: Ink_Canvas.Helpers.UsbDriveInfo.md
+  - name: UsbSecurityManager
+    href: Ink_Canvas.Helpers.UsbSecurityManager.md
   - name: VisualCanvas
     href: Ink_Canvas.Helpers.VisualCanvas.md
   - name: WebDavUploadProvider
@@ -660,10 +672,14 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.AutomationPage.md
   - name: AvatarItem
     href: Ink_Canvas.Windows.SettingsViews.Pages.AvatarItem.md
+  - name: BackupPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BackupPage.md
   - name: CanvasPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.CanvasPage.md
   - name: ClassSelectionItem
     href: Ink_Canvas.Windows.SettingsViews.Pages.ClassSelectionItem.md
+  - name: ClockPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.ClockPage.md
   - name: CloudStoragePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.CloudStoragePage.md
   - name: ConditionIdToNameConverter
@@ -712,6 +728,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.StateToBrushConverter.md
   - name: StoragePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.StoragePage.md
+  - name: ToolbarAppearancePage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.ToolbarAppearancePage.md
   - name: ToolbarPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.ToolbarPage.md
   - name: UpdatePage
