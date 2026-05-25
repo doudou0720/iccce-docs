@@ -154,6 +154,16 @@ public static string Home_RandomAndTimer { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_HomeStrings_Home_Reset"></a> Home\_Reset
+
+```csharp
+public static string Home_Reset { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_HomeStrings_Home_ResetSettings"></a> Home\_ResetSettings
 
 ```csharp

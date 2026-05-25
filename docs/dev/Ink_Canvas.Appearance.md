@@ -24,6 +24,17 @@ public class Appearance
 
 ## Properties
 
+### <a id="Ink_Canvas_Appearance_AllowDragSidePanel"></a> AllowDragSidePanel
+
+```csharp
+[JsonProperty("allowDragSidePanel")]
+public bool AllowDragSidePanel { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Appearance_ChickenSoupSource"></a> ChickenSoupSource
 
 ```csharp
@@ -376,6 +387,17 @@ public double QuickPanelBottomOffset { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_Appearance_ShowGrabHandleChevron"></a> ShowGrabHandleChevron
+
+```csharp
+[JsonProperty("showGrabHandleChevron")]
+public bool ShowGrabHandleChevron { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Appearance_SplashScreenStyle"></a> SplashScreenStyle
 
 ```csharp
@@ -442,11 +464,33 @@ public bool Use24HourTimeFormat { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Appearance_UseFloatingQuickPanel"></a> UseFloatingQuickPanel
+
+```csharp
+[JsonProperty("useFloatingQuickPanel")]
+public bool UseFloatingQuickPanel { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Appearance_UseLegacyFloatingBarUI"></a> UseLegacyFloatingBarUI
 
 ```csharp
 [JsonProperty("useLegacyFloatingBarUI")]
 public bool UseLegacyFloatingBarUI { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Appearance_UseMinimalistGrabHandle"></a> UseMinimalistGrabHandle
+
+```csharp
+[JsonProperty("useMinimalistGrabHandle")]
+public bool UseMinimalistGrabHandle { get; set; }
 ```
 
 #### Property Value

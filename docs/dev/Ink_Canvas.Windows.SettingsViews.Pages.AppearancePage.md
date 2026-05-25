@@ -654,3 +654,25 @@ public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkI
 public AppearancePage()
 ```
 
+## Methods
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AppearancePage_NotifyBottomOffsetChanged_System_Double_"></a> NotifyBottomOffsetChanged\(double\)
+
+```csharp
+public static void NotifyBottomOffsetChanged(double val)
+```
+
+#### Parameters
+
+`val` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AppearancePage_OnBottomOffsetChanged"></a> OnBottomOffsetChanged
+
+```csharp
+public static event Action<double> OnBottomOffsetChanged
+```
+
+#### Event Type
+
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+

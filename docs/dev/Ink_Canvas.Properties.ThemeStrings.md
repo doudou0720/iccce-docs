@@ -54,6 +54,16 @@ public static ResourceManager ResourceManager { get; }
 
  ResourceManager
 
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_AllowDragSidePanel"></a> Theme\_AllowDragSidePanel
+
+```csharp
+public static string Theme_AllowDragSidePanel { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BlackboardScale80"></a> Theme\_BlackboardScale80
 
 ```csharp
@@ -808,6 +818,36 @@ public static string Theme_UnfoldButtonIcon { get; }
 
 ```csharp
 public static string Theme_UnfoldIcon_Arrow { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_UnfoldIcon_ClassicArrow"></a> Theme\_UnfoldIcon\_ClassicArrow
+
+```csharp
+public static string Theme_UnfoldIcon_ClassicArrow { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_UnfoldIcon_ClassicPen"></a> Theme\_UnfoldIcon\_ClassicPen
+
+```csharp
+public static string Theme_UnfoldIcon_ClassicPen { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_UnfoldIcon_Stripe"></a> Theme\_UnfoldIcon\_Stripe
+
+```csharp
+public static string Theme_UnfoldIcon_Stripe { get; }
 ```
 
 #### Property Value

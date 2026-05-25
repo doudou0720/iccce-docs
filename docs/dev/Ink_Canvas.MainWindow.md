@@ -1009,6 +1009,26 @@ public PPTUIManager PPTUIManager { get; }
 
  [PPTUIManager](Ink\_Canvas.Helpers.PPTUIManager.md)
 
+### <a id="Ink_Canvas_MainWindow_QuickPanelFoldedMargin"></a> QuickPanelFoldedMargin
+
+```csharp
+public double QuickPanelFoldedMargin { get; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_MainWindow_QuickPanelUnfoldedMargin"></a> QuickPanelUnfoldedMargin
+
+```csharp
+public double QuickPanelUnfoldedMargin { get; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_MainWindow_Settings"></a> Settings
 
 ```csharp
@@ -1065,6 +1085,18 @@ public void ApplyMultiScreenSettings()
 
 ```csharp
 public void ApplyNoFocusMode()
+```
+
+### <a id="Ink_Canvas_MainWindow_ApplyQuickPanelLayoutSettings"></a> ApplyQuickPanelLayoutSettings\(\)
+
+```csharp
+public void ApplyQuickPanelLayoutSettings()
+```
+
+### <a id="Ink_Canvas_MainWindow_ApplySidePanelSettings"></a> ApplySidePanelSettings\(\)
+
+```csharp
+public void ApplySidePanelSettings()
 ```
 
 ### <a id="Ink_Canvas_MainWindow_ApplyUIAccessTopMost"></a> ApplyUIAccessTopMost\(\)
