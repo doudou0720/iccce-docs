@@ -24,17 +24,6 @@ public class Gesture
 
 ## Properties
 
-### <a id="Ink_Canvas_Gesture_AutoSwitchTwoFingerGesture"></a> AutoSwitchTwoFingerGesture
-
-```csharp
-[JsonProperty("AutoSwitchTwoFingerGesture")]
-public bool AutoSwitchTwoFingerGesture { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 ### <a id="Ink_Canvas_Gesture_IsEnableMultiTouchMode"></a> IsEnableMultiTouchMode
 
 ```csharp

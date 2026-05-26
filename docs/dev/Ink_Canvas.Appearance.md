@@ -178,28 +178,6 @@ public bool IsColorfulViewboxFloatingBar { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Appearance_IsShowClearAndMouseButton"></a> IsShowClearAndMouseButton
-
-```csharp
-[JsonProperty("isShowClearAndMouseButton")]
-public bool IsShowClearAndMouseButton { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-### <a id="Ink_Canvas_Appearance_IsShowClearButton"></a> IsShowClearButton
-
-```csharp
-[JsonProperty("isShowClearButton")]
-public bool IsShowClearButton { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 ### <a id="Ink_Canvas_Appearance_IsShowEraserButton"></a> IsShowEraserButton
 
 ```csharp
@@ -222,17 +200,6 @@ public bool IsShowExitButton { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Appearance_IsShowHideButton"></a> IsShowHideButton
-
-```csharp
-[JsonProperty("isShowHideButton")]
-public bool IsShowHideButton { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 ### <a id="Ink_Canvas_Appearance_IsShowHideControlButton"></a> IsShowHideControlButton
 
 ```csharp
@@ -249,17 +216,6 @@ public bool IsShowHideControlButton { get; set; }
 ```csharp
 [JsonProperty("isShowLRSwitchButton")]
 public bool IsShowLRSwitchButton { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-### <a id="Ink_Canvas_Appearance_IsShowLassoSelectButton"></a> IsShowLassoSelectButton
-
-```csharp
-[JsonProperty("isShowLassoSelectButton")]
-public bool IsShowLassoSelectButton { get; set; }
 ```
 
 #### Property Value
@@ -293,50 +249,6 @@ public bool IsShowQuickColorPalette { get; set; }
 ```csharp
 [JsonProperty("isShowQuickPanel")]
 public bool IsShowQuickPanel { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-### <a id="Ink_Canvas_Appearance_IsShowRedoButton"></a> IsShowRedoButton
-
-```csharp
-[JsonProperty("isShowRedoButton")]
-public bool IsShowRedoButton { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-### <a id="Ink_Canvas_Appearance_IsShowShapeButton"></a> IsShowShapeButton
-
-```csharp
-[JsonProperty("isShowShapeButton")]
-public bool IsShowShapeButton { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-### <a id="Ink_Canvas_Appearance_IsShowUndoButton"></a> IsShowUndoButton
-
-```csharp
-[JsonProperty("isShowUndoButton")]
-public bool IsShowUndoButton { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-### <a id="Ink_Canvas_Appearance_IsShowWhiteboardButton"></a> IsShowWhiteboardButton
-
-```csharp
-[JsonProperty("isShowWhiteboardButton")]
-public bool IsShowWhiteboardButton { get; set; }
 ```
 
 #### Property Value

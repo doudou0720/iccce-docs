@@ -6,6 +6,12 @@
 
  [MainWindowSettingsHelper](Ink\_Canvas.Windows.SettingsViews.Helpers.MainWindowSettingsHelper.md)
 
+ [SettingsActionHub](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsActionHub.md)
+
+ [SettingsBinder](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsBinder.md)
+
+ [SettingsChangeRegistry](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsChangeRegistry.md)
+
  [SettingsManager](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsManager.md)
 
  [TopMostModeButtonItem](Ink\_Canvas.Windows.SettingsViews.Helpers.TopMostModeButtonItem.md)

@@ -44,6 +44,16 @@ public double Left { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_CanvasElementInfo_MediaKind"></a> MediaKind
+
+```csharp
+public string MediaKind { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_CanvasElementInfo_PdfCurrentPage"></a> PdfCurrentPage
 
 PDF 当前页（从 0 开始），仅 Type == Pdf 时有效。

@@ -642,6 +642,12 @@
     href: Ink_Canvas.Windows.SettingsViews.Helpers.AutoStartHelper.md
   - name: MainWindowSettingsHelper
     href: Ink_Canvas.Windows.SettingsViews.Helpers.MainWindowSettingsHelper.md
+  - name: SettingsActionHub
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.SettingsActionHub.md
+  - name: SettingsBinder
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.SettingsBinder.md
+  - name: SettingsChangeRegistry
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.SettingsChangeRegistry.md
   - name: SettingsManager
     href: Ink_Canvas.Windows.SettingsViews.Helpers.SettingsManager.md
   - name: TopMostModeButtonItem
