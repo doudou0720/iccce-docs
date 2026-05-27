@@ -735,6 +735,20 @@ InitializeComponent
 public void InitializeComponent()
 ```
 
+### <a id="Ink_Canvas_Controls_SidePanelToggle_OnLostMouseCapture_System_Windows_Input_MouseEventArgs_"></a> OnLostMouseCapture\(MouseEventArgs\)
+
+Invoked when an unhandled <xref href="System.Windows.Input.Mouse.LostMouseCapture" data-throw-if-not-resolved="false"></xref> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.
+
+```csharp
+protected override void OnLostMouseCapture(MouseEventArgs e)
+```
+
+#### Parameters
+
+`e` [MouseEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs)
+
+The <xref href="System.Windows.Input.MouseEventArgs" data-throw-if-not-resolved="false"></xref> that contains event data.
+
 ### <a id="Ink_Canvas_Controls_SidePanelToggle_OnPreviewMouseDown_System_Windows_Input_MouseButtonEventArgs_"></a> OnPreviewMouseDown\(MouseButtonEventArgs\)
 
 Invoked when an unhandled <xref href="System.Windows.Input.Mouse.PreviewMouseDown" data-throw-if-not-resolved="false"></xref> attached routed event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.
@@ -777,45 +791,13 @@ protected override void OnPreviewMouseUp(MouseButtonEventArgs e)
 
 The <xref href="System.Windows.Input.MouseButtonEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data. The event data reports that one or more mouse buttons were released.
 
-### <a id="Ink_Canvas_Controls_SidePanelToggle_OnPreviewTouchDown_System_Windows_Input_TouchEventArgs_"></a> OnPreviewTouchDown\(TouchEventArgs\)
-
-Provides class handling for the <xref href="System.Windows.UIElement.PreviewTouchDown" data-throw-if-not-resolved="false"></xref> routed event that occurs when a touch presses this element.
+### <a id="Ink_Canvas_Controls_SidePanelToggle_Click"></a> Click
 
 ```csharp
-protected override void OnPreviewTouchDown(TouchEventArgs e)
+public event RoutedEventHandler Click
 ```
 
-#### Parameters
+#### Event Type
 
-`e` [TouchEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.input.toucheventargs)
-
-A <xref href="System.Windows.Input.TouchEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
-
-### <a id="Ink_Canvas_Controls_SidePanelToggle_OnPreviewTouchMove_System_Windows_Input_TouchEventArgs_"></a> OnPreviewTouchMove\(TouchEventArgs\)
-
-Provides class handling for the <xref href="System.Windows.UIElement.PreviewTouchMove" data-throw-if-not-resolved="false"></xref> routed event that occurs when a touch moves while inside this element.
-
-```csharp
-protected override void OnPreviewTouchMove(TouchEventArgs e)
-```
-
-#### Parameters
-
-`e` [TouchEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.input.toucheventargs)
-
-A <xref href="System.Windows.Input.TouchEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
-
-### <a id="Ink_Canvas_Controls_SidePanelToggle_OnPreviewTouchUp_System_Windows_Input_TouchEventArgs_"></a> OnPreviewTouchUp\(TouchEventArgs\)
-
-Provides class handling for the <xref href="System.Windows.UIElement.PreviewTouchUp" data-throw-if-not-resolved="false"></xref> routed event that occurs when a touch is released inside this element.
-
-```csharp
-protected override void OnPreviewTouchUp(TouchEventArgs e)
-```
-
-#### Parameters
-
-`e` [TouchEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.input.toucheventargs)
-
-A <xref href="System.Windows.Input.TouchEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
+ [RoutedEventHandler](https://learn.microsoft.com/dotnet/api/system.windows.routedeventhandler)
 

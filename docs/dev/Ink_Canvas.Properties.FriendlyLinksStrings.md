@@ -34,6 +34,26 @@ public static CultureInfo Culture { get; set; }
 
  [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
+### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_CjikSponsorDescription"></a> FriendlyLinks\_CjikSponsorDescription
+
+```csharp
+public static string FriendlyLinks_CjikSponsorDescription { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_FriendsSectionTitle"></a> FriendlyLinks\_FriendsSectionTitle
+
+```csharp
+public static string FriendlyLinks_FriendsSectionTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_InkeysDescription"></a> FriendlyLinks\_InkeysDescription
 
 ```csharp
@@ -48,6 +68,26 @@ public static string FriendlyLinks_InkeysDescription { get; }
 
 ```csharp
 public static string FriendlyLinks_NamePickerDescription { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_Sponsor"></a> FriendlyLinks\_Sponsor
+
+```csharp
+public static string FriendlyLinks_Sponsor { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_SponsorSectionTitle"></a> FriendlyLinks\_SponsorSectionTitle
+
+```csharp
+public static string FriendlyLinks_SponsorSectionTitle { get; }
 ```
 
 #### Property Value
