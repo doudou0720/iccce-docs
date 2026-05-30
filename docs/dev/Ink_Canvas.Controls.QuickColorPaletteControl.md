@@ -719,6 +719,16 @@ public int DisplayMode { get; set; }
 
 ## Methods
 
+### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_ApplyOrientation_System_Boolean_"></a> ApplyOrientation\(bool\)
+
+```csharp
+public void ApplyOrientation(bool isVertical)
+```
+
+#### Parameters
+
+`isVertical` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_ClearAllChecked"></a> ClearAllChecked\(\)
 
 ```csharp

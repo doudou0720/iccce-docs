@@ -701,7 +701,7 @@ public ObservableCollection<ToolbarComponentEntry> AddedComponents { get; }
 
 #### Property Value
 
- [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.ToolbarComponentEntry.md)\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarComponentEntry.md)\>
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_AvailableItems"></a> AvailableItems
 
@@ -711,7 +711,7 @@ public IReadOnlyList<IToolbarItem> AvailableItems { get; }
 
 #### Property Value
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[IToolbarItem](Ink\_Canvas.Controls.Toolbar.IToolbarItem.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[IToolbarItem](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.IToolbarItem.md)\>
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_GroupChildren"></a> GroupChildren
 
@@ -721,7 +721,7 @@ public ObservableCollection<ToolbarComponentEntry> GroupChildren { get; }
 
 #### Property Value
 
- [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.ToolbarComponentEntry.md)\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarComponentEntry.md)\>
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_GroupDropHandler"></a> GroupDropHandler
 
@@ -741,7 +741,7 @@ public ToolbarComponentEntry SelectedEntry { get; set; }
 
 #### Property Value
 
- [ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.ToolbarComponentEntry.md)
+ [ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarComponentEntry.md)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_SelectedGroupChild"></a> SelectedGroupChild
 
@@ -751,7 +751,7 @@ public ToolbarComponentEntry SelectedGroupChild { get; set; }
 
 #### Property Value
 
- [ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.ToolbarComponentEntry.md)
+ [ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarComponentEntry.md)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_SettingsTabIndex"></a> SettingsTabIndex
 

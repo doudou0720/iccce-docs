@@ -1,6 +1,6 @@
-# <a id="Ink_Canvas_Controls_Toolbar_ToolbarRuleGroup"></a> Class ToolbarRuleGroup
+# <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleGroup"></a> Class ToolbarRuleGroup
 
-Namespace: [Ink\_Canvas.Controls.Toolbar](Ink\_Canvas.Controls.Toolbar.md)  
+Namespace: [Ink\_Canvas.Controls.Toolbar.FloatingToolbar](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.md)  
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
@@ -10,7 +10,7 @@ public class ToolbarRuleGroup
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[ToolbarRuleGroup](Ink\_Canvas.Controls.Toolbar.ToolbarRuleGroup.md)
+[ToolbarRuleGroup](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRuleGroup.md)
 
 #### Inherited Members
 
@@ -24,7 +24,7 @@ public class ToolbarRuleGroup
 
 ## Properties
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRuleGroup_IsEnabled"></a> IsEnabled
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleGroup_IsEnabled"></a> IsEnabled
 
 ```csharp
 [JsonProperty("isEnabled")]
@@ -35,7 +35,7 @@ public bool IsEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRuleGroup_IsReversed"></a> IsReversed
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleGroup_IsReversed"></a> IsReversed
 
 ```csharp
 [JsonProperty("isReversed")]
@@ -46,7 +46,7 @@ public bool IsReversed { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRuleGroup_Mode"></a> Mode
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleGroup_Mode"></a> Mode
 
 ```csharp
 [JsonProperty("mode")]
@@ -55,9 +55,9 @@ public ToolbarLogicalMode Mode { get; set; }
 
 #### Property Value
 
- [ToolbarLogicalMode](Ink\_Canvas.Controls.Toolbar.ToolbarLogicalMode.md)
+ [ToolbarLogicalMode](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarLogicalMode.md)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRuleGroup_Rules"></a> Rules
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleGroup_Rules"></a> Rules
 
 ```csharp
 [JsonProperty("rules")]
@@ -66,9 +66,9 @@ public List<ToolbarRule> Rules { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ToolbarRule](Ink\_Canvas.Controls.Toolbar.ToolbarRule.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ToolbarRule](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRule.md)\>
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRuleGroup_State"></a> State
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleGroup_State"></a> State
 
 ```csharp
 [JsonIgnore]
@@ -81,7 +81,7 @@ public int State { get; set; }
 
 ## Methods
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRuleGroup_Clone"></a> Clone\(\)
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleGroup_Clone"></a> Clone\(\)
 
 ```csharp
 public ToolbarRuleGroup Clone()
@@ -89,5 +89,5 @@ public ToolbarRuleGroup Clone()
 
 #### Returns
 
- [ToolbarRuleGroup](Ink\_Canvas.Controls.Toolbar.ToolbarRuleGroup.md)
+ [ToolbarRuleGroup](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRuleGroup.md)
 

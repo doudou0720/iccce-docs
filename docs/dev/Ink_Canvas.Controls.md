@@ -1,9 +1,5 @@
 # <a id="Ink_Canvas_Controls"></a> Namespace Ink\_Canvas.Controls
 
-### Namespaces
-
- [Ink\_Canvas.Controls.Toolbar](Ink\_Canvas.Controls.Toolbar.md)
-
 ### Classes
 
  [BackgroundPalettePopupContent](Ink\_Canvas.Controls.BackgroundPalettePopupContent.md)

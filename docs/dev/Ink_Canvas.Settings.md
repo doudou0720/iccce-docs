@@ -187,7 +187,7 @@ public ToolbarLayoutSettings Toolbar { get; set; }
 
 #### Property Value
 
- [ToolbarLayoutSettings](Ink\_Canvas.Controls.Toolbar.ToolbarLayoutSettings.md)
+ [ToolbarLayoutSettings](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarLayoutSettings.md)
 
 ### <a id="Ink_Canvas_Settings_ToolbarConfigName"></a> ToolbarConfigName
 

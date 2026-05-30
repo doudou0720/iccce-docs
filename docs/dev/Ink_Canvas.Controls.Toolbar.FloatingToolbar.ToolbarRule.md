@@ -1,6 +1,6 @@
-# <a id="Ink_Canvas_Controls_Toolbar_ToolbarRule"></a> Class ToolbarRule
+# <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRule"></a> Class ToolbarRule
 
-Namespace: [Ink\_Canvas.Controls.Toolbar](Ink\_Canvas.Controls.Toolbar.md)  
+Namespace: [Ink\_Canvas.Controls.Toolbar.FloatingToolbar](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.md)  
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
@@ -10,7 +10,7 @@ public class ToolbarRule
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[ToolbarRule](Ink\_Canvas.Controls.Toolbar.ToolbarRule.md)
+[ToolbarRule](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRule.md)
 
 #### Inherited Members
 
@@ -24,7 +24,7 @@ public class ToolbarRule
 
 ## Properties
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRule_ConditionId"></a> ConditionId
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRule_ConditionId"></a> ConditionId
 
 ```csharp
 [JsonProperty("conditionId")]
@@ -35,7 +35,7 @@ public string ConditionId { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRule_IsReversed"></a> IsReversed
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRule_IsReversed"></a> IsReversed
 
 ```csharp
 [JsonProperty("isReversed")]
@@ -46,7 +46,7 @@ public bool IsReversed { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRule_State"></a> State
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRule_State"></a> State
 
 ```csharp
 [JsonIgnore]
@@ -59,7 +59,7 @@ public int State { get; set; }
 
 ## Methods
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarRule_Clone"></a> Clone\(\)
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRule_Clone"></a> Clone\(\)
 
 ```csharp
 public ToolbarRule Clone()
@@ -67,5 +67,5 @@ public ToolbarRule Clone()
 
 #### Returns
 
- [ToolbarRule](Ink\_Canvas.Controls.Toolbar.ToolbarRule.md)
+ [ToolbarRule](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRule.md)
 

@@ -35,6 +35,17 @@ public bool AllowDragSidePanel { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Appearance_AutoFlipWhenSpaceInsufficient"></a> AutoFlipWhenSpaceInsufficient
+
+```csharp
+[JsonProperty("autoFlipWhenSpaceInsufficient")]
+public bool AutoFlipWhenSpaceInsufficient { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Appearance_ChickenSoupSource"></a> ChickenSoupSource
 
 ```csharp
@@ -144,6 +155,17 @@ public int EraserDisplayOption { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Appearance_FlipContentOnAutoFlip"></a> FlipContentOnAutoFlip
+
+```csharp
+[JsonProperty("flipContentOnAutoFlip")]
+public bool FlipContentOnAutoFlip { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_FloatingBarImg"></a> FloatingBarImg
 
@@ -299,6 +321,17 @@ public double QuickPanelBottomOffset { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_Appearance_ReverseToolbarContent"></a> ReverseToolbarContent
+
+```csharp
+[JsonProperty("reverseToolbarContent")]
+public bool ReverseToolbarContent { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Appearance_ShowGrabHandleChevron"></a> ShowGrabHandleChevron
 
 ```csharp
@@ -331,6 +364,17 @@ public int Theme { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Appearance_ToolbarPosition"></a> ToolbarPosition
+
+```csharp
+[JsonProperty("toolbarPosition")]
+public ToolbarPosition ToolbarPosition { get; set; }
+```
+
+#### Property Value
+
+ [ToolbarPosition](Ink\_Canvas.ToolbarPosition.md)
 
 ### <a id="Ink_Canvas_Appearance_TrayLeftClickAction"></a> TrayLeftClickAction
 

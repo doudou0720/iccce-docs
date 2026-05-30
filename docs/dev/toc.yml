@@ -117,6 +117,8 @@
     href: Ink_Canvas.OptionalOperation.md
   - name: TelemetryUploadLevel
     href: Ink_Canvas.TelemetryUploadLevel.md
+  - name: ToolbarPosition
+    href: Ink_Canvas.ToolbarPosition.md
   - name: TrayClickAction
     href: Ink_Canvas.TrayClickAction.md
   - name: UpdateChannel
@@ -202,36 +204,55 @@
     href: Ink_Canvas.Controls.ImageResizeCorner.md
   - name: PptNavBar.NavDirection
     href: Ink_Canvas.Controls.PptNavBar.NavDirection.md
-- name: Ink_Canvas.Controls.Toolbar
-  href: Ink_Canvas.Controls.Toolbar.md
+- name: Ink_Canvas.Controls.Toolbar.BoardToolbar
+  href: Ink_Canvas.Controls.Toolbar.BoardToolbar.md
+  items:
+  - name: Classes
+  - name: BoardToolbarAreaEntry
+    href: Ink_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarAreaEntry.md
+  - name: BoardToolbarComponentEntry
+    href: Ink_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarComponentEntry.md
+  - name: BoardToolbarGroupEntry
+    href: Ink_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarGroupEntry.md
+  - name: BoardToolbarLayoutSettings
+    href: Ink_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarLayoutSettings.md
+  - name: BoardToolbarRegistry
+    href: Ink_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarRegistry.md
+  - name: Interfaces
+  - name: IBoardToolbarHost
+    href: Ink_Canvas.Controls.Toolbar.BoardToolbar.IBoardToolbarHost.md
+  - name: IBoardToolbarItem
+    href: Ink_Canvas.Controls.Toolbar.BoardToolbar.IBoardToolbarItem.md
+- name: Ink_Canvas.Controls.Toolbar.FloatingToolbar
+  href: Ink_Canvas.Controls.Toolbar.FloatingToolbar.md
   items:
   - name: Classes
   - name: ComponentSettingKeys
-    href: Ink_Canvas.Controls.Toolbar.ComponentSettingKeys.md
+    href: Ink_Canvas.Controls.Toolbar.FloatingToolbar.ComponentSettingKeys.md
   - name: ToolbarComponentEntry
-    href: Ink_Canvas.Controls.Toolbar.ToolbarComponentEntry.md
+    href: Ink_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarComponentEntry.md
   - name: ToolbarHost
-    href: Ink_Canvas.Controls.Toolbar.ToolbarHost.md
+    href: Ink_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarHost.md
   - name: ToolbarLayoutSettings
-    href: Ink_Canvas.Controls.Toolbar.ToolbarLayoutSettings.md
+    href: Ink_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarLayoutSettings.md
   - name: ToolbarRegistry
-    href: Ink_Canvas.Controls.Toolbar.ToolbarRegistry.md
+    href: Ink_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRegistry.md
   - name: ToolbarRule
-    href: Ink_Canvas.Controls.Toolbar.ToolbarRule.md
+    href: Ink_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRule.md
   - name: ToolbarRuleGroup
-    href: Ink_Canvas.Controls.Toolbar.ToolbarRuleGroup.md
+    href: Ink_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRuleGroup.md
   - name: ToolbarRuleset
-    href: Ink_Canvas.Controls.Toolbar.ToolbarRuleset.md
+    href: Ink_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRuleset.md
   - name: Interfaces
   - name: IToolbarHost
-    href: Ink_Canvas.Controls.Toolbar.IToolbarHost.md
+    href: Ink_Canvas.Controls.Toolbar.FloatingToolbar.IToolbarHost.md
   - name: IToolbarItem
-    href: Ink_Canvas.Controls.Toolbar.IToolbarItem.md
+    href: Ink_Canvas.Controls.Toolbar.FloatingToolbar.IToolbarItem.md
   - name: Enums
   - name: ToolbarHidingRule
-    href: Ink_Canvas.Controls.Toolbar.ToolbarHidingRule.md
+    href: Ink_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarHidingRule.md
   - name: ToolbarLogicalMode
-    href: Ink_Canvas.Controls.Toolbar.ToolbarLogicalMode.md
+    href: Ink_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarLogicalMode.md
 - name: Ink_Canvas.Converter
   href: Ink_Canvas.Converter.md
   items:

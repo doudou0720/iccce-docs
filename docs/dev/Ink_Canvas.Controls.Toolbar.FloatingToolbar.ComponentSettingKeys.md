@@ -1,6 +1,6 @@
-# <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys"></a> Class ComponentSettingKeys
+# <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys"></a> Class ComponentSettingKeys
 
-Namespace: [Ink\_Canvas.Controls.Toolbar](Ink\_Canvas.Controls.Toolbar.md)  
+Namespace: [Ink\_Canvas.Controls.Toolbar.FloatingToolbar](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.md)  
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
@@ -10,7 +10,7 @@ public static class ComponentSettingKeys
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[ComponentSettingKeys](Ink\_Canvas.Controls.Toolbar.ComponentSettingKeys.md)
+[ComponentSettingKeys](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ComponentSettingKeys.md)
 
 #### Inherited Members
 
@@ -24,7 +24,7 @@ public static class ComponentSettingKeys
 
 ## Fields
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_DisplayMode"></a> DisplayMode
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_DisplayMode"></a> DisplayMode
 
 ```csharp
 public const string DisplayMode = "displayMode"
@@ -34,7 +34,7 @@ public const string DisplayMode = "displayMode"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_FixedHeight"></a> FixedHeight
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_FixedHeight"></a> FixedHeight
 
 ```csharp
 public const string FixedHeight = "fixedHeight"
@@ -44,7 +44,7 @@ public const string FixedHeight = "fixedHeight"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_FixedWidth"></a> FixedWidth
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_FixedWidth"></a> FixedWidth
 
 ```csharp
 public const string FixedWidth = "fixedWidth"
@@ -54,7 +54,7 @@ public const string FixedWidth = "fixedWidth"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_FontSize"></a> FontSize
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_FontSize"></a> FontSize
 
 ```csharp
 public const string FontSize = "fontSize"
@@ -64,7 +64,7 @@ public const string FontSize = "fontSize"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_HorizontalAlignment"></a> HorizontalAlignment
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_HorizontalAlignment"></a> HorizontalAlignment
 
 ```csharp
 public const string HorizontalAlignment = "horizontalAlignment"
@@ -74,7 +74,7 @@ public const string HorizontalAlignment = "horizontalAlignment"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_IconSize"></a> IconSize
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_IconSize"></a> IconSize
 
 ```csharp
 public const string IconSize = "iconSize"
@@ -84,7 +84,7 @@ public const string IconSize = "iconSize"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_MarginBottom"></a> MarginBottom
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_MarginBottom"></a> MarginBottom
 
 ```csharp
 public const string MarginBottom = "marginBottom"
@@ -94,7 +94,7 @@ public const string MarginBottom = "marginBottom"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_MarginLeft"></a> MarginLeft
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_MarginLeft"></a> MarginLeft
 
 ```csharp
 public const string MarginLeft = "marginLeft"
@@ -104,7 +104,7 @@ public const string MarginLeft = "marginLeft"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_MarginRight"></a> MarginRight
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_MarginRight"></a> MarginRight
 
 ```csharp
 public const string MarginRight = "marginRight"
@@ -114,7 +114,7 @@ public const string MarginRight = "marginRight"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_MarginTop"></a> MarginTop
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_MarginTop"></a> MarginTop
 
 ```csharp
 public const string MarginTop = "marginTop"
@@ -124,7 +124,7 @@ public const string MarginTop = "marginTop"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_MaxHeight"></a> MaxHeight
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_MaxHeight"></a> MaxHeight
 
 ```csharp
 public const string MaxHeight = "maxHeight"
@@ -134,7 +134,7 @@ public const string MaxHeight = "maxHeight"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_MaxWidth"></a> MaxWidth
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_MaxWidth"></a> MaxWidth
 
 ```csharp
 public const string MaxWidth = "maxWidth"
@@ -144,7 +144,7 @@ public const string MaxWidth = "maxWidth"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_MinHeight"></a> MinHeight
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_MinHeight"></a> MinHeight
 
 ```csharp
 public const string MinHeight = "minHeight"
@@ -154,7 +154,7 @@ public const string MinHeight = "minHeight"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_MinWidth"></a> MinWidth
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_MinWidth"></a> MinWidth
 
 ```csharp
 public const string MinWidth = "minWidth"
@@ -164,7 +164,7 @@ public const string MinWidth = "minWidth"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_Opacity"></a> Opacity
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_Opacity"></a> Opacity
 
 ```csharp
 public const string Opacity = "opacity"
@@ -174,7 +174,7 @@ public const string Opacity = "opacity"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_PaddingBottom"></a> PaddingBottom
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_PaddingBottom"></a> PaddingBottom
 
 ```csharp
 public const string PaddingBottom = "paddingBottom"
@@ -184,7 +184,7 @@ public const string PaddingBottom = "paddingBottom"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_PaddingLeft"></a> PaddingLeft
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_PaddingLeft"></a> PaddingLeft
 
 ```csharp
 public const string PaddingLeft = "paddingLeft"
@@ -194,7 +194,7 @@ public const string PaddingLeft = "paddingLeft"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_PaddingRight"></a> PaddingRight
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_PaddingRight"></a> PaddingRight
 
 ```csharp
 public const string PaddingRight = "paddingRight"
@@ -204,7 +204,7 @@ public const string PaddingRight = "paddingRight"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_PaddingTop"></a> PaddingTop
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_PaddingTop"></a> PaddingTop
 
 ```csharp
 public const string PaddingTop = "paddingTop"
@@ -214,7 +214,7 @@ public const string PaddingTop = "paddingTop"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_UseRedStyle"></a> UseRedStyle
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_UseRedStyle"></a> UseRedStyle
 
 ```csharp
 public const string UseRedStyle = "useRedStyle"
@@ -224,7 +224,7 @@ public const string UseRedStyle = "useRedStyle"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ComponentSettingKeys_VerticalAlignment"></a> VerticalAlignment
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ComponentSettingKeys_VerticalAlignment"></a> VerticalAlignment
 
 ```csharp
 public const string VerticalAlignment = "verticalAlignment"

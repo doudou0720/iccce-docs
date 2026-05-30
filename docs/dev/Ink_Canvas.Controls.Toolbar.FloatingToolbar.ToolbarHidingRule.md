@@ -1,6 +1,6 @@
-# <a id="Ink_Canvas_Controls_Toolbar_ToolbarHidingRule"></a> Enum ToolbarHidingRule
+# <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarHidingRule"></a> Enum ToolbarHidingRule
 
-Namespace: [Ink\_Canvas.Controls.Toolbar](Ink\_Canvas.Controls.Toolbar.md)  
+Namespace: [Ink\_Canvas.Controls.Toolbar.FloatingToolbar](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.md)  
 Assembly: InkCanvasForClass.dll  
 
 ```csharp

@@ -1,6 +1,6 @@
-# <a id="Ink_Canvas_Controls_Toolbar_ToolbarHost"></a> Class ToolbarHost
+# <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarHost"></a> Class ToolbarHost
 
-Namespace: [Ink\_Canvas.Controls.Toolbar](Ink\_Canvas.Controls.Toolbar.md)  
+Namespace: [Ink\_Canvas.Controls.Toolbar.FloatingToolbar](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.md)  
 Assembly: InkCanvasForClass.dll  
 
 MainWindow 版的 IToolbarHost 实现。Phase 1 直接把 MainWindow 引用暴露给插件，
@@ -14,11 +14,11 @@ public sealed class ToolbarHost : IToolbarHost
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[ToolbarHost](Ink\_Canvas.Controls.Toolbar.ToolbarHost.md)
+[ToolbarHost](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarHost.md)
 
 #### Implements
 
-[IToolbarHost](Ink\_Canvas.Controls.Toolbar.IToolbarHost.md)
+[IToolbarHost](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.IToolbarHost.md)
 
 #### Inherited Members
 
@@ -31,7 +31,7 @@ public sealed class ToolbarHost : IToolbarHost
 
 ## Constructors
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarHost__ctor_Ink_Canvas_MainWindow_"></a> ToolbarHost\(MainWindow\)
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarHost__ctor_Ink_Canvas_MainWindow_"></a> ToolbarHost\(MainWindow\)
 
 ```csharp
 public ToolbarHost(MainWindow window)
@@ -43,7 +43,7 @@ public ToolbarHost(MainWindow window)
 
 ## Properties
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarHost_Window"></a> Window
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarHost_Window"></a> Window
 
 ```csharp
 public MainWindow Window { get; }
@@ -55,7 +55,7 @@ public MainWindow Window { get; }
 
 ## Methods
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarHost_FindView_System_String_"></a> FindView\(string\)
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarHost_FindView_System_String_"></a> FindView\(string\)
 
 按 id 获取之前注册的 view。不存在返回 null。
 
@@ -71,7 +71,7 @@ public FrameworkElement FindView(string id)
 
  [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
 
-### <a id="Ink_Canvas_Controls_Toolbar_ToolbarHost_RegisterView_System_String_System_Windows_FrameworkElement_"></a> RegisterView\(string, FrameworkElement\)
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarHost_RegisterView_System_String_System_Windows_FrameworkElement_"></a> RegisterView\(string, FrameworkElement\)
 
 按 id 登记按钮的 view 实例（供 MainWindow 字段回填和互相查找）。
 

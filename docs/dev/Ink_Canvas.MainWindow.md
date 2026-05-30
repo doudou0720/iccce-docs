@@ -6,7 +6,7 @@ Assembly: InkCanvasForClass.dll
 主窗口类的部分类，包含压感模拟和墨水到形状识别的功能
 
 ```csharp
-public class MainWindow : PerformanceTransparentWin, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
+public class MainWindow : PerformanceTransparentWin, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IBoardToolbarHost
 ```
 
 #### Inheritance
@@ -30,7 +30,8 @@ public class MainWindow : PerformanceTransparentWin, IAnimatable, ISupportInitia
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
+[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
+[IBoardToolbarHost](Ink\_Canvas.Controls.Toolbar.BoardToolbar.IBoardToolbarHost.md)
 
 #### Inherited Members
 
@@ -983,6 +984,76 @@ public int BoothResolutionWidth { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_MainWindow_CanAddNewPage"></a> CanAddNewPage
+
+```csharp
+public bool CanAddNewPage { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_MainWindow_CanDeletePage"></a> CanDeletePage
+
+```csharp
+public bool CanDeletePage { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_MainWindow_CanRedo"></a> CanRedo
+
+```csharp
+public bool CanRedo { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_MainWindow_CanSwitchToNextPage"></a> CanSwitchToNextPage
+
+```csharp
+public bool CanSwitchToNextPage { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_MainWindow_CanSwitchToPreviousPage"></a> CanSwitchToPreviousPage
+
+```csharp
+public bool CanSwitchToPreviousPage { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_MainWindow_CanUndo"></a> CanUndo
+
+```csharp
+public bool CanUndo { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_MainWindow_CurrentPageInfo"></a> CurrentPageInfo
+
+```csharp
+public string CurrentPageInfo { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_MainWindow_PPTManager"></a> PPTManager
 
 获取PPT管理器实例
@@ -1050,6 +1121,12 @@ public static string settingsFileName { get; }
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
+
+### <a id="Ink_Canvas_MainWindow_AddWhiteboardPage"></a> AddWhiteboardPage\(\)
+
+```csharp
+public void AddWhiteboardPage()
+```
 
 ### <a id="Ink_Canvas_MainWindow_AdjustTimerContainerSize"></a> AdjustTimerContainerSize\(\)
 
@@ -1176,6 +1253,12 @@ public void BtnRestart_Click(object sender, RoutedEventArgs e)
 
 路由事件参数
 
+### <a id="Ink_Canvas_MainWindow_ChangeBackgroundColor"></a> ChangeBackgroundColor\(\)
+
+```csharp
+public void ChangeBackgroundColor()
+```
+
 ### <a id="Ink_Canvas_MainWindow_CheckClipboardImageAndShowPasteNotificationWhenEnteringBoard"></a> CheckClipboardImageAndShowPasteNotificationWhenEnteringBoard\(\)
 
 在进入白板时检查系统剪贴板是否包含图片；如果存在图片且与上次提示间隔超过预设节流时间，则显示粘贴提示。
@@ -1190,6 +1273,12 @@ public void CheckClipboardImageAndShowPasteNotificationWhenEnteringBoard()
 
 ```csharp
 public void CheckEraserTypeTab()
+```
+
+### <a id="Ink_Canvas_MainWindow_DeleteWhiteboardPage"></a> DeleteWhiteboardPage\(\)
+
+```csharp
+public void DeleteWhiteboardPage()
 ```
 
 ### <a id="Ink_Canvas_MainWindow_DisableEraserOverlay"></a> DisableEraserOverlay\(\)
@@ -1235,6 +1324,26 @@ public Task ExitPptPresentation()
 #### Returns
 
  [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+
+### <a id="Ink_Canvas_MainWindow_ExitWhiteboard"></a> ExitWhiteboard\(\)
+
+```csharp
+public void ExitWhiteboard()
+```
+
+### <a id="Ink_Canvas_MainWindow_FindView_System_String_"></a> FindView\(string\)
+
+```csharp
+public FrameworkElement FindView(string id)
+```
+
+#### Parameters
+
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
 
 ### <a id="Ink_Canvas_MainWindow_FixPointsDirection_System_Windows_Point_System_Windows_Point_"></a> FixPointsDirection\(Point, Point\)
 
@@ -1521,6 +1630,12 @@ public void InitializePPTManagers()
 
 清理并释放现有的 PPT 管理器与 COM/Interop 状态，创建并配置新的 PPT 管理器（ROT 或 COM 实现，取决于设置）、单一的 PPT 墨迹管理器及其自动保存行为，以及 PPT UI 管理器与其显示/按钮位置选项。方法内部会订阅必要的 PPT 事件并记录初始化过程中的错误或警告。同时初始化长按页翻页定时器以支持长按翻页功能。
 
+### <a id="Ink_Canvas_MainWindow_InsertImage"></a> InsertImage\(\)
+
+```csharp
+public void InsertImage()
+```
+
 ### <a id="Ink_Canvas_MainWindow_MoveWindow_System_IntPtr_System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_"></a> MoveWindow\(IntPtr, int, int, int, int, bool\)
 
 ```csharp
@@ -1582,6 +1697,12 @@ public void OpenSingleStrokeFile(string filePath)
 4. 恢复元素信息
 5. 如果文件流中没有墨迹，尝试从内存流中加载
 
+### <a id="Ink_Canvas_MainWindow_OpenTools"></a> OpenTools\(\)
+
+```csharp
+public void OpenTools()
+```
+
 ### <a id="Ink_Canvas_MainWindow_OpenXMLStrokeFile_System_String_"></a> OpenXMLStrokeFile\(string\)
 
 打开XML格式的墨迹文件
@@ -1621,6 +1742,24 @@ public void PureViewboxFloatingBarMarginAnimationInPPTMode(bool isRetry = false)
 `isRetry` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否为重试操作
+
+### <a id="Ink_Canvas_MainWindow_Redo"></a> Redo\(\)
+
+```csharp
+public void Redo()
+```
+
+### <a id="Ink_Canvas_MainWindow_RegisterView_System_String_System_Windows_FrameworkElement_"></a> RegisterView\(string, FrameworkElement\)
+
+```csharp
+public void RegisterView(string id, FrameworkElement view)
+```
+
+#### Parameters
+
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`view` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
 
 ### <a id="Ink_Canvas_MainWindow_ReloadSettingsFromFile"></a> ReloadSettingsFromFile\(\)
 
@@ -1727,6 +1866,36 @@ public static void ScrollViewToVerticalTop(FrameworkElement element, ScrollViewe
 `scrollViewer` [ScrollViewer](https://learn.microsoft.com/dotnet/api/system.windows.controls.scrollviewer)
 
 包含该元素的目标 ScrollViewer。
+
+### <a id="Ink_Canvas_MainWindow_SelectEraser"></a> SelectEraser\(\)
+
+```csharp
+public void SelectEraser()
+```
+
+### <a id="Ink_Canvas_MainWindow_SelectPen"></a> SelectPen\(\)
+
+```csharp
+public void SelectPen()
+```
+
+### <a id="Ink_Canvas_MainWindow_SelectShape"></a> SelectShape\(\)
+
+```csharp
+public void SelectShape()
+```
+
+### <a id="Ink_Canvas_MainWindow_SelectStrokeEraser"></a> SelectStrokeEraser\(\)
+
+```csharp
+public void SelectStrokeEraser()
+```
+
+### <a id="Ink_Canvas_MainWindow_SelectTool"></a> SelectTool\(\)
+
+```csharp
+public void SelectTool()
+```
 
 ### <a id="Ink_Canvas_MainWindow_SetCursorBasedOnEditingMode_System_Windows_Controls_InkCanvas_"></a> SetCursorBasedOnEditingMode\(InkCanvas\)
 
@@ -1899,13 +2068,17 @@ public void StopEraserAutoSwitchBackTimer()
 public void StopPPTMonitoring()
 ```
 
-### <a id="Ink_Canvas_MainWindow_StopPowerPointProcessMonitoring"></a> StopPowerPointProcessMonitoring\(\)
+### <a id="Ink_Canvas_MainWindow_StopPowerPointProcessMonitoring_System_Boolean_"></a> StopPowerPointProcessMonitoring\(bool\)
 
 停止PowerPoint应用程序守护
 
 ```csharp
-public void StopPowerPointProcessMonitoring()
+public void StopPowerPointProcessMonitoring(bool isShutdown = false)
 ```
+
+#### Parameters
+
+`isShutdown` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_SwitchToBoardMode"></a> SwitchToBoardMode\(\)
 
@@ -1914,6 +2087,18 @@ public void StopPowerPointProcessMonitoring()
 
 ```csharp
 public void SwitchToBoardMode()
+```
+
+### <a id="Ink_Canvas_MainWindow_SwitchToNextPage"></a> SwitchToNextPage\(\)
+
+```csharp
+public void SwitchToNextPage()
+```
+
+### <a id="Ink_Canvas_MainWindow_SwitchToPreviousPage"></a> SwitchToPreviousPage\(\)
+
+```csharp
+public void SwitchToPreviousPage()
 ```
 
 ### <a id="Ink_Canvas_MainWindow_ToggleEraserMode"></a> ToggleEraserMode\(\)
@@ -1949,6 +2134,24 @@ public void ToggleFingerDragMode(object sender, RoutedEventArgs e)
 `e` [RoutedEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs)
 
 路由事件参数
+
+### <a id="Ink_Canvas_MainWindow_ToggleGesture"></a> ToggleGesture\(\)
+
+```csharp
+public void ToggleGesture()
+```
+
+### <a id="Ink_Canvas_MainWindow_ToggleInkFreeze"></a> ToggleInkFreeze\(\)
+
+```csharp
+public void ToggleInkFreeze()
+```
+
+### <a id="Ink_Canvas_MainWindow_ToggleVideoPresenterSidebarPublic"></a> ToggleVideoPresenterSidebarPublic\(\)
+
+```csharp
+public void ToggleVideoPresenterSidebarPublic()
+```
 
 ### <a id="Ink_Canvas_MainWindow_UnFoldFloatingBar_System_Object_"></a> UnFoldFloatingBar\(object\)
 
@@ -2001,6 +2204,12 @@ public void UnFoldFloatingBar_MouseUp(object sender, MouseButtonEventArgs e)
 `e` [MouseButtonEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs)
 
 路由事件参数。
+
+### <a id="Ink_Canvas_MainWindow_Undo"></a> Undo\(\)
+
+```csharp
+public void Undo()
+```
 
 ### <a id="Ink_Canvas_MainWindow_UpdateAutoKillProcessTimer_System_Boolean_"></a> UpdateAutoKillProcessTimer\(bool\)
 
@@ -2148,6 +2357,12 @@ public void UpdatePPTTimeCapsuleVisibility()
 
 ```csharp
 public void UpdatePPTUIManagerSettings()
+```
+
+### <a id="Ink_Canvas_MainWindow_UpdatePageInfo"></a> UpdatePageInfo\(\)
+
+```csharp
+public void UpdatePageInfo()
 ```
 
 ### <a id="Ink_Canvas_MainWindow_UpdatePickNameBackgroundDisplay"></a> UpdatePickNameBackgroundDisplay\(\)

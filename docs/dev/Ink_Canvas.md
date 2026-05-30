@@ -168,6 +168,8 @@ ScreenshotSelectorWindow
 
 遥测上传等级
 
+ [ToolbarPosition](Ink\_Canvas.ToolbarPosition.md)
+
  [TrayClickAction](Ink\_Canvas.TrayClickAction.md)
 
  [UpdateChannel](Ink\_Canvas.UpdateChannel.md)

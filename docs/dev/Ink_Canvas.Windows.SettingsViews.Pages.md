@@ -98,8 +98,6 @@ StoragePage
 
  [ToolbarAppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarAppearancePage.md)
 
-ToolbarAppearancePage
-
  [ToolbarPage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarPage.md)
 
 ToolbarPage

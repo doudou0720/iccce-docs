@@ -3,10 +3,8 @@
 Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
 
-ToolbarAppearancePage
-
 ```csharp
-public class ToolbarAppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+public class ToolbarAppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
 ```
 
 #### Inheritance
@@ -28,8 +26,7 @@ public class ToolbarAppearancePage : Page, IAnimatable, ISupportInitialize, IFra
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
-[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
+[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
 
 #### Inherited Members
 
@@ -655,15 +652,5 @@ public class ToolbarAppearancePage : Page, IAnimatable, ISupportInitialize, IFra
 
 ```csharp
 public ToolbarAppearancePage()
-```
-
-## Methods
-
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarAppearancePage_InitializeComponent"></a> InitializeComponent\(\)
-
-InitializeComponent
-
-```csharp
-public void InitializeComponent()
 ```
 

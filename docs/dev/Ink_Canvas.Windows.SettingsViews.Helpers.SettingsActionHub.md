@@ -384,6 +384,16 @@ public static void OnRestartApplication(object sender, RoutedEventArgs e)
 
 `e` [RoutedEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs)
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnReverseToolbarContentChanged_System_Boolean_"></a> OnReverseToolbarContentChanged\(bool\)
+
+```csharp
+public static void OnReverseToolbarContentChanged(bool isOn)
+```
+
+#### Parameters
+
+`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnShowPPTButtonChanged_System_Boolean_"></a> OnShowPPTButtonChanged\(bool\)
 
 ```csharp
@@ -457,6 +467,16 @@ public static void OnTimeDisplayInWhiteboardChanged(bool isOn)
 #### Parameters
 
 `isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnToolbarPositionChanged_Ink_Canvas_ToolbarPosition_"></a> OnToolbarPositionChanged\(ToolbarPosition\)
+
+```csharp
+public static void OnToolbarPositionChanged(ToolbarPosition position)
+```
+
+#### Parameters
+
+`position` [ToolbarPosition](Ink\_Canvas.ToolbarPosition.md)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnUnFoldButtonImageTypeChanged_System_Int32_"></a> OnUnFoldButtonImageTypeChanged\(int\)
 
