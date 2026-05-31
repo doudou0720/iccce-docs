@@ -104,6 +104,26 @@ public static string Nav_Basic_Tooltip { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_NavStrings_Nav_BoardToolbar"></a> Nav\_BoardToolbar
+
+```csharp
+public static string Nav_BoardToolbar { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_NavStrings_Nav_BoardToolbar_Tooltip"></a> Nav\_BoardToolbar\_Tooltip
+
+```csharp
+public static string Nav_BoardToolbar_Tooltip { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_NavStrings_Nav_CanvasAndInk_Tooltip"></a> Nav\_CanvasAndInk\_Tooltip
 
 ```csharp

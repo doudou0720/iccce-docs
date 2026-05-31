@@ -701,6 +701,26 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.AvatarItem.md
   - name: BackupPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.BackupPage.md
+  - name: BoardAreaNameConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardAreaNameConverter.md
+  - name: BoardGroupChildrenDropHandler
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardGroupChildrenDropHandler.md
+  - name: BoardGroupNameConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardGroupNameConverter.md
+  - name: BoardIdToDisplayNameConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardIdToDisplayNameConverter.md
+  - name: BoardNullToVisibilityConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardNullToVisibilityConverter.md
+  - name: BoardPositionNameConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardPositionNameConverter.md
+  - name: BoardToolbarAreaPickerDialog
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardToolbarAreaPickerDialog.md
+  - name: BoardToolbarComponentPickerDialog
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardToolbarComponentPickerDialog.md
+  - name: BoardToolbarInputDialog
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardToolbarInputDialog.md
+  - name: BoardToolbarPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardToolbarPage.md
   - name: CanvasPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.CanvasPage.md
   - name: ClassSelectionItem

@@ -24,6 +24,276 @@ public static class FloatingBarStrings
 
 ## Properties
 
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_AddComponent2"></a> BoardToolbarPage\_AddComponent2
+
+```csharp
+public static string BoardToolbarPage_AddComponent2 { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_AddGroup"></a> BoardToolbarPage\_AddGroup
+
+```csharp
+public static string BoardToolbarPage_AddGroup { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_AddGroup2"></a> BoardToolbarPage\_AddGroup2
+
+```csharp
+public static string BoardToolbarPage_AddGroup2 { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_AreaComponents"></a> BoardToolbarPage\_AreaComponents
+
+```csharp
+public static string BoardToolbarPage_AreaComponents { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_AreaComponentsHint"></a> BoardToolbarPage\_AreaComponentsHint
+
+```csharp
+public static string BoardToolbarPage_AreaComponentsHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_AreaGroups"></a> BoardToolbarPage\_AreaGroups
+
+```csharp
+public static string BoardToolbarPage_AreaGroups { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_Areas"></a> BoardToolbarPage\_Areas
+
+```csharp
+public static string BoardToolbarPage_Areas { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_AtLeastOneConfig"></a> BoardToolbarPage\_AtLeastOneConfig
+
+```csharp
+public static string BoardToolbarPage_AtLeastOneConfig { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_CenterArea"></a> BoardToolbarPage\_CenterArea
+
+```csharp
+public static string BoardToolbarPage_CenterArea { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_ComponentLibrary"></a> BoardToolbarPage\_ComponentLibrary
+
+```csharp
+public static string BoardToolbarPage_ComponentLibrary { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_ConfigProfiles"></a> BoardToolbarPage\_ConfigProfiles
+
+```csharp
+public static string BoardToolbarPage_ConfigProfiles { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_ConfirmDeleteConfig"></a> BoardToolbarPage\_ConfirmDeleteConfig
+
+```csharp
+public static string BoardToolbarPage_ConfirmDeleteConfig { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_DeleteProfile"></a> BoardToolbarPage\_DeleteProfile
+
+```csharp
+public static string BoardToolbarPage_DeleteProfile { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_DuplicateProfile"></a> BoardToolbarPage\_DuplicateProfile
+
+```csharp
+public static string BoardToolbarPage_DuplicateProfile { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_EnterNewConfigName"></a> BoardToolbarPage\_EnterNewConfigName
+
+```csharp
+public static string BoardToolbarPage_EnterNewConfigName { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_LeftArea"></a> BoardToolbarPage\_LeftArea
+
+```csharp
+public static string BoardToolbarPage_LeftArea { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_NewGroupName"></a> BoardToolbarPage\_NewGroupName
+
+```csharp
+public static string BoardToolbarPage_NewGroupName { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_NewProfile"></a> BoardToolbarPage\_NewProfile
+
+```csharp
+public static string BoardToolbarPage_NewProfile { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_Position"></a> BoardToolbarPage\_Position
+
+```csharp
+public static string BoardToolbarPage_Position { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_PositionDesc"></a> BoardToolbarPage\_PositionDesc
+
+```csharp
+public static string BoardToolbarPage_PositionDesc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_PositionFirst"></a> BoardToolbarPage\_PositionFirst
+
+```csharp
+public static string BoardToolbarPage_PositionFirst { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_PositionLast"></a> BoardToolbarPage\_PositionLast
+
+```csharp
+public static string BoardToolbarPage_PositionLast { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_PositionMiddle"></a> BoardToolbarPage\_PositionMiddle
+
+```csharp
+public static string BoardToolbarPage_PositionMiddle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_PositionSingle"></a> BoardToolbarPage\_PositionSingle
+
+```csharp
+public static string BoardToolbarPage_PositionSingle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_ResetConfirm"></a> BoardToolbarPage\_ResetConfirm
+
+```csharp
+public static string BoardToolbarPage_ResetConfirm { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_ResetDefault"></a> BoardToolbarPage\_ResetDefault
+
+```csharp
+public static string BoardToolbarPage_ResetDefault { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_RightArea"></a> BoardToolbarPage\_RightArea
+
+```csharp
+public static string BoardToolbarPage_RightArea { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Background"></a> Board\_Background
 
 ```csharp

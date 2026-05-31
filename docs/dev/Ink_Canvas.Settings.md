@@ -57,6 +57,17 @@ public Automation Automation { get; set; }
 
  [Automation](Ink\_Canvas.Automation.md)
 
+### <a id="Ink_Canvas_Settings_BoardToolbarConfigName"></a> BoardToolbarConfigName
+
+```csharp
+[JsonProperty("boardToolbarConfigName")]
+public string BoardToolbarConfigName { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Settings_Camera"></a> Camera
 
 ```csharp

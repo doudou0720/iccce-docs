@@ -90,6 +90,16 @@ public static Border CreateGroupBorder(List<FrameworkElement> views, Orientation
 
  [Border](https://learn.microsoft.com/dotnet/api/system.windows.controls.border)
 
+### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_DeleteConfigFile_System_String_"></a> DeleteConfigFile\(string\)
+
+```csharp
+public static void DeleteConfigFile(string name)
+```
+
+#### Parameters
+
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_Discover"></a> Discover\(\)
 
 ```csharp
@@ -143,6 +153,16 @@ public static string GetConfigFilePath(string name)
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_ListConfigFiles"></a> ListConfigFiles\(\)
+
+```csharp
+public static List<string> ListConfigFiles()
+```
+
+#### Returns
+
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_LoadActiveConfig"></a> LoadActiveConfig\(\)
 
