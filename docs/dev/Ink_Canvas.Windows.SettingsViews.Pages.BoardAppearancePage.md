@@ -1,12 +1,12 @@
-# <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardToolbarPage"></a> Class BoardToolbarPage
+# <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardAppearancePage"></a> Class BoardAppearancePage
 
 Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
 
-BoardToolbarPage
+BoardAppearancePage
 
 ```csharp
-public class BoardToolbarPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector, IStyleConnector
+public class BoardAppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
 ```
 
 #### Inheritance
@@ -19,7 +19,7 @@ public class BoardToolbarPage : Page, IAnimatable, ISupportInitialize, IFramewor
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
 [Page](https://learn.microsoft.com/dotnet/api/system.windows.controls.page) ← 
 [Page](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs) ← 
-[BoardToolbarPage](Ink\_Canvas.Windows.SettingsViews.Pages.BoardToolbarPage.md)
+[BoardAppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.BoardAppearancePage.md)
 
 #### Implements
 
@@ -29,8 +29,7 @@ public class BoardToolbarPage : Page, IAnimatable, ISupportInitialize, IFramewor
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
 [IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
-[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector), 
-[IStyleConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.istyleconnector)
+[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
 
 #### Inherited Members
 
@@ -652,89 +651,15 @@ public class BoardToolbarPage : Page, IAnimatable, ISupportInitialize, IFramewor
 
 ## Constructors
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardToolbarPage__ctor"></a> BoardToolbarPage\(\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardAppearancePage__ctor"></a> BoardAppearancePage\(\)
 
 ```csharp
-public BoardToolbarPage()
+public BoardAppearancePage()
 ```
-
-## Fields
-
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardToolbarPage_SelectedEntryProperty"></a> SelectedEntryProperty
-
-```csharp
-public static readonly DependencyProperty SelectedEntryProperty
-```
-
-#### Field Value
-
- [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
-
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardToolbarPage_SettingsTabIndexProperty"></a> SettingsTabIndexProperty
-
-```csharp
-public static readonly DependencyProperty SettingsTabIndexProperty
-```
-
-#### Field Value
-
- [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
-
-## Properties
-
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardToolbarPage_AreaGroups"></a> AreaGroups
-
-```csharp
-public ObservableCollection<BoardToolbarGroupEntry> AreaGroups { get; }
-```
-
-#### Property Value
-
- [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[BoardToolbarGroupEntry](Ink\_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarGroupEntry.md)\>
-
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardToolbarPage_AvailableItems"></a> AvailableItems
-
-```csharp
-public IReadOnlyList<IBoardToolbarItem> AvailableItems { get; }
-```
-
-#### Property Value
-
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[IBoardToolbarItem](Ink\_Canvas.Controls.Toolbar.BoardToolbar.IBoardToolbarItem.md)\>
-
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardToolbarPage_GroupDropHandler"></a> GroupDropHandler
-
-```csharp
-public BoardGroupChildrenDropHandler GroupDropHandler { get; }
-```
-
-#### Property Value
-
- [BoardGroupChildrenDropHandler](Ink\_Canvas.Windows.SettingsViews.Pages.BoardGroupChildrenDropHandler.md)
-
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardToolbarPage_SelectedEntry"></a> SelectedEntry
-
-```csharp
-public BoardToolbarComponentEntry SelectedEntry { get; set; }
-```
-
-#### Property Value
-
- [BoardToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarComponentEntry.md)
-
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardToolbarPage_SettingsTabIndex"></a> SettingsTabIndex
-
-```csharp
-public int SettingsTabIndex { get; set; }
-```
-
-#### Property Value
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardToolbarPage_InitializeComponent"></a> InitializeComponent\(\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardAppearancePage_InitializeComponent"></a> InitializeComponent\(\)
 
 InitializeComponent
 

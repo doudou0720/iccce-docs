@@ -46,6 +46,39 @@ public bool AutoFlipWhenSpaceInsufficient { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Appearance_BoardToolbarCenterOpacity"></a> BoardToolbarCenterOpacity
+
+```csharp
+[JsonProperty("boardToolbarCenterOpacity")]
+public double BoardToolbarCenterOpacity { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Appearance_BoardToolbarLeftOpacity"></a> BoardToolbarLeftOpacity
+
+```csharp
+[JsonProperty("boardToolbarLeftOpacity")]
+public double BoardToolbarLeftOpacity { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Appearance_BoardToolbarRightOpacity"></a> BoardToolbarRightOpacity
+
+```csharp
+[JsonProperty("boardToolbarRightOpacity")]
+public double BoardToolbarRightOpacity { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Appearance_ChickenSoupSource"></a> ChickenSoupSource
 
 ```csharp
@@ -452,6 +485,28 @@ public bool UseMinimalistGrabHandle { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Appearance_ViewboxBlackBoardLeftScaleTransformValue"></a> ViewboxBlackBoardLeftScaleTransformValue
+
+```csharp
+[JsonProperty("viewboxBlackBoardLeftScaleTransformValue")]
+public double ViewboxBlackBoardLeftScaleTransformValue { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Appearance_ViewboxBlackBoardRightScaleTransformValue"></a> ViewboxBlackBoardRightScaleTransformValue
+
+```csharp
+[JsonProperty("viewboxBlackBoardRightScaleTransformValue")]
+public double ViewboxBlackBoardRightScaleTransformValue { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_ViewboxBlackBoardScaleTransformValue"></a> ViewboxBlackBoardScaleTransformValue
 

@@ -174,10 +174,90 @@ public static string BoardToolbarPage_EnterNewConfigName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_GroupAddPage"></a> BoardToolbarPage\_GroupAddPage
+
+```csharp
+public static string BoardToolbarPage_GroupAddPage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_GroupGesture"></a> BoardToolbarPage\_GroupGesture
+
+```csharp
+public static string BoardToolbarPage_GroupGesture { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_GroupNavigation"></a> BoardToolbarPage\_GroupNavigation
+
+```csharp
+public static string BoardToolbarPage_GroupNavigation { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_GroupSystem"></a> BoardToolbarPage\_GroupSystem
+
+```csharp
+public static string BoardToolbarPage_GroupSystem { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_GroupTools"></a> BoardToolbarPage\_GroupTools
+
+```csharp
+public static string BoardToolbarPage_GroupTools { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_GroupVideoBooth"></a> BoardToolbarPage\_GroupVideoBooth
+
+```csharp
+public static string BoardToolbarPage_GroupVideoBooth { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_LeftArea"></a> BoardToolbarPage\_LeftArea
 
 ```csharp
 public static string BoardToolbarPage_LeftArea { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_MoveDown"></a> BoardToolbarPage\_MoveDown
+
+```csharp
+public static string BoardToolbarPage_MoveDown { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_MoveUp"></a> BoardToolbarPage\_MoveUp
+
+```csharp
+public static string BoardToolbarPage_MoveUp { get; }
 ```
 
 #### Property Value
@@ -288,6 +368,16 @@ public static string BoardToolbarPage_ResetDefault { get; }
 
 ```csharp
 public static string BoardToolbarPage_RightArea { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_Title"></a> BoardToolbarPage\_Title
+
+```csharp
+public static string BoardToolbarPage_Title { get; }
 ```
 
 #### Property Value

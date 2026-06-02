@@ -701,6 +701,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.AvatarItem.md
   - name: BackupPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.BackupPage.md
+  - name: BoardAppearancePage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardAppearancePage.md
   - name: BoardAreaNameConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.BoardAreaNameConverter.md
   - name: BoardGroupChildrenDropHandler

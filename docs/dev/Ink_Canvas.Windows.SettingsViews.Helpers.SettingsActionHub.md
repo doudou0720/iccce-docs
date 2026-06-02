@@ -42,10 +42,60 @@ public static void OnAutoKillChanged()
 public static void OnAutoSaveStrokesChanged()
 ```
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnBlackBoardLeftScaleChanged_System_Double_"></a> OnBlackBoardLeftScaleChanged\(double\)
+
+```csharp
+public static void OnBlackBoardLeftScaleChanged(double value)
+```
+
+#### Parameters
+
+`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnBlackBoardRightScaleChanged_System_Double_"></a> OnBlackBoardRightScaleChanged\(double\)
+
+```csharp
+public static void OnBlackBoardRightScaleChanged(double value)
+```
+
+#### Parameters
+
+`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnBlackBoardScaleChanged_System_Double_"></a> OnBlackBoardScaleChanged\(double\)
 
 ```csharp
 public static void OnBlackBoardScaleChanged(double value)
+```
+
+#### Parameters
+
+`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnBoardToolbarCenterOpacityChanged_System_Double_"></a> OnBoardToolbarCenterOpacityChanged\(double\)
+
+```csharp
+public static void OnBoardToolbarCenterOpacityChanged(double value)
+```
+
+#### Parameters
+
+`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnBoardToolbarLeftOpacityChanged_System_Double_"></a> OnBoardToolbarLeftOpacityChanged\(double\)
+
+```csharp
+public static void OnBoardToolbarLeftOpacityChanged(double value)
+```
+
+#### Parameters
+
+`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnBoardToolbarRightOpacityChanged_System_Double_"></a> OnBoardToolbarRightOpacityChanged\(double\)
+
+```csharp
+public static void OnBoardToolbarRightOpacityChanged(double value)
 ```
 
 #### Parameters

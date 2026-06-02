@@ -24,6 +24,10 @@ AnnouncementCenterPage
 
  [BackupPage](Ink\_Canvas.Windows.SettingsViews.Pages.BackupPage.md)
 
+ [BoardAppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.BoardAppearancePage.md)
+
+BoardAppearancePage
+
  [BoardAreaNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardAreaNameConverter.md)
 
  [BoardGroupChildrenDropHandler](Ink\_Canvas.Windows.SettingsViews.Pages.BoardGroupChildrenDropHandler.md)

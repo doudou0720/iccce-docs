@@ -24,17 +24,6 @@ public class BoardToolbarAreaEntry
 
 ## Properties
 
-### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarAreaEntry_Components"></a> Components
-
-```csharp
-[JsonProperty("components")]
-public List<BoardToolbarComponentEntry> Components { get; set; }
-```
-
-#### Property Value
-
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[BoardToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarComponentEntry.md)\>
-
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarAreaEntry_Groups"></a> Groups
 
 ```csharp

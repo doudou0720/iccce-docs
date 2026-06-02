@@ -74,6 +74,76 @@ public static string Theme_BlackboardScale80 { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardScaleCenter"></a> Theme\_BoardScaleCenter
+
+```csharp
+public static string Theme_BoardScaleCenter { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardScaleLeft"></a> Theme\_BoardScaleLeft
+
+```csharp
+public static string Theme_BoardScaleLeft { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardScaleRight"></a> Theme\_BoardScaleRight
+
+```csharp
+public static string Theme_BoardScaleRight { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardToolbarOpacity"></a> Theme\_BoardToolbarOpacity
+
+```csharp
+public static string Theme_BoardToolbarOpacity { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardToolbarOpacityCenter"></a> Theme\_BoardToolbarOpacityCenter
+
+```csharp
+public static string Theme_BoardToolbarOpacityCenter { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardToolbarOpacityLeft"></a> Theme\_BoardToolbarOpacityLeft
+
+```csharp
+public static string Theme_BoardToolbarOpacityLeft { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardToolbarOpacityRight"></a> Theme\_BoardToolbarOpacityRight
+
+```csharp
+public static string Theme_BoardToolbarOpacityRight { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Clear"></a> Theme\_Clear
 
 ```csharp
