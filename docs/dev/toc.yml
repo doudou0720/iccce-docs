@@ -387,6 +387,8 @@
     href: Ink_Canvas.Helpers.ScreenDetectionHelper.md
   - name: ShapeRecognitionRouter
     href: Ink_Canvas.Helpers.ShapeRecognitionRouter.md
+  - name: SliderTouchHelper
+    href: Ink_Canvas.Helpers.SliderTouchHelper.md
   - name: StartupCount
     href: Ink_Canvas.Helpers.StartupCount.md
   - name: StrokeVisual

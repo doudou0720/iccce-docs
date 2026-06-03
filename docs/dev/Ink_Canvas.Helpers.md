@@ -184,6 +184,10 @@ Main-window base that can use WindowChrome for DWM-backed transparent rendering.
 
  [ShapeRecognitionRouter](Ink\_Canvas.Helpers.ShapeRecognitionRouter.md)
 
+ [SliderTouchHelper](Ink\_Canvas.Helpers.SliderTouchHelper.md)
+
+为 Slider 控件提供触摸和手写笔事件支持的辅助类
+
  [StartupCount](Ink\_Canvas.Helpers.StartupCount.md)
 
  [StrokeVisual](Ink\_Canvas.Helpers.StrokeVisual.md)
