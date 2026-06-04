@@ -20,6 +20,8 @@ AnnouncementCenterPage
 
  [AutomationPage](Ink\_Canvas.Windows.SettingsViews.Pages.AutomationPage.md)
 
+ [AutomationWorkflowPage](Ink\_Canvas.Windows.SettingsViews.Pages.AutomationWorkflowPage.md)
+
  [AvatarItem](Ink\_Canvas.Windows.SettingsViews.Pages.AvatarItem.md)
 
  [BackupPage](Ink\_Canvas.Windows.SettingsViews.Pages.BackupPage.md)
@@ -111,6 +113,10 @@ PluginSettingsPage
 PrivacyPage
 
  [RandomDrawPage](Ink\_Canvas.Windows.SettingsViews.Pages.RandomDrawPage.md)
+
+ [RulesetLogicalModeToIntConverter](Ink\_Canvas.Windows.SettingsViews.Pages.RulesetLogicalModeToIntConverter.md)
+
+RulesetLogicalMode 到 int 的转换器，用于 ComboBox SelectedIndex 绑定
 
  [SecurityPage](Ink\_Canvas.Windows.SettingsViews.Pages.SecurityPage.md)
 

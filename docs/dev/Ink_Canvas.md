@@ -20,6 +20,8 @@
 
  [Ink\_Canvas.Windows](Ink\_Canvas.Windows.md)
 
+ [Ink\_Canvas.WorkflowAutomation](Ink\_Canvas.WorkflowAutomation.md)
+
 ### Classes
 
  [AddCustomIconWindow](Ink\_Canvas.AddCustomIconWindow.md)

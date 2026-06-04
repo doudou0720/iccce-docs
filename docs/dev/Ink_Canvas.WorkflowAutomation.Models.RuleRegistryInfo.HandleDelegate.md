@@ -1,0 +1,17 @@
+# <a id="Ink_Canvas_WorkflowAutomation_Models_RuleRegistryInfo_HandleDelegate"></a> Delegate RuleRegistryInfo.HandleDelegate
+
+Namespace: [Ink\_Canvas.WorkflowAutomation.Models](Ink\_Canvas.WorkflowAutomation.Models.md)  
+Assembly: InkCanvasForClass.dll  
+
+```csharp
+public delegate bool RuleRegistryInfo.HandleDelegate(object? settings)
+```
+
+#### Parameters
+
+`settings` [object](https://learn.microsoft.com/dotnet/api/system.object)?
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+

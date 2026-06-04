@@ -699,6 +699,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.AuthWithTokenResponse.md
   - name: AutomationPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.AutomationPage.md
+  - name: AutomationWorkflowPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.AutomationWorkflowPage.md
   - name: AvatarItem
     href: Ink_Canvas.Windows.SettingsViews.Pages.AvatarItem.md
   - name: BackupPage
@@ -769,6 +771,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.PrivacyPage.md
   - name: RandomDrawPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.RandomDrawPage.md
+  - name: RulesetLogicalModeToIntConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.RulesetLogicalModeToIntConverter.md
   - name: SecurityPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.SecurityPage.md
   - name: SettingsPage
@@ -791,3 +795,144 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.WhiteboardInfo.md
   - name: WindowPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.WindowPage.md
+- name: Ink_Canvas.WorkflowAutomation
+  href: Ink_Canvas.WorkflowAutomation.md
+  items:
+  - name: Classes
+  - name: AutomationBootstrap
+    href: Ink_Canvas.WorkflowAutomation.AutomationBootstrap.md
+- name: Ink_Canvas.WorkflowAutomation.Abstractions
+  href: Ink_Canvas.WorkflowAutomation.Abstractions.md
+  items:
+  - name: Classes
+  - name: ActionSettingsControlBase
+    href: Ink_Canvas.WorkflowAutomation.Abstractions.ActionSettingsControlBase.md
+  - name: ActionSettingsControlBase<T>
+    href: Ink_Canvas.WorkflowAutomation.Abstractions.ActionSettingsControlBase-1.md
+  - name: TriggerBase
+    href: Ink_Canvas.WorkflowAutomation.Abstractions.TriggerBase.md
+  - name: TriggerBase<T>
+    href: Ink_Canvas.WorkflowAutomation.Abstractions.TriggerBase-1.md
+  - name: TriggerSettingsControlBase
+    href: Ink_Canvas.WorkflowAutomation.Abstractions.TriggerSettingsControlBase.md
+  - name: TriggerSettingsControlBase<T>
+    href: Ink_Canvas.WorkflowAutomation.Abstractions.TriggerSettingsControlBase-1.md
+- name: Ink_Canvas.WorkflowAutomation.Actions
+  href: Ink_Canvas.WorkflowAutomation.Actions.md
+  items:
+  - name: Classes
+  - name: FoldAction
+    href: Ink_Canvas.WorkflowAutomation.Actions.FoldAction.md
+  - name: FoldActionSettings
+    href: Ink_Canvas.WorkflowAutomation.Actions.FoldActionSettings.md
+  - name: KillProcessAction
+    href: Ink_Canvas.WorkflowAutomation.Actions.KillProcessAction.md
+  - name: KillProcessActionSettings
+    href: Ink_Canvas.WorkflowAutomation.Actions.KillProcessActionSettings.md
+  - name: SaveStrokesAction
+    href: Ink_Canvas.WorkflowAutomation.Actions.SaveStrokesAction.md
+  - name: SaveStrokesActionSettings
+    href: Ink_Canvas.WorkflowAutomation.Actions.SaveStrokesActionSettings.md
+- name: Ink_Canvas.WorkflowAutomation.Enums
+  href: Ink_Canvas.WorkflowAutomation.Enums.md
+  items:
+  - name: Enums
+  - name: RulesetLogicalMode
+    href: Ink_Canvas.WorkflowAutomation.Enums.RulesetLogicalMode.md
+- name: Ink_Canvas.WorkflowAutomation.Models
+  href: Ink_Canvas.WorkflowAutomation.Models.md
+  items:
+  - name: Classes
+  - name: Action
+    href: Ink_Canvas.WorkflowAutomation.Models.Action.md
+  - name: ActionRegistryInfo
+    href: Ink_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md
+  - name: ActionSet
+    href: Ink_Canvas.WorkflowAutomation.Models.ActionSet.md
+  - name: Rule
+    href: Ink_Canvas.WorkflowAutomation.Models.Rule.md
+  - name: RuleGroup
+    href: Ink_Canvas.WorkflowAutomation.Models.RuleGroup.md
+  - name: RuleRegistryInfo
+    href: Ink_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md
+  - name: Ruleset
+    href: Ink_Canvas.WorkflowAutomation.Models.Ruleset.md
+  - name: TriggerInfo
+    href: Ink_Canvas.WorkflowAutomation.Models.TriggerInfo.md
+  - name: TriggerSettings
+    href: Ink_Canvas.WorkflowAutomation.Models.TriggerSettings.md
+  - name: Workflow
+    href: Ink_Canvas.WorkflowAutomation.Models.Workflow.md
+  - name: Delegates
+  - name: ActionRegistryInfo.HandleDelegate
+    href: Ink_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md
+  - name: RuleRegistryInfo.HandleDelegate
+    href: Ink_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md
+- name: Ink_Canvas.WorkflowAutomation.Rules
+  href: Ink_Canvas.WorkflowAutomation.Rules.md
+  items:
+  - name: Classes
+  - name: IsAnnotationModeRule
+    href: Ink_Canvas.WorkflowAutomation.Rules.IsAnnotationModeRule.md
+  - name: IsAnnotationModeRuleSettings
+    href: Ink_Canvas.WorkflowAutomation.Rules.IsAnnotationModeRuleSettings.md
+  - name: ProcessRunningRule
+    href: Ink_Canvas.WorkflowAutomation.Rules.ProcessRunningRule.md
+  - name: ProcessRunningRuleSettings
+    href: Ink_Canvas.WorkflowAutomation.Rules.ProcessRunningRuleSettings.md
+  - name: WindowTitleContainsRule
+    href: Ink_Canvas.WorkflowAutomation.Rules.WindowTitleContainsRule.md
+  - name: WindowTitleContainsRuleSettings
+    href: Ink_Canvas.WorkflowAutomation.Rules.WindowTitleContainsRuleSettings.md
+- name: Ink_Canvas.WorkflowAutomation.Services
+  href: Ink_Canvas.WorkflowAutomation.Services.md
+  items:
+  - name: Classes
+  - name: ActionService
+    href: Ink_Canvas.WorkflowAutomation.Services.ActionService.md
+  - name: AutomationRegistry
+    href: Ink_Canvas.WorkflowAutomation.Services.AutomationRegistry.md
+  - name: AutomationService
+    href: Ink_Canvas.WorkflowAutomation.Services.AutomationService.md
+  - name: RulesetService
+    href: Ink_Canvas.WorkflowAutomation.Services.RulesetService.md
+- name: Ink_Canvas.WorkflowAutomation.Triggers
+  href: Ink_Canvas.WorkflowAutomation.Triggers.md
+  items:
+  - name: Classes
+  - name: AnnotationModeEnterSettings
+    href: Ink_Canvas.WorkflowAutomation.Triggers.AnnotationModeEnterSettings.md
+  - name: AnnotationModeEnterTrigger
+    href: Ink_Canvas.WorkflowAutomation.Triggers.AnnotationModeEnterTrigger.md
+  - name: AnnotationModeExitSettings
+    href: Ink_Canvas.WorkflowAutomation.Triggers.AnnotationModeExitSettings.md
+  - name: AnnotationModeExitTrigger
+    href: Ink_Canvas.WorkflowAutomation.Triggers.AnnotationModeExitTrigger.md
+  - name: PptSlideShowEnterSettings
+    href: Ink_Canvas.WorkflowAutomation.Triggers.PptSlideShowEnterSettings.md
+  - name: PptSlideShowEnterTrigger
+    href: Ink_Canvas.WorkflowAutomation.Triggers.PptSlideShowEnterTrigger.md
+  - name: PptSlideShowExitSettings
+    href: Ink_Canvas.WorkflowAutomation.Triggers.PptSlideShowExitSettings.md
+  - name: PptSlideShowExitTrigger
+    href: Ink_Canvas.WorkflowAutomation.Triggers.PptSlideShowExitTrigger.md
+  - name: PptSlideShowSettings
+    href: Ink_Canvas.WorkflowAutomation.Triggers.PptSlideShowSettings.md
+  - name: PptSlideShowTrigger
+    href: Ink_Canvas.WorkflowAutomation.Triggers.PptSlideShowTrigger.md
+  - name: ProcessDetectedSettings
+    href: Ink_Canvas.WorkflowAutomation.Triggers.ProcessDetectedSettings.md
+  - name: ProcessDetectedTrigger
+    href: Ink_Canvas.WorkflowAutomation.Triggers.ProcessDetectedTrigger.md
+  - name: RulesetChangedSettings
+    href: Ink_Canvas.WorkflowAutomation.Triggers.RulesetChangedSettings.md
+  - name: RulesetChangedTrigger
+    href: Ink_Canvas.WorkflowAutomation.Triggers.RulesetChangedTrigger.md
+  - name: TimerTrigger
+    href: Ink_Canvas.WorkflowAutomation.Triggers.TimerTrigger.md
+  - name: TimerTriggerSettings
+    href: Ink_Canvas.WorkflowAutomation.Triggers.TimerTriggerSettings.md
+  - name: WindowFocusChangedSettings
+    href: Ink_Canvas.WorkflowAutomation.Triggers.WindowFocusChangedSettings.md
+  - name: WindowFocusChangedTrigger
+    href: Ink_Canvas.WorkflowAutomation.Triggers.WindowFocusChangedTrigger.md
