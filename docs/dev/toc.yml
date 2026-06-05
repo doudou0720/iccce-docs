@@ -427,6 +427,8 @@
     href: Ink_Canvas.Helpers.WindowInfo.md
   - name: WindowOverviewModel
     href: Ink_Canvas.Helpers.WindowOverviewModel.md
+  - name: WindowTopmostManager
+    href: Ink_Canvas.Helpers.WindowTopmostManager.md
   - name: WindowZOrderManager
     href: Ink_Canvas.Helpers.WindowZOrderManager.md
   - name: Structs
@@ -699,6 +701,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.AuthWithTokenResponse.md
   - name: AutomationPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.AutomationPage.md
+  - name: AutomationSettingsPresenter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.AutomationSettingsPresenter.md
   - name: AutomationWorkflowPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.AutomationWorkflowPage.md
   - name: AvatarItem
@@ -821,6 +825,10 @@
   href: Ink_Canvas.WorkflowAutomation.Actions.md
   items:
   - name: Classes
+  - name: ClearStrokesAction
+    href: Ink_Canvas.WorkflowAutomation.Actions.ClearStrokesAction.md
+  - name: ClearStrokesActionSettings
+    href: Ink_Canvas.WorkflowAutomation.Actions.ClearStrokesActionSettings.md
   - name: FoldAction
     href: Ink_Canvas.WorkflowAutomation.Actions.FoldAction.md
   - name: FoldActionSettings
@@ -833,6 +841,18 @@
     href: Ink_Canvas.WorkflowAutomation.Actions.SaveStrokesAction.md
   - name: SaveStrokesActionSettings
     href: Ink_Canvas.WorkflowAutomation.Actions.SaveStrokesActionSettings.md
+  - name: ShowNotificationAction
+    href: Ink_Canvas.WorkflowAutomation.Actions.ShowNotificationAction.md
+  - name: ShowNotificationActionSettings
+    href: Ink_Canvas.WorkflowAutomation.Actions.ShowNotificationActionSettings.md
+  - name: ToggleAnnotationModeAction
+    href: Ink_Canvas.WorkflowAutomation.Actions.ToggleAnnotationModeAction.md
+  - name: ToggleAnnotationModeActionSettings
+    href: Ink_Canvas.WorkflowAutomation.Actions.ToggleAnnotationModeActionSettings.md
+  - name: ToggleTopmostAction
+    href: Ink_Canvas.WorkflowAutomation.Actions.ToggleTopmostAction.md
+  - name: ToggleTopmostActionSettings
+    href: Ink_Canvas.WorkflowAutomation.Actions.ToggleTopmostActionSettings.md
 - name: Ink_Canvas.WorkflowAutomation.Enums
   href: Ink_Canvas.WorkflowAutomation.Enums.md
   items:
@@ -872,10 +892,22 @@
   href: Ink_Canvas.WorkflowAutomation.Rules.md
   items:
   - name: Classes
+  - name: ForegroundWindowProcessRule
+    href: Ink_Canvas.WorkflowAutomation.Rules.ForegroundWindowProcessRule.md
+  - name: ForegroundWindowProcessRuleSettings
+    href: Ink_Canvas.WorkflowAutomation.Rules.ForegroundWindowProcessRuleSettings.md
   - name: IsAnnotationModeRule
     href: Ink_Canvas.WorkflowAutomation.Rules.IsAnnotationModeRule.md
   - name: IsAnnotationModeRuleSettings
     href: Ink_Canvas.WorkflowAutomation.Rules.IsAnnotationModeRuleSettings.md
+  - name: IsFloatingBarFoldedRule
+    href: Ink_Canvas.WorkflowAutomation.Rules.IsFloatingBarFoldedRule.md
+  - name: IsFloatingBarFoldedRuleSettings
+    href: Ink_Canvas.WorkflowAutomation.Rules.IsFloatingBarFoldedRuleSettings.md
+  - name: IsPptSlideshowRule
+    href: Ink_Canvas.WorkflowAutomation.Rules.IsPptSlideshowRule.md
+  - name: IsPptSlideshowRuleSettings
+    href: Ink_Canvas.WorkflowAutomation.Rules.IsPptSlideshowRuleSettings.md
   - name: ProcessRunningRule
     href: Ink_Canvas.WorkflowAutomation.Rules.ProcessRunningRule.md
   - name: ProcessRunningRuleSettings

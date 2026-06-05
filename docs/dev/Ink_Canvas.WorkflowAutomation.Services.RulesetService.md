@@ -4,15 +4,20 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Services](Ink\_Canvas.WorkflowAutomat
 Assembly: InkCanvasForClass.dll  
 
 规则集服务，负责评估规则集是否满足。
+对齐 ClassIsland 的 RulesetService 实现，在评估时更新所有层级的 State。
 
 ```csharp
-public class RulesetService
+public class RulesetService : IDisposable
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [RulesetService](Ink\_Canvas.WorkflowAutomation.Services.RulesetService.md)
+
+#### Implements
+
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 #### Inherited Members
 
@@ -24,11 +29,27 @@ public class RulesetService
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
+## Constructors
+
+### <a id="Ink_Canvas_WorkflowAutomation_Services_RulesetService__ctor"></a> RulesetService\(\)
+
+```csharp
+public RulesetService()
+```
+
 ## Methods
+
+### <a id="Ink_Canvas_WorkflowAutomation_Services_RulesetService_Dispose"></a> Dispose\(\)
+
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+
+```csharp
+public void Dispose()
+```
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_RulesetService_IsRulesetSatisfied_Ink_Canvas_WorkflowAutomation_Models_Ruleset_"></a> IsRulesetSatisfied\(Ruleset\)
 
-判断指定的规则集是否成立。
+判断指定的规则集是否成立，同时更新所有层级的 State。
 
 ```csharp
 public bool IsRulesetSatisfied(Ruleset ruleset)

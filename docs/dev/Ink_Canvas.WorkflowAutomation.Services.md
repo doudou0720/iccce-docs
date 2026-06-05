@@ -17,4 +17,5 @@
  [RulesetService](Ink\_Canvas.WorkflowAutomation.Services.RulesetService.md)
 
 规则集服务，负责评估规则集是否满足。
+对齐 ClassIsland 的 RulesetService 实现，在评估时更新所有层级的 State。
 

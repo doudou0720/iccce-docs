@@ -261,6 +261,8 @@ WebDav上传工具类
 
  [FloatingWindowInterceptor.WindowRestoredEventArgs](Ink\_Canvas.Helpers.FloatingWindowInterceptor.WindowRestoredEventArgs.md)
 
+ [WindowTopmostManager](Ink\_Canvas.Helpers.WindowTopmostManager.md)
+
  [WindowZOrderManager](Ink\_Canvas.Helpers.WindowZOrderManager.md)
 
 窗口Z-Order管理器，用于管理窗口的层级顺序
@@ -272,9 +274,9 @@ WebDav上传工具类
 
  [EdgeGestureUtil.PropertyKey](Ink\_Canvas.Helpers.EdgeGestureUtil.PropertyKey.md)
 
- [ROTPPTManager.RECT](Ink\_Canvas.Helpers.ROTPPTManager.RECT.md)
-
  [PPTManager.RECT](Ink\_Canvas.Helpers.PPTManager.RECT.md)
+
+ [ROTPPTManager.RECT](Ink\_Canvas.Helpers.ROTPPTManager.RECT.md)
 
  [WindowRect](Ink\_Canvas.Helpers.WindowRect.md)
 

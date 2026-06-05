@@ -164,6 +164,20 @@ public TimeMachineHistory Redo()
 
  [TimeMachineHistory](Ink\_Canvas.Helpers.TimeMachineHistory.md)
 
+### <a id="Ink_Canvas_Helpers_TimeMachine_TryReplaceLastUserInputHistory_System_Windows_Ink_StrokeCollection_"></a> TryReplaceLastUserInputHistory\(StrokeCollection\)
+
+```csharp
+public bool TryReplaceLastUserInputHistory(StrokeCollection stroke)
+```
+
+#### Parameters
+
+`stroke` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Helpers_TimeMachine_Undo"></a> Undo\(\)
 
 ```csharp

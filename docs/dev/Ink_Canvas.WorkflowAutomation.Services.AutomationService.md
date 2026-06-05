@@ -60,6 +60,16 @@ public AutomationService(string configsFolderPath)
 
 ## Properties
 
+### <a id="Ink_Canvas_WorkflowAutomation_Services_AutomationService_ActionService"></a> ActionService
+
+```csharp
+public ActionService ActionService { get; }
+```
+
+#### Property Value
+
+ [ActionService](Ink\_Canvas.WorkflowAutomation.Services.ActionService.md)
+
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_AutomationService_Configs"></a> Configs
 
 ```csharp
@@ -100,6 +110,16 @@ public bool IsAutomationEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_WorkflowAutomation_Services_AutomationService_RulesetService"></a> RulesetService
+
+```csharp
+public RulesetService RulesetService { get; }
+```
+
+#### Property Value
+
+ [RulesetService](Ink\_Canvas.WorkflowAutomation.Services.RulesetService.md)
+
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_AutomationService_Workflows"></a> Workflows
 
 ```csharp
@@ -111,16 +131,6 @@ public ObservableCollection<Workflow> Workflows { get; set; }
  [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[Workflow](Ink\_Canvas.WorkflowAutomation.Models.Workflow.md)\>
 
 ## Methods
-
-### <a id="Ink_Canvas_WorkflowAutomation_Services_AutomationService_GetRulesetService"></a> GetRulesetService\(\)
-
-```csharp
-public RulesetService GetRulesetService()
-```
-
-#### Returns
-
- [RulesetService](Ink\_Canvas.WorkflowAutomation.Services.RulesetService.md)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_AutomationService_LoadConfig"></a> LoadConfig\(\)
 

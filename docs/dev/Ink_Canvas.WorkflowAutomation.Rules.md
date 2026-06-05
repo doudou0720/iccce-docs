@@ -2,6 +2,14 @@
 
 ### Classes
 
+ [ForegroundWindowProcessRule](Ink\_Canvas.WorkflowAutomation.Rules.ForegroundWindowProcessRule.md)
+
+判断前台窗口的进程名是否匹配指定名称的规则。
+
+ [ForegroundWindowProcessRuleSettings](Ink\_Canvas.WorkflowAutomation.Rules.ForegroundWindowProcessRuleSettings.md)
+
+前台窗口进程名规则设置
+
  [IsAnnotationModeRule](Ink\_Canvas.WorkflowAutomation.Rules.IsAnnotationModeRule.md)
 
 判断浮动工具栏是否处于批注模式的规则。
@@ -9,6 +17,22 @@
  [IsAnnotationModeRuleSettings](Ink\_Canvas.WorkflowAutomation.Rules.IsAnnotationModeRuleSettings.md)
 
 批注模式规则设置
+
+ [IsFloatingBarFoldedRule](Ink\_Canvas.WorkflowAutomation.Rules.IsFloatingBarFoldedRule.md)
+
+判断浮动工具栏是否已折叠的规则。
+
+ [IsFloatingBarFoldedRuleSettings](Ink\_Canvas.WorkflowAutomation.Rules.IsFloatingBarFoldedRuleSettings.md)
+
+浮动栏已折叠规则设置
+
+ [IsPptSlideshowRule](Ink\_Canvas.WorkflowAutomation.Rules.IsPptSlideshowRule.md)
+
+判断当前是否处于PPT放映模式的规则。
+
+ [IsPptSlideshowRuleSettings](Ink\_Canvas.WorkflowAutomation.Rules.IsPptSlideshowRuleSettings.md)
+
+PPT放映中规则设置
 
  [ProcessRunningRule](Ink\_Canvas.WorkflowAutomation.Rules.ProcessRunningRule.md)
 

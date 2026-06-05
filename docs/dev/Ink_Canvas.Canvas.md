@@ -490,6 +490,17 @@ public int MaxConcurrentSmoothingTasks { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Canvas_MergeInkSmoothingWithUndo"></a> MergeInkSmoothingWithUndo
+
+```csharp
+[JsonProperty("mergeInkSmoothingWithUndo")]
+public bool MergeInkSmoothingWithUndo { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Canvas_PalmEraserSensitivity"></a> PalmEraserSensitivity
 
 ```csharp

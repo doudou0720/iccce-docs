@@ -20,6 +20,8 @@ AnnouncementCenterPage
 
  [AutomationPage](Ink\_Canvas.Windows.SettingsViews.Pages.AutomationPage.md)
 
+ [AutomationSettingsPresenter](Ink\_Canvas.Windows.SettingsViews.Pages.AutomationSettingsPresenter.md)
+
  [AutomationWorkflowPage](Ink\_Canvas.Windows.SettingsViews.Pages.AutomationWorkflowPage.md)
 
  [AvatarItem](Ink\_Canvas.Windows.SettingsViews.Pages.AvatarItem.md)

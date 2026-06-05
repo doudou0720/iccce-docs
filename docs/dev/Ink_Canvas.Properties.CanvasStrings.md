@@ -474,6 +474,26 @@ public static string Canvas_LaunchSeewoVideoShowcaseForWhiteboardBoothHint { get
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_MergeInkSmoothingWithUndo"></a> Canvas\_MergeInkSmoothingWithUndo
+
+```csharp
+public static string Canvas_MergeInkSmoothingWithUndo { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_MergeInkSmoothingWithUndoHint"></a> Canvas\_MergeInkSmoothingWithUndoHint
+
+```csharp
+public static string Canvas_MergeInkSmoothingWithUndoHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_No"></a> Canvas\_No
 
 ```csharp
