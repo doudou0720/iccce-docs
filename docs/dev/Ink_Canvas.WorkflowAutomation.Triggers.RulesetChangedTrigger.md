@@ -7,6 +7,7 @@ Assembly: InkCanvasForClass.dll
 当任何规则条件可能发生变化时触发。
 
 ```csharp
+[TriggerInfo("inkcanvas.rulesetchanged", "规则集更新", "Refresh")]
 public class RulesetChangedTrigger : TriggerBase<RulesetChangedSettings>
 ```
 

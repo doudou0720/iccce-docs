@@ -38,6 +38,20 @@ public const string RuleId = "inkcanvas.ispptslideshow"
 
 ## Methods
 
+### <a id="Ink_Canvas_WorkflowAutomation_Rules_IsPptSlideshowRule_Evaluate_System_Object_"></a> Evaluate\(object\)
+
+```csharp
+public static bool Evaluate(object settings)
+```
+
+#### Parameters
+
+`settings` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_WorkflowAutomation_Rules_IsPptSlideshowRule_Register"></a> Register\(\)
 
 ```csharp

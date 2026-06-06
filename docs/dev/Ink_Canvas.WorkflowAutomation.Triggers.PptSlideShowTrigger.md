@@ -4,8 +4,10 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Triggers](Ink\_Canvas.WorkflowAutomat
 Assembly: InkCanvasForClass.dll  
 
 当 PPT 进入放映模式时触发的触发器。
+通过 SystemEventMonitor 的进程和窗口事件驱动，无需独立轮询。
 
 ```csharp
+[TriggerInfo("inkcanvas.pptslideshow", "PPT放映检测", "Presentation")]
 public class PptSlideShowTrigger : TriggerBase<PptSlideShowSettings>
 ```
 

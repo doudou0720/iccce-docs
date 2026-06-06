@@ -4,8 +4,10 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Triggers](Ink\_Canvas.WorkflowAutomat
 Assembly: InkCanvasForClass.dll  
 
 退出PPT放映模式时触发的触发器。
+通过 SystemEventMonitor 的进程和窗口事件驱动，无需独立轮询。
 
 ```csharp
+[TriggerInfo("inkcanvas.pptslideshowexit", "退出PPT放映", "Presentation")]
 public class PptSlideShowExitTrigger : TriggerBase<PptSlideShowExitSettings>
 ```
 

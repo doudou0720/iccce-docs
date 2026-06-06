@@ -134,6 +134,19 @@ public string CustomBackgroundColor { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Canvas_CustomPenCursorPath"></a> CustomPenCursorPath
+
+用户自定义光标文件路径（当 PenCursorType == 2 时使用）。
+
+```csharp
+[JsonProperty("customPenCursorPath")]
+public string CustomPenCursorPath { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Canvas_DisablePressure"></a> DisablePressure
 
 ```csharp
@@ -533,6 +546,19 @@ public bool PauseStraightenLine { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Canvas_PenCursorType"></a> PenCursorType
+
+画笔光标类型：0 系统光标，1 软件内置光标（默认），2 用户自定义光标。
+
+```csharp
+[JsonProperty("penCursorType")]
+public int PenCursorType { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_RealtimeBrushTipMinDistanceScale"></a> RealtimeBrushTipMinDistanceScale
 

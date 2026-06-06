@@ -687,10 +687,10 @@ public abstract class TriggerSettingsControlBase : UserControl, IAnimatable, ISu
 触发器设置数据
 
 ```csharp
-public abstract object? Settings { get; set; }
+public abstract object Settings { get; set; }
 ```
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)?
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 

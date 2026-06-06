@@ -100,6 +100,8 @@ HomePage
 
  [NullToVisibilityConverter](Ink\_Canvas.Windows.SettingsViews.Pages.NullToVisibilityConverter.md)
 
+ [PerformancePage](Ink\_Canvas.Windows.SettingsViews.Pages.PerformancePage.md)
+
  [PluginPage](Ink\_Canvas.Windows.SettingsViews.Pages.PluginPage.md)
 
 PluginPage

@@ -4,8 +4,10 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Triggers](Ink\_Canvas.WorkflowAutomat
 Assembly: InkCanvasForClass.dll  
 
 浮动工具栏进入批注模式时触发的触发器。
+通过订阅 inkCanvas.EditingModeChanged 事件驱动，无需轮询。
 
 ```csharp
+[TriggerInfo("inkcanvas.annotationenter", "进入批注模式", "PenTool")]
 public class AnnotationModeEnterTrigger : TriggerBase<AnnotationModeEnterSettings>
 ```
 

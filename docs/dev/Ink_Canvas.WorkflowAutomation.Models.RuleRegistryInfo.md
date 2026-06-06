@@ -47,12 +47,12 @@ public RuleRegistryInfo(string id, string name = "", string iconKind = "CogOutli
 规则判断处理程序
 
 ```csharp
-public RuleRegistryInfo.HandleDelegate? Handle
+public RuleRegistryInfo.HandleDelegate Handle
 ```
 
 #### Field Value
 
- [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)?
+ [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)
 
 ## Properties
 
@@ -97,22 +97,22 @@ public string Name { get; }
 设置控件类型。
 
 ```csharp
-public Type? SettingsControlType { get; }
+public Type SettingsControlType { get; }
 ```
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)?
+ [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_RuleRegistryInfo_SettingsType"></a> SettingsType
 
 设置类型。
 
 ```csharp
-public Type? SettingsType { get; }
+public Type SettingsType { get; }
 ```
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)?
+ [Type](https://learn.microsoft.com/dotnet/api/system.type)
 

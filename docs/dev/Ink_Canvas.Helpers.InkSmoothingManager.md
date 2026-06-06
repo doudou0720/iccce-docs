@@ -40,6 +40,20 @@ public InkSmoothingManager(Dispatcher uiDispatcher)
 
 `uiDispatcher` [Dispatcher](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcher)
 
+## Properties
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingManager_PerformanceMonitor"></a> PerformanceMonitor
+
+获取性能监控器实例（供外部读取详细统计）
+
+```csharp
+public InkSmoothingPerformanceMonitor PerformanceMonitor { get; }
+```
+
+#### Property Value
+
+ [InkSmoothingPerformanceMonitor](Ink\_Canvas.Helpers.InkSmoothingPerformanceMonitor.md)
+
 ## Methods
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingManager_ApplyRecommendedSettings"></a> ApplyRecommendedSettings\(\)
@@ -65,6 +79,18 @@ Performs application-defined tasks associated with freeing, releasing, or resett
 ```csharp
 public void Dispose()
 ```
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingManager_GetDetailedStats"></a> GetDetailedStats\(\)
+
+获取详细的墨迹纠正性能统计
+
+```csharp
+public InkSmoothingDetailedStats GetDetailedStats()
+```
+
+#### Returns
+
+ [InkSmoothingDetailedStats](Ink\_Canvas.Helpers.InkSmoothingDetailedStats.md)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingManager_GetPerformanceStats"></a> GetPerformanceStats\(\)
 

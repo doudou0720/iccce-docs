@@ -760,17 +760,17 @@ public void OnTimerCompleted()
 public void ResetDragOffset()
 ```
 
-### <a id="Ink_Canvas_Windows_PPTTimeCapsule_SetParentControl_Ink_Canvas_Windows_TimerControl_"></a> SetParentControl\(TimerControl\)
+### <a id="Ink_Canvas_Windows_PPTTimeCapsule_SetParentControl_Ink_Canvas_Windows_NewStyleTimerWindow_"></a> SetParentControl\(NewStyleTimerWindow\)
 
 设置父计时器控件
 
 ```csharp
-public void SetParentControl(TimerControl parent)
+public void SetParentControl(NewStyleTimerWindow parent)
 ```
 
 #### Parameters
 
-`parent` [TimerControl](Ink\_Canvas.Windows.TimerControl.md)
+`parent` [NewStyleTimerWindow](Ink\_Canvas.Windows.NewStyleTimerWindow.md)
 
 ### <a id="Ink_Canvas_Windows_PPTTimeCapsule_StopCountdown"></a> StopCountdown\(\)
 

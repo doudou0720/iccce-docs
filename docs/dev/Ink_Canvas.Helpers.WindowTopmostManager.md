@@ -3,6 +3,9 @@
 Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)  
 Assembly: InkCanvasForClass.dll  
 
+窗口置顶中央管理器。
+所有窗口的置顶状态由此类统一管理，子窗口不再自行调用 Win32 API 置顶。
+
 ```csharp
 public static class WindowTopmostManager
 ```

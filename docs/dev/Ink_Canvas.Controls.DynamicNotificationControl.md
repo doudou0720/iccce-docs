@@ -695,6 +695,18 @@ InitializeComponent
 public void InitializeComponent()
 ```
 
+### <a id="Ink_Canvas_Controls_DynamicNotificationControl_RefreshTheme_System_Boolean_"></a> RefreshTheme\(bool\)
+
+刷新通知主题颜色，在全局主题切换时调用
+
+```csharp
+public void RefreshTheme(bool isDark)
+```
+
+#### Parameters
+
+`isDark` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Controls_DynamicNotificationControl_Show_Ink_Canvas_Models_NotificationMessage_"></a> Show\(NotificationMessage\)
 
 ```csharp

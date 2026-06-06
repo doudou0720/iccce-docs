@@ -834,6 +834,16 @@ public static string FloatingBar_LassoSelect { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_MiniWhiteboard"></a> FloatingBar\_MiniWhiteboard
+
+```csharp
+public static string FloatingBar_MiniWhiteboard { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Mouse"></a> FloatingBar\_Mouse
 
 ```csharp
@@ -938,6 +948,126 @@ public static string FloatingBar_Unfreeze { get; }
 
 ```csharp
 public static string FloatingBar_Whiteboard { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Clear"></a> MiniWhiteboard\_Clear
+
+```csharp
+public static string MiniWhiteboard_Clear { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_DeletePage"></a> MiniWhiteboard\_DeletePage
+
+```csharp
+public static string MiniWhiteboard_DeletePage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Eraser"></a> MiniWhiteboard\_Eraser
+
+```csharp
+public static string MiniWhiteboard_Eraser { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_NewPage"></a> MiniWhiteboard\_NewPage
+
+```csharp
+public static string MiniWhiteboard_NewPage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_PageInfo"></a> MiniWhiteboard\_PageInfo
+
+```csharp
+public static string MiniWhiteboard_PageInfo { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Pen"></a> MiniWhiteboard\_Pen
+
+```csharp
+public static string MiniWhiteboard_Pen { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Redo"></a> MiniWhiteboard\_Redo
+
+```csharp
+public static string MiniWhiteboard_Redo { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Settings_DefaultSize"></a> MiniWhiteboard\_Settings\_DefaultSize
+
+```csharp
+public static string MiniWhiteboard_Settings_DefaultSize { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Settings_Enable"></a> MiniWhiteboard\_Settings\_Enable
+
+```csharp
+public static string MiniWhiteboard_Settings_Enable { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Settings_Opacity"></a> MiniWhiteboard\_Settings\_Opacity
+
+```csharp
+public static string MiniWhiteboard_Settings_Opacity { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Settings_SyncPpt"></a> MiniWhiteboard\_Settings\_SyncPpt
+
+```csharp
+public static string MiniWhiteboard_Settings_SyncPpt { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Undo"></a> MiniWhiteboard\_Undo
+
+```csharp
+public static string MiniWhiteboard_Undo { get; }
 ```
 
 #### Property Value

@@ -26,18 +26,6 @@ public class ProcessDetectedSettings
 
 ## Properties
 
-### <a id="Ink_Canvas_WorkflowAutomation_Triggers_ProcessDetectedSettings_CheckIntervalMs"></a> CheckIntervalMs
-
-检测间隔（毫秒）
-
-```csharp
-public int CheckIntervalMs { get; set; }
-```
-
-#### Property Value
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 ### <a id="Ink_Canvas_WorkflowAutomation_Triggers_ProcessDetectedSettings_ProcessName"></a> ProcessName
 
 要检测的进程名称（不含.exe）

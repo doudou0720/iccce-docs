@@ -4,10 +4,12 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Services](Ink\_Canvas.WorkflowAutomat
 Assembly: InkCanvasForClass.dll  
 
 规则集服务，负责评估规则集是否满足。
-对齐 ClassIsland 的 RulesetService 实现，在评估时更新所有层级的 State。
+对齐 ClassIsland 的 RulesetService，实现 IRulesetService 接口。
+事件驱动模式：订阅 SystemEventMonitor 的系统事件，仅在状态可能变化时重新评估。
+保留 5s 兜底轮询防止遗漏。
 
 ```csharp
-public class RulesetService : IDisposable
+public class RulesetService : IRulesetService, IDisposable
 ```
 
 #### Inheritance
@@ -17,6 +19,7 @@ public class RulesetService : IDisposable
 
 #### Implements
 
+[IRulesetService](Ink\_Canvas.WorkflowAutomation.Abstractions.IRulesetService.md), 
 [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 #### Inherited Members
@@ -71,15 +74,30 @@ public bool IsRulesetSatisfied(Ruleset ruleset)
 public void NotifyStatusChanged()
 ```
 
+### <a id="Ink_Canvas_WorkflowAutomation_Services_RulesetService_RegisterRuleHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_RuleRegistryInfo_HandleDelegate_"></a> RegisterRuleHandler\(string, HandleDelegate\)
+
+注册规则处理程序。
+对齐 ClassIsland 的 RegisterRuleHandler。
+
+```csharp
+public void RegisterRuleHandler(string id, RuleRegistryInfo.HandleDelegate handler)
+```
+
+#### Parameters
+
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`handler` [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)
+
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_RulesetService_StatusUpdated"></a> StatusUpdated
 
 规则状态更新事件，当规则条件可能发生变化时触发。
 
 ```csharp
-public event EventHandler? StatusUpdated
+public event EventHandler StatusUpdated
 ```
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)?
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 

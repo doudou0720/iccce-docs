@@ -35,12 +35,12 @@ public abstract class TriggerBase
 此触发器关联的工作流。
 
 ```csharp
-public Workflow? AssociatedWorkflow { get; }
+public Workflow AssociatedWorkflow { get; }
 ```
 
 #### Property Value
 
- [Workflow](Ink\_Canvas.WorkflowAutomation.Models.Workflow.md)?
+ [Workflow](Ink\_Canvas.WorkflowAutomation.Models.Workflow.md)
 
 ## Methods
 

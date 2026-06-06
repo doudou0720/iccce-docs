@@ -132,6 +132,12 @@ public static void OnCurveSmoothingModeChanged(bool fitToCurve, bool useAdvanced
 
 `useAdvancedBezier` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnCustomPenCursorPathChanged"></a> OnCustomPenCursorPathChanged\(\)
+
+```csharp
+public static void OnCustomPenCursorPathChanged()
+```
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnDisablePressureChanged_System_Boolean_"></a> OnDisablePressureChanged\(bool\)
 
 ```csharp
@@ -387,6 +393,16 @@ public static void OnPPTTimeCapsulePositionChanged()
 ```csharp
 public static void OnPPTTimeCapsuleScaleChanged()
 ```
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnPenCursorTypeChanged_System_Int32_"></a> OnPenCursorTypeChanged\(int\)
+
+```csharp
+public static void OnPenCursorTypeChanged(int selectedIndex)
+```
+
+#### Parameters
+
+`selectedIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnQuickPanelBottomOffsetChanged_System_Double_"></a> OnQuickPanelBottomOffsetChanged\(double\)
 

@@ -24,17 +24,3 @@ public class PptSlideShowSettings
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
-## Properties
-
-### <a id="Ink_Canvas_WorkflowAutomation_Triggers_PptSlideShowSettings_CheckIntervalMs"></a> CheckIntervalMs
-
-检测间隔（毫秒）
-
-```csharp
-public int CheckIntervalMs { get; set; }
-```
-
-#### Property Value
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-

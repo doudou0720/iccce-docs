@@ -6,6 +6,7 @@ Assembly: InkCanvasForClass.dll
 定时触发器。
 
 ```csharp
+[TriggerInfo("inkcanvas.timer", "定时触发", "ClockOutline")]
 public class TimerTrigger : TriggerBase<TimerTriggerSettings>
 ```
 

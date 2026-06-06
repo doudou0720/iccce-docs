@@ -54,12 +54,12 @@ public class Action : ObservableObject, INotifyPropertyChanged, INotifyPropertyC
 
 ```csharp
 [JsonIgnore]
-public Exception? Exception { get; set; }
+public Exception Exception { get; set; }
 ```
 
 #### Property Value
 
- [Exception](https://learn.microsoft.com/dotnet/api/system.exception)?
+ [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_Action_Id"></a> Id
 
@@ -91,10 +91,10 @@ public bool IsWorking { get; set; }
 行动设置。
 
 ```csharp
-public object? Settings { get; set; }
+public object Settings { get; set; }
 ```
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)?
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 

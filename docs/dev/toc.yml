@@ -67,6 +67,10 @@
     href: Ink_Canvas.MainWindow.md
   - name: ManagePickNameBackgroundsWindow
     href: Ink_Canvas.ManagePickNameBackgroundsWindow.md
+  - name: MiniWhiteboardSettings
+    href: Ink_Canvas.MiniWhiteboardSettings.md
+  - name: MiniWhiteboardWindow
+    href: Ink_Canvas.MiniWhiteboardWindow.md
   - name: ModeSettings
     href: Ink_Canvas.ModeSettings.md
   - name: NamesInputWindow
@@ -77,6 +81,10 @@
     href: Ink_Canvas.NotificationSettings.md
   - name: OperatingGuideWindow
     href: Ink_Canvas.OperatingGuideWindow.md
+  - name: PerformanceRunRecord
+    href: Ink_Canvas.PerformanceRunRecord.md
+  - name: PerformanceSettings
+    href: Ink_Canvas.PerformanceSettings.md
   - name: PowerPointSettings
     href: Ink_Canvas.PowerPointSettings.md
   - name: PrivacyAgreementWindow
@@ -133,6 +141,8 @@
     href: Ink_Canvas.Controls.BackgroundPalettePopupContent.md
   - name: BoardToolbarButton
     href: Ink_Canvas.Controls.BoardToolbarButton.md
+  - name: CanvasMediaControl
+    href: Ink_Canvas.Controls.CanvasMediaControl.md
   - name: CircularColorButton
     href: Ink_Canvas.Controls.CircularColorButton.md
   - name: ColorPickerButton
@@ -197,6 +207,8 @@
     href: Ink_Canvas.Controls.ToolbarImageButton.md
   - name: ToolsPopupContent
     href: Ink_Canvas.Controls.ToolsPopupContent.md
+  - name: WhiteboardModeSelectionPopupContent
+    href: Ink_Canvas.Controls.WhiteboardModeSelectionPopupContent.md
   - name: Enums
   - name: ButtonPosition
     href: Ink_Canvas.Controls.ButtonPosition.md
@@ -353,6 +365,8 @@
     href: Ink_Canvas.Helpers.InkShapeRecognitionResult.md
   - name: InkSmoothingConfig
     href: Ink_Canvas.Helpers.InkSmoothingConfig.md
+  - name: InkSmoothingDetailedStats
+    href: Ink_Canvas.Helpers.InkSmoothingDetailedStats.md
   - name: InkSmoothingEventArgs
     href: Ink_Canvas.Helpers.InkSmoothingEventArgs.md
   - name: InkSmoothingManager
@@ -371,6 +385,8 @@
     href: Ink_Canvas.Helpers.PPTROTConnectionHelper.md
   - name: PPTUIManager
     href: Ink_Canvas.Helpers.PPTUIManager.md
+  - name: PerformanceMonitorHelper
+    href: Ink_Canvas.Helpers.PerformanceMonitorHelper.md
   - name: PerformanceTransparentWin
     href: Ink_Canvas.Helpers.PerformanceTransparentWin.md
   - name: PopupManagerHelper
@@ -429,8 +445,6 @@
     href: Ink_Canvas.Helpers.WindowOverviewModel.md
   - name: WindowTopmostManager
     href: Ink_Canvas.Helpers.WindowTopmostManager.md
-  - name: WindowZOrderManager
-    href: Ink_Canvas.Helpers.WindowZOrderManager.md
   - name: Structs
   - name: EdgeGestureUtil.PropVariant
     href: Ink_Canvas.Helpers.EdgeGestureUtil.PropVariant.md
@@ -577,6 +591,8 @@
     href: Ink_Canvas.Properties.OobeStrings.md
   - name: PPTStrings
     href: Ink_Canvas.Properties.PPTStrings.md
+  - name: PerformanceStrings
+    href: Ink_Canvas.Properties.PerformanceStrings.md
   - name: PluginStrings
     href: Ink_Canvas.Properties.PluginStrings.md
   - name: PopupStrings
@@ -628,8 +644,10 @@
     href: Ink_Canvas.Windows.HotkeyChangedEventArgs.md
   - name: HotkeyItem
     href: Ink_Canvas.Windows.HotkeyItem.md
-  - name: MinimizedTimerControl
-    href: Ink_Canvas.Windows.MinimizedTimerControl.md
+  - name: NewStyleMinimizedTimerWindow
+    href: Ink_Canvas.Windows.NewStyleMinimizedTimerWindow.md
+  - name: NewStyleTimerWindow
+    href: Ink_Canvas.Windows.NewStyleTimerWindow.md
   - name: OobePresetWindow
     href: Ink_Canvas.Windows.OobePresetWindow.md
   - name: OobeWindow
@@ -642,8 +660,6 @@
     href: Ink_Canvas.Windows.RecentTimersData.md
   - name: SplashScreen
     href: Ink_Canvas.Windows.SplashScreen.md
-  - name: TimerControl
-    href: Ink_Canvas.Windows.TimerControl.md
   - name: Enums
   - name: OobePresetWindow.PresetKind
     href: Ink_Canvas.Windows.OobePresetWindow.PresetKind.md
@@ -765,6 +781,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.NotificationPage.md
   - name: NullToVisibilityConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.NullToVisibilityConverter.md
+  - name: PerformancePage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.PerformancePage.md
   - name: PluginPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.PluginPage.md
   - name: PluginSettingsPage
@@ -813,14 +831,55 @@
     href: Ink_Canvas.WorkflowAutomation.Abstractions.ActionSettingsControlBase.md
   - name: ActionSettingsControlBase<T>
     href: Ink_Canvas.WorkflowAutomation.Abstractions.ActionSettingsControlBase-1.md
+  - name: RuleSettingsControlBase
+    href: Ink_Canvas.WorkflowAutomation.Abstractions.RuleSettingsControlBase.md
+  - name: RuleSettingsControlBase<T>
+    href: Ink_Canvas.WorkflowAutomation.Abstractions.RuleSettingsControlBase-1.md
   - name: TriggerBase
     href: Ink_Canvas.WorkflowAutomation.Abstractions.TriggerBase.md
   - name: TriggerBase<T>
     href: Ink_Canvas.WorkflowAutomation.Abstractions.TriggerBase-1.md
+  - name: TriggerInfoAttribute
+    href: Ink_Canvas.WorkflowAutomation.Abstractions.TriggerInfoAttribute.md
   - name: TriggerSettingsControlBase
     href: Ink_Canvas.WorkflowAutomation.Abstractions.TriggerSettingsControlBase.md
   - name: TriggerSettingsControlBase<T>
     href: Ink_Canvas.WorkflowAutomation.Abstractions.TriggerSettingsControlBase-1.md
+  - name: Interfaces
+  - name: IActionService
+    href: Ink_Canvas.WorkflowAutomation.Abstractions.IActionService.md
+  - name: IRulesetService
+    href: Ink_Canvas.WorkflowAutomation.Abstractions.IRulesetService.md
+- name: Ink_Canvas.WorkflowAutomation.ActionHandlers
+  href: Ink_Canvas.WorkflowAutomation.ActionHandlers.md
+  items:
+  - name: Classes
+  - name: ClearStrokesActionHandler
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ClearStrokesActionHandler.md
+  - name: FoldActionHandler
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.FoldActionHandler.md
+  - name: KillProcessActionHandler
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.KillProcessActionHandler.md
+  - name: ResetDesktopPositionAction
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ResetDesktopPositionAction.md
+  - name: ResetDesktopPositionActionHandler
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ResetDesktopPositionActionHandler.md
+  - name: ResetDesktopPositionActionSettings
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ResetDesktopPositionActionSettings.md
+  - name: ResetPptPositionAction
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ResetPptPositionAction.md
+  - name: ResetPptPositionActionHandler
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ResetPptPositionActionHandler.md
+  - name: ResetPptPositionActionSettings
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ResetPptPositionActionSettings.md
+  - name: SaveStrokesActionHandler
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.SaveStrokesActionHandler.md
+  - name: ShowNotificationActionHandler
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ShowNotificationActionHandler.md
+  - name: ToggleAnnotationModeActionHandler
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ToggleAnnotationModeActionHandler.md
+  - name: ToggleTopmostActionHandler
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ToggleTopmostActionHandler.md
 - name: Ink_Canvas.WorkflowAutomation.Actions
   href: Ink_Canvas.WorkflowAutomation.Actions.md
   items:
@@ -859,6 +918,12 @@
   - name: Enums
   - name: RulesetLogicalMode
     href: Ink_Canvas.WorkflowAutomation.Enums.RulesetLogicalMode.md
+- name: Ink_Canvas.WorkflowAutomation.Extensions
+  href: Ink_Canvas.WorkflowAutomation.Extensions.md
+  items:
+  - name: Classes
+  - name: AutomationRegistryExtensions
+    href: Ink_Canvas.WorkflowAutomation.Extensions.AutomationRegistryExtensions.md
 - name: Ink_Canvas.WorkflowAutomation.Models
   href: Ink_Canvas.WorkflowAutomation.Models.md
   items:
@@ -928,6 +993,8 @@
     href: Ink_Canvas.WorkflowAutomation.Services.AutomationService.md
   - name: RulesetService
     href: Ink_Canvas.WorkflowAutomation.Services.RulesetService.md
+  - name: SystemEventMonitor
+    href: Ink_Canvas.WorkflowAutomation.Services.SystemEventMonitor.md
 - name: Ink_Canvas.WorkflowAutomation.Triggers
   href: Ink_Canvas.WorkflowAutomation.Triggers.md
   items:

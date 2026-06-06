@@ -697,20 +697,20 @@ public static readonly DependencyProperty ItemProperty
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AutomationSettingsPresenter_Item"></a> Item
 
 ```csharp
-public object? Item { get; set; }
+public object Item { get; set; }
 ```
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)?
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AutomationSettingsPresenter_SettingsChanged"></a> SettingsChanged
 
 ```csharp
-public event EventHandler? SettingsChanged
+public event EventHandler SettingsChanged
 ```
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)?
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 

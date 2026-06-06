@@ -274,6 +274,36 @@ public static string Canvas_CurveSmoothing_Off { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_CustomPenCursorFilter"></a> Canvas\_CustomPenCursorFilter
+
+```csharp
+public static string Canvas_CustomPenCursorFilter { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_CustomPenCursorPath"></a> Canvas\_CustomPenCursorPath
+
+```csharp
+public static string Canvas_CustomPenCursorPath { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_CustomPenCursorPathHint"></a> Canvas\_CustomPenCursorPathHint
+
+```csharp
+public static string Canvas_CustomPenCursorPathHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_DisableHardwareAcceleration"></a> Canvas\_DisableHardwareAcceleration
 
 ```csharp
@@ -504,6 +534,56 @@ public static string Canvas_No { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_PenCursorType"></a> Canvas\_PenCursorType
+
+```csharp
+public static string Canvas_PenCursorType { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_PenCursorTypeHint"></a> Canvas\_PenCursorTypeHint
+
+```csharp
+public static string Canvas_PenCursorTypeHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_PenCursorType_BuiltIn"></a> Canvas\_PenCursorType\_BuiltIn
+
+```csharp
+public static string Canvas_PenCursorType_BuiltIn { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_PenCursorType_Custom"></a> Canvas\_PenCursorType\_Custom
+
+```csharp
+public static string Canvas_PenCursorType_Custom { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_PenCursorType_System"></a> Canvas\_PenCursorType\_System
+
+```csharp
+public static string Canvas_PenCursorType_System { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_RestoreColor"></a> Canvas\_RestoreColor
 
 ```csharp
@@ -538,6 +618,16 @@ public static string Canvas_RestoreWidth { get; }
 
 ```csharp
 public static string Canvas_SecondsFormat { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_SelectCustomPenCursor"></a> Canvas\_SelectCustomPenCursor
+
+```csharp
+public static string Canvas_SelectCustomPenCursor { get; }
 ```
 
 #### Property Value

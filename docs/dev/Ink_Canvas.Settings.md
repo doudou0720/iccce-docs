@@ -123,6 +123,17 @@ public InkToShape InkToShape { get; set; }
 
  [InkToShape](Ink\_Canvas.InkToShape.md)
 
+### <a id="Ink_Canvas_Settings_MiniWhiteboard"></a> MiniWhiteboard
+
+```csharp
+[JsonProperty("miniWhiteboard")]
+public MiniWhiteboardSettings MiniWhiteboard { get; set; }
+```
+
+#### Property Value
+
+ [MiniWhiteboardSettings](Ink\_Canvas.MiniWhiteboardSettings.md)
+
 ### <a id="Ink_Canvas_Settings_ModeSettings"></a> ModeSettings
 
 ```csharp
@@ -144,6 +155,17 @@ public NotificationSettings Notification { get; set; }
 #### Property Value
 
  [NotificationSettings](Ink\_Canvas.NotificationSettings.md)
+
+### <a id="Ink_Canvas_Settings_Performance"></a> Performance
+
+```csharp
+[JsonProperty("performance")]
+public PerformanceSettings Performance { get; set; }
+```
+
+#### Property Value
+
+ [PerformanceSettings](Ink\_Canvas.PerformanceSettings.md)
 
 ### <a id="Ink_Canvas_Settings_PowerPointSettings"></a> PowerPointSettings
 

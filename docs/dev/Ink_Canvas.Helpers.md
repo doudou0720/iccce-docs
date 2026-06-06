@@ -127,6 +127,10 @@ IACore 路径通过 IPC 调用 x86 辅助进程；WinRT 路径在主进程内直
 
 墨迹平滑配置类
 
+ [InkSmoothingDetailedStats](Ink\_Canvas.Helpers.InkSmoothingDetailedStats.md)
+
+墨迹纠正详细性能统计
+
  [InkSmoothingEventArgs](Ink\_Canvas.Helpers.InkSmoothingEventArgs.md)
 
 墨迹平滑事件参数
@@ -137,7 +141,7 @@ IACore 路径通过 IPC 调用 x86 辅助进程；WinRT 路径在主进程内直
 
  [InkSmoothingPerformanceMonitor](Ink\_Canvas.Helpers.InkSmoothingPerformanceMonitor.md)
 
-性能监控器
+性能监控器（含分阶段计时）
 
  [FloatingWindowInterceptor.InterceptRule](Ink\_Canvas.Helpers.FloatingWindowInterceptor.InterceptRule.md)
 
@@ -160,6 +164,10 @@ PPT联动管理器 - 统一管理PPT和WPS的连接、事件处理和进程管�
  [PPTUIManager](Ink\_Canvas.Helpers.PPTUIManager.md)
 
 PPT UI管理器 - 统一管理PPT相关的UI更新和样式设置
+
+ [PerformanceMonitorHelper](Ink\_Canvas.Helpers.PerformanceMonitorHelper.md)
+
+Monitors CPU/memory usage during app runtime and manages performance history.
 
  [PerformanceTransparentWin](Ink\_Canvas.Helpers.PerformanceTransparentWin.md)
 
@@ -263,10 +271,8 @@ WebDav上传工具类
 
  [WindowTopmostManager](Ink\_Canvas.Helpers.WindowTopmostManager.md)
 
- [WindowZOrderManager](Ink\_Canvas.Helpers.WindowZOrderManager.md)
-
-窗口Z-Order管理器，用于管理窗口的层级顺序
-在无焦点模式下，确保后打开的窗口能够置顶于先打开的窗口
+窗口置顶中央管理器。
+所有窗口的置顶状态由此类统一管理，子窗口不再自行调用 Win32 API 置顶。
 
 ### Structs
 

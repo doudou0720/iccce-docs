@@ -690,22 +690,22 @@ public static List<TriggerInfo> RegisteredTriggersList { get; }
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AutomationWorkflowPage_SelectedWorkflow"></a> SelectedWorkflow
 
 ```csharp
-public Workflow? SelectedWorkflow { get; }
+public Workflow SelectedWorkflow { get; }
 ```
 
 #### Property Value
 
- [Workflow](Ink\_Canvas.WorkflowAutomation.Models.Workflow.md)?
+ [Workflow](Ink\_Canvas.WorkflowAutomation.Models.Workflow.md)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AutomationWorkflowPage_PropertyChanged"></a> PropertyChanged
 
 Occurs when a property value changes.
 
 ```csharp
-public event PropertyChangedEventHandler? PropertyChanged
+public event PropertyChangedEventHandler PropertyChanged
 ```
 
 #### Event Type
 
- [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)?
+ [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
 

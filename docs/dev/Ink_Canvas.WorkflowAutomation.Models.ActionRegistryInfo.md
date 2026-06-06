@@ -4,6 +4,7 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Models](Ink\_Canvas.WorkflowAutomatio
 Assembly: InkCanvasForClass.dll  
 
 代表一个行动的注册信息。
+对齐 ClassIsland 的 ActionRegistryInfo，Handle 和 RevertHandle 分离注册。
 
 ```csharp
 public class ActionRegistryInfo
@@ -29,7 +30,7 @@ public class ActionRegistryInfo
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_ActionRegistryInfo__ctor_System_String_System_String_System_String_"></a> ActionRegistryInfo\(string, string, string\)
 
 ```csharp
-public ActionRegistryInfo(string id, string name = "", string iconKind = "PlayCircleOutline")
+public ActionRegistryInfo(string id, string name = "", string iconKind = "BacteriaOutline")
 ```
 
 #### Parameters
@@ -44,27 +45,27 @@ public ActionRegistryInfo(string id, string name = "", string iconKind = "PlayCi
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_ActionRegistryInfo_Handle"></a> Handle
 
-行动执行处理程序
+行动处理程序
 
 ```csharp
-public ActionRegistryInfo.HandleDelegate? Handle
+public ActionRegistryInfo.HandleDelegate Handle
 ```
 
 #### Field Value
 
- [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)?
+ [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_ActionRegistryInfo_RevertHandle"></a> RevertHandle
 
 行动恢复处理程序
 
 ```csharp
-public ActionRegistryInfo.HandleDelegate? RevertHandle
+public ActionRegistryInfo.HandleDelegate RevertHandle
 ```
 
 #### Field Value
 
- [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)?
+ [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
 
 ## Properties
 
@@ -109,22 +110,22 @@ public string Name { get; }
 设置控件类型。
 
 ```csharp
-public Type? SettingsControlType { get; }
+public Type SettingsControlType { get; }
 ```
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)?
+ [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_ActionRegistryInfo_SettingsType"></a> SettingsType
 
 设置类型。
 
 ```csharp
-public Type? SettingsType { get; }
+public Type SettingsType { get; }
 ```
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)?
+ [Type](https://learn.microsoft.com/dotnet/api/system.type)
 

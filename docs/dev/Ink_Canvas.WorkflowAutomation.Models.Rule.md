@@ -77,12 +77,12 @@ public bool IsReversed { get; set; }
 规则设置。
 
 ```csharp
-public object? Settings { get; set; }
+public object Settings { get; set; }
 ```
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)?
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_Rule_State"></a> State
 

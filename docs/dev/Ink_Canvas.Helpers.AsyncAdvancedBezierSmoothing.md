@@ -68,6 +68,18 @@ public int MaxConcurrentTasks { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Helpers_AsyncAdvancedBezierSmoothing_PerformanceMonitor"></a> PerformanceMonitor
+
+可选的性能监控器，由 InkSmoothingManager 注入
+
+```csharp
+public InkSmoothingPerformanceMonitor PerformanceMonitor { get; set; }
+```
+
+#### Property Value
+
+ [InkSmoothingPerformanceMonitor](Ink\_Canvas.Helpers.InkSmoothingPerformanceMonitor.md)
+
 ### <a id="Ink_Canvas_Helpers_AsyncAdvancedBezierSmoothing_ResampleInterval"></a> ResampleInterval
 
 ```csharp

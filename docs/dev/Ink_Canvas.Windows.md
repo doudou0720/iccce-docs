@@ -24,9 +24,13 @@ AnnouncementCenterWindow
 
 快捷键项控件
 
- [MinimizedTimerControl](Ink\_Canvas.Windows.MinimizedTimerControl.md)
+ [NewStyleMinimizedTimerWindow](Ink\_Canvas.Windows.NewStyleMinimizedTimerWindow.md)
 
-最小化计时器窗口
+最小化计时器独立窗口
+
+ [NewStyleTimerWindow](Ink\_Canvas.Windows.NewStyleTimerWindow.md)
+
+新计时器UI风格的倒计时器窗口
 
  [OobePresetWindow](Ink\_Canvas.Windows.OobePresetWindow.md)
 
@@ -52,10 +56,6 @@ PPT时间显示胶囊控件
  [SplashScreen](Ink\_Canvas.Windows.SplashScreen.md)
 
 SplashScreen.xaml 的交互逻辑
-
- [TimerControl](Ink\_Canvas.Windows.TimerControl.md)
-
-新计时器UI风格的倒计时器窗口
 
 ### Enums
 

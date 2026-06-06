@@ -8,6 +8,10 @@
 
 BoardToolbarButton
 
+ [CanvasMediaControl](Ink\_Canvas.Controls.CanvasMediaControl.md)
+
+CanvasMediaControl
+
  [CircularColorButton](Ink\_Canvas.Controls.CircularColorButton.md)
 
 CircularColorButton
@@ -113,6 +117,11 @@ ToolMenuButton
 ToolbarImageButton
 
  [ToolsPopupContent](Ink\_Canvas.Controls.ToolsPopupContent.md)
+
+ [WhiteboardModeSelectionPopupContent](Ink\_Canvas.Controls.WhiteboardModeSelectionPopupContent.md)
+
+白板按钮右键二级菜单内容控件
+提供"全屏白板"和"小白板"两个选项
 
 ### Enums
 

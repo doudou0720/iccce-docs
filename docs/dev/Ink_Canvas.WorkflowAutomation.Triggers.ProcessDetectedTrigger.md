@@ -4,8 +4,10 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Triggers](Ink\_Canvas.WorkflowAutomat
 Assembly: InkCanvasForClass.dll  
 
 当指定进程启动时触发的触发器。
+通过 SystemEventMonitor 的进程监控驱动，无需独立轮询。
 
 ```csharp
+[TriggerInfo("inkcanvas.processdetected", "进程检测", "ApplicationOutline")]
 public class ProcessDetectedTrigger : TriggerBase<ProcessDetectedSettings>
 ```
 

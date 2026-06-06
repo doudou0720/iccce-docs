@@ -4,12 +4,12 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Models](Ink\_Canvas.WorkflowAutomatio
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public delegate bool RuleRegistryInfo.HandleDelegate(object? settings)
+public delegate bool RuleRegistryInfo.HandleDelegate(object settings)
 ```
 
 #### Parameters
 
-`settings` [object](https://learn.microsoft.com/dotnet/api/system.object)?
+`settings` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 #### Returns
 

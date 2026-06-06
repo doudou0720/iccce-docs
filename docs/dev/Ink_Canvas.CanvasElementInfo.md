@@ -44,6 +44,16 @@ public double Left { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_CanvasElementInfo_MediaDisplayName"></a> MediaDisplayName
+
+```csharp
+public string MediaDisplayName { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_CanvasElementInfo_MediaKind"></a> MediaKind
 
 ```csharp
@@ -53,6 +63,36 @@ public string MediaKind { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_CanvasElementInfo_MediaPositionSeconds"></a> MediaPositionSeconds
+
+```csharp
+public double? MediaPositionSeconds { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)?
+
+### <a id="Ink_Canvas_CanvasElementInfo_MediaSpeedRatio"></a> MediaSpeedRatio
+
+```csharp
+public double? MediaSpeedRatio { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)?
+
+### <a id="Ink_Canvas_CanvasElementInfo_MediaVolume"></a> MediaVolume
+
+```csharp
+public double? MediaVolume { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
 ### <a id="Ink_Canvas_CanvasElementInfo_PdfCurrentPage"></a> PdfCurrentPage
 

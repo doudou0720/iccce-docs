@@ -9,6 +9,7 @@
  [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md)
 
 代表一个行动的注册信息。
+对齐 ClassIsland 的 ActionRegistryInfo，Handle 和 RevertHandle 分离注册。
 
  [ActionSet](Ink\_Canvas.WorkflowAutomation.Models.ActionSet.md)
 
@@ -44,7 +45,7 @@
 
 ### Delegates
 
- [ActionRegistryInfo.HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
-
  [RuleRegistryInfo.HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)
+
+ [ActionRegistryInfo.HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
 

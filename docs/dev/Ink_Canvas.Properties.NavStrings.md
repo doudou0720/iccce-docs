@@ -374,6 +374,26 @@ public static string Nav_PPT_Tooltip { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_NavStrings_Nav_Performance"></a> Nav\_Performance
+
+```csharp
+public static string Nav_Performance { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_NavStrings_Nav_Performance_Tooltip"></a> Nav\_Performance\_Tooltip
+
+```csharp
+public static string Nav_Performance_Tooltip { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_NavStrings_Nav_PluginSettings"></a> Nav\_PluginSettings
 
 ```csharp

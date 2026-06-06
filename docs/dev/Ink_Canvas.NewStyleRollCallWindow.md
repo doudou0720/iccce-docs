@@ -783,6 +783,18 @@ InitializeComponent
 public void InitializeComponent()
 ```
 
+### <a id="Ink_Canvas_NewStyleRollCallWindow_OnSourceInitialized_System_EventArgs_"></a> OnSourceInitialized\(EventArgs\)
+
+注册到中央置顶管理器，确保窗口立即获得置顶状态
+
+```csharp
+protected override void OnSourceInitialized(EventArgs e)
+```
+
+#### Parameters
+
+`e` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+
 ### <a id="Ink_Canvas_NewStyleRollCallWindow_SelectNamesWithML_System_Collections_Generic_List_System_String__System_Int32_System_Random_"></a> SelectNamesWithML\(List<string\>, int, Random\)
 
 使用机器学习算法选择点名人员，避免最近重复

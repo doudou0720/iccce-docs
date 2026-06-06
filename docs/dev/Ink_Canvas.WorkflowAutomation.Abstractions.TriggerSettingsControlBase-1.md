@@ -689,12 +689,12 @@ public abstract class TriggerSettingsControlBase<T> : TriggerSettingsControlBase
 触发器设置数据
 
 ```csharp
-public override object? Settings { get; set; }
+public override object Settings { get; set; }
 ```
 
 #### Property Value
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)?
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Abstractions_TriggerSettingsControlBase_1_TypedSettings"></a> TypedSettings
 

@@ -48,6 +48,8 @@
 
  [PPTStrings](Ink\_Canvas.Properties.PPTStrings.md)
 
+ [PerformanceStrings](Ink\_Canvas.Properties.PerformanceStrings.md)
+
  [PluginStrings](Ink\_Canvas.Properties.PluginStrings.md)
 
  [PopupStrings](Ink\_Canvas.Properties.PopupStrings.md)

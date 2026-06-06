@@ -4,9 +4,13 @@
 
  [Ink\_Canvas.WorkflowAutomation.Abstractions](Ink\_Canvas.WorkflowAutomation.Abstractions.md)
 
+ [Ink\_Canvas.WorkflowAutomation.ActionHandlers](Ink\_Canvas.WorkflowAutomation.ActionHandlers.md)
+
  [Ink\_Canvas.WorkflowAutomation.Actions](Ink\_Canvas.WorkflowAutomation.Actions.md)
 
  [Ink\_Canvas.WorkflowAutomation.Enums](Ink\_Canvas.WorkflowAutomation.Enums.md)
+
+ [Ink\_Canvas.WorkflowAutomation.Extensions](Ink\_Canvas.WorkflowAutomation.Extensions.md)
 
  [Ink\_Canvas.WorkflowAutomation.Models](Ink\_Canvas.WorkflowAutomation.Models.md)
 
@@ -20,5 +24,6 @@
 
  [AutomationBootstrap](Ink\_Canvas.WorkflowAutomation.AutomationBootstrap.md)
 
-自动化系统启动引导，负责注册所有内置触发器、行动和规则，并启动服务。
+自动化系统启动引导。
+对齐 ClassIsland 的 App.xaml.cs 注册模式，使用 DI 容器注册所有组件。
 

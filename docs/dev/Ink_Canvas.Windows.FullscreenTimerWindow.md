@@ -745,15 +745,15 @@ public class FullscreenTimerWindow : Window, IAnimatable, ISupportInitialize, IF
 
 ## Constructors
 
-### <a id="Ink_Canvas_Windows_FullscreenTimerWindow__ctor_Ink_Canvas_Windows_TimerControl_"></a> FullscreenTimerWindow\(TimerControl\)
+### <a id="Ink_Canvas_Windows_FullscreenTimerWindow__ctor_Ink_Canvas_Windows_NewStyleTimerWindow_"></a> FullscreenTimerWindow\(NewStyleTimerWindow\)
 
 ```csharp
-public FullscreenTimerWindow(TimerControl parent)
+public FullscreenTimerWindow(NewStyleTimerWindow parent)
 ```
 
 #### Parameters
 
-`parent` [TimerControl](Ink\_Canvas.Windows.TimerControl.md)
+`parent` [NewStyleTimerWindow](Ink\_Canvas.Windows.NewStyleTimerWindow.md)
 
 ## Methods
 

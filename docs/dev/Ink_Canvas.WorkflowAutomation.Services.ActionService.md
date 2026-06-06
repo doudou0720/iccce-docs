@@ -4,15 +4,20 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Services](Ink\_Canvas.WorkflowAutomat
 Assembly: InkCanvasForClass.dll  
 
 行动服务，负责执行和恢复行动。
+对齐 ClassIsland 的 ActionService，实现 IActionService 接口。
 
 ```csharp
-public class ActionService
+public class ActionService : IActionService
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ActionService](Ink\_Canvas.WorkflowAutomation.Services.ActionService.md)
+
+#### Implements
+
+[IActionService](Ink\_Canvas.WorkflowAutomation.Abstractions.IActionService.md)
 
 #### Inherited Members
 
@@ -53,6 +58,36 @@ public void Invoke(ActionSet actionSet)
 #### Parameters
 
 `actionSet` [ActionSet](Ink\_Canvas.WorkflowAutomation.Models.ActionSet.md)
+
+### <a id="Ink_Canvas_WorkflowAutomation_Services_ActionService_RegisterActionHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_ActionRegistryInfo_HandleDelegate_"></a> RegisterActionHandler\(string, HandleDelegate\)
+
+注册行动处理程序。
+对齐 ClassIsland 的 RegisterActionHandler。
+
+```csharp
+public void RegisterActionHandler(string id, ActionRegistryInfo.HandleDelegate handler)
+```
+
+#### Parameters
+
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`handler` [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
+
+### <a id="Ink_Canvas_WorkflowAutomation_Services_ActionService_RegisterRevertHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_ActionRegistryInfo_HandleDelegate_"></a> RegisterRevertHandler\(string, HandleDelegate\)
+
+注册行动恢复处理程序。
+对齐 ClassIsland 的 RegisterRevertHandler。
+
+```csharp
+public void RegisterRevertHandler(string id, ActionRegistryInfo.HandleDelegate handler)
+```
+
+#### Parameters
+
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`handler` [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_ActionService_Revert_Ink_Canvas_WorkflowAutomation_Models_ActionSet_"></a> Revert\(ActionSet\)
 

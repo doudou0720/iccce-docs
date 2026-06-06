@@ -761,6 +761,32 @@ InitializeComponent
 public void InitializeComponent()
 ```
 
+### <a id="Ink_Canvas_QuickDrawWindow_OnClosed_System_EventArgs_"></a> OnClosed\(EventArgs\)
+
+Raises the <xref href="System.Windows.Window.Closed" data-throw-if-not-resolved="false"></xref> event.
+
+```csharp
+protected override void OnClosed(EventArgs e)
+```
+
+#### Parameters
+
+`e` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+
+An <xref href="System.EventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
+
+### <a id="Ink_Canvas_QuickDrawWindow_OnSourceInitialized_System_EventArgs_"></a> OnSourceInitialized\(EventArgs\)
+
+注册到中央置顶管理器，确保窗口立即获得置顶状态
+
+```csharp
+protected override void OnSourceInitialized(EventArgs e)
+```
+
+#### Parameters
+
+`e` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+
 ### <a id="Ink_Canvas_QuickDrawWindow_RefreshTheme"></a> RefreshTheme\(\)
 
 刷新主题，当主窗口主题切换时调用

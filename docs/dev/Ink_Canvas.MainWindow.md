@@ -3,7 +3,8 @@
 Namespace: [Ink\_Canvas](Ink\_Canvas.md)  
 Assembly: InkCanvasForClass.dll  
 
-主窗口类的部分类，包含压感模拟和墨水到形状识别的功能
+MainWindow 的小白板相关功能 partial class
+管理浮窗小白板的打开、关闭、状态，以及白板按钮右键二级菜单
 
 ```csharp
 public class MainWindow : PerformanceTransparentWin, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IBoardToolbarHost
@@ -1054,6 +1055,18 @@ public string CurrentPageInfo { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_MainWindow_InkSmoothingManagerInstance"></a> InkSmoothingManagerInstance
+
+墨迹平滑管理器实例（供性能页面读取统计）
+
+```csharp
+public InkSmoothingManager InkSmoothingManagerInstance { get; }
+```
+
+#### Property Value
+
+ [InkSmoothingManager](Ink\_Canvas.Helpers.InkSmoothingManager.md)
+
 ### <a id="Ink_Canvas_MainWindow_PPTManager"></a> PPTManager
 
 获取PPT管理器实例
@@ -1126,14 +1139,6 @@ public static string settingsFileName { get; }
 
 ```csharp
 public void AddWhiteboardPage()
-```
-
-### <a id="Ink_Canvas_MainWindow_AdjustTimerContainerSize"></a> AdjustTimerContainerSize\(\)
-
-根据DPI缩放因子调整TimerContainer的尺寸
-
-```csharp
-public void AdjustTimerContainerSize()
 ```
 
 ### <a id="Ink_Canvas_MainWindow_ApplyAdvancedEraserShape"></a> ApplyAdvancedEraserShape\(\)
@@ -1273,6 +1278,12 @@ public void CheckClipboardImageAndShowPasteNotificationWhenEnteringBoard()
 
 ```csharp
 public void CheckEraserTypeTab()
+```
+
+### <a id="Ink_Canvas_MainWindow_ClearCustomCursorCache"></a> ClearCustomCursorCache\(\)
+
+```csharp
+public static void ClearCustomCursorCache()
 ```
 
 ### <a id="Ink_Canvas_MainWindow_DeleteWhiteboardPage"></a> DeleteWhiteboardPage\(\)

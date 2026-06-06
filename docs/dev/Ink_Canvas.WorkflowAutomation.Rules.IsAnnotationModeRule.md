@@ -38,6 +38,20 @@ public const string RuleId = "inkcanvas.isannotationmode"
 
 ## Methods
 
+### <a id="Ink_Canvas_WorkflowAutomation_Rules_IsAnnotationModeRule_Evaluate_System_Object_"></a> Evaluate\(object\)
+
+```csharp
+public static bool Evaluate(object settings)
+```
+
+#### Parameters
+
+`settings` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_WorkflowAutomation_Rules_IsAnnotationModeRule_Register"></a> Register\(\)
 
 ```csharp

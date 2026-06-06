@@ -83,34 +83,34 @@ public string Name { get; }
 设置界面类型
 
 ```csharp
-public Type? SettingsControlType { get; }
+public Type SettingsControlType { get; set; }
 ```
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)?
+ [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_TriggerInfo_SettingsType"></a> SettingsType
 
 设置数据类型
 
 ```csharp
-public Type? SettingsType { get; }
+public Type SettingsType { get; }
 ```
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)?
+ [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_TriggerInfo_TriggerType"></a> TriggerType
 
 触发器类型
 
 ```csharp
-public Type? TriggerType { get; }
+public Type TriggerType { get; }
 ```
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)?
+ [Type](https://learn.microsoft.com/dotnet/api/system.type)
 

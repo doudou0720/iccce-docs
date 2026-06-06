@@ -86,11 +86,19 @@ CustomIconWindow.xaml 的交互逻辑
 
  [MainWindow](Ink\_Canvas.MainWindow.md)
 
-主窗口类的部分类，包含压感模拟和墨水到形状识别的功能
+MainWindow 的小白板相关功能 partial class
+管理浮窗小白板的打开、关闭、状态，以及白板按钮右键二级菜单
 
  [ManagePickNameBackgroundsWindow](Ink\_Canvas.ManagePickNameBackgroundsWindow.md)
 
 ManagePickNameBackgroundsWindow.xaml 的交互逻辑
+
+ [MiniWhiteboardSettings](Ink\_Canvas.MiniWhiteboardSettings.md)
+
+ [MiniWhiteboardWindow](Ink\_Canvas.MiniWhiteboardWindow.md)
+
+MiniWhiteboardWindow.xaml 的交互逻辑
+浮窗小白板，提供简易的书写和绘图功能，支持多页管理和PPT联动
 
  [ModeSettings](Ink\_Canvas.ModeSettings.md)
 
@@ -107,6 +115,10 @@ Interaction logic for NamesInputWindow.xaml
  [OperatingGuideWindow](Ink\_Canvas.OperatingGuideWindow.md)
 
 Interaction logic for StopwatchWindow.xaml
+
+ [PerformanceRunRecord](Ink\_Canvas.PerformanceRunRecord.md)
+
+ [PerformanceSettings](Ink\_Canvas.PerformanceSettings.md)
 
  [PowerPointSettings](Ink\_Canvas.PowerPointSettings.md)
 
