@@ -35,6 +35,17 @@ public bool AllowDragSidePanel { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Appearance_AutoCollapseQuickPanelDelay"></a> AutoCollapseQuickPanelDelay
+
+```csharp
+[JsonProperty("autoCollapseQuickPanelDelay")]
+public double AutoCollapseQuickPanelDelay { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Appearance_AutoFlipWhenSpaceInsufficient"></a> AutoFlipWhenSpaceInsufficient
 
 ```csharp
@@ -78,6 +89,17 @@ public double BoardToolbarRightOpacity { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Appearance_ChickenSoupPosition"></a> ChickenSoupPosition
+
+```csharp
+[JsonProperty("chickenSoupPosition")]
+public string ChickenSoupPosition { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Appearance_ChickenSoupSource"></a> ChickenSoupSource
 
@@ -222,6 +244,17 @@ public List<string> HitokotoCategories { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
+### <a id="Ink_Canvas_Appearance_IsAutoCollapseQuickPanel"></a> IsAutoCollapseQuickPanel
+
+```csharp
+[JsonProperty("isAutoCollapseQuickPanel")]
+public bool IsAutoCollapseQuickPanel { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Appearance_IsColorfulViewboxFloatingBar"></a> IsColorfulViewboxFloatingBar
 
 ```csharp
@@ -348,6 +381,17 @@ public int QuickColorPaletteDisplayMode { get; set; }
 ```csharp
 [JsonProperty("quickPanelBottomOffset")]
 public double QuickPanelBottomOffset { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Appearance_QuickPanelOpacity"></a> QuickPanelOpacity
+
+```csharp
+[JsonProperty("quickPanelOpacity")]
+public double QuickPanelOpacity { get; set; }
 ```
 
 #### Property Value

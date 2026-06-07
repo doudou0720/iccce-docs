@@ -141,6 +141,8 @@
     href: Ink_Canvas.Controls.BackgroundPalettePopupContent.md
   - name: BoardToolbarButton
     href: Ink_Canvas.Controls.BoardToolbarButton.md
+  - name: BoardToolsPopupContent
+    href: Ink_Canvas.Controls.BoardToolsPopupContent.md
   - name: CanvasMediaControl
     href: Ink_Canvas.Controls.CanvasMediaControl.md
   - name: CircularColorButton
@@ -153,6 +155,8 @@
     href: Ink_Canvas.Controls.DynamicNotificationControl.md
   - name: EraserPopupContent
     href: Ink_Canvas.Controls.EraserPopupContent.md
+  - name: FloatingBarToolsPopupContent
+    href: Ink_Canvas.Controls.FloatingBarToolsPopupContent.md
   - name: GeometryButton
     href: Ink_Canvas.Controls.GeometryButton.md
   - name: GesturePopupContent
@@ -216,6 +220,16 @@
     href: Ink_Canvas.Controls.ImageResizeCorner.md
   - name: PptNavBar.NavDirection
     href: Ink_Canvas.Controls.PptNavBar.NavDirection.md
+- name: Ink_Canvas.Controls.Toolbar
+  href: Ink_Canvas.Controls.Toolbar.md
+  items:
+  - name: Classes
+  - name: ToolsMenuItemInfo
+    href: Ink_Canvas.Controls.Toolbar.ToolsMenuItemInfo.md
+  - name: ToolsMenuLayoutSettings
+    href: Ink_Canvas.Controls.Toolbar.ToolsMenuLayoutSettings.md
+  - name: ToolsMenuRegistry
+    href: Ink_Canvas.Controls.Toolbar.ToolsMenuRegistry.md
 - name: Ink_Canvas.Controls.Toolbar.BoardToolbar
   href: Ink_Canvas.Controls.Toolbar.BoardToolbar.md
   items:
@@ -735,6 +749,10 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.BoardGroupNameConverter.md
   - name: BoardIdToDisplayNameConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.BoardIdToDisplayNameConverter.md
+  - name: BoardMenuItemIdToNameConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToNameConverter.md
+  - name: BoardMenuPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardMenuPage.md
   - name: BoardNullToVisibilityConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.BoardNullToVisibilityConverter.md
   - name: BoardPositionNameConverter
@@ -777,6 +795,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.InputDialog.md
   - name: LogicalModeToIntConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.LogicalModeToIntConverter.md
+  - name: MenuItemIdToNameConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.MenuItemIdToNameConverter.md
   - name: NotificationPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.NotificationPage.md
   - name: NullToVisibilityConverter
@@ -807,6 +827,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.StoragePage.md
   - name: ToolbarAppearancePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.ToolbarAppearancePage.md
+  - name: ToolbarMenuPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.ToolbarMenuPage.md
   - name: ToolbarPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.ToolbarPage.md
   - name: UpdatePage

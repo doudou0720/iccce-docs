@@ -118,6 +118,16 @@ public int PPTLSButtonPosition { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Helpers_PPTUIManager_PPTNavBarScale"></a> PPTNavBarScale
+
+```csharp
+public double PPTNavBarScale { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Helpers_PPTUIManager_PPTRBButtonOpacity"></a> PPTRBButtonOpacity
 
 ```csharp

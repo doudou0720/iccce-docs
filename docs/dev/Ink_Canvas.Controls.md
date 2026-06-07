@@ -1,5 +1,9 @@
 # <a id="Ink_Canvas_Controls"></a> Namespace Ink\_Canvas.Controls
 
+### Namespaces
+
+ [Ink\_Canvas.Controls.Toolbar](Ink\_Canvas.Controls.Toolbar.md)
+
 ### Classes
 
  [BackgroundPalettePopupContent](Ink\_Canvas.Controls.BackgroundPalettePopupContent.md)
@@ -7,6 +11,8 @@
  [BoardToolbarButton](Ink\_Canvas.Controls.BoardToolbarButton.md)
 
 BoardToolbarButton
+
+ [BoardToolsPopupContent](Ink\_Canvas.Controls.BoardToolsPopupContent.md)
 
  [CanvasMediaControl](Ink\_Canvas.Controls.CanvasMediaControl.md)
 
@@ -29,6 +35,8 @@ CopyButton
 DynamicNotificationControl
 
  [EraserPopupContent](Ink\_Canvas.Controls.EraserPopupContent.md)
+
+ [FloatingBarToolsPopupContent](Ink\_Canvas.Controls.FloatingBarToolsPopupContent.md)
 
  [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 

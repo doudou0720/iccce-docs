@@ -154,6 +154,26 @@ public static string Nav_BoardComponents_Tooltip { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_NavStrings_Nav_BoardMenu"></a> Nav\_BoardMenu
+
+```csharp
+public static string Nav_BoardMenu { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_NavStrings_Nav_BoardMenu_Tooltip"></a> Nav\_BoardMenu\_Tooltip
+
+```csharp
+public static string Nav_BoardMenu_Tooltip { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_NavStrings_Nav_BoardToolbar"></a> Nav\_BoardToolbar
 
 ```csharp
@@ -578,6 +598,26 @@ public static string Nav_ToolbarComponents { get; }
 
 ```csharp
 public static string Nav_ToolbarComponents_Tooltip { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_NavStrings_Nav_ToolbarMenu"></a> Nav\_ToolbarMenu
+
+```csharp
+public static string Nav_ToolbarMenu { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_NavStrings_Nav_ToolbarMenu_Tooltip"></a> Nav\_ToolbarMenu\_Tooltip
+
+```csharp
+public static string Nav_ToolbarMenu_Tooltip { get; }
 ```
 
 #### Property Value

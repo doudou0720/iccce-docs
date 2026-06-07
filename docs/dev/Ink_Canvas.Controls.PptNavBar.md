@@ -821,6 +821,16 @@ public void SetBarOpacity(double opacity)
 
 `opacity` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_Controls_PptNavBar_SetBarScale_System_Double_"></a> SetBarScale\(double\)
+
+```csharp
+public void SetBarScale(double scale)
+```
+
+#### Parameters
+
+`scale` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Controls_PptNavBar_SetPageButtonVisibility_System_Windows_Visibility_"></a> SetPageButtonVisibility\(Visibility\)
 
 ```csharp

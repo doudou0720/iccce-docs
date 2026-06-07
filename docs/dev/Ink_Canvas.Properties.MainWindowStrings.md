@@ -244,6 +244,16 @@ public static string Main_ContextFlip { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ContextInsertToWhiteboard"></a> Main\_ContextInsertToWhiteboard
+
+```csharp
+public static string Main_ContextInsertToWhiteboard { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ContextPageTurn"></a> Main\_ContextPageTurn
 
 ```csharp

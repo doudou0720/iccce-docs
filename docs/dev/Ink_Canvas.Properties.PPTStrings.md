@@ -154,6 +154,16 @@ public static string FingerGestureSlideHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_PPTStrings_FlipButtonsScale"></a> FlipButtonsScale
+
+```csharp
+public static string FlipButtonsScale { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_PPTStrings_FlipButtonsTitle"></a> FlipButtonsTitle
 
 ```csharp

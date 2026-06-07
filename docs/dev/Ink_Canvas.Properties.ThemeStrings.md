@@ -64,6 +64,26 @@ public static string Theme_AllowDragSidePanel { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_AutoCollapseQuickPanel"></a> Theme\_AutoCollapseQuickPanel
+
+```csharp
+public static string Theme_AutoCollapseQuickPanel { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_AutoCollapseQuickPanelDelay"></a> Theme\_AutoCollapseQuickPanelDelay
+
+```csharp
+public static string Theme_AutoCollapseQuickPanelDelay { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BlackboardScale80"></a> Theme\_BlackboardScale80
 
 ```csharp
@@ -678,6 +698,66 @@ public static string Theme_QuickPalette_SingleRow { get; }
 
 ```csharp
 public static string Theme_QuickPanelBottomOffset { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuickPanelOpacity"></a> Theme\_QuickPanelOpacity
+
+```csharp
+public static string Theme_QuickPanelOpacity { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuotePosition"></a> Theme\_QuotePosition
+
+```csharp
+public static string Theme_QuotePosition { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuotePosition_BottomLeft"></a> Theme\_QuotePosition\_BottomLeft
+
+```csharp
+public static string Theme_QuotePosition_BottomLeft { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuotePosition_BottomRight"></a> Theme\_QuotePosition\_BottomRight
+
+```csharp
+public static string Theme_QuotePosition_BottomRight { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuotePosition_TopLeft"></a> Theme\_QuotePosition\_TopLeft
+
+```csharp
+public static string Theme_QuotePosition_TopLeft { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuotePosition_TopRight"></a> Theme\_QuotePosition\_TopRight
+
+```csharp
+public static string Theme_QuotePosition_TopRight { get; }
 ```
 
 #### Property Value

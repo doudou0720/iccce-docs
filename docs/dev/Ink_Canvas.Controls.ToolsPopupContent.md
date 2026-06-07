@@ -4,7 +4,7 @@ Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public class ToolsPopupContent : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
+public abstract class ToolsPopupContent : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
 ```
 
 #### Inheritance
@@ -19,6 +19,11 @@ public class ToolsPopupContent : UserControl, IAnimatable, ISupportInitialize, I
 [ContentControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol) ← 
 [UserControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol) ← 
 [ToolsPopupContent](Ink\_Canvas.Controls.ToolsPopupContent.md)
+
+#### Derived
+
+[BoardToolsPopupContent](Ink\_Canvas.Controls.BoardToolsPopupContent.md), 
+[FloatingBarToolsPopupContent](Ink\_Canvas.Controls.FloatingBarToolsPopupContent.md)
 
 #### Implements
 
@@ -674,52 +679,22 @@ public class ToolsPopupContent : UserControl, IAnimatable, ISupportInitialize, I
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
-## Constructors
-
-### <a id="Ink_Canvas_Controls_ToolsPopupContent__ctor"></a> ToolsPopupContent\(\)
-
-```csharp
-public ToolsPopupContent()
-```
-
-## Fields
-
-### <a id="Ink_Canvas_Controls_ToolsPopupContent_IsBoardModeProperty"></a> IsBoardModeProperty
-
-```csharp
-public static readonly DependencyProperty IsBoardModeProperty
-```
-
-#### Field Value
-
- [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
-
 ## Properties
 
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_CloseButtonControl"></a> CloseButtonControl
 
 ```csharp
-public Button CloseButtonControl { get; }
+public abstract Button CloseButtonControl { get; }
 ```
 
 #### Property Value
 
  [Button](https://learn.microsoft.com/dotnet/api/system.windows.controls.button)
 
-### <a id="Ink_Canvas_Controls_ToolsPopupContent_IsBoardMode"></a> IsBoardMode
-
-```csharp
-public bool IsBoardMode { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_ManualBtn"></a> ManualBtn
 
 ```csharp
-public ToolMenuButton ManualBtn { get; }
+public abstract ToolMenuButton ManualBtn { get; }
 ```
 
 #### Property Value
@@ -729,7 +704,7 @@ public ToolMenuButton ManualBtn { get; }
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_OpenBtn"></a> OpenBtn
 
 ```csharp
-public ToolMenuButton OpenBtn { get; }
+public abstract ToolMenuButton OpenBtn { get; }
 ```
 
 #### Property Value
@@ -739,7 +714,17 @@ public ToolMenuButton OpenBtn { get; }
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_RandomDrawBtn"></a> RandomDrawBtn
 
 ```csharp
-public ToolMenuButton RandomDrawBtn { get; }
+public abstract ToolMenuButton RandomDrawBtn { get; }
+```
+
+#### Property Value
+
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_RedoBtn"></a> RedoBtn
+
+```csharp
+public abstract ToolMenuButton RedoBtn { get; }
 ```
 
 #### Property Value
@@ -749,7 +734,7 @@ public ToolMenuButton RandomDrawBtn { get; }
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_ReplayBtn"></a> ReplayBtn
 
 ```csharp
-public ToolMenuButton ReplayBtn { get; }
+public abstract ToolMenuButton ReplayBtn { get; }
 ```
 
 #### Property Value
@@ -759,7 +744,7 @@ public ToolMenuButton ReplayBtn { get; }
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_SaveBtn"></a> SaveBtn
 
 ```csharp
-public ToolMenuButton SaveBtn { get; }
+public abstract ToolMenuButton SaveBtn { get; }
 ```
 
 #### Property Value
@@ -769,7 +754,7 @@ public ToolMenuButton SaveBtn { get; }
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_ScreenshotBtn"></a> ScreenshotBtn
 
 ```csharp
-public ToolMenuButton ScreenshotBtn { get; }
+public abstract ToolMenuButton ScreenshotBtn { get; }
 ```
 
 #### Property Value
@@ -779,7 +764,17 @@ public ToolMenuButton ScreenshotBtn { get; }
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_SettingsBtn"></a> SettingsBtn
 
 ```csharp
-public ToolMenuButton SettingsBtn { get; }
+public abstract ToolMenuButton SettingsBtn { get; }
+```
+
+#### Property Value
+
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_ShapeDrawBtn"></a> ShapeDrawBtn
+
+```csharp
+public abstract ToolMenuButton ShapeDrawBtn { get; }
 ```
 
 #### Property Value
@@ -789,7 +784,7 @@ public ToolMenuButton SettingsBtn { get; }
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_SingleDrawBtn"></a> SingleDrawBtn
 
 ```csharp
-public ToolMenuButton SingleDrawBtn { get; }
+public abstract ToolMenuButton SingleDrawBtn { get; }
 ```
 
 #### Property Value
@@ -799,10 +794,26 @@ public ToolMenuButton SingleDrawBtn { get; }
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_TimerBtn"></a> TimerBtn
 
 ```csharp
-public ToolMenuButton TimerBtn { get; }
+public abstract ToolMenuButton TimerBtn { get; }
 ```
 
 #### Property Value
+
+ ToolMenuButton
+
+## Methods
+
+### <a id="Ink_Canvas_Controls_ToolsPopupContent_GetButtonByItemId_System_String_"></a> GetButtonByItemId\(string\)
+
+```csharp
+public ToolMenuButton GetButtonByItemId(string itemId)
+```
+
+#### Parameters
+
+`itemId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
 
  ToolMenuButton
 

@@ -40,6 +40,12 @@ BoardAppearancePage
 
  [BoardIdToDisplayNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardIdToDisplayNameConverter.md)
 
+ [BoardMenuItemIdToNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToNameConverter.md)
+
+ [BoardMenuPage](Ink\_Canvas.Windows.SettingsViews.Pages.BoardMenuPage.md)
+
+BoardMenuPage
+
  [BoardNullToVisibilityConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardNullToVisibilityConverter.md)
 
  [BoardPositionNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardPositionNameConverter.md)
@@ -96,6 +102,8 @@ HomePage
 
  [LogicalModeToIntConverter](Ink\_Canvas.Windows.SettingsViews.Pages.LogicalModeToIntConverter.md)
 
+ [MenuItemIdToNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.MenuItemIdToNameConverter.md)
+
  [NotificationPage](Ink\_Canvas.Windows.SettingsViews.Pages.NotificationPage.md)
 
  [NullToVisibilityConverter](Ink\_Canvas.Windows.SettingsViews.Pages.NullToVisibilityConverter.md)
@@ -139,6 +147,10 @@ StartupPage
 StoragePage
 
  [ToolbarAppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarAppearancePage.md)
+
+ [ToolbarMenuPage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarMenuPage.md)
+
+ToolbarMenuPage
 
  [ToolbarPage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarPage.md)
 

@@ -24,6 +24,12 @@ public static class SettingsActionHub
 
 ## Methods
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnAutoCollapseQuickPanelChanged"></a> OnAutoCollapseQuickPanelChanged\(\)
+
+```csharp
+public static void OnAutoCollapseQuickPanelChanged()
+```
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnAutoFoldChanged"></a> OnAutoFoldChanged\(\)
 
 ```csharp
@@ -113,6 +119,12 @@ public static void OnChickenSoupInWhiteboardChanged(bool isOn, bool isTimeDispla
 `isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 `isTimeDisplayOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnChickenSoupPositionChanged"></a> OnChickenSoupPositionChanged\(\)
+
+```csharp
+public static void OnChickenSoupPositionChanged()
+```
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnChickenSoupSourceChanged"></a> OnChickenSoupSourceChanged\(\)
 
@@ -348,6 +360,16 @@ public static void OnPPTEnhancementChanged(bool isOn)
 
 `isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnPPTNavBarScaleChanged_System_Double_"></a> OnPPTNavBarScaleChanged\(double\)
+
+```csharp
+public static void OnPPTNavBarScaleChanged(double scale)
+```
+
+#### Parameters
+
+`scale` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnPPTSButtonsOptionChanged"></a> OnPPTSButtonsOptionChanged\(\)
 
 ```csharp
@@ -408,6 +430,16 @@ public static void OnPenCursorTypeChanged(int selectedIndex)
 
 ```csharp
 public static void OnQuickPanelBottomOffsetChanged(double value)
+```
+
+#### Parameters
+
+`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnQuickPanelOpacityChanged_System_Double_"></a> OnQuickPanelOpacityChanged\(double\)
+
+```csharp
+public static void OnQuickPanelOpacityChanged(double value)
 ```
 
 #### Parameters

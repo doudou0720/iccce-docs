@@ -1,13 +1,12 @@
-# <a id="Ink_Canvas_MiniWhiteboardWindow"></a> Class MiniWhiteboardWindow
+# <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarMenuPage"></a> Class ToolbarMenuPage
 
-Namespace: [Ink\_Canvas](Ink\_Canvas.md)  
+Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
 
-MiniWhiteboardWindow.xaml 的交互逻辑
-浮窗小白板，提供简易的书写和绘图功能，支持多页管理和PPT联动
+ToolbarMenuPage
 
 ```csharp
-public class MiniWhiteboardWindow : Window, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+public class ToolbarMenuPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IDropTarget, IComponentConnector, IStyleConnector
 ```
 
 #### Inheritance
@@ -18,10 +17,9 @@ public class MiniWhiteboardWindow : Window, IAnimatable, ISupportInitialize, IFr
 [Visual](https://learn.microsoft.com/dotnet/api/system.windows.media.visual) ← 
 [UIElement](https://learn.microsoft.com/dotnet/api/system.windows.uielement) ← 
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
-[Control](https://learn.microsoft.com/dotnet/api/system.windows.controls.control) ← 
-[ContentControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol) ← 
-[Window](https://learn.microsoft.com/dotnet/api/system.windows.window) ← 
-[MiniWhiteboardWindow](Ink\_Canvas.MiniWhiteboardWindow.md)
+[Page](https://learn.microsoft.com/dotnet/api/system.windows.controls.page) ← 
+[Page](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs) ← 
+[ToolbarMenuPage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarMenuPage.md)
 
 #### Implements
 
@@ -31,135 +29,44 @@ public class MiniWhiteboardWindow : Window, IAnimatable, ISupportInitialize, IFr
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
 [IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
-[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
+IDropTarget, 
+[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector), 
+[IStyleConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.istyleconnector)
 
 #### Inherited Members
 
-[Window.AllowsTransparencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.allowstransparencyproperty), 
-[Window.DpiChangedEvent](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichangedevent), 
-[Window.IconProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.iconproperty), 
-[Window.IsActiveProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.isactiveproperty), 
-[Window.LeftProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.leftproperty), 
-[Window.ResizeModeProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.resizemodeproperty), 
-[Window.ShowActivatedProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.showactivatedproperty), 
-[Window.ShowInTaskbarProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbarproperty), 
-[Window.SizeToContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontentproperty), 
-[Window.TaskbarItemInfoProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfoproperty), 
-[Window.TitleProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.titleproperty), 
-[Window.TopmostProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.topmostproperty), 
-[Window.TopProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.topproperty), 
-[Window.WindowStateProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstateproperty), 
-[Window.WindowStyleProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstyleproperty), 
-[Window.Activate\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.activate), 
-[Window.ArrangeOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.window.arrangeoverride), 
-[Window.Close\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.close), 
-[Window.DragMove\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.dragmove), 
-[Window.GetWindow\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.getwindow), 
-[Window.Hide\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.hide), 
-[Window.MeasureOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.window.measureoverride), 
-[Window.OnActivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onactivated), 
-[Window.OnClosed\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onclosed), 
-[Window.OnClosing\(CancelEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onclosing), 
-[Window.OnContentChanged\(object, object\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncontentchanged), 
-[Window.OnContentRendered\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncontentrendered), 
-[Window.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncreateautomationpeer), 
-[Window.OnDeactivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.ondeactivated), 
-[Window.OnDpiChanged\(DpiScale, DpiScale\)](https://learn.microsoft.com/dotnet/api/system.windows.window.ondpichanged), 
-[Window.OnLocationChanged\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onlocationchanged), 
-[Window.OnManipulationBoundaryFeedback\(ManipulationBoundaryFeedbackEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onmanipulationboundaryfeedback), 
-[Window.OnSourceInitialized\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onsourceinitialized), 
-[Window.OnStateChanged\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onstatechanged), 
-[Window.OnVisualChildrenChanged\(DependencyObject, DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onvisualchildrenchanged), 
-[Window.OnVisualParentChanged\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onvisualparentchanged), 
-[Window.Show\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.show), 
-[Window.ShowDialog\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.showdialog), 
-[Window.AllowsTransparency](https://learn.microsoft.com/dotnet/api/system.windows.window.allowstransparency), 
-[Window.DialogResult](https://learn.microsoft.com/dotnet/api/system.windows.window.dialogresult), 
-[Window.Icon](https://learn.microsoft.com/dotnet/api/system.windows.window.icon), 
-[Window.IsActive](https://learn.microsoft.com/dotnet/api/system.windows.window.isactive), 
-[Window.Left](https://learn.microsoft.com/dotnet/api/system.windows.window.left), 
-[Window.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.window.logicalchildren), 
-[Window.OwnedWindows](https://learn.microsoft.com/dotnet/api/system.windows.window.ownedwindows), 
-[Window.Owner](https://learn.microsoft.com/dotnet/api/system.windows.window.owner), 
-[Window.ResizeMode](https://learn.microsoft.com/dotnet/api/system.windows.window.resizemode), 
-[Window.RestoreBounds](https://learn.microsoft.com/dotnet/api/system.windows.window.restorebounds), 
-[Window.ShowActivated](https://learn.microsoft.com/dotnet/api/system.windows.window.showactivated), 
-[Window.ShowInTaskbar](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbar), 
-[Window.SizeToContent](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontent), 
-[Window.TaskbarItemInfo](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfo), 
-[Window.Title](https://learn.microsoft.com/dotnet/api/system.windows.window.title), 
-[Window.Top](https://learn.microsoft.com/dotnet/api/system.windows.window.top), 
-[Window.Topmost](https://learn.microsoft.com/dotnet/api/system.windows.window.topmost), 
-[Window.WindowStartupLocation](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstartuplocation), 
-[Window.WindowState](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstate), 
-[Window.WindowStyle](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstyle), 
-[Window.Activated](https://learn.microsoft.com/dotnet/api/system.windows.window.activated), 
-[Window.Closed](https://learn.microsoft.com/dotnet/api/system.windows.window.closed), 
-[Window.Closing](https://learn.microsoft.com/dotnet/api/system.windows.window.closing), 
-[Window.ContentRendered](https://learn.microsoft.com/dotnet/api/system.windows.window.contentrendered), 
-[Window.Deactivated](https://learn.microsoft.com/dotnet/api/system.windows.window.deactivated), 
-[Window.DpiChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichanged), 
-[Window.LocationChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.locationchanged), 
-[Window.SourceInitialized](https://learn.microsoft.com/dotnet/api/system.windows.window.sourceinitialized), 
-[Window.StateChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.statechanged), 
-[ContentControl.ContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentproperty), 
-[ContentControl.ContentStringFormatProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentstringformatproperty), 
-[ContentControl.ContentTemplateProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateproperty), 
-[ContentControl.ContentTemplateSelectorProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateselectorproperty), 
-[ContentControl.HasContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.hascontentproperty), 
-[ContentControl.AddChild\(object\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.addchild), 
-[ContentControl.AddText\(string\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.addtext), 
-[ContentControl.OnContentChanged\(object, object\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontentchanged), 
-[ContentControl.OnContentStringFormatChanged\(string, string\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontentstringformatchanged), 
-[ContentControl.OnContentTemplateChanged\(DataTemplate, DataTemplate\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontenttemplatechanged), 
-[ContentControl.OnContentTemplateSelectorChanged\(DataTemplateSelector, DataTemplateSelector\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontenttemplateselectorchanged), 
-[ContentControl.Content](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.content), 
-[ContentControl.ContentStringFormat](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentstringformat), 
-[ContentControl.ContentTemplate](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplate), 
-[ContentControl.ContentTemplateSelector](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateselector), 
-[ContentControl.HasContent](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.hascontent), 
-[ContentControl.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.logicalchildren), 
-[Control.BackgroundProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.backgroundproperty), 
-[Control.BorderBrushProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderbrushproperty), 
-[Control.BorderThicknessProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderthicknessproperty), 
-[Control.FontFamilyProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontfamilyproperty), 
-[Control.FontSizeProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontsizeproperty), 
-[Control.FontStretchProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstretchproperty), 
-[Control.FontStyleProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstyleproperty), 
-[Control.FontWeightProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontweightproperty), 
-[Control.ForegroundProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.foregroundproperty), 
-[Control.HorizontalContentAlignmentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.horizontalcontentalignmentproperty), 
-[Control.IsTabStopProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.istabstopproperty), 
-[Control.MouseDoubleClickEvent](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.mousedoubleclickevent), 
-[Control.PaddingProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.paddingproperty), 
-[Control.PreviewMouseDoubleClickEvent](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.previewmousedoubleclickevent), 
-[Control.TabIndexProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.tabindexproperty), 
-[Control.TemplateProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.templateproperty), 
-[Control.VerticalContentAlignmentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.verticalcontentalignmentproperty), 
-[Control.ArrangeOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.arrangeoverride), 
-[Control.MeasureOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.measureoverride), 
-[Control.OnMouseDoubleClick\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.onmousedoubleclick), 
-[Control.OnPreviewMouseDoubleClick\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.onpreviewmousedoubleclick), 
-[Control.OnTemplateChanged\(ControlTemplate, ControlTemplate\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.ontemplatechanged), 
-[Control.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.tostring), 
-[Control.Background](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.background), 
-[Control.BorderBrush](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderbrush), 
-[Control.BorderThickness](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderthickness), 
-[Control.FontFamily](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontfamily), 
-[Control.FontSize](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontsize), 
-[Control.FontStretch](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstretch), 
-[Control.FontStyle](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstyle), 
-[Control.FontWeight](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontweight), 
-[Control.Foreground](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.foreground), 
-[Control.HandlesScrolling](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.handlesscrolling), 
-[Control.HorizontalContentAlignment](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.horizontalcontentalignment), 
-[Control.IsTabStop](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.istabstop), 
-[Control.Padding](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.padding), 
-[Control.TabIndex](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.tabindex), 
-[Control.Template](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.template), 
-[Control.VerticalContentAlignment](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.verticalcontentalignment), 
-[Control.MouseDoubleClick](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.mousedoubleclick), 
-[Control.PreviewMouseDoubleClick](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.previewmousedoubleclick), 
+[Page.FrameProperty](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
+[Page.OnNavigatedTo\(NavigationEventArgs\)](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
+[Page.OnNavigatingFrom\(NavigatingCancelEventArgs\)](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
+[Page.OnNavigatedFrom\(NavigationEventArgs\)](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
+[Page.OnPropertyChanged\(DependencyPropertyChangedEventArgs\)](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
+[Page.Frame](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
+[Page.BackgroundProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.backgroundproperty), 
+[Page.ContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.contentproperty), 
+[Page.FontFamilyProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.fontfamilyproperty), 
+[Page.FontSizeProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.fontsizeproperty), 
+[Page.ForegroundProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.foregroundproperty), 
+[Page.KeepAliveProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.keepaliveproperty), 
+[Page.TemplateProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.templateproperty), 
+[Page.TitleProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.titleproperty), 
+[Page.ArrangeOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.arrangeoverride), 
+[Page.MeasureOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.measureoverride), 
+[Page.OnTemplateChanged\(ControlTemplate, ControlTemplate\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.ontemplatechanged), 
+[Page.OnVisualParentChanged\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.onvisualparentchanged), 
+[Page.Background](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.background), 
+[Page.Content](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.content), 
+[Page.FontFamily](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.fontfamily), 
+[Page.FontSize](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.fontsize), 
+[Page.Foreground](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.foreground), 
+[Page.KeepAlive](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.keepalive), 
+[Page.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.logicalchildren), 
+[Page.NavigationService](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.navigationservice), 
+[Page.ShowsNavigationUI](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.showsnavigationui), 
+[Page.Template](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.template), 
+[Page.Title](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.title), 
+[Page.WindowHeight](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.windowheight), 
+[Page.WindowTitle](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.windowtitle), 
+[Page.WindowWidth](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.windowwidth), 
 [FrameworkElement.ActualHeightProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.actualheightproperty), 
 [FrameworkElement.ActualWidthProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.actualwidthproperty), 
 [FrameworkElement.BindingGroupProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.bindinggroupproperty), 
@@ -746,71 +653,65 @@ public class MiniWhiteboardWindow : Window, IAnimatable, ISupportInitialize, IFr
 
 ## Constructors
 
-### <a id="Ink_Canvas_MiniWhiteboardWindow__ctor"></a> MiniWhiteboardWindow\(\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarMenuPage__ctor"></a> ToolbarMenuPage\(\)
 
 ```csharp
-public MiniWhiteboardWindow()
+public ToolbarMenuPage()
 ```
 
 ## Properties
 
-### <a id="Ink_Canvas_MiniWhiteboardWindow_CurrentPageIndex"></a> CurrentPageIndex
-
-获取当前页面索引（0-based）
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarMenuPage_AddedItems"></a> AddedItems
 
 ```csharp
-public int CurrentPageIndex { get; }
+public ObservableCollection<string> AddedItems { get; }
 ```
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
-### <a id="Ink_Canvas_MiniWhiteboardWindow_TotalPageCount"></a> TotalPageCount
-
-获取总页数
-
-```csharp
-public int TotalPageCount { get; }
-```
-
-#### Property Value
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ## Methods
 
-### <a id="Ink_Canvas_MiniWhiteboardWindow_InitializeComponent"></a> InitializeComponent\(\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarMenuPage_DragOver_GongSolutions_Wpf_DragDrop_IDropInfo_"></a> DragOver\(IDropInfo\)
+
+Notifies the drop handler about the current drag operation state.
+
+```csharp
+public void DragOver(IDropInfo dropInfo)
+```
+
+#### Parameters
+
+`dropInfo` IDropInfo
+
+Object which contains several drop information.
+
+#### Remarks
+
+To allow a drop at the current drag position, the <xref href="GongSolutions.Wpf.DragDrop.IDropInfo.Effects" data-throw-if-not-resolved="false"></xref> property on
+<code class="paramref">dropInfo</code> should be set to a value other than <xref href="System.Windows.DragDropEffects.None" data-throw-if-not-resolved="false"></xref>
+and <xref href="GongSolutions.Wpf.DragDrop.IDropInfo.Data" data-throw-if-not-resolved="false"></xref> should be set to a non-null value.
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarMenuPage_Drop_GongSolutions_Wpf_DragDrop_IDropInfo_"></a> Drop\(IDropInfo\)
+
+Performs a drop on the target.
+
+```csharp
+public void Drop(IDropInfo dropInfo)
+```
+
+#### Parameters
+
+`dropInfo` IDropInfo
+
+Object which contains several drop information.
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarMenuPage_InitializeComponent"></a> InitializeComponent\(\)
 
 InitializeComponent
 
 ```csharp
 public void InitializeComponent()
 ```
-
-### <a id="Ink_Canvas_MiniWhiteboardWindow_InsertStrokes_System_Windows_Ink_StrokeCollection_"></a> InsertStrokes\(StrokeCollection\)
-
-外部调用：将墨迹插入当前小白板页面，自动缩放至可见范围内
-
-```csharp
-public void InsertStrokes(StrokeCollection strokes)
-```
-
-#### Parameters
-
-`strokes` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
-
-要插入的墨迹集合（坐标基于主画布全屏坐标系，会被克隆并缩放）
-
-### <a id="Ink_Canvas_MiniWhiteboardWindow_OnPPTSlideChangedExternal_System_Int32_"></a> OnPPTSlideChangedExternal\(int\)
-
-外部调用：PPT页面切换时通知小白板（由 MainWindow 转发）
-
-```csharp
-public void OnPPTSlideChangedExternal(int slideIndex)
-```
-
-#### Parameters
-
-`slideIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

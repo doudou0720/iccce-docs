@@ -1,13 +1,10 @@
-# <a id="Ink_Canvas_MiniWhiteboardWindow"></a> Class MiniWhiteboardWindow
+# <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent"></a> Class FloatingBarToolsPopupContent
 
-Namespace: [Ink\_Canvas](Ink\_Canvas.md)  
+Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)  
 Assembly: InkCanvasForClass.dll  
 
-MiniWhiteboardWindow.xaml 的交互逻辑
-浮窗小白板，提供简易的书写和绘图功能，支持多页管理和PPT联动
-
 ```csharp
-public class MiniWhiteboardWindow : Window, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+public class FloatingBarToolsPopupContent : ToolsPopupContent, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
 ```
 
 #### Inheritance
@@ -20,8 +17,9 @@ public class MiniWhiteboardWindow : Window, IAnimatable, ISupportInitialize, IFr
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
 [Control](https://learn.microsoft.com/dotnet/api/system.windows.controls.control) ← 
 [ContentControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol) ← 
-[Window](https://learn.microsoft.com/dotnet/api/system.windows.window) ← 
-[MiniWhiteboardWindow](Ink\_Canvas.MiniWhiteboardWindow.md)
+[UserControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol) ← 
+[ToolsPopupContent](Ink\_Canvas.Controls.ToolsPopupContent.md) ← 
+[FloatingBarToolsPopupContent](Ink\_Canvas.Controls.FloatingBarToolsPopupContent.md)
 
 #### Implements
 
@@ -30,78 +28,24 @@ public class MiniWhiteboardWindow : Window, IAnimatable, ISupportInitialize, IFr
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
-[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
+[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
 
 #### Inherited Members
 
-[Window.AllowsTransparencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.allowstransparencyproperty), 
-[Window.DpiChangedEvent](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichangedevent), 
-[Window.IconProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.iconproperty), 
-[Window.IsActiveProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.isactiveproperty), 
-[Window.LeftProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.leftproperty), 
-[Window.ResizeModeProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.resizemodeproperty), 
-[Window.ShowActivatedProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.showactivatedproperty), 
-[Window.ShowInTaskbarProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbarproperty), 
-[Window.SizeToContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontentproperty), 
-[Window.TaskbarItemInfoProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfoproperty), 
-[Window.TitleProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.titleproperty), 
-[Window.TopmostProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.topmostproperty), 
-[Window.TopProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.topproperty), 
-[Window.WindowStateProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstateproperty), 
-[Window.WindowStyleProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstyleproperty), 
-[Window.Activate\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.activate), 
-[Window.ArrangeOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.window.arrangeoverride), 
-[Window.Close\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.close), 
-[Window.DragMove\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.dragmove), 
-[Window.GetWindow\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.getwindow), 
-[Window.Hide\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.hide), 
-[Window.MeasureOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.window.measureoverride), 
-[Window.OnActivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onactivated), 
-[Window.OnClosed\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onclosed), 
-[Window.OnClosing\(CancelEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onclosing), 
-[Window.OnContentChanged\(object, object\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncontentchanged), 
-[Window.OnContentRendered\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncontentrendered), 
-[Window.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncreateautomationpeer), 
-[Window.OnDeactivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.ondeactivated), 
-[Window.OnDpiChanged\(DpiScale, DpiScale\)](https://learn.microsoft.com/dotnet/api/system.windows.window.ondpichanged), 
-[Window.OnLocationChanged\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onlocationchanged), 
-[Window.OnManipulationBoundaryFeedback\(ManipulationBoundaryFeedbackEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onmanipulationboundaryfeedback), 
-[Window.OnSourceInitialized\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onsourceinitialized), 
-[Window.OnStateChanged\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onstatechanged), 
-[Window.OnVisualChildrenChanged\(DependencyObject, DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onvisualchildrenchanged), 
-[Window.OnVisualParentChanged\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onvisualparentchanged), 
-[Window.Show\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.show), 
-[Window.ShowDialog\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.showdialog), 
-[Window.AllowsTransparency](https://learn.microsoft.com/dotnet/api/system.windows.window.allowstransparency), 
-[Window.DialogResult](https://learn.microsoft.com/dotnet/api/system.windows.window.dialogresult), 
-[Window.Icon](https://learn.microsoft.com/dotnet/api/system.windows.window.icon), 
-[Window.IsActive](https://learn.microsoft.com/dotnet/api/system.windows.window.isactive), 
-[Window.Left](https://learn.microsoft.com/dotnet/api/system.windows.window.left), 
-[Window.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.window.logicalchildren), 
-[Window.OwnedWindows](https://learn.microsoft.com/dotnet/api/system.windows.window.ownedwindows), 
-[Window.Owner](https://learn.microsoft.com/dotnet/api/system.windows.window.owner), 
-[Window.ResizeMode](https://learn.microsoft.com/dotnet/api/system.windows.window.resizemode), 
-[Window.RestoreBounds](https://learn.microsoft.com/dotnet/api/system.windows.window.restorebounds), 
-[Window.ShowActivated](https://learn.microsoft.com/dotnet/api/system.windows.window.showactivated), 
-[Window.ShowInTaskbar](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbar), 
-[Window.SizeToContent](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontent), 
-[Window.TaskbarItemInfo](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfo), 
-[Window.Title](https://learn.microsoft.com/dotnet/api/system.windows.window.title), 
-[Window.Top](https://learn.microsoft.com/dotnet/api/system.windows.window.top), 
-[Window.Topmost](https://learn.microsoft.com/dotnet/api/system.windows.window.topmost), 
-[Window.WindowStartupLocation](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstartuplocation), 
-[Window.WindowState](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstate), 
-[Window.WindowStyle](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstyle), 
-[Window.Activated](https://learn.microsoft.com/dotnet/api/system.windows.window.activated), 
-[Window.Closed](https://learn.microsoft.com/dotnet/api/system.windows.window.closed), 
-[Window.Closing](https://learn.microsoft.com/dotnet/api/system.windows.window.closing), 
-[Window.ContentRendered](https://learn.microsoft.com/dotnet/api/system.windows.window.contentrendered), 
-[Window.Deactivated](https://learn.microsoft.com/dotnet/api/system.windows.window.deactivated), 
-[Window.DpiChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichanged), 
-[Window.LocationChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.locationchanged), 
-[Window.SourceInitialized](https://learn.microsoft.com/dotnet/api/system.windows.window.sourceinitialized), 
-[Window.StateChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.statechanged), 
+[ToolsPopupContent.TimerBtn](Ink\_Canvas.Controls.ToolsPopupContent.md\#Ink\_Canvas\_Controls\_ToolsPopupContent\_TimerBtn), 
+[ToolsPopupContent.RandomDrawBtn](Ink\_Canvas.Controls.ToolsPopupContent.md\#Ink\_Canvas\_Controls\_ToolsPopupContent\_RandomDrawBtn), 
+[ToolsPopupContent.SingleDrawBtn](Ink\_Canvas.Controls.ToolsPopupContent.md\#Ink\_Canvas\_Controls\_ToolsPopupContent\_SingleDrawBtn), 
+[ToolsPopupContent.SaveBtn](Ink\_Canvas.Controls.ToolsPopupContent.md\#Ink\_Canvas\_Controls\_ToolsPopupContent\_SaveBtn), 
+[ToolsPopupContent.OpenBtn](Ink\_Canvas.Controls.ToolsPopupContent.md\#Ink\_Canvas\_Controls\_ToolsPopupContent\_OpenBtn), 
+[ToolsPopupContent.ReplayBtn](Ink\_Canvas.Controls.ToolsPopupContent.md\#Ink\_Canvas\_Controls\_ToolsPopupContent\_ReplayBtn), 
+[ToolsPopupContent.ScreenshotBtn](Ink\_Canvas.Controls.ToolsPopupContent.md\#Ink\_Canvas\_Controls\_ToolsPopupContent\_ScreenshotBtn), 
+[ToolsPopupContent.ShapeDrawBtn](Ink\_Canvas.Controls.ToolsPopupContent.md\#Ink\_Canvas\_Controls\_ToolsPopupContent\_ShapeDrawBtn), 
+[ToolsPopupContent.RedoBtn](Ink\_Canvas.Controls.ToolsPopupContent.md\#Ink\_Canvas\_Controls\_ToolsPopupContent\_RedoBtn), 
+[ToolsPopupContent.ManualBtn](Ink\_Canvas.Controls.ToolsPopupContent.md\#Ink\_Canvas\_Controls\_ToolsPopupContent\_ManualBtn), 
+[ToolsPopupContent.SettingsBtn](Ink\_Canvas.Controls.ToolsPopupContent.md\#Ink\_Canvas\_Controls\_ToolsPopupContent\_SettingsBtn), 
+[ToolsPopupContent.CloseButtonControl](Ink\_Canvas.Controls.ToolsPopupContent.md\#Ink\_Canvas\_Controls\_ToolsPopupContent\_CloseButtonControl), 
+[ToolsPopupContent.GetButtonByItemId\(string\)](Ink\_Canvas.Controls.ToolsPopupContent.md\#Ink\_Canvas\_Controls\_ToolsPopupContent\_GetButtonByItemId\_System\_String\_), 
+[UserControl.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol.oncreateautomationpeer), 
 [ContentControl.ContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentproperty), 
 [ContentControl.ContentStringFormatProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentstringformatproperty), 
 [ContentControl.ContentTemplateProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateproperty), 
@@ -746,71 +690,139 @@ public class MiniWhiteboardWindow : Window, IAnimatable, ISupportInitialize, IFr
 
 ## Constructors
 
-### <a id="Ink_Canvas_MiniWhiteboardWindow__ctor"></a> MiniWhiteboardWindow\(\)
+### <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent__ctor"></a> FloatingBarToolsPopupContent\(\)
 
 ```csharp
-public MiniWhiteboardWindow()
+public FloatingBarToolsPopupContent()
 ```
 
 ## Properties
 
-### <a id="Ink_Canvas_MiniWhiteboardWindow_CurrentPageIndex"></a> CurrentPageIndex
-
-获取当前页面索引（0-based）
+### <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent_CloseButtonControl"></a> CloseButtonControl
 
 ```csharp
-public int CurrentPageIndex { get; }
+public override Button CloseButtonControl { get; }
 ```
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ [Button](https://learn.microsoft.com/dotnet/api/system.windows.controls.button)
 
-### <a id="Ink_Canvas_MiniWhiteboardWindow_TotalPageCount"></a> TotalPageCount
-
-获取总页数
+### <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent_ManualBtn"></a> ManualBtn
 
 ```csharp
-public int TotalPageCount { get; }
+public override ToolMenuButton ManualBtn { get; }
 ```
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent_OpenBtn"></a> OpenBtn
+
+```csharp
+public override ToolMenuButton OpenBtn { get; }
+```
+
+#### Property Value
+
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent_RandomDrawBtn"></a> RandomDrawBtn
+
+```csharp
+public override ToolMenuButton RandomDrawBtn { get; }
+```
+
+#### Property Value
+
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent_RedoBtn"></a> RedoBtn
+
+```csharp
+public override ToolMenuButton RedoBtn { get; }
+```
+
+#### Property Value
+
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent_ReplayBtn"></a> ReplayBtn
+
+```csharp
+public override ToolMenuButton ReplayBtn { get; }
+```
+
+#### Property Value
+
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent_SaveBtn"></a> SaveBtn
+
+```csharp
+public override ToolMenuButton SaveBtn { get; }
+```
+
+#### Property Value
+
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent_ScreenshotBtn"></a> ScreenshotBtn
+
+```csharp
+public override ToolMenuButton ScreenshotBtn { get; }
+```
+
+#### Property Value
+
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent_SettingsBtn"></a> SettingsBtn
+
+```csharp
+public override ToolMenuButton SettingsBtn { get; }
+```
+
+#### Property Value
+
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent_ShapeDrawBtn"></a> ShapeDrawBtn
+
+```csharp
+public override ToolMenuButton ShapeDrawBtn { get; }
+```
+
+#### Property Value
+
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent_SingleDrawBtn"></a> SingleDrawBtn
+
+```csharp
+public override ToolMenuButton SingleDrawBtn { get; }
+```
+
+#### Property Value
+
+ ToolMenuButton
+
+### <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent_TimerBtn"></a> TimerBtn
+
+```csharp
+public override ToolMenuButton TimerBtn { get; }
+```
+
+#### Property Value
+
+ ToolMenuButton
 
 ## Methods
 
-### <a id="Ink_Canvas_MiniWhiteboardWindow_InitializeComponent"></a> InitializeComponent\(\)
-
-InitializeComponent
+### <a id="Ink_Canvas_Controls_FloatingBarToolsPopupContent_ApplyMenuLayout"></a> ApplyMenuLayout\(\)
 
 ```csharp
-public void InitializeComponent()
+public void ApplyMenuLayout()
 ```
-
-### <a id="Ink_Canvas_MiniWhiteboardWindow_InsertStrokes_System_Windows_Ink_StrokeCollection_"></a> InsertStrokes\(StrokeCollection\)
-
-外部调用：将墨迹插入当前小白板页面，自动缩放至可见范围内
-
-```csharp
-public void InsertStrokes(StrokeCollection strokes)
-```
-
-#### Parameters
-
-`strokes` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
-
-要插入的墨迹集合（坐标基于主画布全屏坐标系，会被克隆并缩放）
-
-### <a id="Ink_Canvas_MiniWhiteboardWindow_OnPPTSlideChangedExternal_System_Int32_"></a> OnPPTSlideChangedExternal\(int\)
-
-外部调用：PPT页面切换时通知小白板（由 MainWindow 转发）
-
-```csharp
-public void OnPPTSlideChangedExternal(int slideIndex)
-```
-
-#### Parameters
-
-`slideIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
