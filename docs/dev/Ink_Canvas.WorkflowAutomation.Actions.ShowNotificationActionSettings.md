@@ -38,3 +38,15 @@ public string Message { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_WorkflowAutomation_Actions_ShowNotificationActionSettings_Type"></a> Type
+
+通知类型
+
+```csharp
+public NotificationMessageType Type { get; set; }
+```
+
+#### Property Value
+
+ [NotificationMessageType](Ink\_Canvas.Models.NotificationMessageType.md)
+

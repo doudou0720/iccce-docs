@@ -266,6 +266,17 @@ public bool IsNoFocusMode { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Advanced_IsPptComDebugProbeEnabled"></a> IsPptComDebugProbeEnabled
+
+```csharp
+[JsonProperty("isPptComDebugProbeEnabled")]
+public bool IsPptComDebugProbeEnabled { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Advanced_IsQuadIR"></a> IsQuadIR
 
 ```csharp

@@ -48,3 +48,13 @@ public static ActionRegistryInfo Register()
 
  [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md)
 
+### <a id="Ink_Canvas_WorkflowAutomation_Actions_ShowNotificationAction_ShowAutomationNotification_Ink_Canvas_WorkflowAutomation_Actions_ShowNotificationActionSettings_"></a> ShowAutomationNotification\(ShowNotificationActionSettings\)
+
+```csharp
+public static void ShowAutomationNotification(ShowNotificationActionSettings settings)
+```
+
+#### Parameters
+
+`settings` [ShowNotificationActionSettings](Ink\_Canvas.WorkflowAutomation.Actions.ShowNotificationActionSettings.md)
+

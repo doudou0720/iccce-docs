@@ -431,6 +431,17 @@ public bool ShowPPTButton { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_PowerPointSettings_ShowPPTModePrompt"></a> ShowPPTModePrompt
+
+```csharp
+[JsonProperty("showPPTModePrompt")]
+public bool ShowPPTModePrompt { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_PowerPointSettings_ShowPPTSidebarByDefault"></a> ShowPPTSidebarByDefault
 
 ```csharp

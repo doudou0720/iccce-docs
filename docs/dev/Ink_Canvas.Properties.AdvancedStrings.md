@@ -94,6 +94,26 @@ public static string Debug_IconSettings { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PptComProbe_Desc"></a> Debug\_PptComProbe\_Desc
+
+```csharp
+public static string Debug_PptComProbe_Desc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PptComProbe_Header"></a> Debug\_PptComProbe\_Header
+
+```csharp
+public static string Debug_PptComProbe_Header { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SettingsExpanderExample"></a> Debug\_SettingsExpanderExample
 
 ```csharp

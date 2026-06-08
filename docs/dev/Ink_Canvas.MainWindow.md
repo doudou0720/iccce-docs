@@ -2008,6 +2008,12 @@ public void ShowNotification(string notice, bool isShowImmediately = true)
 
 `isShowImmediately` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_MainWindow_ShowPPTModePromptNotification"></a> ShowPPTModePromptNotification\(\)
+
+```csharp
+public void ShowPPTModePromptNotification()
+```
+
 ### <a id="Ink_Canvas_MainWindow_ShowQuickDrawFloatingButton"></a> ShowQuickDrawFloatingButton\(\)
 
 显示快抽悬浮按钮

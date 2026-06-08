@@ -404,6 +404,46 @@ public static string PPT_HiddenSlides_Detected { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_PPTStrings_PPT_ModePrompt_Message"></a> PPT\_ModePrompt\_Message
+
+```csharp
+public static string PPT_ModePrompt_Message { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPT_ModePrompt_Setting"></a> PPT\_ModePrompt\_Setting
+
+```csharp
+public static string PPT_ModePrompt_Setting { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPT_ModePrompt_SettingHint"></a> PPT\_ModePrompt\_SettingHint
+
+```csharp
+public static string PPT_ModePrompt_SettingHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPT_ModePrompt_Title"></a> PPT\_ModePrompt\_Title
+
+```csharp
+public static string PPT_ModePrompt_Title { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPT_RememberLastPage_Prompt"></a> PPT\_RememberLastPage\_Prompt
 
 ```csharp

@@ -35,6 +35,17 @@ public string BackgroundColor { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_MiniWhiteboardSettings_CurrentColorIndex"></a> CurrentColorIndex
+
+```csharp
+[JsonProperty("currentColorIndex")]
+public int CurrentColorIndex { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Ink_Canvas_MiniWhiteboardSettings_DefaultHeight"></a> DefaultHeight
 
 ```csharp
