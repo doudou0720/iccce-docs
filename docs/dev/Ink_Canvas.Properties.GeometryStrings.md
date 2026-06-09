@@ -74,6 +74,16 @@ public static string DrawCenteredEllipse { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCenteredEllipseWithFocalPoint"></a> DrawCenteredEllipseWithFocalPoint
+
+```csharp
+public static string DrawCenteredEllipseWithFocalPoint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCenteredSquare"></a> DrawCenteredSquare
 
 ```csharp

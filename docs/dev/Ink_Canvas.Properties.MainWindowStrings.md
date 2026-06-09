@@ -344,6 +344,16 @@ public static string Main_ExitVerifyWithTotp { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_FileInsert_OpenDialogFilter"></a> Main\_FileInsert\_OpenDialogFilter
+
+```csharp
+public static string Main_FileInsert_OpenDialogFilter { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_AnnotationPageFrozen"></a> Main\_Freeze\_AnnotationPageFrozen
 
 ```csharp
@@ -628,6 +638,36 @@ public static string Main_InkReplayPlaying { get; }
 
 ```csharp
 public static string Main_InkReplay_Paused { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_MediaInsert_InsertFailed"></a> Main\_MediaInsert\_InsertFailed
+
+```csharp
+public static string Main_MediaInsert_InsertFailed { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_MediaInsert_OpenDialogFilter"></a> Main\_MediaInsert\_OpenDialogFilter
+
+```csharp
+public static string Main_MediaInsert_OpenDialogFilter { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_MediaInsert_UnsupportedFormat"></a> Main\_MediaInsert\_UnsupportedFormat
+
+```csharp
+public static string Main_MediaInsert_UnsupportedFormat { get; }
 ```
 
 #### Property Value

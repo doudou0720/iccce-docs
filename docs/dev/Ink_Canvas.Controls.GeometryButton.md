@@ -687,6 +687,16 @@ public GeometryButton()
 
 ## Fields
 
+### <a id="Ink_Canvas_Controls_GeometryButton_IconRotationProperty"></a> IconRotationProperty
+
+```csharp
+public static readonly DependencyProperty IconRotationProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
 ### <a id="Ink_Canvas_Controls_GeometryButton_IconSourceProperty"></a> IconSourceProperty
 
 ```csharp
@@ -708,6 +718,16 @@ public static readonly DependencyProperty LabelProperty
  [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
 
 ## Properties
+
+### <a id="Ink_Canvas_Controls_GeometryButton_IconRotation"></a> IconRotation
+
+```csharp
+public double IconRotation { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Controls_GeometryButton_IconSource"></a> IconSource
 

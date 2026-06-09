@@ -834,6 +834,16 @@ public GeometryButton DrawEllipseCenterBtn { get; }
 
  GeometryButton
 
+### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawEllipseCenterWithFocalPointBtn"></a> DrawEllipseCenterWithFocalPointBtn
+
+```csharp
+public GeometryButton DrawEllipseCenterWithFocalPointBtn { get; }
+```
+
+#### Property Value
+
+ GeometryButton
+
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawHyperbolaBtn"></a> DrawHyperbolaBtn
 
 ```csharp
@@ -923,4 +933,14 @@ public GeometryButton DrawRectangleCenterBtn { get; }
 #### Property Value
 
  GeometryButton
+
+### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_ShowCircleCenterToggle"></a> ShowCircleCenterToggle
+
+```csharp
+public ToggleSwitch ShowCircleCenterToggle { get; }
+```
+
+#### Property Value
+
+ [ToggleSwitch](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/iNKORE.UI.WPF.Modern.Controls/Controls/Windows/ToggleSwitch/ToggleSwitch.cs)
 
