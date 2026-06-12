@@ -26,6 +26,28 @@ IPluginHost
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
+## Fields
+
+### <a id="Ink_Canvas_Plugins_PluginManager_ManifestFileName"></a> ManifestFileName
+
+```csharp
+public static readonly string ManifestFileName
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Plugins_PluginManager_PluginPackageExtension"></a> PluginPackageExtension
+
+```csharp
+public static readonly string PluginPackageExtension
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ## Properties
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_Instance"></a> Instance
@@ -139,6 +161,16 @@ public void RegisterService<T>(T service) where T : class
 #### Type Parameters
 
 `T` 
+
+### <a id="Ink_Canvas_Plugins_PluginManager_RegisterToolbarItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterToolbarItem\(PluginToolbarItemInfo\)
+
+```csharp
+public void RegisterToolbarItem(PluginToolbarItemInfo itemInfo)
+```
+
+#### Parameters
+
+`itemInfo` PluginToolbarItemInfo
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_UnloadAll"></a> UnloadAll\(\)
 

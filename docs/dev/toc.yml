@@ -145,8 +145,6 @@
     href: Ink_Canvas.Controls.BoardToolsPopupContent.md
   - name: CanvasMediaControl
     href: Ink_Canvas.Controls.CanvasMediaControl.md
-  - name: CircularColorButton
-    href: Ink_Canvas.Controls.CircularColorButton.md
   - name: ColorPickerButton
     href: Ink_Canvas.Controls.ColorPickerButton.md
   - name: CopyButton
@@ -536,10 +534,20 @@
     href: Ink_Canvas.Plugins.InkCanvasService.md
   - name: PluginBase
     href: Ink_Canvas.Plugins.PluginBase.md
+  - name: PluginDependency
+    href: Ink_Canvas.Plugins.PluginDependency.md
+  - name: PluginEntranceAttribute
+    href: Ink_Canvas.Plugins.PluginEntranceAttribute.md
   - name: PluginInfo
     href: Ink_Canvas.Plugins.PluginInfo.md
   - name: PluginManager
     href: Ink_Canvas.Plugins.PluginManager.md
+  - name: PluginManifest
+    href: Ink_Canvas.Plugins.PluginManifest.md
+  - name: PluginToolbarItemInfo
+    href: Ink_Canvas.Plugins.PluginToolbarItemInfo.md
+  - name: PluginToolbarSettingInfo
+    href: Ink_Canvas.Plugins.PluginToolbarSettingInfo.md
   - name: Interfaces
   - name: IAppRestartService
     href: Ink_Canvas.Plugins.IAppRestartService.md
@@ -549,6 +557,11 @@
     href: Ink_Canvas.Plugins.IPlugin.md
   - name: IPluginHost
     href: Ink_Canvas.Plugins.IPluginHost.md
+  - name: Enums
+  - name: PluginLoadStatus
+    href: Ink_Canvas.Plugins.PluginLoadStatus.md
+  - name: PluginToolbarSettingType
+    href: Ink_Canvas.Plugins.PluginToolbarSettingType.md
 - name: Ink_Canvas.ProcessBars
   href: Ink_Canvas.ProcessBars.md
   items:

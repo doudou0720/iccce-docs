@@ -31,7 +31,7 @@ public abstract class PluginBase : IPlugin
 ### <a id="Ink_Canvas_Plugins_PluginBase_Author"></a> Author
 
 ```csharp
-public abstract string Author { get; }
+public virtual string Author { get; }
 ```
 
 #### Property Value
@@ -41,7 +41,7 @@ public abstract string Author { get; }
 ### <a id="Ink_Canvas_Plugins_PluginBase_Description"></a> Description
 
 ```csharp
-public abstract string Description { get; }
+public virtual string Description { get; }
 ```
 
 #### Property Value
@@ -61,17 +61,29 @@ protected IPluginHost Host { get; }
 ### <a id="Ink_Canvas_Plugins_PluginBase_Id"></a> Id
 
 ```csharp
-public abstract string Id { get; }
+public virtual string Id { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Plugins_PluginBase_Manifest"></a> Manifest
+
+插件清单信息，从 manifest.json 加载。如果清单存在，则 Id/Name/Version 等属性优先从清单读取。
+
+```csharp
+public PluginManifest Manifest { get; set; }
+```
+
+#### Property Value
+
+ [PluginManifest](Ink\_Canvas.Plugins.PluginManifest.md)
+
 ### <a id="Ink_Canvas_Plugins_PluginBase_Name"></a> Name
 
 ```csharp
-public abstract string Name { get; }
+public virtual string Name { get; }
 ```
 
 #### Property Value
@@ -81,17 +93,41 @@ public abstract string Name { get; }
 ### <a id="Ink_Canvas_Plugins_PluginBase_Order"></a> Order
 
 ```csharp
-public abstract int Order { get; }
+public virtual int Order { get; }
 ```
 
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Plugins_PluginBase_PluginConfigFolder"></a> PluginConfigFolder
+
+插件配置目录路径
+
+```csharp
+public string PluginConfigFolder { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Plugins_PluginBase_PluginFolder"></a> PluginFolder
+
+插件所在目录路径
+
+```csharp
+public string PluginFolder { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Plugins_PluginBase_Version"></a> Version
 
 ```csharp
-public abstract string Version { get; }
+public virtual string Version { get; }
 ```
 
 #### Property Value

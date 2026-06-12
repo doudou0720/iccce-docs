@@ -54,6 +54,26 @@ public static string Common_OK { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_CommonStrings_Common_Off"></a> Common\_Off
+
+```csharp
+public static string Common_Off { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CommonStrings_Common_On"></a> Common\_On
+
+```csharp
+public static string Common_On { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_CommonStrings_Culture"></a> Culture
 
 ```csharp

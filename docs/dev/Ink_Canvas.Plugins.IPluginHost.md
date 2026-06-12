@@ -59,3 +59,13 @@ void RegisterService<T>(T service) where T : class
 
 `T` 
 
+### <a id="Ink_Canvas_Plugins_IPluginHost_RegisterToolbarItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterToolbarItem\(PluginToolbarItemInfo\)
+
+```csharp
+void RegisterToolbarItem(PluginToolbarItemInfo itemInfo)
+```
+
+#### Parameters
+
+`itemInfo` [PluginToolbarItemInfo](Ink\_Canvas.Plugins.PluginToolbarItemInfo.md)
+

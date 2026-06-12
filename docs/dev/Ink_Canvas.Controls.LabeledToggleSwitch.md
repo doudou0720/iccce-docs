@@ -717,26 +717,6 @@ public static readonly DependencyProperty LabelProperty
 
  [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
 
-### <a id="Ink_Canvas_Controls_LabeledToggleSwitch_OffContentProperty"></a> OffContentProperty
-
-```csharp
-public static readonly DependencyProperty OffContentProperty
-```
-
-#### Field Value
-
- [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
-
-### <a id="Ink_Canvas_Controls_LabeledToggleSwitch_OnContentProperty"></a> OnContentProperty
-
-```csharp
-public static readonly DependencyProperty OnContentProperty
-```
-
-#### Field Value
-
- [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
-
 ### <a id="Ink_Canvas_Controls_LabeledToggleSwitch_ShowWhenProperty"></a> ShowWhenProperty
 
 ```csharp
@@ -773,26 +753,6 @@ public bool IsOn { get; set; }
 
 ```csharp
 public string Label { get; set; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Controls_LabeledToggleSwitch_OffContent"></a> OffContent
-
-```csharp
-public string OffContent { get; set; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Controls_LabeledToggleSwitch_OnContent"></a> OnContent
-
-```csharp
-public string OnContent { get; set; }
 ```
 
 #### Property Value

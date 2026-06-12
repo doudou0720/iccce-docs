@@ -202,6 +202,16 @@ public static bool GetIsContentCollapsedByUser(FrameworkElement element)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_GetPluginItems"></a> GetPluginItems\(\)
+
+```csharp
+public static IReadOnlyList<PluginToolbarItemInfo> GetPluginItems()
+```
+
+#### Returns
+
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<PluginToolbarItemInfo\>
+
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_GetPreventHideOnDragClick_System_Windows_FrameworkElement_"></a> GetPreventHideOnDragClick\(FrameworkElement\)
 
 ```csharp
@@ -279,6 +289,16 @@ public static void Populate(IToolbarHost host, Panel rootPanel, ToolbarLayoutSet
 `layout` [ToolbarLayoutSettings](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarLayoutSettings.md)
 
 `orientation` [Orientation](https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation)
+
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_RegisterPluginItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterPluginItem\(PluginToolbarItemInfo\)
+
+```csharp
+public static void RegisterPluginItem(PluginToolbarItemInfo itemInfo)
+```
+
+#### Parameters
+
+`itemInfo` PluginToolbarItemInfo
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_SaveConfigFile_System_String_Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarLayoutSettings_"></a> SaveConfigFile\(string, ToolbarLayoutSettings\)
 

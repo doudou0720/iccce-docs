@@ -18,10 +18,6 @@ BoardToolbarButton
 
 CanvasMediaControl
 
- [CircularColorButton](Ink\_Canvas.Controls.CircularColorButton.md)
-
-CircularColorButton
-
  [ColorPickerButton](Ink\_Canvas.Controls.ColorPickerButton.md)
 
 ColorPickerButton

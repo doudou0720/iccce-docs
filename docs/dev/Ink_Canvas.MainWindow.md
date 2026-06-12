@@ -1286,6 +1286,14 @@ public void CheckEraserTypeTab()
 public static void ClearCustomCursorCache()
 ```
 
+### <a id="Ink_Canvas_MainWindow_CloseAllPopups"></a> CloseAllPopups\(\)
+
+关闭所有已注册的 Popup 弹窗
+
+```csharp
+public void CloseAllPopups()
+```
+
 ### <a id="Ink_Canvas_MainWindow_DeleteWhiteboardPage"></a> DeleteWhiteboardPage\(\)
 
 ```csharp
@@ -1594,6 +1602,18 @@ public double GetPointSpeed(Point point1, Point point2, Point point3)
 2. 计算第三个点到第二个点的距离
 3. 将两个距离相加
 4. 除以20，得到速度值
+
+### <a id="Ink_Canvas_MainWindow_GetPopupManager"></a> GetPopupManager\(\)
+
+获取 PopupManagerHelper 实例，供插件等外部组件使用
+
+```csharp
+public PopupManagerHelper GetPopupManager()
+```
+
+#### Returns
+
+ [PopupManagerHelper](Ink\_Canvas.Helpers.PopupManagerHelper.md)
 
 ### <a id="Ink_Canvas_MainWindow_GetTouchBoundWidth_System_Windows_Input_TouchEventArgs_"></a> GetTouchBoundWidth\(TouchEventArgs\)
 
