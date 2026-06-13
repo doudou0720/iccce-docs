@@ -389,6 +389,12 @@
     href: Ink_Canvas.Helpers.IpcIACoreClient.md
   - name: LocalizationHelper
     href: Ink_Canvas.Helpers.LocalizationHelper.md
+  - name: LrcData
+    href: Ink_Canvas.Helpers.LrcData.md
+  - name: LrcLine
+    href: Ink_Canvas.Helpers.LrcLine.md
+  - name: LrcParser
+    href: Ink_Canvas.Helpers.LrcParser.md
   - name: PPTInkManager
     href: Ink_Canvas.Helpers.PPTInkManager.md
   - name: PPTManager

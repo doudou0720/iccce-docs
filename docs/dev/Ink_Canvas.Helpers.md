@@ -151,6 +151,18 @@ IACore 路径通过 IPC 调用 x86 辅助进程；WinRT 路径在主进程内直
 
  [LocalizationHelper](Ink\_Canvas.Helpers.LocalizationHelper.md)
 
+ [LrcData](Ink\_Canvas.Helpers.LrcData.md)
+
+Represents a parsed LRC file containing metadata and timed lyrics.
+
+ [LrcLine](Ink\_Canvas.Helpers.LrcLine.md)
+
+Represents a single lyric line with timing information.
+
+ [LrcParser](Ink\_Canvas.Helpers.LrcParser.md)
+
+Parses standard LRC and translated LRC files.
+
  [PPTInkManager](Ink\_Canvas.Helpers.PPTInkManager.md)
 
 PPT墨迹管理器 - 负责按幻灯片保存/加载墨迹、自动保存与内存管理。
@@ -280,9 +292,9 @@ WebDav上传工具类
 
  [EdgeGestureUtil.PropertyKey](Ink\_Canvas.Helpers.EdgeGestureUtil.PropertyKey.md)
 
- [PPTManager.RECT](Ink\_Canvas.Helpers.PPTManager.RECT.md)
-
  [ROTPPTManager.RECT](Ink\_Canvas.Helpers.ROTPPTManager.RECT.md)
+
+ [PPTManager.RECT](Ink\_Canvas.Helpers.PPTManager.RECT.md)
 
  [WindowRect](Ink\_Canvas.Helpers.WindowRect.md)
 

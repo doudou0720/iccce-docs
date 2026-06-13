@@ -44,6 +44,16 @@ public static string FriendlyLinks_CjikSponsorDescription { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_DeveloperCloudDescription"></a> FriendlyLinks\_DeveloperCloudDescription
+
+```csharp
+public static string FriendlyLinks_DeveloperCloudDescription { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_FriendsSectionTitle"></a> FriendlyLinks\_FriendsSectionTitle
 
 ```csharp
