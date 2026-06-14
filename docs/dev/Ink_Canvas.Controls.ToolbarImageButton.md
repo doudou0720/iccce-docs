@@ -849,6 +849,16 @@ InitializeComponent
 public void InitializeComponent()
 ```
 
+### <a id="Ink_Canvas_Controls_ToolbarImageButton_SetSelectedVisualOffset_System_Boolean_"></a> SetSelectedVisualOffset\(bool\)
+
+```csharp
+public void SetSelectedVisualOffset(bool isSelected)
+```
+
+#### Parameters
+
+`isSelected` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Controls_ToolbarImageButton_ButtonMouseDown"></a> ButtonMouseDown
 
 ```csharp

@@ -17,6 +17,8 @@ public enum TrayClickAction
 
 `HideShowMainWindow = 1` 
 
+`NoAction = 10` 
+
 `OpenSettings = 3` 
 
 `ResetFloatingBarPosition = 7` 

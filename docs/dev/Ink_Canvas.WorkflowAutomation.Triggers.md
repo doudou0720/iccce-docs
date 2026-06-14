@@ -73,6 +73,24 @@ PPT 放映检测触发器的设置
 
 定时触发器设置
 
+ [WhiteboardEnterSettings](Ink\_Canvas.WorkflowAutomation.Triggers.WhiteboardEnterSettings.md)
+
+进入白板模式触发器设置
+
+ [WhiteboardEnterTrigger](Ink\_Canvas.WorkflowAutomation.Triggers.WhiteboardEnterTrigger.md)
+
+进入白板/黑板模式时触发的触发器。
+通过订阅 SystemEventMonitor.InternalStateChanged 事件驱动，检测 currentMode 从 0 变为 1。
+
+ [WhiteboardExitSettings](Ink\_Canvas.WorkflowAutomation.Triggers.WhiteboardExitSettings.md)
+
+退出白板模式触发器设置
+
+ [WhiteboardExitTrigger](Ink\_Canvas.WorkflowAutomation.Triggers.WhiteboardExitTrigger.md)
+
+退出白板/黑板模式时触发的触发器。
+通过订阅 SystemEventMonitor.InternalStateChanged 事件驱动，检测 currentMode 从 1 变为 0。
+
  [WindowFocusChangedSettings](Ink\_Canvas.WorkflowAutomation.Triggers.WindowFocusChangedSettings.md)
 
 前台窗口变化触发器设置

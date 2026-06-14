@@ -1574,10 +1574,50 @@ public static string Main_Update_LaunchNotFoundTitle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_ClearInk"></a> Main\_Uri\_ClearInk
+
+```csharp
+public static string Main_Uri_ClearInk { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_ClearInkAndHistory"></a> Main\_Uri\_ClearInkAndHistory
+
+```csharp
+public static string Main_Uri_ClearInkAndHistory { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_DeletePage"></a> Main\_Uri\_DeletePage
+
+```csharp
+public static string Main_Uri_DeletePage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_EnterFoldMode"></a> Main\_Uri\_EnterFoldMode
 
 ```csharp
 public static string Main_Uri_EnterFoldMode { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_Exit"></a> Main\_Uri\_Exit
+
+```csharp
+public static string Main_Uri_Exit { get; }
 ```
 
 #### Property Value
@@ -1614,6 +1654,76 @@ public static string Main_Uri_HideOnFoldEnabled { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_NewPage"></a> Main\_Uri\_NewPage
+
+```csharp
+public static string Main_Uri_NewPage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_NextPage"></a> Main\_Uri\_NextPage
+
+```csharp
+public static string Main_Uri_NextPage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_PreviousPage"></a> Main\_Uri\_PreviousPage
+
+```csharp
+public static string Main_Uri_PreviousPage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_Redo"></a> Main\_Uri\_Redo
+
+```csharp
+public static string Main_Uri_Redo { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_Restart"></a> Main\_Uri\_Restart
+
+```csharp
+public static string Main_Uri_Restart { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_RestartAdmin"></a> Main\_Uri\_RestartAdmin
+
+```csharp
+public static string Main_Uri_RestartAdmin { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_RestartNormal"></a> Main\_Uri\_RestartNormal
+
+```csharp
+public static string Main_Uri_RestartNormal { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_SchemeNotFound"></a> Main\_Uri\_SchemeNotFound
 
 ```csharp
@@ -1624,10 +1734,30 @@ public static string Main_Uri_SchemeNotFound { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_Screenshot"></a> Main\_Uri\_Screenshot
+
+```csharp
+public static string Main_Uri_Screenshot { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_SwitchedScheme"></a> Main\_Uri\_SwitchedScheme
 
 ```csharp
 public static string Main_Uri_SwitchedScheme { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_Undo"></a> Main\_Uri\_Undo
+
+```csharp
+public static string Main_Uri_Undo { get; }
 ```
 
 #### Property Value

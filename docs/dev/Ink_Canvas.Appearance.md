@@ -57,6 +57,17 @@ public bool AutoFlipWhenSpaceInsufficient { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Appearance_BoardMenuOpacity"></a> BoardMenuOpacity
+
+```csharp
+[JsonProperty("boardMenuOpacity")]
+public double BoardMenuOpacity { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Appearance_BoardToolbarCenterOpacity"></a> BoardToolbarCenterOpacity
 
 ```csharp
@@ -145,6 +156,17 @@ public int CustomSplashTextPosition { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Appearance_DisableToolbarAnimation"></a> DisableToolbarAnimation
+
+```csharp
+[JsonProperty("disableToolbarAnimation")]
+public bool DisableToolbarAnimation { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Appearance_EnableChickenSoupInWhiteboardMode"></a> EnableChickenSoupInWhiteboardMode
 
 ```csharp
@@ -232,6 +254,28 @@ public int FloatingBarImg { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Appearance_FloatingBarMenuOpacity"></a> FloatingBarMenuOpacity
+
+```csharp
+[JsonProperty("floatingBarMenuOpacity")]
+public double FloatingBarMenuOpacity { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Appearance_FloatingBarMenuOpacityInPPT"></a> FloatingBarMenuOpacityInPPT
+
+```csharp
+[JsonProperty("floatingBarMenuOpacityInPPT")]
+public double FloatingBarMenuOpacityInPPT { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_HitokotoCategories"></a> HitokotoCategories
 

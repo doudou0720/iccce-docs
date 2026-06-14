@@ -744,6 +744,16 @@ public Border ColorPreview { get; }
 
  [Border](https://learn.microsoft.com/dotnet/api/system.windows.controls.border)
 
+### <a id="Ink_Canvas_Controls_BackgroundPalettePopupContent_DarkModeBtnControl"></a> DarkModeBtnControl
+
+```csharp
+public Border DarkModeBtnControl { get; }
+```
+
+#### Property Value
+
+ [Border](https://learn.microsoft.com/dotnet/api/system.windows.controls.border)
+
 ### <a id="Ink_Canvas_Controls_BackgroundPalettePopupContent_GSlider"></a> GSlider
 
 ```csharp

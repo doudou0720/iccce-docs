@@ -44,6 +44,16 @@ public static string Home_AboutApp { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_HomeStrings_Home_BackupSettings"></a> Home\_BackupSettings
+
+```csharp
+public static string Home_BackupSettings { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_HomeStrings_Home_Basic"></a> Home\_Basic
 
 ```csharp
@@ -54,10 +64,30 @@ public static string Home_Basic { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_HomeStrings_Home_BoardSettings"></a> Home\_BoardSettings
+
+```csharp
+public static string Home_BoardSettings { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_HomeStrings_Home_CanvasSettings"></a> Home\_CanvasSettings
 
 ```csharp
 public static string Home_CanvasSettings { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_HomeStrings_Home_ClockSettings"></a> Home\_ClockSettings
+
+```csharp
+public static string Home_ClockSettings { get; }
 ```
 
 #### Property Value
@@ -78,6 +108,16 @@ public static string Home_CloudStorageSettings { get; }
 
 ```csharp
 public static string Home_ExitApp { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_HomeStrings_Home_FriendlyLinks"></a> Home\_FriendlyLinks
+
+```csharp
+public static string Home_FriendlyLinks { get; }
 ```
 
 #### Property Value
@@ -108,6 +148,16 @@ public static string Home_MainUI { get; }
 
 ```csharp
 public static string Home_PPTSettings { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_HomeStrings_Home_PerformanceSettings"></a> Home\_PerformanceSettings
+
+```csharp
+public static string Home_PerformanceSettings { get; }
 ```
 
 #### Property Value

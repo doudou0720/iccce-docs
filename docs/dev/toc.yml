@@ -1072,6 +1072,14 @@
     href: Ink_Canvas.WorkflowAutomation.Triggers.TimerTrigger.md
   - name: TimerTriggerSettings
     href: Ink_Canvas.WorkflowAutomation.Triggers.TimerTriggerSettings.md
+  - name: WhiteboardEnterSettings
+    href: Ink_Canvas.WorkflowAutomation.Triggers.WhiteboardEnterSettings.md
+  - name: WhiteboardEnterTrigger
+    href: Ink_Canvas.WorkflowAutomation.Triggers.WhiteboardEnterTrigger.md
+  - name: WhiteboardExitSettings
+    href: Ink_Canvas.WorkflowAutomation.Triggers.WhiteboardExitSettings.md
+  - name: WhiteboardExitTrigger
+    href: Ink_Canvas.WorkflowAutomation.Triggers.WhiteboardExitTrigger.md
   - name: WindowFocusChangedSettings
     href: Ink_Canvas.WorkflowAutomation.Triggers.WindowFocusChangedSettings.md
   - name: WindowFocusChangedTrigger

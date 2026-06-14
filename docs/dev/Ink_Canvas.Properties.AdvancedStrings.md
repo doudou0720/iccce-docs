@@ -84,6 +84,16 @@ public static string DPIChangeDetectionHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_CrashTest_Section"></a> Debug\_CrashTest\_Section
+
+```csharp
+public static string Debug_CrashTest_Section { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_IconSettings"></a> Debug\_IconSettings
 
 ```csharp
@@ -114,6 +124,36 @@ public static string Debug_PptComProbe_Header { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_ResetStartupCount_Button"></a> Debug\_ResetStartupCount\_Button
+
+```csharp
+public static string Debug_ResetStartupCount_Button { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_ResetStartupCount_Desc"></a> Debug\_ResetStartupCount\_Desc
+
+```csharp
+public static string Debug_ResetStartupCount_Desc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_ResetStartupCount_Header"></a> Debug\_ResetStartupCount\_Header
+
+```csharp
+public static string Debug_ResetStartupCount_Header { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SettingsExpanderExample"></a> Debug\_SettingsExpanderExample
 
 ```csharp
@@ -138,6 +178,66 @@ public static string Debug_ShowConsole_Desc { get; }
 
 ```csharp
 public static string Debug_ShowConsole_Header { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SimulateCrash_Button"></a> Debug\_SimulateCrash\_Button
+
+```csharp
+public static string Debug_SimulateCrash_Button { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SimulateCrash_Desc"></a> Debug\_SimulateCrash\_Desc
+
+```csharp
+public static string Debug_SimulateCrash_Desc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SimulateCrash_Header"></a> Debug\_SimulateCrash\_Header
+
+```csharp
+public static string Debug_SimulateCrash_Header { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SimulateHeartbeatTimeout_Button"></a> Debug\_SimulateHeartbeatTimeout\_Button
+
+```csharp
+public static string Debug_SimulateHeartbeatTimeout_Button { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SimulateHeartbeatTimeout_Desc"></a> Debug\_SimulateHeartbeatTimeout\_Desc
+
+```csharp
+public static string Debug_SimulateHeartbeatTimeout_Desc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SimulateHeartbeatTimeout_Header"></a> Debug\_SimulateHeartbeatTimeout\_Header
+
+```csharp
+public static string Debug_SimulateHeartbeatTimeout_Header { get; }
 ```
 
 #### Property Value

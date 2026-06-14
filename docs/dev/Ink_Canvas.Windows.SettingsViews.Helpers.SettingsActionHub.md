@@ -78,6 +78,16 @@ public static void OnBlackBoardScaleChanged(double value)
 
 `value` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnBoardMenuOpacityChanged_System_Double_"></a> OnBoardMenuOpacityChanged\(double\)
+
+```csharp
+public static void OnBoardMenuOpacityChanged(double value)
+```
+
+#### Parameters
+
+`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnBoardToolbarCenterOpacityChanged_System_Double_"></a> OnBoardToolbarCenterOpacityChanged\(double\)
 
 ```csharp
@@ -209,6 +219,26 @@ public static void OnFingerModeBoundsWidthChanged()
 ```csharp
 public static void OnFloatingBarImgChanged()
 ```
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnFloatingBarMenuOpacityChanged_System_Double_"></a> OnFloatingBarMenuOpacityChanged\(double\)
+
+```csharp
+public static void OnFloatingBarMenuOpacityChanged(double value)
+```
+
+#### Parameters
+
+`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnFloatingBarMenuOpacityInPPTChanged_System_Double_"></a> OnFloatingBarMenuOpacityInPPTChanged\(double\)
+
+```csharp
+public static void OnFloatingBarMenuOpacityInPPTChanged(double value)
+```
+
+#### Parameters
+
+`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnFloatingBarOpacityChanged_System_Double_"></a> OnFloatingBarOpacityChanged\(double\)
 

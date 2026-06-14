@@ -94,6 +94,16 @@ public static string Theme_BlackboardScale80 { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardMenuOpacity"></a> Theme\_BoardMenuOpacity
+
+```csharp
+public static string Theme_BoardMenuOpacity { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardScaleCenter"></a> Theme\_BoardScaleCenter
 
 ```csharp
@@ -288,6 +298,26 @@ public static string Theme_FloatingBarButtonsTitle { get; }
 
 ```csharp
 public static string Theme_FloatingBarIcon { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarMenuOpacity"></a> Theme\_FloatingBarMenuOpacity
+
+```csharp
+public static string Theme_FloatingBarMenuOpacity { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarMenuOpacityInPPT"></a> Theme\_FloatingBarMenuOpacityInPPT
+
+```csharp
+public static string Theme_FloatingBarMenuOpacityInPPT { get; }
 ```
 
 #### Property Value

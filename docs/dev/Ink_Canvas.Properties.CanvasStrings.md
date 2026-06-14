@@ -304,6 +304,16 @@ public static string Canvas_CustomPenCursorPathHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_DarkMode"></a> Canvas\_DarkMode
+
+```csharp
+public static string Canvas_DarkMode { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_DisableHardwareAcceleration"></a> Canvas\_DisableHardwareAcceleration
 
 ```csharp

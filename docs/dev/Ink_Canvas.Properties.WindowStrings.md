@@ -134,6 +134,16 @@ public static string Tray_ClickAction_HideShowMainWindow { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_WindowStrings_Tray_ClickAction_NoAction"></a> Tray\_ClickAction\_NoAction
+
+```csharp
+public static string Tray_ClickAction_NoAction { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_WindowStrings_Tray_ClickAction_OpenSettings"></a> Tray\_ClickAction\_OpenSettings
 
 ```csharp
