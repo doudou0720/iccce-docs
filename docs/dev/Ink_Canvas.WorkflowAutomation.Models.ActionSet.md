@@ -89,6 +89,7 @@ public bool IsEnabled { get; set; }
 行动组被触发后还未恢复。
 
 ```csharp
+[JsonIgnore]
 public bool IsOn { get; set; }
 ```
 
