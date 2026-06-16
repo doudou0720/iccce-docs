@@ -30,8 +30,6 @@ AnnouncementCenterPage
 
  [BoardAppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.BoardAppearancePage.md)
 
-BoardAppearancePage
-
  [BoardAreaNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardAreaNameConverter.md)
 
  [BoardGroupChildrenDropHandler](Ink\_Canvas.Windows.SettingsViews.Pages.BoardGroupChildrenDropHandler.md)
@@ -153,8 +151,6 @@ StoragePage
 ToolbarMenuPage
 
  [ToolbarPage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarPage.md)
-
-ToolbarPage
 
  [UpdatePage](Ink\_Canvas.Windows.SettingsViews.Pages.UpdatePage.md)
 

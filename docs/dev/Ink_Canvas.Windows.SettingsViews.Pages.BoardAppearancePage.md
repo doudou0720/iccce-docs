@@ -3,10 +3,8 @@
 Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
 
-BoardAppearancePage
-
 ```csharp
-public class BoardAppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+public class BoardAppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
 ```
 
 #### Inheritance
@@ -28,8 +26,7 @@ public class BoardAppearancePage : Page, IAnimatable, ISupportInitialize, IFrame
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
-[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
+[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
 
 #### Inherited Members
 
@@ -655,15 +652,5 @@ public class BoardAppearancePage : Page, IAnimatable, ISupportInitialize, IFrame
 
 ```csharp
 public BoardAppearancePage()
-```
-
-## Methods
-
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardAppearancePage_InitializeComponent"></a> InitializeComponent\(\)
-
-InitializeComponent
-
-```csharp
-public void InitializeComponent()
 ```
 
