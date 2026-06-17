@@ -164,6 +164,36 @@ public static ResourceManager ResourceManager { get; }
 
  ResourceManager
 
+### <a id="Ink_Canvas_Properties_AnnouncementStrings_StartupUnreadAction"></a> StartupUnreadAction
+
+```csharp
+public static string StartupUnreadAction { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AnnouncementStrings_StartupUnreadSummary"></a> StartupUnreadSummary
+
+```csharp
+public static string StartupUnreadSummary { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AnnouncementStrings_StartupUnreadTitle"></a> StartupUnreadTitle
+
+```csharp
+public static string StartupUnreadTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_Token"></a> Token
 
 ```csharp
