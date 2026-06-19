@@ -13,9 +13,9 @@ public enum ToolbarHidingRule
 
 `AnnotationOnly = 1` 
 
-`AnnotationOrPptGesture = 4` 
+`AnnotationOrPPTGesture = 4` 
 
-`PptAnnotationOnly = 3` 
+`PPTAnnotationOnly = 3` 
 
-`PptOnly = 2` 
+`PPTOnly = 2` 
 

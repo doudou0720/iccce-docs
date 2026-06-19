@@ -390,6 +390,12 @@ public static void OnPPTEnhancementChanged(bool isOn)
 
 `isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnPPTLinkModeChanged"></a> OnPPTLinkModeChanged\(\)
+
+```csharp
+public static void OnPPTLinkModeChanged()
+```
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnPPTNavBarScaleChanged_System_Double_"></a> OnPPTNavBarScaleChanged\(double\)
 
 ```csharp
@@ -626,11 +632,5 @@ public static void OnUpdateChannelChanged()
 
 ```csharp
 public static void OnUseLegacyFloatingBarUIChanged()
-```
-
-### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnUseRotPptLinkChanged"></a> OnUseRotPptLinkChanged\(\)
-
-```csharp
-public static void OnUseRotPptLinkChanged()
 ```
 

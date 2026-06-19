@@ -1,4 +1,4 @@
-# <a id="Ink_Canvas_WorkflowAutomation_Triggers_PptSlideShowExitTrigger"></a> Class PptSlideShowExitTrigger
+# <a id="Ink_Canvas_WorkflowAutomation_Triggers_PPTSlideShowExitTrigger"></a> Class PPTSlideShowExitTrigger
 
 Namespace: [Ink\_Canvas.WorkflowAutomation.Triggers](Ink\_Canvas.WorkflowAutomation.Triggers.md)  
 Assembly: InkCanvasForClass.dll  
@@ -8,19 +8,19 @@ Assembly: InkCanvasForClass.dll
 
 ```csharp
 [TriggerInfo("inkcanvas.pptslideshowexit", "退出PPT放映", "Presentation")]
-public class PptSlideShowExitTrigger : TriggerBase<PptSlideShowExitSettings>
+public class PPTSlideShowExitTrigger : TriggerBase<PPTSlideShowExitSettings>
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [TriggerBase](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase.md) ← 
-[TriggerBase<PptSlideShowExitSettings\>](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase\-1.md) ← 
-[PptSlideShowExitTrigger](Ink\_Canvas.WorkflowAutomation.Triggers.PptSlideShowExitTrigger.md)
+[TriggerBase<PPTSlideShowExitSettings\>](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase\-1.md) ← 
+[PPTSlideShowExitTrigger](Ink\_Canvas.WorkflowAutomation.Triggers.PPTSlideShowExitTrigger.md)
 
 #### Inherited Members
 
-[TriggerBase<PptSlideShowExitSettings\>.Settings](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase\-1.md\#Ink\_Canvas\_WorkflowAutomation\_Abstractions\_TriggerBase\_1\_Settings), 
+[TriggerBase<PPTSlideShowExitSettings\>.Settings](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase\-1.md\#Ink\_Canvas\_WorkflowAutomation\_Abstractions\_TriggerBase\_1\_Settings), 
 [TriggerBase.Trigger\(\)](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase.md\#Ink\_Canvas\_WorkflowAutomation\_Abstractions\_TriggerBase\_Trigger), 
 [TriggerBase.TriggerRevert\(\)](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase.md\#Ink\_Canvas\_WorkflowAutomation\_Abstractions\_TriggerBase\_TriggerRevert), 
 [TriggerBase.Loaded\(\)](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase.md\#Ink\_Canvas\_WorkflowAutomation\_Abstractions\_TriggerBase\_Loaded), 
@@ -36,7 +36,7 @@ public class PptSlideShowExitTrigger : TriggerBase<PptSlideShowExitSettings>
 
 ## Methods
 
-### <a id="Ink_Canvas_WorkflowAutomation_Triggers_PptSlideShowExitTrigger_Loaded"></a> Loaded\(\)
+### <a id="Ink_Canvas_WorkflowAutomation_Triggers_PPTSlideShowExitTrigger_Loaded"></a> Loaded\(\)
 
 当此触发器被加载到工作流上时，调用此方法。
 
@@ -44,7 +44,7 @@ public class PptSlideShowExitTrigger : TriggerBase<PptSlideShowExitSettings>
 public override void Loaded()
 ```
 
-### <a id="Ink_Canvas_WorkflowAutomation_Triggers_PptSlideShowExitTrigger_UnLoaded"></a> UnLoaded\(\)
+### <a id="Ink_Canvas_WorkflowAutomation_Triggers_PPTSlideShowExitTrigger_UnLoaded"></a> UnLoaded\(\)
 
 当此触发器被从工作流上卸载时，调用此方法。
 

@@ -6,7 +6,7 @@ Assembly: InkCanvasForClass.dll
 ManagePickNameBackgroundsWindow.xaml 的交互逻辑
 
 ```csharp
-public class ManagePickNameBackgroundsWindow : Window, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector, IStyleConnector
+public class ManagePickNameBackgroundsWindow : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector, IStyleConnector
 ```
 
 #### Inheritance
@@ -19,7 +19,7 @@ public class ManagePickNameBackgroundsWindow : Window, IAnimatable, ISupportInit
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
 [Control](https://learn.microsoft.com/dotnet/api/system.windows.controls.control) ← 
 [ContentControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol) ← 
-[Window](https://learn.microsoft.com/dotnet/api/system.windows.window) ← 
+[UserControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol) ← 
 [ManagePickNameBackgroundsWindow](Ink\_Canvas.ManagePickNameBackgroundsWindow.md)
 
 #### Implements
@@ -35,73 +35,7 @@ public class ManagePickNameBackgroundsWindow : Window, IAnimatable, ISupportInit
 
 #### Inherited Members
 
-[Window.AllowsTransparencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.allowstransparencyproperty), 
-[Window.DpiChangedEvent](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichangedevent), 
-[Window.IconProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.iconproperty), 
-[Window.IsActiveProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.isactiveproperty), 
-[Window.LeftProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.leftproperty), 
-[Window.ResizeModeProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.resizemodeproperty), 
-[Window.ShowActivatedProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.showactivatedproperty), 
-[Window.ShowInTaskbarProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbarproperty), 
-[Window.SizeToContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontentproperty), 
-[Window.TaskbarItemInfoProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfoproperty), 
-[Window.TitleProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.titleproperty), 
-[Window.TopmostProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.topmostproperty), 
-[Window.TopProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.topproperty), 
-[Window.WindowStateProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstateproperty), 
-[Window.WindowStyleProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstyleproperty), 
-[Window.Activate\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.activate), 
-[Window.ArrangeOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.window.arrangeoverride), 
-[Window.Close\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.close), 
-[Window.DragMove\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.dragmove), 
-[Window.GetWindow\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.getwindow), 
-[Window.Hide\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.hide), 
-[Window.MeasureOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.window.measureoverride), 
-[Window.OnActivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onactivated), 
-[Window.OnClosed\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onclosed), 
-[Window.OnClosing\(CancelEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onclosing), 
-[Window.OnContentChanged\(object, object\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncontentchanged), 
-[Window.OnContentRendered\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncontentrendered), 
-[Window.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncreateautomationpeer), 
-[Window.OnDeactivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.ondeactivated), 
-[Window.OnDpiChanged\(DpiScale, DpiScale\)](https://learn.microsoft.com/dotnet/api/system.windows.window.ondpichanged), 
-[Window.OnLocationChanged\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onlocationchanged), 
-[Window.OnManipulationBoundaryFeedback\(ManipulationBoundaryFeedbackEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onmanipulationboundaryfeedback), 
-[Window.OnSourceInitialized\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onsourceinitialized), 
-[Window.OnStateChanged\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onstatechanged), 
-[Window.OnVisualChildrenChanged\(DependencyObject, DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onvisualchildrenchanged), 
-[Window.OnVisualParentChanged\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onvisualparentchanged), 
-[Window.Show\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.show), 
-[Window.ShowDialog\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.showdialog), 
-[Window.AllowsTransparency](https://learn.microsoft.com/dotnet/api/system.windows.window.allowstransparency), 
-[Window.DialogResult](https://learn.microsoft.com/dotnet/api/system.windows.window.dialogresult), 
-[Window.Icon](https://learn.microsoft.com/dotnet/api/system.windows.window.icon), 
-[Window.IsActive](https://learn.microsoft.com/dotnet/api/system.windows.window.isactive), 
-[Window.Left](https://learn.microsoft.com/dotnet/api/system.windows.window.left), 
-[Window.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.window.logicalchildren), 
-[Window.OwnedWindows](https://learn.microsoft.com/dotnet/api/system.windows.window.ownedwindows), 
-[Window.Owner](https://learn.microsoft.com/dotnet/api/system.windows.window.owner), 
-[Window.ResizeMode](https://learn.microsoft.com/dotnet/api/system.windows.window.resizemode), 
-[Window.RestoreBounds](https://learn.microsoft.com/dotnet/api/system.windows.window.restorebounds), 
-[Window.ShowActivated](https://learn.microsoft.com/dotnet/api/system.windows.window.showactivated), 
-[Window.ShowInTaskbar](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbar), 
-[Window.SizeToContent](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontent), 
-[Window.TaskbarItemInfo](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfo), 
-[Window.Title](https://learn.microsoft.com/dotnet/api/system.windows.window.title), 
-[Window.Top](https://learn.microsoft.com/dotnet/api/system.windows.window.top), 
-[Window.Topmost](https://learn.microsoft.com/dotnet/api/system.windows.window.topmost), 
-[Window.WindowStartupLocation](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstartuplocation), 
-[Window.WindowState](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstate), 
-[Window.WindowStyle](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstyle), 
-[Window.Activated](https://learn.microsoft.com/dotnet/api/system.windows.window.activated), 
-[Window.Closed](https://learn.microsoft.com/dotnet/api/system.windows.window.closed), 
-[Window.Closing](https://learn.microsoft.com/dotnet/api/system.windows.window.closing), 
-[Window.ContentRendered](https://learn.microsoft.com/dotnet/api/system.windows.window.contentrendered), 
-[Window.Deactivated](https://learn.microsoft.com/dotnet/api/system.windows.window.deactivated), 
-[Window.DpiChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichanged), 
-[Window.LocationChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.locationchanged), 
-[Window.SourceInitialized](https://learn.microsoft.com/dotnet/api/system.windows.window.sourceinitialized), 
-[Window.StateChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.statechanged), 
+[UserControl.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol.oncreateautomationpeer), 
 [ContentControl.ContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentproperty), 
 [ContentControl.ContentStringFormatProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentstringformatproperty), 
 [ContentControl.ContentTemplateProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateproperty), 

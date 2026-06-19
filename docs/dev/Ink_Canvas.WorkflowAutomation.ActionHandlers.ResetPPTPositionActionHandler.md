@@ -1,4 +1,4 @@
-# <a id="Ink_Canvas_WorkflowAutomation_ActionHandlers_ResetPptPositionActionHandler"></a> Class ResetPptPositionActionHandler
+# <a id="Ink_Canvas_WorkflowAutomation_ActionHandlers_ResetPPTPositionActionHandler"></a> Class ResetPPTPositionActionHandler
 
 Namespace: [Ink\_Canvas.WorkflowAutomation.ActionHandlers](Ink\_Canvas.WorkflowAutomation.ActionHandlers.md)  
 Assembly: InkCanvasForClass.dll  
@@ -7,13 +7,13 @@ Assembly: InkCanvasForClass.dll
 对齐 ClassIsland 的 ActionHandler 模式，通过 DI 注入 IActionService 注册处理程序。
 
 ```csharp
-public class ResetPptPositionActionHandler
+public class ResetPPTPositionActionHandler
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[ResetPptPositionActionHandler](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetPptPositionActionHandler.md)
+[ResetPPTPositionActionHandler](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetPPTPositionActionHandler.md)
 
 #### Inherited Members
 
@@ -27,10 +27,10 @@ public class ResetPptPositionActionHandler
 
 ## Constructors
 
-### <a id="Ink_Canvas_WorkflowAutomation_ActionHandlers_ResetPptPositionActionHandler__ctor_Ink_Canvas_WorkflowAutomation_Abstractions_IActionService_"></a> ResetPptPositionActionHandler\(IActionService\)
+### <a id="Ink_Canvas_WorkflowAutomation_ActionHandlers_ResetPPTPositionActionHandler__ctor_Ink_Canvas_WorkflowAutomation_Abstractions_IActionService_"></a> ResetPPTPositionActionHandler\(IActionService\)
 
 ```csharp
-public ResetPptPositionActionHandler(IActionService actionService)
+public ResetPPTPositionActionHandler(IActionService actionService)
 ```
 
 #### Parameters

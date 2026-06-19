@@ -21,16 +21,16 @@
 
 重置工具栏在桌面模式的位置的行动设置
 
- [ResetPptPositionAction](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetPptPositionAction.md)
+ [ResetPPTPositionAction](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetPPTPositionAction.md)
 
 重置工具栏在PPT模式位置的旧式注册（兼容 Actions 目录）
 
- [ResetPptPositionActionHandler](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetPptPositionActionHandler.md)
+ [ResetPPTPositionActionHandler](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetPPTPositionActionHandler.md)
 
 重置工具栏在PPT模式位置的 ActionHandler。
 对齐 ClassIsland 的 ActionHandler 模式，通过 DI 注入 IActionService 注册处理程序。
 
- [ResetPptPositionActionSettings](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetPptPositionActionSettings.md)
+ [ResetPPTPositionActionSettings](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetPPTPositionActionSettings.md)
 
 重置工具栏在PPT模式的位置的行动设置
 

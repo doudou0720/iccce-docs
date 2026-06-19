@@ -284,20 +284,20 @@ public static string AutoKill_Inkeys { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_PptTools"></a> AutoKill\_PptTools
+### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_PPTTools"></a> AutoKill\_PPTTools
 
 ```csharp
-public static string AutoKill_PptTools { get; }
+public static string AutoKill_PPTTools { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_PptToolsHint"></a> AutoKill\_PptToolsHint
+### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_PPTToolsHint"></a> AutoKill\_PPTToolsHint
 
 ```csharp
-public static string AutoKill_PptToolsHint { get; }
+public static string AutoKill_PPTToolsHint { get; }
 ```
 
 #### Property Value

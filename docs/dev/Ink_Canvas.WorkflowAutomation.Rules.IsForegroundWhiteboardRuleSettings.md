@@ -1,18 +1,18 @@
-# <a id="Ink_Canvas_WorkflowAutomation_Triggers_PptSlideShowEnterSettings"></a> Class PptSlideShowEnterSettings
+# <a id="Ink_Canvas_WorkflowAutomation_Rules_IsForegroundWhiteboardRuleSettings"></a> Class IsForegroundWhiteboardRuleSettings
 
-Namespace: [Ink\_Canvas.WorkflowAutomation.Triggers](Ink\_Canvas.WorkflowAutomation.Triggers.md)  
+Namespace: [Ink\_Canvas.WorkflowAutomation.Rules](Ink\_Canvas.WorkflowAutomation.Rules.md)  
 Assembly: InkCanvasForClass.dll  
 
-PPT放映进入触发器设置
+前台窗口是 ICC-CE 白板规则设置
 
 ```csharp
-public class PptSlideShowEnterSettings
+public class IsForegroundWhiteboardRuleSettings
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[PptSlideShowEnterSettings](Ink\_Canvas.WorkflowAutomation.Triggers.PptSlideShowEnterSettings.md)
+[IsForegroundWhiteboardRuleSettings](Ink\_Canvas.WorkflowAutomation.Rules.IsForegroundWhiteboardRuleSettings.md)
 
 #### Inherited Members
 

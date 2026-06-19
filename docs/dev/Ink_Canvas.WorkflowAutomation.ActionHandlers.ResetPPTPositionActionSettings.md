@@ -1,16 +1,18 @@
-# <a id="Ink_Canvas_Controls_PptNavBar_PreviewItem"></a> Class PptNavBar.PreviewItem
+# <a id="Ink_Canvas_WorkflowAutomation_ActionHandlers_ResetPPTPositionActionSettings"></a> Class ResetPPTPositionActionSettings
 
-Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)  
+Namespace: [Ink\_Canvas.WorkflowAutomation.ActionHandlers](Ink\_Canvas.WorkflowAutomation.ActionHandlers.md)  
 Assembly: InkCanvasForClass.dll  
 
+重置工具栏在PPT模式的位置的行动设置
+
 ```csharp
-public sealed class PptNavBar.PreviewItem
+public class ResetPPTPositionActionSettings
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[PptNavBar.PreviewItem](Ink\_Canvas.Controls.PptNavBar.PreviewItem.md)
+[ResetPPTPositionActionSettings](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetPPTPositionActionSettings.md)
 
 #### Inherited Members
 
@@ -18,28 +20,7 @@ public sealed class PptNavBar.PreviewItem
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
 [object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
 [object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
-
-## Properties
-
-### <a id="Ink_Canvas_Controls_PptNavBar_PreviewItem_SlideNumber"></a> SlideNumber
-
-```csharp
-public int SlideNumber { get; set; }
-```
-
-#### Property Value
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
-### <a id="Ink_Canvas_Controls_PptNavBar_PreviewItem_Thumbnail"></a> Thumbnail
-
-```csharp
-public BitmapImage Thumbnail { get; set; }
-```
-
-#### Property Value
-
- [BitmapImage](https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapimage)
 

@@ -864,6 +864,16 @@ public static string Theme_SelectCustomSplashImage { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_ShowPenColorOnFloatingBarIcon"></a> Theme\_ShowPenColorOnFloatingBarIcon
+
+```csharp
+public static string Theme_ShowPenColorOnFloatingBarIcon { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_ShowQuoteInWhiteboard"></a> Theme\_ShowQuoteInWhiteboard
 
 ```csharp

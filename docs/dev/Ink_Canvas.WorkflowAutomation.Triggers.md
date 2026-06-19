@@ -20,29 +20,29 @@
 浮动工具栏退出批注模式时触发的触发器。
 通过订阅 inkCanvas.EditingModeChanged 事件驱动，无需轮询。
 
- [PptSlideShowEnterSettings](Ink\_Canvas.WorkflowAutomation.Triggers.PptSlideShowEnterSettings.md)
+ [PPTSlideShowEnterSettings](Ink\_Canvas.WorkflowAutomation.Triggers.PPTSlideShowEnterSettings.md)
 
 PPT放映进入触发器设置
 
- [PptSlideShowEnterTrigger](Ink\_Canvas.WorkflowAutomation.Triggers.PptSlideShowEnterTrigger.md)
+ [PPTSlideShowEnterTrigger](Ink\_Canvas.WorkflowAutomation.Triggers.PPTSlideShowEnterTrigger.md)
 
 进入PPT放映模式时触发的触发器。
 通过 SystemEventMonitor 的进程和窗口事件驱动，无需独立轮询。
 
- [PptSlideShowExitSettings](Ink\_Canvas.WorkflowAutomation.Triggers.PptSlideShowExitSettings.md)
+ [PPTSlideShowExitSettings](Ink\_Canvas.WorkflowAutomation.Triggers.PPTSlideShowExitSettings.md)
 
 PPT放映退出触发器设置
 
- [PptSlideShowExitTrigger](Ink\_Canvas.WorkflowAutomation.Triggers.PptSlideShowExitTrigger.md)
+ [PPTSlideShowExitTrigger](Ink\_Canvas.WorkflowAutomation.Triggers.PPTSlideShowExitTrigger.md)
 
 退出PPT放映模式时触发的触发器。
 通过 SystemEventMonitor 的进程和窗口事件驱动，无需独立轮询。
 
- [PptSlideShowSettings](Ink\_Canvas.WorkflowAutomation.Triggers.PptSlideShowSettings.md)
+ [PPTSlideShowSettings](Ink\_Canvas.WorkflowAutomation.Triggers.PPTSlideShowSettings.md)
 
 PPT 放映检测触发器的设置
 
- [PptSlideShowTrigger](Ink\_Canvas.WorkflowAutomation.Triggers.PptSlideShowTrigger.md)
+ [PPTSlideShowTrigger](Ink\_Canvas.WorkflowAutomation.Triggers.PPTSlideShowTrigger.md)
 
 当 PPT 进入放映模式时触发的触发器。
 通过 SystemEventMonitor 的进程和窗口事件驱动，无需独立轮询。

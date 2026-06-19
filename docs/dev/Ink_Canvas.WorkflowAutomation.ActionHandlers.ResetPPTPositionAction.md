@@ -1,4 +1,4 @@
-# <a id="Ink_Canvas_WorkflowAutomation_ActionHandlers_ResetPptPositionAction"></a> Class ResetPptPositionAction
+# <a id="Ink_Canvas_WorkflowAutomation_ActionHandlers_ResetPPTPositionAction"></a> Class ResetPPTPositionAction
 
 Namespace: [Ink\_Canvas.WorkflowAutomation.ActionHandlers](Ink\_Canvas.WorkflowAutomation.ActionHandlers.md)  
 Assembly: InkCanvasForClass.dll  
@@ -6,13 +6,13 @@ Assembly: InkCanvasForClass.dll
 重置工具栏在PPT模式位置的旧式注册（兼容 Actions 目录）
 
 ```csharp
-public static class ResetPptPositionAction
+public static class ResetPPTPositionAction
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[ResetPptPositionAction](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetPptPositionAction.md)
+[ResetPPTPositionAction](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetPPTPositionAction.md)
 
 #### Inherited Members
 
@@ -26,7 +26,7 @@ public static class ResetPptPositionAction
 
 ## Fields
 
-### <a id="Ink_Canvas_WorkflowAutomation_ActionHandlers_ResetPptPositionAction_ActionId"></a> ActionId
+### <a id="Ink_Canvas_WorkflowAutomation_ActionHandlers_ResetPPTPositionAction_ActionId"></a> ActionId
 
 ```csharp
 public const string ActionId = "inkcanvas.resetpptposition"
@@ -38,7 +38,7 @@ public const string ActionId = "inkcanvas.resetpptposition"
 
 ## Methods
 
-### <a id="Ink_Canvas_WorkflowAutomation_ActionHandlers_ResetPptPositionAction_Register"></a> Register\(\)
+### <a id="Ink_Canvas_WorkflowAutomation_ActionHandlers_ResetPPTPositionAction_Register"></a> Register\(\)
 
 ```csharp
 public static ActionRegistryInfo Register()

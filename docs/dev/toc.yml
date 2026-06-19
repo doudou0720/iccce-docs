@@ -7,6 +7,28 @@
     href: InkCanvas.IACoreHelper.IpcConstants.md
   - name: SharedMemoryHeader
     href: InkCanvas.IACoreHelper.SharedMemoryHeader.md
+- name: InkCanvas.PowerPointAddIn
+  href: InkCanvas.PowerPointAddIn.md
+  items:
+  - name: Classes
+  - name: ThisAddIn
+    href: InkCanvas.PowerPointAddIn.ThisAddIn.md
+- name: InkCanvas.PowerPointAddIn.Core
+  href: InkCanvas.PowerPointAddIn.Core.md
+  items:
+  - name: Classes
+  - name: PPTController
+    href: InkCanvas.PowerPointAddIn.Core.PPTController.md
+  - name: PPTStatePublisher
+    href: InkCanvas.PowerPointAddIn.Core.PPTStatePublisher.md
+- name: InkCanvas.PowerPointAddIn.IPC
+  href: InkCanvas.PowerPointAddIn.IPC.md
+  items:
+  - name: Classes
+  - name: PipeFrame
+    href: InkCanvas.PowerPointAddIn.IPC.PipeFrame.md
+  - name: PipeHost
+    href: InkCanvas.PowerPointAddIn.IPC.PipeHost.md
 - name: InkCanvas.SettingsTreeView
   href: InkCanvas.SettingsTreeView.md
   items:
@@ -15,6 +37,32 @@
     href: InkCanvas.SettingsTreeView.App.md
   - name: SettingsTreeViewWindow
     href: InkCanvas.SettingsTreeView.SettingsTreeViewWindow.md
+- name: InkCanvasPPTAgent.Contracts
+  href: InkCanvasPPTAgent.Contracts.md
+  items:
+  - name: Classes
+  - name: ExportSlideThumbnailsRequest
+    href: InkCanvasPPTAgent.Contracts.ExportSlideThumbnailsRequest.md
+  - name: ExportSlideThumbnailsResponse
+    href: InkCanvasPPTAgent.Contracts.ExportSlideThumbnailsResponse.md
+  - name: GotoSlideRequest
+    href: InkCanvasPPTAgent.Contracts.GotoSlideRequest.md
+  - name: PPTCommands
+    href: InkCanvasPPTAgent.Contracts.PPTCommands.md
+  - name: PPTEvents
+    href: InkCanvasPPTAgent.Contracts.PPTEvents.md
+  - name: PPTMessageTypes
+    href: InkCanvasPPTAgent.Contracts.PPTMessageTypes.md
+  - name: PPTPipeMessage<T>
+    href: InkCanvasPPTAgent.Contracts.PPTPipeMessage-1.md
+  - name: PPTSlideThumbnailData
+    href: InkCanvasPPTAgent.Contracts.PPTSlideThumbnailData.md
+  - name: PPTState
+    href: InkCanvasPPTAgent.Contracts.PPTState.md
+  - name: PipeConstants
+    href: InkCanvasPPTAgent.Contracts.PipeConstants.md
+  - name: PipeFrame
+    href: InkCanvasPPTAgent.Contracts.PipeFrame.md
 - name: Ink_Canvas
   href: Ink_Canvas.md
   items:
@@ -123,6 +171,8 @@
     href: Ink_Canvas.App.CrashActionType.md
   - name: OptionalOperation
     href: Ink_Canvas.OptionalOperation.md
+  - name: PPTLinkMode
+    href: Ink_Canvas.PPTLinkMode.md
   - name: TelemetryUploadLevel
     href: Ink_Canvas.TelemetryUploadLevel.md
   - name: ToolbarPosition
@@ -173,6 +223,10 @@
     href: Ink_Canvas.Controls.LabeledSettingsCard.md
   - name: LabeledToggleSwitch
     href: Ink_Canvas.Controls.LabeledToggleSwitch.md
+  - name: PPTNavBar
+    href: Ink_Canvas.Controls.PPTNavBar.md
+  - name: PPTNavBar.PreviewItem
+    href: Ink_Canvas.Controls.PPTNavBar.PreviewItem.md
   - name: PdfEmbeddedView
     href: Ink_Canvas.Controls.PdfEmbeddedView.md
   - name: PenColorButton
@@ -189,10 +243,6 @@
     href: Ink_Canvas.Controls.PopupTabTitleBar.md
   - name: PopupTitleBar
     href: Ink_Canvas.Controls.PopupTitleBar.md
-  - name: PptNavBar
-    href: Ink_Canvas.Controls.PptNavBar.md
-  - name: PptNavBar.PreviewItem
-    href: Ink_Canvas.Controls.PptNavBar.PreviewItem.md
   - name: QuickColorPaletteControl
     href: Ink_Canvas.Controls.QuickColorPaletteControl.md
   - name: QuickDrawFloatingButtonControl
@@ -216,8 +266,8 @@
     href: Ink_Canvas.Controls.ButtonPosition.md
   - name: ImageResizeCorner
     href: Ink_Canvas.Controls.ImageResizeCorner.md
-  - name: PptNavBar.NavDirection
-    href: Ink_Canvas.Controls.PptNavBar.NavDirection.md
+  - name: PPTNavBar.NavDirection
+    href: Ink_Canvas.Controls.PPTNavBar.NavDirection.md
 - name: Ink_Canvas.Controls.Toolbar
   href: Ink_Canvas.Controls.Toolbar.md
   items:
@@ -365,8 +415,6 @@
     href: Ink_Canvas.Helpers.HardwareAcceleratedInkProcessor.md
   - name: IACoreDllExtractor
     href: Ink_Canvas.Helpers.IACoreDllExtractor.md
-  - name: ImprovedBezierSmoothing
-    href: Ink_Canvas.Helpers.ImprovedBezierSmoothing.md
   - name: InkFadeManager
     href: Ink_Canvas.Helpers.InkFadeManager.md
   - name: InkRecognitionManager
@@ -395,12 +443,16 @@
     href: Ink_Canvas.Helpers.LrcLine.md
   - name: LrcParser
     href: Ink_Canvas.Helpers.LrcParser.md
+  - name: PPTAgentLinkManager
+    href: Ink_Canvas.Helpers.PPTAgentLinkManager.md
   - name: PPTInkManager
     href: Ink_Canvas.Helpers.PPTInkManager.md
   - name: PPTManager
     href: Ink_Canvas.Helpers.PPTManager.md
   - name: PPTROTConnectionHelper
     href: Ink_Canvas.Helpers.PPTROTConnectionHelper.md
+  - name: PPTSlideThumbnail
+    href: Ink_Canvas.Helpers.PPTSlideThumbnail.md
   - name: PPTUIManager
     href: Ink_Canvas.Helpers.PPTUIManager.md
   - name: PerformanceMonitorHelper
@@ -451,6 +503,8 @@
     href: Ink_Canvas.Helpers.UsbSecurityManager.md
   - name: VisualCanvas
     href: Ink_Canvas.Helpers.VisualCanvas.md
+  - name: VstoRegistrationHelper
+    href: Ink_Canvas.Helpers.VstoRegistrationHelper.md
   - name: WebDavUploadProvider
     href: Ink_Canvas.Helpers.WebDavUploadProvider.md
   - name: WebDavUploadQueue
@@ -501,6 +555,12 @@
     href: Ink_Canvas.Helpers.TimeMachine.OnRedoStateChange.md
   - name: TimeMachine.OnUndoStateChange
     href: Ink_Canvas.Helpers.TimeMachine.OnUndoStateChange.md
+- name: Ink_Canvas.IPC
+  href: Ink_Canvas.IPC.md
+  items:
+  - name: Classes
+  - name: PPTAgentPipeClient
+    href: Ink_Canvas.IPC.PPTAgentPipeClient.md
 - name: Ink_Canvas.MarkupExtensions
   href: Ink_Canvas.MarkupExtensions.md
   items:
@@ -907,12 +967,12 @@
     href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ResetDesktopPositionActionHandler.md
   - name: ResetDesktopPositionActionSettings
     href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ResetDesktopPositionActionSettings.md
-  - name: ResetPptPositionAction
-    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ResetPptPositionAction.md
-  - name: ResetPptPositionActionHandler
-    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ResetPptPositionActionHandler.md
-  - name: ResetPptPositionActionSettings
-    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ResetPptPositionActionSettings.md
+  - name: ResetPPTPositionAction
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ResetPPTPositionAction.md
+  - name: ResetPPTPositionActionHandler
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ResetPPTPositionActionHandler.md
+  - name: ResetPPTPositionActionSettings
+    href: Ink_Canvas.WorkflowAutomation.ActionHandlers.ResetPPTPositionActionSettings.md
   - name: SaveStrokesActionHandler
     href: Ink_Canvas.WorkflowAutomation.ActionHandlers.SaveStrokesActionHandler.md
   - name: ShowNotificationActionHandler
@@ -1010,10 +1070,14 @@
     href: Ink_Canvas.WorkflowAutomation.Rules.IsFloatingBarFoldedRule.md
   - name: IsFloatingBarFoldedRuleSettings
     href: Ink_Canvas.WorkflowAutomation.Rules.IsFloatingBarFoldedRuleSettings.md
-  - name: IsPptSlideshowRule
-    href: Ink_Canvas.WorkflowAutomation.Rules.IsPptSlideshowRule.md
-  - name: IsPptSlideshowRuleSettings
-    href: Ink_Canvas.WorkflowAutomation.Rules.IsPptSlideshowRuleSettings.md
+  - name: IsForegroundWhiteboardRule
+    href: Ink_Canvas.WorkflowAutomation.Rules.IsForegroundWhiteboardRule.md
+  - name: IsForegroundWhiteboardRuleSettings
+    href: Ink_Canvas.WorkflowAutomation.Rules.IsForegroundWhiteboardRuleSettings.md
+  - name: IsPPTSlideshowRule
+    href: Ink_Canvas.WorkflowAutomation.Rules.IsPPTSlideshowRule.md
+  - name: IsPPTSlideshowRuleSettings
+    href: Ink_Canvas.WorkflowAutomation.Rules.IsPPTSlideshowRuleSettings.md
   - name: ProcessRunningRule
     href: Ink_Canvas.WorkflowAutomation.Rules.ProcessRunningRule.md
   - name: ProcessRunningRuleSettings
@@ -1048,18 +1112,18 @@
     href: Ink_Canvas.WorkflowAutomation.Triggers.AnnotationModeExitSettings.md
   - name: AnnotationModeExitTrigger
     href: Ink_Canvas.WorkflowAutomation.Triggers.AnnotationModeExitTrigger.md
-  - name: PptSlideShowEnterSettings
-    href: Ink_Canvas.WorkflowAutomation.Triggers.PptSlideShowEnterSettings.md
-  - name: PptSlideShowEnterTrigger
-    href: Ink_Canvas.WorkflowAutomation.Triggers.PptSlideShowEnterTrigger.md
-  - name: PptSlideShowExitSettings
-    href: Ink_Canvas.WorkflowAutomation.Triggers.PptSlideShowExitSettings.md
-  - name: PptSlideShowExitTrigger
-    href: Ink_Canvas.WorkflowAutomation.Triggers.PptSlideShowExitTrigger.md
-  - name: PptSlideShowSettings
-    href: Ink_Canvas.WorkflowAutomation.Triggers.PptSlideShowSettings.md
-  - name: PptSlideShowTrigger
-    href: Ink_Canvas.WorkflowAutomation.Triggers.PptSlideShowTrigger.md
+  - name: PPTSlideShowEnterSettings
+    href: Ink_Canvas.WorkflowAutomation.Triggers.PPTSlideShowEnterSettings.md
+  - name: PPTSlideShowEnterTrigger
+    href: Ink_Canvas.WorkflowAutomation.Triggers.PPTSlideShowEnterTrigger.md
+  - name: PPTSlideShowExitSettings
+    href: Ink_Canvas.WorkflowAutomation.Triggers.PPTSlideShowExitSettings.md
+  - name: PPTSlideShowExitTrigger
+    href: Ink_Canvas.WorkflowAutomation.Triggers.PPTSlideShowExitTrigger.md
+  - name: PPTSlideShowSettings
+    href: Ink_Canvas.WorkflowAutomation.Triggers.PPTSlideShowSettings.md
+  - name: PPTSlideShowTrigger
+    href: Ink_Canvas.WorkflowAutomation.Triggers.PPTSlideShowTrigger.md
   - name: ProcessDetectedSettings
     href: Ink_Canvas.WorkflowAutomation.Triggers.ProcessDetectedSettings.md
   - name: ProcessDetectedTrigger

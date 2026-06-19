@@ -103,10 +103,6 @@ Dlass上传队列
 IACore DLL自动释放器
 在应用启动时自动释放IACore相关的DLL文件到应用程序目录
 
- [ImprovedBezierSmoothing](Ink\_Canvas.Helpers.ImprovedBezierSmoothing.md)
-
-改进的三次贝塞尔曲线平滑算法
-
  [InkFadeManager](Ink\_Canvas.Helpers.InkFadeManager.md)
 
 墨迹渐隐管理器 - 管理墨迹的渐隐动画和状态
@@ -163,6 +159,8 @@ Represents a single lyric line with timing information.
 
 Parses standard LRC and translated LRC files.
 
+ [PPTAgentLinkManager](Ink\_Canvas.Helpers.PPTAgentLinkManager.md)
+
  [PPTInkManager](Ink\_Canvas.Helpers.PPTInkManager.md)
 
 PPT墨迹管理器 - 负责按幻灯片保存/加载墨迹、自动保存与内存管理。
@@ -172,6 +170,8 @@ PPT墨迹管理器 - 负责按幻灯片保存/加载墨迹、自动保存与内�
 PPT联动管理器 - 统一管理PPT和WPS的连接、事件处理和进程管理
 
  [PPTROTConnectionHelper](Ink\_Canvas.Helpers.PPTROTConnectionHelper.md)
+
+ [PPTSlideThumbnail](Ink\_Canvas.Helpers.PPTSlideThumbnail.md)
 
  [PPTUIManager](Ink\_Canvas.Helpers.PPTUIManager.md)
 
@@ -256,6 +256,11 @@ Main-window base that can use WindowChrome for DWM-backed transparent rendering.
  [UsbSecurityManager](Ink\_Canvas.Helpers.UsbSecurityManager.md)
 
  [VisualCanvas](Ink\_Canvas.Helpers.VisualCanvas.md)
+
+ [VstoRegistrationHelper](Ink\_Canvas.Helpers.VstoRegistrationHelper.md)
+
+VSTO PowerPoint 插件自动注册/反注册辅助类。
+优先使用 .vsto 清单加载，回退到 regasm COM 注册。
 
  [WebDavUploadProvider](Ink\_Canvas.Helpers.WebDavUploadProvider.md)
 

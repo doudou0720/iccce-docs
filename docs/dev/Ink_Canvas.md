@@ -8,6 +8,8 @@
 
  [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)
 
+ [Ink\_Canvas.IPC](Ink\_Canvas.IPC.md)
+
  [Ink\_Canvas.MarkupExtensions](Ink\_Canvas.MarkupExtensions.md)
 
  [Ink\_Canvas.Models](Ink\_Canvas.Models.md)
@@ -177,6 +179,8 @@ ScreenshotSelectorWindow
  [App.CrashActionType](Ink\_Canvas.App.CrashActionType.md)
 
  [OptionalOperation](Ink\_Canvas.OptionalOperation.md)
+
+ [PPTLinkMode](Ink\_Canvas.PPTLinkMode.md)
 
  [TelemetryUploadLevel](Ink\_Canvas.TelemetryUploadLevel.md)
 

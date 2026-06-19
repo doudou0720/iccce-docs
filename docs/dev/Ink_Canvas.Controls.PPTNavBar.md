@@ -1,14 +1,14 @@
-# <a id="Ink_Canvas_Controls_PptNavBar"></a> Class PptNavBar
+# <a id="Ink_Canvas_Controls_PPTNavBar"></a> Class PPTNavBar
 
 Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)  
 Assembly: InkCanvasForClass.dll  
 
 PPT 翻页 + 增强预览一体化控件。
-通过 <xref href="Ink_Canvas.Controls.PptNavBar.Direction" data-throw-if-not-resolved="false"></xref> 切换底部条 (LB/RB) 与侧边条 (LS/RS) 布局,
+通过 <xref href="Ink_Canvas.Controls.PPTNavBar.Direction" data-throw-if-not-resolved="false"></xref> 切换底部条 (LB/RB) 与侧边条 (LS/RS) 布局,
 预览列表内嵌于同一个 Border,展开时占据按钮组之外的剩余空间。
 
 ```csharp
-public class PptNavBar : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+public class PPTNavBar : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
 ```
 
 #### Inheritance
@@ -22,7 +22,7 @@ public class PptNavBar : UserControl, IAnimatable, ISupportInitialize, IFramewor
 [Control](https://learn.microsoft.com/dotnet/api/system.windows.controls.control) ← 
 [ContentControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol) ← 
 [UserControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol) ← 
-[PptNavBar](Ink\_Canvas.Controls.PptNavBar.md)
+[PPTNavBar](Ink\_Canvas.Controls.PPTNavBar.md)
 
 #### Implements
 
@@ -681,15 +681,15 @@ public class PptNavBar : UserControl, IAnimatable, ISupportInitialize, IFramewor
 
 ## Constructors
 
-### <a id="Ink_Canvas_Controls_PptNavBar__ctor"></a> PptNavBar\(\)
+### <a id="Ink_Canvas_Controls_PPTNavBar__ctor"></a> PPTNavBar\(\)
 
 ```csharp
-public PptNavBar()
+public PPTNavBar()
 ```
 
 ## Fields
 
-### <a id="Ink_Canvas_Controls_PptNavBar_CurrentSlideProperty"></a> CurrentSlideProperty
+### <a id="Ink_Canvas_Controls_PPTNavBar_CurrentSlideProperty"></a> CurrentSlideProperty
 
 ```csharp
 public static readonly DependencyProperty CurrentSlideProperty
@@ -699,7 +699,7 @@ public static readonly DependencyProperty CurrentSlideProperty
 
  [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_DirectionProperty"></a> DirectionProperty
+### <a id="Ink_Canvas_Controls_PPTNavBar_DirectionProperty"></a> DirectionProperty
 
 ```csharp
 public static readonly DependencyProperty DirectionProperty
@@ -709,7 +709,7 @@ public static readonly DependencyProperty DirectionProperty
 
  [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_IsPreviewExpandedProperty"></a> IsPreviewExpandedProperty
+### <a id="Ink_Canvas_Controls_PPTNavBar_IsPreviewExpandedProperty"></a> IsPreviewExpandedProperty
 
 ```csharp
 public static readonly DependencyProperty IsPreviewExpandedProperty
@@ -719,7 +719,7 @@ public static readonly DependencyProperty IsPreviewExpandedProperty
 
  [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_PreviewItemsProperty"></a> PreviewItemsProperty
+### <a id="Ink_Canvas_Controls_PPTNavBar_PreviewItemsProperty"></a> PreviewItemsProperty
 
 ```csharp
 public static readonly DependencyProperty PreviewItemsProperty
@@ -729,7 +729,7 @@ public static readonly DependencyProperty PreviewItemsProperty
 
  [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_TotalSlidesProperty"></a> TotalSlidesProperty
+### <a id="Ink_Canvas_Controls_PPTNavBar_TotalSlidesProperty"></a> TotalSlidesProperty
 
 ```csharp
 public static readonly DependencyProperty TotalSlidesProperty
@@ -741,7 +741,7 @@ public static readonly DependencyProperty TotalSlidesProperty
 
 ## Properties
 
-### <a id="Ink_Canvas_Controls_PptNavBar_CurrentSlide"></a> CurrentSlide
+### <a id="Ink_Canvas_Controls_PPTNavBar_CurrentSlide"></a> CurrentSlide
 
 ```csharp
 public int CurrentSlide { get; set; }
@@ -751,17 +751,17 @@ public int CurrentSlide { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_Direction"></a> Direction
+### <a id="Ink_Canvas_Controls_PPTNavBar_Direction"></a> Direction
 
 ```csharp
-public PptNavBar.NavDirection Direction { get; set; }
+public PPTNavBar.NavDirection Direction { get; set; }
 ```
 
 #### Property Value
 
- [PptNavBar](Ink\_Canvas.Controls.PptNavBar.md).[NavDirection](Ink\_Canvas.Controls.PptNavBar.NavDirection.md)
+ [PPTNavBar](Ink\_Canvas.Controls.PPTNavBar.md).[NavDirection](Ink\_Canvas.Controls.PPTNavBar.NavDirection.md)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_IsPreviewExpanded"></a> IsPreviewExpanded
+### <a id="Ink_Canvas_Controls_PPTNavBar_IsPreviewExpanded"></a> IsPreviewExpanded
 
 ```csharp
 public bool IsPreviewExpanded { get; set; }
@@ -771,17 +771,17 @@ public bool IsPreviewExpanded { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_PreviewItems"></a> PreviewItems
+### <a id="Ink_Canvas_Controls_PPTNavBar_PreviewItems"></a> PreviewItems
 
 ```csharp
-public IList<PptNavBar.PreviewItem> PreviewItems { get; set; }
+public IList<PPTNavBar.PreviewItem> PreviewItems { get; set; }
 ```
 
 #### Property Value
 
- [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[PptNavBar](Ink\_Canvas.Controls.PptNavBar.md).[PreviewItem](Ink\_Canvas.Controls.PptNavBar.PreviewItem.md)\>
+ [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[PPTNavBar](Ink\_Canvas.Controls.PPTNavBar.md).[PreviewItem](Ink\_Canvas.Controls.PPTNavBar.PreviewItem.md)\>
 
-### <a id="Ink_Canvas_Controls_PptNavBar_TotalSlides"></a> TotalSlides
+### <a id="Ink_Canvas_Controls_PPTNavBar_TotalSlides"></a> TotalSlides
 
 ```csharp
 public int TotalSlides { get; set; }
@@ -793,7 +793,7 @@ public int TotalSlides { get; set; }
 
 ## Methods
 
-### <a id="Ink_Canvas_Controls_PptNavBar_ApplyTheme_System_Boolean_"></a> ApplyTheme\(bool\)
+### <a id="Ink_Canvas_Controls_PPTNavBar_ApplyTheme_System_Boolean_"></a> ApplyTheme\(bool\)
 
 ```csharp
 public void ApplyTheme(bool isDark)
@@ -803,7 +803,7 @@ public void ApplyTheme(bool isDark)
 
 `isDark` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_InitializeComponent"></a> InitializeComponent\(\)
+### <a id="Ink_Canvas_Controls_PPTNavBar_InitializeComponent"></a> InitializeComponent\(\)
 
 InitializeComponent
 
@@ -811,7 +811,7 @@ InitializeComponent
 public void InitializeComponent()
 ```
 
-### <a id="Ink_Canvas_Controls_PptNavBar_SetBarOpacity_System_Double_"></a> SetBarOpacity\(double\)
+### <a id="Ink_Canvas_Controls_PPTNavBar_SetBarOpacity_System_Double_"></a> SetBarOpacity\(double\)
 
 ```csharp
 public void SetBarOpacity(double opacity)
@@ -821,7 +821,7 @@ public void SetBarOpacity(double opacity)
 
 `opacity` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_SetBarScale_System_Double_"></a> SetBarScale\(double\)
+### <a id="Ink_Canvas_Controls_PPTNavBar_SetBarScale_System_Double_"></a> SetBarScale\(double\)
 
 ```csharp
 public void SetBarScale(double scale)
@@ -831,7 +831,7 @@ public void SetBarScale(double scale)
 
 `scale` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_SetPageButtonVisibility_System_Windows_Visibility_"></a> SetPageButtonVisibility\(Visibility\)
+### <a id="Ink_Canvas_Controls_PPTNavBar_SetPageButtonVisibility_System_Windows_Visibility_"></a> SetPageButtonVisibility\(Visibility\)
 
 ```csharp
 public void SetPageButtonVisibility(Visibility v)
@@ -841,7 +841,7 @@ public void SetPageButtonVisibility(Visibility v)
 
 `v` [Visibility](https://learn.microsoft.com/dotnet/api/system.windows.visibility)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_NextClick"></a> NextClick
+### <a id="Ink_Canvas_Controls_PPTNavBar_NextClick"></a> NextClick
 
 ```csharp
 public event EventHandler NextClick
@@ -851,7 +851,7 @@ public event EventHandler NextClick
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_NextPressedDown"></a> NextPressedDown
+### <a id="Ink_Canvas_Controls_PPTNavBar_NextPressedDown"></a> NextPressedDown
 
 ```csharp
 public event EventHandler NextPressedDown
@@ -861,7 +861,7 @@ public event EventHandler NextPressedDown
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_PageClick"></a> PageClick
+### <a id="Ink_Canvas_Controls_PPTNavBar_PageClick"></a> PageClick
 
 ```csharp
 public event EventHandler PageClick
@@ -871,7 +871,7 @@ public event EventHandler PageClick
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_PressEnded"></a> PressEnded
+### <a id="Ink_Canvas_Controls_PPTNavBar_PressEnded"></a> PressEnded
 
 ```csharp
 public event EventHandler PressEnded
@@ -881,7 +881,7 @@ public event EventHandler PressEnded
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_PreviewExpandedChanged"></a> PreviewExpandedChanged
+### <a id="Ink_Canvas_Controls_PPTNavBar_PreviewExpandedChanged"></a> PreviewExpandedChanged
 
 ```csharp
 public event EventHandler<bool> PreviewExpandedChanged
@@ -891,7 +891,7 @@ public event EventHandler<bool> PreviewExpandedChanged
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
-### <a id="Ink_Canvas_Controls_PptNavBar_PreviousClick"></a> PreviousClick
+### <a id="Ink_Canvas_Controls_PPTNavBar_PreviousClick"></a> PreviousClick
 
 ```csharp
 public event EventHandler PreviousClick
@@ -901,7 +901,7 @@ public event EventHandler PreviousClick
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_PreviousPressedDown"></a> PreviousPressedDown
+### <a id="Ink_Canvas_Controls_PPTNavBar_PreviousPressedDown"></a> PreviousPressedDown
 
 ```csharp
 public event EventHandler PreviousPressedDown
@@ -911,7 +911,7 @@ public event EventHandler PreviousPressedDown
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### <a id="Ink_Canvas_Controls_PptNavBar_SlideSelected"></a> SlideSelected
+### <a id="Ink_Canvas_Controls_PPTNavBar_SlideSelected"></a> SlideSelected
 
 ```csharp
 public event EventHandler<int> SlideSelected

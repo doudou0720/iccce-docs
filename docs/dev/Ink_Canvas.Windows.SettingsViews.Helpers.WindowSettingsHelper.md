@@ -34,10 +34,10 @@ public static bool IsTemporarilyDisablingNoFocusMode { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_WindowSettingsHelper_OnPptOnlyModeChanged"></a> OnPptOnlyModeChanged
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_WindowSettingsHelper_OnPPTOnlyModeChanged"></a> OnPPTOnlyModeChanged
 
 ```csharp
-public static Action<bool> OnPptOnlyModeChanged { get; set; }
+public static Action<bool> OnPPTOnlyModeChanged { get; set; }
 ```
 
 #### Property Value
@@ -86,10 +86,10 @@ public static void ApplyNoFocusMode(Window window)
 
 `window` [Window](https://learn.microsoft.com/dotnet/api/system.windows.window)
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_WindowSettingsHelper_ApplyPptOnlyMode_System_Windows_Window_System_Boolean_"></a> ApplyPptOnlyMode\(Window, bool\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_WindowSettingsHelper_ApplyPPTOnlyMode_System_Windows_Window_System_Boolean_"></a> ApplyPPTOnlyMode\(Window, bool\)
 
 ```csharp
-public static void ApplyPptOnlyMode(Window window, bool isEnabled)
+public static void ApplyPPTOnlyMode(Window window, bool isEnabled)
 ```
 
 #### Parameters

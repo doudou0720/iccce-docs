@@ -1,18 +1,18 @@
-# <a id="Ink_Canvas_WorkflowAutomation_Triggers_PptSlideShowSettings"></a> Class PptSlideShowSettings
+# <a id="Ink_Canvas_WorkflowAutomation_Triggers_PPTSlideShowExitSettings"></a> Class PPTSlideShowExitSettings
 
 Namespace: [Ink\_Canvas.WorkflowAutomation.Triggers](Ink\_Canvas.WorkflowAutomation.Triggers.md)  
 Assembly: InkCanvasForClass.dll  
 
-PPT 放映检测触发器的设置
+PPT放映退出触发器设置
 
 ```csharp
-public class PptSlideShowSettings
+public class PPTSlideShowExitSettings
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[PptSlideShowSettings](Ink\_Canvas.WorkflowAutomation.Triggers.PptSlideShowSettings.md)
+[PPTSlideShowExitSettings](Ink\_Canvas.WorkflowAutomation.Triggers.PPTSlideShowExitSettings.md)
 
 #### Inherited Members
 

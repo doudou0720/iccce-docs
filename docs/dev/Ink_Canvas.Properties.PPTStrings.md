@@ -304,6 +304,66 @@ public static string NotifyHiddenPage { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTAgentArchitecture"></a> PPTAgentArchitecture
+
+```csharp
+public static string PPTAgentArchitecture { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTAgentArchitectureHint"></a> PPTAgentArchitectureHint
+
+```csharp
+public static string PPTAgentArchitectureHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTAgentInstallHint"></a> PPTAgentInstallHint
+
+```csharp
+public static string PPTAgentInstallHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTAgentNotConnected"></a> PPTAgentNotConnected
+
+```csharp
+public static string PPTAgentNotConnected { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTArchitecture"></a> PPTArchitecture
+
+```csharp
+public static string PPTArchitecture { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTComArchitecture"></a> PPTComArchitecture
+
+```csharp
+public static string PPTComArchitecture { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_CloseMagnifier"></a> PPTQuickPanel\_CloseMagnifier
 
 ```csharp
@@ -378,6 +438,16 @@ public static string PPTQuickPanel_Sound { get; }
 
 ```csharp
 public static string PPTQuickPanel_Zoom { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_PPTRotArchitecture"></a> PPTRotArchitecture
+
+```csharp
+public static string PPTRotArchitecture { get; }
 ```
 
 #### Property Value

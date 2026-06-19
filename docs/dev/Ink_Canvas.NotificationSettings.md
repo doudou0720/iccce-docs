@@ -113,11 +113,11 @@ public bool IsDictationDoNotDisturbEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_NotificationSettings_IsDictationDoNotDisturbInPptEnabled"></a> IsDictationDoNotDisturbInPptEnabled
+### <a id="Ink_Canvas_NotificationSettings_IsDictationDoNotDisturbInPPTEnabled"></a> IsDictationDoNotDisturbInPPTEnabled
 
 ```csharp
-[JsonProperty("isDictationDoNotDisturbInPptEnabled")]
-public bool IsDictationDoNotDisturbInPptEnabled { get; set; }
+[JsonProperty("isDictationDoNotDisturbInPPTEnabled")]
+public bool IsDictationDoNotDisturbInPPTEnabled { get; set; }
 ```
 
 #### Property Value

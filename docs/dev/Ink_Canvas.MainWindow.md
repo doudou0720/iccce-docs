@@ -1334,10 +1334,10 @@ public void ExitApplication(object sender, RoutedEventArgs e)
 
 路由事件参数
 
-### <a id="Ink_Canvas_MainWindow_ExitPptPresentation"></a> ExitPptPresentation\(\)
+### <a id="Ink_Canvas_MainWindow_ExitPPTPresentation"></a> ExitPPTPresentation\(\)
 
 ```csharp
-public Task ExitPptPresentation()
+public Task ExitPPTPresentation()
 ```
 
 #### Returns

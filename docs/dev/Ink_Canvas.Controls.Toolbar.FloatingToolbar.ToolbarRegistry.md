@@ -363,7 +363,7 @@ public static void SetUseRedStyle(FrameworkElement element, bool value)
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_UpdateVisibilityByMode_System_Windows_Controls_Panel_System_Boolean_System_Boolean_"></a> UpdateVisibilityByMode\(Panel, bool, bool\)
 
 ```csharp
-public static void UpdateVisibilityByMode(Panel rootPanel, bool isAnnotating, bool isPptMode)
+public static void UpdateVisibilityByMode(Panel rootPanel, bool isAnnotating, bool isPPTMode)
 ```
 
 #### Parameters
@@ -372,5 +372,5 @@ public static void UpdateVisibilityByMode(Panel rootPanel, bool isAnnotating, bo
 
 `isAnnotating` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-`isPptMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isPPTMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -422,11 +422,11 @@ public bool IsAutoKillInkCanvas { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Automation_IsAutoKillPptService"></a> IsAutoKillPptService
+### <a id="Ink_Canvas_Automation_IsAutoKillPPTService"></a> IsAutoKillPPTService
 
 ```csharp
-[JsonProperty("isAutoKillPptService")]
-public bool IsAutoKillPptService { get; set; }
+[JsonProperty("isAutoKillPPTService")]
+public bool IsAutoKillPPTService { get; set; }
 ```
 
 #### Property Value

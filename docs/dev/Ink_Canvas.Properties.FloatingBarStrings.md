@@ -1054,10 +1054,10 @@ public static string MiniWhiteboard_Settings_Opacity { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Settings_SyncPpt"></a> MiniWhiteboard\_Settings\_SyncPpt
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Settings_SyncPPT"></a> MiniWhiteboard\_Settings\_SyncPPT
 
 ```csharp
-public static string MiniWhiteboard_Settings_SyncPpt { get; }
+public static string MiniWhiteboard_Settings_SyncPPT { get; }
 ```
 
 #### Property Value
@@ -1174,10 +1174,10 @@ public static string ToolbarCondition_Collapsed { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarCondition_PptMode"></a> ToolbarCondition\_PptMode
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarCondition_PPTMode"></a> ToolbarCondition\_PPTMode
 
 ```csharp
-public static string ToolbarCondition_PptMode { get; }
+public static string ToolbarCondition_PPTMode { get; }
 ```
 
 #### Property Value

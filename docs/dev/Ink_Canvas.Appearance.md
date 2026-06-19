@@ -464,6 +464,17 @@ public bool ShowGrabHandleChevron { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Appearance_ShowPenColorOnFloatingBarIcon"></a> ShowPenColorOnFloatingBarIcon
+
+```csharp
+[JsonProperty("showPenColorOnFloatingBarIcon")]
+public bool ShowPenColorOnFloatingBarIcon { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Appearance_SplashScreenStyle"></a> SplashScreenStyle
 
 ```csharp

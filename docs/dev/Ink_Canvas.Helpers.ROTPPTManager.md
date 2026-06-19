@@ -137,6 +137,22 @@ Performs application-defined tasks associated with freeing, releasing, or resett
 public void Dispose()
 ```
 
+### <a id="Ink_Canvas_Helpers_ROTPPTManager_ExportSlideThumbnails_System_Int32_System_Int32_"></a> ExportSlideThumbnails\(int, int\)
+
+```csharp
+public List<PPTSlideThumbnail> ExportSlideThumbnails(int width, int height)
+```
+
+#### Parameters
+
+`width` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+`height` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+#### Returns
+
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PPTSlideThumbnail](Ink\_Canvas.Helpers.PPTSlideThumbnail.md)\>
+
 ### <a id="Ink_Canvas_Helpers_ROTPPTManager_GetCurrentActivePresentation"></a> GetCurrentActivePresentation\(\)
 
 获取当前活跃的演示文稿
@@ -159,12 +175,12 @@ public int GetCurrentSlideNumber()
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="Ink_Canvas_Helpers_ROTPPTManager_GetPptHwnd"></a> GetPptHwnd\(\)
+### <a id="Ink_Canvas_Helpers_ROTPPTManager_GetPPTHwnd"></a> GetPPTHwnd\(\)
 
 获取PPT窗口句柄
 
 ```csharp
-public IntPtr GetPptHwnd()
+public IntPtr GetPPTHwnd()
 ```
 
 #### Returns

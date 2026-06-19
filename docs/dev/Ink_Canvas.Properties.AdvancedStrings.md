@@ -104,20 +104,20 @@ public static string Debug_IconSettings { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PptComProbe_Desc"></a> Debug\_PptComProbe\_Desc
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PPTComProbe_Desc"></a> Debug\_PPTComProbe\_Desc
 
 ```csharp
-public static string Debug_PptComProbe_Desc { get; }
+public static string Debug_PPTComProbe_Desc { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PptComProbe_Header"></a> Debug\_PptComProbe\_Header
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PPTComProbe_Header"></a> Debug\_PPTComProbe\_Header
 
 ```csharp
-public static string Debug_PptComProbe_Header { get; }
+public static string Debug_PPTComProbe_Header { get; }
 ```
 
 #### Property Value

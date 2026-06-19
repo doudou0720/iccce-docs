@@ -1,4 +1,4 @@
-# <a id="Ink_Canvas_WorkflowAutomation_Rules_IsPptSlideshowRule"></a> Class IsPptSlideshowRule
+# <a id="Ink_Canvas_WorkflowAutomation_Rules_IsPPTSlideshowRule"></a> Class IsPPTSlideshowRule
 
 Namespace: [Ink\_Canvas.WorkflowAutomation.Rules](Ink\_Canvas.WorkflowAutomation.Rules.md)  
 Assembly: InkCanvasForClass.dll  
@@ -6,13 +6,13 @@ Assembly: InkCanvasForClass.dll
 判断当前是否处于PPT放映模式的规则。
 
 ```csharp
-public static class IsPptSlideshowRule
+public static class IsPPTSlideshowRule
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[IsPptSlideshowRule](Ink\_Canvas.WorkflowAutomation.Rules.IsPptSlideshowRule.md)
+[IsPPTSlideshowRule](Ink\_Canvas.WorkflowAutomation.Rules.IsPPTSlideshowRule.md)
 
 #### Inherited Members
 
@@ -26,7 +26,7 @@ public static class IsPptSlideshowRule
 
 ## Fields
 
-### <a id="Ink_Canvas_WorkflowAutomation_Rules_IsPptSlideshowRule_RuleId"></a> RuleId
+### <a id="Ink_Canvas_WorkflowAutomation_Rules_IsPPTSlideshowRule_RuleId"></a> RuleId
 
 ```csharp
 public const string RuleId = "inkcanvas.ispptslideshow"
@@ -38,7 +38,7 @@ public const string RuleId = "inkcanvas.ispptslideshow"
 
 ## Methods
 
-### <a id="Ink_Canvas_WorkflowAutomation_Rules_IsPptSlideshowRule_Evaluate_System_Object_"></a> Evaluate\(object\)
+### <a id="Ink_Canvas_WorkflowAutomation_Rules_IsPPTSlideshowRule_Evaluate_System_Object_"></a> Evaluate\(object\)
 
 ```csharp
 public static bool Evaluate(object settings)
@@ -52,7 +52,7 @@ public static bool Evaluate(object settings)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_WorkflowAutomation_Rules_IsPptSlideshowRule_Register"></a> Register\(\)
+### <a id="Ink_Canvas_WorkflowAutomation_Rules_IsPPTSlideshowRule_Register"></a> Register\(\)
 
 ```csharp
 public static RuleRegistryInfo Register()

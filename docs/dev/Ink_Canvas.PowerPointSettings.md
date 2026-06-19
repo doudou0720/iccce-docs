@@ -288,6 +288,17 @@ public int PPTLSButtonPosition { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_PowerPointSettings_PPTLinkMode"></a> PPTLinkMode
+
+```csharp
+[JsonProperty("pptLinkMode")]
+public PPTLinkMode PPTLinkMode { get; set; }
+```
+
+#### Property Value
+
+ [PPTLinkMode](Ink\_Canvas.PPTLinkMode.md)
+
 ### <a id="Ink_Canvas_PowerPointSettings_PPTNavBarScale"></a> PPTNavBarScale
 
 ```csharp
@@ -458,17 +469,6 @@ public bool ShowPPTSidebarByDefault { get; set; }
 ```csharp
 [JsonProperty("skipAnimationsWhenGoNext")]
 public bool SkipAnimationsWhenGoNext { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-### <a id="Ink_Canvas_PowerPointSettings_UseRotPptLink"></a> UseRotPptLink
-
-```csharp
-[JsonProperty("useRotPptLink")]
-public bool UseRotPptLink { get; set; }
 ```
 
 #### Property Value

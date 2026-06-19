@@ -100,20 +100,20 @@ public ToolbarRuleset Clone()
 
  [ToolbarRuleset](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRuleset.md)
 
-### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleset_PptAnnotationOnly"></a> PptAnnotationOnly\(\)
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleset_PPTAnnotationOnly"></a> PPTAnnotationOnly\(\)
 
 ```csharp
-public static ToolbarRuleset PptAnnotationOnly()
+public static ToolbarRuleset PPTAnnotationOnly()
 ```
 
 #### Returns
 
  [ToolbarRuleset](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRuleset.md)
 
-### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleset_PptOnly"></a> PptOnly\(\)
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleset_PPTOnly"></a> PPTOnly\(\)
 
 ```csharp
-public static ToolbarRuleset PptOnly()
+public static ToolbarRuleset PPTOnly()
 ```
 
 #### Returns

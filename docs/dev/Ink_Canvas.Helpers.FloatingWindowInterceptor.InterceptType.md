@@ -53,25 +53,25 @@ AiClass 桌面悬浮窗
 
 
 
-`ChangYanPptFloating = 18` 
+`ChangYanPPTFloating = 18` 
 
 畅言智慧课堂 PPT悬浮窗
 
 
 
-`ChangYanPptGoBack = 20` 
+`ChangYanPPTGoBack = 20` 
 
 畅言智慧课堂 PPT返回
 
 
 
-`ChangYanPptPageControl = 19` 
+`ChangYanPPTPageControl = 19` 
 
 畅言智慧课堂 PPT页面控制
 
 
 
-`ChangYanPptPreview = 21` 
+`ChangYanPPTPreview = 21` 
 
 畅言智慧课堂 PPT预览
 
@@ -107,7 +107,7 @@ AiClass 桌面悬浮窗
 
 
 
-`IntelligentClassPptFloating = 23` 
+`IntelligentClassPPTFloating = 23` 
 
 天喻教育云互动课堂 PPT悬浮窗
 

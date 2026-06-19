@@ -994,16 +994,6 @@ public static string Oobe_SummaryPPTLink { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryPptLink"></a> Oobe\_SummaryPptLink
-
-```csharp
-public static string Oobe_SummaryPptLink { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryTelemetryLevel"></a> Oobe\_SummaryTelemetryLevel
 
 ```csharp

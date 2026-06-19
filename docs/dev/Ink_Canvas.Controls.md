@@ -60,6 +60,12 @@ LabeledSettingsCard
 
 LabeledToggleSwitch
 
+ [PPTNavBar](Ink\_Canvas.Controls.PPTNavBar.md)
+
+PPT 翻页 + 增强预览一体化控件。
+通过 <xref href="Ink_Canvas.Controls.PPTNavBar.Direction" data-throw-if-not-resolved="false"></xref> 切换底部条 (LB/RB) 与侧边条 (LS/RS) 布局,
+预览列表内嵌于同一个 Border,展开时占据按钮组之外的剩余空间。
+
  [PdfEmbeddedView](Ink\_Canvas.Controls.PdfEmbeddedView.md)
 
 画布上的多页 PDF：仅显示当前页；翻页与页码由主窗口 PDF 侧栏控制（无 XAML 文件）。
@@ -88,13 +94,7 @@ PopupTabTitleBar
 
 PopupTitleBar
 
- [PptNavBar](Ink\_Canvas.Controls.PptNavBar.md)
-
-PPT 翻页 + 增强预览一体化控件。
-通过 <xref href="Ink_Canvas.Controls.PptNavBar.Direction" data-throw-if-not-resolved="false"></xref> 切换底部条 (LB/RB) 与侧边条 (LS/RS) 布局,
-预览列表内嵌于同一个 Border,展开时占据按钮组之外的剩余空间。
-
- [PptNavBar.PreviewItem](Ink\_Canvas.Controls.PptNavBar.PreviewItem.md)
+ [PPTNavBar.PreviewItem](Ink\_Canvas.Controls.PPTNavBar.PreviewItem.md)
 
  [QuickColorPaletteControl](Ink\_Canvas.Controls.QuickColorPaletteControl.md)
 
@@ -133,5 +133,5 @@ ToolbarImageButton
 
  [ImageResizeCorner](Ink\_Canvas.Controls.ImageResizeCorner.md)
 
- [PptNavBar.NavDirection](Ink\_Canvas.Controls.PptNavBar.NavDirection.md)
+ [PPTNavBar.NavDirection](Ink\_Canvas.Controls.PPTNavBar.NavDirection.md)
 

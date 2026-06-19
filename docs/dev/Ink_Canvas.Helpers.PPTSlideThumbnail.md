@@ -1,18 +1,16 @@
-# <a id="Ink_Canvas_WorkflowAutomation_ActionHandlers_ResetPptPositionActionSettings"></a> Class ResetPptPositionActionSettings
+# <a id="Ink_Canvas_Helpers_PPTSlideThumbnail"></a> Class PPTSlideThumbnail
 
-Namespace: [Ink\_Canvas.WorkflowAutomation.ActionHandlers](Ink\_Canvas.WorkflowAutomation.ActionHandlers.md)  
+Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)  
 Assembly: InkCanvasForClass.dll  
 
-重置工具栏在PPT模式的位置的行动设置
-
 ```csharp
-public class ResetPptPositionActionSettings
+public sealed class PPTSlideThumbnail
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[ResetPptPositionActionSettings](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetPptPositionActionSettings.md)
+[PPTSlideThumbnail](Ink\_Canvas.Helpers.PPTSlideThumbnail.md)
 
 #### Inherited Members
 
@@ -20,7 +18,28 @@ public class ResetPptPositionActionSettings
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
 [object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
 [object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+
+## Properties
+
+### <a id="Ink_Canvas_Helpers_PPTSlideThumbnail_PngBytes"></a> PngBytes
+
+```csharp
+public byte[] PngBytes { get; set; }
+```
+
+#### Property Value
+
+ [byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]
+
+### <a id="Ink_Canvas_Helpers_PPTSlideThumbnail_SlideNumber"></a> SlideNumber
+
+```csharp
+public int SlideNumber { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -1,10 +1,10 @@
-# <a id="Ink_Canvas_Controls_PptNavBar_NavDirection"></a> Enum PptNavBar.NavDirection
+# <a id="Ink_Canvas_Controls_PPTNavBar_NavDirection"></a> Enum PPTNavBar.NavDirection
 
 Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)  
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public enum PptNavBar.NavDirection
+public enum PPTNavBar.NavDirection
 ```
 
 ## Fields

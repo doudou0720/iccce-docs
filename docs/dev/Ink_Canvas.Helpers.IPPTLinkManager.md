@@ -75,6 +75,22 @@ int SlidesCount { get; }
 
 ## Methods
 
+### <a id="Ink_Canvas_Helpers_IPPTLinkManager_ExportSlideThumbnails_System_Int32_System_Int32_"></a> ExportSlideThumbnails\(int, int\)
+
+```csharp
+List<PPTSlideThumbnail> ExportSlideThumbnails(int width, int height)
+```
+
+#### Parameters
+
+`width` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+`height` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+#### Returns
+
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PPTSlideThumbnail](Ink\_Canvas.Helpers.PPTSlideThumbnail.md)\>
+
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_GetCurrentActivePresentation"></a> GetCurrentActivePresentation\(\)
 
 ```csharp

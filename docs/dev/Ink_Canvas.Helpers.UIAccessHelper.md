@@ -43,15 +43,11 @@ public static bool HasUIAccess()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Helpers_UIAccessHelper_LaunchNormalUserWithUIAccessFromElevatedHelper_System_UInt32_"></a> LaunchNormalUserWithUIAccessFromElevatedHelper\(uint\)
+### <a id="Ink_Canvas_Helpers_UIAccessHelper_LaunchNormalUserWithUIAccessFromElevatedHelper"></a> LaunchNormalUserWithUIAccessFromElevatedHelper\(\)
 
 ```csharp
-public static bool LaunchNormalUserWithUIAccessFromElevatedHelper(uint sourcePid = 0)
+public static bool LaunchNormalUserWithUIAccessFromElevatedHelper()
 ```
-
-#### Parameters
-
-`sourcePid` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 #### Returns
 
@@ -78,17 +74,15 @@ public static bool RestartAsNormalUser(string extraArgs = null)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Helpers_UIAccessHelper_RestartAsNormalUserWithUIAccess_System_String_System_UInt32_"></a> RestartAsNormalUserWithUIAccess\(string, uint\)
+### <a id="Ink_Canvas_Helpers_UIAccessHelper_RestartAsNormalUserWithUIAccess_System_String_"></a> RestartAsNormalUserWithUIAccess\(string\)
 
 ```csharp
-public static bool RestartAsNormalUserWithUIAccess(string extraArgs = null, uint sourcePid = 0)
+public static bool RestartAsNormalUserWithUIAccess(string extraArgs = null)
 ```
 
 #### Parameters
 
 `extraArgs` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-`sourcePid` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 #### Returns
 

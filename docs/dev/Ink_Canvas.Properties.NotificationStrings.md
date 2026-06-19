@@ -144,20 +144,20 @@ public static string DictationDoNotDisturbHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_NotificationStrings_DictationDoNotDisturbPpt"></a> DictationDoNotDisturbPpt
+### <a id="Ink_Canvas_Properties_NotificationStrings_DictationDoNotDisturbPPT"></a> DictationDoNotDisturbPPT
 
 ```csharp
-public static string DictationDoNotDisturbPpt { get; }
+public static string DictationDoNotDisturbPPT { get; }
 ```
 
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_NotificationStrings_DictationDoNotDisturbPptHint"></a> DictationDoNotDisturbPptHint
+### <a id="Ink_Canvas_Properties_NotificationStrings_DictationDoNotDisturbPPTHint"></a> DictationDoNotDisturbPPTHint
 
 ```csharp
-public static string DictationDoNotDisturbPptHint { get; }
+public static string DictationDoNotDisturbPPTHint { get; }
 ```
 
 #### Property Value

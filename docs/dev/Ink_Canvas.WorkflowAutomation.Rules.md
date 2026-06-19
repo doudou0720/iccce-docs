@@ -26,11 +26,21 @@
 
 浮动栏已折叠规则设置
 
- [IsPptSlideshowRule](Ink\_Canvas.WorkflowAutomation.Rules.IsPptSlideshowRule.md)
+ [IsForegroundWhiteboardRule](Ink\_Canvas.WorkflowAutomation.Rules.IsForegroundWhiteboardRule.md)
+
+判断前台窗口是否为 ICC-CE 白板的规则。
+当 ICC-CE 处于白板模式（currentMode == 1）且主窗口可见时返回真。
+此规则不依赖 GetForegroundWindow()，因此在无焦点模式（WS_EX_NOACTIVATE）下也能正常工作。
+
+ [IsForegroundWhiteboardRuleSettings](Ink\_Canvas.WorkflowAutomation.Rules.IsForegroundWhiteboardRuleSettings.md)
+
+前台窗口是 ICC-CE 白板规则设置
+
+ [IsPPTSlideshowRule](Ink\_Canvas.WorkflowAutomation.Rules.IsPPTSlideshowRule.md)
 
 判断当前是否处于PPT放映模式的规则。
 
- [IsPptSlideshowRuleSettings](Ink\_Canvas.WorkflowAutomation.Rules.IsPptSlideshowRuleSettings.md)
+ [IsPPTSlideshowRuleSettings](Ink\_Canvas.WorkflowAutomation.Rules.IsPPTSlideshowRuleSettings.md)
 
 PPT放映中规则设置
 

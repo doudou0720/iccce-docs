@@ -1,26 +1,26 @@
-# <a id="Ink_Canvas_WorkflowAutomation_Triggers_PptSlideShowEnterTrigger"></a> Class PptSlideShowEnterTrigger
+# <a id="Ink_Canvas_WorkflowAutomation_Triggers_PPTSlideShowTrigger"></a> Class PPTSlideShowTrigger
 
 Namespace: [Ink\_Canvas.WorkflowAutomation.Triggers](Ink\_Canvas.WorkflowAutomation.Triggers.md)  
 Assembly: InkCanvasForClass.dll  
 
-进入PPT放映模式时触发的触发器。
+当 PPT 进入放映模式时触发的触发器。
 通过 SystemEventMonitor 的进程和窗口事件驱动，无需独立轮询。
 
 ```csharp
-[TriggerInfo("inkcanvas.pptslideshowenter", "进入PPT放映", "Presentation")]
-public class PptSlideShowEnterTrigger : TriggerBase<PptSlideShowEnterSettings>
+[TriggerInfo("inkcanvas.pptslideshow", "PPT放映检测", "Presentation")]
+public class PPTSlideShowTrigger : TriggerBase<PPTSlideShowSettings>
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [TriggerBase](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase.md) ← 
-[TriggerBase<PptSlideShowEnterSettings\>](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase\-1.md) ← 
-[PptSlideShowEnterTrigger](Ink\_Canvas.WorkflowAutomation.Triggers.PptSlideShowEnterTrigger.md)
+[TriggerBase<PPTSlideShowSettings\>](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase\-1.md) ← 
+[PPTSlideShowTrigger](Ink\_Canvas.WorkflowAutomation.Triggers.PPTSlideShowTrigger.md)
 
 #### Inherited Members
 
-[TriggerBase<PptSlideShowEnterSettings\>.Settings](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase\-1.md\#Ink\_Canvas\_WorkflowAutomation\_Abstractions\_TriggerBase\_1\_Settings), 
+[TriggerBase<PPTSlideShowSettings\>.Settings](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase\-1.md\#Ink\_Canvas\_WorkflowAutomation\_Abstractions\_TriggerBase\_1\_Settings), 
 [TriggerBase.Trigger\(\)](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase.md\#Ink\_Canvas\_WorkflowAutomation\_Abstractions\_TriggerBase\_Trigger), 
 [TriggerBase.TriggerRevert\(\)](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase.md\#Ink\_Canvas\_WorkflowAutomation\_Abstractions\_TriggerBase\_TriggerRevert), 
 [TriggerBase.Loaded\(\)](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase.md\#Ink\_Canvas\_WorkflowAutomation\_Abstractions\_TriggerBase\_Loaded), 
@@ -36,7 +36,7 @@ public class PptSlideShowEnterTrigger : TriggerBase<PptSlideShowEnterSettings>
 
 ## Methods
 
-### <a id="Ink_Canvas_WorkflowAutomation_Triggers_PptSlideShowEnterTrigger_Loaded"></a> Loaded\(\)
+### <a id="Ink_Canvas_WorkflowAutomation_Triggers_PPTSlideShowTrigger_Loaded"></a> Loaded\(\)
 
 当此触发器被加载到工作流上时，调用此方法。
 
@@ -44,7 +44,7 @@ public class PptSlideShowEnterTrigger : TriggerBase<PptSlideShowEnterSettings>
 public override void Loaded()
 ```
 
-### <a id="Ink_Canvas_WorkflowAutomation_Triggers_PptSlideShowEnterTrigger_UnLoaded"></a> UnLoaded\(\)
+### <a id="Ink_Canvas_WorkflowAutomation_Triggers_PPTSlideShowTrigger_UnLoaded"></a> UnLoaded\(\)
 
 当此触发器被从工作流上卸载时，调用此方法。
 

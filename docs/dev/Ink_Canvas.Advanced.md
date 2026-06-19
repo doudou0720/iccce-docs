@@ -266,11 +266,11 @@ public bool IsNoFocusMode { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Advanced_IsPptComDebugProbeEnabled"></a> IsPptComDebugProbeEnabled
+### <a id="Ink_Canvas_Advanced_IsPPTComDebugProbeEnabled"></a> IsPPTComDebugProbeEnabled
 
 ```csharp
-[JsonProperty("isPptComDebugProbeEnabled")]
-public bool IsPptComDebugProbeEnabled { get; set; }
+[JsonProperty("isPPTComDebugProbeEnabled")]
+public bool IsPPTComDebugProbeEnabled { get; set; }
 ```
 
 #### Property Value

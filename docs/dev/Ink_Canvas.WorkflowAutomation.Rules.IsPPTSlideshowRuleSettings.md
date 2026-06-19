@@ -1,4 +1,4 @@
-# <a id="Ink_Canvas_WorkflowAutomation_Rules_IsPptSlideshowRuleSettings"></a> Class IsPptSlideshowRuleSettings
+# <a id="Ink_Canvas_WorkflowAutomation_Rules_IsPPTSlideshowRuleSettings"></a> Class IsPPTSlideshowRuleSettings
 
 Namespace: [Ink\_Canvas.WorkflowAutomation.Rules](Ink\_Canvas.WorkflowAutomation.Rules.md)  
 Assembly: InkCanvasForClass.dll  
@@ -6,13 +6,13 @@ Assembly: InkCanvasForClass.dll
 PPT放映中规则设置
 
 ```csharp
-public class IsPptSlideshowRuleSettings
+public class IsPPTSlideshowRuleSettings
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[IsPptSlideshowRuleSettings](Ink\_Canvas.WorkflowAutomation.Rules.IsPptSlideshowRuleSettings.md)
+[IsPPTSlideshowRuleSettings](Ink\_Canvas.WorkflowAutomation.Rules.IsPPTSlideshowRuleSettings.md)
 
 #### Inherited Members
 

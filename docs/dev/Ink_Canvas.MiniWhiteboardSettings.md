@@ -112,11 +112,11 @@ public double PenWidth { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="Ink_Canvas_MiniWhiteboardSettings_SyncWithPptPages"></a> SyncWithPptPages
+### <a id="Ink_Canvas_MiniWhiteboardSettings_SyncWithPPTPages"></a> SyncWithPPTPages
 
 ```csharp
-[JsonProperty("syncWithPptPages")]
-public bool SyncWithPptPages { get; set; }
+[JsonProperty("syncWithPPTPages")]
+public bool SyncWithPPTPages { get; set; }
 ```
 
 #### Property Value
