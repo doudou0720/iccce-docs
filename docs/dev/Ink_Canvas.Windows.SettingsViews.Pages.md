@@ -152,6 +152,8 @@ ToolbarMenuPage
 
  [ToolbarPage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarPage.md)
 
+ToolbarPage
+
  [UpdatePage](Ink\_Canvas.Windows.SettingsViews.Pages.UpdatePage.md)
 
  [UserInfo](Ink\_Canvas.Windows.SettingsViews.Pages.UserInfo.md)

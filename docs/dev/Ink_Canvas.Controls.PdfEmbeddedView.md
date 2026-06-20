@@ -4,6 +4,7 @@ Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)
 Assembly: InkCanvasForClass.dll  
 
 画布上的多页 PDF：仅显示当前页；翻页与页码由主窗口 PDF 侧栏控制（无 XAML 文件）。
+支持墨迹跟随 PDF 翻页——每页的墨迹独立存储/恢复。
 
 ```csharp
 public class PdfEmbeddedView : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
@@ -686,6 +687,18 @@ public PdfEmbeddedView()
 
 ## Properties
 
+### <a id="Ink_Canvas_Controls_PdfEmbeddedView_ApplyStrokes"></a> ApplyStrokes
+
+将字节数组墨迹恢复到 inkCanvas（由主窗口注入）。
+
+```csharp
+public Action<byte[]> ApplyStrokes { get; set; }
+```
+
+#### Property Value
+
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]\>
+
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_CanGoNext"></a> CanGoNext
 
 ```csharp
@@ -706,6 +719,30 @@ public bool CanGoPrevious { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Controls_PdfEmbeddedView_CaptureStrokes"></a> CaptureStrokes
+
+捕获当前 inkCanvas 墨迹为字节数组（由主窗口注入）。
+
+```csharp
+public Func<byte[]> CaptureStrokes { get; set; }
+```
+
+#### Property Value
+
+ [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]\>
+
+### <a id="Ink_Canvas_Controls_PdfEmbeddedView_ClearAllStrokes"></a> ClearAllStrokes
+
+清除 inkCanvas 上所有墨迹（由主窗口注入，含 timeMachine 清理）。
+
+```csharp
+public Action ClearAllStrokes { get; set; }
+```
+
+#### Property Value
+
+ [Action](https://learn.microsoft.com/dotnet/api/system.action)
+
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_CurrentPageIndex"></a> CurrentPageIndex
 
 ```csharp
@@ -715,6 +752,18 @@ public uint CurrentPageIndex { get; }
 #### Property Value
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+### <a id="Ink_Canvas_Controls_PdfEmbeddedView_EnableStrokesPersistence"></a> EnableStrokesPersistence
+
+是否在翻页时保存/恢复墨迹（由调用方在初始化后设置，默认 true）。
+
+```csharp
+public bool EnableStrokesPersistence { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_PageCount"></a> PageCount
 

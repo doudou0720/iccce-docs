@@ -797,6 +797,18 @@ public static bool CloseIsFromButton
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_MainWindow_CompactFloatingBarScaleFactor"></a> CompactFloatingBarScaleFactor
+
+紧凑模式浮动栏整体缩放倍率（相对用户设置的倍率再缩小至此比例，保持纵横比）。
+
+```csharp
+public const double CompactFloatingBarScaleFactor = 0.85
+```
+
+#### Field Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_MainWindow_IsShowingRestoreHiddenSlidesWindow"></a> IsShowingRestoreHiddenSlidesWindow
 
 指示是否正在显示恢复隐藏幻灯片的窗口

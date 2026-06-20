@@ -142,6 +142,16 @@ public static void OnChickenSoupPositionChanged()
 public static void OnChickenSoupSourceChanged()
 ```
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnCompactFloatingBarChanged_System_Boolean_"></a> OnCompactFloatingBarChanged\(bool\)
+
+```csharp
+public static void OnCompactFloatingBarChanged(bool isOn)
+```
+
+#### Parameters
+
+`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnCurveSmoothingModeChanged_System_Boolean_System_Boolean_"></a> OnCurveSmoothingModeChanged\(bool, bool\)
 
 ```csharp

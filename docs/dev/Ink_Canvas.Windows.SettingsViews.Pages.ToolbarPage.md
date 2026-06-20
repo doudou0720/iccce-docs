@@ -3,8 +3,10 @@
 Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
 
+ToolbarPage
+
 ```csharp
-public class ToolbarPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IDropTarget
+public class ToolbarPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IDropTarget, IComponentConnector, IStyleConnector
 ```
 
 #### Inheritance
@@ -27,7 +29,9 @@ public class ToolbarPage : Page, IAnimatable, ISupportInitialize, IFrameworkInpu
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
 [IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
-IDropTarget
+IDropTarget, 
+[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector), 
+[IStyleConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.istyleconnector)
 
 #### Inherited Members
 
@@ -794,4 +798,12 @@ public void Drop(IDropInfo dropInfo)
 `dropInfo` IDropInfo
 
 Object which contains several drop information.
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_InitializeComponent"></a> InitializeComponent\(\)
+
+InitializeComponent
+
+```csharp
+public void InitializeComponent()
+```
 

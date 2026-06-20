@@ -69,6 +69,7 @@ PPT 翻页 + 增强预览一体化控件。
  [PdfEmbeddedView](Ink\_Canvas.Controls.PdfEmbeddedView.md)
 
 画布上的多页 PDF：仅显示当前页；翻页与页码由主窗口 PDF 侧栏控制（无 XAML 文件）。
+支持墨迹跟随 PDF 翻页——每页的墨迹独立存储/恢复。
 
  [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 

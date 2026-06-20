@@ -831,6 +831,18 @@ public double LabelFontSize { get; set; }
 
 ## Methods
 
+### <a id="Ink_Canvas_Controls_ToolbarImageButton_ApplyCompactMode_System_Boolean_"></a> ApplyCompactMode\(bool\)
+
+应用紧凑浮动栏模式：开启后隐藏常驻文字标签，并让图标在保持纵横比的前提下拉伸填满空出的区域。
+
+```csharp
+public void ApplyCompactMode(bool compact)
+```
+
+#### Parameters
+
+`compact` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Controls_ToolbarImageButton_ApplyOrientation_System_Boolean_"></a> ApplyOrientation\(bool\)
 
 ```csharp

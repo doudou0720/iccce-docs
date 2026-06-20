@@ -123,6 +123,17 @@ public int ChickenSoupSource { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Appearance_CompactFloatingBar"></a> CompactFloatingBar
+
+```csharp
+[JsonProperty("compactFloatingBar")]
+public bool CompactFloatingBar { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Appearance_CustomFloatingBarImgs"></a> CustomFloatingBarImgs
 
 ```csharp
