@@ -22,3 +22,8 @@
 
  [WindowSettingsHelper](Ink\_Canvas.Windows.SettingsViews.Helpers.WindowSettingsHelper.md)
 
+ [WrapPanelAutoResize](Ink\_Canvas.Windows.SettingsViews.Helpers.WrapPanelAutoResize.md)
+
+让 WrapPanel 根据容器宽度自动计算 ItemWidth，使元素均匀撑满。
+用法：WrapPanelAutoResize.TargetWidth="225"
+

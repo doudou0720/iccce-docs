@@ -64,6 +64,8 @@ public Stroke Stroke { get; set; }
 
 ### <a id="Ink_Canvas_Helpers_StrokeVisual_Add_System_Windows_Input_StylusPoint_"></a> Add\(StylusPoint\)
 
+在笔迹中添加点
+
 ```csharp
 public void Add(StylusPoint point)
 ```

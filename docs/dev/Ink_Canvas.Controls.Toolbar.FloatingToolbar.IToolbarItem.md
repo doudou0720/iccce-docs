@@ -59,6 +59,16 @@ string DisplayName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_IconGeometry"></a> IconGeometry
+
+```csharp
+string IconGeometry { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_Id"></a> Id
 
 ```csharp

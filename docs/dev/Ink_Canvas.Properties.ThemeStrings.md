@@ -514,6 +514,26 @@ public static string Theme_GroupTitle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HideFloatingBarBorder"></a> Theme\_HideFloatingBarBorder
+
+```csharp
+public static string Theme_HideFloatingBarBorder { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HideFloatingBarBorderHint"></a> Theme\_HideFloatingBarBorderHint
+
+```csharp
+public static string Theme_HideFloatingBarBorderHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HitokotoCategory_Animation"></a> Theme\_HitokotoCategory\_Animation
 
 ```csharp

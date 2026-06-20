@@ -76,6 +76,16 @@ public string DisplayName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_IconGeometry"></a> IconGeometry
+
+```csharp
+public string IconGeometry { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_Id"></a> Id
 
 ```csharp

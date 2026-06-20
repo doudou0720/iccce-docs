@@ -1,0 +1,134 @@
+# <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper"></a> Class TouchAwareDragDropHelper
+
+Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)  
+Assembly: InkCanvasForClass.dll  
+
+基于 ClassIsland 2.0 AVA 拖动思路的触屏感知拖拽辅助类。
+
+<p>参考 ClassIsland 2.0 的 PointerStateAssist + TouchDragThumb + AdvancedItemDragBehavior 架构：</p>
+<p>- 窗口/控件级检测输入设备类型（鼠标/触屏）</p>
+<p>- 触屏模式下显示拖动按钮（grip handle），鼠标模式下隐藏</p>
+<p>- 触屏模式下只有从 grip handle 发起的按下才能触发拖动，否则事件交给 ScrollViewer 处理滑动</p>
+<p>用法：</p>
+<p>1. 在 ItemsControl 上设置 touch:TouchAwareDragDropHelper.IsEnabled="True"</p>
+<p>2. 在 ItemTemplate 中的拖动图标上设置 touch:TouchAwareDragDropHelper.IsGripHandle="True"</p>
+
+```csharp
+public static class TouchAwareDragDropHelper
+```
+
+#### Inheritance
+
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[TouchAwareDragDropHelper](Ink\_Canvas.Helpers.TouchAwareDragDropHelper.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+
+## Fields
+
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_IsEnabledProperty"></a> IsEnabledProperty
+
+```csharp
+public static readonly DependencyProperty IsEnabledProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_IsGripHandleProperty"></a> IsGripHandleProperty
+
+```csharp
+public static readonly DependencyProperty IsGripHandleProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_IsTouchModeProperty"></a> IsTouchModeProperty
+
+```csharp
+public static readonly DependencyProperty IsTouchModeProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+## Methods
+
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_GetIsEnabled_System_Windows_DependencyObject_"></a> GetIsEnabled\(DependencyObject\)
+
+```csharp
+public static bool GetIsEnabled(DependencyObject obj)
+```
+
+#### Parameters
+
+`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_GetIsGripHandle_System_Windows_DependencyObject_"></a> GetIsGripHandle\(DependencyObject\)
+
+```csharp
+public static bool GetIsGripHandle(DependencyObject obj)
+```
+
+#### Parameters
+
+`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_GetIsTouchMode_System_Windows_DependencyObject_"></a> GetIsTouchMode\(DependencyObject\)
+
+```csharp
+public static bool GetIsTouchMode(DependencyObject obj)
+```
+
+#### Parameters
+
+`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_SetIsEnabled_System_Windows_DependencyObject_System_Boolean_"></a> SetIsEnabled\(DependencyObject, bool\)
+
+```csharp
+public static void SetIsEnabled(DependencyObject obj, bool value)
+```
+
+#### Parameters
+
+`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+
+`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_SetIsGripHandle_System_Windows_DependencyObject_System_Boolean_"></a> SetIsGripHandle\(DependencyObject, bool\)
+
+```csharp
+public static void SetIsGripHandle(DependencyObject obj, bool value)
+```
+
+#### Parameters
+
+`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+
+`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+

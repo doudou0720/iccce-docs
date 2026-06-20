@@ -308,6 +308,16 @@ public static void OnFloatingWindowInterceptorRuleChanged(string ruleKey, bool i
 public static void OnHardwareAccelerationChanged()
 ```
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnHideFloatingBarBorderChanged_System_Boolean_"></a> OnHideFloatingBarBorderChanged\(bool\)
+
+```csharp
+public static void OnHideFloatingBarBorderChanged(bool isOn)
+```
+
+#### Parameters
+
+`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnInkToShapeEnabledChanged_System_Boolean_"></a> OnInkToShapeEnabledChanged\(bool\)
 
 ```csharp

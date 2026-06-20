@@ -485,6 +485,8 @@
     href: Ink_Canvas.Helpers.TimeMachine.md
   - name: TimeMachineHistory
     href: Ink_Canvas.Helpers.TimeMachineHistory.md
+  - name: TouchAwareDragDropHelper
+    href: Ink_Canvas.Helpers.TouchAwareDragDropHelper.md
   - name: UIAccessHelper
     href: Ink_Canvas.Helpers.UIAccessHelper.md
   - name: UploadHelper
@@ -792,6 +794,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Helpers.TopMostModeTemplateSelector.md
   - name: WindowSettingsHelper
     href: Ink_Canvas.Windows.SettingsViews.Helpers.WindowSettingsHelper.md
+  - name: WrapPanelAutoResize
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.WrapPanelAutoResize.md
 - name: Ink_Canvas.Windows.SettingsViews.Pages
   href: Ink_Canvas.Windows.SettingsViews.Pages.md
   items:
@@ -828,6 +832,14 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.BoardGroupNameConverter.md
   - name: BoardIdToDisplayNameConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.BoardIdToDisplayNameConverter.md
+  - name: BoardIdToIconGeometryConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardIdToIconGeometryConverter.md
+  - name: BoardIdToIconKeyConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardIdToIconKeyConverter.md
+  - name: BoardIdToIconVisibilityConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardIdToIconVisibilityConverter.md
+  - name: BoardMenuItemIdToIconGeometryConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToIconGeometryConverter.md
   - name: BoardMenuItemIdToNameConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToNameConverter.md
   - name: BoardMenuPage
@@ -868,12 +880,16 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.HotkeyPage.md
   - name: IdToDisplayNameConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.IdToDisplayNameConverter.md
+  - name: IdToIconGeometryConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.IdToIconGeometryConverter.md
   - name: InkRecognitionPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.InkRecognitionPage.md
   - name: InputDialog
     href: Ink_Canvas.Windows.SettingsViews.Pages.InputDialog.md
   - name: LogicalModeToIntConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.LogicalModeToIntConverter.md
+  - name: MenuItemIdToIconGeometryConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.MenuItemIdToIconGeometryConverter.md
   - name: MenuItemIdToNameConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.MenuItemIdToNameConverter.md
   - name: NotificationPage
@@ -904,6 +920,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.StateToBrushConverter.md
   - name: StoragePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.StoragePage.md
+  - name: StringToGeometryConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.StringToGeometryConverter.md
   - name: ToolbarAppearancePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.ToolbarAppearancePage.md
   - name: ToolbarMenuPage

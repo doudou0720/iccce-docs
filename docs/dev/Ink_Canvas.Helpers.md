@@ -220,6 +220,18 @@ Main-window base that can use WindowChrome for DWM-backed transparent rendering.
 
  [TimeMachineHistory](Ink\_Canvas.Helpers.TimeMachineHistory.md)
 
+ [TouchAwareDragDropHelper](Ink\_Canvas.Helpers.TouchAwareDragDropHelper.md)
+
+基于 ClassIsland 2.0 AVA 拖动思路的触屏感知拖拽辅助类。
+
+<p>参考 ClassIsland 2.0 的 PointerStateAssist + TouchDragThumb + AdvancedItemDragBehavior 架构：</p>
+<p>- 窗口/控件级检测输入设备类型（鼠标/触屏）</p>
+<p>- 触屏模式下显示拖动按钮（grip handle），鼠标模式下隐藏</p>
+<p>- 触屏模式下只有从 grip handle 发起的按下才能触发拖动，否则事件交给 ScrollViewer 处理滑动</p>
+<p>用法：</p>
+<p>1. 在 ItemsControl 上设置 touch:TouchAwareDragDropHelper.IsEnabled="True"</p>
+<p>2. 在 ItemTemplate 中的拖动图标上设置 touch:TouchAwareDragDropHelper.IsGripHandle="True"</p>
+
  [UIAccessHelper](Ink\_Canvas.Helpers.UIAccessHelper.md)
 
 通过 Winlogon 令牌模拟实现 UIAccess 提权重启。
@@ -297,9 +309,9 @@ WebDav上传工具类
 
  [EdgeGestureUtil.PropertyKey](Ink\_Canvas.Helpers.EdgeGestureUtil.PropertyKey.md)
 
- [PPTManager.RECT](Ink\_Canvas.Helpers.PPTManager.RECT.md)
-
  [ROTPPTManager.RECT](Ink\_Canvas.Helpers.ROTPPTManager.RECT.md)
+
+ [PPTManager.RECT](Ink\_Canvas.Helpers.PPTManager.RECT.md)
 
  [WindowRect](Ink\_Canvas.Helpers.WindowRect.md)
 

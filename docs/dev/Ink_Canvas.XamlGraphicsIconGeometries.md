@@ -57,6 +57,18 @@ public static string ClipGeometry24x24
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_XamlGraphicsIconGeometries_ColorPaletteIconGeometry"></a> ColorPaletteIconGeometry
+
+快捷调色盘图标
+
+```csharp
+public static string ColorPaletteIconGeometry
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_CursorWithDelFloatingBarBtnIcon"></a> CursorWithDelFloatingBarBtnIcon
 
 鼠并清
@@ -151,6 +163,18 @@ public static string FoldIcon
 
 ```csharp
 public static string FreezeIconGeometry
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_XamlGraphicsIconGeometries_GroupIconGeometry"></a> GroupIconGeometry
+
+分组图标
+
+```csharp
+public static string GroupIconGeometry
 ```
 
 #### Field Value
@@ -537,6 +561,18 @@ public static string OpenIconGeometry
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_XamlGraphicsIconGeometries_PageInfoIconGeometry"></a> PageInfoIconGeometry
+
+页码图标
+
+```csharp
+public static string PageInfoIconGeometry
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_RandomDrawIconGeometry"></a> RandomDrawIconGeometry
 
 ```csharp
@@ -581,6 +617,18 @@ public static string SaveIconGeometry
 
 ```csharp
 public static string ScreenshotIconGeometry
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_XamlGraphicsIconGeometries_SeparatorIconGeometry"></a> SeparatorIconGeometry
+
+分割线图标
+
+```csharp
+public static string SeparatorIconGeometry
 ```
 
 #### Field Value

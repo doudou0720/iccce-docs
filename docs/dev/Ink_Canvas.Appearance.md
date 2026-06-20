@@ -288,6 +288,17 @@ public double FloatingBarMenuOpacityInPPT { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_Appearance_HideFloatingBarBorder"></a> HideFloatingBarBorder
+
+```csharp
+[JsonProperty("hideFloatingBarBorder")]
+public bool HideFloatingBarBorder { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Appearance_HitokotoCategories"></a> HitokotoCategories
 
 ```csharp

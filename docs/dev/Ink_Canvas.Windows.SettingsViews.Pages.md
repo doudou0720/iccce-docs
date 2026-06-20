@@ -38,6 +38,14 @@ AnnouncementCenterPage
 
  [BoardIdToDisplayNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardIdToDisplayNameConverter.md)
 
+ [BoardIdToIconGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardIdToIconGeometryConverter.md)
+
+ [BoardIdToIconKeyConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardIdToIconKeyConverter.md)
+
+ [BoardIdToIconVisibilityConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardIdToIconVisibilityConverter.md)
+
+ [BoardMenuItemIdToIconGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToIconGeometryConverter.md)
+
  [BoardMenuItemIdToNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToNameConverter.md)
 
  [BoardMenuPage](Ink\_Canvas.Windows.SettingsViews.Pages.BoardMenuPage.md)
@@ -94,11 +102,15 @@ HomePage
 
  [IdToDisplayNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.IdToDisplayNameConverter.md)
 
+ [IdToIconGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Pages.IdToIconGeometryConverter.md)
+
  [InkRecognitionPage](Ink\_Canvas.Windows.SettingsViews.Pages.InkRecognitionPage.md)
 
  [InputDialog](Ink\_Canvas.Windows.SettingsViews.Pages.InputDialog.md)
 
  [LogicalModeToIntConverter](Ink\_Canvas.Windows.SettingsViews.Pages.LogicalModeToIntConverter.md)
+
+ [MenuItemIdToIconGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Pages.MenuItemIdToIconGeometryConverter.md)
 
  [MenuItemIdToNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.MenuItemIdToNameConverter.md)
 
@@ -143,6 +155,8 @@ StartupPage
  [StoragePage](Ink\_Canvas.Windows.SettingsViews.Pages.StoragePage.md)
 
 StoragePage
+
+ [StringToGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Pages.StringToGeometryConverter.md)
 
  [ToolbarAppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarAppearancePage.md)
 

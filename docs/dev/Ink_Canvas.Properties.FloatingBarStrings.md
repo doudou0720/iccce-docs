@@ -1834,6 +1834,16 @@ public static string ToolbarPage_Opacity { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_OpenConfigFolder"></a> ToolbarPage\_OpenConfigFolder
+
+```csharp
+public static string ToolbarPage_OpenConfigFolder { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_QuickPaletteDisplayModeDesc"></a> ToolbarPage\_QuickPaletteDisplayModeDesc
 
 ```csharp
@@ -1858,6 +1868,16 @@ public static string ToolbarPage_RedStyle { get; }
 
 ```csharp
 public static string ToolbarPage_RedStyleDesc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_RefreshProfile"></a> ToolbarPage\_RefreshProfile
+
+```csharp
+public static string ToolbarPage_RefreshProfile { get; }
 ```
 
 #### Property Value
