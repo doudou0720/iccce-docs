@@ -712,6 +712,16 @@ public BoardGroupChildrenDropHandler GroupDropHandler { get; }
 
  [BoardGroupChildrenDropHandler](Ink\_Canvas.Windows.SettingsViews.Pages.BoardGroupChildrenDropHandler.md)
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardToolbarPage_GroupListDropHandler"></a> GroupListDropHandler
+
+```csharp
+public BoardGroupListDropHandler GroupListDropHandler { get; }
+```
+
+#### Property Value
+
+ [BoardGroupListDropHandler](Ink\_Canvas.Windows.SettingsViews.Pages.BoardGroupListDropHandler.md)
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardToolbarPage_SelectedEntry"></a> SelectedEntry
 
 ```csharp

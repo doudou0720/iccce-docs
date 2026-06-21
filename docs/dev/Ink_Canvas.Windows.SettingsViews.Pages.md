@@ -34,6 +34,8 @@ AnnouncementCenterPage
 
  [BoardGroupChildrenDropHandler](Ink\_Canvas.Windows.SettingsViews.Pages.BoardGroupChildrenDropHandler.md)
 
+ [BoardGroupListDropHandler](Ink\_Canvas.Windows.SettingsViews.Pages.BoardGroupListDropHandler.md)
+
  [BoardGroupNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardGroupNameConverter.md)
 
  [BoardIdToDisplayNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardIdToDisplayNameConverter.md)
@@ -55,18 +57,6 @@ BoardMenuPage
  [BoardNullToVisibilityConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardNullToVisibilityConverter.md)
 
  [BoardPositionNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardPositionNameConverter.md)
-
- [BoardToolbarAreaPickerDialog](Ink\_Canvas.Windows.SettingsViews.Pages.BoardToolbarAreaPickerDialog.md)
-
-BoardToolbarAreaPickerDialog
-
- [BoardToolbarComponentPickerDialog](Ink\_Canvas.Windows.SettingsViews.Pages.BoardToolbarComponentPickerDialog.md)
-
-BoardToolbarComponentPickerDialog
-
- [BoardToolbarInputDialog](Ink\_Canvas.Windows.SettingsViews.Pages.BoardToolbarInputDialog.md)
-
-BoardToolbarInputDialog
 
  [BoardToolbarPage](Ink\_Canvas.Windows.SettingsViews.Pages.BoardToolbarPage.md)
 

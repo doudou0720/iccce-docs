@@ -44,6 +44,19 @@ public static readonly DependencyProperty IsEnabledProperty
 
  [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
 
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_IsExplicitVisibleProperty"></a> IsExplicitVisibleProperty
+
+是否强制始终显示 grip handle（不依赖触摸模式）。
+对应 ClassIsland 2.0 TouchDragThumb 的 IsExplicitVisible 属性。
+
+```csharp
+public static readonly DependencyProperty IsExplicitVisibleProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
 ### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_IsGripHandleProperty"></a> IsGripHandleProperty
 
 ```csharp
@@ -70,6 +83,20 @@ public static readonly DependencyProperty IsTouchModeProperty
 
 ```csharp
 public static bool GetIsEnabled(DependencyObject obj)
+```
+
+#### Parameters
+
+`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_GetIsExplicitVisible_System_Windows_DependencyObject_"></a> GetIsExplicitVisible\(DependencyObject\)
+
+```csharp
+public static bool GetIsExplicitVisible(DependencyObject obj)
 ```
 
 #### Parameters
@@ -112,6 +139,18 @@ public static bool GetIsTouchMode(DependencyObject obj)
 
 ```csharp
 public static void SetIsEnabled(DependencyObject obj, bool value)
+```
+
+#### Parameters
+
+`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+
+`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_SetIsExplicitVisible_System_Windows_DependencyObject_System_Boolean_"></a> SetIsExplicitVisible\(DependencyObject, bool\)
+
+```csharp
+public static void SetIsExplicitVisible(DependencyObject obj, bool value)
 ```
 
 #### Parameters

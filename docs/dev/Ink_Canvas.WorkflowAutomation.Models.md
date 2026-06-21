@@ -45,7 +45,7 @@
 
 ### Delegates
 
- [ActionRegistryInfo.HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
-
  [RuleRegistryInfo.HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)
+
+ [ActionRegistryInfo.HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
 
