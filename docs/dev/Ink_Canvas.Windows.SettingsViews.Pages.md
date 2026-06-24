@@ -40,21 +40,21 @@ AnnouncementCenterPage
 
  [BoardIdToDisplayNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardIdToDisplayNameConverter.md)
 
- [BoardIdToIconGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardIdToIconGeometryConverter.md)
-
  [BoardIdToIconKeyConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardIdToIconKeyConverter.md)
 
  [BoardIdToIconVisibilityConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardIdToIconVisibilityConverter.md)
 
- [BoardMenuItemIdToIconGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToIconGeometryConverter.md)
+ [BoardIdToPathDataConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardIdToPathDataConverter.md)
+
+将白板工具栏组件 Id 直接转换为 Path 可用的 Geometry 对象。
 
  [BoardMenuItemIdToNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToNameConverter.md)
+
+ [BoardMenuItemIdToPathDataConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToPathDataConverter.md)
 
  [BoardMenuPage](Ink\_Canvas.Windows.SettingsViews.Pages.BoardMenuPage.md)
 
 BoardMenuPage
-
- [BoardNullToVisibilityConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardNullToVisibilityConverter.md)
 
  [BoardPositionNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardPositionNameConverter.md)
 
@@ -94,19 +94,21 @@ HomePage
 
  [IdToIconGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Pages.IdToIconGeometryConverter.md)
 
+ [IdToPathDataConverter](Ink\_Canvas.Windows.SettingsViews.Pages.IdToPathDataConverter.md)
+
+将组件 Id 直接转换为 Path 可用的 Geometry 对象（组合 IdToIconGeometry + StringToGeometry 两步）。
+
  [InkRecognitionPage](Ink\_Canvas.Windows.SettingsViews.Pages.InkRecognitionPage.md)
 
  [InputDialog](Ink\_Canvas.Windows.SettingsViews.Pages.InputDialog.md)
 
  [LogicalModeToIntConverter](Ink\_Canvas.Windows.SettingsViews.Pages.LogicalModeToIntConverter.md)
 
- [MenuItemIdToIconGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Pages.MenuItemIdToIconGeometryConverter.md)
-
  [MenuItemIdToNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.MenuItemIdToNameConverter.md)
 
- [NotificationPage](Ink\_Canvas.Windows.SettingsViews.Pages.NotificationPage.md)
+ [MenuItemIdToPathDataConverter](Ink\_Canvas.Windows.SettingsViews.Pages.MenuItemIdToPathDataConverter.md)
 
- [NullToVisibilityConverter](Ink\_Canvas.Windows.SettingsViews.Pages.NullToVisibilityConverter.md)
+ [NotificationPage](Ink\_Canvas.Windows.SettingsViews.Pages.NotificationPage.md)
 
  [PerformancePage](Ink\_Canvas.Windows.SettingsViews.Pages.PerformancePage.md)
 
@@ -145,8 +147,6 @@ StartupPage
  [StoragePage](Ink\_Canvas.Windows.SettingsViews.Pages.StoragePage.md)
 
 StoragePage
-
- [StringToGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Pages.StringToGeometryConverter.md)
 
  [ToolbarAppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarAppearancePage.md)
 

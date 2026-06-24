@@ -364,6 +364,46 @@ public static string TopMostMode_UIA_RestartRequired { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_StartupStrings_UIAMode_Description"></a> UIAMode\_Description
+
+```csharp
+public static string UIAMode_Description { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_UIAMode_Label"></a> UIAMode\_Label
+
+```csharp
+public static string UIAMode_Label { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_UIAMode_ProcessToken"></a> UIAMode\_ProcessToken
+
+```csharp
+public static string UIAMode_ProcessToken { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_UIAMode_UserToken"></a> UIAMode\_UserToken
+
+```csharp
+public static string UIAMode_UserToken { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_StartupStrings_UpdateChannel"></a> UpdateChannel
 
 ```csharp

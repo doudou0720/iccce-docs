@@ -4,7 +4,16 @@
 
  [AutoStartHelper](Ink\_Canvas.Windows.SettingsViews.Helpers.AutoStartHelper.md)
 
+ [IdToPathDataConverterBase](Ink\_Canvas.Windows.SettingsViews.Helpers.IdToPathDataConverterBase.md)
+
+IdToPathData 转换器基类：将组件 Id 转换为 Path 可用的 Geometry 对象。
+子类只需提供 IdToIconGeometryString 转换逻辑。
+
  [MainWindowSettingsHelper](Ink\_Canvas.Windows.SettingsViews.Helpers.MainWindowSettingsHelper.md)
+
+ [NullToVisibilityConverter](Ink\_Canvas.Windows.SettingsViews.Helpers.NullToVisibilityConverter.md)
+
+null 值转 Visibility（null → Collapsed，非 null → Visible）。
 
  [SettingsActionHub](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsActionHub.md)
 
@@ -12,7 +21,15 @@
 
  [SettingsChangeRegistry](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsChangeRegistry.md)
 
+ [SettingsListItemHelper](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsListItemHelper.md)
+
+设置页面列表项共享辅助方法。
+
  [SettingsManager](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsManager.md)
+
+ [StringToGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Helpers.StringToGeometryConverter.md)
+
+将几何字符串转换为 Geometry 对象。
 
  [TopMostModeButtonItem](Ink\_Canvas.Windows.SettingsViews.Helpers.TopMostModeButtonItem.md)
 

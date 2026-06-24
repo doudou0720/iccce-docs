@@ -1,16 +1,18 @@
-# <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardMenuItemIdToIconGeometryConverter"></a> Class BoardMenuItemIdToIconGeometryConverter
+# <a id="Ink_Canvas_Windows_SettingsViews_Helpers_StringToGeometryConverter"></a> Class StringToGeometryConverter
 
-Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
+Namespace: [Ink\_Canvas.Windows.SettingsViews.Helpers](Ink\_Canvas.Windows.SettingsViews.Helpers.md)  
 Assembly: InkCanvasForClass.dll  
 
+将几何字符串转换为 Geometry 对象。
+
 ```csharp
-public class BoardMenuItemIdToIconGeometryConverter : IValueConverter
+public class StringToGeometryConverter : IValueConverter
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[BoardMenuItemIdToIconGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToIconGeometryConverter.md)
+[StringToGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Helpers.StringToGeometryConverter.md)
 
 #### Implements
 
@@ -28,7 +30,7 @@ public class BoardMenuItemIdToIconGeometryConverter : IValueConverter
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardMenuItemIdToIconGeometryConverter_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> Convert\(object, Type, object, CultureInfo\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_StringToGeometryConverter_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> Convert\(object, Type, object, CultureInfo\)
 
 Converts a value.
 
@@ -60,7 +62,7 @@ The culture to use in the converter.
 
 A converted value. If the method returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, the valid null value is used.
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardMenuItemIdToIconGeometryConverter_ConvertBack_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> ConvertBack\(object, Type, object, CultureInfo\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_StringToGeometryConverter_ConvertBack_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> ConvertBack\(object, Type, object, CultureInfo\)
 
 Converts a value.
 

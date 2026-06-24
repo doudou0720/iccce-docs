@@ -190,6 +190,8 @@ ScreenshotSelectorWindow
 
  [TrayClickAction](Ink\_Canvas.TrayClickAction.md)
 
+ [UIAMode](Ink\_Canvas.UIAMode.md)
+
  [UpdateChannel](Ink\_Canvas.UpdateChannel.md)
 
  [UpdatePackageArchitecture](Ink\_Canvas.UpdatePackageArchitecture.md)

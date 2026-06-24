@@ -376,6 +376,17 @@ public double TouchMultiplier { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_Advanced_UIAMode"></a> UIAMode
+
+```csharp
+[JsonProperty("uiaMode")]
+public UIAMode UIAMode { get; set; }
+```
+
+#### Property Value
+
+ [UIAMode](Ink\_Canvas.UIAMode.md)
+
 ### <a id="Ink_Canvas_Advanced_WindowMode"></a> WindowMode
 
 ```csharp

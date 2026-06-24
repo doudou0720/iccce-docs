@@ -1,16 +1,18 @@
-# <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardNullToVisibilityConverter"></a> Class BoardNullToVisibilityConverter
+# <a id="Ink_Canvas_Windows_SettingsViews_Helpers_NullToVisibilityConverter"></a> Class NullToVisibilityConverter
 
-Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
+Namespace: [Ink\_Canvas.Windows.SettingsViews.Helpers](Ink\_Canvas.Windows.SettingsViews.Helpers.md)  
 Assembly: InkCanvasForClass.dll  
 
+null 值转 Visibility（null → Collapsed，非 null → Visible）。
+
 ```csharp
-public class BoardNullToVisibilityConverter : IValueConverter
+public class NullToVisibilityConverter : IValueConverter
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[BoardNullToVisibilityConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardNullToVisibilityConverter.md)
+[NullToVisibilityConverter](Ink\_Canvas.Windows.SettingsViews.Helpers.NullToVisibilityConverter.md)
 
 #### Implements
 
@@ -28,7 +30,7 @@ public class BoardNullToVisibilityConverter : IValueConverter
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardNullToVisibilityConverter_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> Convert\(object, Type, object, CultureInfo\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_NullToVisibilityConverter_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> Convert\(object, Type, object, CultureInfo\)
 
 Converts a value.
 
@@ -60,7 +62,7 @@ The culture to use in the converter.
 
 A converted value. If the method returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, the valid null value is used.
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardNullToVisibilityConverter_ConvertBack_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> ConvertBack\(object, Type, object, CultureInfo\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_NullToVisibilityConverter_ConvertBack_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> ConvertBack\(object, Type, object, CultureInfo\)
 
 Converts a value.
 

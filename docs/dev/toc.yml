@@ -179,6 +179,8 @@
     href: Ink_Canvas.ToolbarPosition.md
   - name: TrayClickAction
     href: Ink_Canvas.TrayClickAction.md
+  - name: UIAMode
+    href: Ink_Canvas.UIAMode.md
   - name: UpdateChannel
     href: Ink_Canvas.UpdateChannel.md
   - name: UpdatePackageArchitecture
@@ -776,16 +778,24 @@
   - name: Classes
   - name: AutoStartHelper
     href: Ink_Canvas.Windows.SettingsViews.Helpers.AutoStartHelper.md
+  - name: IdToPathDataConverterBase
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.IdToPathDataConverterBase.md
   - name: MainWindowSettingsHelper
     href: Ink_Canvas.Windows.SettingsViews.Helpers.MainWindowSettingsHelper.md
+  - name: NullToVisibilityConverter
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.NullToVisibilityConverter.md
   - name: SettingsActionHub
     href: Ink_Canvas.Windows.SettingsViews.Helpers.SettingsActionHub.md
   - name: SettingsBinder
     href: Ink_Canvas.Windows.SettingsViews.Helpers.SettingsBinder.md
   - name: SettingsChangeRegistry
     href: Ink_Canvas.Windows.SettingsViews.Helpers.SettingsChangeRegistry.md
+  - name: SettingsListItemHelper
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.SettingsListItemHelper.md
   - name: SettingsManager
     href: Ink_Canvas.Windows.SettingsViews.Helpers.SettingsManager.md
+  - name: StringToGeometryConverter
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.StringToGeometryConverter.md
   - name: TopMostModeButtonItem
     href: Ink_Canvas.Windows.SettingsViews.Helpers.TopMostModeButtonItem.md
   - name: TopMostModeSelectionItem
@@ -834,20 +844,18 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.BoardGroupNameConverter.md
   - name: BoardIdToDisplayNameConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.BoardIdToDisplayNameConverter.md
-  - name: BoardIdToIconGeometryConverter
-    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardIdToIconGeometryConverter.md
   - name: BoardIdToIconKeyConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.BoardIdToIconKeyConverter.md
   - name: BoardIdToIconVisibilityConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.BoardIdToIconVisibilityConverter.md
-  - name: BoardMenuItemIdToIconGeometryConverter
-    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToIconGeometryConverter.md
+  - name: BoardIdToPathDataConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardIdToPathDataConverter.md
   - name: BoardMenuItemIdToNameConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToNameConverter.md
+  - name: BoardMenuItemIdToPathDataConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToPathDataConverter.md
   - name: BoardMenuPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.BoardMenuPage.md
-  - name: BoardNullToVisibilityConverter
-    href: Ink_Canvas.Windows.SettingsViews.Pages.BoardNullToVisibilityConverter.md
   - name: BoardPositionNameConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.BoardPositionNameConverter.md
   - name: BoardToolbarPage
@@ -878,20 +886,20 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.IdToDisplayNameConverter.md
   - name: IdToIconGeometryConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.IdToIconGeometryConverter.md
+  - name: IdToPathDataConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.IdToPathDataConverter.md
   - name: InkRecognitionPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.InkRecognitionPage.md
   - name: InputDialog
     href: Ink_Canvas.Windows.SettingsViews.Pages.InputDialog.md
   - name: LogicalModeToIntConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.LogicalModeToIntConverter.md
-  - name: MenuItemIdToIconGeometryConverter
-    href: Ink_Canvas.Windows.SettingsViews.Pages.MenuItemIdToIconGeometryConverter.md
   - name: MenuItemIdToNameConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.MenuItemIdToNameConverter.md
+  - name: MenuItemIdToPathDataConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.MenuItemIdToPathDataConverter.md
   - name: NotificationPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.NotificationPage.md
-  - name: NullToVisibilityConverter
-    href: Ink_Canvas.Windows.SettingsViews.Pages.NullToVisibilityConverter.md
   - name: PerformancePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.PerformancePage.md
   - name: PluginPage
@@ -916,8 +924,6 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.StateToBrushConverter.md
   - name: StoragePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.StoragePage.md
-  - name: StringToGeometryConverter
-    href: Ink_Canvas.Windows.SettingsViews.Pages.StringToGeometryConverter.md
   - name: ToolbarAppearancePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.ToolbarAppearancePage.md
   - name: ToolbarMenuPage

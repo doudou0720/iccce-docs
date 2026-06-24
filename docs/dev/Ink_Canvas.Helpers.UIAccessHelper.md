@@ -53,6 +53,20 @@ public static bool LaunchNormalUserWithUIAccessFromElevatedHelper()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Helpers_UIAccessHelper_LaunchNormalUserWithUIAccessFromElevatedHelper_ProcessToken_System_UInt32_"></a> LaunchNormalUserWithUIAccessFromElevatedHelper\_ProcessToken\(uint\)
+
+```csharp
+public static bool LaunchNormalUserWithUIAccessFromElevatedHelper_ProcessToken(uint sourcePid = 0)
+```
+
+#### Parameters
+
+`sourcePid` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Helpers_UIAccessHelper_RestartAsNormalUser_System_String_"></a> RestartAsNormalUser\(string\)
 
 以普通用户权限（非提升）重启自身。
@@ -83,6 +97,25 @@ public static bool RestartAsNormalUserWithUIAccess(string extraArgs = null)
 #### Parameters
 
 `extraArgs` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Helpers_UIAccessHelper_RestartAsNormalUserWithUIAccess_ProcessToken_System_String_System_UInt32_"></a> RestartAsNormalUserWithUIAccess\_ProcessToken\(string, uint\)
+
+以普通用户权限（非提升）重启自身，使用原进程令牌方案。
+优先从原始进程复制用户令牌，失败时回退到 explorer.exe/ctfmon.exe。
+
+```csharp
+public static bool RestartAsNormalUserWithUIAccess_ProcessToken(string extraArgs = null, uint sourcePid = 0)
+```
+
+#### Parameters
+
+`extraArgs` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`sourcePid` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 #### Returns
 

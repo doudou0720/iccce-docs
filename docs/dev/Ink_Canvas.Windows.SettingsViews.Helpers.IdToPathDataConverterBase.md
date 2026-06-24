@@ -1,16 +1,26 @@
-# <a id="Ink_Canvas_Windows_SettingsViews_Pages_MenuItemIdToIconGeometryConverter"></a> Class MenuItemIdToIconGeometryConverter
+# <a id="Ink_Canvas_Windows_SettingsViews_Helpers_IdToPathDataConverterBase"></a> Class IdToPathDataConverterBase
 
-Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
+Namespace: [Ink\_Canvas.Windows.SettingsViews.Helpers](Ink\_Canvas.Windows.SettingsViews.Helpers.md)  
 Assembly: InkCanvasForClass.dll  
 
+IdToPathData 转换器基类：将组件 Id 转换为 Path 可用的 Geometry 对象。
+子类只需提供 IdToIconGeometryString 转换逻辑。
+
 ```csharp
-public class MenuItemIdToIconGeometryConverter : IValueConverter
+public abstract class IdToPathDataConverterBase : IValueConverter
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[MenuItemIdToIconGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Pages.MenuItemIdToIconGeometryConverter.md)
+[IdToPathDataConverterBase](Ink\_Canvas.Windows.SettingsViews.Helpers.IdToPathDataConverterBase.md)
+
+#### Derived
+
+[BoardIdToPathDataConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardIdToPathDataConverter.md), 
+[BoardMenuItemIdToPathDataConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToPathDataConverter.md), 
+[IdToPathDataConverter](Ink\_Canvas.Windows.SettingsViews.Pages.IdToPathDataConverter.md), 
+[MenuItemIdToPathDataConverter](Ink\_Canvas.Windows.SettingsViews.Pages.MenuItemIdToPathDataConverter.md)
 
 #### Implements
 
@@ -28,12 +38,12 @@ public class MenuItemIdToIconGeometryConverter : IValueConverter
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_MenuItemIdToIconGeometryConverter_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> Convert\(object, Type, object, CultureInfo\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_IdToPathDataConverterBase_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> Convert\(object, Type, object, CultureInfo\)
 
 Converts a value.
 
 ```csharp
-public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+public virtual object Convert(object value, Type targetType, object parameter, CultureInfo culture)
 ```
 
 #### Parameters
@@ -60,7 +70,7 @@ The culture to use in the converter.
 
 A converted value. If the method returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, the valid null value is used.
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_MenuItemIdToIconGeometryConverter_ConvertBack_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> ConvertBack\(object, Type, object, CultureInfo\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_IdToPathDataConverterBase_ConvertBack_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> ConvertBack\(object, Type, object, CultureInfo\)
 
 Converts a value.
 
@@ -91,4 +101,18 @@ The culture to use in the converter.
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 A converted value. If the method returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>, the valid null value is used.
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_IdToPathDataConverterBase_ConvertIdToGeometryString_System_String_"></a> ConvertIdToGeometryString\(string\)
+
+```csharp
+protected abstract string ConvertIdToGeometryString(string id)
+```
+
+#### Parameters
+
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
