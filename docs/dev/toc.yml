@@ -886,6 +886,10 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.IdToDisplayNameConverter.md
   - name: IdToIconGeometryConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.IdToIconGeometryConverter.md
+  - name: IdToIconKeyConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.IdToIconKeyConverter.md
+  - name: IdToIconVisibilityConverter
+    href: Ink_Canvas.Windows.SettingsViews.Pages.IdToIconVisibilityConverter.md
   - name: IdToPathDataConverter
     href: Ink_Canvas.Windows.SettingsViews.Pages.IdToPathDataConverter.md
   - name: InkRecognitionPage

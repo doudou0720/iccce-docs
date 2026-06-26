@@ -19,13 +19,13 @@
 规则设置控件的基类。
 对齐 ClassIsland 的规则设置控件模式。
 
- [TriggerBase<T\>](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase\-1.md)
-
-带强类型设置的触发器基类。
-
  [TriggerBase](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase.md)
 
 自动化触发器基类。
+
+ [TriggerBase<T\>](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase\-1.md)
+
+带强类型设置的触发器基类。
 
  [TriggerInfoAttribute](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerInfoAttribute.md)
 

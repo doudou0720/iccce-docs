@@ -94,6 +94,10 @@ HomePage
 
  [IdToIconGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Pages.IdToIconGeometryConverter.md)
 
+ [IdToIconKeyConverter](Ink\_Canvas.Windows.SettingsViews.Pages.IdToIconKeyConverter.md)
+
+ [IdToIconVisibilityConverter](Ink\_Canvas.Windows.SettingsViews.Pages.IdToIconVisibilityConverter.md)
+
  [IdToPathDataConverter](Ink\_Canvas.Windows.SettingsViews.Pages.IdToPathDataConverter.md)
 
 将组件 Id 直接转换为 Path 可用的 Geometry 对象（组合 IdToIconGeometry + StringToGeometry 两步）。

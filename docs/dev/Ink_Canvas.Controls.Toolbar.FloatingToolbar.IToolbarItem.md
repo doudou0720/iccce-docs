@@ -69,6 +69,16 @@ string IconGeometry { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_IconKey"></a> IconKey
+
+```csharp
+FontIconData? IconKey { get; }
+```
+
+#### Property Value
+
+ [FontIconData](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Common/IconKeys/FontDictionary.cs)?
+
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_Id"></a> Id
 
 ```csharp
