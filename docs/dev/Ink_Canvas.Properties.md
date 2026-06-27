@@ -24,6 +24,8 @@
 
  [CrashStrings](Ink\_Canvas.Properties.CrashStrings.md)
 
+ [FeedbackStrings](Ink\_Canvas.Properties.FeedbackStrings.md)
+
  [FloatingBarStrings](Ink\_Canvas.Properties.FloatingBarStrings.md)
 
  [FriendlyLinksStrings](Ink\_Canvas.Properties.FriendlyLinksStrings.md)

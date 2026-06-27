@@ -393,6 +393,8 @@
     href: Ink_Canvas.Helpers.EdgeGestureUtil.md
   - name: ExternalCallerLauncher
     href: Ink_Canvas.Helpers.ExternalCallerLauncher.md
+  - name: FeedbackSanitizer
+    href: Ink_Canvas.Helpers.FeedbackSanitizer.md
   - name: FileAssociationManager
     href: Ink_Canvas.Helpers.FileAssociationManager.md
   - name: FloatingWindowInterceptor
@@ -445,6 +447,8 @@
     href: Ink_Canvas.Helpers.LrcLine.md
   - name: LrcParser
     href: Ink_Canvas.Helpers.LrcParser.md
+  - name: MicroBinClient
+    href: Ink_Canvas.Helpers.MicroBinClient.md
   - name: PPTAgentLinkManager
     href: Ink_Canvas.Helpers.PPTAgentLinkManager.md
   - name: PPTInkManager
@@ -664,6 +668,8 @@
     href: Ink_Canvas.Properties.ConfigStrings.md
   - name: CrashStrings
     href: Ink_Canvas.Properties.CrashStrings.md
+  - name: FeedbackStrings
+    href: Ink_Canvas.Properties.FeedbackStrings.md
   - name: FloatingBarStrings
     href: Ink_Canvas.Properties.FloatingBarStrings.md
   - name: FriendlyLinksStrings
@@ -766,6 +772,18 @@
   - name: Classes
   - name: WinUI3CloseButton
     href: Ink_Canvas.Windows.Controls.WinUI3CloseButton.md
+- name: Ink_Canvas.Windows.FeedbackPages
+  href: Ink_Canvas.Windows.FeedbackPages.md
+  items:
+  - name: Classes
+  - name: FeedbackPage1
+    href: Ink_Canvas.Windows.FeedbackPages.FeedbackPage1.md
+  - name: FeedbackPage2
+    href: Ink_Canvas.Windows.FeedbackPages.FeedbackPage2.md
+  - name: FeedbackPage3
+    href: Ink_Canvas.Windows.FeedbackPages.FeedbackPage3.md
+  - name: FeedbackWindow
+    href: Ink_Canvas.Windows.FeedbackPages.FeedbackWindow.md
 - name: Ink_Canvas.Windows.SettingsViews
   href: Ink_Canvas.Windows.SettingsViews.md
   items:

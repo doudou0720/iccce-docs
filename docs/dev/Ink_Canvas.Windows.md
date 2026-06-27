@@ -4,6 +4,8 @@
 
  [Ink\_Canvas.Windows.Controls](Ink\_Canvas.Windows.Controls.md)
 
+ [Ink\_Canvas.Windows.FeedbackPages](Ink\_Canvas.Windows.FeedbackPages.md)
+
  [Ink\_Canvas.Windows.SettingsViews](Ink\_Canvas.Windows.SettingsViews.md)
 
 ### Classes

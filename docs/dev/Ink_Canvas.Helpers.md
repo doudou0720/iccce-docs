@@ -64,6 +64,16 @@ Dlass上传队列
 
  [ExternalCallerLauncher](Ink\_Canvas.Helpers.ExternalCallerLauncher.md)
 
+ [FeedbackSanitizer](Ink\_Canvas.Helpers.FeedbackSanitizer.md)
+
+反馈数据脱敏处理器。
+对上传到 pastebin 的 JSON 数据进行脱敏，移除敏感配置。
+脱敏规则：
+- 设备 ID：保留原样
+- WebDAV 配置（URL、用户名、密码、根目录）：完全移除
+- DlassSettings 的 token 和 API 地址：移除
+- 密码哈希/盐值：移除
+
  [FileAssociationManager](Ink\_Canvas.Helpers.FileAssociationManager.md)
 
 文件关联管理器，用于注册和处理.icstk文件的关联
@@ -158,6 +168,14 @@ Represents a single lyric line with timing information.
  [LrcParser](Ink\_Canvas.Helpers.LrcParser.md)
 
 Parses standard LRC and translated LRC files.
+
+ [MicroBinClient](Ink\_Canvas.Helpers.MicroBinClient.md)
+
+MicroBin pastebin 客户端。
+
+MicroBin 没有 REST API，通过表单提交创建 paste：
+  POST /   — multipart/form-data, 字段 "content" = 文本
+  302 重定向到 paste 页面，从 Location 头获取 URL
 
  [PPTAgentLinkManager](Ink\_Canvas.Helpers.PPTAgentLinkManager.md)
 
@@ -310,9 +328,9 @@ WebDav上传工具类
 
  [EdgeGestureUtil.PropertyKey](Ink\_Canvas.Helpers.EdgeGestureUtil.PropertyKey.md)
 
- [ROTPPTManager.RECT](Ink\_Canvas.Helpers.ROTPPTManager.RECT.md)
-
  [PPTManager.RECT](Ink\_Canvas.Helpers.PPTManager.RECT.md)
+
+ [ROTPPTManager.RECT](Ink\_Canvas.Helpers.ROTPPTManager.RECT.md)
 
  [WindowRect](Ink\_Canvas.Helpers.WindowRect.md)
 
