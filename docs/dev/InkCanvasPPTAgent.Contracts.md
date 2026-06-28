@@ -8,6 +8,14 @@
 
  [GotoSlideRequest](InkCanvasPPTAgent.Contracts.GotoSlideRequest.md)
 
+ [MediaRegion](InkCanvasPPTAgent.Contracts.MediaRegion.md)
+
+PPT 幻灯片中的媒体控件区域（屏幕坐标，像素）
+
+ [MediaRegionsResponse](InkCanvasPPTAgent.Contracts.MediaRegionsResponse.md)
+
+VSTO 端返回的媒体区域列表及当前放映窗口句柄
+
  [PPTCommands](InkCanvasPPTAgent.Contracts.PPTCommands.md)
 
  [PPTEvents](InkCanvasPPTAgent.Contracts.PPTEvents.md)
