@@ -1717,20 +1717,6 @@ protected override void OnClosing(CancelEventArgs e)
 
 A <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
 
-### <a id="Ink_Canvas_MainWindow_OnMouseMove_System_Windows_Input_MouseEventArgs_"></a> OnMouseMove\(MouseEventArgs\)
-
-Invoked when an unhandled <xref href="System.Windows.Input.Mouse.MouseMove" data-throw-if-not-resolved="false"></xref> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.
-
-```csharp
-protected override void OnMouseMove(MouseEventArgs e)
-```
-
-#### Parameters
-
-`e` [MouseEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs)
-
-The <xref href="System.Windows.Input.MouseEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
-
 ### <a id="Ink_Canvas_MainWindow_OpenSingleStrokeFile_System_String_"></a> OpenSingleStrokeFile\(string\)
 
 打开单个墨迹文件

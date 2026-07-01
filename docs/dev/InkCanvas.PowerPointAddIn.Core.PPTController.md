@@ -46,16 +46,6 @@ public bool EndSlideShow()
 
  bool
 
-### <a id="InkCanvas_PowerPointAddIn_Core_PPTController_GetMediaRegions"></a> GetMediaRegions\(\)
-
-```csharp
-public MediaRegionsResponse GetMediaRegions()
-```
-
-#### Returns
-
- MediaRegionsResponse
-
 ### <a id="InkCanvas_PowerPointAddIn_Core_PPTController_GetState"></a> GetState\(\)
 
 ```csharp

@@ -24,17 +24,6 @@ public class PowerPointSettings
 
 ## Properties
 
-### <a id="Ink_Canvas_PowerPointSettings_EnableMediaPassthrough"></a> EnableMediaPassthrough
-
-```csharp
-[JsonProperty("enableMediaPassthrough")]
-public bool EnableMediaPassthrough { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 ### <a id="Ink_Canvas_PowerPointSettings_EnablePPTButtonEnhancedPreview"></a> EnablePPTButtonEnhancedPreview
 
 ```csharp

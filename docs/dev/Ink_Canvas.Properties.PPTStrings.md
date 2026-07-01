@@ -284,26 +284,6 @@ public static string LongPressPageTurnHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_PPTStrings_MediaPassthrough"></a> MediaPassthrough
-
-```csharp
-public static string MediaPassthrough { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_PPTStrings_MediaPassthroughHint"></a> MediaPassthroughHint
-
-```csharp
-public static string MediaPassthroughHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_PPTStrings_NotifyAutoPlay"></a> NotifyAutoPlay
 
 ```csharp

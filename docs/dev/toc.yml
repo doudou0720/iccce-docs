@@ -47,10 +47,6 @@
     href: InkCanvasPPTAgent.Contracts.ExportSlideThumbnailsResponse.md
   - name: GotoSlideRequest
     href: InkCanvasPPTAgent.Contracts.GotoSlideRequest.md
-  - name: MediaRegion
-    href: InkCanvasPPTAgent.Contracts.MediaRegion.md
-  - name: MediaRegionsResponse
-    href: InkCanvasPPTAgent.Contracts.MediaRegionsResponse.md
   - name: PPTCommands
     href: InkCanvasPPTAgent.Contracts.PPTCommands.md
   - name: PPTEvents

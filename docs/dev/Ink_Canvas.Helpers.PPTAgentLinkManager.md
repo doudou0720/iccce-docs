@@ -144,16 +144,6 @@ public int GetCurrentSlideNumber()
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="Ink_Canvas_Helpers_PPTAgentLinkManager_GetMediaRegions"></a> GetMediaRegions\(\)
-
-```csharp
-public MediaRegionsResponse GetMediaRegions()
-```
-
-#### Returns
-
- MediaRegionsResponse
-
 ### <a id="Ink_Canvas_Helpers_PPTAgentLinkManager_GetPresentationName"></a> GetPresentationName\(\)
 
 ```csharp

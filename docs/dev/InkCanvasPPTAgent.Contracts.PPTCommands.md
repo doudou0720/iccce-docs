@@ -54,16 +54,6 @@ public const string ExportSlideThumbnails = "exportSlideThumbnails"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="InkCanvasPPTAgent_Contracts_PPTCommands_GetMediaRegions"></a> GetMediaRegions
-
-```csharp
-public const string GetMediaRegions = "getMediaRegions"
-```
-
-#### Field Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="InkCanvasPPTAgent_Contracts_PPTCommands_GotoSlide"></a> GotoSlide
 
 ```csharp
