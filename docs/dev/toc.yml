@@ -63,6 +63,10 @@
     href: InkCanvasPPTAgent.Contracts.PipeConstants.md
   - name: PipeFrame
     href: InkCanvasPPTAgent.Contracts.PipeFrame.md
+  - name: SmartRegion
+    href: InkCanvasPPTAgent.Contracts.SmartRegion.md
+  - name: SmartRegionsResponse
+    href: InkCanvasPPTAgent.Contracts.SmartRegionsResponse.md
 - name: Ink_Canvas
   href: Ink_Canvas.md
   items:

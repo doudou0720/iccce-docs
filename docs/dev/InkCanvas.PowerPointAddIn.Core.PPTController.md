@@ -46,6 +46,16 @@ public bool EndSlideShow()
 
  bool
 
+### <a id="InkCanvas_PowerPointAddIn_Core_PPTController_GetSmartRegions"></a> GetSmartRegions\(\)
+
+```csharp
+public SmartRegionsResponse GetSmartRegions()
+```
+
+#### Returns
+
+ SmartRegionsResponse
+
 ### <a id="InkCanvas_PowerPointAddIn_Core_PPTController_GetState"></a> GetState\(\)
 
 ```csharp

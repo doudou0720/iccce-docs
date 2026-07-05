@@ -79,6 +79,17 @@ public bool EnablePowerPointEnhancement { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_PowerPointSettings_EnableSmartMode"></a> EnableSmartMode
+
+```csharp
+[JsonProperty("enableSmartMode")]
+public bool EnableSmartMode { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_PowerPointSettings_EnableWppProcessKill"></a> EnableWppProcessKill
 
 ```csharp

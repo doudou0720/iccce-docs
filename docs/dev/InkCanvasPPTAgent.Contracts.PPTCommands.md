@@ -54,6 +54,16 @@ public const string ExportSlideThumbnails = "exportSlideThumbnails"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="InkCanvasPPTAgent_Contracts_PPTCommands_GetSmartRegions"></a> GetSmartRegions
+
+```csharp
+public const string GetSmartRegions = "getSmartRegions"
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="InkCanvasPPTAgent_Contracts_PPTCommands_GotoSlide"></a> GotoSlide
 
 ```csharp

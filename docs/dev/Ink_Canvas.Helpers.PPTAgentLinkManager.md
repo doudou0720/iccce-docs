@@ -154,6 +154,16 @@ public string GetPresentationName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Helpers_PPTAgentLinkManager_GetSmartRegions"></a> GetSmartRegions\(\)
+
+```csharp
+public SmartRegionsResponse GetSmartRegions()
+```
+
+#### Returns
+
+ SmartRegionsResponse
+
 ### <a id="Ink_Canvas_Helpers_PPTAgentLinkManager_ReloadConnection"></a> ReloadConnection\(\)
 
 重新加载或重建与 PowerPoint 的连接。

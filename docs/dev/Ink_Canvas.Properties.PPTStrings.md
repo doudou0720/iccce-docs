@@ -724,6 +724,26 @@ public static string SkipAnimations { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_PPTStrings_SmartMode"></a> SmartMode
+
+```csharp
+public static string SmartMode { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_SmartModeHint"></a> SmartModeHint
+
+```csharp
+public static string SmartModeHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_PPTStrings_SupportPowerPoint"></a> SupportPowerPoint
 
 ```csharp

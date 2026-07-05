@@ -24,3 +24,11 @@
 
  [PipeFrame](InkCanvasPPTAgent.Contracts.PipeFrame.md)
 
+ [SmartRegion](InkCanvasPPTAgent.Contracts.SmartRegion.md)
+
+PPT 智慧模式：视频控件区域（坐标为原始 Shape 磅值，由主应用端做屏幕像素转换）
+
+ [SmartRegionsResponse](InkCanvasPPTAgent.Contracts.SmartRegionsResponse.md)
+
+PPT Agent / COM 返回的智慧模式区域列表及放映窗口信息
+
