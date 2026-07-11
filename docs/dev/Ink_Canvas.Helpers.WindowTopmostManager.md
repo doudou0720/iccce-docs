@@ -39,15 +39,17 @@ public static void ApplyMainWindowTopmost(Window mainWindow, bool isTopmost)
 
 `isTopmost` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Helpers_WindowTopmostManager_Initialize_System_Windows_Window_"></a> Initialize\(Window\)
+### <a id="Ink_Canvas_Helpers_WindowTopmostManager_Initialize_System_Windows_Window_System_Boolean_"></a> Initialize\(Window, bool\)
 
 ```csharp
-public static void Initialize(Window mainWindow)
+public static void Initialize(Window mainWindow, bool skipScan = false)
 ```
 
 #### Parameters
 
 `mainWindow` [Window](https://learn.microsoft.com/dotnet/api/system.windows.window)
+
+`skipScan` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_WindowTopmostManager_PauseTopmostMaintenance"></a> PauseTopmostMaintenance\(\)
 

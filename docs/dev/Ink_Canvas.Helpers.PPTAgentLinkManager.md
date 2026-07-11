@@ -108,10 +108,10 @@ Performs application-defined tasks associated with freeing, releasing, or resett
 public void Dispose()
 ```
 
-### <a id="Ink_Canvas_Helpers_PPTAgentLinkManager_ExportSlideThumbnails_System_Int32_System_Int32_"></a> ExportSlideThumbnails\(int, int\)
+### <a id="Ink_Canvas_Helpers_PPTAgentLinkManager_ExportSlideThumbnails_System_Int32_System_Int32_System_IProgress_System_Double__"></a> ExportSlideThumbnails\(int, int, IProgress<double\>\)
 
 ```csharp
-public List<PPTSlideThumbnail> ExportSlideThumbnails(int width, int height)
+public List<PPTSlideThumbnail> ExportSlideThumbnails(int width, int height, IProgress<double> progress = null)
 ```
 
 #### Parameters
@@ -119,6 +119,8 @@ public List<PPTSlideThumbnail> ExportSlideThumbnails(int width, int height)
 `width` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 `height` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+`progress` [IProgress](https://learn.microsoft.com/dotnet/api/system.iprogress\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
 #### Returns
 

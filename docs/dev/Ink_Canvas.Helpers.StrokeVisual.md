@@ -76,7 +76,8 @@ public void Add(StylusPoint point)
 
 ### <a id="Ink_Canvas_Helpers_StrokeVisual_ForceRedraw"></a> ForceRedraw\(\)
 
-强制重绘
+强制重绘。当点数回退（如停顿拉直替换 StylusPoints）时清除全部视觉重建；
+否则只清除活跃区段，保留已提交的视觉缓存。
 
 ```csharp
 public void ForceRedraw()

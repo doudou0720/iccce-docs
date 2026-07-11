@@ -1,12 +1,10 @@
-# <a id="Ink_Canvas_Windows_SettingsViews_Pages_AppearancePage"></a> Class AppearancePage
+# <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardTipsPage"></a> Class WhiteboardTipsPage
 
 Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
 
-AppearancePage
-
 ```csharp
-public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+public class WhiteboardTipsPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
 ```
 
 #### Inheritance
@@ -19,7 +17,7 @@ public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkI
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
 [Page](https://learn.microsoft.com/dotnet/api/system.windows.controls.page) ← 
 [Page](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs) ← 
-[AppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.AppearancePage.md)
+[WhiteboardTipsPage](Ink\_Canvas.Windows.SettingsViews.Pages.WhiteboardTipsPage.md)
 
 #### Implements
 
@@ -28,8 +26,7 @@ public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkI
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
-[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
+[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
 
 #### Inherited Members
 
@@ -651,19 +648,9 @@ public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkI
 
 ## Constructors
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AppearancePage__ctor"></a> AppearancePage\(\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardTipsPage__ctor"></a> WhiteboardTipsPage\(\)
 
 ```csharp
-public AppearancePage()
-```
-
-## Methods
-
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AppearancePage_InitializeComponent"></a> InitializeComponent\(\)
-
-InitializeComponent
-
-```csharp
-public void InitializeComponent()
+public WhiteboardTipsPage()
 ```
 

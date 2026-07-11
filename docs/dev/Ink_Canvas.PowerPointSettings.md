@@ -255,6 +255,83 @@ public int PPTButtonsDisplayOption { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_PowerPointSettings_PPTGlobalBlackBackground"></a> PPTGlobalBlackBackground
+
+```csharp
+[JsonProperty("pptGlobalBlackBackground")]
+public bool PPTGlobalBlackBackground { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTGlobalBottomButtonPosition"></a> PPTGlobalBottomButtonPosition
+
+```csharp
+[JsonProperty("pptGlobalBottomButtonPosition")]
+public int PPTGlobalBottomButtonPosition { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTGlobalButtonEnabled"></a> PPTGlobalButtonEnabled
+
+```csharp
+[JsonProperty("pptGlobalButtonEnabled")]
+public bool PPTGlobalButtonEnabled { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTGlobalButtonOpacity"></a> PPTGlobalButtonOpacity
+
+```csharp
+[JsonProperty("pptGlobalButtonOpacity")]
+public double PPTGlobalButtonOpacity { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTGlobalShowPageNumber"></a> PPTGlobalShowPageNumber
+
+```csharp
+[JsonProperty("pptGlobalShowPageNumber")]
+public bool PPTGlobalShowPageNumber { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTGlobalSideButtonPosition"></a> PPTGlobalSideButtonPosition
+
+```csharp
+[JsonProperty("pptGlobalSideButtonPosition")]
+public int PPTGlobalSideButtonPosition { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTLBBlackBackground"></a> PPTLBBlackBackground
+
+```csharp
+[JsonProperty("pptLBBlackBackground")]
+public bool PPTLBBlackBackground { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_PowerPointSettings_PPTLBButtonOpacity"></a> PPTLBButtonOpacity
 
 ```csharp
@@ -276,6 +353,50 @@ public int PPTLBButtonPosition { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTLBButtonScale"></a> PPTLBButtonScale
+
+```csharp
+[JsonProperty("pptLBButtonScale")]
+public double PPTLBButtonScale { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTLBShowPageNumber"></a> PPTLBShowPageNumber
+
+```csharp
+[JsonProperty("pptLBShowPageNumber")]
+public bool PPTLBShowPageNumber { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTLBUseGlobalSettings"></a> PPTLBUseGlobalSettings
+
+```csharp
+[JsonProperty("pptLBUseGlobalSettings")]
+public bool PPTLBUseGlobalSettings { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTLSBlackBackground"></a> PPTLSBlackBackground
+
+```csharp
+[JsonProperty("pptLSBlackBackground")]
+public bool PPTLSBlackBackground { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_PowerPointSettings_PPTLSButtonOpacity"></a> PPTLSButtonOpacity
 
@@ -299,6 +420,39 @@ public int PPTLSButtonPosition { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_PowerPointSettings_PPTLSButtonScale"></a> PPTLSButtonScale
+
+```csharp
+[JsonProperty("pptLSButtonScale")]
+public double PPTLSButtonScale { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTLSShowPageNumber"></a> PPTLSShowPageNumber
+
+```csharp
+[JsonProperty("pptLSShowPageNumber")]
+public bool PPTLSShowPageNumber { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTLSUseGlobalSettings"></a> PPTLSUseGlobalSettings
+
+```csharp
+[JsonProperty("pptLSUseGlobalSettings")]
+public bool PPTLSUseGlobalSettings { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_PowerPointSettings_PPTLinkMode"></a> PPTLinkMode
 
 ```csharp
@@ -320,6 +474,17 @@ public double PPTNavBarScale { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTRBBlackBackground"></a> PPTRBBlackBackground
+
+```csharp
+[JsonProperty("pptRBBlackBackground")]
+public bool PPTRBBlackBackground { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_PowerPointSettings_PPTRBButtonOpacity"></a> PPTRBButtonOpacity
 
@@ -343,6 +508,50 @@ public int PPTRBButtonPosition { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_PowerPointSettings_PPTRBButtonScale"></a> PPTRBButtonScale
+
+```csharp
+[JsonProperty("pptRBButtonScale")]
+public double PPTRBButtonScale { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTRBShowPageNumber"></a> PPTRBShowPageNumber
+
+```csharp
+[JsonProperty("pptRBShowPageNumber")]
+public bool PPTRBShowPageNumber { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTRBUseGlobalSettings"></a> PPTRBUseGlobalSettings
+
+```csharp
+[JsonProperty("pptRBUseGlobalSettings")]
+public bool PPTRBUseGlobalSettings { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTRSBlackBackground"></a> PPTRSBlackBackground
+
+```csharp
+[JsonProperty("pptRSBlackBackground")]
+public bool PPTRSBlackBackground { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_PowerPointSettings_PPTRSButtonOpacity"></a> PPTRSButtonOpacity
 
 ```csharp
@@ -364,6 +573,39 @@ public int PPTRSButtonPosition { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTRSButtonScale"></a> PPTRSButtonScale
+
+```csharp
+[JsonProperty("pptRSButtonScale")]
+public double PPTRSButtonScale { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTRSShowPageNumber"></a> PPTRSShowPageNumber
+
+```csharp
+[JsonProperty("pptRSShowPageNumber")]
+public bool PPTRSShowPageNumber { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_PowerPointSettings_PPTRSUseGlobalSettings"></a> PPTRSUseGlobalSettings
+
+```csharp
+[JsonProperty("pptRSUseGlobalSettings")]
+public bool PPTRSUseGlobalSettings { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_PowerPointSettings_PPTSButtonsOption"></a> PPTSButtonsOption
 
@@ -447,6 +689,17 @@ public bool PowerPointSupport { get; set; }
 ```csharp
 [JsonProperty("showPPTButton")]
 public bool ShowPPTButton { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_PowerPointSettings_ShowPPTEnhancedPreviewLoadingAnimation"></a> ShowPPTEnhancedPreviewLoadingAnimation
+
+```csharp
+[JsonProperty("showPPTEnhancedPreviewLoadingAnimation")]
+public bool ShowPPTEnhancedPreviewLoadingAnimation { get; set; }
 ```
 
 #### Property Value

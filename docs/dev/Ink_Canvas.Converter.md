@@ -2,6 +2,8 @@
 
 ### Classes
 
+ [BooleanToInverseBooleanConverter](Ink\_Canvas.Converter.BooleanToInverseBooleanConverter.md)
+
  [BooleanToVisibilityConverter](Ink\_Canvas.Converter.BooleanToVisibilityConverter.md)
 
  [IntNumberToString](Ink\_Canvas.Converter.IntNumberToString.md)

@@ -98,6 +98,16 @@ public int PPTLBButtonPosition { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Helpers_PPTUIManager_PPTLBButtonScale"></a> PPTLBButtonScale
+
+```csharp
+public double PPTLBButtonScale { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Helpers_PPTUIManager_PPTLSButtonOpacity"></a> PPTLSButtonOpacity
 
 ```csharp
@@ -117,6 +127,16 @@ public int PPTLSButtonPosition { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Helpers_PPTUIManager_PPTLSButtonScale"></a> PPTLSButtonScale
+
+```csharp
+public double PPTLSButtonScale { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_PPTUIManager_PPTNavBarScale"></a> PPTNavBarScale
 
@@ -148,6 +168,16 @@ public int PPTRBButtonPosition { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Helpers_PPTUIManager_PPTRBButtonScale"></a> PPTRBButtonScale
+
+```csharp
+public double PPTRBButtonScale { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Helpers_PPTUIManager_PPTRSButtonOpacity"></a> PPTRSButtonOpacity
 
 ```csharp
@@ -167,6 +197,16 @@ public int PPTRSButtonPosition { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Helpers_PPTUIManager_PPTRSButtonScale"></a> PPTRSButtonScale
+
+```csharp
+public double PPTRSButtonScale { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_PPTUIManager_PPTSButtonsOption"></a> PPTSButtonsOption
 

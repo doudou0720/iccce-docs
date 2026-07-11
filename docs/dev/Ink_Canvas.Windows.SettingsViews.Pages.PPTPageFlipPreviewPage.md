@@ -1,12 +1,12 @@
-# <a id="Ink_Canvas_Windows_SettingsViews_Pages_AppearancePage"></a> Class AppearancePage
+# <a id="Ink_Canvas_Windows_SettingsViews_Pages_PPTPageFlipPreviewPage"></a> Class PPTPageFlipPreviewPage
 
 Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
 
-AppearancePage
+PPTPageFlipPreviewPage
 
 ```csharp
-public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+public class PPTPageFlipPreviewPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
 ```
 
 #### Inheritance
@@ -19,7 +19,7 @@ public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkI
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
 [Page](https://learn.microsoft.com/dotnet/api/system.windows.controls.page) ← 
 [Page](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs) ← 
-[AppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.AppearancePage.md)
+[PPTPageFlipPreviewPage](Ink\_Canvas.Windows.SettingsViews.Pages.PPTPageFlipPreviewPage.md)
 
 #### Implements
 
@@ -651,15 +651,15 @@ public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkI
 
 ## Constructors
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AppearancePage__ctor"></a> AppearancePage\(\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_PPTPageFlipPreviewPage__ctor"></a> PPTPageFlipPreviewPage\(\)
 
 ```csharp
-public AppearancePage()
+public PPTPageFlipPreviewPage()
 ```
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AppearancePage_InitializeComponent"></a> InitializeComponent\(\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_PPTPageFlipPreviewPage_InitializeComponent"></a> InitializeComponent\(\)
 
 InitializeComponent
 

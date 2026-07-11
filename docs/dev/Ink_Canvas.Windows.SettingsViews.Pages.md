@@ -16,6 +16,8 @@ AnnouncementCenterPage
 
  [AppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.AppearancePage.md)
 
+AppearancePage
+
  [AuthWithTokenResponse](Ink\_Canvas.Windows.SettingsViews.Pages.AuthWithTokenResponse.md)
 
  [AutomationPage](Ink\_Canvas.Windows.SettingsViews.Pages.AutomationPage.md)
@@ -114,6 +116,10 @@ HomePage
 
  [NotificationPage](Ink\_Canvas.Windows.SettingsViews.Pages.NotificationPage.md)
 
+ [PPTPageFlipPreviewPage](Ink\_Canvas.Windows.SettingsViews.Pages.PPTPageFlipPreviewPage.md)
+
+PPTPageFlipPreviewPage
+
  [PerformancePage](Ink\_Canvas.Windows.SettingsViews.Pages.PerformancePage.md)
 
  [PluginPage](Ink\_Canvas.Windows.SettingsViews.Pages.PluginPage.md)
@@ -142,6 +148,10 @@ RulesetLogicalMode 到 int 的转换器，用于 ComboBox SelectedIndex 绑定
 
 SettingsPage
 
+ [SidebarPage](Ink\_Canvas.Windows.SettingsViews.Pages.SidebarPage.md)
+
+SidebarPage
+
  [StartupPage](Ink\_Canvas.Windows.SettingsViews.Pages.StartupPage.md)
 
 StartupPage
@@ -167,6 +177,8 @@ ToolbarPage
  [UserInfo](Ink\_Canvas.Windows.SettingsViews.Pages.UserInfo.md)
 
  [WhiteboardInfo](Ink\_Canvas.Windows.SettingsViews.Pages.WhiteboardInfo.md)
+
+ [WhiteboardTipsPage](Ink\_Canvas.Windows.SettingsViews.Pages.WhiteboardTipsPage.md)
 
  [WindowPage](Ink\_Canvas.Windows.SettingsViews.Pages.WindowPage.md)
 

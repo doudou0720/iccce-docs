@@ -64,3 +64,29 @@ public static string[] PhigrosTips
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
+## Methods
+
+### <a id="Ink_Canvas_ChickenSoup_GetPresetSchemes"></a> GetPresetSchemes\(\)
+
+```csharp
+public static List<TipsScheme> GetPresetSchemes()
+```
+
+#### Returns
+
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[TipsScheme](Ink\_Canvas.TipsScheme.md)\>
+
+### <a id="Ink_Canvas_ChickenSoup_GetTipsFromPreset_System_String_"></a> GetTipsFromPreset\(string\)
+
+```csharp
+public static string[] GetTipsFromPreset(string presetId)
+```
+
+#### Parameters
+
+`presetId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+

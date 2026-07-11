@@ -46,6 +46,12 @@ public static string SettingsFileName { get; }
 
 ## Methods
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsManager_MigrateChickenSoupSettings"></a> MigrateChickenSoupSettings\(\)
+
+```csharp
+public static void MigrateChickenSoupSettings()
+```
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsManager_ReadEnableWindowChromeRendering"></a> ReadEnableWindowChromeRendering\(\)
 
 ```csharp

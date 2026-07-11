@@ -1,12 +1,12 @@
-# <a id="Ink_Canvas_Windows_SettingsViews_Pages_AppearancePage"></a> Class AppearancePage
+# <a id="Ink_Canvas_Windows_SettingsViews_Pages_SidebarPage"></a> Class SidebarPage
 
 Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
 Assembly: InkCanvasForClass.dll  
 
-AppearancePage
+SidebarPage
 
 ```csharp
-public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+public class SidebarPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
 ```
 
 #### Inheritance
@@ -19,7 +19,7 @@ public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkI
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
 [Page](https://learn.microsoft.com/dotnet/api/system.windows.controls.page) ← 
 [Page](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs) ← 
-[AppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.AppearancePage.md)
+[SidebarPage](Ink\_Canvas.Windows.SettingsViews.Pages.SidebarPage.md)
 
 #### Implements
 
@@ -651,19 +651,39 @@ public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkI
 
 ## Constructors
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AppearancePage__ctor"></a> AppearancePage\(\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_SidebarPage__ctor"></a> SidebarPage\(\)
 
 ```csharp
-public AppearancePage()
+public SidebarPage()
 ```
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AppearancePage_InitializeComponent"></a> InitializeComponent\(\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_SidebarPage_InitializeComponent"></a> InitializeComponent\(\)
 
 InitializeComponent
 
 ```csharp
 public void InitializeComponent()
 ```
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_SidebarPage_NotifyBottomOffsetChanged_System_Double_"></a> NotifyBottomOffsetChanged\(double\)
+
+```csharp
+public static void NotifyBottomOffsetChanged(double val)
+```
+
+#### Parameters
+
+`val` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_SidebarPage_OnBottomOffsetChanged"></a> OnBottomOffsetChanged
+
+```csharp
+public static event Action<double> OnBottomOffsetChanged
+```
+
+#### Event Type
+
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 

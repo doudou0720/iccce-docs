@@ -277,6 +277,17 @@ public bool IsPPTComDebugProbeEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Advanced_IsPPTPageFlipPreviewVisible"></a> IsPPTPageFlipPreviewVisible
+
+```csharp
+[JsonProperty("isPPTPageFlipPreviewVisible")]
+public bool IsPPTPageFlipPreviewVisible { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Advanced_IsQuadIR"></a> IsQuadIR
 
 ```csharp

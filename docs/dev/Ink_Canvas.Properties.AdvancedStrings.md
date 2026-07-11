@@ -124,6 +124,26 @@ public static string Debug_PPTComProbe_Header { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PPTPreviewVisible_Desc"></a> Debug\_PPTPreviewVisible\_Desc
+
+```csharp
+public static string Debug_PPTPreviewVisible_Desc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PPTPreviewVisible_Header"></a> Debug\_PPTPreviewVisible\_Header
+
+```csharp
+public static string Debug_PPTPreviewVisible_Header { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_ResetStartupCount_Button"></a> Debug\_ResetStartupCount\_Button
 
 ```csharp

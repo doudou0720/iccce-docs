@@ -524,6 +524,26 @@ public static string Nav_Shortcuts { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_NavStrings_Nav_Sidebar"></a> Nav\_Sidebar
+
+```csharp
+public static string Nav_Sidebar { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_NavStrings_Nav_Sidebar_Tooltip"></a> Nav\_Sidebar\_Tooltip
+
+```csharp
+public static string Nav_Sidebar_Tooltip { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_NavStrings_Nav_Startup"></a> Nav\_Startup
 
 ```csharp
@@ -638,6 +658,26 @@ public static string Nav_Toolbar_Tooltip { get; }
 
 ```csharp
 public static string Nav_Update_Tooltip { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_NavStrings_Nav_WhiteboardTips"></a> Nav\_WhiteboardTips
+
+```csharp
+public static string Nav_WhiteboardTips { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_NavStrings_Nav_WhiteboardTips_Tooltip"></a> Nav\_WhiteboardTips\_Tooltip
+
+```csharp
+public static string Nav_WhiteboardTips_Tooltip { get; }
 ```
 
 #### Property Value

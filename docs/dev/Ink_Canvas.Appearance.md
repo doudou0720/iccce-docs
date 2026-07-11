@@ -101,6 +101,17 @@ public double BoardToolbarRightOpacity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_Appearance_ChickenSoupAutoRotationInterval"></a> ChickenSoupAutoRotationInterval
+
+```csharp
+[JsonProperty("chickenSoupAutoRotationInterval")]
+public int ChickenSoupAutoRotationInterval { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Ink_Canvas_Appearance_ChickenSoupPosition"></a> ChickenSoupPosition
 
 ```csharp
@@ -167,11 +178,33 @@ public int CustomSplashTextPosition { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Appearance_CustomTipsSchemes"></a> CustomTipsSchemes
+
+```csharp
+[JsonProperty("customTipsSchemes", NullValueHandling = NullValueHandling.Ignore)]
+public List<TipsScheme> CustomTipsSchemes { get; set; }
+```
+
+#### Property Value
+
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[TipsScheme](Ink\_Canvas.TipsScheme.md)\>
+
 ### <a id="Ink_Canvas_Appearance_DisableToolbarAnimation"></a> DisableToolbarAnimation
 
 ```csharp
 [JsonProperty("disableToolbarAnimation")]
 public bool DisableToolbarAnimation { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Appearance_EnableChickenSoupAutoRotation"></a> EnableChickenSoupAutoRotation
+
+```csharp
+[JsonProperty("enableChickenSoupAutoRotation")]
+public bool EnableChickenSoupAutoRotation { get; set; }
 ```
 
 #### Property Value
@@ -232,6 +265,17 @@ public bool EnableTrayIcon { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Appearance_EnabledPresetTipsSources"></a> EnabledPresetTipsSources
+
+```csharp
+[JsonProperty("enabledPresetTipsSources", NullValueHandling = NullValueHandling.Ignore)]
+public List<string> EnabledPresetTipsSources { get; set; }
+```
+
+#### Property Value
+
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Appearance_EraserDisplayOption"></a> EraserDisplayOption
 

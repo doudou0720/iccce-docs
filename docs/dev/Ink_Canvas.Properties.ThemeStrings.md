@@ -774,6 +774,16 @@ public static string Theme_QuickPanelBottomOffset { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuickPanelBottomOffset_Description"></a> Theme\_QuickPanelBottomOffset\_Description
+
+```csharp
+public static string Theme_QuickPanelBottomOffset_Description { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuickPanelOpacity"></a> Theme\_QuickPanelOpacity
 
 ```csharp
@@ -934,6 +944,16 @@ public static string Theme_ShowTimeInWhiteboard { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_SidebarGroupTitle"></a> Theme\_SidebarGroupTitle
+
+```csharp
+public static string Theme_SidebarGroupTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_SplashStyle"></a> Theme\_SplashStyle
 
 ```csharp
@@ -1028,6 +1048,246 @@ public static string Theme_Splash_Winter { get; }
 
 ```csharp
 public static string Theme_System { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_Abandon"></a> Theme\_Tips\_Abandon
+
+```csharp
+public static string Theme_Tips_Abandon { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_AutoRotation"></a> Theme\_Tips\_AutoRotation
+
+```csharp
+public static string Theme_Tips_AutoRotation { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_AutoRotationHint"></a> Theme\_Tips\_AutoRotationHint
+
+```csharp
+public static string Theme_Tips_AutoRotationHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_CancelConfirm"></a> Theme\_Tips\_CancelConfirm
+
+```csharp
+public static string Theme_Tips_CancelConfirm { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_ContentRequired"></a> Theme\_Tips\_ContentRequired
+
+```csharp
+public static string Theme_Tips_ContentRequired { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_Create"></a> Theme\_Tips\_Create
+
+```csharp
+public static string Theme_Tips_Create { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_Edit"></a> Theme\_Tips\_Edit
+
+```csharp
+public static string Theme_Tips_Edit { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_EditDialogTitle"></a> Theme\_Tips\_EditDialogTitle
+
+```csharp
+public static string Theme_Tips_EditDialogTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_Export"></a> Theme\_Tips\_Export
+
+```csharp
+public static string Theme_Tips_Export { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_GlobalSettings"></a> Theme\_Tips\_GlobalSettings
+
+```csharp
+public static string Theme_Tips_GlobalSettings { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_GlobalSettingsHint"></a> Theme\_Tips\_GlobalSettingsHint
+
+```csharp
+public static string Theme_Tips_GlobalSettingsHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_Import"></a> Theme\_Tips\_Import
+
+```csharp
+public static string Theme_Tips_Import { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_ImportDialogTitle"></a> Theme\_Tips\_ImportDialogTitle
+
+```csharp
+public static string Theme_Tips_ImportDialogTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_NameExists"></a> Theme\_Tips\_NameExists
+
+```csharp
+public static string Theme_Tips_NameExists { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_NameRequired"></a> Theme\_Tips\_NameRequired
+
+```csharp
+public static string Theme_Tips_NameRequired { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_NewDialogTitle"></a> Theme\_Tips\_NewDialogTitle
+
+```csharp
+public static string Theme_Tips_NewDialogTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_PresetLocked"></a> Theme\_Tips\_PresetLocked
+
+```csharp
+public static string Theme_Tips_PresetLocked { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_RotationInterval"></a> Theme\_Tips\_RotationInterval
+
+```csharp
+public static string Theme_Tips_RotationInterval { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_RotationIntervalHint"></a> Theme\_Tips\_RotationIntervalHint
+
+```csharp
+public static string Theme_Tips_RotationIntervalHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_SchemeContent"></a> Theme\_Tips\_SchemeContent
+
+```csharp
+public static string Theme_Tips_SchemeContent { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_SchemeName"></a> Theme\_Tips\_SchemeName
+
+```csharp
+public static string Theme_Tips_SchemeName { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_SelectSchemeFirst"></a> Theme\_Tips\_SelectSchemeFirst
+
+```csharp
+public static string Theme_Tips_SelectSchemeFirst { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_SelectTxtFile"></a> Theme\_Tips\_SelectTxtFile
+
+```csharp
+public static string Theme_Tips_SelectTxtFile { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_Title"></a> Theme\_Tips\_Title
+
+```csharp
+public static string Theme_Tips_Title { get; }
 ```
 
 #### Property Value

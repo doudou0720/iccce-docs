@@ -32,6 +32,11 @@ DynamicNotificationControl
 
  [EraserPopupContent](Ink\_Canvas.Controls.EraserPopupContent.md)
 
+ [FixedAspectRatioPanel](Ink\_Canvas.Controls.FixedAspectRatioPanel.md)
+
+在父容器可用空间内计算最大的固定宽高比矩形，
+子元素按真实布局尺寸排列（无任何缩放变换），多余空间居中留白。
+
  [FloatingBarToolsPopupContent](Ink\_Canvas.Controls.FloatingBarToolsPopupContent.md)
 
  [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)

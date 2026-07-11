@@ -114,6 +114,26 @@ public static string EnhancedPreviewHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_PPTStrings_EnhancedPreviewLoadingAnimation"></a> EnhancedPreviewLoadingAnimation
+
+```csharp
+public static string EnhancedPreviewLoadingAnimation { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_EnhancedPreviewLoadingAnimationHint"></a> EnhancedPreviewLoadingAnimationHint
+
+```csharp
+public static string EnhancedPreviewLoadingAnimationHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_PPTStrings_Enhancement"></a> Enhancement
 
 ```csharp
@@ -258,6 +278,16 @@ public static string LeftOffset { get; }
 
 ```csharp
 public static string LeftOpacity { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PPTStrings_LoadingPPT"></a> LoadingPPT
+
+```csharp
+public static string LoadingPPT { get; }
 ```
 
 #### Property Value

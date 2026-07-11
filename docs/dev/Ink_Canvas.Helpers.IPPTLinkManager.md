@@ -75,10 +75,10 @@ int SlidesCount { get; }
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_IPPTLinkManager_ExportSlideThumbnails_System_Int32_System_Int32_"></a> ExportSlideThumbnails\(int, int\)
+### <a id="Ink_Canvas_Helpers_IPPTLinkManager_ExportSlideThumbnails_System_Int32_System_Int32_System_IProgress_System_Double__"></a> ExportSlideThumbnails\(int, int, IProgress<double\>\)
 
 ```csharp
-List<PPTSlideThumbnail> ExportSlideThumbnails(int width, int height)
+List<PPTSlideThumbnail> ExportSlideThumbnails(int width, int height, IProgress<double> progress = null)
 ```
 
 #### Parameters
@@ -86,6 +86,8 @@ List<PPTSlideThumbnail> ExportSlideThumbnails(int width, int height)
 `width` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 `height` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+`progress` [IProgress](https://learn.microsoft.com/dotnet/api/system.iprogress\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
 #### Returns
 

@@ -1,12 +1,13 @@
-# <a id="Ink_Canvas_Windows_SettingsViews_Pages_AppearancePage"></a> Class AppearancePage
+# <a id="Ink_Canvas_Controls_FixedAspectRatioPanel"></a> Class FixedAspectRatioPanel
 
-Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.SettingsViews.Pages.md)  
+Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)  
 Assembly: InkCanvasForClass.dll  
 
-AppearancePage
+在父容器可用空间内计算最大的固定宽高比矩形，
+子元素按真实布局尺寸排列（无任何缩放变换），多余空间居中留白。
 
 ```csharp
-public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+public class FixedAspectRatioPanel : Panel, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
 ```
 
 #### Inheritance
@@ -17,9 +18,8 @@ public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkI
 [Visual](https://learn.microsoft.com/dotnet/api/system.windows.media.visual) ← 
 [UIElement](https://learn.microsoft.com/dotnet/api/system.windows.uielement) ← 
 [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
-[Page](https://learn.microsoft.com/dotnet/api/system.windows.controls.page) ← 
-[Page](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs) ← 
-[AppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.AppearancePage.md)
+[Panel](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel) ← 
+[FixedAspectRatioPanel](Ink\_Canvas.Controls.FixedAspectRatioPanel.md)
 
 #### Implements
 
@@ -28,43 +28,30 @@ public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkI
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
 [IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
-[IComponentConnector](https://learn.microsoft.com/dotnet/api/system.windows.markup.icomponentconnector)
+[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
 
 #### Inherited Members
 
-[Page.FrameProperty](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
-[Page.OnNavigatedTo\(NavigationEventArgs\)](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
-[Page.OnNavigatingFrom\(NavigatingCancelEventArgs\)](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
-[Page.OnNavigatedFrom\(NavigationEventArgs\)](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
-[Page.OnPropertyChanged\(DependencyPropertyChangedEventArgs\)](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
-[Page.Frame](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Controls/Page.cs), 
-[Page.BackgroundProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.backgroundproperty), 
-[Page.ContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.contentproperty), 
-[Page.FontFamilyProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.fontfamilyproperty), 
-[Page.FontSizeProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.fontsizeproperty), 
-[Page.ForegroundProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.foregroundproperty), 
-[Page.KeepAliveProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.keepaliveproperty), 
-[Page.TemplateProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.templateproperty), 
-[Page.TitleProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.titleproperty), 
-[Page.ArrangeOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.arrangeoverride), 
-[Page.MeasureOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.measureoverride), 
-[Page.OnTemplateChanged\(ControlTemplate, ControlTemplate\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.ontemplatechanged), 
-[Page.OnVisualParentChanged\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.onvisualparentchanged), 
-[Page.Background](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.background), 
-[Page.Content](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.content), 
-[Page.FontFamily](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.fontfamily), 
-[Page.FontSize](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.fontsize), 
-[Page.Foreground](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.foreground), 
-[Page.KeepAlive](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.keepalive), 
-[Page.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.logicalchildren), 
-[Page.NavigationService](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.navigationservice), 
-[Page.ShowsNavigationUI](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.showsnavigationui), 
-[Page.Template](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.template), 
-[Page.Title](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.title), 
-[Page.WindowHeight](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.windowheight), 
-[Page.WindowTitle](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.windowtitle), 
-[Page.WindowWidth](https://learn.microsoft.com/dotnet/api/system.windows.controls.page.windowwidth), 
+[Panel.BackgroundProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.backgroundproperty), 
+[Panel.IsItemsHostProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.isitemshostproperty), 
+[Panel.ZIndexProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.zindexproperty), 
+[Panel.CreateUIElementCollection\(FrameworkElement\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.createuielementcollection), 
+[Panel.GetVisualChild\(int\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.getvisualchild), 
+[Panel.GetZIndex\(UIElement\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.getzindex), 
+[Panel.OnIsItemsHostChanged\(bool, bool\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.onisitemshostchanged), 
+[Panel.OnRender\(DrawingContext\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.onrender), 
+[Panel.OnVisualChildrenChanged\(DependencyObject, DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.onvisualchildrenchanged), 
+[Panel.SetZIndex\(UIElement, int\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.setzindex), 
+[Panel.Background](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.background), 
+[Panel.Children](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.children), 
+[Panel.HasLogicalOrientation](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.haslogicalorientation), 
+[Panel.HasLogicalOrientationPublic](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.haslogicalorientationpublic), 
+[Panel.InternalChildren](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.internalchildren), 
+[Panel.IsItemsHost](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.isitemshost), 
+[Panel.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.logicalchildren), 
+[Panel.LogicalOrientation](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.logicalorientation), 
+[Panel.LogicalOrientationPublic](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.logicalorientationpublic), 
+[Panel.VisualChildrenCount](https://learn.microsoft.com/dotnet/api/system.windows.controls.panel.visualchildrencount), 
 [FrameworkElement.ActualHeightProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.actualheightproperty), 
 [FrameworkElement.ActualWidthProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.actualwidthproperty), 
 [FrameworkElement.BindingGroupProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.bindinggroupproperty), 
@@ -649,21 +636,69 @@ public class AppearancePage : Page, IAnimatable, ISupportInitialize, IFrameworkI
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
-## Constructors
+## Fields
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AppearancePage__ctor"></a> AppearancePage\(\)
+### <a id="Ink_Canvas_Controls_FixedAspectRatioPanel_AspectRatioProperty"></a> AspectRatioProperty
 
 ```csharp
-public AppearancePage()
+public static readonly DependencyProperty AspectRatioProperty
 ```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
+## Properties
+
+### <a id="Ink_Canvas_Controls_FixedAspectRatioPanel_AspectRatio"></a> AspectRatio
+
+```csharp
+public double AspectRatio { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AppearancePage_InitializeComponent"></a> InitializeComponent\(\)
+### <a id="Ink_Canvas_Controls_FixedAspectRatioPanel_ArrangeOverride_System_Windows_Size_"></a> ArrangeOverride\(Size\)
 
-InitializeComponent
+When overridden in a derived class, positions child elements and determines a size for a <xref href="System.Windows.FrameworkElement" data-throw-if-not-resolved="false"></xref> derived class.
 
 ```csharp
-public void InitializeComponent()
+protected override Size ArrangeOverride(Size finalSize)
 ```
+
+#### Parameters
+
+`finalSize` [Size](https://learn.microsoft.com/dotnet/api/system.windows.size)
+
+The final area within the parent that this element should use to arrange itself and its children.
+
+#### Returns
+
+ [Size](https://learn.microsoft.com/dotnet/api/system.windows.size)
+
+The actual size used.
+
+### <a id="Ink_Canvas_Controls_FixedAspectRatioPanel_MeasureOverride_System_Windows_Size_"></a> MeasureOverride\(Size\)
+
+When overridden in a derived class, measures the size in layout required for child elements and determines a size for the <xref href="System.Windows.FrameworkElement" data-throw-if-not-resolved="false"></xref>-derived class.
+
+```csharp
+protected override Size MeasureOverride(Size availableSize)
+```
+
+#### Parameters
+
+`availableSize` [Size](https://learn.microsoft.com/dotnet/api/system.windows.size)
+
+The available size that this element can give to child elements. Infinity can be specified as a value to indicate that the element will size to whatever content is available.
+
+#### Returns
+
+ [Size](https://learn.microsoft.com/dotnet/api/system.windows.size)
+
+The size that this element determines it needs during layout, based on its calculations of child element sizes.
 

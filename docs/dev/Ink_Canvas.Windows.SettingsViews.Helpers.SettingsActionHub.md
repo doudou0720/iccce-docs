@@ -118,6 +118,12 @@ public static void OnBoardToolbarRightOpacityChanged(double value)
 
 `value` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnChickenSoupAutoRotationChanged"></a> OnChickenSoupAutoRotationChanged\(\)
+
+```csharp
+public static void OnChickenSoupAutoRotationChanged()
+```
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnChickenSoupInWhiteboardChanged_System_Boolean_System_Boolean_"></a> OnChickenSoupInWhiteboardChanged\(bool, bool\)
 
 ```csharp
@@ -134,6 +140,12 @@ public static void OnChickenSoupInWhiteboardChanged(bool isOn, bool isTimeDispla
 
 ```csharp
 public static void OnChickenSoupPositionChanged()
+```
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnChickenSoupSchemesChanged"></a> OnChickenSoupSchemesChanged\(\)
+
+```csharp
+public static void OnChickenSoupSchemesChanged()
 ```
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnChickenSoupSourceChanged"></a> OnChickenSoupSourceChanged\(\)
@@ -409,6 +421,15 @@ public static void OnPPTEnhancementChanged(bool isOn)
 #### Parameters
 
 `isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnPPTGlobalSettingsChanged"></a> OnPPTGlobalSettingsChanged\(\)
+
+全局默认设置或某位置"使用全局设置"开关变更时，全量同步有效值到运行时与预览。
+有效值规则：位置 i 若 UseGlobalSettings=true，则采用全局字段值，否则采用位置自身字段值。
+
+```csharp
+public static void OnPPTGlobalSettingsChanged()
+```
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnPPTLinkModeChanged"></a> OnPPTLinkModeChanged\(\)
 

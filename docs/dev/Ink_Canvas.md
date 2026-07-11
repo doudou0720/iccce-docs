@@ -164,6 +164,8 @@ ScreenshotSelectorWindow
 
 时间视图模型类，用于绑定显示时间和日期
 
+ [TipsScheme](Ink\_Canvas.TipsScheme.md)
+
  [UploadSettings](Ink\_Canvas.UploadSettings.md)
 
  [XamlGraphicsIconGeometries](Ink\_Canvas.XamlGraphicsIconGeometries.md)
