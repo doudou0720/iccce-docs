@@ -349,10 +349,14 @@
     href: Ink_Canvas.Converter.IntNumberToString.md
   - name: IntNumberToString2
     href: Ink_Canvas.Converter.IntNumberToString2.md
+  - name: InverseBooleanConverter
+    href: Ink_Canvas.Converter.InverseBooleanConverter.md
   - name: InverseBooleanToVisibilityConverter
     href: Ink_Canvas.Converter.InverseBooleanToVisibilityConverter.md
   - name: IsEnabledToOpacityConverter
     href: Ink_Canvas.Converter.IsEnabledToOpacityConverter.md
+  - name: NullToVisibilityConverter
+    href: Ink_Canvas.Converter.NullToVisibilityConverter.md
   - name: RippleEffectTranslationConverter
     href: Ink_Canvas.Converter.RippleEffectTranslationConverter.md
   - name: StringToGeometryConverter
@@ -614,38 +618,112 @@
   - name: Classes
   - name: AppRestartService
     href: Ink_Canvas.Plugins.AppRestartService.md
-  - name: InkCanvasService
-    href: Ink_Canvas.Plugins.InkCanvasService.md
+  - name: CompatibilityResult
+    href: Ink_Canvas.Plugins.CompatibilityResult.md
+  - name: DependencyAnalysis
+    href: Ink_Canvas.Plugins.DependencyAnalysis.md
+  - name: DependencyIssue
+    href: Ink_Canvas.Plugins.DependencyIssue.md
+  - name: DownloadTaskInfo
+    href: Ink_Canvas.Plugins.DownloadTaskInfo.md
+  - name: HostApiRequirement
+    href: Ink_Canvas.Plugins.HostApiRequirement.md
+  - name: IpcError
+    href: Ink_Canvas.Plugins.IpcError.md
+  - name: IpcMessage
+    href: Ink_Canvas.Plugins.IpcMessage.md
+  - name: MergedPluginInfo
+    href: Ink_Canvas.Plugins.MergedPluginInfo.md
   - name: PluginBase
     href: Ink_Canvas.Plugins.PluginBase.md
+  - name: PluginCompatibility
+    href: Ink_Canvas.Plugins.PluginCompatibility.md
+  - name: PluginConfigIo
+    href: Ink_Canvas.Plugins.PluginConfigIo.md
+  - name: PluginConfigPackage
+    href: Ink_Canvas.Plugins.PluginConfigPackage.md
   - name: PluginDependency
     href: Ink_Canvas.Plugins.PluginDependency.md
+  - name: PluginDependencyResolver
+    href: Ink_Canvas.Plugins.PluginDependencyResolver.md
   - name: PluginEntranceAttribute
     href: Ink_Canvas.Plugins.PluginEntranceAttribute.md
+  - name: PluginErrorRecord
+    href: Ink_Canvas.Plugins.PluginErrorRecord.md
+  - name: PluginErrorRecoveryService
+    href: Ink_Canvas.Plugins.PluginErrorRecoveryService.md
+  - name: PluginErrorReport
+    href: Ink_Canvas.Plugins.PluginErrorReport.md
   - name: PluginInfo
     href: Ink_Canvas.Plugins.PluginInfo.md
+  - name: PluginIpcService
+    href: Ink_Canvas.Plugins.PluginIpcService.md
+  - name: PluginLogger
+    href: Ink_Canvas.Plugins.PluginLogger.md
   - name: PluginManager
     href: Ink_Canvas.Plugins.PluginManager.md
   - name: PluginManifest
     href: Ink_Canvas.Plugins.PluginManifest.md
+  - name: PluginMarketEntry
+    href: Ink_Canvas.Plugins.PluginMarketEntry.md
+  - name: PluginMarketIndex
+    href: Ink_Canvas.Plugins.PluginMarketIndex.md
+  - name: PluginMarketService
+    href: Ink_Canvas.Plugins.PluginMarketService.md
+  - name: PluginMarketSourceInfo
+    href: Ink_Canvas.Plugins.PluginMarketSourceInfo.md
+  - name: PluginMarketSourcesService
+    href: Ink_Canvas.Plugins.PluginMarketSourcesService.md
+  - name: PluginReadmeRenderer
+    href: Ink_Canvas.Plugins.PluginReadmeRenderer.md
+  - name: PluginSecurityCheck
+    href: Ink_Canvas.Plugins.PluginSecurityCheck.md
   - name: PluginToolbarItemInfo
     href: Ink_Canvas.Plugins.PluginToolbarItemInfo.md
   - name: PluginToolbarSettingInfo
     href: Ink_Canvas.Plugins.PluginToolbarSettingInfo.md
+  - name: PluginWindowInfo
+    href: Ink_Canvas.Plugins.PluginWindowInfo.md
+  - name: SecurityVerdict
+    href: Ink_Canvas.Plugins.SecurityVerdict.md
   - name: Interfaces
   - name: IAppRestartService
     href: Ink_Canvas.Plugins.IAppRestartService.md
-  - name: IInkCanvasService
-    href: Ink_Canvas.Plugins.IInkCanvasService.md
+  - name: IEventService
+    href: Ink_Canvas.Plugins.IEventService.md
+  - name: IFileAssociationService
+    href: Ink_Canvas.Plugins.IFileAssociationService.md
+  - name: IHotkeyService
+    href: Ink_Canvas.Plugins.IHotkeyService.md
+  - name: INotificationService
+    href: Ink_Canvas.Plugins.INotificationService.md
   - name: IPlugin
     href: Ink_Canvas.Plugins.IPlugin.md
   - name: IPluginHost
     href: Ink_Canvas.Plugins.IPluginHost.md
+  - name: IPluginIpcBus
+    href: Ink_Canvas.Plugins.IPluginIpcBus.md
+  - name: IPowerPointService
+    href: Ink_Canvas.Plugins.IPowerPointService.md
+  - name: ISettingsService
+    href: Ink_Canvas.Plugins.ISettingsService.md
+  - name: IWindowOverviewService
+    href: Ink_Canvas.Plugins.IWindowOverviewService.md
+  - name: IWindowService
+    href: Ink_Canvas.Plugins.IWindowService.md
   - name: Enums
+  - name: DependencyIssueCode
+    href: Ink_Canvas.Plugins.DependencyIssueCode.md
+  - name: IssueSeverity
+    href: Ink_Canvas.Plugins.IssueSeverity.md
+  - name: NotificationLevel
+    href: Ink_Canvas.Plugins.NotificationLevel.md
   - name: PluginLoadStatus
     href: Ink_Canvas.Plugins.PluginLoadStatus.md
   - name: PluginToolbarSettingType
     href: Ink_Canvas.Plugins.PluginToolbarSettingType.md
+  - name: PluginTrustLevel
+    href: Ink_Canvas.Plugins.PluginTrustLevel.md
 - name: Ink_Canvas.ProcessBars
   href: Ink_Canvas.ProcessBars.md
   items:
@@ -940,6 +1018,10 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.PPTPageFlipPreviewPage.md
   - name: PerformancePage
     href: Ink_Canvas.Windows.SettingsViews.Pages.PerformancePage.md
+  - name: PluginMarketSourcesWindow
+    href: Ink_Canvas.Windows.SettingsViews.Pages.PluginMarketSourcesWindow.md
+  - name: PluginMarketplacePage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.PluginMarketplacePage.md
   - name: PluginPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.PluginPage.md
   - name: PluginSettingsPage

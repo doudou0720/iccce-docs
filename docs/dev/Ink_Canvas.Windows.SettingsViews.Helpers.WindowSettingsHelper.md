@@ -108,12 +108,6 @@ public static void ApplyUIAccessTopMost(Window window)
 
 `window` [Window](https://learn.microsoft.com/dotnet/api/system.windows.window)
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_WindowSettingsHelper_InstallKeyboardHook"></a> InstallKeyboardHook\(\)
-
-```csharp
-public static void InstallKeyboardHook()
-```
-
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_WindowSettingsHelper_PauseTopmostMaintenance"></a> PauseTopmostMaintenance\(\)
 
 ```csharp
@@ -151,10 +145,4 @@ public static void SetWindowMode(Window window)
 #### Parameters
 
 `window` [Window](https://learn.microsoft.com/dotnet/api/system.windows.window)
-
-### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_WindowSettingsHelper_UninstallKeyboardHook"></a> UninstallKeyboardHook\(\)
-
-```csharp
-public static void UninstallKeyboardHook()
-```
 

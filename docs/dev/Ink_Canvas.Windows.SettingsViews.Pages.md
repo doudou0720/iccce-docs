@@ -122,6 +122,14 @@ PPTPageFlipPreviewPage
 
  [PerformancePage](Ink\_Canvas.Windows.SettingsViews.Pages.PerformancePage.md)
 
+ [PluginMarketSourcesWindow](Ink\_Canvas.Windows.SettingsViews.Pages.PluginMarketSourcesWindow.md)
+
+插件源管理内容。由插件市场页面置于 ContentDialog 中显示。
+
+ [PluginMarketplacePage](Ink\_Canvas.Windows.SettingsViews.Pages.PluginMarketplacePage.md)
+
+PluginMarketplacePage
+
  [PluginPage](Ink\_Canvas.Windows.SettingsViews.Pages.PluginPage.md)
 
 PluginPage

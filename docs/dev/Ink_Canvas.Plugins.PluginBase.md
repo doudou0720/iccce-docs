@@ -3,6 +3,8 @@
 Namespace: [Ink\_Canvas.Plugins](Ink\_Canvas.Plugins.md)  
 Assembly: InkCanvas.PluginSdk.dll  
 
+插件抽象基类。参考 ClassIsland 的 PluginBase 设计。
+
 ```csharp
 public abstract class PluginBase : IPlugin
 ```
@@ -172,6 +174,9 @@ public virtual object GetSettingsView()
 
 ### <a id="Ink_Canvas_Plugins_PluginBase_Initialize_Ink_Canvas_Plugins_IPluginHost_"></a> Initialize\(IPluginHost\)
 
+初始化插件（旧版签名，保持向后兼容）。
+新插件请使用 Initialize(IPluginHost, IServiceCollection) 重载。
+
 ```csharp
 public virtual void Initialize(IPluginHost host)
 ```
@@ -179,6 +184,22 @@ public virtual void Initialize(IPluginHost host)
 #### Parameters
 
 `host` [IPluginHost](Ink\_Canvas.Plugins.IPluginHost.md)
+
+### <a id="Ink_Canvas_Plugins_PluginBase_Initialize_Ink_Canvas_Plugins_IPluginHost_Microsoft_Extensions_DependencyInjection_IServiceCollection_"></a> Initialize\(IPluginHost, IServiceCollection\)
+
+初始化插件（新版签名，支持 DI 服务注册）。
+默认调用旧版 Initialize(host) 以保持兼容。
+新插件应重写此方法。
+
+```csharp
+public virtual void Initialize(IPluginHost host, IServiceCollection services)
+```
+
+#### Parameters
+
+`host` [IPluginHost](Ink\_Canvas.Plugins.IPluginHost.md)
+
+`services` [IServiceCollection](https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection)
 
 ### <a id="Ink_Canvas_Plugins_PluginBase_Log_System_String_"></a> Log\(string\)
 

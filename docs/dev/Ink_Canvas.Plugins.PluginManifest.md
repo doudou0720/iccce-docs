@@ -110,6 +110,30 @@ public string Id { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Plugins_PluginManifest_License"></a> License
+
+许可协议，例如 "MIT"、"Apache-2.0"。
+
+```csharp
+public string License { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Plugins_PluginManifest_MinHostVersion"></a> MinHostVersion
+
+最低宿主版本要求，例如 "1.7.18"。低于此版本的宿主不允许加载插件。
+
+```csharp
+public string MinHostVersion { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Plugins_PluginManifest_Name"></a> Name
 
 插件显示名称
@@ -121,6 +145,43 @@ public string Name { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Plugins_PluginManifest_Permissions"></a> Permissions
+
+插件申请的权限列表，例如 "Settings", "Hotkeys", "Network", "FileSystem"。
+主机在加载插件时可向用户提示。
+
+```csharp
+public List<string> Permissions { get; set; }
+```
+
+#### Property Value
+
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+
+### <a id="Ink_Canvas_Plugins_PluginManifest_SourceUrl"></a> SourceUrl
+
+源码仓库 URL。
+
+```csharp
+public string SourceUrl { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Plugins_PluginManifest_Tags"></a> Tags
+
+标签列表。
+
+```csharp
+public List<string> Tags { get; set; }
+```
+
+#### Property Value
+
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_Url"></a> Url
 
@@ -140,6 +201,16 @@ public string Url { get; set; }
 
 ```csharp
 public string Version { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Plugins_PluginManifest_VersionRange"></a> VersionRange
+
+```csharp
+public string VersionRange { get; set; }
 ```
 
 #### Property Value

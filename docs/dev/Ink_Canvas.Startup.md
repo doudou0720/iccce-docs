@@ -68,6 +68,17 @@ public int CrashAction { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
+### <a id="Ink_Canvas_Startup_EnableFastStartup"></a> EnableFastStartup
+
+```csharp
+[JsonProperty("enableFastStartup")]
+public bool EnableFastStartup { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Startup_EnableWindowChromeRendering"></a> EnableWindowChromeRendering
 
 ```csharp

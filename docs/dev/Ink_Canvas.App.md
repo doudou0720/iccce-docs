@@ -188,6 +188,18 @@ public static Process watchdogProcess
 
  [Process](https://learn.microsoft.com/dotnet/api/system.diagnostics.process)
 
+## Properties
+
+### <a id="Ink_Canvas_App_IsFastStartupEnabled"></a> IsFastStartupEnabled
+
+```csharp
+public static bool IsFastStartupEnabled { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ## Methods
 
 ### <a id="Ink_Canvas_App_CloseSplashScreen"></a> CloseSplashScreen\(\)

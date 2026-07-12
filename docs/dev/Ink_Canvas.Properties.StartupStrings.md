@@ -84,6 +84,26 @@ public static string ExternalProtocolHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_StartupStrings_FastStartup"></a> FastStartup
+
+```csharp
+public static string FastStartup { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_FastStartupHint"></a> FastStartupHint
+
+```csharp
+public static string FastStartupHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_StartupStrings_FixVersionHint"></a> FixVersionHint
 
 ```csharp

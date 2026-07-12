@@ -10,9 +10,13 @@
 
  [IntNumberToString2](Ink\_Canvas.Converter.IntNumberToString2.md)
 
+ [InverseBooleanConverter](Ink\_Canvas.Converter.InverseBooleanConverter.md)
+
  [InverseBooleanToVisibilityConverter](Ink\_Canvas.Converter.InverseBooleanToVisibilityConverter.md)
 
  [IsEnabledToOpacityConverter](Ink\_Canvas.Converter.IsEnabledToOpacityConverter.md)
+
+ [NullToVisibilityConverter](Ink\_Canvas.Converter.NullToVisibilityConverter.md)
 
  [RippleEffectTranslationConverter](Ink\_Canvas.Converter.RippleEffectTranslationConverter.md)
 
