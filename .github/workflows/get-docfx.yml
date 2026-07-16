@@ -35,7 +35,7 @@ jobs:
           git reset --hard HEAD~
 
       - name: Setup .NET
-        uses: actions/setup-dotnet@v5
+        uses: actions/setup-dotnet@v6
 
       - name: Install DocFX
         run: dotnet tool update -g docfx
