@@ -1114,6 +1114,16 @@ public static string Random_RollCall_ReadyToDraw { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_Reset"></a> Random\_RollCall\_Reset
+
+```csharp
+public static string Random_RollCall_Reset { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_RollCalling"></a> Random\_RollCall\_RollCalling
 
 ```csharp
