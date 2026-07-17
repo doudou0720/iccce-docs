@@ -299,6 +299,28 @@ public bool FlipContentOnAutoFlip { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Appearance_FloatingBarBorderColor"></a> FloatingBarBorderColor
+
+```csharp
+[JsonProperty("floatingBarBorderColor")]
+public string FloatingBarBorderColor { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Appearance_FloatingBarBorderColorMode"></a> FloatingBarBorderColorMode
+
+```csharp
+[JsonProperty("floatingBarBorderColorMode")]
+public int FloatingBarBorderColorMode { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Ink_Canvas_Appearance_FloatingBarImg"></a> FloatingBarImg
 
 ```csharp

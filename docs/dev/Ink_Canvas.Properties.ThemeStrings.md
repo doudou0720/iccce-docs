@@ -294,6 +294,66 @@ public static string Theme_EnableSplash { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarBorderColor"></a> Theme\_FloatingBarBorderColor
+
+```csharp
+public static string Theme_FloatingBarBorderColor { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarBorderColorHint"></a> Theme\_FloatingBarBorderColorHint
+
+```csharp
+public static string Theme_FloatingBarBorderColorHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarBorderColorReset"></a> Theme\_FloatingBarBorderColorReset
+
+```csharp
+public static string Theme_FloatingBarBorderColorReset { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarBorderColor_Custom"></a> Theme\_FloatingBarBorderColor\_Custom
+
+```csharp
+public static string Theme_FloatingBarBorderColor_Custom { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarBorderColor_Default"></a> Theme\_FloatingBarBorderColor\_Default
+
+```csharp
+public static string Theme_FloatingBarBorderColor_Default { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarBorderColor_FollowBackground"></a> Theme\_FloatingBarBorderColor\_FollowBackground
+
+```csharp
+public static string Theme_FloatingBarBorderColor_FollowBackground { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarButtonsDescription"></a> Theme\_FloatingBarButtonsDescription
 
 ```csharp

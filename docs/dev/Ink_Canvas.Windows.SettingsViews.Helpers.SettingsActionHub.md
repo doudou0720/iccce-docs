@@ -236,6 +236,12 @@ public static void OnExitApplication(object sender, RoutedEventArgs e)
 public static void OnFingerModeBoundsWidthChanged()
 ```
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnFloatingBarBorderColorChanged"></a> OnFloatingBarBorderColorChanged\(\)
+
+```csharp
+public static void OnFloatingBarBorderColorChanged()
+```
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnFloatingBarImgChanged"></a> OnFloatingBarImgChanged\(\)
 
 ```csharp
