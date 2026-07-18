@@ -9,6 +9,32 @@ public interface IToolbarItem
 
 ## Properties
 
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_CustomSettings"></a> CustomSettings
+
+组件自定义设置声明。内置组件和插件组件均可通过此属性声明需要在设置页面动态生成的配置项。
+默认为空列表，表示无自定义设置。
+
+```csharp
+IReadOnlyList<PluginToolbarSettingInfo> CustomSettings { get; }
+```
+
+#### Property Value
+
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<PluginToolbarSettingInfo\>
+
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_CustomSettingsPanelFactory"></a> CustomSettingsPanelFactory
+
+自定义设置面板工厂。若提供此属性，设置页面将使用此工厂返回的 UI 而非通过 CustomSettings 声明式生成。
+适用于需要完全自定义 UI 或读写全局设置（非 per-component 设置）的组件。
+
+```csharp
+Func<FrameworkElement> CustomSettingsPanelFactory { get; }
+```
+
+#### Property Value
+
+ [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)\>
+
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_DefaultHidingRuleset"></a> DefaultHidingRuleset
 
 ```csharp

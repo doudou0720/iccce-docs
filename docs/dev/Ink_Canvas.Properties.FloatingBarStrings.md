@@ -1464,6 +1464,16 @@ public static string ToolbarPage_Center { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_CloseGroupChildren"></a> ToolbarPage\_CloseGroupChildren
+
+```csharp
+public static string ToolbarPage_CloseGroupChildren { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ComponentLibrary"></a> ToolbarPage\_ComponentLibrary
 
 ```csharp

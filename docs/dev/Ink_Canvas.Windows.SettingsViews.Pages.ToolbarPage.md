@@ -661,6 +661,16 @@ public ToolbarPage()
 
 ## Fields
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_IsGroupChildrenVisibleProperty"></a> IsGroupChildrenVisibleProperty
+
+```csharp
+public static readonly DependencyProperty IsGroupChildrenVisibleProperty
+```
+
+#### Field Value
+
+ [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_SelectedEntryProperty"></a> SelectedEntryProperty
 
 ```csharp
@@ -732,6 +742,16 @@ public GroupChildrenDropHandler GroupDropHandler { get; }
 #### Property Value
 
  [GroupChildrenDropHandler](Ink\_Canvas.Windows.SettingsViews.Pages.GroupChildrenDropHandler.md)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_IsGroupChildrenVisible"></a> IsGroupChildrenVisible
+
+```csharp
+public bool IsGroupChildrenVisible { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_SelectedEntry"></a> SelectedEntry
 

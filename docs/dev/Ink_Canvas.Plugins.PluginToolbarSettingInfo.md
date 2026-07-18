@@ -66,6 +66,19 @@ public string Key { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_OptionValues"></a> OptionValues
+
+ComboBox 选项的保存值。若数量与 Options 一致，则 Options 用作显示文本、OptionValues 用作保存值；
+否则 Options 同时用作显示文本和保存值。
+
+```csharp
+public List<string> OptionValues { get; set; }
+```
+
+#### Property Value
+
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_Options"></a> Options
 
 ```csharp
