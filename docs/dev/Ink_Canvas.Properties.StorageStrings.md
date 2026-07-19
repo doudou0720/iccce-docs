@@ -704,6 +704,16 @@ public static string Storage_Legend_Plugins { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_Legend_Theme"></a> Storage\_Legend\_Theme
+
+```csharp
+public static string Storage_Legend_Theme { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_StorageStrings_Storage_Legend_Update"></a> Storage\_Legend\_Update
 
 ```csharp
@@ -848,6 +858,36 @@ public static string Storage_SaveFullPageStrokes { get; }
 
 ```csharp
 public static string Storage_ScreenshotsByDateFolder { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_Theme_Desc"></a> Storage\_Theme\_Desc
+
+```csharp
+public static string Storage_Theme_Desc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_Theme_Header"></a> Storage\_Theme\_Header
+
+```csharp
+public static string Storage_Theme_Header { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_Theme_Hint"></a> Storage\_Theme\_Hint
+
+```csharp
+public static string Storage_Theme_Hint { get; }
 ```
 
 #### Property Value

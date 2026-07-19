@@ -411,6 +411,12 @@
     href: Ink_Canvas.Helpers.FeedbackSanitizer.md
   - name: FileAssociationManager
     href: Ink_Canvas.Helpers.FileAssociationManager.md
+  - name: FloatingBarThemeMarketService
+    href: Ink_Canvas.Helpers.FloatingBarThemeMarketService.md
+  - name: FloatingBarThemeService
+    href: Ink_Canvas.Helpers.FloatingBarThemeService.md
+  - name: FloatingBarThemeService.ThemeInfo
+    href: Ink_Canvas.Helpers.FloatingBarThemeService.ThemeInfo.md
   - name: FloatingWindowInterceptor
     href: Ink_Canvas.Helpers.FloatingWindowInterceptor.md
   - name: FloatingWindowInterceptor.InterceptRule
@@ -501,6 +507,12 @@
     href: Ink_Canvas.Helpers.StrokeVisual.md
   - name: ThemeHelper
     href: Ink_Canvas.Helpers.ThemeHelper.md
+  - name: ThemeMarketEntry
+    href: Ink_Canvas.Helpers.ThemeMarketEntry.md
+  - name: ThemeMarketIndex
+    href: Ink_Canvas.Helpers.ThemeMarketIndex.md
+  - name: ThemeMarketManifest
+    href: Ink_Canvas.Helpers.ThemeMarketManifest.md
   - name: TimeMachine
     href: Ink_Canvas.Helpers.TimeMachine.md
   - name: TimeMachineHistory
@@ -904,6 +916,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Helpers.SettingsListItemHelper.md
   - name: SettingsManager
     href: Ink_Canvas.Windows.SettingsViews.Helpers.SettingsManager.md
+  - name: SettingsNavigator
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.SettingsNavigator.md
   - name: StringToGeometryConverter
     href: Ink_Canvas.Windows.SettingsViews.Helpers.StringToGeometryConverter.md
   - name: TopMostModeButtonItem
@@ -984,6 +998,10 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.DebugPage.md
   - name: ExperimentalPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.ExperimentalPage.md
+  - name: FloatingBarThemeMarketPage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.FloatingBarThemeMarketPage.md
+  - name: FloatingBarThemePage
+    href: Ink_Canvas.Windows.SettingsViews.Pages.FloatingBarThemePage.md
   - name: FriendlyLinksPage
     href: Ink_Canvas.Windows.SettingsViews.Pages.FriendlyLinksPage.md
   - name: GroupChildrenDropHandler

@@ -27,6 +27,11 @@ null 值转 Visibility（null → Collapsed，非 null → Visible）。
 
  [SettingsManager](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsManager.md)
 
+ [SettingsNavigator](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsNavigator.md)
+
+附加属性：用于在设置页面中标记控件对应的 Settings.json 键名，
+配合 icc://settings/&lt;Page&gt;?key=&lt;JsonKey&gt; 深链接实现定位与高亮。
+
  [StringToGeometryConverter](Ink\_Canvas.Windows.SettingsViews.Helpers.StringToGeometryConverter.md)
 
 将几何字符串转换为 Geometry 对象。

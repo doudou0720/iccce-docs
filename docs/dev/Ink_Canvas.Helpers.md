@@ -78,6 +78,15 @@ Dlass上传队列
 
 文件关联管理器，用于注册和处理.icstk文件的关联
 
+ [FloatingBarThemeMarketService](Ink\_Canvas.Helpers.FloatingBarThemeMarketService.md)
+
+Floating-bar theme marketplace. Theme packages are downloaded outside the application assembly.
+
+ [FloatingBarThemeService](Ink\_Canvas.Helpers.FloatingBarThemeService.md)
+
+Loads ClassIsland-style local XAML themes for the floating toolbar.
+Each theme is a folder containing manifest.json and Theme.xaml.
+
  [FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md)
 
 悬浮窗拦截器 - 检测和隐藏指定的悬浮窗
@@ -233,6 +242,14 @@ Main-window base that can use WindowChrome for DWM-backed transparent rendering.
 用于显示笔迹的类
 
  [ThemeHelper](Ink\_Canvas.Helpers.ThemeHelper.md)
+
+ [FloatingBarThemeService.ThemeInfo](Ink\_Canvas.Helpers.FloatingBarThemeService.ThemeInfo.md)
+
+ [ThemeMarketEntry](Ink\_Canvas.Helpers.ThemeMarketEntry.md)
+
+ [ThemeMarketIndex](Ink\_Canvas.Helpers.ThemeMarketIndex.md)
+
+ [ThemeMarketManifest](Ink\_Canvas.Helpers.ThemeMarketManifest.md)
 
  [TimeMachine](Ink\_Canvas.Helpers.TimeMachine.md)
 

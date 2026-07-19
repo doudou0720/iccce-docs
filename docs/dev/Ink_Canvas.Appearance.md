@@ -354,6 +354,17 @@ public double FloatingBarMenuOpacityInPPT { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_Appearance_FloatingBarThemeId"></a> FloatingBarThemeId
+
+```csharp
+[JsonProperty("floatingBarThemeId")]
+public string FloatingBarThemeId { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Appearance_HideFloatingBarBorder"></a> HideFloatingBarBorder
 
 ```csharp

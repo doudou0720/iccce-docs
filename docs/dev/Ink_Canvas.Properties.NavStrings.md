@@ -244,6 +244,26 @@ public static string Nav_Clock_Tooltip { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_NavStrings_Nav_CopySettingsUri_Copied"></a> Nav\_CopySettingsUri\_Copied
+
+```csharp
+public static string Nav_CopySettingsUri_Copied { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_NavStrings_Nav_CopySettingsUri_Tooltip"></a> Nav\_CopySettingsUri\_Tooltip
+
+```csharp
+public static string Nav_CopySettingsUri_Tooltip { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_NavStrings_Nav_Error"></a> Nav\_Error
 
 ```csharp

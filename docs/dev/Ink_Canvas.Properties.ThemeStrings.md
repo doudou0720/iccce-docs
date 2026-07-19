@@ -444,6 +444,106 @@ public static string Theme_FloatingBarScale { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemeMarketInstall"></a> Theme\_FloatingBarThemeMarketInstall
+
+```csharp
+public static string Theme_FloatingBarThemeMarketInstall { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemeMarketRefresh"></a> Theme\_FloatingBarThemeMarketRefresh
+
+```csharp
+public static string Theme_FloatingBarThemeMarketRefresh { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemeMarketTitle"></a> Theme\_FloatingBarThemeMarketTitle
+
+```csharp
+public static string Theme_FloatingBarThemeMarketTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesApply"></a> Theme\_FloatingBarThemesApply
+
+```csharp
+public static string Theme_FloatingBarThemesApply { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesApplyFailed"></a> Theme\_FloatingBarThemesApplyFailed
+
+```csharp
+public static string Theme_FloatingBarThemesApplyFailed { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesDescription"></a> Theme\_FloatingBarThemesDescription
+
+```csharp
+public static string Theme_FloatingBarThemesDescription { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesFolder"></a> Theme\_FloatingBarThemesFolder
+
+```csharp
+public static string Theme_FloatingBarThemesFolder { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesOpenFolder"></a> Theme\_FloatingBarThemesOpenFolder
+
+```csharp
+public static string Theme_FloatingBarThemesOpenFolder { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesReload"></a> Theme\_FloatingBarThemesReload
+
+```csharp
+public static string Theme_FloatingBarThemesReload { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesTitle"></a> Theme\_FloatingBarThemesTitle
+
+```csharp
+public static string Theme_FloatingBarThemesTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingIcon_CoolapkAbused"></a> Theme\_FloatingIcon\_CoolapkAbused
 
 ```csharp
@@ -588,16 +688,6 @@ public static string Theme_HideFloatingBarBorder { get; }
 
 ```csharp
 public static string Theme_HideFloatingBarBorderHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HitokotoCategory_Animation"></a> Theme\_HitokotoCategory\_Animation
-
-```csharp
-public static string Theme_HitokotoCategory_Animation { get; }
 ```
 
 #### Property Value

@@ -80,6 +80,14 @@ ClockPage
 
  [ExperimentalPage](Ink\_Canvas.Windows.SettingsViews.Pages.ExperimentalPage.md)
 
+ [FloatingBarThemeMarketPage](Ink\_Canvas.Windows.SettingsViews.Pages.FloatingBarThemeMarketPage.md)
+
+FloatingBarThemeMarketPage
+
+ [FloatingBarThemePage](Ink\_Canvas.Windows.SettingsViews.Pages.FloatingBarThemePage.md)
+
+FloatingBarThemePage
+
  [FriendlyLinksPage](Ink\_Canvas.Windows.SettingsViews.Pages.FriendlyLinksPage.md)
 
 FriendlyLinksPage
