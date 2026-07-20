@@ -101,3 +101,31 @@ public void Revert(ActionSet actionSet)
 
 `actionSet` [ActionSet](Ink\_Canvas.WorkflowAutomation.Models.ActionSet.md)
 
+### <a id="Ink_Canvas_WorkflowAutomation_Services_ActionService_UnregisterActionHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_ActionRegistryInfo_HandleDelegate_"></a> UnregisterActionHandler\(string, HandleDelegate\)
+
+取消注册行动处理程序。
+
+```csharp
+public void UnregisterActionHandler(string id, ActionRegistryInfo.HandleDelegate handler)
+```
+
+#### Parameters
+
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`handler` [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
+
+### <a id="Ink_Canvas_WorkflowAutomation_Services_ActionService_UnregisterRevertHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_ActionRegistryInfo_HandleDelegate_"></a> UnregisterRevertHandler\(string, HandleDelegate\)
+
+取消注册行动恢复处理程序。
+
+```csharp
+public void UnregisterRevertHandler(string id, ActionRegistryInfo.HandleDelegate handler)
+```
+
+#### Parameters
+
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`handler` [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
+

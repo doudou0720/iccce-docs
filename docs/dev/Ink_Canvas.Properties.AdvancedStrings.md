@@ -104,6 +104,76 @@ public static string Debug_IconSettings { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_MemoryBreakdownDump_Button"></a> Debug\_MemoryBreakdownDump\_Button
+
+```csharp
+public static string Debug_MemoryBreakdownDump_Button { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_MemoryBreakdownDump_Desc"></a> Debug\_MemoryBreakdownDump\_Desc
+
+```csharp
+public static string Debug_MemoryBreakdownDump_Desc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_MemoryBreakdownDump_Header"></a> Debug\_MemoryBreakdownDump\_Header
+
+```csharp
+public static string Debug_MemoryBreakdownDump_Header { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_MemoryBreakdownForceGC_Button"></a> Debug\_MemoryBreakdownForceGC\_Button
+
+```csharp
+public static string Debug_MemoryBreakdownForceGC_Button { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_MemoryBreakdownForceGC_Desc"></a> Debug\_MemoryBreakdownForceGC\_Desc
+
+```csharp
+public static string Debug_MemoryBreakdownForceGC_Desc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_MemoryBreakdownForceGC_Header"></a> Debug\_MemoryBreakdownForceGC\_Header
+
+```csharp
+public static string Debug_MemoryBreakdownForceGC_Header { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_MemoryBreakdownSection"></a> Debug\_MemoryBreakdownSection
+
+```csharp
+public static string Debug_MemoryBreakdownSection { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PPTComProbe_Desc"></a> Debug\_PPTComProbe\_Desc
 
 ```csharp
@@ -144,6 +214,26 @@ public static string Debug_PPTPreviewVisible_Header { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PageHeader"></a> Debug\_PageHeader
+
+```csharp
+public static string Debug_PageHeader { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PageTitle"></a> Debug\_PageTitle
+
+```csharp
+public static string Debug_PageTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_ResetStartupCount_Button"></a> Debug\_ResetStartupCount\_Button
 
 ```csharp
@@ -178,6 +268,26 @@ public static string Debug_ResetStartupCount_Header { get; }
 
 ```csharp
 public static string Debug_SettingsExpanderExample { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SettingsExpanderExample_Desc"></a> Debug\_SettingsExpanderExample\_Desc
+
+```csharp
+public static string Debug_SettingsExpanderExample_Desc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SettingsExpanderExample_Header"></a> Debug\_SettingsExpanderExample\_Header
+
+```csharp
+public static string Debug_SettingsExpanderExample_Header { get; }
 ```
 
 #### Property Value

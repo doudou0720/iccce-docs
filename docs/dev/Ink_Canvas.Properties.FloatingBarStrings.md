@@ -564,6 +564,46 @@ public static string Board_Redo { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Roaming"></a> Board\_Roaming
+
+```csharp
+public static string Board_Roaming { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_RoamingPanelHint"></a> Board\_RoamingPanelHint
+
+```csharp
+public static string Board_RoamingPanelHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_RoamingPanelScale"></a> Board\_RoamingPanelScale
+
+```csharp
+public static string Board_RoamingPanelScale { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_RoamingPanelTitle"></a> Board\_RoamingPanelTitle
+
+```csharp
+public static string Board_RoamingPanelTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Screenshot"></a> Board\_Screenshot
 
 ```csharp

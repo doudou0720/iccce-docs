@@ -1,18 +1,19 @@
-# <a id="Ink_Canvas_Helpers_CameraService"></a> Class CameraService
+# <a id="Ink_Canvas_Helpers_WinRtCameraService"></a> Class WinRtCameraService
 
 Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)  
 Assembly: InkCanvasForClass.dll  
 
-基于 AForge.NET DirectShow 的摄像头服务实现，兼容 Win7 SP1+。
+基于 WinRT MediaFrameReader 的摄像头服务实现，Win10 1607+ 可用。
+相比 AForge DirectShow 性能更高（SoftwareBitmap 路径，无 GDI+ 中转）。
 
 ```csharp
-public class CameraService : ICameraService, IDisposable
+public sealed class WinRtCameraService : ICameraService, IDisposable
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[CameraService](Ink\_Canvas.Helpers.CameraService.md)
+[WinRtCameraService](Ink\_Canvas.Helpers.WinRtCameraService.md)
 
 #### Implements
 
@@ -25,35 +26,20 @@ public class CameraService : ICameraService, IDisposable
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
 [object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
 [object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
-### <a id="Ink_Canvas_Helpers_CameraService__ctor"></a> CameraService\(\)
+### <a id="Ink_Canvas_Helpers_WinRtCameraService__ctor"></a> WinRtCameraService\(\)
 
 ```csharp
-public CameraService()
+public WinRtCameraService()
 ```
-
-### <a id="Ink_Canvas_Helpers_CameraService__ctor_System_Int32_System_Int32_System_Int32_"></a> CameraService\(int, int, int\)
-
-```csharp
-public CameraService(int rotationAngle, int resolutionWidth, int resolutionHeight)
-```
-
-#### Parameters
-
-`rotationAngle` [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
-`resolutionWidth` [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
-`resolutionHeight` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Properties
 
-### <a id="Ink_Canvas_Helpers_CameraService_AvailableCameras"></a> AvailableCameras
+### <a id="Ink_Canvas_Helpers_WinRtCameraService_AvailableCameras"></a> AvailableCameras
 
 ```csharp
 public IReadOnlyList<CameraInfo> AvailableCameras { get; }
@@ -63,7 +49,7 @@ public IReadOnlyList<CameraInfo> AvailableCameras { get; }
 
  [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[CameraInfo](Ink\_Canvas.Helpers.CameraInfo.md)\>
 
-### <a id="Ink_Canvas_Helpers_CameraService_CurrentCamera"></a> CurrentCamera
+### <a id="Ink_Canvas_Helpers_WinRtCameraService_CurrentCamera"></a> CurrentCamera
 
 ```csharp
 public CameraInfo CurrentCamera { get; }
@@ -73,7 +59,7 @@ public CameraInfo CurrentCamera { get; }
 
  [CameraInfo](Ink\_Canvas.Helpers.CameraInfo.md)
 
-### <a id="Ink_Canvas_Helpers_CameraService_IsCapturing"></a> IsCapturing
+### <a id="Ink_Canvas_Helpers_WinRtCameraService_IsCapturing"></a> IsCapturing
 
 ```csharp
 public bool IsCapturing { get; }
@@ -83,7 +69,7 @@ public bool IsCapturing { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Helpers_CameraService_NativeResolutions"></a> NativeResolutions
+### <a id="Ink_Canvas_Helpers_WinRtCameraService_NativeResolutions"></a> NativeResolutions
 
 当前摄像头支持的 native 分辨率列表（可能为空，表示设备未提供）。
 
@@ -95,27 +81,7 @@ public IReadOnlyList<ResolutionInfo> NativeResolutions { get; }
 
  [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)\>
 
-### <a id="Ink_Canvas_Helpers_CameraService_ResolutionHeight"></a> ResolutionHeight
-
-```csharp
-public int ResolutionHeight { get; set; }
-```
-
-#### Property Value
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
-### <a id="Ink_Canvas_Helpers_CameraService_ResolutionWidth"></a> ResolutionWidth
-
-```csharp
-public int ResolutionWidth { get; set; }
-```
-
-#### Property Value
-
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
-### <a id="Ink_Canvas_Helpers_CameraService_RotationAngle"></a> RotationAngle
+### <a id="Ink_Canvas_Helpers_WinRtCameraService_RotationAngle"></a> RotationAngle
 
 0=0°, 1=90°, 2=180°, 3=270°。
 
@@ -127,7 +93,7 @@ public int RotationAngle { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="Ink_Canvas_Helpers_CameraService_SelectedResolutionIndex"></a> SelectedResolutionIndex
+### <a id="Ink_Canvas_Helpers_WinRtCameraService_SelectedResolutionIndex"></a> SelectedResolutionIndex
 
 当前选中的 native 分辨率索引；-1 表示未选中。
 
@@ -141,7 +107,7 @@ public int SelectedResolutionIndex { get; set; }
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_CameraService_Dispose"></a> Dispose\(\)
+### <a id="Ink_Canvas_Helpers_WinRtCameraService_Dispose"></a> Dispose\(\)
 
 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
@@ -149,21 +115,9 @@ Performs application-defined tasks associated with freeing, releasing, or resett
 public void Dispose()
 ```
 
-### <a id="Ink_Canvas_Helpers_CameraService_GetCameraNames"></a> GetCameraNames\(\)
+### <a id="Ink_Canvas_Helpers_WinRtCameraService_GetCurrentFrameAsBitmap"></a> GetCurrentFrameAsBitmap\(\)
 
-获取摄像头名称列表。
-
-```csharp
-public List<string> GetCameraNames()
-```
-
-#### Returns
-
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
-
-### <a id="Ink_Canvas_Helpers_CameraService_GetCurrentFrameAsBitmap"></a> GetCurrentFrameAsBitmap\(\)
-
-获取当前帧的 Bitmap 副本（调用方负责 Dispose）。
+获取当前帧的 GDI+ Bitmap（用于拍照后的图像处理，调用方负责 Dispose）。
 
 ```csharp
 public Bitmap GetCurrentFrameAsBitmap()
@@ -173,9 +127,9 @@ public Bitmap GetCurrentFrameAsBitmap()
 
  [Bitmap](https://learn.microsoft.com/dotnet/api/system.drawing.bitmap)
 
-### <a id="Ink_Canvas_Helpers_CameraService_GetCurrentFrameAsBitmapSource"></a> GetCurrentFrameAsBitmapSource\(\)
+### <a id="Ink_Canvas_Helpers_WinRtCameraService_GetCurrentFrameAsBitmapSource"></a> GetCurrentFrameAsBitmapSource\(\)
 
-获取当前帧的 BitmapSource（WPF 格式）。
+获取当前帧的 WPF 位图（已 Freeze）。
 
 ```csharp
 public BitmapSource GetCurrentFrameAsBitmapSource()
@@ -185,21 +139,9 @@ public BitmapSource GetCurrentFrameAsBitmapSource()
 
  [BitmapSource](https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource)
 
-### <a id="Ink_Canvas_Helpers_CameraService_HasAvailableCameras"></a> HasAvailableCameras\(\)
+### <a id="Ink_Canvas_Helpers_WinRtCameraService_RefreshCameraListAsync"></a> RefreshCameraListAsync\(\)
 
-检查是否有可用摄像头。
-
-```csharp
-public bool HasAvailableCameras()
-```
-
-#### Returns
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-### <a id="Ink_Canvas_Helpers_CameraService_RefreshCameraListAsync"></a> RefreshCameraListAsync\(\)
-
-刷新可用摄像头列表（AForge 同步完成）。
+刷新可用摄像头列表（WinRT 异步实现，调用方应 await）。
 
 ```csharp
 public Task RefreshCameraListAsync()
@@ -209,9 +151,9 @@ public Task RefreshCameraListAsync()
 
  [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
-### <a id="Ink_Canvas_Helpers_CameraService_StartPreviewAsync_System_Int32_"></a> StartPreviewAsync\(int\)
+### <a id="Ink_Canvas_Helpers_WinRtCameraService_StartPreviewAsync_System_Int32_"></a> StartPreviewAsync\(int\)
 
-启动摄像头预览（AForge 同步实现，返回 Task.FromResult）。
+启动指定摄像头的预览。会刷新 NativeResolutions。返回 Task 以避免阻塞 UI 线程（WinRT 实现是异步的）。
 
 ```csharp
 public Task<bool> StartPreviewAsync(int cameraIndex = 0)
@@ -225,15 +167,15 @@ public Task<bool> StartPreviewAsync(int cameraIndex = 0)
 
  [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
-### <a id="Ink_Canvas_Helpers_CameraService_StopPreview"></a> StopPreview\(\)
+### <a id="Ink_Canvas_Helpers_WinRtCameraService_StopPreview"></a> StopPreview\(\)
 
-停止摄像头预览。
+同步停止预览：立即清理本地字段（避免阻塞 UI 线程），异步等待 reader.StopAsync 在后台进行。
 
 ```csharp
 public void StopPreview()
 ```
 
-### <a id="Ink_Canvas_Helpers_CameraService_ErrorOccurred"></a> ErrorOccurred
+### <a id="Ink_Canvas_Helpers_WinRtCameraService_ErrorOccurred"></a> ErrorOccurred
 
 发生错误时触发，参数为错误描述。
 
@@ -245,7 +187,7 @@ public event EventHandler<string> ErrorOccurred
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="Ink_Canvas_Helpers_CameraService_FrameReceived"></a> FrameReceived
+### <a id="Ink_Canvas_Helpers_WinRtCameraService_FrameReceived"></a> FrameReceived
 
 每收到一帧时触发（参数为已 Freeze 的 BitmapSource，可跨线程）。
 

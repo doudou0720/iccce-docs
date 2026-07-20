@@ -274,6 +274,26 @@ public static string Hotkey_MouseMode { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_PassThroughMouseWheelInDrawingMode"></a> Hotkey\_PassThroughMouseWheelInDrawingMode
+
+```csharp
+public static string Hotkey_PassThroughMouseWheelInDrawingMode { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_PassThroughMouseWheelInDrawingModeHint"></a> Hotkey\_PassThroughMouseWheelInDrawingModeHint
+
+```csharp
+public static string Hotkey_PassThroughMouseWheelInDrawingModeHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_Paste"></a> Hotkey\_Paste
 
 ```csharp

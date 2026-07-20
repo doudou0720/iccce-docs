@@ -8,6 +8,8 @@
 
  [BackgroundPalettePopupContent](Ink\_Canvas.Controls.BackgroundPalettePopupContent.md)
 
+ [BoardRoamingPopupContent](Ink\_Canvas.Controls.BoardRoamingPopupContent.md)
+
  [BoardToolbarButton](Ink\_Canvas.Controls.BoardToolbarButton.md)
 
 BoardToolbarButton

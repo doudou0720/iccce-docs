@@ -508,6 +508,17 @@ public string Language { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Appearance_PassThroughMouseWheelInDrawingMode"></a> PassThroughMouseWheelInDrawingMode
+
+```csharp
+[JsonProperty("passThroughMouseWheelInDrawingMode")]
+public bool PassThroughMouseWheelInDrawingMode { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Appearance_QuickColorPaletteDisplayMode"></a> QuickColorPaletteDisplayMode
 
 ```csharp
@@ -557,6 +568,17 @@ public bool ReverseToolbarContent { get; set; }
 ```csharp
 [JsonProperty("showGrabHandleChevron")]
 public bool ShowGrabHandleChevron { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Appearance_ShowPenColorOnBoardToolbarIcon"></a> ShowPenColorOnBoardToolbarIcon
+
+```csharp
+[JsonProperty("showPenColorOnBoardToolbarIcon")]
+public bool ShowPenColorOnBoardToolbarIcon { get; set; }
 ```
 
 #### Property Value

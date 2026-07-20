@@ -56,7 +56,8 @@ void Invoke(ActionSet actionSet)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Abstractions_IActionService_RegisterActionHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_ActionRegistryInfo_HandleDelegate_"></a> RegisterActionHandler\(string, HandleDelegate\)
 
-注册行动处理程序
+注册行动处理程序。
+同一 handler 注册多次将自动去重，避免重复触发。
 
 ```csharp
 void RegisterActionHandler(string id, ActionRegistryInfo.HandleDelegate handler)
@@ -70,7 +71,8 @@ void RegisterActionHandler(string id, ActionRegistryInfo.HandleDelegate handler)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Abstractions_IActionService_RegisterRevertHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_ActionRegistryInfo_HandleDelegate_"></a> RegisterRevertHandler\(string, HandleDelegate\)
 
-注册行动恢复处理程序
+注册行动恢复处理程序。
+同一 handler 注册多次将自动去重。
 
 ```csharp
 void RegisterRevertHandler(string id, ActionRegistryInfo.HandleDelegate handler)
@@ -93,4 +95,32 @@ void Revert(ActionSet actionSet)
 #### Parameters
 
 `actionSet` [ActionSet](Ink\_Canvas.WorkflowAutomation.Models.ActionSet.md)
+
+### <a id="Ink_Canvas_WorkflowAutomation_Abstractions_IActionService_UnregisterActionHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_ActionRegistryInfo_HandleDelegate_"></a> UnregisterActionHandler\(string, HandleDelegate\)
+
+取消注册行动处理程序。
+
+```csharp
+void UnregisterActionHandler(string id, ActionRegistryInfo.HandleDelegate handler)
+```
+
+#### Parameters
+
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`handler` [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
+
+### <a id="Ink_Canvas_WorkflowAutomation_Abstractions_IActionService_UnregisterRevertHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_ActionRegistryInfo_HandleDelegate_"></a> UnregisterRevertHandler\(string, HandleDelegate\)
+
+取消注册行动恢复处理程序。
+
+```csharp
+void UnregisterRevertHandler(string id, ActionRegistryInfo.HandleDelegate handler)
+```
+
+#### Parameters
+
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`handler` [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
 

@@ -31,7 +31,17 @@ Only shrinks, never enlarges above MaxFontSize.
 
 通用上传队列基类
 
+ [CameraInfo](Ink\_Canvas.Helpers.CameraInfo.md)
+
  [CameraService](Ink\_Canvas.Helpers.CameraService.md)
+
+基于 AForge.NET DirectShow 的摄像头服务实现，兼容 Win7 SP1+。
+
+ [CameraServiceFactory](Ink\_Canvas.Helpers.CameraServiceFactory.md)
+
+摄像头服务工厂：根据操作系统版本选择实现。
+- Win10 1607 (14393)+：使用 <xref href="Ink_Canvas.Helpers.WinRtCameraService" data-throw-if-not-resolved="false"></xref>（性能更高）
+- Win7 SP1+ / Win10 1607-：使用 <xref href="Ink_Canvas.Helpers.CameraService" data-throw-if-not-resolved="false"></xref>（AForge DirectShow 兜底）
 
  [Circle](Ink\_Canvas.Helpers.Circle.md)
 
@@ -90,6 +100,8 @@ Each theme is a folder containing manifest.json and Theme.xaml.
  [FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md)
 
 悬浮窗拦截器 - 检测和隐藏指定的悬浮窗
+
+ [FrameEventArgs](Ink\_Canvas.Helpers.FrameEventArgs.md)
 
  [FullScreenHelper](Ink\_Canvas.Helpers.FullScreenHelper.md)
 
@@ -178,6 +190,19 @@ Represents a single lyric line with timing information.
 
 Parses standard LRC and translated LRC files.
 
+ [MemoryBreakdownHelper](Ink\_Canvas.Helpers.MemoryBreakdownHelper.md)
+
+Builds a detailed memory snapshot of the current process for diagnostics
+(relates to issue #546). The snapshot is plain text — it lists:
+  1) Process-level working set / private usage / page-file usage
+  2) .NET GC heap stats (per-generation size, fragmentation, pinned objects)
+  3) WPF UI counts (Windows, SettingsWindow page cache, Visual tree size)
+  4) In-app caches that are known to grow (PerformanceMonitorHelper samples,
+     Automation / plugin manager registry if accessible via reflection)
+  5) Loaded assemblies count
+The caller can persist the report to Logs/MemoryBreakdown_*.txt and/or
+emit a short summary through <xref href="Ink_Canvas.Helpers.LogHelper.WriteLogToFile(System.String%2cInk_Canvas.Helpers.LogHelper.LogType)" data-throw-if-not-resolved="false"></xref>.
+
  [MicroBinClient](Ink\_Canvas.Helpers.MicroBinClient.md)
 
 MicroBin pastebin 客户端。
@@ -215,6 +240,8 @@ Main-window base that can use WindowChrome for DWM-backed transparent rendering.
  [PopupManagerHelper](Ink\_Canvas.Helpers.PopupManagerHelper.md)
 
  [ROTPPTManager](Ink\_Canvas.Helpers.ROTPPTManager.md)
+
+ [ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)
 
  [SafeZipExtractor](Ink\_Canvas.Helpers.SafeZipExtractor.md)
 
@@ -322,6 +349,11 @@ WebDAV上传队列
 
 WebDav上传工具类
 
+ [WinRtCameraService](Ink\_Canvas.Helpers.WinRtCameraService.md)
+
+基于 WinRT MediaFrameReader 的摄像头服务实现，Win10 1607+ 可用。
+相比 AForge DirectShow 性能更高（SoftwareBitmap 路径，无 GDI+ 中转）。
+
  [WindowInfo](Ink\_Canvas.Helpers.WindowInfo.md)
 
 窗口信息结构
@@ -345,15 +377,19 @@ WebDav上传工具类
 
  [EdgeGestureUtil.PropertyKey](Ink\_Canvas.Helpers.EdgeGestureUtil.PropertyKey.md)
 
- [PPTManager.RECT](Ink\_Canvas.Helpers.PPTManager.RECT.md)
-
  [ROTPPTManager.RECT](Ink\_Canvas.Helpers.ROTPPTManager.RECT.md)
+
+ [PPTManager.RECT](Ink\_Canvas.Helpers.PPTManager.RECT.md)
 
  [WindowRect](Ink\_Canvas.Helpers.WindowRect.md)
 
 矩形结构体（用于窗口位置和大小）
 
 ### Interfaces
+
+ [ICameraService](Ink\_Canvas.Helpers.ICameraService.md)
+
+视频展台摄像头服务的抽象接口，AForge (Win7+) 和 WinRT (Win10+) 各自实现。
 
  [IPPTLinkManager](Ink\_Canvas.Helpers.IPPTLinkManager.md)
 

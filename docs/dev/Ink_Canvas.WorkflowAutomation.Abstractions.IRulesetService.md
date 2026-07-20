@@ -52,10 +52,25 @@ void NotifyStatusChanged()
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Abstractions_IRulesetService_RegisterRuleHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_RuleRegistryInfo_HandleDelegate_"></a> RegisterRuleHandler\(string, HandleDelegate\)
 
-注册规则处理程序
+注册规则处理程序。
+同一 handler 注册多次将自动去重。
 
 ```csharp
 void RegisterRuleHandler(string id, RuleRegistryInfo.HandleDelegate handler)
+```
+
+#### Parameters
+
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`handler` [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)
+
+### <a id="Ink_Canvas_WorkflowAutomation_Abstractions_IRulesetService_UnregisterRuleHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_RuleRegistryInfo_HandleDelegate_"></a> UnregisterRuleHandler\(string, HandleDelegate\)
+
+取消注册规则处理程序。
+
+```csharp
+void UnregisterRuleHandler(string id, RuleRegistryInfo.HandleDelegate handler)
 ```
 
 #### Parameters

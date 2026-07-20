@@ -171,6 +171,12 @@ void SelectEraser()
 void SelectPen()
 ```
 
+### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_SelectRoaming"></a> SelectRoaming\(\)
+
+```csharp
+void SelectRoaming()
+```
+
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_SelectShape"></a> SelectShape\(\)
 
 ```csharp

@@ -197,6 +197,8 @@
   - name: Classes
   - name: BackgroundPalettePopupContent
     href: Ink_Canvas.Controls.BackgroundPalettePopupContent.md
+  - name: BoardRoamingPopupContent
+    href: Ink_Canvas.Controls.BoardRoamingPopupContent.md
   - name: BoardToolbarButton
     href: Ink_Canvas.Controls.BoardToolbarButton.md
   - name: BoardToolsPopupContent
@@ -381,8 +383,12 @@
     href: Ink_Canvas.Helpers.AvoidFullScreenHelper.md
   - name: BaseUploadQueue
     href: Ink_Canvas.Helpers.BaseUploadQueue.md
+  - name: CameraInfo
+    href: Ink_Canvas.Helpers.CameraInfo.md
   - name: CameraService
     href: Ink_Canvas.Helpers.CameraService.md
+  - name: CameraServiceFactory
+    href: Ink_Canvas.Helpers.CameraServiceFactory.md
   - name: Circle
     href: Ink_Canvas.Helpers.Circle.md
   - name: ComPPTLinkManager
@@ -425,6 +431,8 @@
     href: Ink_Canvas.Helpers.FloatingWindowInterceptor.WindowInterceptedEventArgs.md
   - name: FloatingWindowInterceptor.WindowRestoredEventArgs
     href: Ink_Canvas.Helpers.FloatingWindowInterceptor.WindowRestoredEventArgs.md
+  - name: FrameEventArgs
+    href: Ink_Canvas.Helpers.FrameEventArgs.md
   - name: FullScreenHelper
     href: Ink_Canvas.Helpers.FullScreenHelper.md
   - name: GlobalHotkeyManager
@@ -467,6 +475,8 @@
     href: Ink_Canvas.Helpers.LrcLine.md
   - name: LrcParser
     href: Ink_Canvas.Helpers.LrcParser.md
+  - name: MemoryBreakdownHelper
+    href: Ink_Canvas.Helpers.MemoryBreakdownHelper.md
   - name: MicroBinClient
     href: Ink_Canvas.Helpers.MicroBinClient.md
   - name: PPTAgentLinkManager
@@ -489,6 +499,8 @@
     href: Ink_Canvas.Helpers.PopupManagerHelper.md
   - name: ROTPPTManager
     href: Ink_Canvas.Helpers.ROTPPTManager.md
+  - name: ResolutionInfo
+    href: Ink_Canvas.Helpers.ResolutionInfo.md
   - name: SafeZipExtractor
     href: Ink_Canvas.Helpers.SafeZipExtractor.md
   - name: SaveFileNameContext
@@ -545,6 +557,8 @@
     href: Ink_Canvas.Helpers.WebDavUploadQueue.md
   - name: WebDavUploader
     href: Ink_Canvas.Helpers.WebDavUploader.md
+  - name: WinRtCameraService
+    href: Ink_Canvas.Helpers.WinRtCameraService.md
   - name: WindowInfo
     href: Ink_Canvas.Helpers.WindowInfo.md
   - name: WindowOverviewModel
@@ -565,6 +579,8 @@
   - name: Interfaces
   - name: EdgeGestureUtil.IPropertyStore
     href: Ink_Canvas.Helpers.EdgeGestureUtil.IPropertyStore.md
+  - name: ICameraService
+    href: Ink_Canvas.Helpers.ICameraService.md
   - name: IPPTLinkManager
     href: Ink_Canvas.Helpers.IPPTLinkManager.md
   - name: IUploadProvider

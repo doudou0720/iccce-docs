@@ -634,6 +634,26 @@ public static string Plugin_ExportTitle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ExternalDllAuthorizationMessage"></a> Plugin\_ExternalDllAuthorizationMessage
+
+```csharp
+public static string Plugin_ExternalDllAuthorizationMessage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ExternalDllAuthorizationTitle"></a> Plugin\_ExternalDllAuthorizationTitle
+
+```csharp
+public static string Plugin_ExternalDllAuthorizationTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ImportConfig"></a> Plugin\_ImportConfig
 
 ```csharp

@@ -89,6 +89,20 @@ public void RegisterRuleHandler(string id, RuleRegistryInfo.HandleDelegate handl
 
 `handler` [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)
 
+### <a id="Ink_Canvas_WorkflowAutomation_Services_RulesetService_UnregisterRuleHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_RuleRegistryInfo_HandleDelegate_"></a> UnregisterRuleHandler\(string, HandleDelegate\)
+
+取消注册规则处理程序。
+
+```csharp
+public void UnregisterRuleHandler(string id, RuleRegistryInfo.HandleDelegate handler)
+```
+
+#### Parameters
+
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`handler` [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)
+
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_RulesetService_StatusUpdated"></a> StatusUpdated
 
 规则状态更新事件，当规则条件可能发生变化时触发。
