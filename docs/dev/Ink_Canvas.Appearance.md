@@ -233,6 +233,17 @@ public bool EnableHotkeysInMouseMode { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Appearance_EnableIdleMiniBar"></a> EnableIdleMiniBar
+
+```csharp
+[JsonProperty("enableIdleMiniBar")]
+public bool EnableIdleMiniBar { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Appearance_EnableSplashScreen"></a> EnableSplashScreen
 
 ```csharp
@@ -386,6 +397,28 @@ public List<string> HitokotoCategories { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+
+### <a id="Ink_Canvas_Appearance_IdleMiniBarAutoRestoreSeconds"></a> IdleMiniBarAutoRestoreSeconds
+
+```csharp
+[JsonProperty("idleMiniBarAutoRestoreSeconds")]
+public double IdleMiniBarAutoRestoreSeconds { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Appearance_IdleMiniBarOpacity"></a> IdleMiniBarOpacity
+
+```csharp
+[JsonProperty("idleMiniBarOpacity")]
+public double IdleMiniBarOpacity { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_IsAutoCollapseQuickPanel"></a> IsAutoCollapseQuickPanel
 

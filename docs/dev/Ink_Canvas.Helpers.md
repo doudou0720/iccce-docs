@@ -33,15 +33,19 @@ Only shrinks, never enlarges above MaxFontSize.
 
  [CameraInfo](Ink\_Canvas.Helpers.CameraInfo.md)
 
- [CameraService](Ink\_Canvas.Helpers.CameraService.md)
-
-基于 AForge.NET DirectShow 的摄像头服务实现，兼容 Win7 SP1+。
-
  [CameraServiceFactory](Ink\_Canvas.Helpers.CameraServiceFactory.md)
 
-摄像头服务工厂：根据操作系统版本选择实现。
-- Win10 1607 (14393)+：使用 <xref href="Ink_Canvas.Helpers.WinRtCameraService" data-throw-if-not-resolved="false"></xref>（性能更高）
-- Win7 SP1+ / Win10 1607-：使用 <xref href="Ink_Canvas.Helpers.CameraService" data-throw-if-not-resolved="false"></xref>（AForge DirectShow 兜底）
+摄像头服务工厂。
+统一返回 <xref href="Ink_Canvas.Helpers.DirectShowCameraService" data-throw-if-not-resolved="false"></xref>（基于 DirectShowLib + SampleGrabber），
+不再依赖 AForge.Video / WinRT MediaFrameReader。
+视频展台特殊模式（全屏预览）走 MainWindow.VideoPresenterFullCanvasImage（WPFMediaKit VideoCaptureElement）。
+
+ [CapturableVideoCaptureElement](Ink\_Canvas.Helpers.CapturableVideoCaptureElement.md)
+
+继承自 WPFMediaKit 的 VideoCaptureElement，额外暴露从 D3DImage 直接拍照的能力。
+参考 EasiCamera.Control.CameraPreviewer：
+  public BitmapSource CameraImage =&gt; base.D3DImage.GetBitmapSource();
+D3DImage 属性是 protected，只能在子类中访问。
 
  [Circle](Ink\_Canvas.Helpers.Circle.md)
 
@@ -55,6 +59,13 @@ Only shrinks, never enlarges above MaxFontSize.
  [DebugConsoleManager](Ink\_Canvas.Helpers.DebugConsoleManager.md)
 
  [DelayAction](Ink\_Canvas.Helpers.DelayAction.md)
+
+ [DirectShowCameraService](Ink\_Canvas.Helpers.DirectShowCameraService.md)
+
+基于 DirectShow (DirectShowLib) FilterGraph + SampleGrabber 的摄像头服务实现。
+不依赖 AForge.Video / WinRT，纯 DirectShow + GDI+。兼容 Win7 SP1+。
+ScreenshotSelectorWindow 使用此实现（不创建 UI 控件，纯帧事件路径）。
+视频展台特殊模式（全屏预览）仍走 MainWindow.VideoPresenterFullCanvasImage (WPFMediaKit VideoCaptureElement)。
 
  [DlassApiClient](Ink\_Canvas.Helpers.DlassApiClient.md)
 
@@ -349,11 +360,6 @@ WebDAV上传队列
 
 WebDav上传工具类
 
- [WinRtCameraService](Ink\_Canvas.Helpers.WinRtCameraService.md)
-
-基于 WinRT MediaFrameReader 的摄像头服务实现，Win10 1607+ 可用。
-相比 AForge DirectShow 性能更高（SoftwareBitmap 路径，无 GDI+ 中转）。
-
  [WindowInfo](Ink\_Canvas.Helpers.WindowInfo.md)
 
 窗口信息结构
@@ -377,9 +383,9 @@ WebDav上传工具类
 
  [EdgeGestureUtil.PropertyKey](Ink\_Canvas.Helpers.EdgeGestureUtil.PropertyKey.md)
 
- [ROTPPTManager.RECT](Ink\_Canvas.Helpers.ROTPPTManager.RECT.md)
-
  [PPTManager.RECT](Ink\_Canvas.Helpers.PPTManager.RECT.md)
+
+ [ROTPPTManager.RECT](Ink\_Canvas.Helpers.ROTPPTManager.RECT.md)
 
  [WindowRect](Ink\_Canvas.Helpers.WindowRect.md)
 
@@ -389,7 +395,8 @@ WebDav上传工具类
 
  [ICameraService](Ink\_Canvas.Helpers.ICameraService.md)
 
-视频展台摄像头服务的抽象接口，AForge (Win7+) 和 WinRT (Win10+) 各自实现。
+视频展台摄像头服务的抽象接口。
+当前实现：<xref href="Ink_Canvas.Helpers.DirectShowCameraService" data-throw-if-not-resolved="false"></xref>（基于 DirectShowLib FilterGraph + SampleGrabber）。
 
  [IPPTLinkManager](Ink\_Canvas.Helpers.IPPTLinkManager.md)
 

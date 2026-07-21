@@ -203,6 +203,8 @@
     href: Ink_Canvas.Controls.BoardToolbarButton.md
   - name: BoardToolsPopupContent
     href: Ink_Canvas.Controls.BoardToolsPopupContent.md
+  - name: BoothPopupContent
+    href: Ink_Canvas.Controls.BoothPopupContent.md
   - name: CanvasMediaControl
     href: Ink_Canvas.Controls.CanvasMediaControl.md
   - name: ColorPickerButton
@@ -385,10 +387,10 @@
     href: Ink_Canvas.Helpers.BaseUploadQueue.md
   - name: CameraInfo
     href: Ink_Canvas.Helpers.CameraInfo.md
-  - name: CameraService
-    href: Ink_Canvas.Helpers.CameraService.md
   - name: CameraServiceFactory
     href: Ink_Canvas.Helpers.CameraServiceFactory.md
+  - name: CapturableVideoCaptureElement
+    href: Ink_Canvas.Helpers.CapturableVideoCaptureElement.md
   - name: Circle
     href: Ink_Canvas.Helpers.Circle.md
   - name: ComPPTLinkManager
@@ -399,6 +401,8 @@
     href: Ink_Canvas.Helpers.DebugConsoleManager.md
   - name: DelayAction
     href: Ink_Canvas.Helpers.DelayAction.md
+  - name: DirectShowCameraService
+    href: Ink_Canvas.Helpers.DirectShowCameraService.md
   - name: DlassApiClient
     href: Ink_Canvas.Helpers.DlassApiClient.md
   - name: DlassUploadProvider
@@ -557,8 +561,6 @@
     href: Ink_Canvas.Helpers.WebDavUploadQueue.md
   - name: WebDavUploader
     href: Ink_Canvas.Helpers.WebDavUploader.md
-  - name: WinRtCameraService
-    href: Ink_Canvas.Helpers.WinRtCameraService.md
   - name: WindowInfo
     href: Ink_Canvas.Helpers.WindowInfo.md
   - name: WindowOverviewModel
@@ -1175,8 +1177,6 @@
     href: Ink_Canvas.WorkflowAutomation.Actions.KillProcessAction.md
   - name: KillProcessActionSettings
     href: Ink_Canvas.WorkflowAutomation.Actions.KillProcessActionSettings.md
-  - name: SaveStrokesAction
-    href: Ink_Canvas.WorkflowAutomation.Actions.SaveStrokesAction.md
   - name: SaveStrokesActionSettings
     href: Ink_Canvas.WorkflowAutomation.Actions.SaveStrokesActionSettings.md
   - name: ShowNotificationAction

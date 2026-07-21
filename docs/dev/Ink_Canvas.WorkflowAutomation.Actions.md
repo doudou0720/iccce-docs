@@ -26,10 +26,6 @@
 
 杀进程行动的设置
 
- [SaveStrokesAction](Ink\_Canvas.WorkflowAutomation.Actions.SaveStrokesAction.md)
-
-保存笔画的行动注册。
-
  [SaveStrokesActionSettings](Ink\_Canvas.WorkflowAutomation.Actions.SaveStrokesActionSettings.md)
 
 保存笔画行动的设置

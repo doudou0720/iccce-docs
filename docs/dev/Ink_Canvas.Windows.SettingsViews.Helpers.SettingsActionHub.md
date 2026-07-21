@@ -192,6 +192,16 @@ public static void OnDisablePressureChanged(bool value)
 
 `value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnEnableIdleMiniBarChanged_System_Boolean_"></a> OnEnableIdleMiniBarChanged\(bool\)
+
+```csharp
+public static void OnEnableIdleMiniBarChanged(bool isOn)
+```
+
+#### Parameters
+
+`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnEnablePressureTouchModeChanged_System_Boolean_"></a> OnEnablePressureTouchModeChanged\(bool\)
 
 ```csharp
@@ -335,6 +345,16 @@ public static void OnHideFloatingBarBorderChanged(bool isOn)
 #### Parameters
 
 `isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnIdleMiniBarOpacityChanged_System_Double_"></a> OnIdleMiniBarOpacityChanged\(double\)
+
+```csharp
+public static void OnIdleMiniBarOpacityChanged(double value)
+```
+
+#### Parameters
+
+`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnInkToShapeEnabledChanged_System_Boolean_"></a> OnInkToShapeEnabledChanged\(bool\)
 

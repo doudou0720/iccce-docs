@@ -3,9 +3,10 @@
 Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)  
 Assembly: InkCanvasForClass.dll  
 
-摄像头服务工厂：根据操作系统版本选择实现。
-- Win10 1607 (14393)+：使用 <xref href="Ink_Canvas.Helpers.WinRtCameraService" data-throw-if-not-resolved="false"></xref>（性能更高）
-- Win7 SP1+ / Win10 1607-：使用 <xref href="Ink_Canvas.Helpers.CameraService" data-throw-if-not-resolved="false"></xref>（AForge DirectShow 兜底）
+摄像头服务工厂。
+统一返回 <xref href="Ink_Canvas.Helpers.DirectShowCameraService" data-throw-if-not-resolved="false"></xref>（基于 DirectShowLib + SampleGrabber），
+不再依赖 AForge.Video / WinRT MediaFrameReader。
+视频展台特殊模式（全屏预览）走 MainWindow.VideoPresenterFullCanvasImage（WPFMediaKit VideoCaptureElement）。
 
 ```csharp
 public static class CameraServiceFactory
@@ -25,20 +26,6 @@ public static class CameraServiceFactory
 [object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
-
-## Properties
-
-### <a id="Ink_Canvas_Helpers_CameraServiceFactory_IsWinRtSupported"></a> IsWinRtSupported
-
-当前系统是否支持 WinRT 摄像头路径。
-
-```csharp
-public static bool IsWinRtSupported { get; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 

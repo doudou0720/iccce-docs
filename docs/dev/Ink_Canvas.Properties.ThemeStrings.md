@@ -814,6 +814,46 @@ public static string Theme_Hitokoto_SelectAll { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_IdleMiniBar"></a> Theme\_IdleMiniBar
+
+```csharp
+public static string Theme_IdleMiniBar { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_IdleMiniBarAutoRestore"></a> Theme\_IdleMiniBarAutoRestore
+
+```csharp
+public static string Theme_IdleMiniBarAutoRestore { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_IdleMiniBarHint"></a> Theme\_IdleMiniBarHint
+
+```csharp
+public static string Theme_IdleMiniBarHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_IdleMiniBarOpacity"></a> Theme\_IdleMiniBarOpacity
+
+```csharp
+public static string Theme_IdleMiniBarOpacity { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Label"></a> Theme\_Label
 
 ```csharp

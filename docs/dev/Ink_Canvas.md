@@ -88,8 +88,14 @@ CustomIconWindow.xaml 的交互逻辑
 
  [MainWindow](Ink\_Canvas.MainWindow.md)
 
-MainWindow 的小白板相关功能 partial class
-管理浮窗小白板的打开、关闭、状态，以及白板按钮右键二级菜单
+Issue #286 — 书写位置贴近边缘时显示"扩展画布"提示按钮。
+检测 inkCanvas_StrokeCollected 中的笔画触点，若任意点距画布四边的距离
+小于阈值 Settings.Canvas.EdgeExpandThreshold，就在书写
+位置外侧的边缘区域浮现一个按钮：
+  • 上下左右非边角位置：按钮显示在当前书写位置的边缘外侧（水平/垂直方向）。
+  • 靠近四个边角：按钮显示为斜向扩展（45°）。
+点击按钮后，按 Settings.Canvas.EdgeExpandTranslateStep
+平移画布上的全部墨迹和图片元素，腾出新的书写空间。
 
  [ManagePickNameBackgroundsWindow](Ink\_Canvas.ManagePickNameBackgroundsWindow.md)
 

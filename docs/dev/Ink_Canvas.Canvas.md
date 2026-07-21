@@ -158,6 +158,46 @@ public bool DisablePressure { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Canvas_EdgeExpandAutoHideMs"></a> EdgeExpandAutoHideMs
+
+"扩展画布"按钮在无新触发后保持可见的时长（毫秒）。超过后自动隐藏。
+
+```csharp
+[JsonProperty("edgeExpandAutoHideMs")]
+public double EdgeExpandAutoHideMs { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Canvas_EdgeExpandThreshold"></a> EdgeExpandThreshold
+
+触发"扩展画布"提示按钮的边缘阈值（像素）。当笔画的任意触点距画布四边的距离小于该值时，提示按钮会浮现。
+默认 80 像素，便于教师日常书写时容易触发。
+
+```csharp
+[JsonProperty("edgeExpandThreshold")]
+public double EdgeExpandThreshold { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Canvas_EdgeExpandTranslateStep"></a> EdgeExpandTranslateStep
+
+点击"扩展画布"按钮时一次性平移墨迹的像素距离。值越大，单击腾出的书写空间越大。
+
+```csharp
+[JsonProperty("edgeExpandTranslateStep")]
+public double EdgeExpandTranslateStep { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Canvas_EnableBrushAutoRestore"></a> EnableBrushAutoRestore
 
 ```csharp
@@ -424,6 +464,20 @@ public bool IsCompressPicturesUploaded { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Canvas_IsEnableEdgeExpandHint"></a> IsEnableEdgeExpandHint
+
+是否在书写位置贴近画布边缘时显示"扩展画布"提示按钮。
+默认关闭，避免在 PPT 演示、桌面批注等场景干扰；开启后在白板书写时贴近边缘会自动浮现提示。
+
+```csharp
+[JsonProperty("isEnableEdgeExpandHint")]
+public bool IsEnableEdgeExpandHint { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Canvas_IsShowCursor"></a> IsShowCursor
 
 ```csharp
@@ -647,4 +701,34 @@ public double VelocityBrushTipMix { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Canvas_VideoPresenterLastCameraName"></a> VideoPresenterLastCameraName
+
+视频展台持久化：上次选中的摄像头设备名（DsDevice.Name）。
+下次启动展台时优先选中同名设备；找不到则回退到第一个。
+用设备名而非索引，因为索引会随设备热插拔变化。
+
+```csharp
+[JsonProperty("videoPresenterLastCameraName")]
+public string VideoPresenterLastCameraName { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Canvas_VideoPresenterLastResolutionKey"></a> VideoPresenterLastResolutionKey
+
+视频展台持久化：上次选中的分辨率键，格式 "WxH@FPS"（例如 "1920x1080@30"）。
+下次启动展台时优先选中相同键的 capability；找不到则回退到默认（最接近 1920×1080 的项）。
+用字符串键而非索引，因为索引会随驱动 capability 列表顺序变化。
+
+```csharp
+[JsonProperty("videoPresenterLastResolutionKey")]
+public string VideoPresenterLastResolutionKey { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

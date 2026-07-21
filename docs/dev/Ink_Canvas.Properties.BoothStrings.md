@@ -54,6 +54,16 @@ public static string CapturedPhotos { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_BoothStrings_Close"></a> Close
+
+```csharp
+public static string Close { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_BoothStrings_Correction"></a> Correction
 
 ```csharp

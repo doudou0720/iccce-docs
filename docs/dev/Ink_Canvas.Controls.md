@@ -16,6 +16,11 @@ BoardToolbarButton
 
  [BoardToolsPopupContent](Ink\_Canvas.Controls.BoardToolsPopupContent.md)
 
+ [BoothPopupContent](Ink\_Canvas.Controls.BoothPopupContent.md)
+
+视频展台弹窗菜单内容：使用 PopupShellContent 作为外壳，承载摄像头设备选择、
+分辨率选择以及矫正/拍照/旋转/关闭 4 个操作按钮。
+
  [CanvasMediaControl](Ink\_Canvas.Controls.CanvasMediaControl.md)
 
 CanvasMediaControl

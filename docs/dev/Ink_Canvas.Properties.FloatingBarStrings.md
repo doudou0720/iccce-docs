@@ -694,6 +694,46 @@ public static string Board_Undo { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_EdgeExpandHint_Button"></a> Canvas\_EdgeExpandHint\_Button
+
+```csharp
+public static string Canvas_EdgeExpandHint_Button { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_EdgeExpandHint_Settings_Enable"></a> Canvas\_EdgeExpandHint\_Settings\_Enable
+
+```csharp
+public static string Canvas_EdgeExpandHint_Settings_Enable { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_EdgeExpandHint_Settings_Threshold"></a> Canvas\_EdgeExpandHint\_Settings\_Threshold
+
+```csharp
+public static string Canvas_EdgeExpandHint_Settings_Threshold { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_EdgeExpandHint_Settings_TranslateStep"></a> Canvas\_EdgeExpandHint\_Settings\_TranslateStep
+
+```csharp
+public static string Canvas_EdgeExpandHint_Settings_TranslateStep { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Culture"></a> Culture
 
 ```csharp
@@ -988,6 +1028,66 @@ public static string FloatingBar_Unfreeze { get; }
 
 ```csharp
 public static string FloatingBar_Whiteboard { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_IdleMiniBar_Annotate"></a> IdleMiniBar\_Annotate
+
+```csharp
+public static string IdleMiniBar_Annotate { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_IdleMiniBar_ClearPage"></a> IdleMiniBar\_ClearPage
+
+```csharp
+public static string IdleMiniBar_ClearPage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_IdleMiniBar_Expand"></a> IdleMiniBar\_Expand
+
+```csharp
+public static string IdleMiniBar_Expand { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_IdleMiniBar_More"></a> IdleMiniBar\_More
+
+```csharp
+public static string IdleMiniBar_More { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_IdleMiniBar_StartAnnotate"></a> IdleMiniBar\_StartAnnotate
+
+```csharp
+public static string IdleMiniBar_StartAnnotate { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_IdleMiniBar_Whiteboard"></a> IdleMiniBar\_Whiteboard
+
+```csharp
+public static string IdleMiniBar_Whiteboard { get; }
 ```
 
 #### Property Value
