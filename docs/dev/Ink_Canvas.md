@@ -126,6 +126,10 @@ Interaction logic for StopwatchWindow.xaml
 
  [PerformanceRunRecord](Ink\_Canvas.PerformanceRunRecord.md)
 
+One session record in Configs/PerformanceHistory.json.
+Default serialization omits zeros/nulls so normal CPU history stays compact.
+Super-detailed realtime-ink fields are only populated when Debug 页开关开启.
+
  [PerformanceSettings](Ink\_Canvas.PerformanceSettings.md)
 
  [PowerPointSettings](Ink\_Canvas.PowerPointSettings.md)

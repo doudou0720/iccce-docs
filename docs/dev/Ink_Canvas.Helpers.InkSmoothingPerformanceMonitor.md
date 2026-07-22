@@ -36,6 +36,26 @@ public double GetAverageBezierTimeMs()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetAverageComputeMs"></a> GetAverageComputeMs\(\)
+
+```csharp
+public double GetAverageComputeMs()
+```
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetAverageDispatcherWaitMs"></a> GetAverageDispatcherWaitMs\(\)
+
+```csharp
+public double GetAverageDispatcherWaitMs()
+```
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetAverageInputPointCount"></a> GetAverageInputPointCount\(\)
 
 ```csharp
@@ -50,6 +70,16 @@ public double GetAverageInputPointCount()
 
 ```csharp
 public double GetAverageOutputPointCount()
+```
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetAveragePointCopyMs"></a> GetAveragePointCopyMs\(\)
+
+```csharp
+public double GetAveragePointCopyMs()
 ```
 
 #### Returns
@@ -76,10 +106,120 @@ public double GetAverageResampleTimeMs()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetAverageSemaphoreWaitMs"></a> GetAverageSemaphoreWaitMs\(\)
+
+```csharp
+public double GetAverageSemaphoreWaitMs()
+```
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetAverageStrokeConstructionMs"></a> GetAverageStrokeConstructionMs\(\)
+
+```csharp
+public double GetAverageStrokeConstructionMs()
+```
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetAverageThreadPoolQueueMs"></a> GetAverageThreadPoolQueueMs\(\)
+
+```csharp
+public double GetAverageThreadPoolQueueMs()
+```
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetAverageUiCallbackMs"></a> GetAverageUiCallbackMs\(\)
+
+```csharp
+public double GetAverageUiCallbackMs()
+```
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetMaxComputeMs"></a> GetMaxComputeMs\(\)
+
+```csharp
+public double GetMaxComputeMs()
+```
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetMaxDispatcherWaitMs"></a> GetMaxDispatcherWaitMs\(\)
+
+```csharp
+public double GetMaxDispatcherWaitMs()
+```
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetMaxPointCopyMs"></a> GetMaxPointCopyMs\(\)
+
+```csharp
+public double GetMaxPointCopyMs()
+```
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetMaxProcessingTimeMs"></a> GetMaxProcessingTimeMs\(\)
 
 ```csharp
 public double GetMaxProcessingTimeMs()
+```
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetMaxSemaphoreWaitMs"></a> GetMaxSemaphoreWaitMs\(\)
+
+```csharp
+public double GetMaxSemaphoreWaitMs()
+```
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetMaxStrokeConstructionMs"></a> GetMaxStrokeConstructionMs\(\)
+
+```csharp
+public double GetMaxStrokeConstructionMs()
+```
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetMaxThreadPoolQueueMs"></a> GetMaxThreadPoolQueueMs\(\)
+
+```csharp
+public double GetMaxThreadPoolQueueMs()
+```
+
+#### Returns
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetMaxUiCallbackMs"></a> GetMaxUiCallbackMs\(\)
+
+```csharp
+public double GetMaxUiCallbackMs()
 ```
 
 #### Returns
@@ -96,27 +236,25 @@ public int GetSampleCount()
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_RecordBezierTime_System_TimeSpan_"></a> RecordBezierTime\(TimeSpan\)
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_GetSamples"></a> GetSamples\(\)
 
 ```csharp
-public void RecordBezierTime(TimeSpan time)
+public List<InkSmoothingPipelineSample> GetSamples()
+```
+
+#### Returns
+
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[InkSmoothingPipelineSample](Ink\_Canvas.Helpers.InkSmoothingPipelineSample.md)\>
+
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_RecordPipelineSample_Ink_Canvas_Helpers_InkSmoothingPipelineSample_"></a> RecordPipelineSample\(InkSmoothingPipelineSample\)
+
+```csharp
+public void RecordPipelineSample(InkSmoothingPipelineSample sample)
 ```
 
 #### Parameters
 
-`time` [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)
-
-### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_RecordPointCounts_System_Int32_System_Int32_"></a> RecordPointCounts\(int, int\)
-
-```csharp
-public void RecordPointCounts(int inputCount, int outputCount)
-```
-
-#### Parameters
-
-`inputCount` [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
-`outputCount` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`sample` [InkSmoothingPipelineSample](Ink\_Canvas.Helpers.InkSmoothingPipelineSample.md)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_RecordProcessingTime_System_TimeSpan_"></a> RecordProcessingTime\(TimeSpan\)
 
@@ -128,13 +266,9 @@ public void RecordProcessingTime(TimeSpan time)
 
 `time` [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)
 
-### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_RecordResampleTime_System_TimeSpan_"></a> RecordResampleTime\(TimeSpan\)
+### <a id="Ink_Canvas_Helpers_InkSmoothingPerformanceMonitor_Reset"></a> Reset\(\)
 
 ```csharp
-public void RecordResampleTime(TimeSpan time)
+public void Reset()
 ```
-
-#### Parameters
-
-`time` [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)
 

@@ -1,18 +1,19 @@
-# <a id="Ink_Canvas_Helpers_LrcLine"></a> Class LrcLine
+# <a id="Ink_Canvas_Helpers_LrcChar"></a> Class LrcChar
 
 Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)  
 Assembly: InkCanvasForClass.dll  
 
-Represents a single lyric line with timing information.
+Represents a single timed character within a lyric line.
+Used for per-character highlight animation (already-sung / pending chars).
 
 ```csharp
-public class LrcLine
+public class LrcChar
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[LrcLine](Ink\_Canvas.Helpers.LrcLine.md)
+[LrcChar](Ink\_Canvas.Helpers.LrcChar.md)
 
 #### Inherited Members
 
@@ -26,49 +27,36 @@ public class LrcLine
 
 ## Properties
 
-### <a id="Ink_Canvas_Helpers_LrcLine_Chars"></a> Chars
+### <a id="Ink_Canvas_Helpers_LrcChar_Duration"></a> Duration
 
-Per-character timing inside this line. Empty when the LRC only provides line-level
-timestamps; an evenly-distributed fallback can be computed on demand.
+Duration the character is held; <code>null</code> means the line end is used.
 
 ```csharp
-public List<LrcChar> Chars { get; set; }
+public TimeSpan? Duration { get; set; }
 ```
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[LrcChar](Ink\_Canvas.Helpers.LrcChar.md)\>
+ [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)?
 
-### <a id="Ink_Canvas_Helpers_LrcLine_Text"></a> Text
+### <a id="Ink_Canvas_Helpers_LrcChar_StartOffset"></a> StartOffset
 
-Primary lyric text.
-
-```csharp
-public string Text { get; set; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Helpers_LrcLine_Time"></a> Time
-
-Timestamp when this line should be displayed.
+Offset from the line start when this character starts being sung.
 
 ```csharp
-public TimeSpan Time { get; set; }
+public TimeSpan StartOffset { get; set; }
 ```
 
 #### Property Value
 
  [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)
 
-### <a id="Ink_Canvas_Helpers_LrcLine_Translation"></a> Translation
+### <a id="Ink_Canvas_Helpers_LrcChar_Text"></a> Text
 
-Translated lyric text (if available).
+Character glyph (may be a single Han character, Latin letter, or punctuation).
 
 ```csharp
-public string Translation { get; set; }
+public string Text { get; set; }
 ```
 
 #### Property Value

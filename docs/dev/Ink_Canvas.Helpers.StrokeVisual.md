@@ -83,13 +83,17 @@ public void Add(StylusPoint point)
 public void ForceRedraw()
 ```
 
-### <a id="Ink_Canvas_Helpers_StrokeVisual_Redraw"></a> Redraw\(\)
+### <a id="Ink_Canvas_Helpers_StrokeVisual_Redraw_System_Boolean_"></a> Redraw\(bool\)
 
 重新画出笔迹
 
 ```csharp
-public void Redraw()
+public void Redraw(bool forceRedraw = false)
 ```
+
+#### Parameters
+
+`forceRedraw` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_StrokeVisual_SetVisualCanvas_Ink_Canvas_Helpers_VisualCanvas_"></a> SetVisualCanvas\(VisualCanvas\)
 

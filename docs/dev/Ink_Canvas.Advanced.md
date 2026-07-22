@@ -299,6 +299,19 @@ public bool IsQuadIR { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Advanced_IsRealtimeInkDebugLogEnabled"></a> IsRealtimeInkDebugLogEnabled
+
+实时笔迹超级详细调试日志（FrameWait/Redraw/点数等），独立于性能监测开关，默认关闭。
+
+```csharp
+[JsonProperty("isRealtimeInkDebugLogEnabled")]
+public bool IsRealtimeInkDebugLogEnabled { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Advanced_IsSaveLogByDate"></a> IsSaveLogByDate
 
 ```csharp

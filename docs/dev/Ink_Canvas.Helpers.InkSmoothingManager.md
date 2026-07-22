@@ -128,6 +128,12 @@ public static bool IsHardwareAccelerationSupported()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Helpers_InkSmoothingManager_ResetPerformanceStats"></a> ResetPerformanceStats\(\)
+
+```csharp
+public void ResetPerformanceStats()
+```
+
 ### <a id="Ink_Canvas_Helpers_InkSmoothingManager_SmoothStroke_System_Windows_Ink_Stroke_"></a> SmoothStroke\(Stroke\)
 
 同步平滑笔画（用于向后兼容）

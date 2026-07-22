@@ -181,6 +181,8 @@ IACore 路径通过 IPC 调用 x86 辅助进程；WinRT 路径在主进程内直
 
 性能监控器（含分阶段计时）
 
+ [InkSmoothingPipelineSample](Ink\_Canvas.Helpers.InkSmoothingPipelineSample.md)
+
  [FloatingWindowInterceptor.InterceptRule](Ink\_Canvas.Helpers.FloatingWindowInterceptor.InterceptRule.md)
 
 拦截规则
@@ -188,6 +190,11 @@ IACore 路径通过 IPC 调用 x86 辅助进程；WinRT 路径在主进程内直
  [IpcIACoreClient](Ink\_Canvas.Helpers.IpcIACoreClient.md)
 
  [LocalizationHelper](Ink\_Canvas.Helpers.LocalizationHelper.md)
+
+ [LrcChar](Ink\_Canvas.Helpers.LrcChar.md)
+
+Represents a single timed character within a lyric line.
+Used for per-character highlight animation (already-sung / pending chars).
 
  [LrcData](Ink\_Canvas.Helpers.LrcData.md)
 
@@ -251,6 +258,10 @@ Main-window base that can use WindowChrome for DWM-backed transparent rendering.
  [PopupManagerHelper](Ink\_Canvas.Helpers.PopupManagerHelper.md)
 
  [ROTPPTManager](Ink\_Canvas.Helpers.ROTPPTManager.md)
+
+ [RealtimeInkInputPerformanceSnapshot](Ink\_Canvas.Helpers.RealtimeInkInputPerformanceSnapshot.md)
+
+ [RealtimeInkSlowEventSnapshot](Ink\_Canvas.Helpers.RealtimeInkSlowEventSnapshot.md)
 
  [ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)
 

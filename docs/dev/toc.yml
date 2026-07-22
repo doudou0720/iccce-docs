@@ -469,10 +469,14 @@
     href: Ink_Canvas.Helpers.InkSmoothingManager.md
   - name: InkSmoothingPerformanceMonitor
     href: Ink_Canvas.Helpers.InkSmoothingPerformanceMonitor.md
+  - name: InkSmoothingPipelineSample
+    href: Ink_Canvas.Helpers.InkSmoothingPipelineSample.md
   - name: IpcIACoreClient
     href: Ink_Canvas.Helpers.IpcIACoreClient.md
   - name: LocalizationHelper
     href: Ink_Canvas.Helpers.LocalizationHelper.md
+  - name: LrcChar
+    href: Ink_Canvas.Helpers.LrcChar.md
   - name: LrcData
     href: Ink_Canvas.Helpers.LrcData.md
   - name: LrcLine
@@ -503,6 +507,10 @@
     href: Ink_Canvas.Helpers.PopupManagerHelper.md
   - name: ROTPPTManager
     href: Ink_Canvas.Helpers.ROTPPTManager.md
+  - name: RealtimeInkInputPerformanceSnapshot
+    href: Ink_Canvas.Helpers.RealtimeInkInputPerformanceSnapshot.md
+  - name: RealtimeInkSlowEventSnapshot
+    href: Ink_Canvas.Helpers.RealtimeInkSlowEventSnapshot.md
   - name: ResolutionInfo
     href: Ink_Canvas.Helpers.ResolutionInfo.md
   - name: SafeZipExtractor

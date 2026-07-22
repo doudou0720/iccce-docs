@@ -234,6 +234,26 @@ public static string Debug_PageTitle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_RealtimeInkLog_Desc"></a> Debug\_RealtimeInkLog\_Desc
+
+```csharp
+public static string Debug_RealtimeInkLog_Desc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_RealtimeInkLog_Header"></a> Debug\_RealtimeInkLog\_Header
+
+```csharp
+public static string Debug_RealtimeInkLog_Header { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_ResetStartupCount_Button"></a> Debug\_ResetStartupCount\_Button
 
 ```csharp

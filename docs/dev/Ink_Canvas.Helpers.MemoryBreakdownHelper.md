@@ -73,3 +73,15 @@ public static string ForceFullGc()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Helpers_MemoryBreakdownHelper_StartAutomaticDumpMonitor"></a> StartAutomaticDumpMonitor\(\)
+
+```csharp
+public static void StartAutomaticDumpMonitor()
+```
+
+### <a id="Ink_Canvas_Helpers_MemoryBreakdownHelper_StopAutomaticDumpMonitor"></a> StopAutomaticDumpMonitor\(\)
+
+```csharp
+public static void StopAutomaticDumpMonitor()
+```
+
