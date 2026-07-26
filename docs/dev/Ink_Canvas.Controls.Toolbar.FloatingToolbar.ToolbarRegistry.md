@@ -290,15 +290,17 @@ public static void Populate(IToolbarHost host, Panel rootPanel, ToolbarLayoutSet
 
 `orientation` [Orientation](https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation)
 
-### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_RegisterPluginItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterPluginItem\(PluginToolbarItemInfo\)
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_RegisterPluginItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_System_Boolean_"></a> RegisterPluginItem\(PluginToolbarItemInfo, bool\)
 
 ```csharp
-public static void RegisterPluginItem(PluginToolbarItemInfo itemInfo)
+public static void RegisterPluginItem(PluginToolbarItemInfo itemInfo, bool autoAddToActiveConfig = true)
 ```
 
 #### Parameters
 
 `itemInfo` PluginToolbarItemInfo
+
+`autoAddToActiveConfig` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_SaveConfigFile_System_String_Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarLayoutSettings_"></a> SaveConfigFile\(string, ToolbarLayoutSettings\)
 

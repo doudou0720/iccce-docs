@@ -330,6 +330,14 @@ public static void OnFloatingWindowInterceptorRuleChanged(string ruleKey, bool i
 
 `isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnHandwritingRecognizerLanguageChanged"></a> OnHandwritingRecognizerLanguageChanged\(\)
+
+手写识别语言覆盖（LCID）变化时清空识别器缓存，下一次识别按新语言重解析。
+
+```csharp
+public static void OnHandwritingRecognizerLanguageChanged()
+```
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnHardwareAccelerationChanged"></a> OnHardwareAccelerationChanged\(\)
 
 ```csharp

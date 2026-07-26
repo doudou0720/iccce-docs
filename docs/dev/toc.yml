@@ -117,6 +117,8 @@
     href: Ink_Canvas.InkToShape.md
   - name: MainWindow
     href: Ink_Canvas.MainWindow.md
+  - name: ManageNameRostersWindow
+    href: Ink_Canvas.ManageNameRostersWindow.md
   - name: ManagePickNameBackgroundsWindow
     href: Ink_Canvas.ManagePickNameBackgroundsWindow.md
   - name: MiniWhiteboardSettings
@@ -125,6 +127,8 @@
     href: Ink_Canvas.MiniWhiteboardWindow.md
   - name: ModeSettings
     href: Ink_Canvas.ModeSettings.md
+  - name: NameRoster
+    href: Ink_Canvas.NameRoster.md
   - name: NamesInputWindow
     href: Ink_Canvas.NamesInputWindow.md
   - name: NewStyleRollCallWindow
@@ -153,6 +157,8 @@
     href: Ink_Canvas.RollCallHistoryData.md
   - name: RollCallHistoryWindow
     href: Ink_Canvas.RollCallHistoryWindow.md
+  - name: RosterDisplayItem
+    href: Ink_Canvas.RosterDisplayItem.md
   - name: ScreenshotSelectorWindow
     href: Ink_Canvas.ScreenshotSelectorWindow.md
   - name: Security
@@ -451,6 +457,8 @@
     href: Ink_Canvas.Helpers.HardwareAcceleratedInkProcessor.md
   - name: IACoreDllExtractor
     href: Ink_Canvas.Helpers.IACoreDllExtractor.md
+  - name: IacoreTextHint
+    href: Ink_Canvas.Helpers.IacoreTextHint.md
   - name: InkFadeManager
     href: Ink_Canvas.Helpers.InkFadeManager.md
   - name: InkRecognitionManager
@@ -487,6 +495,8 @@
     href: Ink_Canvas.Helpers.MemoryBreakdownHelper.md
   - name: MicroBinClient
     href: Ink_Canvas.Helpers.MicroBinClient.md
+  - name: NameRosterManager
+    href: Ink_Canvas.Helpers.NameRosterManager.md
   - name: PPTAgentLinkManager
     href: Ink_Canvas.Helpers.PPTAgentLinkManager.md
   - name: PPTInkManager
@@ -580,8 +590,6 @@
     href: Ink_Canvas.Helpers.EdgeGestureUtil.PropVariant.md
   - name: EdgeGestureUtil.PropertyKey
     href: Ink_Canvas.Helpers.EdgeGestureUtil.PropertyKey.md
-  - name: PPTManager.RECT
-    href: Ink_Canvas.Helpers.PPTManager.RECT.md
   - name: ROTPPTManager.RECT
     href: Ink_Canvas.Helpers.ROTPPTManager.RECT.md
   - name: WindowRect

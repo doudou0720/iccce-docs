@@ -97,6 +97,10 @@ Issue #286 — 书写位置贴近边缘时显示"扩展画布"提示按钮。
 点击按钮后，按 Settings.Canvas.EdgeExpandTranslateStep
 平移画布上的全部墨迹和图片元素，腾出新的书写空间。
 
+ [ManageNameRostersWindow](Ink\_Canvas.ManageNameRostersWindow.md)
+
+ManageNameRostersWindow.xaml 的交互逻辑 — 管理随机点名的"选择方案"（学生档案）
+
  [ManagePickNameBackgroundsWindow](Ink\_Canvas.ManagePickNameBackgroundsWindow.md)
 
 ManagePickNameBackgroundsWindow.xaml 的交互逻辑
@@ -109,6 +113,8 @@ MiniWhiteboardWindow.xaml 的交互逻辑
 浮窗小白板，提供简易的书写和绘图功能，支持多页管理和PPT联动
 
  [ModeSettings](Ink\_Canvas.ModeSettings.md)
+
+ [NameRoster](Ink\_Canvas.NameRoster.md)
 
  [NamesInputWindow](Ink\_Canvas.NamesInputWindow.md)
 
@@ -159,6 +165,10 @@ Interaction logic for RandWindow.xaml
  [RollCallHistoryWindow](Ink\_Canvas.RollCallHistoryWindow.md)
 
 Interaction logic for RollCallHistoryWindow.xaml
+
+ [RosterDisplayItem](Ink\_Canvas.RosterDisplayItem.md)
+
+ListView 展示行：把 NameRoster 的内容与"是否当前"状态合并展示。
 
  [ScreenshotSelectorWindow](Ink\_Canvas.ScreenshotSelectorWindow.md)
 

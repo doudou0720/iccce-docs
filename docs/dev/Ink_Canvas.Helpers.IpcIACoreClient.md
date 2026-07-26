@@ -81,6 +81,27 @@ public InkShapeRecognitionResult Recognize(StrokeCollection strokes)
 
  [InkShapeRecognitionResult](Ink\_Canvas.Helpers.InkShapeRecognitionResult.md)
 
+### <a id="Ink_Canvas_Helpers_IpcIACoreClient_RecognizeText_System_Windows_Ink_StrokeCollection_Ink_Canvas_Helpers_IacoreTextHint_"></a> RecognizeText\(StrokeCollection, IacoreTextHint\)
+
+通过 IPC 辅助进程执行 IACore 文字识别（IAWinFX InkAnalyzer + AnalysisHintNode）。
+返回分词文本/候选/包围框/笔画索引；辅助进程不可用或失败时返回空结果（调用方据此回落 WinRT）。
+
+```csharp
+public HandwritingRecognitionResult RecognizeText(StrokeCollection strokes, IacoreTextHint hint = null)
+```
+
+#### Parameters
+
+`strokes` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
+
+`hint` [IacoreTextHint](Ink\_Canvas.Helpers.IacoreTextHint.md)
+
+上下文提示（Factoid/WordList/WordMode/CoerceToFactoid/Hint 区域）；传 null 表示无提示。
+
+#### Returns
+
+ [HandwritingRecognitionResult](Ink\_Canvas.Helpers.HandwritingRecognitionResult.md)
+
 ### <a id="Ink_Canvas_Helpers_IpcIACoreClient_Start"></a> Start\(\)
 
 ```csharp

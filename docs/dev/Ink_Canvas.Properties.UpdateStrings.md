@@ -374,10 +374,60 @@ public static string Msg_RestartLimitTitle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_UpdateStrings_Msg_UpdateCancelled"></a> Msg\_UpdateCancelled
+
+```csharp
+public static string Msg_UpdateCancelled { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_UpdateStrings_Msg_UpdateDownloadFailed"></a> Msg\_UpdateDownloadFailed
 
 ```csharp
 public static string Msg_UpdateDownloadFailed { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_UpdateStrings_Msg_UpdateFileInUse"></a> Msg\_UpdateFileInUse
+
+```csharp
+public static string Msg_UpdateFileInUse { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_UpdateStrings_Msg_UpdateIntegrityFailed"></a> Msg\_UpdateIntegrityFailed
+
+```csharp
+public static string Msg_UpdateIntegrityFailed { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_UpdateStrings_Msg_UpdateMergeFailed"></a> Msg\_UpdateMergeFailed
+
+```csharp
+public static string Msg_UpdateMergeFailed { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_UpdateStrings_Msg_UpdateMergeFailedNoDetail"></a> Msg\_UpdateMergeFailedNoDetail
+
+```csharp
+public static string Msg_UpdateMergeFailedNoDetail { get; }
 ```
 
 #### Property Value

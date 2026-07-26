@@ -44,6 +44,16 @@ public const byte CmdRecognizeSharedMemory = 2
 
  [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
+### <a id="InkCanvas_IACoreHelper_IpcConstants_CmdRecognizeTextSharedMemory"></a> CmdRecognizeTextSharedMemory
+
+```csharp
+public const byte CmdRecognizeTextSharedMemory = 3
+```
+
+#### Field Value
+
+ [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_CmdShutdown"></a> CmdShutdown
 
 ```csharp

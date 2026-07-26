@@ -49,7 +49,7 @@ public Task<StrokeCollection> CorrectInkAsync(StrokeCollection strokes, ShapeRec
 
 `applyHandwritingBeautify` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-为 true 且走 WinRT 时，将识别成功的词替换为手写风格字体的轮廓墨迹（见设置中的字体列表）。
+为 true 时，将识别成功的词替换为手写风格字体的轮廓墨迹（见设置中的字体列表）。
 
 `handwritingFontFamilyList` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -91,7 +91,9 @@ public bool IsValidShapeType(string shapeName)
 
 ### <a id="Ink_Canvas_Helpers_InkRecognitionManager_RecognizeHandwritingAsync_System_Windows_Ink_StrokeCollection_Ink_Canvas_Helpers_ShapeRecognitionEngineMode_"></a> RecognizeHandwritingAsync\(StrokeCollection, ShapeRecognitionEngineMode\)
 
-WinRT 手写体识别（需 Windows 10+ 及系统手写识别组件）。返回分词候选与包围框，供剪贴板或插件使用。
+手写体识别（需 Windows 10+ 及系统手写识别组件，或 IACore IPC 辅助进程）。返回分词候选与包围框，供剪贴板或插件使用。
+文字识别引擎跟随形状识别引擎（传入的 <code class="paramref">mode</code>）：IACore 走 IPC 辅助进程（可注入 Factoid/WordList/WordMode
+等上下文层，UWP WinRT 无法访问）；WinRT 在本进程跑 Windows.UI.Input.Inking.Analysis.InkAnalyzer。
 
 ```csharp
 public Task<HandwritingRecognitionResult> RecognizeHandwritingAsync(StrokeCollection strokes, ShapeRecognitionEngineMode mode)

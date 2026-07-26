@@ -231,6 +231,17 @@ public bool EnableInkFade { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Canvas_EnableNativeInkPrediction"></a> EnableNativeInkPrediction
+
+```csharp
+[JsonProperty("enableNativeInkPrediction")]
+public bool EnableNativeInkPrediction { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Canvas_EnablePalmEraser"></a> EnablePalmEraser
 
 ```csharp
@@ -674,6 +685,17 @@ public bool UseAsyncInkSmoothing { get; set; }
 ```csharp
 [JsonProperty("useHardwareAcceleration")]
 public bool UseHardwareAcceleration { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Canvas_UseLegacyWetInk"></a> UseLegacyWetInk
+
+```csharp
+[JsonProperty("useLegacyWetInk")]
+public bool UseLegacyWetInk { get; set; }
 ```
 
 #### Property Value

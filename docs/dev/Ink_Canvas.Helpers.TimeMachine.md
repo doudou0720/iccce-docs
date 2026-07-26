@@ -164,6 +164,21 @@ public TimeMachineHistory Redo()
 
  [TimeMachineHistory](Ink\_Canvas.Helpers.TimeMachineHistory.md)
 
+### <a id="Ink_Canvas_Helpers_TimeMachine_TransformStrokesInHistory_System_Windows_Media_Matrix_System_Windows_Ink_StrokeCollection_"></a> TransformStrokesInHistory\(Matrix, StrokeCollection\)
+
+把历史中保存的墨迹按 matrix 同步变换（撤销/重做时能回到正确几何），
+跳过仍在画布上的笔迹（它们由 inkCanvas.Strokes.Transform 直接处理）。
+
+```csharp
+public void TransformStrokesInHistory(Matrix matrix, StrokeCollection canvasStrokes)
+```
+
+#### Parameters
+
+`matrix` [Matrix](https://learn.microsoft.com/dotnet/api/system.windows.media.matrix)
+
+`canvasStrokes` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
+
 ### <a id="Ink_Canvas_Helpers_TimeMachine_TryReplaceLastUserInputHistory_System_Windows_Ink_StrokeCollection_"></a> TryReplaceLastUserInputHistory\(StrokeCollection\)
 
 ```csharp

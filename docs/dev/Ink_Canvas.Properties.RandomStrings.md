@@ -1184,6 +1184,306 @@ public static string Random_RollCall_WindowTitle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_Add"></a> Random\_Roster\_Add
+
+```csharp
+public static string Random_Roster_Add { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_AddPrompt"></a> Random\_Roster\_AddPrompt
+
+```csharp
+public static string Random_Roster_AddPrompt { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_AddTitle"></a> Random\_Roster\_AddTitle
+
+```csharp
+public static string Random_Roster_AddTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_Delete"></a> Random\_Roster\_Delete
+
+```csharp
+public static string Random_Roster_Delete { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_DeleteConfirmFormat"></a> Random\_Roster\_DeleteConfirmFormat
+
+```csharp
+public static string Random_Roster_DeleteConfirmFormat { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_DeleteConfirmTitle"></a> Random\_Roster\_DeleteConfirmTitle
+
+```csharp
+public static string Random_Roster_DeleteConfirmTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_DeleteFailedFormat"></a> Random\_Roster\_DeleteFailedFormat
+
+```csharp
+public static string Random_Roster_DeleteFailedFormat { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_DuplicateNameFormat"></a> Random\_Roster\_DuplicateNameFormat
+
+```csharp
+public static string Random_Roster_DuplicateNameFormat { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_Edit"></a> Random\_Roster\_Edit
+
+```csharp
+public static string Random_Roster_Edit { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_EmptyName"></a> Random\_Roster\_EmptyName
+
+```csharp
+public static string Random_Roster_EmptyName { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_Hint"></a> Random\_Roster\_Hint
+
+```csharp
+public static string Random_Roster_Hint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_Manage"></a> Random\_Roster\_Manage
+
+```csharp
+public static string Random_Roster_Manage { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_ManageTitle"></a> Random\_Roster\_ManageTitle
+
+```csharp
+public static string Random_Roster_ManageTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_ManageWindowTitle"></a> Random\_Roster\_ManageWindowTitle
+
+```csharp
+public static string Random_Roster_ManageWindowTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_None"></a> Random\_Roster\_None
+
+```csharp
+public static string Random_Roster_None { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_OperationFailedFormat"></a> Random\_Roster\_OperationFailedFormat
+
+```csharp
+public static string Random_Roster_OperationFailedFormat { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_Rename"></a> Random\_Roster\_Rename
+
+```csharp
+public static string Random_Roster_Rename { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_RenamePrompt"></a> Random\_Roster\_RenamePrompt
+
+```csharp
+public static string Random_Roster_RenamePrompt { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_RenameTitle"></a> Random\_Roster\_RenameTitle
+
+```csharp
+public static string Random_Roster_RenameTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SaveCurrent"></a> Random\_Roster\_SaveCurrent
+
+```csharp
+public static string Random_Roster_SaveCurrent { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SaveSuccessFormat"></a> Random\_Roster\_SaveSuccessFormat
+
+```csharp
+public static string Random_Roster_SaveSuccessFormat { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SaveSuccessTitle"></a> Random\_Roster\_SaveSuccessTitle
+
+```csharp
+public static string Random_Roster_SaveSuccessTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SectionHeader"></a> Random\_Roster\_SectionHeader
+
+```csharp
+public static string Random_Roster_SectionHeader { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SelectLabel"></a> Random\_Roster\_SelectLabel
+
+```csharp
+public static string Random_Roster_SelectLabel { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SetAsCurrent"></a> Random\_Roster\_SetAsCurrent
+
+```csharp
+public static string Random_Roster_SetAsCurrent { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SetSuccessFormat"></a> Random\_Roster\_SetSuccessFormat
+
+```csharp
+public static string Random_Roster_SetSuccessFormat { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SetSuccessTitle"></a> Random\_Roster\_SetSuccessTitle
+
+```csharp
+public static string Random_Roster_SetSuccessTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SwitchLabel"></a> Random\_Roster\_SwitchLabel
+
+```csharp
+public static string Random_Roster_SwitchLabel { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SwitchTooltip"></a> Random\_Roster\_SwitchTooltip
+
+```csharp
+public static string Random_Roster_SwitchTooltip { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_Title"></a> Random\_Roster\_Title
+
+```csharp
+public static string Random_Roster_Title { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_SelectProgressiveAlarm"></a> Random\_SelectProgressiveAlarm
 
 ```csharp

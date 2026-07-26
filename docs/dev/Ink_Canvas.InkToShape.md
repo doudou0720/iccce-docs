@@ -35,6 +35,19 @@ public bool EnableWinRtHandwritingStrokeBeautify { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_InkToShape_HandwritingBeautifyDebounceMs"></a> HandwritingBeautifyDebounceMs
+
+收笔后延迟识别的毫秒数（300-5000，默认 2000），多笔一字时等用户写完再识别。
+
+```csharp
+[JsonProperty("handwritingBeautifyDebounceMs")]
+public int HandwritingBeautifyDebounceMs { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Ink_Canvas_InkToShape_HandwritingCorrectionFontFamily"></a> HandwritingCorrectionFontFamily
 
 ```csharp
@@ -45,6 +58,19 @@ public string HandwritingCorrectionFontFamily { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_InkToShape_HandwritingLanguageOverrideLcid"></a> HandwritingLanguageOverrideLcid
+
+手写识别器语言覆盖 LCID。0=跟随系统；其余值见 HandwritingRecognitionTuning 支持。
+
+```csharp
+[JsonProperty("handwritingLanguageOverrideLcid")]
+public int HandwritingLanguageOverrideLcid { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_InkToShape_IsInkToShapeEnabled"></a> IsInkToShapeEnabled
 

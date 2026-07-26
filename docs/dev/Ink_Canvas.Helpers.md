@@ -145,6 +145,12 @@ Each theme is a folder containing manifest.json and Theme.xaml.
 IACore DLL自动释放器
 在应用启动时自动释放IACore相关的DLL文件到应用程序目录
 
+ [IacoreTextHint](Ink\_Canvas.Helpers.IacoreTextHint.md)
+
+IACore 文字识别的上下文提示（对应 IAWinFX AnalysisHintNode 的属性层）。
+UWP WinRT InkAnalyzer 无法访问这些层；只有走 IPC 辅助进程才能注入 Factoid/WordList/WordMode/Coerce。
+HintLeft/Top/Width/Height 全 0 表示无限区域（属性作用于全部笔画）。
+
  [InkFadeManager](Ink\_Canvas.Helpers.InkFadeManager.md)
 
 墨迹渐隐管理器 - 管理墨迹的渐隐动画和状态
@@ -228,6 +234,12 @@ MicroBin pastebin 客户端。
 MicroBin 没有 REST API，通过表单提交创建 paste：
   POST /   — multipart/form-data, 字段 "content" = 文本
   302 重定向到 paste 页面，从 Location 头获取 URL
+
+ [NameRosterManager](Ink\_Canvas.Helpers.NameRosterManager.md)
+
+随机点名"选择方案"（学生档案）管理器。
+把 Names.txt / Replace.txt 当作"当前生效的方案"，把各方案内容持久化到 Settings.json，
+切换方案时把对应方案内容写回 Names.txt / Replace.txt。
 
  [PPTAgentLinkManager](Ink\_Canvas.Helpers.PPTAgentLinkManager.md)
 
@@ -393,8 +405,6 @@ WebDav上传工具类
  [EdgeGestureUtil.PropVariant](Ink\_Canvas.Helpers.EdgeGestureUtil.PropVariant.md)
 
  [EdgeGestureUtil.PropertyKey](Ink\_Canvas.Helpers.EdgeGestureUtil.PropertyKey.md)
-
- [PPTManager.RECT](Ink\_Canvas.Helpers.PPTManager.RECT.md)
 
  [ROTPPTManager.RECT](Ink\_Canvas.Helpers.ROTPPTManager.RECT.md)
 

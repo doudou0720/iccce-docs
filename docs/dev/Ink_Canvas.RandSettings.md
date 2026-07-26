@@ -156,6 +156,17 @@ public double MLAvoidanceWeight { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_RandSettings_NameRosters"></a> NameRosters
+
+```csharp
+[JsonProperty("nameRosters")]
+public List<NameRoster> NameRosters { get; set; }
+```
+
+#### Property Value
+
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[NameRoster](Ink\_Canvas.NameRoster.md)\>
+
 ### <a id="Ink_Canvas_RandSettings_ProgressiveReminderSoundPath"></a> ProgressiveReminderSoundPath
 
 ```csharp
@@ -210,6 +221,17 @@ public int SelectedBackgroundIndex { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_RandSettings_SelectedNameRosterGuid"></a> SelectedNameRosterGuid
+
+```csharp
+[JsonProperty("selectedNameRosterGuid")]
+public string SelectedNameRosterGuid { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_RandSettings_ShowRandomAndSingleDraw"></a> ShowRandomAndSingleDraw
 

@@ -344,6 +344,26 @@ public static string Canvas_DisablePressureHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EnableNativeInkPrediction"></a> Canvas\_EnableNativeInkPrediction
+
+```csharp
+public static string Canvas_EnableNativeInkPrediction { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EnableNativeInkPredictionHint"></a> Canvas\_EnableNativeInkPredictionHint
+
+```csharp
+public static string Canvas_EnableNativeInkPredictionHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EnablePressureTouch"></a> Canvas\_EnablePressureTouch
 
 ```csharp
@@ -724,10 +744,50 @@ public static string Canvas_SwitchBackDelayHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_UseLegacyWetInk"></a> Canvas\_UseLegacyWetInk
+
+```csharp
+public static string Canvas_UseLegacyWetInk { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_UseLegacyWetInkHint"></a> Canvas\_UseLegacyWetInkHint
+
+```csharp
+public static string Canvas_UseLegacyWetInkHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_UseLegacyWetInkRestartNotice"></a> Canvas\_UseLegacyWetInkRestartNotice
+
+```csharp
+public static string Canvas_UseLegacyWetInkRestartNotice { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_WPFBezier"></a> Canvas\_WPFBezier
 
 ```csharp
 public static string Canvas_WPFBezier { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_WetInkRendererFailed"></a> Canvas\_WetInkRendererFailed
+
+```csharp
+public static string Canvas_WetInkRendererFailed { get; }
 ```
 
 #### Property Value
