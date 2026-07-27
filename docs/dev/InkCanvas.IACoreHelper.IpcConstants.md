@@ -24,6 +24,16 @@ public static class IpcConstants
 
 ## Fields
 
+### <a id="InkCanvas_IACoreHelper_IpcConstants_CmdPingSharedMemoryGeneration"></a> CmdPingSharedMemoryGeneration
+
+```csharp
+public const byte CmdPingSharedMemoryGeneration = 4
+```
+
+#### Field Value
+
+ [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_CmdRecognize"></a> CmdRecognize
 
 ```csharp

@@ -6,13 +6,17 @@ Assembly: InkCanvasForClass.dll
 硬件加速的墨迹处理器，利用WPF的GPU渲染能力
 
 ```csharp
-public class HardwareAcceleratedInkProcessor
+public class HardwareAcceleratedInkProcessor : IDisposable
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [HardwareAcceleratedInkProcessor](Ink\_Canvas.Helpers.HardwareAcceleratedInkProcessor.md)
+
+#### Implements
+
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 #### Inherited Members
 
@@ -42,7 +46,9 @@ public HardwareAcceleratedInkProcessor(int width = 1920, int height = 1080)
 
 ### <a id="Ink_Canvas_Helpers_HardwareAcceleratedInkProcessor_Dispose"></a> Dispose\(\)
 
-释放GPU相关资源标记
+释放GPU相关资源。
+先冻结 RenderTargetBitmap 让 WPF 停止依赖 GPU surface，再主动 Dispose 释放底层 GPU 句柄。
+DrawingVisual 仅在 WeakReference 由 GC 回收，无显式释放 API，依靠 GC。
 
 ```csharp
 public void Dispose()
