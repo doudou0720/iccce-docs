@@ -53,6 +53,17 @@ public string DownloadUrl { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Helpers_ThemeMarketEntry_IsInstalled"></a> IsInstalled
+
+```csharp
+[JsonIgnore]
+public bool IsInstalled { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Helpers_ThemeMarketEntry_Manifest"></a> Manifest
 
 ```csharp
@@ -62,4 +73,14 @@ public ThemeMarketManifest Manifest { get; set; }
 #### Property Value
 
  [ThemeMarketManifest](Ink\_Canvas.Helpers.ThemeMarketManifest.md)
+
+### <a id="Ink_Canvas_Helpers_ThemeMarketEntry_PropertyChanged"></a> PropertyChanged
+
+```csharp
+public event PropertyChangedEventHandler PropertyChanged
+```
+
+#### Event Type
+
+ [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
 

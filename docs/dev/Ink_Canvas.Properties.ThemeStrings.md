@@ -454,6 +454,16 @@ public static string Theme_FloatingBarThemeMarketInstall { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemeMarketInstalled"></a> Theme\_FloatingBarThemeMarketInstalled
+
+```csharp
+public static string Theme_FloatingBarThemeMarketInstalled { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemeMarketRefresh"></a> Theme\_FloatingBarThemeMarketRefresh
 
 ```csharp
@@ -488,6 +498,16 @@ public static string Theme_FloatingBarThemesApply { get; }
 
 ```csharp
 public static string Theme_FloatingBarThemesApplyFailed { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesDelete"></a> Theme\_FloatingBarThemesDelete
+
+```csharp
+public static string Theme_FloatingBarThemesDelete { get; }
 ```
 
 #### Property Value

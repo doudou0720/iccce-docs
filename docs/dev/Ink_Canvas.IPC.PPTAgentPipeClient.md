@@ -65,6 +65,8 @@ public bool SendCommand(string command, object data = null)
 
 ### <a id="Ink_Canvas_IPC_PPTAgentPipeClient_SendRequest__1_System_String_System_Object_System_Int32_"></a> SendRequest<T\>\(string, object, int\)
 
+Synchronous request. Prefer <xref href="Ink_Canvas.IPC.PPTAgentPipeClient.SendRequestAsync%60%601(System.String%2cSystem.Object%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> to avoid sync-over-async deadlocks.
+
 ```csharp
 public T SendRequest<T>(string command, object data = null, int timeoutMilliseconds = default)
 ```
@@ -80,6 +82,28 @@ public T SendRequest<T>(string command, object data = null, int timeoutMilliseco
 #### Returns
 
  T
+
+#### Type Parameters
+
+`T` 
+
+### <a id="Ink_Canvas_IPC_PPTAgentPipeClient_SendRequestAsync__1_System_String_System_Object_System_Int32_"></a> SendRequestAsync<T\>\(string, object, int\)
+
+```csharp
+public Task<T> SendRequestAsync<T>(string command, object data = null, int timeoutMilliseconds = default)
+```
+
+#### Parameters
+
+`command` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`data` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
+`timeoutMilliseconds` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+#### Returns
+
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<T\>
 
 #### Type Parameters
 

@@ -41,12 +41,12 @@ public FloatingBarThemeService(MainWindow mainWindow)
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_Themes"></a> Themes
 
 ```csharp
-public List<FloatingBarThemeService.ThemeInfo> Themes { get; }
+public ObservableCollection<FloatingBarThemeService.ThemeInfo> Themes { get; }
 ```
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[FloatingBarThemeService](Ink\_Canvas.Helpers.FloatingBarThemeService.md).[ThemeInfo](Ink\_Canvas.Helpers.FloatingBarThemeService.ThemeInfo.md)\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[FloatingBarThemeService](Ink\_Canvas.Helpers.FloatingBarThemeService.md).[ThemeInfo](Ink\_Canvas.Helpers.FloatingBarThemeService.ThemeInfo.md)\>
 
 ## Methods
 
@@ -60,6 +60,20 @@ public void ApplySavedTheme()
 
 ```csharp
 public bool ApplyTheme(string themeId)
+```
+
+#### Parameters
+
+`themeId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_DeleteTheme_System_String_"></a> DeleteTheme\(string\)
+
+```csharp
+public bool DeleteTheme(string themeId)
 ```
 
 #### Parameters

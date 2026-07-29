@@ -202,6 +202,12 @@ public Task RefreshIndexAsync()
 
  [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
+### <a id="Ink_Canvas_Plugins_PluginMarketService_RefreshMergedPlugins"></a> RefreshMergedPlugins\(\)
+
+```csharp
+public void RefreshMergedPlugins()
+```
+
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_RequestDownloadPluginAsync_System_String_"></a> RequestDownloadPluginAsync\(string\)
 
 请求下载安装/更新指定插件。

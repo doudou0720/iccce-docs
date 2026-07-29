@@ -4,13 +4,17 @@ Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public sealed class FloatingBarThemeService.ThemeInfo
+public sealed class FloatingBarThemeService.ThemeInfo : INotifyPropertyChanged
 ```
 
 #### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [FloatingBarThemeService.ThemeInfo](Ink\_Canvas.Helpers.FloatingBarThemeService.ThemeInfo.md)
+
+#### Implements
+
+[INotifyPropertyChanged](https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged)
 
 #### Inherited Members
 
@@ -54,6 +58,17 @@ public string Id { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_ThemeInfo_IsApplied"></a> IsApplied
+
+```csharp
+[JsonIgnore]
+public bool IsApplied { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_ThemeInfo_IsBuiltIn"></a> IsBuiltIn
 
 ```csharp
@@ -83,4 +98,16 @@ public string Path { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_ThemeInfo_PropertyChanged"></a> PropertyChanged
+
+Occurs when a property value changes.
+
+```csharp
+public event PropertyChangedEventHandler PropertyChanged
+```
+
+#### Event Type
+
+ [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
 

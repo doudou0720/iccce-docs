@@ -853,6 +853,14 @@ public void NavigateToPage(string pageTag, PluginInfo pluginInfo = null)
 
 `pluginInfo` PluginInfo
 
+### <a id="Ink_Canvas_Windows_SettingsViews_SettingsWindow_RefreshFloatingBarThemePage"></a> RefreshFloatingBarThemePage\(\)
+
+允许外部调用以刷新设置窗口中的浮动栏主题管理页（如果当前正在显示）
+
+```csharp
+public void RefreshFloatingBarThemePage()
+```
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_SettingsWindow_RefreshTheme"></a> RefreshTheme\(\)
 
 ```csharp

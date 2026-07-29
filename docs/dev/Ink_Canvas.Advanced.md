@@ -312,6 +312,19 @@ public bool IsRealtimeInkDebugLogEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Advanced_IsRealtimeInkFpsOverlayEnabled"></a> IsRealtimeInkFpsOverlayEnabled
+
+在屏幕角落显示实时墨迹 FPS 与端到端延迟 HUD（毫秒）。默认关闭，独立于详细日志开关。
+
+```csharp
+[JsonProperty("isRealtimeInkFpsOverlayEnabled")]
+public bool IsRealtimeInkFpsOverlayEnabled { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Advanced_IsSaveLogByDate"></a> IsSaveLogByDate
 
 ```csharp

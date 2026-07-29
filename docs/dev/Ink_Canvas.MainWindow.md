@@ -1677,6 +1677,14 @@ public void HandleUriCommand(string uri)
 
 `uri` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_MainWindow_HideRealtimeInkFpsOverlay"></a> HideRealtimeInkFpsOverlay\(\)
+
+关闭实时墨迹 FPS / 延迟 HUD（无实例时静默 no-op）。
+
+```csharp
+public void HideRealtimeInkFpsOverlay()
+```
+
 ### <a id="Ink_Canvas_MainWindow_InitializePPTManagers"></a> InitializePPTManagers\(\)
 
 初始化并配置用于 PowerPoint 集成的管理器与相关状态。
@@ -2135,6 +2143,15 @@ public void ShowPPTModePromptNotification()
 
 ```csharp
 public void ShowQuickDrawFloatingButton()
+```
+
+### <a id="Ink_Canvas_MainWindow_ShowRealtimeInkFpsOverlay"></a> ShowRealtimeInkFpsOverlay\(\)
+
+启动实时墨迹 FPS / 延迟 HUD。
+若已存在则先关闭再重建，避免和旧实例的 CompositionTarget 订阅叠加。
+
+```csharp
+public void ShowRealtimeInkFpsOverlay()
 ```
 
 ### <a id="Ink_Canvas_MainWindow_StartEraserAutoSwitchBackTimer"></a> StartEraserAutoSwitchBackTimer\(\)

@@ -234,6 +234,26 @@ public static string Debug_PageTitle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_RealtimeInkFpsOverlay_Desc"></a> Debug\_RealtimeInkFpsOverlay\_Desc
+
+```csharp
+public static string Debug_RealtimeInkFpsOverlay_Desc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_RealtimeInkFpsOverlay_Header"></a> Debug\_RealtimeInkFpsOverlay\_Header
+
+```csharp
+public static string Debug_RealtimeInkFpsOverlay_Header { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_RealtimeInkLog_Desc"></a> Debug\_RealtimeInkLog\_Desc
 
 ```csharp
@@ -538,6 +558,26 @@ public static string NibModeBoundsWidthHeader { get; }
 
 ```csharp
 public static string QuadIRMode { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_RealtimeInkFpsOverlay_ActiveText"></a> RealtimeInkFpsOverlay\_ActiveText
+
+```csharp
+public static string RealtimeInkFpsOverlay_ActiveText { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_RealtimeInkFpsOverlay_IdleText"></a> RealtimeInkFpsOverlay\_IdleText
+
+```csharp
+public static string RealtimeInkFpsOverlay_IdleText { get; }
 ```
 
 #### Property Value

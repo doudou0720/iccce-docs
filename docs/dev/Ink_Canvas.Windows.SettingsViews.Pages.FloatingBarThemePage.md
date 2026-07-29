@@ -668,3 +668,9 @@ InitializeComponent
 public void InitializeComponent()
 ```
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_FloatingBarThemePage_RefreshThemes"></a> RefreshThemes\(\)
+
+```csharp
+public void RefreshThemes()
+```
+
