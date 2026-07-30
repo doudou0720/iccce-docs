@@ -14,8 +14,7 @@
 
  [ResetDesktopPositionActionHandler](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetDesktopPositionActionHandler.md)
 
-重置工具栏在桌面模式位置的 ActionHandler。
-对齐 ClassIsland 的 ActionHandler 模式，通过 DI 注入 IActionService 注册处理程序。
+重置工具栏在桌面模式位置的 ActionHandler，通过 DI 注入 IActionService 注册处理程序。
 
  [ResetDesktopPositionActionSettings](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetDesktopPositionActionSettings.md)
 
@@ -27,8 +26,7 @@
 
  [ResetPPTPositionActionHandler](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetPPTPositionActionHandler.md)
 
-重置工具栏在PPT模式位置的 ActionHandler。
-对齐 ClassIsland 的 ActionHandler 模式，通过 DI 注入 IActionService 注册处理程序。
+重置工具栏在PPT模式位置的 ActionHandler，通过 DI 注入 IActionService 注册处理程序。
 
  [ResetPPTPositionActionSettings](Ink\_Canvas.WorkflowAutomation.ActionHandlers.ResetPPTPositionActionSettings.md)
 

@@ -3,7 +3,7 @@
 Namespace: [Ink\_Canvas.Plugins](Ink\_Canvas.Plugins.md)  
 Assembly: InkCanvas.PluginSdk.dll  
 
-插件抽象基类。参考 ClassIsland 的 PluginBase 设计。
+插件抽象基类。
 
 ```csharp
 public abstract class PluginBase : IPlugin

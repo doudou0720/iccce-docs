@@ -34,7 +34,7 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
  [PluginBase](Ink\_Canvas.Plugins.PluginBase.md)
 
-插件抽象基类。参考 ClassIsland 的 PluginBase 设计。
+插件抽象基类。
 
  [PluginCompatibility](Ink\_Canvas.Plugins.PluginCompatibility.md)
 
@@ -105,8 +105,7 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
  [PluginMarketSourcesService](Ink\_Canvas.Plugins.PluginMarketSourcesService.md)
 
-插件市场源（Source）配置管理。参考 ClassIsland ClassIsland/ClassIsland/Plugins/PluginMarketService.cs，
-用户可添加多个第三方插件源（指向不同的 index.json URL），并在每个源下选择具体的镜像。
+插件市场源配置管理，支持添加多个第三方插件源并选择镜像。
 
  [PluginReadmeRenderer](Ink\_Canvas.Plugins.PluginReadmeRenderer.md)
 

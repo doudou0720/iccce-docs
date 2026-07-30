@@ -216,6 +216,18 @@ public PluginLogger GetLogger(string pluginId)
 
  [PluginLogger](Ink\_Canvas.Plugins.PluginLogger.md)
 
+### <a id="Ink_Canvas_Plugins_PluginManager_GetPendingPackagePluginIds"></a> GetPendingPackagePluginIds\(\)
+
+返回 PluginPackages 目录中仍待安装的插件 ID（按 .icpx 文件名）。
+
+```csharp
+public HashSet<string> GetPendingPackagePluginIds()
+```
+
+#### Returns
+
+ [HashSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+
 ### <a id="Ink_Canvas_Plugins_PluginManager_GetPluginError_System_String_"></a> GetPluginError\(string\)
 
 获取插件错误记录（用于 UI 展示错误详情）。
@@ -276,13 +288,26 @@ public void InitializeAdvancedServices(PluginMarketService market)
 
 `market` [PluginMarketService](Ink\_Canvas.Plugins.PluginMarketService.md)
 
-### <a id="Ink_Canvas_Plugins_PluginManager_InstallPendingPackages"></a> InstallPendingPackages\(\)
+### <a id="Ink_Canvas_Plugins_PluginManager_InstallPendingPackages_System_String_System_String_"></a> InstallPendingPackages\(string, string\)
 
 安装 PluginPackages 中待安装的插件包并立即加载。可在运行时调用。
+已加载插件若有待安装包，会先卸载再覆盖安装，实现热更新。
 
 ```csharp
-public void InstallPendingPackages()
+public IReadOnlyList<string> InstallPendingPackages(string approvedPackagePath = null, string approvedPackageSha256 = null)
 ```
+
+#### Parameters
+
+`approvedPackagePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`approvedPackageSha256` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+
+本次成功安装（解压）的插件 ID 列表。
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_IsPluginDisabled_System_String_"></a> IsPluginDisabled\(string\)
 
@@ -436,7 +461,7 @@ public void RegisterToolbarItem(PluginToolbarItemInfo itemInfo)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_ResetPluginFailure_System_String_"></a> ResetPluginFailure\(string\)
 
-显式重置插件的错误记录并清除禁用状态，下次重新加载。
+显式重置插件的错误记录并清除禁用状态，然后尝试热加载。
 
 ```csharp
 public bool ResetPluginFailure(string pluginId)

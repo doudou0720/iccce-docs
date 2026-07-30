@@ -105,7 +105,7 @@ Floating-bar theme marketplace. Theme packages are downloaded outside the applic
 
  [FloatingBarThemeService](Ink\_Canvas.Helpers.FloatingBarThemeService.md)
 
-Loads ClassIsland-style local XAML themes for the floating toolbar.
+加载浮动工具栏的本地 XAML 主题。
 Each theme is a folder containing manifest.json and Theme.xaml.
 
  [FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md)
@@ -318,9 +318,9 @@ Main-window base that can use WindowChrome for DWM-backed transparent rendering.
 
  [TouchAwareDragDropHelper](Ink\_Canvas.Helpers.TouchAwareDragDropHelper.md)
 
-基于 ClassIsland 2.0 AVA 拖动思路的触屏感知拖拽辅助类。
+触屏感知拖拽辅助类。
 
-<p>参考 ClassIsland 2.0 的 PointerStateAssist + TouchDragThumb + AdvancedItemDragBehavior 架构：</p>
+<p>根据窗口与控件层级处理触屏拖拽：</p>
 <p>- 窗口/控件级检测输入设备类型（鼠标/触屏）</p>
 <p>- 触屏模式下显示拖动按钮（grip handle），鼠标模式下隐藏</p>
 <p>- 触屏模式下只有从 grip handle 发起的按下才能触发拖动，否则事件交给 ScrollViewer 处理滑动</p>

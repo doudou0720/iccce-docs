@@ -4,7 +4,7 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Services](Ink\_Canvas.WorkflowAutomat
 Assembly: InkCanvasForClass.dll  
 
 自动化注册中心，管理所有已注册的触发器、行动和规则。
-对齐 ClassIsland：行动和规则分别存储在 IActionService.Actions 和 IRulesetService.Rules 中，
+行动和规则分别存储在 IActionService.Actions 和 IRulesetService.Rules 中，
 触发器存储在此处并通过 DI 容器解析实例。
 
 ```csharp
@@ -105,7 +105,6 @@ public static void RegisterTrigger(TriggerInfo info)
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_AutomationRegistry_ResolveTrigger_System_IServiceProvider_System_String_"></a> ResolveTrigger\(IServiceProvider, string\)
 
 通过 DI 容器解析触发器实例。
-对齐 ClassIsland 的 GetKeyedService&lt;TriggerBase&gt;(id)。
 
 ```csharp
 public static TriggerBase ResolveTrigger(IServiceProvider serviceProvider, string id)

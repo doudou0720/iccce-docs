@@ -1679,7 +1679,7 @@ public void HandleUriCommand(string uri)
 
 ### <a id="Ink_Canvas_MainWindow_HideRealtimeInkFpsOverlay"></a> HideRealtimeInkFpsOverlay\(\)
 
-关闭实时墨迹 FPS / 延迟 HUD（无实例时静默 no-op）。
+关闭实时墨迹 FPS / 提交延迟 HUD（无实例时静默 no-op）。
 
 ```csharp
 public void HideRealtimeInkFpsOverlay()
@@ -2147,7 +2147,7 @@ public void ShowQuickDrawFloatingButton()
 
 ### <a id="Ink_Canvas_MainWindow_ShowRealtimeInkFpsOverlay"></a> ShowRealtimeInkFpsOverlay\(\)
 
-启动实时墨迹 FPS / 延迟 HUD。
+启动实时墨迹 FPS / 提交延迟 HUD。
 若已存在则先关闭再重建，避免和旧实例的 CompositionTarget 订阅叠加。
 
 ```csharp

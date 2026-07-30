@@ -3,8 +3,7 @@
 Namespace: [Ink\_Canvas.WorkflowAutomation](Ink\_Canvas.WorkflowAutomation.md)  
 Assembly: InkCanvasForClass.dll  
 
-自动化系统启动引导。
-对齐 ClassIsland 的 App.xaml.cs 注册模式，使用 DI 容器注册所有组件。
+自动化系统启动引导，使用 DI 容器注册所有组件。
 
 ```csharp
 public static class AutomationBootstrap
@@ -92,8 +91,7 @@ public static IServiceProvider ServiceProvider { get; }
 ### <a id="Ink_Canvas_WorkflowAutomation_AutomationBootstrap_Initialize"></a> Initialize\(\)
 
 初始化自动化系统。
-对齐 ClassIsland：通过 IServiceCollection 注册所有触发器、行动和规则，
-然后通过 DI 容器解析。
+通过 IServiceCollection 注册所有触发器、行动和规则，然后通过 DI 容器解析。
 
 ```csharp
 public static void Initialize()

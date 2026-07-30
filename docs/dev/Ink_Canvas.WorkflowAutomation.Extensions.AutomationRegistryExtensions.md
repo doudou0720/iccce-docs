@@ -4,7 +4,6 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Extensions](Ink\_Canvas.WorkflowAutom
 Assembly: InkCanvasForClass.dll  
 
 注册触发器的 IServiceCollection 扩展。
-对齐 ClassIsland 的 ActionRegistryExtensions / TriggerRegistryExtensions。
 
 ```csharp
 public static class AutomationRegistryExtensions

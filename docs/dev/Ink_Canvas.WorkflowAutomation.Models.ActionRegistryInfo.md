@@ -4,7 +4,7 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Models](Ink\_Canvas.WorkflowAutomatio
 Assembly: InkCanvasForClass.dll  
 
 代表一个行动的注册信息。
-对齐 ClassIsland 的 ActionRegistryInfo，Handle 和 RevertHandle 分离注册。
+Handle 和 RevertHandle 分离注册。
 
 ```csharp
 public class ActionRegistryInfo

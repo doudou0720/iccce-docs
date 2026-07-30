@@ -3,9 +3,9 @@
 Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)  
 Assembly: InkCanvasForClass.dll  
 
-基于 ClassIsland 2.0 AVA 拖动思路的触屏感知拖拽辅助类。
+触屏感知拖拽辅助类。
 
-<p>参考 ClassIsland 2.0 的 PointerStateAssist + TouchDragThumb + AdvancedItemDragBehavior 架构：</p>
+<p>根据窗口与控件层级处理触屏拖拽：</p>
 <p>- 窗口/控件级检测输入设备类型（鼠标/触屏）</p>
 <p>- 触屏模式下显示拖动按钮（grip handle），鼠标模式下隐藏</p>
 <p>- 触屏模式下只有从 grip handle 发起的按下才能触发拖动，否则事件交给 ScrollViewer 处理滑动</p>
@@ -48,7 +48,6 @@ public static readonly DependencyProperty IsEnabledProperty
 ### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_IsExplicitVisibleProperty"></a> IsExplicitVisibleProperty
 
 是否强制始终显示 grip handle（不依赖触摸模式）。
-对应 ClassIsland 2.0 TouchDragThumb 的 IsExplicitVisible 属性。
 
 ```csharp
 public static readonly DependencyProperty IsExplicitVisibleProperty

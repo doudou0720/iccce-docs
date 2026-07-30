@@ -4,7 +4,6 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Abstractions](Ink\_Canvas.WorkflowAut
 Assembly: InkCanvasForClass.dll  
 
 规则设置控件的基类。
-对齐 ClassIsland 的规则设置控件模式。
 
 ```csharp
 public abstract class RuleSettingsControlBase : UserControl, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild

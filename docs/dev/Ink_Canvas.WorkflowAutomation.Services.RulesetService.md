@@ -4,7 +4,6 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Services](Ink\_Canvas.WorkflowAutomat
 Assembly: InkCanvasForClass.dll  
 
 规则集服务，负责评估规则集是否满足。
-对齐 ClassIsland 的 RulesetService，实现 IRulesetService 接口。
 事件驱动模式：订阅 SystemEventMonitor 的系统事件，仅在状态可能变化时重新评估。
 保留 5s 兜底轮询防止遗漏。
 
@@ -77,7 +76,6 @@ public void NotifyStatusChanged()
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_RulesetService_RegisterRuleHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_RuleRegistryInfo_HandleDelegate_"></a> RegisterRuleHandler\(string, HandleDelegate\)
 
 注册规则处理程序。
-对齐 ClassIsland 的 RegisterRuleHandler。
 
 ```csharp
 public void RegisterRuleHandler(string id, RuleRegistryInfo.HandleDelegate handler)

@@ -4,7 +4,6 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Services](Ink\_Canvas.WorkflowAutomat
 Assembly: InkCanvasForClass.dll  
 
 自动化服务，负责管理工作流的生命周期、触发和恢复。
-对齐 ClassIsland 的 AutomationService，通过 DI 容器解析触发器实例。
 
 ```csharp
 public class AutomationService : ObservableObject, INotifyPropertyChanged, INotifyPropertyChanging

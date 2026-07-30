@@ -4,7 +4,6 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Services](Ink\_Canvas.WorkflowAutomat
 Assembly: InkCanvasForClass.dll  
 
 行动服务，负责执行和恢复行动。
-对齐 ClassIsland 的 ActionService，实现 IActionService 接口。
 
 ```csharp
 public class ActionService : IActionService
@@ -62,7 +61,6 @@ public void Invoke(ActionSet actionSet)
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_ActionService_RegisterActionHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_ActionRegistryInfo_HandleDelegate_"></a> RegisterActionHandler\(string, HandleDelegate\)
 
 注册行动处理程序。
-对齐 ClassIsland 的 RegisterActionHandler。
 
 ```csharp
 public void RegisterActionHandler(string id, ActionRegistryInfo.HandleDelegate handler)
@@ -77,7 +75,6 @@ public void RegisterActionHandler(string id, ActionRegistryInfo.HandleDelegate h
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_ActionService_RegisterRevertHandler_System_String_Ink_Canvas_WorkflowAutomation_Models_ActionRegistryInfo_HandleDelegate_"></a> RegisterRevertHandler\(string, HandleDelegate\)
 
 注册行动恢复处理程序。
-对齐 ClassIsland 的 RegisterRevertHandler。
 
 ```csharp
 public void RegisterRevertHandler(string id, ActionRegistryInfo.HandleDelegate handler)

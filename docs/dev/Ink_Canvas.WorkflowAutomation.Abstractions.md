@@ -17,7 +17,6 @@
  [RuleSettingsControlBase](Ink\_Canvas.WorkflowAutomation.Abstractions.RuleSettingsControlBase.md)
 
 规则设置控件的基类。
-对齐 ClassIsland 的规则设置控件模式。
 
  [TriggerBase](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase.md)
 
@@ -30,7 +29,6 @@
  [TriggerInfoAttribute](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerInfoAttribute.md)
 
 自动化触发器信息特性。
-对齐 ClassIsland 的 TriggerInfo Attribute，标注在触发器类上。
 
  [TriggerSettingsControlBase](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerSettingsControlBase.md)
 
@@ -45,10 +43,8 @@
  [IActionService](Ink\_Canvas.WorkflowAutomation.Abstractions.IActionService.md)
 
 行动服务接口。
-对齐 ClassIsland 的 IActionService。
 
  [IRulesetService](Ink\_Canvas.WorkflowAutomation.Abstractions.IRulesetService.md)
 
 规则集服务接口。
-对齐 ClassIsland 的 IRulesetService。
 

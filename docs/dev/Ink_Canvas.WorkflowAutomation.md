@@ -24,6 +24,5 @@
 
  [AutomationBootstrap](Ink\_Canvas.WorkflowAutomation.AutomationBootstrap.md)
 
-自动化系统启动引导。
-对齐 ClassIsland 的 App.xaml.cs 注册模式，使用 DI 容器注册所有组件。
+自动化系统启动引导，使用 DI 容器注册所有组件。
 

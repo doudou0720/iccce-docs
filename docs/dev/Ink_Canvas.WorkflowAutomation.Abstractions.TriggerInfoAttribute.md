@@ -4,7 +4,6 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Abstractions](Ink\_Canvas.WorkflowAut
 Assembly: InkCanvasForClass.dll  
 
 自动化触发器信息特性。
-对齐 ClassIsland 的 TriggerInfo Attribute，标注在触发器类上。
 
 ```csharp
 [AttributeUsage(AttributeTargets.Class)]

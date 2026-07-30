@@ -4,7 +4,6 @@ Namespace: [Ink\_Canvas.WorkflowAutomation.Abstractions](Ink\_Canvas.WorkflowAut
 Assembly: InkCanvasForClass.dll  
 
 规则集服务接口。
-对齐 ClassIsland 的 IRulesetService。
 
 ```csharp
 public interface IRulesetService

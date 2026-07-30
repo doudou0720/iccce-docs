@@ -54,6 +54,16 @@ public static string Market_AddSource { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_PluginStrings_Market_ApplyPendingUpdate"></a> Market\_ApplyPendingUpdate
+
+```csharp
+public static string Market_ApplyPendingUpdate { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_CancelSource"></a> Market\_CancelSource
 
 ```csharp
@@ -88,6 +98,36 @@ public static string Market_DependencyWarning { get; }
 
 ```csharp
 public static string Market_EditSource { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PluginStrings_Market_HotInstallFailedRestart"></a> Market\_HotInstallFailedRestart
+
+```csharp
+public static string Market_HotInstallFailedRestart { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PluginStrings_Market_HotInstallPending"></a> Market\_HotInstallPending
+
+```csharp
+public static string Market_HotInstallPending { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PluginStrings_Market_HotUpdateMessage"></a> Market\_HotUpdateMessage
+
+```csharp
+public static string Market_HotUpdateMessage { get; }
 ```
 
 #### Property Value
@@ -344,10 +384,30 @@ public static string Market_SearchPlaceholder { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_PluginStrings_Market_SecurityNone"></a> Market\_SecurityNone
+
+```csharp
+public static string Market_SecurityNone { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SecurityTitle"></a> Market\_SecurityTitle
 
 ```csharp
 public static string Market_SecurityTitle { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PluginStrings_Market_SecurityUnknownReason"></a> Market\_SecurityUnknownReason
+
+```csharp
+public static string Market_SecurityUnknownReason { get; }
 ```
 
 #### Property Value
@@ -504,6 +564,16 @@ public static string Market_Title { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_PluginStrings_Market_UntrustedInstallConfirmation"></a> Market\_UntrustedInstallConfirmation
+
+```csharp
+public static string Market_UntrustedInstallConfirmation { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_Update"></a> Market\_Update
 
 ```csharp
@@ -578,6 +648,16 @@ public static string Plugin_ErrorAutoDisabled { get; }
 
 ```csharp
 public static string Plugin_ErrorReset { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ErrorResetConfirm"></a> Plugin\_ErrorResetConfirm
+
+```csharp
+public static string Plugin_ErrorResetConfirm { get; }
 ```
 
 #### Property Value

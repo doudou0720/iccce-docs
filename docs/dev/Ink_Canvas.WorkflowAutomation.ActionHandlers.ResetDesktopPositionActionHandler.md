@@ -3,8 +3,7 @@
 Namespace: [Ink\_Canvas.WorkflowAutomation.ActionHandlers](Ink\_Canvas.WorkflowAutomation.ActionHandlers.md)  
 Assembly: InkCanvasForClass.dll  
 
-重置工具栏在桌面模式位置的 ActionHandler。
-对齐 ClassIsland 的 ActionHandler 模式，通过 DI 注入 IActionService 注册处理程序。
+重置工具栏在桌面模式位置的 ActionHandler，通过 DI 注入 IActionService 注册处理程序。
 
 ```csharp
 public class ResetDesktopPositionActionHandler
