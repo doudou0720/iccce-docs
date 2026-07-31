@@ -134,13 +134,36 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
 主程序窗口概览的插件安全视图。插件只能读取窗口元数据，不能操作目标窗口。
 
+ [PresentationSourceDescriptor](Ink\_Canvas.Plugins.PresentationSourceDescriptor.md)
+
+外部演示源描述。
+
  [SecurityVerdict](Ink\_Canvas.Plugins.SecurityVerdict.md)
 
 评估结果，用于安装前的安全提示。
 
+### Structs
+
+ [PluginVisiblePage](Ink\_Canvas.Plugins.PluginVisiblePage.md)
+
+一个可见页：页索引 + 该页在背景层内占据的矩形（背景元素坐标系，DIP）。
+供 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.SetVisiblePagesAsync(System.Collections.Generic.IReadOnlyList%7bInk_Canvas.Plugins.PluginVisiblePage%7d%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref> 使用。
+
 ### Interfaces
 
  [IAppRestartService](Ink\_Canvas.Plugins.IAppRestartService.md)
+
+ [ICanvasCompositionService](Ink\_Canvas.Plugins.ICanvasCompositionService.md)
+
+画布合成服务：允许插件向宿主画布下方注入全屏背景层，并把「背景 + 墨迹」按页导出。
+
+<p>
+典型用法（以 PDF 阅读器为例）：
+
+<ol><li>调用 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.InjectBackgroundLayer(System.Func%7bSystem.Windows.FrameworkElement%7d)" data-throw-if-not-resolved="false"></xref> 把自己的页面视图放到 InkCanvas 下方；</li><li>调用 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.ConfigurePages(System.UInt32%2cSystem.UInt32%2cSystem.Func%7bSystem.UInt32%2cSystem.Threading.CancellationToken%2cSystem.Threading.Tasks.Task%7bSystem.Windows.Media.Imaging.BitmapSource%7d%7d)" data-throw-if-not-resolved="false"></xref> 告知总页数、当前页与离屏渲染回调；</li><li>自己翻页后调用 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.SetCurrentPageAsync(System.UInt32%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref>，宿主会自动保存/恢复每页墨迹；</li><li>需要成品时调用 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.ExportWithInkAsync(System.String%2cSystem.UInt32%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref>。</li></ol>
+</p>
+
+所有方法都可以从任意线程调用，宿主内部会切换到 UI 线程。
 
  [IEventService](Ink\_Canvas.Plugins.IEventService.md)
 
@@ -169,6 +192,23 @@ IPC 总线抽象。SDK 暴露接口，实现在主项目中。
  [IPowerPointService](Ink\_Canvas.Plugins.IPowerPointService.md)
 
 PowerPoint 控制服务，供插件操控 PPT 联动。
+
+ [IPresentationSourceService](Ink\_Canvas.Plugins.IPresentationSourceService.md)
+
+外部演示源服务：让插件把自己声明为一个「可翻页的演示文档」，
+复用宿主 PPT 放映模式的整套 UI（四个翻页条、工具栏放映布局、全屏处理）。
+
+<p>
+与 <xref href="Ink_Canvas.Plugins.IPowerPointService" data-throw-if-not-resolved="false"></xref> 的区别：后者是遥控真实 PowerPoint，
+本服务是把插件自己的文档接进放映模式，翻页请求会回调到插件。
+</p>
+<p>
+典型用法（以 PDF 阅读器为例）：
+
+<ol><li>打开文档并注入背景层后调用 <xref href="Ink_Canvas.Plugins.IPresentationSourceService.BeginAsync(Ink_Canvas.Plugins.PresentationSourceDescriptor%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref>，宿主进入放映模式并显示翻页条；</li><li>宿主翻页条被点击时回调 <xref href="Ink_Canvas.Plugins.PresentationSourceDescriptor.NavigateAsync" data-throw-if-not-resolved="false"></xref>；</li><li>插件自己翻页（滚轮、弹窗按钮）后调用 <xref href="Ink_Canvas.Plugins.IPresentationSourceService.UpdatePageAsync(System.Int32%2cSystem.Int32%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref> 同步页码；</li><li>关闭文档时调用 <xref href="Ink_Canvas.Plugins.IPresentationSourceService.EndAsync(System.String%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref> 退出放映模式。</li></ol>
+</p>
+
+所有方法都可以从任意线程调用，宿主内部会切换到 UI 线程。
 
  [ISettingsService](Ink\_Canvas.Plugins.ISettingsService.md)
 
@@ -199,4 +239,8 @@ PowerPoint 控制服务，供插件操控 PPT 联动。
  [PluginTrustLevel](Ink\_Canvas.Plugins.PluginTrustLevel.md)
 
 插件来源信任度。
+
+ [PresentationNavigation](Ink\_Canvas.Plugins.PresentationNavigation.md)
+
+翻页方向。
 

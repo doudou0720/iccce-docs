@@ -66,6 +66,27 @@ public void BringToFrontLight(Popup popup)
 public void Cleanup()
 ```
 
+### <a id="Ink_Canvas_Helpers_PopupManagerHelper_CloseAllRegisteredPopups_System_Collections_Generic_ICollection_System_Windows_Controls_Primitives_Popup__"></a> CloseAllRegisteredPopups\(ICollection<Popup\>\)
+
+关闭所有已注册的 Popup。
+
+<p>
+供 <code>HideSubPanels</code> / <code>HideSubPanelsImmediately</code> 兜底调用：宿主自带面板是按名字逐个关闭的，
+插件通过 <xref href="Ink_Canvas.Helpers.PopupManagerHelper.RegisterPopup(System.Windows.Controls.Primitives.Popup)" data-throw-if-not-resolved="false"></xref> 注册的弹窗不在那份硬编码列表里，
+需要在此统一关闭，否则点击画布空白处时插件弹窗不会收起。
+</p>
+
+```csharp
+public void CloseAllRegisteredPopups(ICollection<Popup> skip = null)
+```
+
+#### Parameters
+
+`skip` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Popup](https://learn.microsoft.com/dotnet/api/system.windows.controls.primitives.popup)\>
+
+需要跳过的 Popup（调用方已自行处理，例如正在播放关闭动画）。
+传 <code>null</code> 表示不跳过任何一个。
+
 ### <a id="Ink_Canvas_Helpers_PopupManagerHelper_Dispose"></a> Dispose\(\)
 
 释放资源，防止内存泄漏

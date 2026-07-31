@@ -3,14 +3,8 @@
 Namespace: [Ink\_Canvas](Ink\_Canvas.md)  
 Assembly: InkCanvasForClass.dll  
 
-Issue #286 — 书写位置贴近边缘时显示"扩展画布"提示按钮。
-检测 inkCanvas_StrokeCollected 中的笔画触点，若任意点距画布四边的距离
-小于阈值 Settings.Canvas.EdgeExpandThreshold，就在书写
-位置外侧的边缘区域浮现一个按钮：
-  • 上下左右非边角位置：按钮显示在当前书写位置的边缘外侧（水平/垂直方向）。
-  • 靠近四个边角：按钮显示为斜向扩展（45°）。
-点击按钮后，按 Settings.Canvas.EdgeExpandTranslateStep
-平移画布上的全部墨迹和图片元素，腾出新的书写空间。
+插件画布合成：背景层注入 + 按页墨迹缓存 + 「背景 + 墨迹」逐页渲染。
+对应 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService" data-throw-if-not-resolved="false"></xref>，由 <xref href="Ink_Canvas.Plugins.CanvasCompositionService" data-throw-if-not-resolved="false"></xref> 转发。
 
 ```csharp
 public class MainWindow : PerformanceTransparentWin, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IBoardToolbarHost

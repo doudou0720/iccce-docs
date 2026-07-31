@@ -730,11 +730,18 @@
     href: Ink_Canvas.Plugins.PluginToolbarSettingInfo.md
   - name: PluginWindowInfo
     href: Ink_Canvas.Plugins.PluginWindowInfo.md
+  - name: PresentationSourceDescriptor
+    href: Ink_Canvas.Plugins.PresentationSourceDescriptor.md
   - name: SecurityVerdict
     href: Ink_Canvas.Plugins.SecurityVerdict.md
+  - name: Structs
+  - name: PluginVisiblePage
+    href: Ink_Canvas.Plugins.PluginVisiblePage.md
   - name: Interfaces
   - name: IAppRestartService
     href: Ink_Canvas.Plugins.IAppRestartService.md
+  - name: ICanvasCompositionService
+    href: Ink_Canvas.Plugins.ICanvasCompositionService.md
   - name: IEventService
     href: Ink_Canvas.Plugins.IEventService.md
   - name: IFileAssociationService
@@ -751,6 +758,8 @@
     href: Ink_Canvas.Plugins.IPluginIpcBus.md
   - name: IPowerPointService
     href: Ink_Canvas.Plugins.IPowerPointService.md
+  - name: IPresentationSourceService
+    href: Ink_Canvas.Plugins.IPresentationSourceService.md
   - name: ISettingsService
     href: Ink_Canvas.Plugins.ISettingsService.md
   - name: IWindowOverviewService
@@ -770,6 +779,8 @@
     href: Ink_Canvas.Plugins.PluginToolbarSettingType.md
   - name: PluginTrustLevel
     href: Ink_Canvas.Plugins.PluginTrustLevel.md
+  - name: PresentationNavigation
+    href: Ink_Canvas.Plugins.PresentationNavigation.md
 - name: Ink_Canvas.ProcessBars
   href: Ink_Canvas.ProcessBars.md
   items:
