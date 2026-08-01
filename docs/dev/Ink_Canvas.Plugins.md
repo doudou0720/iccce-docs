@@ -75,6 +75,14 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
 错误报告——记录 <xref href="Ink_Canvas.Plugins.PluginErrorRecoveryService.ReportFailure(System.String%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref> 的处置结果。
 
+ [PluginHandwritingResult](Ink\_Canvas.Plugins.PluginHandwritingResult.md)
+
+一次手写识别批次的汇总结果。
+
+ [PluginHandwritingWord](Ink\_Canvas.Plugins.PluginHandwritingWord.md)
+
+手写识别结果中的单个分词：候选文本与包围框。
+
  [PluginInfo](Ink\_Canvas.Plugins.PluginInfo.md)
 
  [PluginIpcService](Ink\_Canvas.Plugins.PluginIpcService.md)
@@ -122,6 +130,11 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
 对 <xref href="Ink_Canvas.Plugins.PluginTrustLevel.Unknown" data-throw-if-not-resolved="false"></xref> 的安装，建议弹出安全提示并由用户明确确认。
 
+ [PluginShapeRecognitionResult](Ink\_Canvas.Plugins.PluginShapeRecognitionResult.md)
+
+与具体识别后端无关的形状识别结果。宿主识别到形状时，
+<xref href="Ink_Canvas.Plugins.PluginShapeRecognitionResult.StrokesToRemove" data-throw-if-not-resolved="false"></xref> 指明应移除的原始笔画，插件可据此用标准形状替换。
+
  [PluginToolbarItemInfo](Ink\_Canvas.Plugins.PluginToolbarItemInfo.md)
 
 插件工具栏项信息，用于向主程序注册工具栏组件。
@@ -165,6 +178,17 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
 所有方法都可以从任意线程调用，宿主内部会切换到 UI 线程。
 
+ [ICanvasInkService](Ink\_Canvas.Plugins.ICanvasInkService.md)
+
+画布墨迹服务：允许插件读取、插入、清除主画布墨迹，切换工具，
+控制白板分页、撤销/重做与墨迹冻结。
+
+<p>
+所有方法都可以从任意线程调用，宿主内部会切换到 UI 线程。
+插入/清除会写入 TimeMachine 历史（可按 Ctrl+Z 撤销），
+当前页处于墨迹冻结状态时，变更类操作会被拒绝并返回 <code>false</code>。
+</p>
+
  [IEventService](Ink\_Canvas.Plugins.IEventService.md)
 
 事件服务，供插件订阅主程序事件。
@@ -182,6 +206,22 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 通知服务，供插件发送应用内通知。
 
  [IPlugin](Ink\_Canvas.Plugins.IPlugin.md)
+
+ [IPluginCanvasGestureHandler](Ink\_Canvas.Plugins.IPluginCanvasGestureHandler.md)
+
+画布双指手势处理器：宿主把 InkCanvas 上的操作（Manipulation）事件转发给插件，
+用于实现插件背景层的双指缩放/平移，并让墨迹与背景同步。
+
+<p>
+宿主在以下时机回调（均发生在 UI 线程）：
+
+<ol><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureStarting(System.Windows.Input.ManipulationStartingEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作即将开始，返回 <code>true</code> 表示插件接管，
+    此时插件应在 <xref href="System.Windows.Input.ManipulationStartingEventArgs.Mode" data-throw-if-not-resolved="false"></xref> 里声明需要的手势类型
+    （如 <xref href="System.Windows.Input.ManipulationModes.Scale" data-throw-if-not-resolved="false"></xref> | <xref href="System.Windows.Input.ManipulationModes.Translate" data-throw-if-not-resolved="false"></xref>）；</li><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureDelta(System.Windows.Input.ManipulationDeltaEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作增量，返回 <code>true</code> 表示插件已处理，
+    宿主将跳过默认的墨迹/画布变换；</li><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureCompleted(System.Windows.Input.ManipulationCompletedEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作结束，宿主的编辑模式恢复由宿主照常处理。</li></ol>
+
+不参与手势时应返回 <code>false</code>，让宿主走默认行为（书写/选择/橡皮擦等）。
+</p>
 
  [IPluginHost](Ink\_Canvas.Plugins.IPluginHost.md)
 
@@ -210,9 +250,28 @@ PowerPoint 控制服务，供插件操控 PPT 联动。
 
 所有方法都可以从任意线程调用，宿主内部会切换到 UI 线程。
 
+ [IRecognitionService](Ink\_Canvas.Plugins.IRecognitionService.md)
+
+墨迹识别服务：包装宿主的 WinRT / IACore 双引擎识别能力，
+供插件做手写转文字、图形识别/纠正与手写体美化。
+
+<p>识别引擎可能需要系统组件（Windows 10+ 手写识别或 IACore IPC 辅助进程），
+不可用时返回 <code>IsSuccess=false</code> 的结果，不会抛出异常。</p>
+
  [ISettingsService](Ink\_Canvas.Plugins.ISettingsService.md)
 
 设置服务，供插件读写主程序设置。
+
+ [ITrayService](Ink\_Canvas.Plugins.ITrayService.md)
+
+系统托盘服务：允许插件控制宿主托盘图标的显隐、主窗口的显隐、
+打开托盘右键菜单，以及向托盘右键菜单注入/移除自己的菜单项。
+
+<p>
+所有方法都可以从任意线程调用，宿主内部会切换到 UI 线程。
+注入的菜单项会插入到宿主固定菜单区（隐藏窗口/重启/关闭等）之间，
+不会破坏宿主菜单的动态状态更新。
+</p>
 
  [IWindowOverviewService](Ink\_Canvas.Plugins.IWindowOverviewService.md)
 
@@ -230,9 +289,17 @@ PowerPoint 控制服务，供插件操控 PPT 联动。
 
  [NotificationLevel](Ink\_Canvas.Plugins.NotificationLevel.md)
 
+ [PluginInkTool](Ink\_Canvas.Plugins.PluginInkTool.md)
+
+画布工具枚举。用于 <xref href="Ink_Canvas.Plugins.ICanvasInkService.SelectTool(Ink_Canvas.Plugins.PluginInkTool)" data-throw-if-not-resolved="false"></xref> 切换主画布工具。
+
  [PluginLoadStatus](Ink\_Canvas.Plugins.PluginLoadStatus.md)
 
 插件加载状态
+
+ [PluginRecognitionEngine](Ink\_Canvas.Plugins.PluginRecognitionEngine.md)
+
+墨迹识别后端：自动 / IACore / WinRT。自动模式在 Windows 10 及以上默认 WinRT。
 
  [PluginToolbarSettingType](Ink\_Canvas.Plugins.PluginToolbarSettingType.md)
 

@@ -403,6 +403,18 @@ protected virtual void OnPluginUnloaded(PluginInfo pluginInfo)
 
 `pluginInfo` PluginInfo
 
+### <a id="Ink_Canvas_Plugins_PluginManager_RegisterBoardToolbarItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterBoardToolbarItem\(PluginToolbarItemInfo\)
+
+向白板工具栏注册插件组件。行为与 <xref href="Ink_Canvas.Plugins.PluginManager.RegisterToolbarItem(Ink_Canvas.Plugins.PluginToolbarItemInfo)" data-throw-if-not-resolved="false"></xref> 相同，仅目标工具栏不同。
+
+```csharp
+public void RegisterBoardToolbarItem(PluginToolbarItemInfo itemInfo)
+```
+
+#### Parameters
+
+`itemInfo` PluginToolbarItemInfo
+
 ### <a id="Ink_Canvas_Plugins_PluginManager_RegisterIpcHandler_System_String_System_Func_System_Nullable_System_Text_Json_JsonElement__System_Object__"></a> RegisterIpcHandler\(string, Func<JsonElement?, object\>\)
 
 注册 IPC 处理函数。

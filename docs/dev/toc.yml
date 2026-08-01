@@ -700,6 +700,10 @@
     href: Ink_Canvas.Plugins.PluginErrorRecoveryService.md
   - name: PluginErrorReport
     href: Ink_Canvas.Plugins.PluginErrorReport.md
+  - name: PluginHandwritingResult
+    href: Ink_Canvas.Plugins.PluginHandwritingResult.md
+  - name: PluginHandwritingWord
+    href: Ink_Canvas.Plugins.PluginHandwritingWord.md
   - name: PluginInfo
     href: Ink_Canvas.Plugins.PluginInfo.md
   - name: PluginIpcService
@@ -724,6 +728,8 @@
     href: Ink_Canvas.Plugins.PluginReadmeRenderer.md
   - name: PluginSecurityCheck
     href: Ink_Canvas.Plugins.PluginSecurityCheck.md
+  - name: PluginShapeRecognitionResult
+    href: Ink_Canvas.Plugins.PluginShapeRecognitionResult.md
   - name: PluginToolbarItemInfo
     href: Ink_Canvas.Plugins.PluginToolbarItemInfo.md
   - name: PluginToolbarSettingInfo
@@ -742,6 +748,8 @@
     href: Ink_Canvas.Plugins.IAppRestartService.md
   - name: ICanvasCompositionService
     href: Ink_Canvas.Plugins.ICanvasCompositionService.md
+  - name: ICanvasInkService
+    href: Ink_Canvas.Plugins.ICanvasInkService.md
   - name: IEventService
     href: Ink_Canvas.Plugins.IEventService.md
   - name: IFileAssociationService
@@ -752,6 +760,8 @@
     href: Ink_Canvas.Plugins.INotificationService.md
   - name: IPlugin
     href: Ink_Canvas.Plugins.IPlugin.md
+  - name: IPluginCanvasGestureHandler
+    href: Ink_Canvas.Plugins.IPluginCanvasGestureHandler.md
   - name: IPluginHost
     href: Ink_Canvas.Plugins.IPluginHost.md
   - name: IPluginIpcBus
@@ -760,8 +770,12 @@
     href: Ink_Canvas.Plugins.IPowerPointService.md
   - name: IPresentationSourceService
     href: Ink_Canvas.Plugins.IPresentationSourceService.md
+  - name: IRecognitionService
+    href: Ink_Canvas.Plugins.IRecognitionService.md
   - name: ISettingsService
     href: Ink_Canvas.Plugins.ISettingsService.md
+  - name: ITrayService
+    href: Ink_Canvas.Plugins.ITrayService.md
   - name: IWindowOverviewService
     href: Ink_Canvas.Plugins.IWindowOverviewService.md
   - name: IWindowService
@@ -773,8 +787,12 @@
     href: Ink_Canvas.Plugins.IssueSeverity.md
   - name: NotificationLevel
     href: Ink_Canvas.Plugins.NotificationLevel.md
+  - name: PluginInkTool
+    href: Ink_Canvas.Plugins.PluginInkTool.md
   - name: PluginLoadStatus
     href: Ink_Canvas.Plugins.PluginLoadStatus.md
+  - name: PluginRecognitionEngine
+    href: Ink_Canvas.Plugins.PluginRecognitionEngine.md
   - name: PluginToolbarSettingType
     href: Ink_Canvas.Plugins.PluginToolbarSettingType.md
   - name: PluginTrustLevel

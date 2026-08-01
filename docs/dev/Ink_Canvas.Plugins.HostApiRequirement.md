@@ -40,10 +40,11 @@ public static readonly string CurrentApiVersion
 
 ### <a id="Ink_Canvas_Plugins_HostApiRequirement_HostVersion"></a> HostVersion
 
-当前宿主编译版本号，与 <code>version.json</code> 一致。
+当前宿主编译版本号，由 Nerdbank.GitVersioning 依据 <code>version.json</code> 与 git 状态自动生成，
+随构建自动更新，不再手动维护。
 
 ```csharp
-public const string HostVersion = "1.7.18.7"
+public const string HostVersion = "1.7.19.9"
 ```
 
 #### Field Value

@@ -258,6 +258,21 @@ public static void RebuildToolbar(IBoardToolbarHost host, Panel leftContainer, P
 
 `layout` [BoardToolbarLayoutSettings](Ink\_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarLayoutSettings.md)
 
+### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_RegisterPluginItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_System_Boolean_"></a> RegisterPluginItem\(PluginToolbarItemInfo, bool\)
+
+注册一个插件白板工具栏组件。首个注册的插件启动时把组件追加进 active 配置（默认 center→tools），
+后续启动只加入组件库，避免用户删除组件后重启又被自动加回。
+
+```csharp
+public static void RegisterPluginItem(PluginToolbarItemInfo itemInfo, bool autoAddToActiveConfig = true)
+```
+
+#### Parameters
+
+`itemInfo` PluginToolbarItemInfo
+
+`autoAddToActiveConfig` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_SaveConfigFile_System_String_Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarLayoutSettings_"></a> SaveConfigFile\(string, BoardToolbarLayoutSettings\)
 
 ```csharp

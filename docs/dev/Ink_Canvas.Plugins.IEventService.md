@@ -69,6 +69,20 @@ event Action SlideShowStarted
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
+### <a id="Ink_Canvas_Plugins_IEventService_StrokesChanged"></a> StrokesChanged
+
+画布墨迹集合变化时触发（added, removed）。
+冻结页回滚等宿主内部程序性回滚不触发；插件自身通过
+<xref href="Ink_Canvas.Plugins.ICanvasInkService" data-throw-if-not-resolved="false"></xref> 插入/清除也会触发，注意避免在处理器内再次写入造成循环。
+
+```csharp
+event Action<StrokeCollection, StrokeCollection> StrokesChanged
+```
+
+#### Event Type
+
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection), [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)\>
+
 ### <a id="Ink_Canvas_Plugins_IEventService_TopMostChanged"></a> TopMostChanged
 
 窗口置顶状态变化时触发
@@ -81,6 +95,18 @@ event Action<bool> TopMostChanged
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
+### <a id="Ink_Canvas_Plugins_IEventService_UndoRedoStateChanged"></a> UndoRedoStateChanged
+
+撤销/重做可用状态变化时触发（canUndo, canRedo）。
+
+```csharp
+event Action<bool, bool> UndoRedoStateChanged
+```
+
+#### Event Type
+
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean), [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+
 ### <a id="Ink_Canvas_Plugins_IEventService_WhiteboardModeChanged"></a> WhiteboardModeChanged
 
 白板模式切换时触发（true=进入白板，false=退出白板）
@@ -92,4 +118,16 @@ event Action<bool> WhiteboardModeChanged
 #### Event Type
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+
+### <a id="Ink_Canvas_Plugins_IEventService_WhiteboardPageChanged"></a> WhiteboardPageChanged
+
+白板当前页/总页数变化时触发（pageIndex 从 1 开始，pageCount 总页数）。
+
+```csharp
+event Action<int, int> WhiteboardPageChanged
+```
+
+#### Event Type
+
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[int](https://learn.microsoft.com/dotnet/api/system.int32), [int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 

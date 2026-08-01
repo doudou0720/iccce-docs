@@ -107,6 +107,18 @@ void LogError(string message, Exception ex = null)
 
 `ex` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
+### <a id="Ink_Canvas_Plugins_IPluginHost_RegisterBoardToolbarItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterBoardToolbarItem\(PluginToolbarItemInfo\)
+
+向白板工具栏注册插件组件。行为与 <xref href="Ink_Canvas.Plugins.IPluginHost.RegisterToolbarItem(Ink_Canvas.Plugins.PluginToolbarItemInfo)" data-throw-if-not-resolved="false"></xref> 相同，仅目标工具栏不同。
+
+```csharp
+void RegisterBoardToolbarItem(PluginToolbarItemInfo itemInfo)
+```
+
+#### Parameters
+
+`itemInfo` [PluginToolbarItemInfo](Ink\_Canvas.Plugins.PluginToolbarItemInfo.md)
+
 ### <a id="Ink_Canvas_Plugins_IPluginHost_RegisterIpcHandler_System_String_System_Func_System_Nullable_System_Text_Json_JsonElement__System_Object__"></a> RegisterIpcHandler\(string, Func<JsonElement?, object\>\)
 
 注册一个 IPC 方法，由插件调用。返回前请确保未注册相同 <code class="paramref">method</code>。

@@ -141,6 +141,55 @@ void InjectBackgroundLayer(Func<FrameworkElement> backgroundFactory)
 void RemoveBackgroundLayer()
 ```
 
+### <a id="Ink_Canvas_Plugins_ICanvasCompositionService_ScrollOffsetAsync_System_Double_System_Threading_CancellationToken_"></a> ScrollOffsetAsync\(double, CancellationToken\)
+
+连续滚动：把当前画布墨迹整体平移 <code class="paramref">deltaY</code>（DIP），
+与插件背景长条的滚动保持一致。插件应在滚动背景层后立即调用，使墨迹实时跟随。
+
+```csharp
+Task ScrollOffsetAsync(double deltaY, CancellationToken cancellationToken = default)
+```
+
+#### Parameters
+
+`deltaY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+
+#### Returns
+
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+
+### <a id="Ink_Canvas_Plugins_ICanvasCompositionService_SetCanvasContentAnchor_System_Windows_FrameworkElement_"></a> SetCanvasContentAnchor\(FrameworkElement\)
+
+声明背景层内的「内容锚点」：墨迹换算（TransformToVisual）的目标元素。
+当插件把页面内容放在一个会缩放/平移的容器里、而容器之外还有固定背景时，
+必须把锚点指向该内容容器，宿主才能把缩放正确纳入墨迹的按页存取换算。
+传 <code>null</code> 表示使用注入的背景层根节点（默认）。
+
+```csharp
+void SetCanvasContentAnchor(FrameworkElement contentLayer)
+```
+
+#### Parameters
+
+`contentLayer` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+
+### <a id="Ink_Canvas_Plugins_ICanvasCompositionService_SetCanvasGestureHandler_Ink_Canvas_Plugins_IPluginCanvasGestureHandler_"></a> SetCanvasGestureHandler\(IPluginCanvasGestureHandler\)
+
+注册/注销画布双指手势处理器。宿主在检测到画布上的双指操作
+（捏合/平移，见 <xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler" data-throw-if-not-resolved="false"></xref>）时，会优先转发给该处理器；
+处理器返回 <code>true</code> 表示插件接管该事件，宿主跳过默认的墨迹/画布变换。
+传 <code>null</code> 表示注销。同一时刻只允许一个处理器。
+
+```csharp
+void SetCanvasGestureHandler(IPluginCanvasGestureHandler handler)
+```
+
+#### Parameters
+
+`handler` [IPluginCanvasGestureHandler](Ink\_Canvas.Plugins.IPluginCanvasGestureHandler.md)
+
 ### <a id="Ink_Canvas_Plugins_ICanvasCompositionService_SetCurrentPageAsync_System_UInt32_System_Threading_CancellationToken_"></a> SetCurrentPageAsync\(uint, CancellationToken\)
 
 通知宿主背景层已切换到 <code class="paramref">pageIndex</code>：
@@ -197,6 +246,26 @@ Task SetVisiblePagesAsync(IReadOnlyList<PluginVisiblePage> visiblePages, Cancell
 #### Parameters
 
 `visiblePages` [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[PluginVisiblePage](Ink\_Canvas.Plugins.PluginVisiblePage.md)\>
+
+`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+
+#### Returns
+
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+
+### <a id="Ink_Canvas_Plugins_ICanvasCompositionService_TransformInkAsync_System_Windows_Media_Matrix_System_Threading_CancellationToken_"></a> TransformInkAsync\(Matrix, CancellationToken\)
+
+按 <code class="paramref">matrix</code> 变换当前画布上的全部墨迹（仅变换笔画坐标，
+保留笔尖宽度），用于双指缩放/平移时让墨迹与插件背景层实时同步。
+变换作用于画布坐标（与背景层 RenderTransform 同一坐标系）。
+
+```csharp
+Task TransformInkAsync(Matrix matrix, CancellationToken cancellationToken = default)
+```
+
+#### Parameters
+
+`matrix` [Matrix](https://learn.microsoft.com/dotnet/api/system.windows.media.matrix)
 
 `cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
 
