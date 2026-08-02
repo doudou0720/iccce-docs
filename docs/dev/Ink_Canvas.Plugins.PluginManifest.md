@@ -124,7 +124,9 @@ public string License { get; set; }
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_MinHostVersion"></a> MinHostVersion
 
-最低宿主版本要求，例如 "1.7.18"。低于此版本的宿主不允许加载插件。
+最低宿主版本要求，例如 "1.7.19"。宿主编译版本低于此值时拒绝加载本插件。
+留空表示不限制。比较对象为宿主实际编译版本
+（<xref href="Ink_Canvas.Plugins.HostApiRequirement.HostVersion" data-throw-if-not-resolved="false"></xref>），不是某个固定下限。
 
 ```csharp
 public string MinHostVersion { get; set; }
@@ -208,6 +210,10 @@ public string Version { get; set; }
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_VersionRange"></a> VersionRange
+
+本插件要求的宿主版本范围，例如 "^1.7.0"、"&gt;=1.7.18,&lt;2.0.0"。留空表示不限制。
+与 <xref href="Ink_Canvas.Plugins.PluginManifest.MinHostVersion" data-throw-if-not-resolved="false"></xref> 的区别是这里可以同时表达上界，
+用于插件明确知道自己在某个大版本之后会失效的场景；两者都填时需同时满足。
 
 ```csharp
 public string VersionRange { get; set; }

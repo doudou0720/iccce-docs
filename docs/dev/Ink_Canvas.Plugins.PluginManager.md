@@ -403,6 +403,23 @@ protected virtual void OnPluginUnloaded(PluginInfo pluginInfo)
 
 `pluginInfo` PluginInfo
 
+### <a id="Ink_Canvas_Plugins_PluginManager_OpenUri_System_String_"></a> OpenUri\(string\)
+
+主动打开一个 <code>icc://</code> 深链接。非 UI 线程时切到 UI 线程执行；
+复用 <xref href="Ink_Canvas.MainWindow.HandleUriCommand(System.String)" data-throw-if-not-resolved="false"></xref> 的路由与「启用 URI 协议」守卫。
+
+```csharp
+public bool OpenUri(string uri)
+```
+
+#### Parameters
+
+`uri` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Plugins_PluginManager_RegisterBoardToolbarItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterBoardToolbarItem\(PluginToolbarItemInfo\)
 
 向白板工具栏注册插件组件。行为与 <xref href="Ink_Canvas.Plugins.PluginManager.RegisterToolbarItem(Ink_Canvas.Plugins.PluginToolbarItemInfo)" data-throw-if-not-resolved="false"></xref> 相同，仅目标工具栏不同。
@@ -471,6 +488,20 @@ public void RegisterToolbarItem(PluginToolbarItemInfo itemInfo)
 
 `itemInfo` PluginToolbarItemInfo
 
+### <a id="Ink_Canvas_Plugins_PluginManager_RegisterUriHandler_System_String_System_Func_Ink_Canvas_Plugins_PluginUriRequest_System_Boolean__"></a> RegisterUriHandler\(string, Func<PluginUriRequest, bool\>\)
+
+注册 URI 处理程序。须在插件 Initialize 阶段调用，通过 <xref href="Ink_Canvas.Plugins.PluginManager._currentLoadingPlugin" data-throw-if-not-resolved="false"></xref> 识别调用方插件。
+
+```csharp
+public void RegisterUriHandler(string subPath, Func<PluginUriRequest, bool> handler)
+```
+
+#### Parameters
+
+`subPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`handler` [Func](https://learn.microsoft.com/dotnet/api/system.func\-2)<PluginUriRequest, [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+
 ### <a id="Ink_Canvas_Plugins_PluginManager_ResetPluginFailure_System_String_"></a> ResetPluginFailure\(string\)
 
 显式重置插件的错误记录并清除禁用状态，然后尝试热加载。
@@ -494,6 +525,27 @@ public bool ResetPluginFailure(string pluginId)
 ```csharp
 public void StartIpc()
 ```
+
+### <a id="Ink_Canvas_Plugins_PluginManager_TryDispatchUri_System_String_System_String_System_String_"></a> TryDispatchUri\(string, string, string\)
+
+派发插件 URI（由 MainWindow 的路由器调用，UI 线程）。
+子路径按「/」分段做最长前缀匹配（忽略大小写）；插件未注册/处理器返回 false/处理器异常均返回 false。
+
+```csharp
+public bool TryDispatchUri(string pluginId, string subPath, string rawUri)
+```
+
+#### Parameters
+
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`subPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`rawUri` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_UnloadAll"></a> UnloadAll\(\)
 

@@ -155,6 +155,16 @@ public string GetPresentationName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Helpers_ComPPTLinkManager_GetPresentationPath"></a> GetPresentationPath\(\)
+
+```csharp
+public string GetPresentationPath()
+```
+
+#### Returns
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Helpers_ComPPTLinkManager_ReloadConnection"></a> ReloadConnection\(\)
 
 强制断开当前 COM PPT 连接并停止对其监控，同时写入事件日志。

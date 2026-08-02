@@ -11,6 +11,34 @@ public interface IHotkeyService
 
 ## Methods
 
+### <a id="Ink_Canvas_Plugins_IHotkeyService_DisableRegistration"></a> DisableRegistration\(\)
+
+停用宿主热键注册（所有热键暂停响应）。
+
+```csharp
+void DisableRegistration()
+```
+
+### <a id="Ink_Canvas_Plugins_IHotkeyService_EnableRegistration"></a> EnableRegistration\(\)
+
+启用宿主热键注册（恢复响应）。
+
+```csharp
+void EnableRegistration()
+```
+
+### <a id="Ink_Canvas_Plugins_IHotkeyService_GetRegisteredHotkeys"></a> GetRegisteredHotkeys\(\)
+
+获取宿主当前已注册的全部热键（含内置热键）的只读描述。
+
+```csharp
+IReadOnlyList<PluginHotkeyInfo> GetRegisteredHotkeys()
+```
+
+#### Returns
+
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[PluginHotkeyInfo](Ink\_Canvas.Plugins.PluginHotkeyInfo.md)\>
+
 ### <a id="Ink_Canvas_Plugins_IHotkeyService_IsRegistered_System_String_"></a> IsRegistered\(string\)
 
 检查热键是否已注册。
@@ -74,4 +102,26 @@ bool Unregister(string id)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Plugins_IHotkeyService_UpdateHotkey_System_String_System_Windows_Input_Key_System_Windows_Input_ModifierKeys_"></a> UpdateHotkey\(string, Key, ModifierKeys\)
+
+更新宿主内置热键的按键组合（按热键名称，如 "Undo"、"Redo"）。
+
+```csharp
+bool UpdateHotkey(string hotkeyName, Key key, ModifierKeys modifiers)
+```
+
+#### Parameters
+
+`hotkeyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`key` [Key](https://learn.microsoft.com/dotnet/api/system.windows.input.key)
+
+`modifiers` [ModifierKeys](https://learn.microsoft.com/dotnet/api/system.windows.input.modifierkeys)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+是否更新成功。
 

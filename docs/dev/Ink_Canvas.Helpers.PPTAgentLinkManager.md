@@ -156,6 +156,16 @@ public string GetPresentationName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Helpers_PPTAgentLinkManager_GetPresentationPath"></a> GetPresentationPath\(\)
+
+```csharp
+public string GetPresentationPath()
+```
+
+#### Returns
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Helpers_PPTAgentLinkManager_GetSmartRegions"></a> GetSmartRegions\(\)
 
 ```csharp

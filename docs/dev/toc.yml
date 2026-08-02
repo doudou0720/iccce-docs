@@ -680,8 +680,12 @@
     href: Ink_Canvas.Plugins.IpcMessage.md
   - name: MergedPluginInfo
     href: Ink_Canvas.Plugins.MergedPluginInfo.md
+  - name: PluginAnnouncement
+    href: Ink_Canvas.Plugins.PluginAnnouncement.md
   - name: PluginBase
     href: Ink_Canvas.Plugins.PluginBase.md
+  - name: PluginCameraInfo
+    href: Ink_Canvas.Plugins.PluginCameraInfo.md
   - name: PluginCompatibility
     href: Ink_Canvas.Plugins.PluginCompatibility.md
   - name: PluginConfigIo
@@ -704,6 +708,8 @@
     href: Ink_Canvas.Plugins.PluginHandwritingResult.md
   - name: PluginHandwritingWord
     href: Ink_Canvas.Plugins.PluginHandwritingWord.md
+  - name: PluginHotkeyInfo
+    href: Ink_Canvas.Plugins.PluginHotkeyInfo.md
   - name: PluginInfo
     href: Ink_Canvas.Plugins.PluginInfo.md
   - name: PluginIpcService
@@ -724,16 +730,34 @@
     href: Ink_Canvas.Plugins.PluginMarketSourceInfo.md
   - name: PluginMarketSourcesService
     href: Ink_Canvas.Plugins.PluginMarketSourcesService.md
+  - name: PluginNameRoster
+    href: Ink_Canvas.Plugins.PluginNameRoster.md
+  - name: PluginNotification
+    href: Ink_Canvas.Plugins.PluginNotification.md
+  - name: PluginQuoteScheme
+    href: Ink_Canvas.Plugins.PluginQuoteScheme.md
   - name: PluginReadmeRenderer
     href: Ink_Canvas.Plugins.PluginReadmeRenderer.md
+  - name: PluginResolutionInfo
+    href: Ink_Canvas.Plugins.PluginResolutionInfo.md
+  - name: PluginScreenInfo
+    href: Ink_Canvas.Plugins.PluginScreenInfo.md
   - name: PluginSecurityCheck
     href: Ink_Canvas.Plugins.PluginSecurityCheck.md
   - name: PluginShapeRecognitionResult
     href: Ink_Canvas.Plugins.PluginShapeRecognitionResult.md
+  - name: PluginSlideThumbnail
+    href: Ink_Canvas.Plugins.PluginSlideThumbnail.md
   - name: PluginToolbarItemInfo
     href: Ink_Canvas.Plugins.PluginToolbarItemInfo.md
   - name: PluginToolbarSettingInfo
     href: Ink_Canvas.Plugins.PluginToolbarSettingInfo.md
+  - name: PluginUpdateCheckResult
+    href: Ink_Canvas.Plugins.PluginUpdateCheckResult.md
+  - name: PluginUriRequest
+    href: Ink_Canvas.Plugins.PluginUriRequest.md
+  - name: PluginUsageStats
+    href: Ink_Canvas.Plugins.PluginUsageStats.md
   - name: PluginWindowInfo
     href: Ink_Canvas.Plugins.PluginWindowInfo.md
   - name: PresentationSourceDescriptor
@@ -744,18 +768,36 @@
   - name: PluginVisiblePage
     href: Ink_Canvas.Plugins.PluginVisiblePage.md
   - name: Interfaces
+  - name: IAnnouncementService
+    href: Ink_Canvas.Plugins.IAnnouncementService.md
+  - name: IAppInfoService
+    href: Ink_Canvas.Plugins.IAppInfoService.md
   - name: IAppRestartService
     href: Ink_Canvas.Plugins.IAppRestartService.md
+  - name: IBackupService
+    href: Ink_Canvas.Plugins.IBackupService.md
+  - name: ICameraService
+    href: Ink_Canvas.Plugins.ICameraService.md
   - name: ICanvasCompositionService
     href: Ink_Canvas.Plugins.ICanvasCompositionService.md
   - name: ICanvasInkService
     href: Ink_Canvas.Plugins.ICanvasInkService.md
+  - name: IClipboardService
+    href: Ink_Canvas.Plugins.IClipboardService.md
+  - name: IConfigProfileService
+    href: Ink_Canvas.Plugins.IConfigProfileService.md
   - name: IEventService
     href: Ink_Canvas.Plugins.IEventService.md
   - name: IFileAssociationService
     href: Ink_Canvas.Plugins.IFileAssociationService.md
+  - name: IFileDialogService
+    href: Ink_Canvas.Plugins.IFileDialogService.md
   - name: IHotkeyService
     href: Ink_Canvas.Plugins.IHotkeyService.md
+  - name: IInkEffectService
+    href: Ink_Canvas.Plugins.IInkEffectService.md
+  - name: INameRosterService
+    href: Ink_Canvas.Plugins.INameRosterService.md
   - name: INotificationService
     href: Ink_Canvas.Plugins.INotificationService.md
   - name: IPlugin
@@ -766,16 +808,30 @@
     href: Ink_Canvas.Plugins.IPluginHost.md
   - name: IPluginIpcBus
     href: Ink_Canvas.Plugins.IPluginIpcBus.md
+  - name: IPluginUriService
+    href: Ink_Canvas.Plugins.IPluginUriService.md
   - name: IPowerPointService
     href: Ink_Canvas.Plugins.IPowerPointService.md
   - name: IPresentationSourceService
     href: Ink_Canvas.Plugins.IPresentationSourceService.md
+  - name: IQuoteService
+    href: Ink_Canvas.Plugins.IQuoteService.md
   - name: IRecognitionService
     href: Ink_Canvas.Plugins.IRecognitionService.md
+  - name: IScreenInfoService
+    href: Ink_Canvas.Plugins.IScreenInfoService.md
+  - name: IScreenshotService
+    href: Ink_Canvas.Plugins.IScreenshotService.md
   - name: ISettingsService
     href: Ink_Canvas.Plugins.ISettingsService.md
+  - name: ISystemInfoService
+    href: Ink_Canvas.Plugins.ISystemInfoService.md
+  - name: IThemeService
+    href: Ink_Canvas.Plugins.IThemeService.md
   - name: ITrayService
     href: Ink_Canvas.Plugins.ITrayService.md
+  - name: IUpdateService
+    href: Ink_Canvas.Plugins.IUpdateService.md
   - name: IWindowOverviewService
     href: Ink_Canvas.Plugins.IWindowOverviewService.md
   - name: IWindowService
@@ -793,10 +849,14 @@
     href: Ink_Canvas.Plugins.PluginLoadStatus.md
   - name: PluginRecognitionEngine
     href: Ink_Canvas.Plugins.PluginRecognitionEngine.md
+  - name: PluginTheme
+    href: Ink_Canvas.Plugins.PluginTheme.md
   - name: PluginToolbarSettingType
     href: Ink_Canvas.Plugins.PluginToolbarSettingType.md
   - name: PluginTrustLevel
     href: Ink_Canvas.Plugins.PluginTrustLevel.md
+  - name: PluginUpdateChannel
+    href: Ink_Canvas.Plugins.PluginUpdateChannel.md
   - name: PresentationNavigation
     href: Ink_Canvas.Plugins.PresentationNavigation.md
 - name: Ink_Canvas.ProcessBars

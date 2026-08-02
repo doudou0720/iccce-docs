@@ -58,6 +58,28 @@ public static bool IsFileAssociationRegistered()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Helpers_FileAssociationManager_IsFileAssociationRegistered_System_String_System_String_"></a> IsFileAssociationRegistered\(string, string\)
+
+检查自定义文件扩展名关联是否已注册且指向宿主 exe（供插件使用）。
+
+```csharp
+public static bool IsFileAssociationRegistered(string extension, string progId = null)
+```
+
+#### Parameters
+
+`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`progId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+可选的 ProgId；非空时校验扩展名指向的 ProgId 是否与之匹配。
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+已注册且命令指向宿主 exe 时返回 true。
+
 ### <a id="Ink_Canvas_Helpers_FileAssociationManager_RegisterFileAssociation"></a> RegisterFileAssociation\(\)
 
 注册.icstk文件关联
@@ -69,6 +91,31 @@ public static bool RegisterFileAssociation()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Helpers_FileAssociationManager_RegisterFileAssociation_System_String_System_String_System_String_System_String_"></a> RegisterFileAssociation\(string, string, string, string\)
+
+注册自定义文件扩展名关联（供插件使用）。
+写入 <code>HKCU\Software\Classes</code>（无需管理员权限），把该扩展名的打开命令指向宿主 exe。
+
+```csharp
+public static bool RegisterFileAssociation(string extension, string progId, string description, string iconPath = null)
+```
+
+#### Parameters
+
+`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`progId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`description` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`iconPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+是否注册成功；扩展名/ProgId 无效或扩展名受保护时返回 false。
 
 ### <a id="Ink_Canvas_Helpers_FileAssociationManager_ShowFileAssociationStatus"></a> ShowFileAssociationStatus\(\)
 
@@ -165,4 +212,23 @@ public static bool UnregisterFileAssociation()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Helpers_FileAssociationManager_UnregisterFileAssociation_System_String_"></a> UnregisterFileAssociation\(string\)
+
+注销自定义文件扩展名关联（供插件使用）。
+自动读取扩展名当前指向的 ProgId 并一并清理，无需调用方提供。
+
+```csharp
+public static bool UnregisterFileAssociation(string extension)
+```
+
+#### Parameters
+
+`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+是否注销成功。
 

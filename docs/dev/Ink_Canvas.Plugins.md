@@ -32,9 +32,17 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
 合并后的插件信息（本地 + 市场）。
 
+ [PluginAnnouncement](Ink\_Canvas.Plugins.PluginAnnouncement.md)
+
+公告条目（只读描述）。
+
  [PluginBase](Ink\_Canvas.Plugins.PluginBase.md)
 
 插件抽象基类。
+
+ [PluginCameraInfo](Ink\_Canvas.Plugins.PluginCameraInfo.md)
+
+摄像头信息。
 
  [PluginCompatibility](Ink\_Canvas.Plugins.PluginCompatibility.md)
 
@@ -83,6 +91,10 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
 手写识别结果中的单个分词：候选文本与包围框。
 
+ [PluginHotkeyInfo](Ink\_Canvas.Plugins.PluginHotkeyInfo.md)
+
+热键信息（只读描述，不含回调）。
+
  [PluginInfo](Ink\_Canvas.Plugins.PluginInfo.md)
 
  [PluginIpcService](Ink\_Canvas.Plugins.PluginIpcService.md)
@@ -115,11 +127,31 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
 插件市场源配置管理，支持添加多个第三方插件源并选择镜像。
 
+ [PluginNameRoster](Ink\_Canvas.Plugins.PluginNameRoster.md)
+
+花名册（与宿主 Settings.NameRoster 一致）。
+
+ [PluginNotification](Ink\_Canvas.Plugins.PluginNotification.md)
+
+通知历史条目（只读描述）。
+
+ [PluginQuoteScheme](Ink\_Canvas.Plugins.PluginQuoteScheme.md)
+
+名言预设方案描述。
+
  [PluginReadmeRenderer](Ink\_Canvas.Plugins.PluginReadmeRenderer.md)
 
 轻量级 Markdown → <xref href="System.Windows.Documents.FlowDocument" data-throw-if-not-resolved="false"></xref> 渲染器。专为插件说明文档设计，
 不引入任何第三方依赖，支持：标题、加粗、斜体、行内代码、代码块、列表、
 链接、引用、分隔线与简单表格。
+
+ [PluginResolutionInfo](Ink\_Canvas.Plugins.PluginResolutionInfo.md)
+
+摄像头分辨率（宽×高×帧率）。
+
+ [PluginScreenInfo](Ink\_Canvas.Plugins.PluginScreenInfo.md)
+
+显示器信息（只读）。
 
  [PluginSecurityCheck](Ink\_Canvas.Plugins.PluginSecurityCheck.md)
 
@@ -135,6 +167,10 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 与具体识别后端无关的形状识别结果。宿主识别到形状时，
 <xref href="Ink_Canvas.Plugins.PluginShapeRecognitionResult.StrokesToRemove" data-throw-if-not-resolved="false"></xref> 指明应移除的原始笔画，插件可据此用标准形状替换。
 
+ [PluginSlideThumbnail](Ink\_Canvas.Plugins.PluginSlideThumbnail.md)
+
+单张幻灯片的缩略图（PNG 字节）。
+
  [PluginToolbarItemInfo](Ink\_Canvas.Plugins.PluginToolbarItemInfo.md)
 
 插件工具栏项信息，用于向主程序注册工具栏组件。
@@ -142,6 +178,18 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
  [PluginToolbarSettingInfo](Ink\_Canvas.Plugins.PluginToolbarSettingInfo.md)
 
 插件工具栏项的自定义设置描述。
+
+ [PluginUpdateCheckResult](Ink\_Canvas.Plugins.PluginUpdateCheckResult.md)
+
+更新检查结果。
+
+ [PluginUriRequest](Ink\_Canvas.Plugins.PluginUriRequest.md)
+
+插件 URI 请求。宿主解析 <code>icc://plugin/&lt;pluginId&gt;/&lt;path&gt;</code> 后构造，传递给注册的处理器。
+
+ [PluginUsageStats](Ink\_Canvas.Plugins.PluginUsageStats.md)
+
+宿主使用统计。
 
  [PluginWindowInfo](Ink\_Canvas.Plugins.PluginWindowInfo.md)
 
@@ -164,7 +212,27 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
 ### Interfaces
 
+ [IAnnouncementService](Ink\_Canvas.Plugins.IAnnouncementService.md)
+
+公告服务：供插件读取宿主公告中心的未读数、历史与标记已读。
+
+ [IAppInfoService](Ink\_Canvas.Plugins.IAppInfoService.md)
+
+应用信息服务：供插件读取宿主应用的基本信息。
+
  [IAppRestartService](Ink\_Canvas.Plugins.IAppRestartService.md)
+
+ [IBackupService](Ink\_Canvas.Plugins.IBackupService.md)
+
+自动备份服务：供插件控制宿主的设置文件自动备份（复制 Settings.json 到备份目录）。
+
+ [ICameraService](Ink\_Canvas.Plugins.ICameraService.md)
+
+摄像头服务：供插件枚举摄像头、启动预览、接收帧回调与拍照。
+
+<p>底层复用宿主视频展台的 DirectShow 采集（<code>CameraServiceFactory.Create()</code>），
+与展台共用摄像头设备——插件启动预览可能抢占展台正在使用的设备。</p>
+<p>帧回调在后台线程触发，返回的 <xref href="System.Windows.Media.Imaging.BitmapSource" data-throw-if-not-resolved="false"></xref> 已 Freeze。</p>
 
  [ICanvasCompositionService](Ink\_Canvas.Plugins.ICanvasCompositionService.md)
 
@@ -189,6 +257,19 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 当前页处于墨迹冻结状态时，变更类操作会被拒绝并返回 <code>false</code>。
 </p>
 
+ [IClipboardService](Ink\_Canvas.Plugins.IClipboardService.md)
+
+剪贴板服务：允许插件读取/写入系统剪贴板文本与图像，并订阅剪贴板变化事件。
+
+<p>宿主已挂接系统剪贴板监听（AddClipboardFormatListener），
+<xref href="Ink_Canvas.Plugins.IClipboardService.ClipboardUpdate" data-throw-if-not-resolved="false"></xref> 在剪贴板文本/图像变化时触发。</p>
+<p>所有方法都应在 UI 线程调用（WPF Clipboard 依赖 STA 线程）。</p>
+
+ [IConfigProfileService](Ink\_Canvas.Plugins.IConfigProfileService.md)
+
+配置方案服务：供插件管理宿主的「配置方案」（一套 Settings.json 的快照）。
+与设置窗口里的配置方案管理共用同一存储目录。
+
  [IEventService](Ink\_Canvas.Plugins.IEventService.md)
 
 事件服务，供插件订阅主程序事件。
@@ -197,9 +278,28 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
 文件关联服务，供插件注册自定义文件类型关联。
 
+ [IFileDialogService](Ink\_Canvas.Plugins.IFileDialogService.md)
+
+文件对话框服务：供插件弹出标准的 Windows 打开/保存文件对话框。
+
+<p>宿主内部切到 UI 线程展示对话框，以宿主主窗口为所有者。</p>
+
  [IHotkeyService](Ink\_Canvas.Plugins.IHotkeyService.md)
 
 快捷键服务，供插件注册自定义全局热键。
+
+ [IInkEffectService](Ink\_Canvas.Plugins.IInkEffectService.md)
+
+墨迹特效服务：供插件控制宿主画布的墨迹渐变消隐动画（InkFade）。
+
+<p>宿主画布上的墨迹按时间渐隐消失，用于演示/答题场景的自动擦除效果。</p>
+<p>底层复用宿主 <code>InkFadeManager</code>；画布未初始化时调用方法可能无效，
+但不会抛出异常。</p>
+
+ [INameRosterService](Ink\_Canvas.Plugins.INameRosterService.md)
+
+点名花名册服务：供插件管理宿主「随机点名」功能的学生花名册。
+与宿主设置里的花名册管理共用同一存储（Names.txt / Replace.txt / 方案目录）。
 
  [INotificationService](Ink\_Canvas.Plugins.INotificationService.md)
 
@@ -229,6 +329,19 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
 IPC 总线抽象。SDK 暴露接口，实现在主项目中。
 
+ [IPluginUriService](Ink\_Canvas.Plugins.IPluginUriService.md)
+
+URI 服务：供插件注册深链接处理程序，或主动打开 <code>icc://</code> 深链接。
+
+<p>
+注册后，宿主会把形如 <code>icc://plugin/&lt;pluginId&gt;/&lt;path&gt;?&lt;query&gt;</code> 的深链接
+派发给对应插件注册的处理器。子路径按「/」分段做最长前缀匹配（忽略大小写），
+注册空字符串 <code>""</code> 表示接收该插件全部子路径。
+</p>
+<p>
+处理器与 <xref href="Ink_Canvas.Plugins.IPluginUriService.OpenUri(System.String)" data-throw-if-not-resolved="false"></xref> 均在 UI 线程执行，可安全操作画布/窗口等宿主对象。
+</p>
+
  [IPowerPointService](Ink\_Canvas.Plugins.IPowerPointService.md)
 
 PowerPoint 控制服务，供插件操控 PPT 联动。
@@ -250,6 +363,12 @@ PowerPoint 控制服务，供插件操控 PPT 联动。
 
 所有方法都可以从任意线程调用，宿主内部会切换到 UI 线程。
 
+ [IQuoteService](Ink\_Canvas.Plugins.IQuoteService.md)
+
+名言（鸡汤/一言）服务：供插件读取宿主内置的名言预设、触发白板水印名言刷新。
+
+<p>预设来源：osu 玩家语录、励志名言、高考祝福、Phigros Tips、一言（Hitokoto API）。</p>
+
  [IRecognitionService](Ink\_Canvas.Plugins.IRecognitionService.md)
 
 墨迹识别服务：包装宿主的 WinRT / IACore 双引擎识别能力，
@@ -258,9 +377,27 @@ PowerPoint 控制服务，供插件操控 PPT 联动。
 <p>识别引擎可能需要系统组件（Windows 10+ 手写识别或 IACore IPC 辅助进程），
 不可用时返回 <code>IsSuccess=false</code> 的结果，不会抛出异常。</p>
 
+ [IScreenInfoService](Ink\_Canvas.Plugins.IScreenInfoService.md)
+
+屏幕信息服务：供插件读取系统显示器信息。
+
+ [IScreenshotService](Ink\_Canvas.Plugins.IScreenshotService.md)
+
+截图服务：允许插件捕获全屏或指定区域的屏幕内容，返回位图或保存为文件。
+
+<p>所有方法都应在 UI 线程调用（宿主内部不做线程切换）。</p>
+
  [ISettingsService](Ink\_Canvas.Plugins.ISettingsService.md)
 
 设置服务，供插件读写主程序设置。
+
+ [ISystemInfoService](Ink\_Canvas.Plugins.ISystemInfoService.md)
+
+系统信息服务：供插件读取宿主设备与系统信息。
+
+ [IThemeService](Ink\_Canvas.Plugins.IThemeService.md)
+
+主题服务：供插件检测系统/宿主当前主题，并把主题应用到自己的控件。
 
  [ITrayService](Ink\_Canvas.Plugins.ITrayService.md)
 
@@ -272,6 +409,12 @@ PowerPoint 控制服务，供插件操控 PPT 联动。
 注入的菜单项会插入到宿主固定菜单区（隐藏窗口/重启/关闭等）之间，
 不会破坏宿主菜单的动态状态更新。
 </p>
+
+ [IUpdateService](Ink\_Canvas.Plugins.IUpdateService.md)
+
+更新服务：供插件检查宿主是否有新版本、读取更新日志、触发安装或取消下载。
+
+<p>底层复用宿主 <code>AutoUpdateHelper</code>，与软件内置的检查更新共用同一套更新源与校验。</p>
 
  [IWindowOverviewService](Ink\_Canvas.Plugins.IWindowOverviewService.md)
 
@@ -289,6 +432,8 @@ PowerPoint 控制服务，供插件操控 PPT 联动。
 
  [NotificationLevel](Ink\_Canvas.Plugins.NotificationLevel.md)
 
+通知级别。
+
  [PluginInkTool](Ink\_Canvas.Plugins.PluginInkTool.md)
 
 画布工具枚举。用于 <xref href="Ink_Canvas.Plugins.ICanvasInkService.SelectTool(Ink_Canvas.Plugins.PluginInkTool)" data-throw-if-not-resolved="false"></xref> 切换主画布工具。
@@ -301,11 +446,19 @@ PowerPoint 控制服务，供插件操控 PPT 联动。
 
 墨迹识别后端：自动 / IACore / WinRT。自动模式在 Windows 10 及以上默认 WinRT。
 
+ [PluginTheme](Ink\_Canvas.Plugins.PluginTheme.md)
+
+主题枚举。
+
  [PluginToolbarSettingType](Ink\_Canvas.Plugins.PluginToolbarSettingType.md)
 
  [PluginTrustLevel](Ink\_Canvas.Plugins.PluginTrustLevel.md)
 
 插件来源信任度。
+
+ [PluginUpdateChannel](Ink\_Canvas.Plugins.PluginUpdateChannel.md)
+
+更新通道。
 
  [PresentationNavigation](Ink\_Canvas.Plugins.PresentationNavigation.md)
 

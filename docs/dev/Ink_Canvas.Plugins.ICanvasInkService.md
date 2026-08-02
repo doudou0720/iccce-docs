@@ -136,6 +136,50 @@ void DeleteWhiteboardPage()
 void ExitWhiteboard()
 ```
 
+### <a id="Ink_Canvas_Plugins_ICanvasInkService_ExportCurrentPageAsPng_System_String_"></a> ExportCurrentPageAsPng\(string\)
+
+把当前画布页（墨迹 + 背景色）导出为 PNG 文件。
+
+```csharp
+bool ExportCurrentPageAsPng(string filePath)
+```
+
+#### Parameters
+
+`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+输出 PNG 路径（目录需已存在）。
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+是否导出成功。
+
+### <a id="Ink_Canvas_Plugins_ICanvasInkService_ExportStrokesAsPng_System_Windows_Ink_StrokeCollection_System_String_"></a> ExportStrokesAsPng\(StrokeCollection, string\)
+
+把指定墨迹集合渲染为 PNG 文件。
+
+```csharp
+bool ExportStrokesAsPng(StrokeCollection strokes, string filePath)
+```
+
+#### Parameters
+
+`strokes` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
+
+要导出的墨迹。
+
+`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+输出 PNG 路径（目录需已存在）。
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+是否导出成功。
+
 ### <a id="Ink_Canvas_Plugins_ICanvasInkService_GetDefaultDrawingAttributes"></a> GetDefaultDrawingAttributes\(\)
 
 当前默认笔触属性（颜色/粗细/荧光笔）。返回克隆副本，修改不影响宿主。
@@ -161,6 +205,26 @@ StrokeCollection GetStrokes()
 
  [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
 
+### <a id="Ink_Canvas_Plugins_ICanvasInkService_InsertBitmap_System_Windows_Media_Imaging_BitmapSource_"></a> InsertBitmap\(BitmapSource\)
+
+把图片插入当前画布（居中缩放、进入撤销历史、切换到选择模式）。
+
+```csharp
+bool InsertBitmap(BitmapSource bitmapSource)
+```
+
+#### Parameters
+
+`bitmapSource` [BitmapSource](https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource)
+
+要插入的图片。
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+是否已触发插入流程。
+
 ### <a id="Ink_Canvas_Plugins_ICanvasInkService_InsertImage"></a> InsertImage\(\)
 
 打开「从文件插入图片」流程（文件对话框 + 插入画布）。
@@ -173,6 +237,26 @@ bool InsertImage()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Plugins_ICanvasInkService_PasteClipboardImageAsync_System_Nullable_System_Windows_Point__"></a> PasteClipboardImageAsync\(Point?\)
+
+把剪贴板图片粘贴到画布（可选指定坐标）。
+
+```csharp
+Task<bool> PasteClipboardImageAsync(Point? position = null)
+```
+
+#### Parameters
+
+`position` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)?
+
+插入位置（画布坐标）；null 表示居中。
+
+#### Returns
+
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+
+是否已触发粘贴流程。
 
 ### <a id="Ink_Canvas_Plugins_ICanvasInkService_Redo"></a> Redo\(\)
 

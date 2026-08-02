@@ -3,6 +3,8 @@
 Namespace: [Ink\_Canvas.Plugins](Ink\_Canvas.Plugins.md)  
 Assembly: InkCanvas.PluginSdk.dll  
 
+通知级别。
+
 ```csharp
 public enum NotificationLevel
 ```

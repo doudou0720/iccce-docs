@@ -93,6 +93,18 @@ void ExitWhiteboard()
 void Expand()
 ```
 
+### <a id="Ink_Canvas_Plugins_IWindowService_SetFullscreen_System_Boolean_"></a> SetFullscreen\(bool\)
+
+设置窗口全屏状态（进入/退出全屏）。
+
+```csharp
+void SetFullscreen(bool fullscreen)
+```
+
+#### Parameters
+
+`fullscreen` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Plugins_IWindowService_SetTopMost_System_Boolean_"></a> SetTopMost\(bool\)
 
 设置窗口置顶状态。
@@ -111,6 +123,14 @@ void SetTopMost(bool topMost)
 
 ```csharp
 void ToggleCollapse()
+```
+
+### <a id="Ink_Canvas_Plugins_IWindowService_ToggleFullscreen"></a> ToggleFullscreen\(\)
+
+切换窗口全屏状态。
+
+```csharp
+void ToggleFullscreen()
 ```
 
 ### <a id="Ink_Canvas_Plugins_IWindowService_ToggleTopMost"></a> ToggleTopMost\(\)

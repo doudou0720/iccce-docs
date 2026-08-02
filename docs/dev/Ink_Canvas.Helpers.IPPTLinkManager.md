@@ -123,6 +123,16 @@ string GetPresentationName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Helpers_IPPTLinkManager_GetPresentationPath"></a> GetPresentationPath\(\)
+
+```csharp
+string GetPresentationPath()
+```
+
+#### Returns
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_ReloadConnection"></a> ReloadConnection\(\)
 
 重新加载或重建与 PowerPoint 的连接。

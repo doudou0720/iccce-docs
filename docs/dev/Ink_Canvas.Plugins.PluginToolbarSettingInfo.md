@@ -66,6 +66,30 @@ public string Key { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_MaxValue"></a> MaxValue
+
+Slider 类型的最大值。默认 100。仅对 <xref href="Ink_Canvas.Plugins.PluginToolbarSettingType.Slider" data-throw-if-not-resolved="false"></xref> 生效。
+
+```csharp
+public double? MaxValue { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)?
+
+### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_MinValue"></a> MinValue
+
+Slider 类型的最小值。默认 0。仅对 <xref href="Ink_Canvas.Plugins.PluginToolbarSettingType.Slider" data-throw-if-not-resolved="false"></xref> 生效。
+
+```csharp
+public double? MinValue { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)?
+
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_OptionValues"></a> OptionValues
 
 ComboBox 选项的保存值。若数量与 Options 一致，则 Options 用作显示文本、OptionValues 用作保存值；
@@ -88,6 +112,19 @@ public List<string> Options { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+
+### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_StepSize"></a> StepSize
+
+Slider 类型的步长。设置后滑块吸附到该步长（含鼠标拖动/键盘/点击）。默认 1。
+仅对 <xref href="Ink_Canvas.Plugins.PluginToolbarSettingType.Slider" data-throw-if-not-resolved="false"></xref> 生效。
+
+```csharp
+public double? StepSize { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_Type"></a> Type
 

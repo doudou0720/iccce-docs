@@ -88,6 +88,16 @@ public App()
 
 ## Fields
 
+### <a id="Ink_Canvas_App_AppVersion"></a> AppVersion
+
+```csharp
+public static string AppVersion
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_App_CrashAction"></a> CrashAction
 
 ```csharp

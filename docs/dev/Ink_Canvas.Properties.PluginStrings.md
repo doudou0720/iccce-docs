@@ -24,6 +24,36 @@ public static class PluginStrings
 
 ## Properties
 
+### <a id="Ink_Canvas_Properties_PluginStrings_Compat_ApiVersionMismatch"></a> Compat\_ApiVersionMismatch
+
+```csharp
+public static string Compat_ApiVersionMismatch { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PluginStrings_Compat_HostVersionOutOfRange"></a> Compat\_HostVersionOutOfRange
+
+```csharp
+public static string Compat_HostVersionOutOfRange { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_PluginStrings_Compat_HostVersionTooLow"></a> Compat\_HostVersionTooLow
+
+```csharp
+public static string Compat_HostVersionTooLow { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_PluginStrings_Culture"></a> Culture
 
 ```csharp
