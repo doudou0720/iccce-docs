@@ -13,18 +13,8 @@ public class PluginConfigIo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PluginConfigIo](Ink\_Canvas.Plugins.PluginConfigIo.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -40,11 +30,11 @@ public string Export(PluginInfo plugin, string destinationFilePath = null)
 
 `plugin` PluginInfo
 
-`destinationFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`destinationFilePath` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginConfigIo_Import_Ink_Canvas_Plugins_PluginConfigPackage_System_String_System_Boolean_"></a> Import\(PluginConfigPackage, string, bool\)
 
@@ -59,13 +49,13 @@ public int Import(PluginConfigPackage package, string targetConfigFolder, bool o
 
 `package` [PluginConfigPackage](Ink\_Canvas.Plugins.PluginConfigPackage.md)
 
-`targetConfigFolder` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetConfigFolder` string
 
-`overwrite` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`overwrite` bool
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Plugins_PluginConfigIo_Import_System_String_System_String_System_Boolean_"></a> Import\(string, string, bool\)
 
@@ -77,15 +67,15 @@ public int Import(string sourcePath, string targetConfigFolder, bool overwrite =
 
 #### Parameters
 
-`sourcePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`sourcePath` string
 
-`targetConfigFolder` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`targetConfigFolder` string
 
-`overwrite` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`overwrite` bool
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Plugins_PluginConfigIo_Inspect_System_String_"></a> Inspect\(string\)
 
@@ -97,7 +87,7 @@ public PluginConfigPackage Inspect(string sourcePath)
 
 #### Parameters
 
-`sourcePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`sourcePath` string
 
 #### Returns
 

@@ -9,17 +9,8 @@ public sealed class RealtimeInkInputPerformanceSnapshot
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [RealtimeInkInputPerformanceSnapshot](Ink\_Canvas.Helpers.RealtimeInkInputPerformanceSnapshot.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -31,7 +22,7 @@ public long ActiveRedrawCount { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_AddedPointCount"></a> AddedPointCount
 
@@ -41,7 +32,7 @@ public long AddedPointCount { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_CommitCount"></a> CommitCount
 
@@ -51,7 +42,7 @@ public long CommitCount { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_ForceRedrawCount"></a> ForceRedrawCount
 
@@ -61,7 +52,7 @@ public long ForceRedrawCount { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_FrameWaitSampleCount"></a> FrameWaitSampleCount
 
@@ -71,7 +62,7 @@ public long FrameWaitSampleCount { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_InputEventCount"></a> InputEventCount
 
@@ -81,7 +72,7 @@ public long InputEventCount { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_MaxActiveRedrawMs"></a> MaxActiveRedrawMs
 
@@ -91,7 +82,7 @@ public double MaxActiveRedrawMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_MaxCommitRedrawMs"></a> MaxCommitRedrawMs
 
@@ -101,7 +92,7 @@ public double MaxCommitRedrawMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_MaxForceRedrawMs"></a> MaxForceRedrawMs
 
@@ -111,7 +102,7 @@ public double MaxForceRedrawMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_MaxFrameWaitMs"></a> MaxFrameWaitMs
 
@@ -121,7 +112,7 @@ public double MaxFrameWaitMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_MaxInputProcessingMs"></a> MaxInputProcessingMs
 
@@ -131,7 +122,7 @@ public double MaxInputProcessingMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_MaxNormalRedrawMs"></a> MaxNormalRedrawMs
 
@@ -141,7 +132,7 @@ public double MaxNormalRedrawMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_MaxRedrawMs"></a> MaxRedrawMs
 
@@ -151,7 +142,7 @@ public double MaxRedrawMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_NormalRedrawCount"></a> NormalRedrawCount
 
@@ -161,7 +152,7 @@ public long NormalRedrawCount { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_RawInputPointCount"></a> RawInputPointCount
 
@@ -171,7 +162,7 @@ public long RawInputPointCount { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_RedrawCount"></a> RedrawCount
 
@@ -181,7 +172,7 @@ public long RedrawCount { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_SlowInputOver1MsCount"></a> SlowInputOver1MsCount
 
@@ -191,7 +182,7 @@ public long SlowInputOver1MsCount { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_SlowRedrawOver1MsCount"></a> SlowRedrawOver1MsCount
 
@@ -201,7 +192,7 @@ public long SlowRedrawOver1MsCount { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_SlowRedrawOver3MsCount"></a> SlowRedrawOver3MsCount
 
@@ -211,7 +202,7 @@ public long SlowRedrawOver3MsCount { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_SlowRedrawOver5MsCount"></a> SlowRedrawOver5MsCount
 
@@ -221,7 +212,7 @@ public long SlowRedrawOver5MsCount { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_StrokeCount"></a> StrokeCount
 
@@ -231,7 +222,7 @@ public long StrokeCount { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_TotalActiveRedrawMs"></a> TotalActiveRedrawMs
 
@@ -241,7 +232,7 @@ public double TotalActiveRedrawMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_TotalCommitRedrawMs"></a> TotalCommitRedrawMs
 
@@ -251,7 +242,7 @@ public double TotalCommitRedrawMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_TotalForceRedrawMs"></a> TotalForceRedrawMs
 
@@ -261,7 +252,7 @@ public double TotalForceRedrawMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_TotalFrameWaitMs"></a> TotalFrameWaitMs
 
@@ -271,7 +262,7 @@ public double TotalFrameWaitMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_TotalInputProcessingMs"></a> TotalInputProcessingMs
 
@@ -281,7 +272,7 @@ public double TotalInputProcessingMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_TotalNormalRedrawMs"></a> TotalNormalRedrawMs
 
@@ -291,7 +282,7 @@ public double TotalNormalRedrawMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkInputPerformanceSnapshot_TotalRedrawMs"></a> TotalRedrawMs
 
@@ -301,5 +292,5 @@ public double TotalRedrawMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 

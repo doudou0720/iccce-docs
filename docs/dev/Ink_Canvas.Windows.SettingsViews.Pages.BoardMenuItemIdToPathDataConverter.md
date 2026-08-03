@@ -4,31 +4,20 @@ Namespace: [Ink\_Canvas.Windows.SettingsViews.Pages](Ink\_Canvas.Windows.Setting
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public class BoardMenuItemIdToPathDataConverter : IdToPathDataConverterBase, IValueConverter
+public class BoardMenuItemIdToPathDataConverter : IdToPathDataConverterBase
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+IValueConverter ← 
 [IdToPathDataConverterBase](Ink\_Canvas.Windows.SettingsViews.Helpers.IdToPathDataConverterBase.md) ← 
 [BoardMenuItemIdToPathDataConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardMenuItemIdToPathDataConverter.md)
-
-#### Implements
-
-[IValueConverter](https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter)
 
 #### Inherited Members
 
 [IdToPathDataConverterBase.ConvertIdToGeometryString\(string\)](Ink\_Canvas.Windows.SettingsViews.Helpers.IdToPathDataConverterBase.md\#Ink\_Canvas\_Windows\_SettingsViews\_Helpers\_IdToPathDataConverterBase\_ConvertIdToGeometryString\_System\_String\_), 
-[IdToPathDataConverterBase.Convert\(object, Type, object, CultureInfo\)](Ink\_Canvas.Windows.SettingsViews.Helpers.IdToPathDataConverterBase.md\#Ink\_Canvas\_Windows\_SettingsViews\_Helpers\_IdToPathDataConverterBase\_Convert\_System\_Object\_System\_Type\_System\_Object\_System\_Globalization\_CultureInfo\_), 
-[IdToPathDataConverterBase.ConvertBack\(object, Type, object, CultureInfo\)](Ink\_Canvas.Windows.SettingsViews.Helpers.IdToPathDataConverterBase.md\#Ink\_Canvas\_Windows\_SettingsViews\_Helpers\_IdToPathDataConverterBase\_ConvertBack\_System\_Object\_System\_Type\_System\_Object\_System\_Globalization\_CultureInfo\_), 
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+[IdToPathDataConverterBase.Convert\(object, Type, object, CultureInfo\)](Ink\_Canvas.Windows.SettingsViews.Helpers.IdToPathDataConverterBase.md\#Ink\_Canvas\_Windows\_SettingsViews\_Helpers\_IdToPathDataConverterBase\_Convert\_System\_Object\_Type\_System\_Object\_CultureInfo\_), 
+[IdToPathDataConverterBase.ConvertBack\(object, Type, object, CultureInfo\)](Ink\_Canvas.Windows.SettingsViews.Helpers.IdToPathDataConverterBase.md\#Ink\_Canvas\_Windows\_SettingsViews\_Helpers\_IdToPathDataConverterBase\_ConvertBack\_System\_Object\_Type\_System\_Object\_CultureInfo\_)
 
 ## Methods
 
@@ -40,9 +29,9 @@ protected override string ConvertIdToGeometryString(string id)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

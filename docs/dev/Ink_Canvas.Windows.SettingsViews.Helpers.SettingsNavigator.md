@@ -12,18 +12,8 @@ public static class SettingsNavigator
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SettingsNavigator](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsNavigator.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -35,11 +25,11 @@ public static readonly DependencyProperty SettingsKeyProperty
 
 #### Field Value
 
- [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+ DependencyProperty
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsNavigator_GetSettingsKey_System_Windows_DependencyObject_"></a> GetSettingsKey\(DependencyObject\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsNavigator_GetSettingsKey_DependencyObject_"></a> GetSettingsKey\(DependencyObject\)
 
 ```csharp
 public static string GetSettingsKey(DependencyObject obj)
@@ -47,13 +37,13 @@ public static string GetSettingsKey(DependencyObject obj)
 
 #### Parameters
 
-`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+`obj` DependencyObject
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsNavigator_SetSettingsKey_System_Windows_DependencyObject_System_String_"></a> SetSettingsKey\(DependencyObject, string\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsNavigator_SetSettingsKey_DependencyObject_System_String_"></a> SetSettingsKey\(DependencyObject, string\)
 
 ```csharp
 public static void SetSettingsKey(DependencyObject obj, string value)
@@ -61,7 +51,7 @@ public static void SetSettingsKey(DependencyObject obj, string value)
 
 #### Parameters
 
-`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+`obj` DependencyObject
 
-`value` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`value` string
 

@@ -9,17 +9,8 @@ public sealed class RealtimeInkSlowEventSnapshot
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [RealtimeInkSlowEventSnapshot](Ink\_Canvas.Helpers.RealtimeInkSlowEventSnapshot.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -31,7 +22,7 @@ public int ActivePointCount { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_Committed"></a> Committed
 
@@ -41,7 +32,7 @@ public bool Committed { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_CompletedAt"></a> CompletedAt
 
@@ -51,7 +42,7 @@ public string CompletedAt { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_DispatcherProbeDelayMs"></a> DispatcherProbeDelayMs
 
@@ -61,7 +52,7 @@ public double DispatcherProbeDelayMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_ElapsedMs"></a> ElapsedMs
 
@@ -71,7 +62,7 @@ public double ElapsedMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_EventType"></a> EventType
 
@@ -81,7 +72,7 @@ public string EventType { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_ForceRedraw"></a> ForceRedraw
 
@@ -91,7 +82,7 @@ public bool ForceRedraw { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_Gen0CollectionCountEnd"></a> Gen0CollectionCountEnd
 
@@ -101,7 +92,7 @@ public int Gen0CollectionCountEnd { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_Gen0CollectionCountStart"></a> Gen0CollectionCountStart
 
@@ -111,7 +102,7 @@ public int Gen0CollectionCountStart { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_Gen1CollectionCountEnd"></a> Gen1CollectionCountEnd
 
@@ -121,7 +112,7 @@ public int Gen1CollectionCountEnd { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_Gen1CollectionCountStart"></a> Gen1CollectionCountStart
 
@@ -131,7 +122,7 @@ public int Gen1CollectionCountStart { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_Gen2CollectionCountEnd"></a> Gen2CollectionCountEnd
 
@@ -141,7 +132,7 @@ public int Gen2CollectionCountEnd { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_Gen2CollectionCountStart"></a> Gen2CollectionCountStart
 
@@ -151,7 +142,7 @@ public int Gen2CollectionCountStart { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_InputKind"></a> InputKind
 
@@ -161,7 +152,7 @@ public string InputKind { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_LastCommittedPointCount"></a> LastCommittedPointCount
 
@@ -171,7 +162,7 @@ public int LastCommittedPointCount { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_ManagedMemoryBytes"></a> ManagedMemoryBytes
 
@@ -181,7 +172,7 @@ public long ManagedMemoryBytes { get; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_PointCount"></a> PointCount
 
@@ -191,7 +182,7 @@ public int PointCount { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_RenderingIntervalMs"></a> RenderingIntervalMs
 
@@ -201,7 +192,7 @@ public double RenderingIntervalMs { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_StartedAt"></a> StartedAt
 
@@ -211,7 +202,7 @@ public string StartedAt { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_RealtimeInkSlowEventSnapshot_Timestamp"></a> Timestamp
 
@@ -221,5 +212,5 @@ public string Timestamp { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

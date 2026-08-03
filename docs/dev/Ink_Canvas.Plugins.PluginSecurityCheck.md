@@ -16,18 +16,8 @@ public class PluginSecurityCheck
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PluginSecurityCheck](Ink\_Canvas.Plugins.PluginSecurityCheck.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -53,11 +43,11 @@ public SecurityVerdict EvaluatePackage(string packageFilePath, string expectedSh
 
 #### Parameters
 
-`packageFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`packageFilePath` string
 
-`expectedSha256` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`expectedSha256` string
 
-`declaredPluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`declaredPluginId` string
 
 #### Returns
 
@@ -77,7 +67,7 @@ public string FormatVerdict(SecurityVerdict verdict)
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginSecurityCheck_RequiresUserConfirmation_Ink_Canvas_Plugins_SecurityVerdict_"></a> RequiresUserConfirmation\(SecurityVerdict\)
 
@@ -93,5 +83,5 @@ public bool RequiresUserConfirmation(SecurityVerdict verdict)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

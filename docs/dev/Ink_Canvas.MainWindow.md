@@ -7,31 +7,17 @@ Assembly: InkCanvasForClass.dll
 对应 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService" data-throw-if-not-resolved="false"></xref>，由 <xref href="Ink_Canvas.Plugins.CanvasCompositionService" data-throw-if-not-resolved="false"></xref> 转发。
 
 ```csharp
-public class MainWindow : PerformanceTransparentWin, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IBoardToolbarHost
+public class MainWindow : PerformanceTransparentWin, IBoardToolbarHost
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[DispatcherObject](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject) ← 
-[DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject) ← 
-[Visual](https://learn.microsoft.com/dotnet/api/system.windows.media.visual) ← 
-[UIElement](https://learn.microsoft.com/dotnet/api/system.windows.uielement) ← 
-[FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement) ← 
-[Control](https://learn.microsoft.com/dotnet/api/system.windows.controls.control) ← 
-[ContentControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol) ← 
-[Window](https://learn.microsoft.com/dotnet/api/system.windows.window) ← 
+Window ← 
 [PerformanceTransparentWin](Ink\_Canvas.Helpers.PerformanceTransparentWin.md) ← 
 [MainWindow](Ink\_Canvas.MainWindow.md)
 
 #### Implements
 
-[IAnimatable](https://learn.microsoft.com/dotnet/api/system.windows.media.animation.ianimatable), 
-[ISupportInitialize](https://learn.microsoft.com/dotnet/api/system.componentmodel.isupportinitialize), 
-[IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
-[IInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iinputelement), 
-[IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
-[IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild), 
 [IBoardToolbarHost](Ink\_Canvas.Controls.Toolbar.BoardToolbar.IBoardToolbarHost.md)
 
 #### Inherited Members
@@ -39,715 +25,7 @@ public class MainWindow : PerformanceTransparentWin, IAnimatable, ISupportInitia
 [PerformanceTransparentWin.IsUsingWindowChromeRendering](Ink\_Canvas.Helpers.PerformanceTransparentWin.md\#Ink\_Canvas\_Helpers\_PerformanceTransparentWin\_IsUsingWindowChromeRendering), 
 [PerformanceTransparentWin.SetTransparentHitThrough\(\)](Ink\_Canvas.Helpers.PerformanceTransparentWin.md\#Ink\_Canvas\_Helpers\_PerformanceTransparentWin\_SetTransparentHitThrough), 
 [PerformanceTransparentWin.SetTransparentNotHitThrough\(\)](Ink\_Canvas.Helpers.PerformanceTransparentWin.md\#Ink\_Canvas\_Helpers\_PerformanceTransparentWin\_SetTransparentNotHitThrough), 
-[PerformanceTransparentWin.ShouldHandleWindowChromeHitTest\(Point\)](Ink\_Canvas.Helpers.PerformanceTransparentWin.md\#Ink\_Canvas\_Helpers\_PerformanceTransparentWin\_ShouldHandleWindowChromeHitTest\_System\_Windows\_Point\_), 
-[Window.AllowsTransparencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.allowstransparencyproperty), 
-[Window.DpiChangedEvent](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichangedevent), 
-[Window.IconProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.iconproperty), 
-[Window.IsActiveProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.isactiveproperty), 
-[Window.LeftProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.leftproperty), 
-[Window.ResizeModeProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.resizemodeproperty), 
-[Window.ShowActivatedProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.showactivatedproperty), 
-[Window.ShowInTaskbarProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbarproperty), 
-[Window.SizeToContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontentproperty), 
-[Window.TaskbarItemInfoProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfoproperty), 
-[Window.TitleProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.titleproperty), 
-[Window.TopmostProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.topmostproperty), 
-[Window.TopProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.topproperty), 
-[Window.WindowStateProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstateproperty), 
-[Window.WindowStyleProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstyleproperty), 
-[Window.Activate\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.activate), 
-[Window.ArrangeOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.window.arrangeoverride), 
-[Window.Close\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.close), 
-[Window.DragMove\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.dragmove), 
-[Window.GetWindow\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.getwindow), 
-[Window.Hide\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.hide), 
-[Window.MeasureOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.window.measureoverride), 
-[Window.OnActivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onactivated), 
-[Window.OnClosed\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onclosed), 
-[Window.OnClosing\(CancelEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onclosing), 
-[Window.OnContentChanged\(object, object\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncontentchanged), 
-[Window.OnContentRendered\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncontentrendered), 
-[Window.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.oncreateautomationpeer), 
-[Window.OnDeactivated\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.ondeactivated), 
-[Window.OnDpiChanged\(DpiScale, DpiScale\)](https://learn.microsoft.com/dotnet/api/system.windows.window.ondpichanged), 
-[Window.OnLocationChanged\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onlocationchanged), 
-[Window.OnManipulationBoundaryFeedback\(ManipulationBoundaryFeedbackEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onmanipulationboundaryfeedback), 
-[Window.OnSourceInitialized\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onsourceinitialized), 
-[Window.OnStateChanged\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onstatechanged), 
-[Window.OnVisualChildrenChanged\(DependencyObject, DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onvisualchildrenchanged), 
-[Window.OnVisualParentChanged\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.window.onvisualparentchanged), 
-[Window.Show\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.show), 
-[Window.ShowDialog\(\)](https://learn.microsoft.com/dotnet/api/system.windows.window.showdialog), 
-[Window.AllowsTransparency](https://learn.microsoft.com/dotnet/api/system.windows.window.allowstransparency), 
-[Window.DialogResult](https://learn.microsoft.com/dotnet/api/system.windows.window.dialogresult), 
-[Window.Icon](https://learn.microsoft.com/dotnet/api/system.windows.window.icon), 
-[Window.IsActive](https://learn.microsoft.com/dotnet/api/system.windows.window.isactive), 
-[Window.Left](https://learn.microsoft.com/dotnet/api/system.windows.window.left), 
-[Window.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.window.logicalchildren), 
-[Window.OwnedWindows](https://learn.microsoft.com/dotnet/api/system.windows.window.ownedwindows), 
-[Window.Owner](https://learn.microsoft.com/dotnet/api/system.windows.window.owner), 
-[Window.ResizeMode](https://learn.microsoft.com/dotnet/api/system.windows.window.resizemode), 
-[Window.RestoreBounds](https://learn.microsoft.com/dotnet/api/system.windows.window.restorebounds), 
-[Window.ShowActivated](https://learn.microsoft.com/dotnet/api/system.windows.window.showactivated), 
-[Window.ShowInTaskbar](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbar), 
-[Window.SizeToContent](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontent), 
-[Window.TaskbarItemInfo](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfo), 
-[Window.Title](https://learn.microsoft.com/dotnet/api/system.windows.window.title), 
-[Window.Top](https://learn.microsoft.com/dotnet/api/system.windows.window.top), 
-[Window.Topmost](https://learn.microsoft.com/dotnet/api/system.windows.window.topmost), 
-[Window.WindowStartupLocation](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstartuplocation), 
-[Window.WindowState](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstate), 
-[Window.WindowStyle](https://learn.microsoft.com/dotnet/api/system.windows.window.windowstyle), 
-[Window.Activated](https://learn.microsoft.com/dotnet/api/system.windows.window.activated), 
-[Window.Closed](https://learn.microsoft.com/dotnet/api/system.windows.window.closed), 
-[Window.Closing](https://learn.microsoft.com/dotnet/api/system.windows.window.closing), 
-[Window.ContentRendered](https://learn.microsoft.com/dotnet/api/system.windows.window.contentrendered), 
-[Window.Deactivated](https://learn.microsoft.com/dotnet/api/system.windows.window.deactivated), 
-[Window.DpiChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichanged), 
-[Window.LocationChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.locationchanged), 
-[Window.SourceInitialized](https://learn.microsoft.com/dotnet/api/system.windows.window.sourceinitialized), 
-[Window.StateChanged](https://learn.microsoft.com/dotnet/api/system.windows.window.statechanged), 
-[ContentControl.ContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentproperty), 
-[ContentControl.ContentStringFormatProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentstringformatproperty), 
-[ContentControl.ContentTemplateProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateproperty), 
-[ContentControl.ContentTemplateSelectorProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateselectorproperty), 
-[ContentControl.HasContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.hascontentproperty), 
-[ContentControl.AddChild\(object\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.addchild), 
-[ContentControl.AddText\(string\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.addtext), 
-[ContentControl.OnContentChanged\(object, object\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontentchanged), 
-[ContentControl.OnContentStringFormatChanged\(string, string\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontentstringformatchanged), 
-[ContentControl.OnContentTemplateChanged\(DataTemplate, DataTemplate\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontenttemplatechanged), 
-[ContentControl.OnContentTemplateSelectorChanged\(DataTemplateSelector, DataTemplateSelector\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontenttemplateselectorchanged), 
-[ContentControl.Content](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.content), 
-[ContentControl.ContentStringFormat](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentstringformat), 
-[ContentControl.ContentTemplate](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplate), 
-[ContentControl.ContentTemplateSelector](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateselector), 
-[ContentControl.HasContent](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.hascontent), 
-[ContentControl.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.logicalchildren), 
-[Control.BackgroundProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.backgroundproperty), 
-[Control.BorderBrushProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderbrushproperty), 
-[Control.BorderThicknessProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderthicknessproperty), 
-[Control.FontFamilyProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontfamilyproperty), 
-[Control.FontSizeProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontsizeproperty), 
-[Control.FontStretchProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstretchproperty), 
-[Control.FontStyleProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstyleproperty), 
-[Control.FontWeightProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontweightproperty), 
-[Control.ForegroundProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.foregroundproperty), 
-[Control.HorizontalContentAlignmentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.horizontalcontentalignmentproperty), 
-[Control.IsTabStopProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.istabstopproperty), 
-[Control.MouseDoubleClickEvent](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.mousedoubleclickevent), 
-[Control.PaddingProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.paddingproperty), 
-[Control.PreviewMouseDoubleClickEvent](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.previewmousedoubleclickevent), 
-[Control.TabIndexProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.tabindexproperty), 
-[Control.TemplateProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.templateproperty), 
-[Control.VerticalContentAlignmentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.verticalcontentalignmentproperty), 
-[Control.ArrangeOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.arrangeoverride), 
-[Control.MeasureOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.measureoverride), 
-[Control.OnMouseDoubleClick\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.onmousedoubleclick), 
-[Control.OnPreviewMouseDoubleClick\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.onpreviewmousedoubleclick), 
-[Control.OnTemplateChanged\(ControlTemplate, ControlTemplate\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.ontemplatechanged), 
-[Control.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.tostring), 
-[Control.Background](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.background), 
-[Control.BorderBrush](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderbrush), 
-[Control.BorderThickness](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderthickness), 
-[Control.FontFamily](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontfamily), 
-[Control.FontSize](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontsize), 
-[Control.FontStretch](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstretch), 
-[Control.FontStyle](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstyle), 
-[Control.FontWeight](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontweight), 
-[Control.Foreground](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.foreground), 
-[Control.HandlesScrolling](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.handlesscrolling), 
-[Control.HorizontalContentAlignment](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.horizontalcontentalignment), 
-[Control.IsTabStop](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.istabstop), 
-[Control.Padding](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.padding), 
-[Control.TabIndex](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.tabindex), 
-[Control.Template](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.template), 
-[Control.VerticalContentAlignment](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.verticalcontentalignment), 
-[Control.MouseDoubleClick](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.mousedoubleclick), 
-[Control.PreviewMouseDoubleClick](https://learn.microsoft.com/dotnet/api/system.windows.controls.control.previewmousedoubleclick), 
-[FrameworkElement.ActualHeightProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.actualheightproperty), 
-[FrameworkElement.ActualWidthProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.actualwidthproperty), 
-[FrameworkElement.BindingGroupProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.bindinggroupproperty), 
-[FrameworkElement.ContextMenuClosingEvent](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.contextmenuclosingevent), 
-[FrameworkElement.ContextMenuOpeningEvent](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.contextmenuopeningevent), 
-[FrameworkElement.ContextMenuProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.contextmenuproperty), 
-[FrameworkElement.CursorProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.cursorproperty), 
-[FrameworkElement.DataContextProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.datacontextproperty), 
-[FrameworkElement.DefaultStyleKeyProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.defaultstylekeyproperty), 
-[FrameworkElement.FlowDirectionProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.flowdirectionproperty), 
-[FrameworkElement.FocusVisualStyleProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.focusvisualstyleproperty), 
-[FrameworkElement.ForceCursorProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.forcecursorproperty), 
-[FrameworkElement.HeightProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.heightproperty), 
-[FrameworkElement.HorizontalAlignmentProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.horizontalalignmentproperty), 
-[FrameworkElement.InputScopeProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.inputscopeproperty), 
-[FrameworkElement.LanguageProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.languageproperty), 
-[FrameworkElement.LayoutTransformProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.layouttransformproperty), 
-[FrameworkElement.LoadedEvent](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.loadedevent), 
-[FrameworkElement.MarginProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.marginproperty), 
-[FrameworkElement.MaxHeightProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.maxheightproperty), 
-[FrameworkElement.MaxWidthProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.maxwidthproperty), 
-[FrameworkElement.MinHeightProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.minheightproperty), 
-[FrameworkElement.MinWidthProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.minwidthproperty), 
-[FrameworkElement.NameProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.nameproperty), 
-[FrameworkElement.OverridesDefaultStyleProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.overridesdefaultstyleproperty), 
-[FrameworkElement.RequestBringIntoViewEvent](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.requestbringintoviewevent), 
-[FrameworkElement.SizeChangedEvent](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.sizechangedevent), 
-[FrameworkElement.StyleProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.styleproperty), 
-[FrameworkElement.TagProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tagproperty), 
-[FrameworkElement.ToolTipClosingEvent](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tooltipclosingevent), 
-[FrameworkElement.ToolTipOpeningEvent](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tooltipopeningevent), 
-[FrameworkElement.ToolTipProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tooltipproperty), 
-[FrameworkElement.UnloadedEvent](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.unloadedevent), 
-[FrameworkElement.UseLayoutRoundingProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.uselayoutroundingproperty), 
-[FrameworkElement.VerticalAlignmentProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.verticalalignmentproperty), 
-[FrameworkElement.WidthProperty](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.widthproperty), 
-[FrameworkElement.AddLogicalChild\(object\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.addlogicalchild), 
-[FrameworkElement.ApplyTemplate\(\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.applytemplate), 
-[FrameworkElement.ArrangeCore\(Rect\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.arrangecore), 
-[FrameworkElement.ArrangeOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.arrangeoverride), 
-[FrameworkElement.BeginInit\(\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.begininit), 
-[FrameworkElement.BeginStoryboard\(Storyboard\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.beginstoryboard\#system\-windows\-frameworkelement\-beginstoryboard\(system\-windows\-media\-animation\-storyboard\)), 
-[FrameworkElement.BeginStoryboard\(Storyboard, HandoffBehavior\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.beginstoryboard\#system\-windows\-frameworkelement\-beginstoryboard\(system\-windows\-media\-animation\-storyboard\-system\-windows\-media\-animation\-handoffbehavior\)), 
-[FrameworkElement.BeginStoryboard\(Storyboard, HandoffBehavior, bool\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.beginstoryboard\#system\-windows\-frameworkelement\-beginstoryboard\(system\-windows\-media\-animation\-storyboard\-system\-windows\-media\-animation\-handoffbehavior\-system\-boolean\)), 
-[FrameworkElement.BringIntoView\(\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.bringintoview\#system\-windows\-frameworkelement\-bringintoview), 
-[FrameworkElement.BringIntoView\(Rect\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.bringintoview\#system\-windows\-frameworkelement\-bringintoview\(system\-windows\-rect\)), 
-[FrameworkElement.EndInit\(\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.endinit), 
-[FrameworkElement.FindName\(string\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.findname), 
-[FrameworkElement.FindResource\(object\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.findresource), 
-[FrameworkElement.GetBindingExpression\(DependencyProperty\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.getbindingexpression), 
-[FrameworkElement.GetFlowDirection\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.getflowdirection), 
-[FrameworkElement.GetLayoutClip\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.getlayoutclip), 
-[FrameworkElement.GetTemplateChild\(string\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.gettemplatechild), 
-[FrameworkElement.GetUIParentCore\(\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.getuiparentcore), 
-[FrameworkElement.GetVisualChild\(int\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.getvisualchild), 
-[FrameworkElement.MeasureCore\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.measurecore), 
-[FrameworkElement.MeasureOverride\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.measureoverride), 
-[FrameworkElement.MoveFocus\(TraversalRequest\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.movefocus), 
-[FrameworkElement.OnApplyTemplate\(\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onapplytemplate), 
-[FrameworkElement.OnContextMenuClosing\(ContextMenuEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.oncontextmenuclosing), 
-[FrameworkElement.OnContextMenuOpening\(ContextMenuEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.oncontextmenuopening), 
-[FrameworkElement.OnGotFocus\(RoutedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.ongotfocus), 
-[FrameworkElement.OnInitialized\(EventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.oninitialized), 
-[FrameworkElement.OnPropertyChanged\(DependencyPropertyChangedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onpropertychanged), 
-[FrameworkElement.OnRenderSizeChanged\(SizeChangedInfo\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onrendersizechanged), 
-[FrameworkElement.OnStyleChanged\(Style, Style\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onstylechanged), 
-[FrameworkElement.OnToolTipClosing\(ToolTipEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.ontooltipclosing), 
-[FrameworkElement.OnToolTipOpening\(ToolTipEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.ontooltipopening), 
-[FrameworkElement.OnVisualParentChanged\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onvisualparentchanged), 
-[FrameworkElement.ParentLayoutInvalidated\(UIElement\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.parentlayoutinvalidated), 
-[FrameworkElement.PredictFocus\(FocusNavigationDirection\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.predictfocus), 
-[FrameworkElement.RegisterName\(string, object\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.registername), 
-[FrameworkElement.RemoveLogicalChild\(object\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.removelogicalchild), 
-[FrameworkElement.SetBinding\(DependencyProperty, string\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.setbinding\#system\-windows\-frameworkelement\-setbinding\(system\-windows\-dependencyproperty\-system\-string\)), 
-[FrameworkElement.SetBinding\(DependencyProperty, BindingBase\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.setbinding\#system\-windows\-frameworkelement\-setbinding\(system\-windows\-dependencyproperty\-system\-windows\-data\-bindingbase\)), 
-[FrameworkElement.SetFlowDirection\(DependencyObject, FlowDirection\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.setflowdirection), 
-[FrameworkElement.SetResourceReference\(DependencyProperty, object\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.setresourcereference), 
-[FrameworkElement.TryFindResource\(object\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tryfindresource), 
-[FrameworkElement.UnregisterName\(string\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.unregistername), 
-[FrameworkElement.UpdateDefaultStyle\(\)](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.updatedefaultstyle), 
-[FrameworkElement.ActualHeight](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.actualheight), 
-[FrameworkElement.ActualWidth](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.actualwidth), 
-[FrameworkElement.BindingGroup](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.bindinggroup), 
-[FrameworkElement.ContextMenu](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.contextmenu), 
-[FrameworkElement.Cursor](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.cursor), 
-[FrameworkElement.DataContext](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.datacontext), 
-[FrameworkElement.DefaultStyleKey](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.defaultstylekey), 
-[FrameworkElement.FlowDirection](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.flowdirection), 
-[FrameworkElement.FocusVisualStyle](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.focusvisualstyle), 
-[FrameworkElement.ForceCursor](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.forcecursor), 
-[FrameworkElement.Height](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.height), 
-[FrameworkElement.HorizontalAlignment](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.horizontalalignment), 
-[FrameworkElement.InheritanceBehavior](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.inheritancebehavior), 
-[FrameworkElement.InputScope](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.inputscope), 
-[FrameworkElement.IsInitialized](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.isinitialized), 
-[FrameworkElement.IsLoaded](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.isloaded), 
-[FrameworkElement.Language](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.language), 
-[FrameworkElement.LayoutTransform](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.layouttransform), 
-[FrameworkElement.LogicalChildren](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.logicalchildren), 
-[FrameworkElement.Margin](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.margin), 
-[FrameworkElement.MaxHeight](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.maxheight), 
-[FrameworkElement.MaxWidth](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.maxwidth), 
-[FrameworkElement.MinHeight](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.minheight), 
-[FrameworkElement.MinWidth](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.minwidth), 
-[FrameworkElement.Name](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.name), 
-[FrameworkElement.OverridesDefaultStyle](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.overridesdefaultstyle), 
-[FrameworkElement.Parent](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.parent), 
-[FrameworkElement.Resources](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.resources), 
-[FrameworkElement.Style](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.style), 
-[FrameworkElement.Tag](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tag), 
-[FrameworkElement.TemplatedParent](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.templatedparent), 
-[FrameworkElement.ToolTip](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tooltip), 
-[FrameworkElement.Triggers](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.triggers), 
-[FrameworkElement.UseLayoutRounding](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.uselayoutrounding), 
-[FrameworkElement.VerticalAlignment](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.verticalalignment), 
-[FrameworkElement.VisualChildrenCount](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.visualchildrencount), 
-[FrameworkElement.Width](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.width), 
-[FrameworkElement.ContextMenuClosing](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.contextmenuclosing), 
-[FrameworkElement.ContextMenuOpening](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.contextmenuopening), 
-[FrameworkElement.DataContextChanged](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.datacontextchanged), 
-[FrameworkElement.Initialized](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.initialized), 
-[FrameworkElement.Loaded](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.loaded), 
-[FrameworkElement.RequestBringIntoView](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.requestbringintoview), 
-[FrameworkElement.SizeChanged](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.sizechanged), 
-[FrameworkElement.SourceUpdated](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.sourceupdated), 
-[FrameworkElement.TargetUpdated](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.targetupdated), 
-[FrameworkElement.ToolTipClosing](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tooltipclosing), 
-[FrameworkElement.ToolTipOpening](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tooltipopening), 
-[FrameworkElement.Unloaded](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.unloaded), 
-[UIElement.AllowDropProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.allowdropproperty), 
-[UIElement.AreAnyTouchesCapturedProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchescapturedproperty), 
-[UIElement.AreAnyTouchesCapturedWithinProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchescapturedwithinproperty), 
-[UIElement.AreAnyTouchesDirectlyOverProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchesdirectlyoverproperty), 
-[UIElement.AreAnyTouchesOverProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchesoverproperty), 
-[UIElement.BitmapEffectInputProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.bitmapeffectinputproperty), 
-[UIElement.BitmapEffectProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.bitmapeffectproperty), 
-[UIElement.CacheModeProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.cachemodeproperty), 
-[UIElement.ClipProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.clipproperty), 
-[UIElement.ClipToBoundsProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.cliptoboundsproperty), 
-[UIElement.DragEnterEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.dragenterevent), 
-[UIElement.DragLeaveEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.dragleaveevent), 
-[UIElement.DragOverEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.dragoverevent), 
-[UIElement.DropEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.dropevent), 
-[UIElement.EffectProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.effectproperty), 
-[UIElement.FocusableProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.focusableproperty), 
-[UIElement.GiveFeedbackEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.givefeedbackevent), 
-[UIElement.GotFocusEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotfocusevent), 
-[UIElement.GotKeyboardFocusEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotkeyboardfocusevent), 
-[UIElement.GotMouseCaptureEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotmousecaptureevent), 
-[UIElement.GotStylusCaptureEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotstyluscaptureevent), 
-[UIElement.GotTouchCaptureEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.gottouchcaptureevent), 
-[UIElement.IsEnabledProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isenabledproperty), 
-[UIElement.IsFocusedProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isfocusedproperty), 
-[UIElement.IsHitTestVisibleProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ishittestvisibleproperty), 
-[UIElement.IsKeyboardFocusedProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.iskeyboardfocusedproperty), 
-[UIElement.IsKeyboardFocusWithinProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.iskeyboardfocuswithinproperty), 
-[UIElement.IsManipulationEnabledProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismanipulationenabledproperty), 
-[UIElement.IsMouseCapturedProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousecapturedproperty), 
-[UIElement.IsMouseCaptureWithinProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousecapturewithinproperty), 
-[UIElement.IsMouseDirectlyOverProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousedirectlyoverproperty), 
-[UIElement.IsMouseOverProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismouseoverproperty), 
-[UIElement.IsStylusCapturedProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstyluscapturedproperty), 
-[UIElement.IsStylusCaptureWithinProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstyluscapturewithinproperty), 
-[UIElement.IsStylusDirectlyOverProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstylusdirectlyoverproperty), 
-[UIElement.IsStylusOverProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstylusoverproperty), 
-[UIElement.IsVisibleProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isvisibleproperty), 
-[UIElement.KeyDownEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.keydownevent), 
-[UIElement.KeyUpEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.keyupevent), 
-[UIElement.LostFocusEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.lostfocusevent), 
-[UIElement.LostKeyboardFocusEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.lostkeyboardfocusevent), 
-[UIElement.LostMouseCaptureEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.lostmousecaptureevent), 
-[UIElement.LostStylusCaptureEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.loststyluscaptureevent), 
-[UIElement.LostTouchCaptureEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.losttouchcaptureevent), 
-[UIElement.ManipulationBoundaryFeedbackEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationboundaryfeedbackevent), 
-[UIElement.ManipulationCompletedEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationcompletedevent), 
-[UIElement.ManipulationDeltaEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationdeltaevent), 
-[UIElement.ManipulationInertiaStartingEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationinertiastartingevent), 
-[UIElement.ManipulationStartedEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationstartedevent), 
-[UIElement.ManipulationStartingEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationstartingevent), 
-[UIElement.MouseDownEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mousedownevent), 
-[UIElement.MouseEnterEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseenterevent), 
-[UIElement.MouseLeaveEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseleaveevent), 
-[UIElement.MouseLeftButtonDownEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseleftbuttondownevent), 
-[UIElement.MouseLeftButtonUpEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseleftbuttonupevent), 
-[UIElement.MouseMoveEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mousemoveevent), 
-[UIElement.MouseRightButtonDownEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouserightbuttondownevent), 
-[UIElement.MouseRightButtonUpEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouserightbuttonupevent), 
-[UIElement.MouseUpEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseupevent), 
-[UIElement.MouseWheelEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mousewheelevent), 
-[UIElement.OpacityMaskProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.opacitymaskproperty), 
-[UIElement.OpacityProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.opacityproperty), 
-[UIElement.PreviewDragEnterEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdragenterevent), 
-[UIElement.PreviewDragLeaveEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdragleaveevent), 
-[UIElement.PreviewDragOverEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdragoverevent), 
-[UIElement.PreviewDropEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdropevent), 
-[UIElement.PreviewGiveFeedbackEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewgivefeedbackevent), 
-[UIElement.PreviewGotKeyboardFocusEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewgotkeyboardfocusevent), 
-[UIElement.PreviewKeyDownEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewkeydownevent), 
-[UIElement.PreviewKeyUpEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewkeyupevent), 
-[UIElement.PreviewLostKeyboardFocusEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewlostkeyboardfocusevent), 
-[UIElement.PreviewMouseDownEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmousedownevent), 
-[UIElement.PreviewMouseLeftButtonDownEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouseleftbuttondownevent), 
-[UIElement.PreviewMouseLeftButtonUpEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouseleftbuttonupevent), 
-[UIElement.PreviewMouseMoveEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmousemoveevent), 
-[UIElement.PreviewMouseRightButtonDownEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouserightbuttondownevent), 
-[UIElement.PreviewMouseRightButtonUpEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouserightbuttonupevent), 
-[UIElement.PreviewMouseUpEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouseupevent), 
-[UIElement.PreviewMouseWheelEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmousewheelevent), 
-[UIElement.PreviewQueryContinueDragEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewquerycontinuedragevent), 
-[UIElement.PreviewStylusButtonDownEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusbuttondownevent), 
-[UIElement.PreviewStylusButtonUpEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusbuttonupevent), 
-[UIElement.PreviewStylusDownEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusdownevent), 
-[UIElement.PreviewStylusInAirMoveEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusinairmoveevent), 
-[UIElement.PreviewStylusInRangeEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusinrangeevent), 
-[UIElement.PreviewStylusMoveEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusmoveevent), 
-[UIElement.PreviewStylusOutOfRangeEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusoutofrangeevent), 
-[UIElement.PreviewStylusSystemGestureEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylussystemgestureevent), 
-[UIElement.PreviewStylusUpEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusupevent), 
-[UIElement.PreviewTextInputEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtextinputevent), 
-[UIElement.PreviewTouchDownEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtouchdownevent), 
-[UIElement.PreviewTouchMoveEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtouchmoveevent), 
-[UIElement.PreviewTouchUpEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtouchupevent), 
-[UIElement.QueryContinueDragEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.querycontinuedragevent), 
-[UIElement.QueryCursorEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.querycursorevent), 
-[UIElement.RenderTransformOriginProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.rendertransformoriginproperty), 
-[UIElement.RenderTransformProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.rendertransformproperty), 
-[UIElement.SnapsToDevicePixelsProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.snapstodevicepixelsproperty), 
-[UIElement.StylusButtonDownEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusbuttondownevent), 
-[UIElement.StylusButtonUpEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusbuttonupevent), 
-[UIElement.StylusDownEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusdownevent), 
-[UIElement.StylusEnterEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusenterevent), 
-[UIElement.StylusInAirMoveEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusinairmoveevent), 
-[UIElement.StylusInRangeEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusinrangeevent), 
-[UIElement.StylusLeaveEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusleaveevent), 
-[UIElement.StylusMoveEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusmoveevent), 
-[UIElement.StylusOutOfRangeEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusoutofrangeevent), 
-[UIElement.StylusSystemGestureEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylussystemgestureevent), 
-[UIElement.StylusUpEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusupevent), 
-[UIElement.TextInputEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.textinputevent), 
-[UIElement.TouchDownEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchdownevent), 
-[UIElement.TouchEnterEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchenterevent), 
-[UIElement.TouchLeaveEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchleaveevent), 
-[UIElement.TouchMoveEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchmoveevent), 
-[UIElement.TouchUpEvent](https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchupevent), 
-[UIElement.UidProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.uidproperty), 
-[UIElement.VisibilityProperty](https://learn.microsoft.com/dotnet/api/system.windows.uielement.visibilityproperty), 
-[UIElement.AddHandler\(RoutedEvent, Delegate\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.addhandler\#system\-windows\-uielement\-addhandler\(system\-windows\-routedevent\-system\-delegate\)), 
-[UIElement.AddHandler\(RoutedEvent, Delegate, bool\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.addhandler\#system\-windows\-uielement\-addhandler\(system\-windows\-routedevent\-system\-delegate\-system\-boolean\)), 
-[UIElement.AddToEventRoute\(EventRoute, RoutedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.addtoeventroute), 
-[UIElement.ApplyAnimationClock\(DependencyProperty, AnimationClock\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.applyanimationclock\#system\-windows\-uielement\-applyanimationclock\(system\-windows\-dependencyproperty\-system\-windows\-media\-animation\-animationclock\)), 
-[UIElement.ApplyAnimationClock\(DependencyProperty, AnimationClock, HandoffBehavior\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.applyanimationclock\#system\-windows\-uielement\-applyanimationclock\(system\-windows\-dependencyproperty\-system\-windows\-media\-animation\-animationclock\-system\-windows\-media\-animation\-handoffbehavior\)), 
-[UIElement.Arrange\(Rect\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.arrange), 
-[UIElement.ArrangeCore\(Rect\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.arrangecore), 
-[UIElement.BeginAnimation\(DependencyProperty, AnimationTimeline\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.beginanimation\#system\-windows\-uielement\-beginanimation\(system\-windows\-dependencyproperty\-system\-windows\-media\-animation\-animationtimeline\)), 
-[UIElement.BeginAnimation\(DependencyProperty, AnimationTimeline, HandoffBehavior\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.beginanimation\#system\-windows\-uielement\-beginanimation\(system\-windows\-dependencyproperty\-system\-windows\-media\-animation\-animationtimeline\-system\-windows\-media\-animation\-handoffbehavior\)), 
-[UIElement.CaptureMouse\(\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.capturemouse), 
-[UIElement.CaptureStylus\(\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.capturestylus), 
-[UIElement.CaptureTouch\(TouchDevice\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.capturetouch), 
-[UIElement.Focus\(\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.focus), 
-[UIElement.GetAnimationBaseValue\(DependencyProperty\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.getanimationbasevalue), 
-[UIElement.GetLayoutClip\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.getlayoutclip), 
-[UIElement.GetUIParentCore\(\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.getuiparentcore), 
-[UIElement.HitTestCore\(GeometryHitTestParameters\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.hittestcore\#system\-windows\-uielement\-hittestcore\(system\-windows\-media\-geometryhittestparameters\)), 
-[UIElement.HitTestCore\(PointHitTestParameters\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.hittestcore\#system\-windows\-uielement\-hittestcore\(system\-windows\-media\-pointhittestparameters\)), 
-[UIElement.InputHitTest\(Point\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.inputhittest), 
-[UIElement.InvalidateArrange\(\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.invalidatearrange), 
-[UIElement.InvalidateMeasure\(\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.invalidatemeasure), 
-[UIElement.InvalidateVisual\(\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.invalidatevisual), 
-[UIElement.Measure\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.measure), 
-[UIElement.MeasureCore\(Size\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.measurecore), 
-[UIElement.MoveFocus\(TraversalRequest\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.movefocus), 
-[UIElement.OnAccessKey\(AccessKeyEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onaccesskey), 
-[UIElement.OnChildDesiredSizeChanged\(UIElement\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onchilddesiredsizechanged), 
-[UIElement.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.oncreateautomationpeer), 
-[UIElement.OnDragEnter\(DragEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ondragenter), 
-[UIElement.OnDragLeave\(DragEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ondragleave), 
-[UIElement.OnDragOver\(DragEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ondragover), 
-[UIElement.OnDrop\(DragEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ondrop), 
-[UIElement.OnGiveFeedback\(GiveFeedbackEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ongivefeedback), 
-[UIElement.OnGotFocus\(RoutedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ongotfocus), 
-[UIElement.OnGotKeyboardFocus\(KeyboardFocusChangedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ongotkeyboardfocus), 
-[UIElement.OnGotMouseCapture\(MouseEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ongotmousecapture), 
-[UIElement.OnGotStylusCapture\(StylusEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ongotstyluscapture), 
-[UIElement.OnGotTouchCapture\(TouchEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ongottouchcapture), 
-[UIElement.OnIsKeyboardFocusedChanged\(DependencyPropertyChangedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.oniskeyboardfocusedchanged), 
-[UIElement.OnIsKeyboardFocusWithinChanged\(DependencyPropertyChangedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.oniskeyboardfocuswithinchanged), 
-[UIElement.OnIsMouseCapturedChanged\(DependencyPropertyChangedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onismousecapturedchanged), 
-[UIElement.OnIsMouseCaptureWithinChanged\(DependencyPropertyChangedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onismousecapturewithinchanged), 
-[UIElement.OnIsMouseDirectlyOverChanged\(DependencyPropertyChangedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onismousedirectlyoverchanged), 
-[UIElement.OnIsStylusCapturedChanged\(DependencyPropertyChangedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onisstyluscapturedchanged), 
-[UIElement.OnIsStylusCaptureWithinChanged\(DependencyPropertyChangedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onisstyluscapturewithinchanged), 
-[UIElement.OnIsStylusDirectlyOverChanged\(DependencyPropertyChangedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onisstylusdirectlyoverchanged), 
-[UIElement.OnKeyDown\(KeyEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onkeydown), 
-[UIElement.OnKeyUp\(KeyEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onkeyup), 
-[UIElement.OnLostFocus\(RoutedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onlostfocus), 
-[UIElement.OnLostKeyboardFocus\(KeyboardFocusChangedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onlostkeyboardfocus), 
-[UIElement.OnLostMouseCapture\(MouseEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onlostmousecapture), 
-[UIElement.OnLostStylusCapture\(StylusEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onloststyluscapture), 
-[UIElement.OnLostTouchCapture\(TouchEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onlosttouchcapture), 
-[UIElement.OnManipulationBoundaryFeedback\(ManipulationBoundaryFeedbackEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmanipulationboundaryfeedback), 
-[UIElement.OnManipulationCompleted\(ManipulationCompletedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmanipulationcompleted), 
-[UIElement.OnManipulationDelta\(ManipulationDeltaEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmanipulationdelta), 
-[UIElement.OnManipulationInertiaStarting\(ManipulationInertiaStartingEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmanipulationinertiastarting), 
-[UIElement.OnManipulationStarted\(ManipulationStartedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmanipulationstarted), 
-[UIElement.OnManipulationStarting\(ManipulationStartingEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmanipulationstarting), 
-[UIElement.OnMouseDown\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmousedown), 
-[UIElement.OnMouseEnter\(MouseEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmouseenter), 
-[UIElement.OnMouseLeave\(MouseEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmouseleave), 
-[UIElement.OnMouseLeftButtonDown\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmouseleftbuttondown), 
-[UIElement.OnMouseLeftButtonUp\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmouseleftbuttonup), 
-[UIElement.OnMouseMove\(MouseEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmousemove), 
-[UIElement.OnMouseRightButtonDown\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmouserightbuttondown), 
-[UIElement.OnMouseRightButtonUp\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmouserightbuttonup), 
-[UIElement.OnMouseUp\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmouseup), 
-[UIElement.OnMouseWheel\(MouseWheelEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmousewheel), 
-[UIElement.OnPreviewDragEnter\(DragEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewdragenter), 
-[UIElement.OnPreviewDragLeave\(DragEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewdragleave), 
-[UIElement.OnPreviewDragOver\(DragEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewdragover), 
-[UIElement.OnPreviewDrop\(DragEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewdrop), 
-[UIElement.OnPreviewGiveFeedback\(GiveFeedbackEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewgivefeedback), 
-[UIElement.OnPreviewGotKeyboardFocus\(KeyboardFocusChangedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewgotkeyboardfocus), 
-[UIElement.OnPreviewKeyDown\(KeyEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewkeydown), 
-[UIElement.OnPreviewKeyUp\(KeyEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewkeyup), 
-[UIElement.OnPreviewLostKeyboardFocus\(KeyboardFocusChangedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewlostkeyboardfocus), 
-[UIElement.OnPreviewMouseDown\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmousedown), 
-[UIElement.OnPreviewMouseLeftButtonDown\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmouseleftbuttondown), 
-[UIElement.OnPreviewMouseLeftButtonUp\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmouseleftbuttonup), 
-[UIElement.OnPreviewMouseMove\(MouseEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmousemove), 
-[UIElement.OnPreviewMouseRightButtonDown\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmouserightbuttondown), 
-[UIElement.OnPreviewMouseRightButtonUp\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmouserightbuttonup), 
-[UIElement.OnPreviewMouseUp\(MouseButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmouseup), 
-[UIElement.OnPreviewMouseWheel\(MouseWheelEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmousewheel), 
-[UIElement.OnPreviewQueryContinueDrag\(QueryContinueDragEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewquerycontinuedrag), 
-[UIElement.OnPreviewStylusButtonDown\(StylusButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusbuttondown), 
-[UIElement.OnPreviewStylusButtonUp\(StylusButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusbuttonup), 
-[UIElement.OnPreviewStylusDown\(StylusDownEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusdown), 
-[UIElement.OnPreviewStylusInAirMove\(StylusEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusinairmove), 
-[UIElement.OnPreviewStylusInRange\(StylusEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusinrange), 
-[UIElement.OnPreviewStylusMove\(StylusEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusmove), 
-[UIElement.OnPreviewStylusOutOfRange\(StylusEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusoutofrange), 
-[UIElement.OnPreviewStylusSystemGesture\(StylusSystemGestureEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylussystemgesture), 
-[UIElement.OnPreviewStylusUp\(StylusEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusup), 
-[UIElement.OnPreviewTextInput\(TextCompositionEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewtextinput), 
-[UIElement.OnPreviewTouchDown\(TouchEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewtouchdown), 
-[UIElement.OnPreviewTouchMove\(TouchEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewtouchmove), 
-[UIElement.OnPreviewTouchUp\(TouchEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewtouchup), 
-[UIElement.OnQueryContinueDrag\(QueryContinueDragEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onquerycontinuedrag), 
-[UIElement.OnQueryCursor\(QueryCursorEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onquerycursor), 
-[UIElement.OnRender\(DrawingContext\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onrender), 
-[UIElement.OnRenderSizeChanged\(SizeChangedInfo\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onrendersizechanged), 
-[UIElement.OnStylusButtonDown\(StylusButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusbuttondown), 
-[UIElement.OnStylusButtonUp\(StylusButtonEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusbuttonup), 
-[UIElement.OnStylusDown\(StylusDownEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusdown), 
-[UIElement.OnStylusEnter\(StylusEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusenter), 
-[UIElement.OnStylusInAirMove\(StylusEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusinairmove), 
-[UIElement.OnStylusInRange\(StylusEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusinrange), 
-[UIElement.OnStylusLeave\(StylusEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusleave), 
-[UIElement.OnStylusMove\(StylusEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusmove), 
-[UIElement.OnStylusOutOfRange\(StylusEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusoutofrange), 
-[UIElement.OnStylusSystemGesture\(StylusSystemGestureEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylussystemgesture), 
-[UIElement.OnStylusUp\(StylusEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusup), 
-[UIElement.OnTextInput\(TextCompositionEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ontextinput), 
-[UIElement.OnTouchDown\(TouchEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ontouchdown), 
-[UIElement.OnTouchEnter\(TouchEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ontouchenter), 
-[UIElement.OnTouchLeave\(TouchEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ontouchleave), 
-[UIElement.OnTouchMove\(TouchEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ontouchmove), 
-[UIElement.OnTouchUp\(TouchEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ontouchup), 
-[UIElement.OnVisualParentChanged\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.onvisualparentchanged), 
-[UIElement.PredictFocus\(FocusNavigationDirection\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.predictfocus), 
-[UIElement.RaiseEvent\(RoutedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.raiseevent), 
-[UIElement.ReleaseAllTouchCaptures\(\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.releasealltouchcaptures), 
-[UIElement.ReleaseMouseCapture\(\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.releasemousecapture), 
-[UIElement.ReleaseStylusCapture\(\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.releasestyluscapture), 
-[UIElement.ReleaseTouchCapture\(TouchDevice\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.releasetouchcapture), 
-[UIElement.RemoveHandler\(RoutedEvent, Delegate\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.removehandler), 
-[UIElement.TranslatePoint\(Point, UIElement\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.translatepoint), 
-[UIElement.UpdateLayout\(\)](https://learn.microsoft.com/dotnet/api/system.windows.uielement.updatelayout), 
-[UIElement.AllowDrop](https://learn.microsoft.com/dotnet/api/system.windows.uielement.allowdrop), 
-[UIElement.AreAnyTouchesCaptured](https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchescaptured), 
-[UIElement.AreAnyTouchesCapturedWithin](https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchescapturedwithin), 
-[UIElement.AreAnyTouchesDirectlyOver](https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchesdirectlyover), 
-[UIElement.AreAnyTouchesOver](https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchesover), 
-[UIElement.BitmapEffect](https://learn.microsoft.com/dotnet/api/system.windows.uielement.bitmapeffect), 
-[UIElement.BitmapEffectInput](https://learn.microsoft.com/dotnet/api/system.windows.uielement.bitmapeffectinput), 
-[UIElement.CacheMode](https://learn.microsoft.com/dotnet/api/system.windows.uielement.cachemode), 
-[UIElement.Clip](https://learn.microsoft.com/dotnet/api/system.windows.uielement.clip), 
-[UIElement.ClipToBounds](https://learn.microsoft.com/dotnet/api/system.windows.uielement.cliptobounds), 
-[UIElement.CommandBindings](https://learn.microsoft.com/dotnet/api/system.windows.uielement.commandbindings), 
-[UIElement.DesiredSize](https://learn.microsoft.com/dotnet/api/system.windows.uielement.desiredsize), 
-[UIElement.Effect](https://learn.microsoft.com/dotnet/api/system.windows.uielement.effect), 
-[UIElement.Focusable](https://learn.microsoft.com/dotnet/api/system.windows.uielement.focusable), 
-[UIElement.HasAnimatedProperties](https://learn.microsoft.com/dotnet/api/system.windows.uielement.hasanimatedproperties), 
-[UIElement.HasEffectiveKeyboardFocus](https://learn.microsoft.com/dotnet/api/system.windows.uielement.haseffectivekeyboardfocus), 
-[UIElement.InputBindings](https://learn.microsoft.com/dotnet/api/system.windows.uielement.inputbindings), 
-[UIElement.IsArrangeValid](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isarrangevalid), 
-[UIElement.IsEnabled](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isenabled), 
-[UIElement.IsEnabledCore](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isenabledcore), 
-[UIElement.IsFocused](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isfocused), 
-[UIElement.IsHitTestVisible](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ishittestvisible), 
-[UIElement.IsInputMethodEnabled](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isinputmethodenabled), 
-[UIElement.IsKeyboardFocused](https://learn.microsoft.com/dotnet/api/system.windows.uielement.iskeyboardfocused), 
-[UIElement.IsKeyboardFocusWithin](https://learn.microsoft.com/dotnet/api/system.windows.uielement.iskeyboardfocuswithin), 
-[UIElement.IsManipulationEnabled](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismanipulationenabled), 
-[UIElement.IsMeasureValid](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismeasurevalid), 
-[UIElement.IsMouseCaptured](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousecaptured), 
-[UIElement.IsMouseCaptureWithin](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousecapturewithin), 
-[UIElement.IsMouseDirectlyOver](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousedirectlyover), 
-[UIElement.IsMouseOver](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismouseover), 
-[UIElement.IsStylusCaptured](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstyluscaptured), 
-[UIElement.IsStylusCaptureWithin](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstyluscapturewithin), 
-[UIElement.IsStylusDirectlyOver](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstylusdirectlyover), 
-[UIElement.IsStylusOver](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstylusover), 
-[UIElement.IsVisible](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isvisible), 
-[UIElement.Opacity](https://learn.microsoft.com/dotnet/api/system.windows.uielement.opacity), 
-[UIElement.OpacityMask](https://learn.microsoft.com/dotnet/api/system.windows.uielement.opacitymask), 
-[UIElement.PersistId](https://learn.microsoft.com/dotnet/api/system.windows.uielement.persistid), 
-[UIElement.RenderSize](https://learn.microsoft.com/dotnet/api/system.windows.uielement.rendersize), 
-[UIElement.RenderTransform](https://learn.microsoft.com/dotnet/api/system.windows.uielement.rendertransform), 
-[UIElement.RenderTransformOrigin](https://learn.microsoft.com/dotnet/api/system.windows.uielement.rendertransformorigin), 
-[UIElement.SnapsToDevicePixels](https://learn.microsoft.com/dotnet/api/system.windows.uielement.snapstodevicepixels), 
-[UIElement.StylusPlugIns](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusplugins), 
-[UIElement.TouchesCaptured](https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchescaptured), 
-[UIElement.TouchesCapturedWithin](https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchescapturedwithin), 
-[UIElement.TouchesDirectlyOver](https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchesdirectlyover), 
-[UIElement.TouchesOver](https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchesover), 
-[UIElement.Uid](https://learn.microsoft.com/dotnet/api/system.windows.uielement.uid), 
-[UIElement.Visibility](https://learn.microsoft.com/dotnet/api/system.windows.uielement.visibility), 
-[UIElement.DragEnter](https://learn.microsoft.com/dotnet/api/system.windows.uielement.dragenter), 
-[UIElement.DragLeave](https://learn.microsoft.com/dotnet/api/system.windows.uielement.dragleave), 
-[UIElement.DragOver](https://learn.microsoft.com/dotnet/api/system.windows.uielement.dragover), 
-[UIElement.Drop](https://learn.microsoft.com/dotnet/api/system.windows.uielement.drop), 
-[UIElement.FocusableChanged](https://learn.microsoft.com/dotnet/api/system.windows.uielement.focusablechanged), 
-[UIElement.GiveFeedback](https://learn.microsoft.com/dotnet/api/system.windows.uielement.givefeedback), 
-[UIElement.GotFocus](https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotfocus), 
-[UIElement.GotKeyboardFocus](https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotkeyboardfocus), 
-[UIElement.GotMouseCapture](https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotmousecapture), 
-[UIElement.GotStylusCapture](https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotstyluscapture), 
-[UIElement.GotTouchCapture](https://learn.microsoft.com/dotnet/api/system.windows.uielement.gottouchcapture), 
-[UIElement.IsEnabledChanged](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isenabledchanged), 
-[UIElement.IsHitTestVisibleChanged](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ishittestvisiblechanged), 
-[UIElement.IsKeyboardFocusedChanged](https://learn.microsoft.com/dotnet/api/system.windows.uielement.iskeyboardfocusedchanged), 
-[UIElement.IsKeyboardFocusWithinChanged](https://learn.microsoft.com/dotnet/api/system.windows.uielement.iskeyboardfocuswithinchanged), 
-[UIElement.IsMouseCapturedChanged](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousecapturedchanged), 
-[UIElement.IsMouseCaptureWithinChanged](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousecapturewithinchanged), 
-[UIElement.IsMouseDirectlyOverChanged](https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousedirectlyoverchanged), 
-[UIElement.IsStylusCapturedChanged](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstyluscapturedchanged), 
-[UIElement.IsStylusCaptureWithinChanged](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstyluscapturewithinchanged), 
-[UIElement.IsStylusDirectlyOverChanged](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstylusdirectlyoverchanged), 
-[UIElement.IsVisibleChanged](https://learn.microsoft.com/dotnet/api/system.windows.uielement.isvisiblechanged), 
-[UIElement.KeyDown](https://learn.microsoft.com/dotnet/api/system.windows.uielement.keydown), 
-[UIElement.KeyUp](https://learn.microsoft.com/dotnet/api/system.windows.uielement.keyup), 
-[UIElement.LayoutUpdated](https://learn.microsoft.com/dotnet/api/system.windows.uielement.layoutupdated), 
-[UIElement.LostFocus](https://learn.microsoft.com/dotnet/api/system.windows.uielement.lostfocus), 
-[UIElement.LostKeyboardFocus](https://learn.microsoft.com/dotnet/api/system.windows.uielement.lostkeyboardfocus), 
-[UIElement.LostMouseCapture](https://learn.microsoft.com/dotnet/api/system.windows.uielement.lostmousecapture), 
-[UIElement.LostStylusCapture](https://learn.microsoft.com/dotnet/api/system.windows.uielement.loststyluscapture), 
-[UIElement.LostTouchCapture](https://learn.microsoft.com/dotnet/api/system.windows.uielement.losttouchcapture), 
-[UIElement.ManipulationBoundaryFeedback](https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationboundaryfeedback), 
-[UIElement.ManipulationCompleted](https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationcompleted), 
-[UIElement.ManipulationDelta](https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationdelta), 
-[UIElement.ManipulationInertiaStarting](https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationinertiastarting), 
-[UIElement.ManipulationStarted](https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationstarted), 
-[UIElement.ManipulationStarting](https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationstarting), 
-[UIElement.MouseDown](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mousedown), 
-[UIElement.MouseEnter](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseenter), 
-[UIElement.MouseLeave](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseleave), 
-[UIElement.MouseLeftButtonDown](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseleftbuttondown), 
-[UIElement.MouseLeftButtonUp](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseleftbuttonup), 
-[UIElement.MouseMove](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mousemove), 
-[UIElement.MouseRightButtonDown](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouserightbuttondown), 
-[UIElement.MouseRightButtonUp](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouserightbuttonup), 
-[UIElement.MouseUp](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseup), 
-[UIElement.MouseWheel](https://learn.microsoft.com/dotnet/api/system.windows.uielement.mousewheel), 
-[UIElement.PreviewDragEnter](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdragenter), 
-[UIElement.PreviewDragLeave](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdragleave), 
-[UIElement.PreviewDragOver](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdragover), 
-[UIElement.PreviewDrop](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdrop), 
-[UIElement.PreviewGiveFeedback](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewgivefeedback), 
-[UIElement.PreviewGotKeyboardFocus](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewgotkeyboardfocus), 
-[UIElement.PreviewKeyDown](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewkeydown), 
-[UIElement.PreviewKeyUp](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewkeyup), 
-[UIElement.PreviewLostKeyboardFocus](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewlostkeyboardfocus), 
-[UIElement.PreviewMouseDown](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmousedown), 
-[UIElement.PreviewMouseLeftButtonDown](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouseleftbuttondown), 
-[UIElement.PreviewMouseLeftButtonUp](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouseleftbuttonup), 
-[UIElement.PreviewMouseMove](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmousemove), 
-[UIElement.PreviewMouseRightButtonDown](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouserightbuttondown), 
-[UIElement.PreviewMouseRightButtonUp](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouserightbuttonup), 
-[UIElement.PreviewMouseUp](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouseup), 
-[UIElement.PreviewMouseWheel](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmousewheel), 
-[UIElement.PreviewQueryContinueDrag](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewquerycontinuedrag), 
-[UIElement.PreviewStylusButtonDown](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusbuttondown), 
-[UIElement.PreviewStylusButtonUp](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusbuttonup), 
-[UIElement.PreviewStylusDown](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusdown), 
-[UIElement.PreviewStylusInAirMove](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusinairmove), 
-[UIElement.PreviewStylusInRange](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusinrange), 
-[UIElement.PreviewStylusMove](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusmove), 
-[UIElement.PreviewStylusOutOfRange](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusoutofrange), 
-[UIElement.PreviewStylusSystemGesture](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylussystemgesture), 
-[UIElement.PreviewStylusUp](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusup), 
-[UIElement.PreviewTextInput](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtextinput), 
-[UIElement.PreviewTouchDown](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtouchdown), 
-[UIElement.PreviewTouchMove](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtouchmove), 
-[UIElement.PreviewTouchUp](https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtouchup), 
-[UIElement.QueryContinueDrag](https://learn.microsoft.com/dotnet/api/system.windows.uielement.querycontinuedrag), 
-[UIElement.QueryCursor](https://learn.microsoft.com/dotnet/api/system.windows.uielement.querycursor), 
-[UIElement.StylusButtonDown](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusbuttondown), 
-[UIElement.StylusButtonUp](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusbuttonup), 
-[UIElement.StylusDown](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusdown), 
-[UIElement.StylusEnter](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusenter), 
-[UIElement.StylusInAirMove](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusinairmove), 
-[UIElement.StylusInRange](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusinrange), 
-[UIElement.StylusLeave](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusleave), 
-[UIElement.StylusMove](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusmove), 
-[UIElement.StylusOutOfRange](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusoutofrange), 
-[UIElement.StylusSystemGesture](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylussystemgesture), 
-[UIElement.StylusUp](https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusup), 
-[UIElement.TextInput](https://learn.microsoft.com/dotnet/api/system.windows.uielement.textinput), 
-[UIElement.TouchDown](https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchdown), 
-[UIElement.TouchEnter](https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchenter), 
-[UIElement.TouchLeave](https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchleave), 
-[UIElement.TouchMove](https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchmove), 
-[UIElement.TouchUp](https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchup), 
-[Visual.AddVisualChild\(Visual\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.addvisualchild), 
-[Visual.FindCommonVisualAncestor\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.findcommonvisualancestor), 
-[Visual.GetVisualChild\(int\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.getvisualchild), 
-[Visual.HitTestCore\(GeometryHitTestParameters\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.hittestcore\#system\-windows\-media\-visual\-hittestcore\(system\-windows\-media\-geometryhittestparameters\)), 
-[Visual.HitTestCore\(PointHitTestParameters\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.hittestcore\#system\-windows\-media\-visual\-hittestcore\(system\-windows\-media\-pointhittestparameters\)), 
-[Visual.IsAncestorOf\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.isancestorof), 
-[Visual.IsDescendantOf\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.isdescendantof), 
-[Visual.OnDpiChanged\(DpiScale, DpiScale\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.ondpichanged), 
-[Visual.OnVisualChildrenChanged\(DependencyObject, DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.onvisualchildrenchanged), 
-[Visual.OnVisualParentChanged\(DependencyObject\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.onvisualparentchanged), 
-[Visual.PointFromScreen\(Point\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.pointfromscreen), 
-[Visual.PointToScreen\(Point\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.pointtoscreen), 
-[Visual.RemoveVisualChild\(Visual\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.removevisualchild), 
-[Visual.TransformToAncestor\(Visual3D\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.transformtoancestor\#system\-windows\-media\-visual\-transformtoancestor\(system\-windows\-media\-media3d\-visual3d\)), 
-[Visual.TransformToAncestor\(Visual\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.transformtoancestor\#system\-windows\-media\-visual\-transformtoancestor\(system\-windows\-media\-visual\)), 
-[Visual.TransformToDescendant\(Visual\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.transformtodescendant), 
-[Visual.TransformToVisual\(Visual\)](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.transformtovisual), 
-[Visual.VisualBitmapEffect](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualbitmapeffect), 
-[Visual.VisualBitmapEffectInput](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualbitmapeffectinput), 
-[Visual.VisualBitmapScalingMode](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualbitmapscalingmode), 
-[Visual.VisualCacheMode](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualcachemode), 
-[Visual.VisualChildrenCount](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualchildrencount), 
-[Visual.VisualClearTypeHint](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualcleartypehint), 
-[Visual.VisualClip](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualclip), 
-[Visual.VisualEdgeMode](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualedgemode), 
-[Visual.VisualEffect](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualeffect), 
-[Visual.VisualOffset](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualoffset), 
-[Visual.VisualOpacity](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualopacity), 
-[Visual.VisualOpacityMask](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualopacitymask), 
-[Visual.VisualParent](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualparent), 
-[Visual.VisualScrollableAreaClip](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualscrollableareaclip), 
-[Visual.VisualTextHintingMode](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualtexthintingmode), 
-[Visual.VisualTextRenderingMode](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualtextrenderingmode), 
-[Visual.VisualTransform](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualtransform), 
-[Visual.VisualXSnappingGuidelines](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualxsnappingguidelines), 
-[Visual.VisualYSnappingGuidelines](https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualysnappingguidelines), 
-[DependencyObject.ClearValue\(DependencyProperty\)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.clearvalue\#system\-windows\-dependencyobject\-clearvalue\(system\-windows\-dependencyproperty\)), 
-[DependencyObject.ClearValue\(DependencyPropertyKey\)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.clearvalue\#system\-windows\-dependencyobject\-clearvalue\(system\-windows\-dependencypropertykey\)), 
-[DependencyObject.CoerceValue\(DependencyProperty\)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.coercevalue), 
-[DependencyObject.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.equals), 
-[DependencyObject.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.gethashcode), 
-[DependencyObject.GetLocalValueEnumerator\(\)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.getlocalvalueenumerator), 
-[DependencyObject.GetValue\(DependencyProperty\)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.getvalue), 
-[DependencyObject.InvalidateProperty\(DependencyProperty\)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.invalidateproperty), 
-[DependencyObject.OnPropertyChanged\(DependencyPropertyChangedEventArgs\)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.onpropertychanged), 
-[DependencyObject.ReadLocalValue\(DependencyProperty\)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.readlocalvalue), 
-[DependencyObject.SetCurrentValue\(DependencyProperty, object\)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setcurrentvalue), 
-[DependencyObject.SetValue\(DependencyProperty, object\)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setvalue\#system\-windows\-dependencyobject\-setvalue\(system\-windows\-dependencyproperty\-system\-object\)), 
-[DependencyObject.SetValue\(DependencyPropertyKey, object\)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setvalue\#system\-windows\-dependencyobject\-setvalue\(system\-windows\-dependencypropertykey\-system\-object\)), 
-[DependencyObject.ShouldSerializeProperty\(DependencyProperty\)](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.shouldserializeproperty), 
-[DependencyObject.DependencyObjectType](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.dependencyobjecttype), 
-[DependencyObject.IsSealed](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.issealed), 
-[DispatcherObject.Dispatcher](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject.dispatcher), 
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+[PerformanceTransparentWin.ShouldHandleWindowChromeHitTest\(Point\)](Ink\_Canvas.Helpers.PerformanceTransparentWin.md\#Ink\_Canvas\_Helpers\_PerformanceTransparentWin\_ShouldHandleWindowChromeHitTest\_Point\_)
 
 ## Remarks
 
@@ -785,7 +63,7 @@ public int BoundsWidth
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_MainWindow_CloseIsFromButton"></a> CloseIsFromButton
 
@@ -795,19 +73,19 @@ public static bool CloseIsFromButton
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MainWindow_CompactFloatingBarScaleFactor"></a> CompactFloatingBarScaleFactor
 
 紧凑模式浮动栏整体缩放倍率（相对用户设置的倍率再缩小至此比例，保持纵横比）。
 
 ```csharp
-public const double CompactFloatingBarScaleFactor = 0.85
+public const double CompactFloatingBarScaleFactor
 ```
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_MainWindow_IsShowingRestoreHiddenSlidesWindow"></a> IsShowingRestoreHiddenSlidesWindow
 
@@ -819,7 +97,7 @@ public static bool IsShowingRestoreHiddenSlidesWindow
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MainWindow__floatingWindowInterceptorManager"></a> \_floatingWindowInterceptorManager
 
@@ -839,7 +117,7 @@ public string _lastAppliedProfileName
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_MainWindow_dpiChangedDelayAction"></a> dpiChangedDelayAction
 
@@ -861,7 +139,7 @@ public double eraserWidth
 
 #### Field Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_MainWindow_isEraserCircleShape"></a> isEraserCircleShape
 
@@ -871,7 +149,7 @@ public bool isEraserCircleShape
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MainWindow_isFloatingBarFolded"></a> isFloatingBarFolded
 
@@ -883,7 +161,7 @@ public bool isFloatingBarFolded
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MainWindow_isFullScreenApplied"></a> isFullScreenApplied
 
@@ -893,7 +171,7 @@ public bool isFullScreenApplied
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MainWindow_isUsingGeometryEraser"></a> isUsingGeometryEraser
 
@@ -903,7 +181,7 @@ public bool isUsingGeometryEraser
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MainWindow_isUsingStrokesEraser"></a> isUsingStrokesEraser
 
@@ -913,19 +191,19 @@ public bool isUsingStrokesEraser
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MainWindow_pptApplication"></a> pptApplication
 
 PowerPoint应用程序实例，用于与PowerPoint进行交互。
 
 ```csharp
-public static Application pptApplication
+public static Microsoft.Office.Interop.PowerPoint.Application pptApplication
 ```
 
 #### Field Value
 
- Application
+ Microsoft.Office.Interop.PowerPoint.Application
 
 ### <a id="Ink_Canvas_MainWindow_presentation"></a> presentation
 
@@ -973,7 +251,7 @@ public static int slidescount
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Properties
 
@@ -985,7 +263,7 @@ public int BoothResolutionHeight { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_MainWindow_BoothResolutionWidth"></a> BoothResolutionWidth
 
@@ -995,7 +273,7 @@ public int BoothResolutionWidth { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_MainWindow_CanAddNewPage"></a> CanAddNewPage
 
@@ -1005,7 +283,7 @@ public bool CanAddNewPage { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MainWindow_CanDeletePage"></a> CanDeletePage
 
@@ -1015,7 +293,7 @@ public bool CanDeletePage { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MainWindow_CanRedo"></a> CanRedo
 
@@ -1025,7 +303,7 @@ public bool CanRedo { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MainWindow_CanSwitchToNextPage"></a> CanSwitchToNextPage
 
@@ -1035,7 +313,7 @@ public bool CanSwitchToNextPage { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MainWindow_CanSwitchToPreviousPage"></a> CanSwitchToPreviousPage
 
@@ -1045,7 +323,7 @@ public bool CanSwitchToPreviousPage { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MainWindow_CanUndo"></a> CanUndo
 
@@ -1055,7 +333,7 @@ public bool CanUndo { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MainWindow_CurrentPageInfo"></a> CurrentPageInfo
 
@@ -1065,7 +343,7 @@ public string CurrentPageInfo { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_MainWindow_InkSmoothingManagerInstance"></a> InkSmoothingManagerInstance
 
@@ -1113,7 +391,7 @@ public double QuickPanelFoldedMargin { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_MainWindow_QuickPanelUnfoldedMargin"></a> QuickPanelUnfoldedMargin
 
@@ -1123,7 +401,7 @@ public double QuickPanelUnfoldedMargin { get; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_MainWindow_Settings"></a> Settings
 
@@ -1153,7 +431,7 @@ public static string settingsFileName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -1217,7 +495,7 @@ public void ApplyUIAccessTopMost()
 public void AutoUpdate()
 ```
 
-### <a id="Ink_Canvas_MainWindow_BtnDrawLine_Click_System_Object_System_Windows_Input_MouseButtonEventArgs_"></a> BtnDrawLine\_Click\(object, MouseButtonEventArgs\)
+### <a id="Ink_Canvas_MainWindow_BtnDrawLine_Click_System_Object_MouseButtonEventArgs_"></a> BtnDrawLine\_Click\(object, MouseButtonEventArgs\)
 
 处理绘制直线按钮点击事件
 
@@ -1227,11 +505,11 @@ public void BtnDrawLine_Click(object sender, MouseButtonEventArgs e)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 事件发送者
 
-`e` [MouseButtonEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs)
+`e` MouseButtonEventArgs
 
 鼠标按钮事件参数
 
@@ -1244,7 +522,7 @@ public void BtnDrawLine_Click(object sender, MouseButtonEventArgs e)
 4. 如果是长按选中状态，处理相关逻辑
 5. 提示切换到画笔模式
 
-### <a id="Ink_Canvas_MainWindow_BtnResetToSuggestion_Click_System_Object_System_Windows_RoutedEventArgs_"></a> BtnResetToSuggestion\_Click\(object, RoutedEventArgs\)
+### <a id="Ink_Canvas_MainWindow_BtnResetToSuggestion_Click_System_Object_RoutedEventArgs_"></a> BtnResetToSuggestion\_Click\(object, RoutedEventArgs\)
 
 将应用设置重置为推荐的默认值，并保存与重新加载配置以应用更改。
 
@@ -1254,15 +532,15 @@ public void BtnResetToSuggestion_Click(object sender, RoutedEventArgs e)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
-`e` [RoutedEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs)
+`e` RoutedEventArgs
 
 #### Remarks
 
 如果配置重置受安全密码保护，则会提示用户输入密码；在验证失败时中止重置。方法会暂时停止加载标志以避免触发事件、将“开机启动”切换置为关闭，并在完成后显示一条通知。任何内部异常将被吞噬以保证流程不中断。
 
-### <a id="Ink_Canvas_MainWindow_BtnRestart_Click_System_Object_System_Windows_RoutedEventArgs_"></a> BtnRestart\_Click\(object, RoutedEventArgs\)
+### <a id="Ink_Canvas_MainWindow_BtnRestart_Click_System_Object_RoutedEventArgs_"></a> BtnRestart\_Click\(object, RoutedEventArgs\)
 
 重启按钮点击事件处理
 
@@ -1272,11 +550,11 @@ public void BtnRestart_Click(object sender, RoutedEventArgs e)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 发送者
 
-`e` [RoutedEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs)
+`e` RoutedEventArgs
 
 路由事件参数
 
@@ -1338,7 +616,7 @@ public void DisableEraserOverlay()
 public void EnableEraserOverlay()
 ```
 
-### <a id="Ink_Canvas_MainWindow_ExitApplication_System_Object_System_Windows_RoutedEventArgs_"></a> ExitApplication\(object, RoutedEventArgs\)
+### <a id="Ink_Canvas_MainWindow_ExitApplication_System_Object_RoutedEventArgs_"></a> ExitApplication\(object, RoutedEventArgs\)
 
 退出按钮点击事件处理
 
@@ -1348,11 +626,11 @@ public void ExitApplication(object sender, RoutedEventArgs e)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 发送者
 
-`e` [RoutedEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs)
+`e` RoutedEventArgs
 
 路由事件参数
 
@@ -1364,7 +642,7 @@ public Task ExitPPTPresentation()
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+ Task
 
 ### <a id="Ink_Canvas_MainWindow_ExitWhiteboard"></a> ExitWhiteboard\(\)
 
@@ -1380,27 +658,27 @@ public FrameworkElement FindView(string id)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 #### Returns
 
- [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+ FrameworkElement
 
 ### <a id="Ink_Canvas_MainWindow_FixPointsDirection_System_Windows_Point_System_Windows_Point_"></a> FixPointsDirection\(Point, Point\)
 
 ```csharp
-public Point[] FixPointsDirection(Point p1, Point p2)
+public System.Windows.Point[] FixPointsDirection(System.Windows.Point p1, System.Windows.Point p2)
 ```
 
 #### Parameters
 
-`p1` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+`p1` System.Windows.Point
 
-`p2` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+`p2` System.Windows.Point
 
 #### Returns
 
- [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)\[\]
+ System.Windows.Point\[\]
 
 ### <a id="Ink_Canvas_MainWindow_FoldFloatingBar_System_Object_System_Boolean_"></a> FoldFloatingBar\(object, bool\)
 
@@ -1412,17 +690,17 @@ public Task FoldFloatingBar(object sender, bool isAutoFoldCommand = false)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 事件发送者。
 
-`isAutoFoldCommand` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isAutoFoldCommand` bool
 
 是否为自动折叠命令。
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+ Task
 
 表示异步操作的任务。
 
@@ -1440,7 +718,7 @@ public Task FoldFloatingBar(object sender, bool isAutoFoldCommand = false)
 9. 执行浮动栏和侧边栏的动画
 10. 如果开启了彻底隐藏，则隐藏主窗口
 
-### <a id="Ink_Canvas_MainWindow_FoldFloatingBar_MouseUp_System_Object_System_Windows_Input_MouseButtonEventArgs_"></a> FoldFloatingBar\_MouseUp\(object, MouseButtonEventArgs\)
+### <a id="Ink_Canvas_MainWindow_FoldFloatingBar_MouseUp_System_Object_MouseButtonEventArgs_"></a> FoldFloatingBar\_MouseUp\(object, MouseButtonEventArgs\)
 
 处理折叠浮动栏的鼠标点击事件。
 
@@ -1450,15 +728,15 @@ public void FoldFloatingBar_MouseUp(object sender, MouseButtonEventArgs e)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 事件发送者。
 
-`e` [MouseButtonEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs)
+`e` MouseButtonEventArgs
 
 路由事件参数。
 
-### <a id="Ink_Canvas_MainWindow_GenerateFakePressureRectangle_System_Windows_Input_StylusPointCollection_"></a> GenerateFakePressureRectangle\(StylusPointCollection\)
+### <a id="Ink_Canvas_MainWindow_GenerateFakePressureRectangle_StylusPointCollection_"></a> GenerateFakePressureRectangle\(StylusPointCollection\)
 
 ```csharp
 public StylusPointCollection GenerateFakePressureRectangle(StylusPointCollection points)
@@ -1466,13 +744,13 @@ public StylusPointCollection GenerateFakePressureRectangle(StylusPointCollection
 
 #### Parameters
 
-`points` [StylusPointCollection](https://learn.microsoft.com/dotnet/api/system.windows.input.styluspointcollection)
+`points` StylusPointCollection
 
 #### Returns
 
- [StylusPointCollection](https://learn.microsoft.com/dotnet/api/system.windows.input.styluspointcollection)
+ StylusPointCollection
 
-### <a id="Ink_Canvas_MainWindow_GenerateFakePressureTriangle_System_Windows_Input_StylusPointCollection_"></a> GenerateFakePressureTriangle\(StylusPointCollection\)
+### <a id="Ink_Canvas_MainWindow_GenerateFakePressureTriangle_StylusPointCollection_"></a> GenerateFakePressureTriangle\(StylusPointCollection\)
 
 ```csharp
 public StylusPointCollection GenerateFakePressureTriangle(StylusPointCollection points)
@@ -1480,29 +758,29 @@ public StylusPointCollection GenerateFakePressureTriangle(StylusPointCollection 
 
 #### Parameters
 
-`points` [StylusPointCollection](https://learn.microsoft.com/dotnet/api/system.windows.input.styluspointcollection)
+`points` StylusPointCollection
 
 #### Returns
 
- [StylusPointCollection](https://learn.microsoft.com/dotnet/api/system.windows.input.styluspointcollection)
+ StylusPointCollection
 
 ### <a id="Ink_Canvas_MainWindow_GetCenterPoint_System_Windows_Point_System_Windows_Point_"></a> GetCenterPoint\(Point, Point\)
 
 ```csharp
-public Point GetCenterPoint(Point point1, Point point2)
+public System.Windows.Point GetCenterPoint(System.Windows.Point point1, System.Windows.Point point2)
 ```
 
 #### Parameters
 
-`point1` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+`point1` System.Windows.Point
 
-`point2` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+`point2` System.Windows.Point
 
 #### Returns
 
- [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+ System.Windows.Point
 
-### <a id="Ink_Canvas_MainWindow_GetCenterPoint_System_Windows_Input_StylusPoint_System_Windows_Input_StylusPoint_"></a> GetCenterPoint\(StylusPoint, StylusPoint\)
+### <a id="Ink_Canvas_MainWindow_GetCenterPoint_StylusPoint_StylusPoint_"></a> GetCenterPoint\(StylusPoint, StylusPoint\)
 
 ```csharp
 public StylusPoint GetCenterPoint(StylusPoint point1, StylusPoint point2)
@@ -1510,13 +788,13 @@ public StylusPoint GetCenterPoint(StylusPoint point1, StylusPoint point2)
 
 #### Parameters
 
-`point1` [StylusPoint](https://learn.microsoft.com/dotnet/api/system.windows.input.styluspoint)
+`point1` StylusPoint
 
-`point2` [StylusPoint](https://learn.microsoft.com/dotnet/api/system.windows.input.styluspoint)
+`point2` StylusPoint
 
 #### Returns
 
- [StylusPoint](https://learn.microsoft.com/dotnet/api/system.windows.input.styluspoint)
+ StylusPoint
 
 ### <a id="Ink_Canvas_MainWindow_GetCorrectIcon_System_String_System_Boolean_"></a> GetCorrectIcon\(string, bool\)
 
@@ -1526,13 +804,13 @@ public string GetCorrectIcon(string iconType, bool isSolid = false)
 
 #### Parameters
 
-`iconType` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`iconType` string
 
-`isSolid` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isSolid` bool
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_MainWindow_GetCurrentSelectedMode"></a> GetCurrentSelectedMode\(\)
 
@@ -1544,7 +822,7 @@ public string GetCurrentSelectedMode()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 当前选中的模式名称
 
@@ -1553,22 +831,22 @@ public string GetCurrentSelectedMode()
 计算两点之间的距离
 
 ```csharp
-public double GetDistance(Point point1, Point point2)
+public double GetDistance(System.Windows.Point point1, System.Windows.Point point2)
 ```
 
 #### Parameters
 
-`point1` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+`point1` System.Windows.Point
 
 第一个点
 
-`point2` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+`point2` System.Windows.Point
 
 第二个点
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 返回两点之间的距离
 
@@ -1587,33 +865,33 @@ public string GetEraserStatusInfo()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_MainWindow_GetPointSpeed_System_Windows_Point_System_Windows_Point_System_Windows_Point_"></a> GetPointSpeed\(Point, Point, Point\)
 
 计算点的速度
 
 ```csharp
-public double GetPointSpeed(Point point1, Point point2, Point point3)
+public double GetPointSpeed(System.Windows.Point point1, System.Windows.Point point2, System.Windows.Point point3)
 ```
 
 #### Parameters
 
-`point1` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+`point1` System.Windows.Point
 
 第一个点
 
-`point2` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+`point2` System.Windows.Point
 
 第二个点（当前点）
 
-`point3` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+`point3` System.Windows.Point
 
 第三个点
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 返回点的速度
 
@@ -1637,7 +915,7 @@ public PopupManagerHelper GetPopupManager()
 
  [PopupManagerHelper](Ink\_Canvas.Helpers.PopupManagerHelper.md)
 
-### <a id="Ink_Canvas_MainWindow_GetTouchBoundWidth_System_Windows_Input_TouchEventArgs_"></a> GetTouchBoundWidth\(TouchEventArgs\)
+### <a id="Ink_Canvas_MainWindow_GetTouchBoundWidth_TouchEventArgs_"></a> GetTouchBoundWidth\(TouchEventArgs\)
 
 获取触摸边界宽度方法
 
@@ -1647,13 +925,13 @@ public double GetTouchBoundWidth(TouchEventArgs e)
 
 #### Parameters
 
-`e` [TouchEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.input.toucheventargs)
+`e` TouchEventArgs
 
 触摸事件参数
 
 #### Returns
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 返回触摸边界宽度
 
@@ -1669,7 +947,7 @@ public void HandleUriCommand(string uri)
 
 #### Parameters
 
-`uri` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`uri` string
 
 ### <a id="Ink_Canvas_MainWindow_HideRealtimeInkFpsOverlay"></a> HideRealtimeInkFpsOverlay\(\)
 
@@ -1697,7 +975,7 @@ public void InitializePPTManagers()
 public void InsertImage()
 ```
 
-### <a id="Ink_Canvas_MainWindow_MoveWindow_System_IntPtr_System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_"></a> MoveWindow\(IntPtr, int, int, int, int, bool\)
+### <a id="Ink_Canvas_MainWindow_MoveWindow_IntPtr_System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_"></a> MoveWindow\(IntPtr, int, int, int, int, bool\)
 
 ```csharp
 public static extern bool MoveWindow(IntPtr hWnd, int X, int Y, int nWidth, int nHeight, bool bRepaint)
@@ -1705,25 +983,23 @@ public static extern bool MoveWindow(IntPtr hWnd, int X, int Y, int nWidth, int 
 
 #### Parameters
 
-`hWnd` [IntPtr](https://learn.microsoft.com/dotnet/api/system.intptr)
+`hWnd` IntPtr
 
-`X` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`X` int
 
-`Y` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`Y` int
 
-`nWidth` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nWidth` int
 
-`nHeight` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`nHeight` int
 
-`bRepaint` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`bRepaint` bool
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
-### <a id="Ink_Canvas_MainWindow_OnClosing_System_ComponentModel_CancelEventArgs_"></a> OnClosing\(CancelEventArgs\)
-
-Raises the <xref href="System.Windows.Window.Closing" data-throw-if-not-resolved="false"></xref> event.
+### <a id="Ink_Canvas_MainWindow_OnClosing_CancelEventArgs_"></a> OnClosing\(CancelEventArgs\)
 
 ```csharp
 protected override void OnClosing(CancelEventArgs e)
@@ -1731,13 +1007,9 @@ protected override void OnClosing(CancelEventArgs e)
 
 #### Parameters
 
-`e` [CancelEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs)
+`e` CancelEventArgs
 
-A <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
-
-### <a id="Ink_Canvas_MainWindow_OnMouseMove_System_Windows_Input_MouseEventArgs_"></a> OnMouseMove\(MouseEventArgs\)
-
-Invoked when an unhandled <xref href="System.Windows.Input.Mouse.MouseMove" data-throw-if-not-resolved="false"></xref> attached event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.
+### <a id="Ink_Canvas_MainWindow_OnMouseMove_MouseEventArgs_"></a> OnMouseMove\(MouseEventArgs\)
 
 ```csharp
 protected override void OnMouseMove(MouseEventArgs e)
@@ -1745,9 +1017,7 @@ protected override void OnMouseMove(MouseEventArgs e)
 
 #### Parameters
 
-`e` [MouseEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.input.mouseeventargs)
-
-The <xref href="System.Windows.Input.MouseEventArgs" data-throw-if-not-resolved="false"></xref> that contains the event data.
+`e` MouseEventArgs
 
 ### <a id="Ink_Canvas_MainWindow_OpenSingleStrokeFile_System_String_"></a> OpenSingleStrokeFile\(string\)
 
@@ -1759,7 +1029,7 @@ public void OpenSingleStrokeFile(string filePath)
 
 #### Parameters
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 墨迹文件的路径
 
@@ -1788,7 +1058,7 @@ public void OpenXMLStrokeFile(string filePath)
 
 #### Parameters
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 ### <a id="Ink_Canvas_MainWindow_PauseTopmostMaintenance"></a> PauseTopmostMaintenance\(\)
 
@@ -1814,7 +1084,7 @@ public void PureViewboxFloatingBarMarginAnimationInPPTMode(bool isRetry = false)
 
 #### Parameters
 
-`isRetry` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isRetry` bool
 
 是否为重试操作
 
@@ -1824,7 +1094,7 @@ public void PureViewboxFloatingBarMarginAnimationInPPTMode(bool isRetry = false)
 public void Redo()
 ```
 
-### <a id="Ink_Canvas_MainWindow_RegisterView_System_String_System_Windows_FrameworkElement_"></a> RegisterView\(string, FrameworkElement\)
+### <a id="Ink_Canvas_MainWindow_RegisterView_System_String_FrameworkElement_"></a> RegisterView\(string, FrameworkElement\)
 
 ```csharp
 public void RegisterView(string id, FrameworkElement view)
@@ -1832,9 +1102,9 @@ public void RegisterView(string id, FrameworkElement view)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
-`view` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+`view` FrameworkElement
 
 ### <a id="Ink_Canvas_MainWindow_ReloadSettingsFromFile"></a> ReloadSettingsFromFile\(\)
 
@@ -1908,11 +1178,11 @@ public void SaveInkCanvasStrokes(bool newNotice = true, bool saveByUser = false)
 
 #### Parameters
 
-`newNotice` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`newNotice` bool
 
 是否显示新的通知
 
-`saveByUser` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`saveByUser` bool
 
 是否是用户手动保存
 
@@ -1939,9 +1209,9 @@ public void SavePPTTimeCapsuleOffset(double offsetX, double offsetY)
 
 #### Parameters
 
-`offsetX` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`offsetX` double
 
-`offsetY` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`offsetY` double
 
 ### <a id="Ink_Canvas_MainWindow_SaveSettingsToFile"></a> SaveSettingsToFile\(\)
 
@@ -1955,7 +1225,7 @@ public static void SaveSettingsToFile()
 
 在写入前会确保目标目录/文件具有写入权限（使用 ProcessProtectionManager）。任何写入失败或异常都会被吞掉，调用方不会收到异常抛出。
 
-### <a id="Ink_Canvas_MainWindow_ScrollViewToVerticalTop_System_Windows_FrameworkElement_System_Windows_Controls_ScrollViewer_"></a> ScrollViewToVerticalTop\(FrameworkElement, ScrollViewer\)
+### <a id="Ink_Canvas_MainWindow_ScrollViewToVerticalTop_FrameworkElement_ScrollViewer_"></a> ScrollViewToVerticalTop\(FrameworkElement, ScrollViewer\)
 
 将指定元素在给定 ScrollViewer 中滚动，使该元素与可视区域的顶部对齐。
 
@@ -1965,11 +1235,11 @@ public static void ScrollViewToVerticalTop(FrameworkElement element, ScrollViewe
 
 #### Parameters
 
-`element` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+`element` FrameworkElement
 
 要对齐到顶部的元素。
 
-`scrollViewer` [ScrollViewer](https://learn.microsoft.com/dotnet/api/system.windows.controls.scrollviewer)
+`scrollViewer` ScrollViewer
 
 包含该元素的目标 ScrollViewer。
 
@@ -2018,14 +1288,14 @@ CustomPopupPlacementCallback 中的 targetSize 来自 PlacementTarget，
 把按钮自身作为 PlacementTarget，让菜单出现在按钮上方。
 
 ```csharp
-public void SetBoothPopupPlacementTarget(FrameworkElement target)
+public void SetBoothPopupPlacementTarget(System.Windows.FrameworkElement target)
 ```
 
 #### Parameters
 
-`target` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+`target` System.Windows.FrameworkElement
 
-### <a id="Ink_Canvas_MainWindow_SetCursorBasedOnEditingMode_System_Windows_Controls_InkCanvas_"></a> SetCursorBasedOnEditingMode\(InkCanvas\)
+### <a id="Ink_Canvas_MainWindow_SetCursorBasedOnEditingMode_InkCanvas_"></a> SetCursorBasedOnEditingMode\(InkCanvas\)
 
 ```csharp
 public void SetCursorBasedOnEditingMode(InkCanvas canvas)
@@ -2033,7 +1303,7 @@ public void SetCursorBasedOnEditingMode(InkCanvas canvas)
 
 #### Parameters
 
-`canvas` [InkCanvas](https://learn.microsoft.com/dotnet/api/system.windows.controls.inkcanvas)
+`canvas` InkCanvas
 
 ### <a id="Ink_Canvas_MainWindow_SetInterceptRule_Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptType_System_Boolean_"></a> SetInterceptRule\(InterceptType, bool\)
 
@@ -2045,7 +1315,7 @@ public void SetInterceptRule(FloatingWindowInterceptor.InterceptType type, bool 
 
 `type` [FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md).[InterceptType](Ink\_Canvas.Helpers.FloatingWindowInterceptor.InterceptType.md)
 
-`enabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`enabled` bool
 
 ### <a id="Ink_Canvas_MainWindow_SetSettingsToRecommendation"></a> SetSettingsToRecommendation\(\)
 
@@ -2070,7 +1340,7 @@ public void SetTopmostBasedOnSettings(bool shouldBeTopmost)
 
 #### Parameters
 
-`shouldBeTopmost` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`shouldBeTopmost` bool
 
 当前模式是否需要窗口置顶
 
@@ -2087,7 +1357,7 @@ public void SetWindowMode()
 如果该设置为 true，将窗口置为普通状态并调整到主屏幕的左上角(0,0)及主屏幕分辨率的宽高，使窗口覆盖整个主屏幕；
 否则将窗口设为最大化状态。
 
-### <a id="Ink_Canvas_MainWindow_ShouldHandleWindowChromeHitTest_System_Windows_Point_"></a> ShouldHandleWindowChromeHitTest\(Point\)
+### <a id="Ink_Canvas_MainWindow_ShouldHandleWindowChromeHitTest_Point_"></a> ShouldHandleWindowChromeHitTest\(Point\)
 
 ```csharp
 protected override bool ShouldHandleWindowChromeHitTest(Point windowPoint)
@@ -2095,11 +1365,11 @@ protected override bool ShouldHandleWindowChromeHitTest(Point windowPoint)
 
 #### Parameters
 
-`windowPoint` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+`windowPoint` Point
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MainWindow_ShowNewMessage_System_String_System_Boolean_"></a> ShowNewMessage\(string, bool\)
 
@@ -2109,9 +1379,9 @@ public static void ShowNewMessage(string notice, bool isShowImmediately = true)
 
 #### Parameters
 
-`notice` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`notice` string
 
-`isShowImmediately` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isShowImmediately` bool
 
 ### <a id="Ink_Canvas_MainWindow_ShowNotification_System_String_System_Boolean_"></a> ShowNotification\(string, bool\)
 
@@ -2121,9 +1391,9 @@ public void ShowNotification(string notice, bool isShowImmediately = true)
 
 #### Parameters
 
-`notice` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`notice` string
 
-`isShowImmediately` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isShowImmediately` bool
 
 ### <a id="Ink_Canvas_MainWindow_ShowPPTModePromptNotification"></a> ShowPPTModePromptNotification\(\)
 
@@ -2221,7 +1491,7 @@ public void StopPowerPointProcessMonitoring(bool isShutdown = false)
 
 #### Parameters
 
-`isShutdown` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isShutdown` bool
 
 ### <a id="Ink_Canvas_MainWindow_SwitchToBoardMode"></a> SwitchToBoardMode\(\)
 
@@ -2260,7 +1530,7 @@ public void ToggleEraserMode()
 public void ToggleEraserShape()
 ```
 
-### <a id="Ink_Canvas_MainWindow_ToggleFingerDragMode_System_Object_System_Windows_RoutedEventArgs_"></a> ToggleFingerDragMode\(object, RoutedEventArgs\)
+### <a id="Ink_Canvas_MainWindow_ToggleFingerDragMode_System_Object_RoutedEventArgs_"></a> ToggleFingerDragMode\(object, RoutedEventArgs\)
 
 手指拖动模式切换按钮点击事件处理
 
@@ -2270,11 +1540,11 @@ public void ToggleFingerDragMode(object sender, RoutedEventArgs e)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 发送者
 
-`e` [RoutedEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs)
+`e` RoutedEventArgs
 
 路由事件参数
 
@@ -2306,13 +1576,13 @@ public Task UnFoldFloatingBar(object sender)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 事件发送者。
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+ Task
 
 表示异步操作的任务。
 
@@ -2330,7 +1600,7 @@ public Task UnFoldFloatingBar(object sender)
 9. 执行侧边栏动画
 10. 等待UI完全更新后，重新设置当前选中模式的按钮高亮状态
 
-### <a id="Ink_Canvas_MainWindow_UnFoldFloatingBar_MouseUp_System_Object_System_Windows_Input_MouseButtonEventArgs_"></a> UnFoldFloatingBar\_MouseUp\(object, MouseButtonEventArgs\)
+### <a id="Ink_Canvas_MainWindow_UnFoldFloatingBar_MouseUp_System_Object_MouseButtonEventArgs_"></a> UnFoldFloatingBar\_MouseUp\(object, MouseButtonEventArgs\)
 
 处理展开浮动栏的鼠标点击事件。
 
@@ -2340,11 +1610,11 @@ public void UnFoldFloatingBar_MouseUp(object sender, MouseButtonEventArgs e)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
 事件发送者。
 
-`e` [MouseButtonEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs)
+`e` MouseButtonEventArgs
 
 路由事件参数。
 
@@ -2362,7 +1632,7 @@ public void UpdateAutoKillProcessTimer(bool shouldRun)
 
 #### Parameters
 
-`shouldRun` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`shouldRun` bool
 
 ### <a id="Ink_Canvas_MainWindow_UpdateAutoSaveStrokesTimer"></a> UpdateAutoSaveStrokesTimer\(\)
 
@@ -2432,9 +1702,9 @@ public void UpdateInkFadeManager(bool isEnabled, int fadeTime = 0)
 
 #### Parameters
 
-`isEnabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isEnabled` bool
 
-`fadeTime` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`fadeTime` int
 
 ### <a id="Ink_Canvas_MainWindow_UpdateInkSmoothingConfig"></a> UpdateInkSmoothingConfig\(\)
 
@@ -2506,15 +1776,15 @@ public void ViewboxFloatingBarMarginAnimation(int MarginFromEdge, bool PosXCacul
 
 #### Parameters
 
-`MarginFromEdge` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`MarginFromEdge` int
 
 边缘边距
 
-`PosXCaculatedWithTaskbarHeight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`PosXCaculatedWithTaskbarHeight` bool
 
 是否考虑任务栏高度计算位置
 
-`skipAnimation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`skipAnimation` bool
 
 是否跳过动画直接定位（用于启动时快速恢复位置）
 

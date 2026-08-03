@@ -81,7 +81,7 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
  [PluginErrorReport](Ink\_Canvas.Plugins.PluginErrorReport.md)
 
-错误报告——记录 <xref href="Ink_Canvas.Plugins.PluginErrorRecoveryService.ReportFailure(System.String%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref> 的处置结果。
+错误报告——记录 <xref href="Ink_Canvas.Plugins.PluginErrorRecoveryService.ReportFailure(System.String%2cSystem.String%2cException)" data-throw-if-not-resolved="false"></xref> 的处置结果。
 
  [PluginHandwritingResult](Ink\_Canvas.Plugins.PluginHandwritingResult.md)
 
@@ -141,7 +141,7 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
  [PluginReadmeRenderer](Ink\_Canvas.Plugins.PluginReadmeRenderer.md)
 
-轻量级 Markdown → <xref href="System.Windows.Documents.FlowDocument" data-throw-if-not-resolved="false"></xref> 渲染器。专为插件说明文档设计，
+轻量级 Markdown → FlowDocument 渲染器。专为插件说明文档设计，
 不引入任何第三方依赖，支持：标题、加粗、斜体、行内代码、代码块、列表、
 链接、引用、分隔线与简单表格。
 

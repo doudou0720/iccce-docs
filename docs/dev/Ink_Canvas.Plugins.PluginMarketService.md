@@ -11,22 +11,8 @@ public class PluginMarketService : INotifyPropertyChanged
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+INotifyPropertyChanged ← 
 [PluginMarketService](Ink\_Canvas.Plugins.PluginMarketService.md)
-
-#### Implements
-
-[INotifyPropertyChanged](https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -52,7 +38,7 @@ public IReadOnlyDictionary<string, string> AvailableMirrors { get; }
 
 #### Property Value
 
- [IReadOnlyDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ IReadOnlyDictionary<string, string\>
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_DownloadTasks"></a> DownloadTasks
 
@@ -64,7 +50,7 @@ public IReadOnlyDictionary<string, DownloadTaskInfo> DownloadTasks { get; }
 
 #### Property Value
 
- [IReadOnlyDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [DownloadTaskInfo](Ink\_Canvas.Plugins.DownloadTaskInfo.md)\>
+ IReadOnlyDictionary<string, [DownloadTaskInfo](Ink\_Canvas.Plugins.DownloadTaskInfo.md)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_Instance"></a> Instance
 
@@ -84,7 +70,7 @@ public bool IsLoading { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_LoadError"></a> LoadError
 
@@ -94,7 +80,7 @@ public string LoadError { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_LoadProgress"></a> LoadProgress
 
@@ -104,7 +90,7 @@ public double LoadProgress { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_MergedPlugins"></a> MergedPlugins
 
@@ -114,7 +100,7 @@ public List<MergedPluginInfo> MergedPlugins { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[MergedPluginInfo](Ink\_Canvas.Plugins.MergedPluginInfo.md)\>
+ List<[MergedPluginInfo](Ink\_Canvas.Plugins.MergedPluginInfo.md)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_Sources"></a> Sources
 
@@ -140,7 +126,7 @@ public void CancelDownload(string id)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_GetCachedIconPathAsync_System_String_System_String_"></a> GetCachedIconPathAsync\(string, string\)
 
@@ -152,13 +138,13 @@ public Task<string> GetCachedIconPathAsync(string iconUrl, string pluginId)
 
 #### Parameters
 
-`iconUrl` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`iconUrl` string
 
-`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`pluginId` string
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ Task<string\>
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_GetLastRefreshTime"></a> GetLastRefreshTime\(\)
 
@@ -170,7 +156,7 @@ public DateTime? GetLastRefreshTime()
 
 #### Returns
 
- [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)?
+ DateTime?
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_LoadFromCache"></a> LoadFromCache\(\)
 
@@ -188,7 +174,7 @@ protected void OnPropertyChanged(string propertyName = null)
 
 #### Parameters
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_RefreshIndexAsync"></a> RefreshIndexAsync\(\)
 
@@ -200,7 +186,7 @@ public Task RefreshIndexAsync()
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+ Task
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_RefreshMergedPlugins"></a> RefreshMergedPlugins\(\)
 
@@ -218,11 +204,11 @@ public Task<bool> RequestDownloadPluginAsync(string id)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+ Task<bool\>
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_ResolveDependencies_System_String_"></a> ResolveDependencies\(string\)
 
@@ -234,11 +220,11 @@ public List<string> ResolveDependencies(string id)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 #### Returns
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_ResolveMarketPlugin_System_String_"></a> ResolveMarketPlugin\(string\)
 
@@ -250,7 +236,7 @@ public PluginMarketEntry ResolveMarketPlugin(string id)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 #### Returns
 
@@ -266,11 +252,11 @@ public Task SelectMirrorAsync(string mirrorKey)
 
 #### Parameters
 
-`mirrorKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`mirrorKey` string
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+ Task
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_SwitchSourceAsync_System_String_"></a> SwitchSourceAsync\(string\)
 
@@ -282,15 +268,13 @@ public Task SwitchSourceAsync(string sourceId)
 
 #### Parameters
 
-`sourceId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`sourceId` string
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+ Task
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketService_PropertyChanged"></a> PropertyChanged
-
-Occurs when a property value changes.
 
 ```csharp
 public event PropertyChangedEventHandler PropertyChanged
@@ -298,5 +282,5 @@ public event PropertyChangedEventHandler PropertyChanged
 
 #### Event Type
 
- [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
+ PropertyChangedEventHandler
 

@@ -11,20 +11,8 @@ public class InkSmoothingEventArgs : EventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+EventArgs ← 
 [InkSmoothingEventArgs](Ink\_Canvas.Helpers.InkSmoothingEventArgs.md)
-
-#### Inherited Members
-
-[EventArgs.Empty](https://learn.microsoft.com/dotnet/api/system.eventargs.empty), 
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -36,7 +24,7 @@ public Stroke OriginalStroke { get; set; }
 
 #### Property Value
 
- [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
+ Stroke
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingEventArgs_ProcessingTime"></a> ProcessingTime
 
@@ -46,7 +34,7 @@ public TimeSpan ProcessingTime { get; set; }
 
 #### Property Value
 
- [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)
+ TimeSpan
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingEventArgs_SmoothedStroke"></a> SmoothedStroke
 
@@ -56,7 +44,7 @@ public Stroke SmoothedStroke { get; set; }
 
 #### Property Value
 
- [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
+ Stroke
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingEventArgs_UsedHardwareAcceleration"></a> UsedHardwareAcceleration
 
@@ -66,7 +54,7 @@ public bool UsedHardwareAcceleration { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingEventArgs_WasAsync"></a> WasAsync
 
@@ -76,5 +64,5 @@ public bool WasAsync { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

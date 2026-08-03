@@ -13,30 +13,20 @@ public static class IsForegroundWhiteboardRule
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IsForegroundWhiteboardRule](Ink\_Canvas.WorkflowAutomation.Rules.IsForegroundWhiteboardRule.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Rules_IsForegroundWhiteboardRule_RuleId"></a> RuleId
 
 ```csharp
-public const string RuleId = "inkcanvas.isforegroundwhiteboard"
+public const string RuleId
 ```
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -48,11 +38,11 @@ public static bool Evaluate(object settings)
 
 #### Parameters
 
-`settings` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`settings` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Rules_IsForegroundWhiteboardRule_Register"></a> Register\(\)
 

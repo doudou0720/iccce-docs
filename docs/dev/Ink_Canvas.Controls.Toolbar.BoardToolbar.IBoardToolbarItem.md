@@ -27,7 +27,7 @@ string Description { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarItem_DisplayName"></a> DisplayName
 
@@ -37,7 +37,7 @@ string DisplayName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarItem_IconGeometry"></a> IconGeometry
 
@@ -47,7 +47,7 @@ string IconGeometry { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarItem_IconKey"></a> IconKey
 
@@ -57,7 +57,7 @@ FontIconData? IconKey { get; }
 
 #### Property Value
 
- [FontIconData](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Common/IconKeys/FontDictionary.cs)?
+ FontIconData?
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarItem_Id"></a> Id
 
@@ -67,11 +67,11 @@ string Id { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
-### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarItem_ApplyPosition_System_Windows_FrameworkElement_Ink_Canvas_Controls_ButtonPosition_"></a> ApplyPosition\(FrameworkElement, ButtonPosition\)
+### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarItem_ApplyPosition_FrameworkElement_Ink_Canvas_Controls_ButtonPosition_"></a> ApplyPosition\(FrameworkElement, ButtonPosition\)
 
 ```csharp
 void ApplyPosition(FrameworkElement view, ButtonPosition position)
@@ -79,7 +79,7 @@ void ApplyPosition(FrameworkElement view, ButtonPosition position)
 
 #### Parameters
 
-`view` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+`view` FrameworkElement
 
 `position` ButtonPosition
 
@@ -95,5 +95,5 @@ FrameworkElement BuildView(IBoardToolbarHost host)
 
 #### Returns
 
- [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+ FrameworkElement
 

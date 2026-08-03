@@ -9,18 +9,8 @@ public static class MainWindowStrings
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MainWindowStrings](Ink\_Canvas.Properties.MainWindowStrings.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -32,7 +22,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
+ CultureInfo
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_App_RestartLoopDetected"></a> Main\_App\_RestartLoopDetected
 
@@ -42,7 +32,7 @@ public static string Main_App_RestartLoopDetected { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_App_UnexpectedError"></a> Main\_App\_UnexpectedError
 
@@ -52,7 +42,7 @@ public static string Main_App_UnexpectedError { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_AutoFold_ClearingAndFolding"></a> Main\_AutoFold\_ClearingAndFolding
 
@@ -62,7 +52,7 @@ public static string Main_AutoFold_ClearingAndFolding { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Board_CustomBgApplied"></a> Main\_Board\_CustomBgApplied
 
@@ -72,7 +62,7 @@ public static string Main_Board_CustomBgApplied { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Board_FrozenCannotDelete"></a> Main\_Board\_FrozenCannotDelete
 
@@ -82,7 +72,7 @@ public static string Main_Board_FrozenCannotDelete { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Clipboard_CannotGetImage"></a> Main\_Clipboard\_CannotGetImage
 
@@ -92,7 +82,7 @@ public static string Main_Clipboard_CannotGetImage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Clipboard_ImageDetected"></a> Main\_Clipboard\_ImageDetected
 
@@ -102,7 +92,7 @@ public static string Main_Clipboard_ImageDetected { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Clipboard_ImagePasted"></a> Main\_Clipboard\_ImagePasted
 
@@ -112,7 +102,7 @@ public static string Main_Clipboard_ImagePasted { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Clipboard_NoImage"></a> Main\_Clipboard\_NoImage
 
@@ -122,7 +112,7 @@ public static string Main_Clipboard_NoImage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Clipboard_PasteFailed"></a> Main\_Clipboard\_PasteFailed
 
@@ -132,7 +122,7 @@ public static string Main_Clipboard_PasteFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Clipboard_PasteImage"></a> Main\_Clipboard\_PasteImage
 
@@ -142,7 +132,7 @@ public static string Main_Clipboard_PasteImage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_CloseConfirm_Level1"></a> Main\_CloseConfirm\_Level1
 
@@ -152,7 +142,7 @@ public static string Main_CloseConfirm_Level1 { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_CloseConfirm_Level2"></a> Main\_CloseConfirm\_Level2
 
@@ -162,7 +152,7 @@ public static string Main_CloseConfirm_Level2 { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_CloseConfirm_Level3"></a> Main\_CloseConfirm\_Level3
 
@@ -172,7 +162,7 @@ public static string Main_CloseConfirm_Level3 { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Colors_DarkTheme"></a> Main\_Colors\_DarkTheme
 
@@ -182,7 +172,7 @@ public static string Main_Colors_DarkTheme { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Colors_LightTheme"></a> Main\_Colors\_LightTheme
 
@@ -192,7 +182,7 @@ public static string Main_Colors_LightTheme { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ContextBrushSize"></a> Main\_ContextBrushSize
 
@@ -202,7 +192,7 @@ public static string Main_ContextBrushSize { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ContextClone"></a> Main\_ContextClone
 
@@ -212,7 +202,7 @@ public static string Main_ContextClone { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ContextCloneToNewPage"></a> Main\_ContextCloneToNewPage
 
@@ -222,7 +212,7 @@ public static string Main_ContextCloneToNewPage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ContextDelete"></a> Main\_ContextDelete
 
@@ -232,7 +222,7 @@ public static string Main_ContextDelete { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ContextFlip"></a> Main\_ContextFlip
 
@@ -242,7 +232,7 @@ public static string Main_ContextFlip { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ContextInsertToWhiteboard"></a> Main\_ContextInsertToWhiteboard
 
@@ -252,7 +242,7 @@ public static string Main_ContextInsertToWhiteboard { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ContextPageTurn"></a> Main\_ContextPageTurn
 
@@ -262,7 +252,7 @@ public static string Main_ContextPageTurn { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ContextZoom"></a> Main\_ContextZoom
 
@@ -272,7 +262,7 @@ public static string Main_ContextZoom { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_DPIChanged"></a> Main\_DPIChanged
 
@@ -282,7 +272,7 @@ public static string Main_DPIChanged { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_DisplayChanged"></a> Main\_DisplayChanged
 
@@ -292,7 +282,7 @@ public static string Main_DisplayChanged { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_EnterSettings"></a> Main\_EnterSettings
 
@@ -302,7 +292,7 @@ public static string Main_EnterSettings { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_EnterSettings_Message"></a> Main\_EnterSettings\_Message
 
@@ -312,7 +302,7 @@ public static string Main_EnterSettings_Message { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ExitVerify"></a> Main\_ExitVerify
 
@@ -322,7 +312,7 @@ public static string Main_ExitVerify { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ExitVerifyPasswordOnly"></a> Main\_ExitVerifyPasswordOnly
 
@@ -332,7 +322,7 @@ public static string Main_ExitVerifyPasswordOnly { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ExitVerifyWithTotp"></a> Main\_ExitVerifyWithTotp
 
@@ -342,7 +332,7 @@ public static string Main_ExitVerifyWithTotp { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_FileInsert_OpenDialogFilter"></a> Main\_FileInsert\_OpenDialogFilter
 
@@ -352,7 +342,7 @@ public static string Main_FileInsert_OpenDialogFilter { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_AnnotationPageFrozen"></a> Main\_Freeze\_AnnotationPageFrozen
 
@@ -362,7 +352,7 @@ public static string Main_Freeze_AnnotationPageFrozen { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_AutoFreezeIn3Min"></a> Main\_Freeze\_AutoFreezeIn3Min
 
@@ -372,7 +362,7 @@ public static string Main_Freeze_AutoFreezeIn3Min { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_CancelByOperation"></a> Main\_Freeze\_CancelByOperation
 
@@ -382,7 +372,7 @@ public static string Main_Freeze_CancelByOperation { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_CancelCountdown"></a> Main\_Freeze\_CancelCountdown
 
@@ -392,7 +382,7 @@ public static string Main_Freeze_CancelCountdown { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_FrozenNoAction"></a> Main\_Freeze\_FrozenNoAction
 
@@ -402,7 +392,7 @@ public static string Main_Freeze_FrozenNoAction { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_FrozenNoEdit"></a> Main\_Freeze\_FrozenNoEdit
 
@@ -412,7 +402,7 @@ public static string Main_Freeze_FrozenNoEdit { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_PageFrozen"></a> Main\_Freeze\_PageFrozen
 
@@ -422,7 +412,7 @@ public static string Main_Freeze_PageFrozen { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_PageUnfrozen"></a> Main\_Freeze\_PageUnfrozen
 
@@ -432,7 +422,7 @@ public static string Main_Freeze_PageUnfrozen { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_Recorded"></a> Main\_Freeze\_Recorded
 
@@ -442,7 +432,7 @@ public static string Main_Freeze_Recorded { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_RecordedWhiteboard"></a> Main\_Freeze\_RecordedWhiteboard
 
@@ -452,7 +442,7 @@ public static string Main_Freeze_RecordedWhiteboard { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_VerifyFailed"></a> Main\_Freeze\_VerifyFailed
 
@@ -462,7 +452,7 @@ public static string Main_Freeze_VerifyFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_VerifyMessage"></a> Main\_Freeze\_VerifyMessage
 
@@ -472,7 +462,7 @@ public static string Main_Freeze_VerifyMessage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_VerifyTitle"></a> Main\_Freeze\_VerifyTitle
 
@@ -482,7 +472,7 @@ public static string Main_Freeze_VerifyTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_WhiteboardPageFrozen"></a> Main\_Freeze\_WhiteboardPageFrozen
 
@@ -492,7 +482,7 @@ public static string Main_Freeze_WhiteboardPageFrozen { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Freeze_WhiteboardPageUnfrozen"></a> Main\_Freeze\_WhiteboardPageUnfrozen
 
@@ -502,7 +492,7 @@ public static string Main_Freeze_WhiteboardPageUnfrozen { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Hitokoto_HttpUnavailable"></a> Main\_Hitokoto\_HttpUnavailable
 
@@ -512,7 +502,7 @@ public static string Main_Hitokoto_HttpUnavailable { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Hitokoto_Loading"></a> Main\_Hitokoto\_Loading
 
@@ -522,7 +512,7 @@ public static string Main_Hitokoto_Loading { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Hitokoto_NoContent"></a> Main\_Hitokoto\_NoContent
 
@@ -532,7 +522,7 @@ public static string Main_Hitokoto_NoContent { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Hitokoto_Unavailable"></a> Main\_Hitokoto\_Unavailable
 
@@ -542,7 +532,7 @@ public static string Main_Hitokoto_Unavailable { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ImageInsert_ConvertFailed"></a> Main\_ImageInsert\_ConvertFailed
 
@@ -552,7 +542,7 @@ public static string Main_ImageInsert_ConvertFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ImageInsert_FullScreenFailed"></a> Main\_ImageInsert\_FullScreenFailed
 
@@ -562,7 +552,7 @@ public static string Main_ImageInsert_FullScreenFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ImageInsert_InsertFailed"></a> Main\_ImageInsert\_InsertFailed
 
@@ -572,7 +562,7 @@ public static string Main_ImageInsert_InsertFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ImageInsert_Inserted"></a> Main\_ImageInsert\_Inserted
 
@@ -582,7 +572,7 @@ public static string Main_ImageInsert_Inserted { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ImageInsert_InvalidScreenshot"></a> Main\_ImageInsert\_InvalidScreenshot
 
@@ -592,7 +582,7 @@ public static string Main_ImageInsert_InvalidScreenshot { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ImageInsert_ScreenshotCancelled"></a> Main\_ImageInsert\_ScreenshotCancelled
 
@@ -602,7 +592,7 @@ public static string Main_ImageInsert_ScreenshotCancelled { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_ImageInsert_ScreenshotFailed"></a> Main\_ImageInsert\_ScreenshotFailed
 
@@ -612,7 +602,7 @@ public static string Main_ImageInsert_ScreenshotFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_InkReplayExitHint"></a> Main\_InkReplayExitHint
 
@@ -622,7 +612,7 @@ public static string Main_InkReplayExitHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_InkReplayPlaying"></a> Main\_InkReplayPlaying
 
@@ -632,7 +622,7 @@ public static string Main_InkReplayPlaying { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_InkReplay_Paused"></a> Main\_InkReplay\_Paused
 
@@ -642,7 +632,7 @@ public static string Main_InkReplay_Paused { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_MediaInsert_InsertFailed"></a> Main\_MediaInsert\_InsertFailed
 
@@ -652,7 +642,7 @@ public static string Main_MediaInsert_InsertFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_MediaInsert_OpenDialogFilter"></a> Main\_MediaInsert\_OpenDialogFilter
 
@@ -662,7 +652,7 @@ public static string Main_MediaInsert_OpenDialogFilter { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_MediaInsert_UnsupportedFormat"></a> Main\_MediaInsert\_UnsupportedFormat
 
@@ -672,7 +662,7 @@ public static string Main_MediaInsert_UnsupportedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_PDF_InsertFailed"></a> Main\_PDF\_InsertFailed
 
@@ -682,7 +672,7 @@ public static string Main_PDF_InsertFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Privacy_FileNotFound"></a> Main\_Privacy\_FileNotFound
 
@@ -692,7 +682,7 @@ public static string Main_Privacy_FileNotFound { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Privacy_ReadError"></a> Main\_Privacy\_ReadError
 
@@ -702,7 +692,7 @@ public static string Main_Privacy_ReadError { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_RollCall_CannotCallExternal"></a> Main\_RollCall\_CannotCallExternal
 
@@ -712,7 +702,7 @@ public static string Main_RollCall_CannotCallExternal { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_AddToWhiteboard"></a> Main\_Screenshot\_AddToWhiteboard
 
@@ -722,7 +712,7 @@ public static string Main_Screenshot_AddToWhiteboard { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_CameraCaptureFailed"></a> Main\_Screenshot\_CameraCaptureFailed
 
@@ -732,7 +722,7 @@ public static string Main_Screenshot_CameraCaptureFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_CameraCaptureMode"></a> Main\_Screenshot\_CameraCaptureMode
 
@@ -742,7 +732,7 @@ public static string Main_Screenshot_CameraCaptureMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_CameraConnected"></a> Main\_Screenshot\_CameraConnected
 
@@ -752,7 +742,7 @@ public static string Main_Screenshot_CameraConnected { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_CameraError"></a> Main\_Screenshot\_CameraError
 
@@ -762,7 +752,7 @@ public static string Main_Screenshot_CameraError { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_CameraFrameFailed"></a> Main\_Screenshot\_CameraFrameFailed
 
@@ -772,7 +762,7 @@ public static string Main_Screenshot_CameraFrameFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_CameraMode"></a> Main\_Screenshot\_CameraMode
 
@@ -782,7 +772,7 @@ public static string Main_Screenshot_CameraMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_CameraNotConnected"></a> Main\_Screenshot\_CameraNotConnected
 
@@ -792,7 +782,7 @@ public static string Main_Screenshot_CameraNotConnected { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_CameraNotStarted"></a> Main\_Screenshot\_CameraNotStarted
 
@@ -802,7 +792,7 @@ public static string Main_Screenshot_CameraNotStarted { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_CameraStartFailed"></a> Main\_Screenshot\_CameraStartFailed
 
@@ -812,7 +802,7 @@ public static string Main_Screenshot_CameraStartFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_Cancelled"></a> Main\_Screenshot\_Cancelled
 
@@ -822,7 +812,7 @@ public static string Main_Screenshot_Cancelled { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_ConfirmCapture"></a> Main\_Screenshot\_ConfirmCapture
 
@@ -832,7 +822,7 @@ public static string Main_Screenshot_ConfirmCapture { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_ConvertFailed"></a> Main\_Screenshot\_ConvertFailed
 
@@ -842,7 +832,7 @@ public static string Main_Screenshot_ConvertFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_DefaultHint"></a> Main\_Screenshot\_DefaultHint
 
@@ -852,7 +842,7 @@ public static string Main_Screenshot_DefaultHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_DragToAdjust"></a> Main\_Screenshot\_DragToAdjust
 
@@ -862,7 +852,7 @@ public static string Main_Screenshot_DragToAdjust { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_DragToSelect"></a> Main\_Screenshot\_DragToSelect
 
@@ -872,7 +862,7 @@ public static string Main_Screenshot_DragToSelect { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_DragToSelectArea"></a> Main\_Screenshot\_DragToSelectArea
 
@@ -882,7 +872,7 @@ public static string Main_Screenshot_DragToSelectArea { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_DrawFirst"></a> Main\_Screenshot\_DrawFirst
 
@@ -892,7 +882,7 @@ public static string Main_Screenshot_DrawFirst { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_Failed"></a> Main\_Screenshot\_Failed
 
@@ -902,7 +892,7 @@ public static string Main_Screenshot_Failed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_FailedWithError"></a> Main\_Screenshot\_FailedWithError
 
@@ -912,7 +902,7 @@ public static string Main_Screenshot_FailedWithError { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_FreeDrawHint"></a> Main\_Screenshot\_FreeDrawHint
 
@@ -922,7 +912,7 @@ public static string Main_Screenshot_FreeDrawHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_FreeSelectDone"></a> Main\_Screenshot\_FreeSelectDone
 
@@ -932,7 +922,7 @@ public static string Main_Screenshot_FreeSelectDone { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_FreeSelectTooSmall"></a> Main\_Screenshot\_FreeSelectTooSmall
 
@@ -942,7 +932,7 @@ public static string Main_Screenshot_FreeSelectTooSmall { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_FreehandMode"></a> Main\_Screenshot\_FreehandMode
 
@@ -952,7 +942,7 @@ public static string Main_Screenshot_FreehandMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_FullScreenMode"></a> Main\_Screenshot\_FullScreenMode
 
@@ -962,7 +952,7 @@ public static string Main_Screenshot_FullScreenMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_FullScreenSelected"></a> Main\_Screenshot\_FullScreenSelected
 
@@ -972,7 +962,7 @@ public static string Main_Screenshot_FullScreenSelected { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_IncludeInk"></a> Main\_Screenshot\_IncludeInk
 
@@ -982,7 +972,7 @@ public static string Main_Screenshot_IncludeInk { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_NoCamera"></a> Main\_Screenshot\_NoCamera
 
@@ -992,7 +982,7 @@ public static string Main_Screenshot_NoCamera { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_NoInkPreview"></a> Main\_Screenshot\_NoInkPreview
 
@@ -1002,7 +992,7 @@ public static string Main_Screenshot_NoInkPreview { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_NoValidArea"></a> Main\_Screenshot\_NoValidArea
 
@@ -1012,7 +1002,7 @@ public static string Main_Screenshot_NoValidArea { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_RectangleMode"></a> Main\_Screenshot\_RectangleMode
 
@@ -1022,7 +1012,7 @@ public static string Main_Screenshot_RectangleMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_Resolution"></a> Main\_Screenshot\_Resolution
 
@@ -1032,7 +1022,7 @@ public static string Main_Screenshot_Resolution { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_Rotation"></a> Main\_Screenshot\_Rotation
 
@@ -1042,7 +1032,7 @@ public static string Main_Screenshot_Rotation { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_SaveSuccess"></a> Main\_Screenshot\_SaveSuccess
 
@@ -1052,7 +1042,7 @@ public static string Main_Screenshot_SaveSuccess { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_SelectFirst"></a> Main\_Screenshot\_SelectFirst
 
@@ -1062,7 +1052,7 @@ public static string Main_Screenshot_SelectFirst { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_SwitchCamera"></a> Main\_Screenshot\_SwitchCamera
 
@@ -1072,7 +1062,7 @@ public static string Main_Screenshot_SwitchCamera { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Screenshot_WindowTitle"></a> Main\_Screenshot\_WindowTitle
 
@@ -1082,7 +1072,7 @@ public static string Main_Screenshot_WindowTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_ChangePasswordHint"></a> Main\_Security\_ChangePasswordHint
 
@@ -1092,7 +1082,7 @@ public static string Main_Security_ChangePasswordHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_ChangePasswordTitle"></a> Main\_Security\_ChangePasswordTitle
 
@@ -1102,7 +1092,7 @@ public static string Main_Security_ChangePasswordTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_ConfirmNewPasswordLabel"></a> Main\_Security\_ConfirmNewPasswordLabel
 
@@ -1112,7 +1102,7 @@ public static string Main_Security_ConfirmNewPasswordLabel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_CurrentPasswordLabel"></a> Main\_Security\_CurrentPasswordLabel
 
@@ -1122,7 +1112,7 @@ public static string Main_Security_CurrentPasswordLabel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_CurrentPasswordWrong"></a> Main\_Security\_CurrentPasswordWrong
 
@@ -1132,7 +1122,7 @@ public static string Main_Security_CurrentPasswordWrong { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_EnterNewPassword"></a> Main\_Security\_EnterNewPassword
 
@@ -1142,7 +1132,7 @@ public static string Main_Security_EnterNewPassword { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_NewPasswordLabel"></a> Main\_Security\_NewPasswordLabel
 
@@ -1152,7 +1142,7 @@ public static string Main_Security_NewPasswordLabel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_NewPasswordMismatch"></a> Main\_Security\_NewPasswordMismatch
 
@@ -1162,7 +1152,7 @@ public static string Main_Security_NewPasswordMismatch { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_NewPasswordTooShort"></a> Main\_Security\_NewPasswordTooShort
 
@@ -1172,7 +1162,7 @@ public static string Main_Security_NewPasswordTooShort { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_PasswordMismatch"></a> Main\_Security\_PasswordMismatch
 
@@ -1182,7 +1172,7 @@ public static string Main_Security_PasswordMismatch { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_PasswordOnlyHint"></a> Main\_Security\_PasswordOnlyHint
 
@@ -1192,7 +1182,7 @@ public static string Main_Security_PasswordOnlyHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_PasswordOrTotpHint"></a> Main\_Security\_PasswordOrTotpHint
 
@@ -1202,7 +1192,7 @@ public static string Main_Security_PasswordOrTotpHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_PasswordTooShort"></a> Main\_Security\_PasswordTooShort
 
@@ -1212,7 +1202,7 @@ public static string Main_Security_PasswordTooShort { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_SetPasswordTitle"></a> Main\_Security\_SetPasswordTitle
 
@@ -1222,7 +1212,7 @@ public static string Main_Security_SetPasswordTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_Tip"></a> Main\_Security\_Tip
 
@@ -1232,7 +1222,7 @@ public static string Main_Security_Tip { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Security_TotpOnlyHint"></a> Main\_Security\_TotpOnlyHint
 
@@ -1242,7 +1232,7 @@ public static string Main_Security_TotpOnlyHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Settings_ResetDone"></a> Main\_Settings\_ResetDone
 
@@ -1252,7 +1242,7 @@ public static string Main_Settings_ResetDone { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Settings_ResetVerify"></a> Main\_Settings\_ResetVerify
 
@@ -1262,7 +1252,7 @@ public static string Main_Settings_ResetVerify { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Settings_ResetVerifyMessage"></a> Main\_Settings\_ResetVerifyMessage
 
@@ -1272,7 +1262,7 @@ public static string Main_Settings_ResetVerifyMessage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_StrokesFileLoaded"></a> Main\_StrokesFileLoaded
 
@@ -1282,7 +1272,7 @@ public static string Main_StrokesFileLoaded { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_StrokesFileOpenFailed"></a> Main\_StrokesFileOpenFailed
 
@@ -1292,7 +1282,7 @@ public static string Main_StrokesFileOpenFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_ModeMismatch"></a> Main\_Strokes\_ModeMismatch
 
@@ -1302,7 +1292,7 @@ public static string Main_Strokes_ModeMismatch { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_OpenFailed"></a> Main\_Strokes\_OpenFailed
 
@@ -1312,7 +1302,7 @@ public static string Main_Strokes_OpenFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_OpenFileDialogFilter"></a> Main\_Strokes\_OpenFileDialogFilter
 
@@ -1322,7 +1312,7 @@ public static string Main_Strokes_OpenFileDialogFilter { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_OpenFileDialogTitle"></a> Main\_Strokes\_OpenFileDialogTitle
 
@@ -1332,7 +1322,7 @@ public static string Main_Strokes_OpenFileDialogTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_OpenIccSuccess"></a> Main\_Strokes\_OpenIccSuccess
 
@@ -1342,7 +1332,7 @@ public static string Main_Strokes_OpenIccSuccess { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_SaveFailed"></a> Main\_Strokes\_SaveFailed
 
@@ -1352,7 +1342,7 @@ public static string Main_Strokes_SaveFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_SaveFullPageSuccess"></a> Main\_Strokes\_SaveFullPageSuccess
 
@@ -1362,7 +1352,7 @@ public static string Main_Strokes_SaveFullPageSuccess { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_SaveMultiPageIcstkSuccess"></a> Main\_Strokes\_SaveMultiPageIcstkSuccess
 
@@ -1372,7 +1362,7 @@ public static string Main_Strokes_SaveMultiPageIcstkSuccess { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_SaveMultiPageXmlSuccess"></a> Main\_Strokes\_SaveMultiPageXmlSuccess
 
@@ -1382,7 +1372,7 @@ public static string Main_Strokes_SaveMultiPageXmlSuccess { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_SaveMultiPageXmlZipSuccess"></a> Main\_Strokes\_SaveMultiPageXmlZipSuccess
 
@@ -1392,7 +1382,7 @@ public static string Main_Strokes_SaveMultiPageXmlZipSuccess { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_SaveMultiPageZipSuccess"></a> Main\_Strokes\_SaveMultiPageZipSuccess
 
@@ -1402,7 +1392,7 @@ public static string Main_Strokes_SaveMultiPageZipSuccess { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_SaveSuccess"></a> Main\_Strokes\_SaveSuccess
 
@@ -1412,7 +1402,7 @@ public static string Main_Strokes_SaveSuccess { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_SaveXmlSuccess"></a> Main\_Strokes\_SaveXmlSuccess
 
@@ -1422,7 +1412,7 @@ public static string Main_Strokes_SaveXmlSuccess { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Timer_AutoClosedInkeys"></a> Main\_Timer\_AutoClosedInkeys
 
@@ -1432,7 +1422,7 @@ public static string Main_Timer_AutoClosedInkeys { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Timer_AutoClosedSeewoDesktop"></a> Main\_Timer\_AutoClosedSeewoDesktop
 
@@ -1442,7 +1432,7 @@ public static string Main_Timer_AutoClosedSeewoDesktop { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Timer_AutoClosedYouJiao"></a> Main\_Timer\_AutoClosedYouJiao
 
@@ -1452,7 +1442,7 @@ public static string Main_Timer_AutoClosedYouJiao { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Tray_DisableHotkeys"></a> Main\_Tray\_DisableHotkeys
 
@@ -1462,7 +1452,7 @@ public static string Main_Tray_DisableHotkeys { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Tray_EnableHotkeys"></a> Main\_Tray\_EnableHotkeys
 
@@ -1472,7 +1462,7 @@ public static string Main_Tray_EnableHotkeys { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Tray_EnterFoldMode"></a> Main\_Tray\_EnterFoldMode
 
@@ -1482,7 +1472,7 @@ public static string Main_Tray_EnterFoldMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Tray_ExitFoldMode"></a> Main\_Tray\_ExitFoldMode
 
@@ -1492,7 +1482,7 @@ public static string Main_Tray_ExitFoldMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Update_CopyError"></a> Main\_Update\_CopyError
 
@@ -1502,7 +1492,7 @@ public static string Main_Update_CopyError { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Update_Failed"></a> Main\_Update\_Failed
 
@@ -1512,7 +1502,7 @@ public static string Main_Update_Failed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Update_FailedTitle"></a> Main\_Update\_FailedTitle
 
@@ -1522,7 +1512,7 @@ public static string Main_Update_FailedTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Update_FilesInUse"></a> Main\_Update\_FilesInUse
 
@@ -1532,7 +1522,7 @@ public static string Main_Update_FilesInUse { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Update_LaunchFailed"></a> Main\_Update\_LaunchFailed
 
@@ -1542,7 +1532,7 @@ public static string Main_Update_LaunchFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Update_LaunchFailedTitle"></a> Main\_Update\_LaunchFailedTitle
 
@@ -1552,7 +1542,7 @@ public static string Main_Update_LaunchFailedTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Update_LaunchNotFound"></a> Main\_Update\_LaunchNotFound
 
@@ -1562,7 +1552,7 @@ public static string Main_Update_LaunchNotFound { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Update_LaunchNotFoundTitle"></a> Main\_Update\_LaunchNotFoundTitle
 
@@ -1572,7 +1562,7 @@ public static string Main_Update_LaunchNotFoundTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_ClearInk"></a> Main\_Uri\_ClearInk
 
@@ -1582,7 +1572,7 @@ public static string Main_Uri_ClearInk { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_ClearInkAndHistory"></a> Main\_Uri\_ClearInkAndHistory
 
@@ -1592,7 +1582,7 @@ public static string Main_Uri_ClearInkAndHistory { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_DeletePage"></a> Main\_Uri\_DeletePage
 
@@ -1602,7 +1592,7 @@ public static string Main_Uri_DeletePage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_EnterFoldMode"></a> Main\_Uri\_EnterFoldMode
 
@@ -1612,7 +1602,7 @@ public static string Main_Uri_EnterFoldMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_Exit"></a> Main\_Uri\_Exit
 
@@ -1622,7 +1612,7 @@ public static string Main_Uri_Exit { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_ExitFoldMode"></a> Main\_Uri\_ExitFoldMode
 
@@ -1632,7 +1622,7 @@ public static string Main_Uri_ExitFoldMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_HideOnFoldDisabled"></a> Main\_Uri\_HideOnFoldDisabled
 
@@ -1642,7 +1632,7 @@ public static string Main_Uri_HideOnFoldDisabled { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_HideOnFoldEnabled"></a> Main\_Uri\_HideOnFoldEnabled
 
@@ -1652,7 +1642,7 @@ public static string Main_Uri_HideOnFoldEnabled { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_NewPage"></a> Main\_Uri\_NewPage
 
@@ -1662,7 +1652,7 @@ public static string Main_Uri_NewPage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_NextPage"></a> Main\_Uri\_NextPage
 
@@ -1672,7 +1662,7 @@ public static string Main_Uri_NextPage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_PreviousPage"></a> Main\_Uri\_PreviousPage
 
@@ -1682,7 +1672,7 @@ public static string Main_Uri_PreviousPage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_Redo"></a> Main\_Uri\_Redo
 
@@ -1692,7 +1682,7 @@ public static string Main_Uri_Redo { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_Restart"></a> Main\_Uri\_Restart
 
@@ -1702,7 +1692,7 @@ public static string Main_Uri_Restart { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_RestartAdmin"></a> Main\_Uri\_RestartAdmin
 
@@ -1712,7 +1702,7 @@ public static string Main_Uri_RestartAdmin { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_RestartNormal"></a> Main\_Uri\_RestartNormal
 
@@ -1722,7 +1712,7 @@ public static string Main_Uri_RestartNormal { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_SchemeNotFound"></a> Main\_Uri\_SchemeNotFound
 
@@ -1732,7 +1722,7 @@ public static string Main_Uri_SchemeNotFound { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_Screenshot"></a> Main\_Uri\_Screenshot
 
@@ -1742,7 +1732,7 @@ public static string Main_Uri_Screenshot { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_SwitchedScheme"></a> Main\_Uri\_SwitchedScheme
 
@@ -1752,7 +1742,7 @@ public static string Main_Uri_SwitchedScheme { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Uri_Undo"></a> Main\_Uri\_Undo
 
@@ -1762,7 +1752,7 @@ public static string Main_Uri_Undo { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_WatermarkText"></a> Main\_WatermarkText
 
@@ -1772,7 +1762,7 @@ public static string Main_WatermarkText { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_ResourceManager"></a> ResourceManager
 
@@ -1794,9 +1784,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`key` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

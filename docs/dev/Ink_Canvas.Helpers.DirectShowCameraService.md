@@ -14,23 +14,14 @@ public sealed class DirectShowCameraService : ICameraService, IDisposable, ISamp
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [DirectShowCameraService](Ink\_Canvas.Helpers.DirectShowCameraService.md)
 
 #### Implements
 
 [ICameraService](Ink\_Canvas.Helpers.ICameraService.md), 
-[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable), 
+IDisposable, 
 ISampleGrabberCB
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -54,7 +45,7 @@ public IReadOnlyList<ResolutionInfo> AllResolutionFpsCombos { get; }
 
 #### Property Value
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)\>
+ IReadOnlyList<[ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)\>
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_AvailableCameras"></a> AvailableCameras
 
@@ -64,7 +55,7 @@ public IReadOnlyList<CameraInfo> AvailableCameras { get; }
 
 #### Property Value
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[CameraInfo](Ink\_Canvas.Helpers.CameraInfo.md)\>
+ IReadOnlyList<[CameraInfo](Ink\_Canvas.Helpers.CameraInfo.md)\>
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_CurrentCamera"></a> CurrentCamera
 
@@ -84,7 +75,7 @@ public bool IsCapturing { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_NativeResolutions"></a> NativeResolutions
 
@@ -96,7 +87,7 @@ public IReadOnlyList<ResolutionInfo> NativeResolutions { get; }
 
 #### Property Value
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)\>
+ IReadOnlyList<[ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)\>
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_RotationAngle"></a> RotationAngle
 
@@ -108,7 +99,7 @@ public int RotationAngle { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_SelectedComboIndex"></a> SelectedComboIndex
 
@@ -120,7 +111,7 @@ public int SelectedComboIndex { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_SelectedFramerateIndex"></a> SelectedFramerateIndex
 
@@ -132,7 +123,7 @@ public int SelectedFramerateIndex { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_SelectedResolutionIndex"></a> SelectedResolutionIndex
 
@@ -144,7 +135,7 @@ public int SelectedResolutionIndex { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_SelectedUniqueResolutionIndex"></a> SelectedUniqueResolutionIndex
 
@@ -156,7 +147,7 @@ public int SelectedUniqueResolutionIndex { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_UniqueResolutions"></a> UniqueResolutions
 
@@ -168,11 +159,11 @@ public IReadOnlyList<ResolutionInfo> UniqueResolutions { get; }
 
 #### Property Value
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)\>
+ IReadOnlyList<[ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)\>
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_DirectShowCameraService_BufferCB_System_Double_System_IntPtr_System_Int32_"></a> BufferCB\(double, IntPtr, int\)
+### <a id="Ink_Canvas_Helpers_DirectShowCameraService_BufferCB_System_Double_IntPtr_System_Int32_"></a> BufferCB\(double, IntPtr, int\)
 
 BufferCB：每帧由 DirectShow 在流线程上回调，buffer 指向 RGB24 像素数据。
 
@@ -182,19 +173,17 @@ public int BufferCB(double sampleTime, IntPtr buffer, int bufferLen)
 
 #### Parameters
 
-`sampleTime` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`sampleTime` double
 
-`buffer` [IntPtr](https://learn.microsoft.com/dotnet/api/system.intptr)
+`buffer` IntPtr
 
-`bufferLen` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`bufferLen` int
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_Dispose"></a> Dispose\(\)
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ```csharp
 public void Dispose()
@@ -217,11 +206,11 @@ public Task EnumerateResolutionsAsync(int cameraIndex)
 
 #### Parameters
 
-`cameraIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`cameraIndex` int
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+ Task
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_FindCapabilityIndex_System_Int32_System_Int32_System_Int32_"></a> FindCapabilityIndex\(int, int, int\)
 
@@ -233,15 +222,15 @@ public int FindCapabilityIndex(int width, int height, int framerate)
 
 #### Parameters
 
-`width` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`width` int
 
-`height` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`height` int
 
-`framerate` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`framerate` int
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_GetCurrentFrameAsBitmap"></a> GetCurrentFrameAsBitmap\(\)
 
@@ -253,7 +242,7 @@ public Bitmap GetCurrentFrameAsBitmap()
 
 #### Returns
 
- [Bitmap](https://learn.microsoft.com/dotnet/api/system.drawing.bitmap)
+ Bitmap
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_GetCurrentFrameAsBitmapSource"></a> GetCurrentFrameAsBitmapSource\(\)
 
@@ -265,7 +254,7 @@ public BitmapSource GetCurrentFrameAsBitmapSource()
 
 #### Returns
 
- [BitmapSource](https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource)
+ BitmapSource
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_GetFrameratesFor_System_Int32_System_Int32_"></a> GetFrameratesFor\(int, int\)
 
@@ -277,13 +266,13 @@ public IReadOnlyList<int> GetFrameratesFor(int width, int height)
 
 #### Parameters
 
-`width` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`width` int
 
-`height` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`height` int
 
 #### Returns
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+ IReadOnlyList<int\>
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_RefreshCameraListAsync"></a> RefreshCameraListAsync\(\)
 
@@ -295,9 +284,9 @@ public Task RefreshCameraListAsync()
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+ Task
 
-### <a id="Ink_Canvas_Helpers_DirectShowCameraService_SampleCB_System_Double_DirectShowLib_IMediaSample_"></a> SampleCB\(double, IMediaSample\)
+### <a id="Ink_Canvas_Helpers_DirectShowCameraService_SampleCB_System_Double_IMediaSample_"></a> SampleCB\(double, IMediaSample\)
 
 SampleCB 不会被调用（SetCallback 用了 1，走 BufferCB 路径）。
 
@@ -307,13 +296,13 @@ public int SampleCB(double sampleTime, IMediaSample sample)
 
 #### Parameters
 
-`sampleTime` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`sampleTime` double
 
 `sample` IMediaSample
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_SetSelectedResolutionIndexSilent_System_Int32_"></a> SetSelectedResolutionIndexSilent\(int\)
 
@@ -327,7 +316,7 @@ public void SetSelectedResolutionIndexSilent(int value)
 
 #### Parameters
 
-`value` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`value` int
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_StartPreviewAsync_System_Int32_"></a> StartPreviewAsync\(int\)
 
@@ -339,11 +328,11 @@ public Task<bool> StartPreviewAsync(int cameraIndex = 0)
 
 #### Parameters
 
-`cameraIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`cameraIndex` int
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+ Task<bool\>
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_StopPreview"></a> StopPreview\(\)
 
@@ -363,7 +352,7 @@ public event EventHandler<string> ErrorOccurred
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ EventHandler<string\>
 
 ### <a id="Ink_Canvas_Helpers_DirectShowCameraService_FrameReceived"></a> FrameReceived
 
@@ -375,5 +364,5 @@ public event EventHandler<FrameEventArgs> FrameReceived
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[FrameEventArgs](Ink\_Canvas.Helpers.FrameEventArgs.md)\>
+ EventHandler<[FrameEventArgs](Ink\_Canvas.Helpers.FrameEventArgs.md)\>
 

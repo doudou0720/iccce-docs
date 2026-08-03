@@ -11,22 +11,12 @@ public class AsyncAdvancedBezierSmoothing
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AsyncAdvancedBezierSmoothing](Ink\_Canvas.Helpers.AsyncAdvancedBezierSmoothing.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
-### <a id="Ink_Canvas_Helpers_AsyncAdvancedBezierSmoothing__ctor_System_Windows_Threading_Dispatcher_"></a> AsyncAdvancedBezierSmoothing\(Dispatcher\)
+### <a id="Ink_Canvas_Helpers_AsyncAdvancedBezierSmoothing__ctor_Dispatcher_"></a> AsyncAdvancedBezierSmoothing\(Dispatcher\)
 
 ```csharp
 public AsyncAdvancedBezierSmoothing(Dispatcher uiDispatcher)
@@ -34,7 +24,7 @@ public AsyncAdvancedBezierSmoothing(Dispatcher uiDispatcher)
 
 #### Parameters
 
-`uiDispatcher` [Dispatcher](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcher)
+`uiDispatcher` Dispatcher
 
 ## Properties
 
@@ -46,7 +36,7 @@ public double CurveTension { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_AsyncAdvancedBezierSmoothing_InterpolationSteps"></a> InterpolationSteps
 
@@ -56,7 +46,7 @@ public int InterpolationSteps { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_AsyncAdvancedBezierSmoothing_MaxConcurrentTasks"></a> MaxConcurrentTasks
 
@@ -66,7 +56,7 @@ public int MaxConcurrentTasks { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_AsyncAdvancedBezierSmoothing_PerformanceMonitor"></a> PerformanceMonitor
 
@@ -88,7 +78,7 @@ public double ResampleInterval { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_AsyncAdvancedBezierSmoothing_SmoothingStrength"></a> SmoothingStrength
 
@@ -98,7 +88,7 @@ public double SmoothingStrength { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_AsyncAdvancedBezierSmoothing_UseAdaptiveInterpolation"></a> UseAdaptiveInterpolation
 
@@ -108,7 +98,7 @@ public bool UseAdaptiveInterpolation { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_AsyncAdvancedBezierSmoothing_UseHardwareAcceleration"></a> UseHardwareAcceleration
 
@@ -118,7 +108,7 @@ public bool UseHardwareAcceleration { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -138,23 +128,23 @@ public void CancelAllTasks()
 public void Dispose()
 ```
 
-### <a id="Ink_Canvas_Helpers_AsyncAdvancedBezierSmoothing_SmoothStrokeAsync_System_Windows_Ink_Stroke_System_Action_System_Windows_Ink_Stroke_System_Windows_Ink_Stroke__System_Threading_CancellationToken_"></a> SmoothStrokeAsync\(Stroke, Action<Stroke, Stroke\>, CancellationToken\)
+### <a id="Ink_Canvas_Helpers_AsyncAdvancedBezierSmoothing_SmoothStrokeAsync_Stroke_Action_Stroke_Stroke__CancellationToken_"></a> SmoothStrokeAsync\(Stroke, Action<Stroke, Stroke\>, CancellationToken\)
 
 异步平滑笔画
 
 ```csharp
-public Task<Stroke> SmoothStrokeAsync(Stroke originalStroke, Action<Stroke, Stroke> onCompleted = null, CancellationToken cancellationToken = default)
+public Task<Stroke> SmoothStrokeAsync(Stroke originalStroke, Action<Stroke, Stroke> onCompleted = null, CancellationToken cancellationToken = null)
 ```
 
 #### Parameters
 
-`originalStroke` [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
+`originalStroke` Stroke
 
-`onCompleted` [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke), [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)\>
+`onCompleted` Action<Stroke, Stroke\>
 
-`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+`cancellationToken` CancellationToken
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)\>
+ Task<Stroke\>
 

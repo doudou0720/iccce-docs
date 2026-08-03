@@ -23,8 +23,6 @@ BoardToolbarButton
 
  [CanvasMediaControl](Ink\_Canvas.Controls.CanvasMediaControl.md)
 
-CanvasMediaControl
-
  [ColorPickerButton](Ink\_Canvas.Controls.ColorPickerButton.md)
 
 ColorPickerButton
@@ -34,8 +32,6 @@ ColorPickerButton
 CopyButton
 
  [DynamicNotificationControl](Ink\_Canvas.Controls.DynamicNotificationControl.md)
-
-DynamicNotificationControl
 
  [EraserPopupContent](Ink\_Canvas.Controls.EraserPopupContent.md)
 
@@ -61,8 +57,6 @@ GeometryButton
  [ImageRotateDeltaEventArgs](Ink\_Canvas.Controls.ImageRotateDeltaEventArgs.md)
 
  [ImageSelectionOverlay](Ink\_Canvas.Controls.ImageSelectionOverlay.md)
-
-ImageSelectionOverlay
 
  [LabeledSettingsCard](Ink\_Canvas.Controls.LabeledSettingsCard.md)
 
@@ -122,8 +116,6 @@ QuickPanelButton
  [ShapeDrawPopupContent](Ink\_Canvas.Controls.ShapeDrawPopupContent.md)
 
  [SidePanelToggle](Ink\_Canvas.Controls.SidePanelToggle.md)
-
-SidePanelToggle
 
  [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 

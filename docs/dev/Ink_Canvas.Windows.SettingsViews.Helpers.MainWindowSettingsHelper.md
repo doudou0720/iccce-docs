@@ -9,22 +9,12 @@ public static class MainWindowSettingsHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MainWindowSettingsHelper](Ink\_Canvas.Windows.SettingsViews.Helpers.MainWindowSettingsHelper.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_EnableTouchSupportForControls_System_Windows_DependencyObject_"></a> EnableTouchSupportForControls\(DependencyObject\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_EnableTouchSupportForControls_DependencyObject_"></a> EnableTouchSupportForControls\(DependencyObject\)
 
 ```csharp
 public static void EnableTouchSupportForControls(DependencyObject parent)
@@ -32,7 +22,7 @@ public static void EnableTouchSupportForControls(DependencyObject parent)
 
 #### Parameters
 
-`parent` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+`parent` DependencyObject
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_ForceUpdateAllPanelsTheme"></a> ForceUpdateAllPanelsTheme\(\)
 
@@ -48,9 +38,9 @@ public static void InvokeCheckBoxCheckedChanged(string checkBoxName, bool isChec
 
 #### Parameters
 
-`checkBoxName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`checkBoxName` string
 
-`isChecked` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isChecked` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_InvokeComboBoxSelectionChanged_System_String_System_Object_"></a> InvokeComboBoxSelectionChanged\(string, object\)
 
@@ -60,9 +50,9 @@ public static void InvokeComboBoxSelectionChanged(string comboBoxName, object se
 
 #### Parameters
 
-`comboBoxName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`comboBoxName` string
 
-`selectedItem` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`selectedItem` object
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_InvokeComboBoxSelectionChangedWithThemeCheck_System_String_System_Object_"></a> InvokeComboBoxSelectionChangedWithThemeCheck\(string, object\)
 
@@ -72,9 +62,9 @@ public static void InvokeComboBoxSelectionChangedWithThemeCheck(string comboBoxN
 
 #### Parameters
 
-`comboBoxName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`comboBoxName` string
 
-`selectedItem` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`selectedItem` object
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_InvokeMainWindowMethod_System_String_System_Object___"></a> InvokeMainWindowMethod\(string, params object\[\]\)
 
@@ -84,9 +74,9 @@ public static void InvokeMainWindowMethod(string methodName, params object[] par
 
 #### Parameters
 
-`methodName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`methodName` string
 
-`parameters` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
+`parameters` object\[\]
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_InvokeSliderValueChanged_System_String_System_Double_"></a> InvokeSliderValueChanged\(string, double\)
 
@@ -96,9 +86,9 @@ public static void InvokeSliderValueChanged(string sliderName, double value)
 
 #### Parameters
 
-`sliderName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`sliderName` string
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_InvokeTextBoxTextChanged_System_String_System_String_"></a> InvokeTextBoxTextChanged\(string, string\)
 
@@ -108,9 +98,9 @@ public static void InvokeTextBoxTextChanged(string textBoxName, string text)
 
 #### Parameters
 
-`textBoxName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`textBoxName` string
 
-`text` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`text` string
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_InvokeToggleSwitchToggled_System_String_System_Boolean_"></a> InvokeToggleSwitchToggled\(string, bool\)
 
@@ -120,9 +110,9 @@ public static void InvokeToggleSwitchToggled(string toggleSwitchName, bool isOn)
 
 #### Parameters
 
-`toggleSwitchName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`toggleSwitchName` string
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_InvokeToggleSwitchToggledWithThemeCheck_System_String_System_Boolean_"></a> InvokeToggleSwitchToggledWithThemeCheck\(string, bool\)
 
@@ -132,9 +122,9 @@ public static void InvokeToggleSwitchToggledWithThemeCheck(string toggleSwitchNa
 
 #### Parameters
 
-`toggleSwitchName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`toggleSwitchName` string
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_NotifySettingsPanelsSyncState_System_String_"></a> NotifySettingsPanelsSyncState\(string\)
 
@@ -144,7 +134,7 @@ public static void NotifySettingsPanelsSyncState(string controlName)
 
 #### Parameters
 
-`controlName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`controlName` string
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_NotifyThemeUpdateIfNeeded_System_String_"></a> NotifyThemeUpdateIfNeeded\(string\)
 
@@ -154,9 +144,9 @@ public static void NotifyThemeUpdateIfNeeded(string controlName)
 
 #### Parameters
 
-`controlName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`controlName` string
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_UpdateSettingDirectly_System_Action_System_String_"></a> UpdateSettingDirectly\(Action, string\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_UpdateSettingDirectly_Action_System_String_"></a> UpdateSettingDirectly\(Action, string\)
 
 ```csharp
 public static void UpdateSettingDirectly(Action action, string controlName = null)
@@ -164,11 +154,11 @@ public static void UpdateSettingDirectly(Action action, string controlName = nul
 
 #### Parameters
 
-`action` [Action](https://learn.microsoft.com/dotnet/api/system.action)
+`action` Action
 
-`controlName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`controlName` string
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_UpdateSettingSafely_System_Action_System_String_System_String_System_Object___"></a> UpdateSettingSafely\(Action, string, string, params object\[\]\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_MainWindowSettingsHelper_UpdateSettingSafely_Action_System_String_System_String_System_Object___"></a> UpdateSettingSafely\(Action, string, string, params object\[\]\)
 
 ```csharp
 public static void UpdateSettingSafely(Action action, string eventHandlerName = null, string controlName = null, params object[] eventHandlerParams)
@@ -176,11 +166,11 @@ public static void UpdateSettingSafely(Action action, string eventHandlerName = 
 
 #### Parameters
 
-`action` [Action](https://learn.microsoft.com/dotnet/api/system.action)
+`action` Action
 
-`eventHandlerName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`eventHandlerName` string
 
-`controlName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`controlName` string
 
-`eventHandlerParams` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
+`eventHandlerParams` object\[\]
 

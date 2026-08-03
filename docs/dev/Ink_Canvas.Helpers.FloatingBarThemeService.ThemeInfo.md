@@ -4,26 +4,13 @@ Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public sealed class FloatingBarThemeService.ThemeInfo : INotifyPropertyChanged
+public sealed class FloatingBarThemeService.ThemeInfo : System.ComponentModel.INotifyPropertyChanged
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+System.ComponentModel.INotifyPropertyChanged ← 
 [FloatingBarThemeService.ThemeInfo](Ink\_Canvas.Helpers.FloatingBarThemeService.ThemeInfo.md)
-
-#### Implements
-
-[INotifyPropertyChanged](https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -35,18 +22,17 @@ public string Description { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_ThemeInfo_DisplayName"></a> DisplayName
 
 ```csharp
-[JsonIgnore]
 public string DisplayName { get; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_ThemeInfo_Id"></a> Id
 
@@ -56,18 +42,17 @@ public string Id { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_ThemeInfo_IsApplied"></a> IsApplied
 
 ```csharp
-[JsonIgnore]
 public bool IsApplied { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_ThemeInfo_IsBuiltIn"></a> IsBuiltIn
 
@@ -77,7 +62,7 @@ public bool IsBuiltIn { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_ThemeInfo_Name"></a> Name
 
@@ -87,7 +72,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_ThemeInfo_Path"></a> Path
 
@@ -97,17 +82,15 @@ public string Path { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_ThemeInfo_PropertyChanged"></a> PropertyChanged
 
-Occurs when a property value changes.
-
 ```csharp
-public event PropertyChangedEventHandler PropertyChanged
+public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged
 ```
 
 #### Event Type
 
- [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
+ System.ComponentModel.PropertyChangedEventHandler
 

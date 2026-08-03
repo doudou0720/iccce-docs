@@ -11,22 +11,12 @@ public static class SliderTouchHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SliderTouchHelper](Ink\_Canvas.Helpers.SliderTouchHelper.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_SliderTouchHelper_AddTouchSupport_System_Windows_Controls_Slider_"></a> AddTouchSupport\(Slider\)
+### <a id="Ink_Canvas_Helpers_SliderTouchHelper_AddTouchSupport_Slider_"></a> AddTouchSupport\(Slider\)
 
 为单个滑块控件添加触摸和手写笔事件支持
 
@@ -36,9 +26,9 @@ public static void AddTouchSupport(Slider slider)
 
 #### Parameters
 
-`slider` [Slider](https://learn.microsoft.com/dotnet/api/system.windows.controls.slider)
+`slider` Slider
 
-### <a id="Ink_Canvas_Helpers_SliderTouchHelper_AddTouchSupportToAllSliders_System_Windows_DependencyObject_"></a> AddTouchSupportToAllSliders\(DependencyObject\)
+### <a id="Ink_Canvas_Helpers_SliderTouchHelper_AddTouchSupportToAllSliders_DependencyObject_"></a> AddTouchSupportToAllSliders\(DependencyObject\)
 
 为指定逻辑树中的所有 Slider 控件添加触摸支持
 
@@ -48,5 +38,5 @@ public static void AddTouchSupportToAllSliders(DependencyObject root)
 
 #### Parameters
 
-`root` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+`root` DependencyObject
 

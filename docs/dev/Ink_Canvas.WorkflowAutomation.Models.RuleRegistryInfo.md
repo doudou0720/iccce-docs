@@ -11,18 +11,8 @@ public class RuleRegistryInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -34,11 +24,11 @@ public RuleRegistryInfo(string id, string name = "", string iconKind = "CogOutli
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
-`iconKind` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`iconKind` string
 
 ## Fields
 
@@ -66,7 +56,7 @@ public string IconKind { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_RuleRegistryInfo_Id"></a> Id
 
@@ -78,7 +68,7 @@ public string Id { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_RuleRegistryInfo_Name"></a> Name
 
@@ -90,7 +80,7 @@ public string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_RuleRegistryInfo_SettingsControlType"></a> SettingsControlType
 
@@ -102,7 +92,7 @@ public Type SettingsControlType { get; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_RuleRegistryInfo_SettingsType"></a> SettingsType
 
@@ -114,5 +104,5 @@ public Type SettingsType { get; }
 
 #### Property Value
 
- [Type](https://learn.microsoft.com/dotnet/api/system.type)
+ Type
 

@@ -9,18 +9,8 @@ public static class HotkeyStrings
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [HotkeyStrings](Ink\_Canvas.Properties.HotkeyStrings.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -32,7 +22,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
+ CultureInfo
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_BasicOperations"></a> Hotkey\_BasicOperations
 
@@ -42,7 +32,7 @@ public static string Hotkey_BasicOperations { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_BlackboardTool"></a> Hotkey\_BlackboardTool
 
@@ -52,7 +42,7 @@ public static string Hotkey_BlackboardTool { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_BlackboardToolDesc"></a> Hotkey\_BlackboardToolDesc
 
@@ -62,7 +52,7 @@ public static string Hotkey_BlackboardToolDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_ClearDesc"></a> Hotkey\_ClearDesc
 
@@ -72,7 +62,7 @@ public static string Hotkey_ClearDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_ConfirmResetMessage"></a> Hotkey\_ConfirmResetMessage
 
@@ -82,7 +72,7 @@ public static string Hotkey_ConfirmResetMessage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_ConfirmResetTitle"></a> Hotkey\_ConfirmResetTitle
 
@@ -92,7 +82,7 @@ public static string Hotkey_ConfirmResetTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_ConflictMessage"></a> Hotkey\_ConflictMessage
 
@@ -102,7 +92,7 @@ public static string Hotkey_ConflictMessage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_ConflictTitle"></a> Hotkey\_ConflictTitle
 
@@ -112,7 +102,7 @@ public static string Hotkey_ConflictTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_DrawLine"></a> Hotkey\_DrawLine
 
@@ -122,7 +112,7 @@ public static string Hotkey_DrawLine { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_DrawLineDesc"></a> Hotkey\_DrawLineDesc
 
@@ -132,7 +122,7 @@ public static string Hotkey_DrawLineDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_DrawTool"></a> Hotkey\_DrawTool
 
@@ -142,7 +132,7 @@ public static string Hotkey_DrawTool { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_DrawToolDesc"></a> Hotkey\_DrawToolDesc
 
@@ -152,7 +142,7 @@ public static string Hotkey_DrawToolDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_EnableHotkeysInMouseMode"></a> Hotkey\_EnableHotkeysInMouseMode
 
@@ -162,7 +152,7 @@ public static string Hotkey_EnableHotkeysInMouseMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_EnableHotkeysInMouseModeHint"></a> Hotkey\_EnableHotkeysInMouseModeHint
 
@@ -172,7 +162,7 @@ public static string Hotkey_EnableHotkeysInMouseModeHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_EraserTool"></a> Hotkey\_EraserTool
 
@@ -182,7 +172,7 @@ public static string Hotkey_EraserTool { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_EraserToolDesc"></a> Hotkey\_EraserToolDesc
 
@@ -192,7 +182,7 @@ public static string Hotkey_EraserToolDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_Error"></a> Hotkey\_Error
 
@@ -202,7 +192,7 @@ public static string Hotkey_Error { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_ExitDesc"></a> Hotkey\_ExitDesc
 
@@ -212,7 +202,7 @@ public static string Hotkey_ExitDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_FunctionHotkeys"></a> Hotkey\_FunctionHotkeys
 
@@ -222,7 +212,7 @@ public static string Hotkey_FunctionHotkeys { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_HideDesc"></a> Hotkey\_HideDesc
 
@@ -232,7 +222,7 @@ public static string Hotkey_HideDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_InfoBarMessage"></a> Hotkey\_InfoBarMessage
 
@@ -242,7 +232,7 @@ public static string Hotkey_InfoBarMessage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_InfoBarTitle"></a> Hotkey\_InfoBarTitle
 
@@ -252,7 +242,7 @@ public static string Hotkey_InfoBarTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_ManagerNotInit"></a> Hotkey\_ManagerNotInit
 
@@ -262,7 +252,7 @@ public static string Hotkey_ManagerNotInit { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_MouseMode"></a> Hotkey\_MouseMode
 
@@ -272,7 +262,7 @@ public static string Hotkey_MouseMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_PassThroughMouseWheelInDrawingMode"></a> Hotkey\_PassThroughMouseWheelInDrawingMode
 
@@ -282,7 +272,7 @@ public static string Hotkey_PassThroughMouseWheelInDrawingMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_PassThroughMouseWheelInDrawingModeHint"></a> Hotkey\_PassThroughMouseWheelInDrawingModeHint
 
@@ -292,7 +282,7 @@ public static string Hotkey_PassThroughMouseWheelInDrawingModeHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_Paste"></a> Hotkey\_Paste
 
@@ -302,7 +292,7 @@ public static string Hotkey_Paste { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_PasteDesc"></a> Hotkey\_PasteDesc
 
@@ -312,7 +302,7 @@ public static string Hotkey_PasteDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_Pen1"></a> Hotkey\_Pen1
 
@@ -322,7 +312,7 @@ public static string Hotkey_Pen1 { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_Pen1Desc"></a> Hotkey\_Pen1Desc
 
@@ -332,7 +322,7 @@ public static string Hotkey_Pen1Desc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_Pen2"></a> Hotkey\_Pen2
 
@@ -342,7 +332,7 @@ public static string Hotkey_Pen2 { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_Pen2Desc"></a> Hotkey\_Pen2Desc
 
@@ -352,7 +342,7 @@ public static string Hotkey_Pen2Desc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_Pen3"></a> Hotkey\_Pen3
 
@@ -362,7 +352,7 @@ public static string Hotkey_Pen3 { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_Pen3Desc"></a> Hotkey\_Pen3Desc
 
@@ -372,7 +362,7 @@ public static string Hotkey_Pen3Desc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_Pen4"></a> Hotkey\_Pen4
 
@@ -382,7 +372,7 @@ public static string Hotkey_Pen4 { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_Pen4Desc"></a> Hotkey\_Pen4Desc
 
@@ -392,7 +382,7 @@ public static string Hotkey_Pen4Desc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_Pen5"></a> Hotkey\_Pen5
 
@@ -402,7 +392,7 @@ public static string Hotkey_Pen5 { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_Pen5Desc"></a> Hotkey\_Pen5Desc
 
@@ -412,7 +402,7 @@ public static string Hotkey_Pen5Desc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_PenSettings"></a> Hotkey\_PenSettings
 
@@ -422,7 +412,7 @@ public static string Hotkey_PenSettings { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_QuickDraw"></a> Hotkey\_QuickDraw
 
@@ -432,7 +422,7 @@ public static string Hotkey_QuickDraw { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_QuickDrawDesc"></a> Hotkey\_QuickDrawDesc
 
@@ -442,7 +432,7 @@ public static string Hotkey_QuickDrawDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_QuitDrawTool"></a> Hotkey\_QuitDrawTool
 
@@ -452,7 +442,7 @@ public static string Hotkey_QuitDrawTool { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_QuitDrawToolDesc"></a> Hotkey\_QuitDrawToolDesc
 
@@ -462,7 +452,7 @@ public static string Hotkey_QuitDrawToolDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_RedoDesc"></a> Hotkey\_RedoDesc
 
@@ -472,7 +462,7 @@ public static string Hotkey_RedoDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_ResetCompleteMessage"></a> Hotkey\_ResetCompleteMessage
 
@@ -482,7 +472,7 @@ public static string Hotkey_ResetCompleteMessage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_ResetCompleteTitle"></a> Hotkey\_ResetCompleteTitle
 
@@ -492,7 +482,7 @@ public static string Hotkey_ResetCompleteTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_ResetErrorMessage"></a> Hotkey\_ResetErrorMessage
 
@@ -502,7 +492,7 @@ public static string Hotkey_ResetErrorMessage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_ResetToDefault"></a> Hotkey\_ResetToDefault
 
@@ -512,7 +502,7 @@ public static string Hotkey_ResetToDefault { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_SaveErrorMessage"></a> Hotkey\_SaveErrorMessage
 
@@ -522,7 +512,7 @@ public static string Hotkey_SaveErrorMessage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_SaveSettings"></a> Hotkey\_SaveSettings
 
@@ -532,7 +522,7 @@ public static string Hotkey_SaveSettings { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_SaveSuccessMessage"></a> Hotkey\_SaveSuccessMessage
 
@@ -542,7 +532,7 @@ public static string Hotkey_SaveSuccessMessage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_SaveSuccessTitle"></a> Hotkey\_SaveSuccessTitle
 
@@ -552,7 +542,7 @@ public static string Hotkey_SaveSuccessTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_ScreenshotDesc"></a> Hotkey\_ScreenshotDesc
 
@@ -562,7 +552,7 @@ public static string Hotkey_ScreenshotDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_SelectTool"></a> Hotkey\_SelectTool
 
@@ -572,7 +562,7 @@ public static string Hotkey_SelectTool { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_SelectToolDesc"></a> Hotkey\_SelectToolDesc
 
@@ -582,7 +572,7 @@ public static string Hotkey_SelectToolDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_ToolSwitch"></a> Hotkey\_ToolSwitch
 
@@ -592,7 +582,7 @@ public static string Hotkey_ToolSwitch { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_UndoDesc"></a> Hotkey\_UndoDesc
 
@@ -602,7 +592,7 @@ public static string Hotkey_UndoDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_ResourceManager"></a> ResourceManager
 
@@ -624,9 +614,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`key` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

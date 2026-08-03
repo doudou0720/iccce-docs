@@ -11,18 +11,8 @@ public class InkSmoothingDetailedStats
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [InkSmoothingDetailedStats](Ink\_Canvas.Helpers.InkSmoothingDetailedStats.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -34,7 +24,7 @@ public double AvgBezierMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_AvgComputeMs"></a> AvgComputeMs
 
@@ -44,7 +34,7 @@ public double AvgComputeMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_AvgDispatcherWaitMs"></a> AvgDispatcherWaitMs
 
@@ -54,7 +44,7 @@ public double AvgDispatcherWaitMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_AvgInputPoints"></a> AvgInputPoints
 
@@ -64,7 +54,7 @@ public double AvgInputPoints { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_AvgOutputPoints"></a> AvgOutputPoints
 
@@ -74,7 +64,7 @@ public double AvgOutputPoints { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_AvgPointCopyMs"></a> AvgPointCopyMs
 
@@ -84,7 +74,7 @@ public double AvgPointCopyMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_AvgResampleMs"></a> AvgResampleMs
 
@@ -94,7 +84,7 @@ public double AvgResampleMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_AvgSemaphoreWaitMs"></a> AvgSemaphoreWaitMs
 
@@ -104,7 +94,7 @@ public double AvgSemaphoreWaitMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_AvgStrokeConstructionMs"></a> AvgStrokeConstructionMs
 
@@ -114,7 +104,7 @@ public double AvgStrokeConstructionMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_AvgThreadPoolQueueMs"></a> AvgThreadPoolQueueMs
 
@@ -124,7 +114,7 @@ public double AvgThreadPoolQueueMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_AvgTotalMs"></a> AvgTotalMs
 
@@ -134,7 +124,7 @@ public double AvgTotalMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_AvgUiCallbackMs"></a> AvgUiCallbackMs
 
@@ -144,7 +134,7 @@ public double AvgUiCallbackMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_MaxComputeMs"></a> MaxComputeMs
 
@@ -154,7 +144,7 @@ public double MaxComputeMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_MaxDispatcherWaitMs"></a> MaxDispatcherWaitMs
 
@@ -164,7 +154,7 @@ public double MaxDispatcherWaitMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_MaxPointCopyMs"></a> MaxPointCopyMs
 
@@ -174,7 +164,7 @@ public double MaxPointCopyMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_MaxSemaphoreWaitMs"></a> MaxSemaphoreWaitMs
 
@@ -184,7 +174,7 @@ public double MaxSemaphoreWaitMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_MaxStrokeConstructionMs"></a> MaxStrokeConstructionMs
 
@@ -194,7 +184,7 @@ public double MaxStrokeConstructionMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_MaxThreadPoolQueueMs"></a> MaxThreadPoolQueueMs
 
@@ -204,7 +194,7 @@ public double MaxThreadPoolQueueMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_MaxTotalMs"></a> MaxTotalMs
 
@@ -214,7 +204,7 @@ public double MaxTotalMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_MaxUiCallbackMs"></a> MaxUiCallbackMs
 
@@ -224,7 +214,7 @@ public double MaxUiCallbackMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_SampleCount"></a> SampleCount
 
@@ -234,15 +224,15 @@ public int SampleCount { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingDetailedStats_Samples"></a> Samples
 
 ```csharp
-public List<InkSmoothingPipelineSample> Samples { get; set; }
+public System.Collections.Generic.List<InkSmoothingPipelineSample> Samples { get; set; }
 ```
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[InkSmoothingPipelineSample](Ink\_Canvas.Helpers.InkSmoothingPipelineSample.md)\>
+ System.Collections.Generic.List<[InkSmoothingPipelineSample](Ink\_Canvas.Helpers.InkSmoothingPipelineSample.md)\>
 

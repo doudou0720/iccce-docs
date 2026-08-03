@@ -9,18 +9,8 @@ public static class SafeZipExtractor
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SafeZipExtractor](Ink\_Canvas.Helpers.SafeZipExtractor.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -32,15 +22,15 @@ public static void ExtractZipSafely(string zipFilePath, string extractPath, bool
 
 #### Parameters
 
-`zipFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`zipFilePath` string
 
 ZIP 文件路径
 
-`extractPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`extractPath` string
 
 解压目标目录
 
-`overwrite` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`overwrite` bool
 
 是否覆盖已存在文件
 

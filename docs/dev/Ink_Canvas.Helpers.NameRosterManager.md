@@ -13,18 +13,8 @@ public static class NameRosterManager
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [NameRosterManager](Ink\_Canvas.Helpers.NameRosterManager.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -36,7 +26,7 @@ public static string NamesFilePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_NameRosterManager_ReplaceFilePath"></a> ReplaceFilePath
 
@@ -46,7 +36,7 @@ public static string ReplaceFilePath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -61,11 +51,11 @@ public static string AddRoster(string name)
 
 #### Parameters
 
-`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`name` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_NameRosterManager_ApplyRoster_Ink_Canvas_NameRoster_"></a> ApplyRoster\(NameRoster\)
 
@@ -89,7 +79,7 @@ public static void DeleteRoster(string guid)
 
 #### Parameters
 
-`guid` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`guid` string
 
 ### <a id="Ink_Canvas_Helpers_NameRosterManager_GetSelectedRoster"></a> GetSelectedRoster\(\)
 
@@ -113,7 +103,7 @@ public static (string namesContent, string replaceContent) ReadCurrentFiles()
 
 #### Returns
 
- \([string](https://learn.microsoft.com/dotnet/api/system.string) [namesContent](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,system.string\-.namescontent), [string](https://learn.microsoft.com/dotnet/api/system.string) [replaceContent](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,system.string\-.replacecontent)\)
+ \(string [namesContent](System.ValueTuple\{System.String,System.String\}.md\#System\_ValueTuple\_System\_String\_System\_String\_\_namesContent), string [replaceContent](System.ValueTuple\{System.String,System.String\}.md\#System\_ValueTuple\_System\_String\_System\_String\_\_replaceContent)\)
 
 ### <a id="Ink_Canvas_Helpers_NameRosterManager_RenameRoster_System_String_System_String_"></a> RenameRoster\(string, string\)
 
@@ -125,9 +115,9 @@ public static void RenameRoster(string guid, string newName)
 
 #### Parameters
 
-`guid` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`guid` string
 
-`newName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`newName` string
 
 ### <a id="Ink_Canvas_Helpers_NameRosterManager_SaveCurrentFilesToRoster_System_String_"></a> SaveCurrentFilesToRoster\(string\)
 
@@ -139,7 +129,7 @@ public static void SaveCurrentFilesToRoster(string guid)
 
 #### Parameters
 
-`guid` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`guid` string
 
 ### <a id="Ink_Canvas_Helpers_NameRosterManager_SelectAndApply_System_String_"></a> SelectAndApply\(string\)
 
@@ -151,7 +141,7 @@ public static void SelectAndApply(string guid)
 
 #### Parameters
 
-`guid` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`guid` string
 
 ### <a id="Ink_Canvas_Helpers_NameRosterManager_WriteCurrentFiles_System_String_System_String_"></a> WriteCurrentFiles\(string, string\)
 
@@ -163,7 +153,7 @@ public static void WriteCurrentFiles(string namesContent, string replaceContent)
 
 #### Parameters
 
-`namesContent` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`namesContent` string
 
-`replaceContent` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`replaceContent` string
 

@@ -13,23 +13,13 @@ public class RulesetService : IRulesetService, IDisposable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [RulesetService](Ink\_Canvas.WorkflowAutomation.Services.RulesetService.md)
 
 #### Implements
 
 [IRulesetService](Ink\_Canvas.WorkflowAutomation.Abstractions.IRulesetService.md), 
-[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+IDisposable
 
 ## Constructors
 
@@ -42,8 +32,6 @@ public RulesetService()
 ## Methods
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_RulesetService_Dispose"></a> Dispose\(\)
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ```csharp
 public void Dispose()
@@ -63,7 +51,7 @@ public bool IsRulesetSatisfied(Ruleset ruleset)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_RulesetService_NotifyStatusChanged"></a> NotifyStatusChanged\(\)
 
@@ -83,7 +71,7 @@ public void RegisterRuleHandler(string id, RuleRegistryInfo.HandleDelegate handl
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 `handler` [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)
 
@@ -97,7 +85,7 @@ public void UnregisterRuleHandler(string id, RuleRegistryInfo.HandleDelegate han
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 `handler` [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)
 
@@ -111,5 +99,5 @@ public event EventHandler StatusUpdated
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+ EventHandler
 

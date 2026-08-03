@@ -12,8 +12,6 @@
 
  [AnnouncementCenterWindow](Ink\_Canvas.Windows.AnnouncementCenterWindow.md)
 
-AnnouncementCenterWindow
-
  [FullscreenTimerWindow](Ink\_Canvas.Windows.FullscreenTimerWindow.md)
 
 全屏计时器窗口
@@ -35,8 +33,6 @@ AnnouncementCenterWindow
 新计时器UI风格的倒计时器窗口
 
  [OobePresetWindow](Ink\_Canvas.Windows.OobePresetWindow.md)
-
-OobePresetWindow
 
  [OobeWindow](Ink\_Canvas.Windows.OobeWindow.md)
 

@@ -9,18 +9,8 @@ public static class CloudStorageStrings
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CloudStorageStrings](Ink\_Canvas.Properties.CloudStorageStrings.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -32,7 +22,7 @@ public static string CloudStorage_AutoUploadNotes { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_AutoUploadNotesDesc"></a> CloudStorage\_AutoUploadNotesDesc
 
@@ -42,7 +32,7 @@ public static string CloudStorage_AutoUploadNotesDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_CannotOpenBrowser"></a> CloudStorage\_CannotOpenBrowser
 
@@ -52,7 +42,7 @@ public static string CloudStorage_CannotOpenBrowser { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_ClassSelection"></a> CloudStorage\_ClassSelection
 
@@ -62,7 +52,7 @@ public static string CloudStorage_ClassSelection { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_ClassSelectionDesc"></a> CloudStorage\_ClassSelectionDesc
 
@@ -72,7 +62,7 @@ public static string CloudStorage_ClassSelectionDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_Confirm"></a> CloudStorage\_Confirm
 
@@ -82,7 +72,7 @@ public static string CloudStorage_Confirm { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_ConfirmDeleteToken"></a> CloudStorage\_ConfirmDeleteToken
 
@@ -92,7 +82,7 @@ public static string CloudStorage_ConfirmDeleteToken { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_ConnectedFormat"></a> CloudStorage\_ConnectedFormat
 
@@ -102,7 +92,7 @@ public static string CloudStorage_ConnectedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_ConnectionFailed"></a> CloudStorage\_ConnectionFailed
 
@@ -112,7 +102,7 @@ public static string CloudStorage_ConnectionFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_ConnectionStatus"></a> CloudStorage\_ConnectionStatus
 
@@ -122,7 +112,7 @@ public static string CloudStorage_ConnectionStatus { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_ConnectionStatusDesc"></a> CloudStorage\_ConnectionStatusDesc
 
@@ -132,7 +122,7 @@ public static string CloudStorage_ConnectionStatusDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_DeleteToken"></a> CloudStorage\_DeleteToken
 
@@ -142,7 +132,7 @@ public static string CloudStorage_DeleteToken { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_DeleteTokenError"></a> CloudStorage\_DeleteTokenError
 
@@ -152,7 +142,7 @@ public static string CloudStorage_DeleteTokenError { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_Dlass"></a> CloudStorage\_Dlass
 
@@ -162,7 +152,7 @@ public static string CloudStorage_Dlass { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_DlassRegistrationPrompt"></a> CloudStorage\_DlassRegistrationPrompt
 
@@ -172,7 +162,7 @@ public static string CloudStorage_DlassRegistrationPrompt { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_DlassRegistrationTitle"></a> CloudStorage\_DlassRegistrationTitle
 
@@ -182,7 +172,7 @@ public static string CloudStorage_DlassRegistrationTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_Error"></a> CloudStorage\_Error
 
@@ -192,7 +182,7 @@ public static string CloudStorage_Error { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_Manage"></a> CloudStorage\_Manage
 
@@ -202,7 +192,7 @@ public static string CloudStorage_Manage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_Minutes"></a> CloudStorage\_Minutes
 
@@ -212,7 +202,7 @@ public static string CloudStorage_Minutes { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_NewToken"></a> CloudStorage\_NewToken
 
@@ -222,7 +212,7 @@ public static string CloudStorage_NewToken { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_NewTokenDesc"></a> CloudStorage\_NewTokenDesc
 
@@ -232,7 +222,7 @@ public static string CloudStorage_NewTokenDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_NoAvailableClasses"></a> CloudStorage\_NoAvailableClasses
 
@@ -242,7 +232,7 @@ public static string CloudStorage_NoAvailableClasses { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_NoSavedToken"></a> CloudStorage\_NoSavedToken
 
@@ -252,7 +242,7 @@ public static string CloudStorage_NoSavedToken { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_NotConnected"></a> CloudStorage\_NotConnected
 
@@ -262,7 +252,7 @@ public static string CloudStorage_NotConnected { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_OpenDlassDashboard"></a> CloudStorage\_OpenDlassDashboard
 
@@ -272,7 +262,7 @@ public static string CloudStorage_OpenDlassDashboard { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_Password"></a> CloudStorage\_Password
 
@@ -282,7 +272,7 @@ public static string CloudStorage_Password { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_PleaseEnterNewToken"></a> CloudStorage\_PleaseEnterNewToken
 
@@ -292,7 +282,7 @@ public static string CloudStorage_PleaseEnterNewToken { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_PleaseSelectToken"></a> CloudStorage\_PleaseSelectToken
 
@@ -302,7 +292,7 @@ public static string CloudStorage_PleaseSelectToken { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_ProviderList"></a> CloudStorage\_ProviderList
 
@@ -312,7 +302,7 @@ public static string CloudStorage_ProviderList { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_ProviderListDesc"></a> CloudStorage\_ProviderListDesc
 
@@ -322,7 +312,7 @@ public static string CloudStorage_ProviderListDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_Restore"></a> CloudStorage\_Restore
 
@@ -332,7 +322,7 @@ public static string CloudStorage_Restore { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_RootDirectory"></a> CloudStorage\_RootDirectory
 
@@ -342,7 +332,7 @@ public static string CloudStorage_RootDirectory { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_RootDirectoryDesc"></a> CloudStorage\_RootDirectoryDesc
 
@@ -352,7 +342,7 @@ public static string CloudStorage_RootDirectoryDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_SaveToken"></a> CloudStorage\_SaveToken
 
@@ -362,7 +352,7 @@ public static string CloudStorage_SaveToken { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_SaveTokenError"></a> CloudStorage\_SaveTokenError
 
@@ -372,7 +362,7 @@ public static string CloudStorage_SaveTokenError { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_SaveWebDavError"></a> CloudStorage\_SaveWebDavError
 
@@ -382,7 +372,7 @@ public static string CloudStorage_SaveWebDavError { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_SaveWebDavSettings"></a> CloudStorage\_SaveWebDavSettings
 
@@ -392,7 +382,7 @@ public static string CloudStorage_SaveWebDavSettings { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_SavedTokens"></a> CloudStorage\_SavedTokens
 
@@ -402,7 +392,7 @@ public static string CloudStorage_SavedTokens { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_SavedTokensDesc"></a> CloudStorage\_SavedTokensDesc
 
@@ -412,7 +402,7 @@ public static string CloudStorage_SavedTokensDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_Success"></a> CloudStorage\_Success
 
@@ -422,7 +412,7 @@ public static string CloudStorage_Success { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_TestConnection"></a> CloudStorage\_TestConnection
 
@@ -432,7 +422,7 @@ public static string CloudStorage_TestConnection { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_Testing"></a> CloudStorage\_Testing
 
@@ -442,7 +432,7 @@ public static string CloudStorage_Testing { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_Tip"></a> CloudStorage\_Tip
 
@@ -452,7 +442,7 @@ public static string CloudStorage_Tip { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_TokenActions"></a> CloudStorage\_TokenActions
 
@@ -462,7 +452,7 @@ public static string CloudStorage_TokenActions { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_TokenNotSet"></a> CloudStorage\_TokenNotSet
 
@@ -472,7 +462,7 @@ public static string CloudStorage_TokenNotSet { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_TokenSavedAndSelected"></a> CloudStorage\_TokenSavedAndSelected
 
@@ -482,7 +472,7 @@ public static string CloudStorage_TokenSavedAndSelected { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_TokenSelected"></a> CloudStorage\_TokenSelected
 
@@ -492,7 +482,7 @@ public static string CloudStorage_TokenSelected { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_UnknownTeacher"></a> CloudStorage\_UnknownTeacher
 
@@ -502,7 +492,7 @@ public static string CloudStorage_UnknownTeacher { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_UploadDelay"></a> CloudStorage\_UploadDelay
 
@@ -512,7 +502,7 @@ public static string CloudStorage_UploadDelay { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_UploadDelayDesc"></a> CloudStorage\_UploadDelayDesc
 
@@ -522,7 +512,7 @@ public static string CloudStorage_UploadDelayDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_UploadProviders"></a> CloudStorage\_UploadProviders
 
@@ -532,7 +522,7 @@ public static string CloudStorage_UploadProviders { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_UploadProvidersDesc"></a> CloudStorage\_UploadProvidersDesc
 
@@ -542,7 +532,7 @@ public static string CloudStorage_UploadProvidersDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_UserToken"></a> CloudStorage\_UserToken
 
@@ -552,7 +542,7 @@ public static string CloudStorage_UserToken { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_UserTokenDesc"></a> CloudStorage\_UserTokenDesc
 
@@ -562,7 +552,7 @@ public static string CloudStorage_UserTokenDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_Username"></a> CloudStorage\_Username
 
@@ -572,7 +562,7 @@ public static string CloudStorage_Username { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_WaitingForConnection"></a> CloudStorage\_WaitingForConnection
 
@@ -582,7 +572,7 @@ public static string CloudStorage_WaitingForConnection { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_WebDav"></a> CloudStorage\_WebDav
 
@@ -592,7 +582,7 @@ public static string CloudStorage_WebDav { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_WebDavActions"></a> CloudStorage\_WebDavActions
 
@@ -602,7 +592,7 @@ public static string CloudStorage_WebDavActions { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_WebDavSettings"></a> CloudStorage\_WebDavSettings
 
@@ -612,7 +602,7 @@ public static string CloudStorage_WebDavSettings { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_WebDavSettingsDesc"></a> CloudStorage\_WebDavSettingsDesc
 
@@ -622,7 +612,7 @@ public static string CloudStorage_WebDavSettingsDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_WebDavSettingsSaved"></a> CloudStorage\_WebDavSettingsSaved
 
@@ -632,7 +622,7 @@ public static string CloudStorage_WebDavSettingsSaved { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_WebDavUrl"></a> CloudStorage\_WebDavUrl
 
@@ -642,7 +632,7 @@ public static string CloudStorage_WebDavUrl { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_CloudStorage_WebDavUrlDesc"></a> CloudStorage\_WebDavUrlDesc
 
@@ -652,7 +642,7 @@ public static string CloudStorage_WebDavUrlDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_Culture"></a> Culture
 
@@ -662,7 +652,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
+ CultureInfo
 
 ### <a id="Ink_Canvas_Properties_CloudStorageStrings_ResourceManager"></a> ResourceManager
 
@@ -684,9 +674,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`key` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

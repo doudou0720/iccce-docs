@@ -9,11 +9,11 @@ public enum ToolbarPosition
 
 ## Fields
 
-`Bottom = 3` 
+`Bottom` 
 
-`Left = 1` 
+`Left` 
 
-`Right = 0` 
+`Right` 
 
-`Top = 2` 
+`Top` 
 

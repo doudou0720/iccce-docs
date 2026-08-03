@@ -9,18 +9,8 @@ public static class RandomStrings
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [RandomStrings](Ink\_Canvas.Properties.RandomStrings.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -32,7 +22,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
+ CultureInfo
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddBg_ImageFilter"></a> Random\_AddBg\_ImageFilter
 
@@ -42,7 +32,7 @@ public static string Random_AddBg_ImageFilter { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddBg_LoadImageFailedFormat"></a> Random\_AddBg\_LoadImageFailedFormat
 
@@ -52,7 +42,7 @@ public static string Random_AddBg_LoadImageFailedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddBg_NameLabel"></a> Random\_AddBg\_NameLabel
 
@@ -62,7 +52,7 @@ public static string Random_AddBg_NameLabel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddBg_NoImage"></a> Random\_AddBg\_NoImage
 
@@ -72,7 +62,7 @@ public static string Random_AddBg_NoImage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddBg_PreviewLabel"></a> Random\_AddBg\_PreviewLabel
 
@@ -82,7 +72,7 @@ public static string Random_AddBg_PreviewLabel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddBg_SaveFailedFormat"></a> Random\_AddBg\_SaveFailedFormat
 
@@ -92,7 +82,7 @@ public static string Random_AddBg_SaveFailedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddBg_SelectImage"></a> Random\_AddBg\_SelectImage
 
@@ -102,7 +92,7 @@ public static string Random_AddBg_SelectImage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddBg_SelectImageTitle"></a> Random\_AddBg\_SelectImageTitle
 
@@ -112,7 +102,7 @@ public static string Random_AddBg_SelectImageTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddBg_Title"></a> Random\_AddBg\_Title
 
@@ -122,7 +112,7 @@ public static string Random_AddBg_Title { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddBg_WindowTitle"></a> Random\_AddBg\_WindowTitle
 
@@ -132,7 +122,7 @@ public static string Random_AddBg_WindowTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddIcon_ImageFilter"></a> Random\_AddIcon\_ImageFilter
 
@@ -142,7 +132,7 @@ public static string Random_AddIcon_ImageFilter { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddIcon_LoadImageFailedFormat"></a> Random\_AddIcon\_LoadImageFailedFormat
 
@@ -152,7 +142,7 @@ public static string Random_AddIcon_LoadImageFailedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddIcon_NameLabel"></a> Random\_AddIcon\_NameLabel
 
@@ -162,7 +152,7 @@ public static string Random_AddIcon_NameLabel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddIcon_PreviewLabel"></a> Random\_AddIcon\_PreviewLabel
 
@@ -172,7 +162,7 @@ public static string Random_AddIcon_PreviewLabel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddIcon_SaveFailedFormat"></a> Random\_AddIcon\_SaveFailedFormat
 
@@ -182,7 +172,7 @@ public static string Random_AddIcon_SaveFailedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddIcon_SelectFile"></a> Random\_AddIcon\_SelectFile
 
@@ -192,7 +182,7 @@ public static string Random_AddIcon_SelectFile { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddIcon_SelectFileTitle"></a> Random\_AddIcon\_SelectFileTitle
 
@@ -202,7 +192,7 @@ public static string Random_AddIcon_SelectFileTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddIcon_Title"></a> Random\_AddIcon\_Title
 
@@ -212,7 +202,7 @@ public static string Random_AddIcon_Title { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AddIcon_WindowTitle"></a> Random\_AddIcon\_WindowTitle
 
@@ -222,7 +212,7 @@ public static string Random_AddIcon_WindowTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AlarmSetupSuccess"></a> Random\_AlarmSetupSuccess
 
@@ -232,7 +222,7 @@ public static string Random_AlarmSetupSuccess { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_AudioFilter"></a> Random\_AudioFilter
 
@@ -242,7 +232,7 @@ public static string Random_AudioFilter { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_BackgroundSelectLabel"></a> Random\_BackgroundSelectLabel
 
@@ -252,7 +242,7 @@ public static string Random_BackgroundSelectLabel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_BackgroundSettingsTitle"></a> Random\_BackgroundSettingsTitle
 
@@ -262,7 +252,7 @@ public static string Random_BackgroundSettingsTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Browse"></a> Random\_Browse
 
@@ -272,7 +262,7 @@ public static string Random_Browse { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Cancel"></a> Random\_Cancel
 
@@ -282,7 +272,7 @@ public static string Random_Cancel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_CustomAlarmSuccess"></a> Random\_CustomAlarmSuccess
 
@@ -292,7 +282,7 @@ public static string Random_CustomAlarmSuccess { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_CustomIcon_Title"></a> Random\_CustomIcon\_Title
 
@@ -302,7 +292,7 @@ public static string Random_CustomIcon_Title { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Delete"></a> Random\_Delete
 
@@ -312,7 +302,7 @@ public static string Random_Delete { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_EnableButtons"></a> Random\_EnableButtons
 
@@ -322,7 +312,7 @@ public static string Random_EnableButtons { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_EnableQuickButton"></a> Random\_EnableQuickButton
 
@@ -332,7 +322,7 @@ public static string Random_EnableQuickButton { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Error"></a> Random\_Error
 
@@ -342,7 +332,7 @@ public static string Random_Error { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ExternalTypeLabel"></a> Random\_ExternalTypeLabel
 
@@ -352,7 +342,7 @@ public static string Random_ExternalTypeLabel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ExternalType_ClassIsland"></a> Random\_ExternalType\_ClassIsland
 
@@ -362,7 +352,7 @@ public static string Random_ExternalType_ClassIsland { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ExternalType_NamePicker"></a> Random\_ExternalType\_NamePicker
 
@@ -372,7 +362,7 @@ public static string Random_ExternalType_NamePicker { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ExternalType_SecRandom"></a> Random\_ExternalType\_SecRandom
 
@@ -382,7 +372,7 @@ public static string Random_ExternalType_SecRandom { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Hint"></a> Random\_Hint
 
@@ -392,7 +382,7 @@ public static string Random_Hint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_History_CountFormat"></a> Random\_History\_CountFormat
 
@@ -402,7 +392,7 @@ public static string Random_History_CountFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_History_LoadFailedFormat"></a> Random\_History\_LoadFailedFormat
 
@@ -412,7 +402,7 @@ public static string Random_History_LoadFailedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_History_NoHistory"></a> Random\_History\_NoHistory
 
@@ -422,7 +412,7 @@ public static string Random_History_NoHistory { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_History_StatsTitle"></a> Random\_History\_StatsTitle
 
@@ -432,7 +422,7 @@ public static string Random_History_StatsTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_History_SummaryFormat"></a> Random\_History\_SummaryFormat
 
@@ -442,7 +432,7 @@ public static string Random_History_SummaryFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_History_Title"></a> Random\_History\_Title
 
@@ -452,7 +442,7 @@ public static string Random_History_Title { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_History_WindowTitle"></a> Random\_History\_WindowTitle
 
@@ -462,7 +452,7 @@ public static string Random_History_WindowTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ML_AvoidRepeat"></a> Random\_ML\_AvoidRepeat
 
@@ -472,7 +462,7 @@ public static string Random_ML_AvoidRepeat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ML_Hint"></a> Random\_ML\_Hint
 
@@ -482,7 +472,7 @@ public static string Random_ML_Hint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ML_HistoryCount"></a> Random\_ML\_HistoryCount
 
@@ -492,7 +482,7 @@ public static string Random_ML_HistoryCount { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ML_Weight"></a> Random\_ML\_Weight
 
@@ -502,7 +492,7 @@ public static string Random_ML_Weight { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ManageBg_DeleteConfirmFormat"></a> Random\_ManageBg\_DeleteConfirmFormat
 
@@ -512,7 +502,7 @@ public static string Random_ManageBg_DeleteConfirmFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ManageBg_DeleteConfirmTitle"></a> Random\_ManageBg\_DeleteConfirmTitle
 
@@ -522,7 +512,7 @@ public static string Random_ManageBg_DeleteConfirmTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ManageBg_DeleteFailedFormat"></a> Random\_ManageBg\_DeleteFailedFormat
 
@@ -532,7 +522,7 @@ public static string Random_ManageBg_DeleteFailedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ManageBg_SetAsCurrent"></a> Random\_ManageBg\_SetAsCurrent
 
@@ -542,7 +532,7 @@ public static string Random_ManageBg_SetAsCurrent { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ManageBg_SetSuccessFormat"></a> Random\_ManageBg\_SetSuccessFormat
 
@@ -552,7 +542,7 @@ public static string Random_ManageBg_SetSuccessFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ManageBg_SetSuccessTitle"></a> Random\_ManageBg\_SetSuccessTitle
 
@@ -562,7 +552,7 @@ public static string Random_ManageBg_SetSuccessTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ManageBg_Title"></a> Random\_ManageBg\_Title
 
@@ -572,7 +562,7 @@ public static string Random_ManageBg_Title { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ManageBg_WindowTitle"></a> Random\_ManageBg\_WindowTitle
 
@@ -582,7 +572,7 @@ public static string Random_ManageBg_WindowTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Name"></a> Random\_Name
 
@@ -592,7 +582,7 @@ public static string Random_Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_NamesInput_Hint"></a> Random\_NamesInput\_Hint
 
@@ -602,7 +592,7 @@ public static string Random_NamesInput_Hint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_NamesInput_SaveConfirm"></a> Random\_NamesInput\_SaveConfirm
 
@@ -612,7 +602,7 @@ public static string Random_NamesInput_SaveConfirm { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_NamesInput_Title"></a> Random\_NamesInput\_Title
 
@@ -622,7 +612,7 @@ public static string Random_NamesInput_Title { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_NamesInput_WindowTitle"></a> Random\_NamesInput\_WindowTitle
 
@@ -632,7 +622,7 @@ public static string Random_NamesInput_WindowTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_NewUI_Enable"></a> Random\_NewUI\_Enable
 
@@ -642,7 +632,7 @@ public static string Random_NewUI_Enable { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_NewUI_Title"></a> Random\_NewUI\_Title
 
@@ -652,7 +642,7 @@ public static string Random_NewUI_Title { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_OnceCloseDelay"></a> Random\_OnceCloseDelay
 
@@ -662,7 +652,7 @@ public static string Random_OnceCloseDelay { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_OnceMaxStudents"></a> Random\_OnceMaxStudents
 
@@ -672,7 +662,7 @@ public static string Random_OnceMaxStudents { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Preview"></a> Random\_Preview
 
@@ -682,7 +672,7 @@ public static string Random_Preview { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_QuickDraw_Title"></a> Random\_QuickDraw\_Title
 
@@ -692,7 +682,7 @@ public static string Random_QuickDraw_Title { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_QuickDraw_WindowTitle"></a> Random\_QuickDraw\_WindowTitle
 
@@ -702,7 +692,7 @@ public static string Random_QuickDraw_WindowTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Rand_ClickToImport"></a> Random\_Rand\_ClickToImport
 
@@ -712,7 +702,7 @@ public static string Random_Rand_ClickToImport { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ResetAlarmSuccess"></a> Random\_ResetAlarmSuccess
 
@@ -722,7 +712,7 @@ public static string Random_ResetAlarmSuccess { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ResetSuccess"></a> Random\_ResetSuccess
 
@@ -732,7 +722,7 @@ public static string Random_ResetSuccess { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ClearFailedFormat"></a> Random\_RollCall\_ClearFailedFormat
 
@@ -742,7 +732,7 @@ public static string Random_RollCall_ClearFailedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ClickToStart"></a> Random\_RollCall\_ClickToStart
 
@@ -752,7 +742,7 @@ public static string Random_RollCall_ClickToStart { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_DecreaseCount"></a> Random\_RollCall\_DecreaseCount
 
@@ -762,7 +752,7 @@ public static string Random_RollCall_DecreaseCount { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_DoneNumbersFormat"></a> Random\_RollCall\_DoneNumbersFormat
 
@@ -772,7 +762,7 @@ public static string Random_RollCall_DoneNumbersFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_DonePeopleFormat"></a> Random\_RollCall\_DonePeopleFormat
 
@@ -782,7 +772,7 @@ public static string Random_RollCall_DonePeopleFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_DoneSingleFormat"></a> Random\_RollCall\_DoneSingleFormat
 
@@ -792,7 +782,7 @@ public static string Random_RollCall_DoneSingleFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_Drawing"></a> Random\_RollCall\_Drawing
 
@@ -802,7 +792,7 @@ public static string Random_RollCall_Drawing { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ExceedNameList"></a> Random\_RollCall\_ExceedNameList
 
@@ -812,7 +802,7 @@ public static string Random_RollCall_ExceedNameList { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ExternalCall"></a> Random\_RollCall\_ExternalCall
 
@@ -822,7 +812,7 @@ public static string Random_RollCall_ExternalCall { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ExternalCallerFailedFormat"></a> Random\_RollCall\_ExternalCallerFailedFormat
 
@@ -832,7 +822,7 @@ public static string Random_RollCall_ExternalCallerFailedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ExternalCallerFirstUse"></a> Random\_RollCall\_ExternalCallerFirstUse
 
@@ -842,7 +832,7 @@ public static string Random_RollCall_ExternalCallerFirstUse { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ExternalCallerLaunchedFormat"></a> Random\_RollCall\_ExternalCallerLaunchedFormat
 
@@ -852,7 +842,7 @@ public static string Random_RollCall_ExternalCallerLaunchedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ExternalCallerSelectedFormat"></a> Random\_RollCall\_ExternalCallerSelectedFormat
 
@@ -862,7 +852,7 @@ public static string Random_RollCall_ExternalCallerSelectedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_History"></a> Random\_RollCall\_History
 
@@ -872,7 +862,7 @@ public static string Random_RollCall_History { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_Import"></a> Random\_RollCall\_Import
 
@@ -882,7 +872,7 @@ public static string Random_RollCall_Import { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ImportFailedFormat"></a> Random\_RollCall\_ImportFailedFormat
 
@@ -892,7 +882,7 @@ public static string Random_RollCall_ImportFailedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ImportedNamesFormat"></a> Random\_RollCall\_ImportedNamesFormat
 
@@ -902,7 +892,7 @@ public static string Random_RollCall_ImportedNamesFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_IncreaseCount"></a> Random\_RollCall\_IncreaseCount
 
@@ -912,7 +902,7 @@ public static string Random_RollCall_IncreaseCount { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ListAndHistoryCleared"></a> Random\_RollCall\_ListAndHistoryCleared
 
@@ -922,7 +912,7 @@ public static string Random_RollCall_ListAndHistoryCleared { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_Mode"></a> Random\_RollCall\_Mode
 
@@ -932,7 +922,7 @@ public static string Random_RollCall_Mode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ModeExternal"></a> Random\_RollCall\_ModeExternal
 
@@ -942,7 +932,7 @@ public static string Random_RollCall_ModeExternal { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ModeGroup"></a> Random\_RollCall\_ModeGroup
 
@@ -952,7 +942,7 @@ public static string Random_RollCall_ModeGroup { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ModeSelectedExternalFormat"></a> Random\_RollCall\_ModeSelectedExternalFormat
 
@@ -962,7 +952,7 @@ public static string Random_RollCall_ModeSelectedExternalFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ModeSelectedGroup"></a> Random\_RollCall\_ModeSelectedGroup
 
@@ -972,7 +962,7 @@ public static string Random_RollCall_ModeSelectedGroup { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ModeSelectedRandom"></a> Random\_RollCall\_ModeSelectedRandom
 
@@ -982,7 +972,7 @@ public static string Random_RollCall_ModeSelectedRandom { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ModeSelectedSequential"></a> Random\_RollCall\_ModeSelectedSequential
 
@@ -992,7 +982,7 @@ public static string Random_RollCall_ModeSelectedSequential { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ModeSequential"></a> Random\_RollCall\_ModeSequential
 
@@ -1002,7 +992,7 @@ public static string Random_RollCall_ModeSequential { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_NameListClearVerifyMessage"></a> Random\_RollCall\_NameListClearVerifyMessage
 
@@ -1012,7 +1002,7 @@ public static string Random_RollCall_NameListClearVerifyMessage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_NameListClearVerifyTitle"></a> Random\_RollCall\_NameListClearVerifyTitle
 
@@ -1022,7 +1012,7 @@ public static string Random_RollCall_NameListClearVerifyTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_NameListCountFormat"></a> Random\_RollCall\_NameListCountFormat
 
@@ -1032,7 +1022,7 @@ public static string Random_RollCall_NameListCountFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_NameListManagement"></a> Random\_RollCall\_NameListManagement
 
@@ -1042,7 +1032,7 @@ public static string Random_RollCall_NameListManagement { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_NameListVerifyMessage"></a> Random\_RollCall\_NameListVerifyMessage
 
@@ -1052,7 +1042,7 @@ public static string Random_RollCall_NameListVerifyMessage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_NameListVerifyTitle"></a> Random\_RollCall\_NameListVerifyTitle
 
@@ -1062,7 +1052,7 @@ public static string Random_RollCall_NameListVerifyTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_NoResult"></a> Random\_RollCall\_NoResult
 
@@ -1072,7 +1062,7 @@ public static string Random_RollCall_NoResult { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_OpenHistoryFailedFormat"></a> Random\_RollCall\_OpenHistoryFailedFormat
 
@@ -1082,7 +1072,7 @@ public static string Random_RollCall_OpenHistoryFailedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_PeopleCount"></a> Random\_RollCall\_PeopleCount
 
@@ -1092,7 +1082,7 @@ public static string Random_RollCall_PeopleCount { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_Ready"></a> Random\_RollCall\_Ready
 
@@ -1102,7 +1092,7 @@ public static string Random_RollCall_Ready { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_ReadyToDraw"></a> Random\_RollCall\_ReadyToDraw
 
@@ -1112,7 +1102,7 @@ public static string Random_RollCall_ReadyToDraw { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_Reset"></a> Random\_RollCall\_Reset
 
@@ -1122,7 +1112,7 @@ public static string Random_RollCall_Reset { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_RollCalling"></a> Random\_RollCall\_RollCalling
 
@@ -1132,7 +1122,7 @@ public static string Random_RollCall_RollCalling { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_SingleDrawMode"></a> Random\_RollCall\_SingleDrawMode
 
@@ -1142,7 +1132,7 @@ public static string Random_RollCall_SingleDrawMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_Start"></a> Random\_RollCall\_Start
 
@@ -1152,7 +1142,7 @@ public static string Random_RollCall_Start { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_Stop"></a> Random\_RollCall\_Stop
 
@@ -1162,7 +1152,7 @@ public static string Random_RollCall_Stop { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_Stopped"></a> Random\_RollCall\_Stopped
 
@@ -1172,7 +1162,7 @@ public static string Random_RollCall_Stopped { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_RollCall_WindowTitle"></a> Random\_RollCall\_WindowTitle
 
@@ -1182,7 +1172,7 @@ public static string Random_RollCall_WindowTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_Add"></a> Random\_Roster\_Add
 
@@ -1192,7 +1182,7 @@ public static string Random_Roster_Add { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_AddPrompt"></a> Random\_Roster\_AddPrompt
 
@@ -1202,7 +1192,7 @@ public static string Random_Roster_AddPrompt { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_AddTitle"></a> Random\_Roster\_AddTitle
 
@@ -1212,7 +1202,7 @@ public static string Random_Roster_AddTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_Delete"></a> Random\_Roster\_Delete
 
@@ -1222,7 +1212,7 @@ public static string Random_Roster_Delete { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_DeleteConfirmFormat"></a> Random\_Roster\_DeleteConfirmFormat
 
@@ -1232,7 +1222,7 @@ public static string Random_Roster_DeleteConfirmFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_DeleteConfirmTitle"></a> Random\_Roster\_DeleteConfirmTitle
 
@@ -1242,7 +1232,7 @@ public static string Random_Roster_DeleteConfirmTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_DeleteFailedFormat"></a> Random\_Roster\_DeleteFailedFormat
 
@@ -1252,7 +1242,7 @@ public static string Random_Roster_DeleteFailedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_DuplicateNameFormat"></a> Random\_Roster\_DuplicateNameFormat
 
@@ -1262,7 +1252,7 @@ public static string Random_Roster_DuplicateNameFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_Edit"></a> Random\_Roster\_Edit
 
@@ -1272,7 +1262,7 @@ public static string Random_Roster_Edit { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_EmptyName"></a> Random\_Roster\_EmptyName
 
@@ -1282,7 +1272,7 @@ public static string Random_Roster_EmptyName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_Hint"></a> Random\_Roster\_Hint
 
@@ -1292,7 +1282,7 @@ public static string Random_Roster_Hint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_Manage"></a> Random\_Roster\_Manage
 
@@ -1302,7 +1292,7 @@ public static string Random_Roster_Manage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_ManageTitle"></a> Random\_Roster\_ManageTitle
 
@@ -1312,7 +1302,7 @@ public static string Random_Roster_ManageTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_ManageWindowTitle"></a> Random\_Roster\_ManageWindowTitle
 
@@ -1322,7 +1312,7 @@ public static string Random_Roster_ManageWindowTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_None"></a> Random\_Roster\_None
 
@@ -1332,7 +1322,7 @@ public static string Random_Roster_None { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_OperationFailedFormat"></a> Random\_Roster\_OperationFailedFormat
 
@@ -1342,7 +1332,7 @@ public static string Random_Roster_OperationFailedFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_Rename"></a> Random\_Roster\_Rename
 
@@ -1352,7 +1342,7 @@ public static string Random_Roster_Rename { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_RenamePrompt"></a> Random\_Roster\_RenamePrompt
 
@@ -1362,7 +1352,7 @@ public static string Random_Roster_RenamePrompt { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_RenameTitle"></a> Random\_Roster\_RenameTitle
 
@@ -1372,7 +1362,7 @@ public static string Random_Roster_RenameTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SaveCurrent"></a> Random\_Roster\_SaveCurrent
 
@@ -1382,7 +1372,7 @@ public static string Random_Roster_SaveCurrent { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SaveSuccessFormat"></a> Random\_Roster\_SaveSuccessFormat
 
@@ -1392,7 +1382,7 @@ public static string Random_Roster_SaveSuccessFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SaveSuccessTitle"></a> Random\_Roster\_SaveSuccessTitle
 
@@ -1402,7 +1392,7 @@ public static string Random_Roster_SaveSuccessTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SectionHeader"></a> Random\_Roster\_SectionHeader
 
@@ -1412,7 +1402,7 @@ public static string Random_Roster_SectionHeader { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SelectLabel"></a> Random\_Roster\_SelectLabel
 
@@ -1422,7 +1412,7 @@ public static string Random_Roster_SelectLabel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SetAsCurrent"></a> Random\_Roster\_SetAsCurrent
 
@@ -1432,7 +1422,7 @@ public static string Random_Roster_SetAsCurrent { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SetSuccessFormat"></a> Random\_Roster\_SetSuccessFormat
 
@@ -1442,7 +1432,7 @@ public static string Random_Roster_SetSuccessFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SetSuccessTitle"></a> Random\_Roster\_SetSuccessTitle
 
@@ -1452,7 +1442,7 @@ public static string Random_Roster_SetSuccessTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SwitchLabel"></a> Random\_Roster\_SwitchLabel
 
@@ -1462,7 +1452,7 @@ public static string Random_Roster_SwitchLabel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_SwitchTooltip"></a> Random\_Roster\_SwitchTooltip
 
@@ -1472,7 +1462,7 @@ public static string Random_Roster_SwitchTooltip { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Roster_Title"></a> Random\_Roster\_Title
 
@@ -1482,7 +1472,7 @@ public static string Random_Roster_Title { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_SelectProgressiveAlarm"></a> Random\_SelectProgressiveAlarm
 
@@ -1492,7 +1482,7 @@ public static string Random_SelectProgressiveAlarm { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_SelectTimerAlarm"></a> Random\_SelectTimerAlarm
 
@@ -1502,7 +1492,7 @@ public static string Random_SelectTimerAlarm { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_ShowEditNamesButton"></a> Random\_ShowEditNamesButton
 
@@ -1512,7 +1502,7 @@ public static string Random_ShowEditNamesButton { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_Title"></a> Random\_Title
 
@@ -1522,7 +1512,7 @@ public static string Random_Title { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_UseExternal"></a> Random\_UseExternal
 
@@ -1532,7 +1522,7 @@ public static string Random_UseExternal { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_RandomStrings_ResourceManager"></a> ResourceManager
 
@@ -1554,9 +1544,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`key` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

@@ -13,17 +13,8 @@ public sealed class IacoreTextHint
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IacoreTextHint](Ink\_Canvas.Helpers.IacoreTextHint.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -35,7 +26,7 @@ public bool CoerceToFactoid
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_IacoreTextHint_Factoid"></a> Factoid
 
@@ -45,7 +36,7 @@ public string Factoid
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_IacoreTextHint_HintHeight"></a> HintHeight
 
@@ -55,7 +46,7 @@ public float HintHeight
 
 #### Field Value
 
- [float](https://learn.microsoft.com/dotnet/api/system.single)
+ float
 
 ### <a id="Ink_Canvas_Helpers_IacoreTextHint_HintLeft"></a> HintLeft
 
@@ -65,7 +56,7 @@ public float HintLeft
 
 #### Field Value
 
- [float](https://learn.microsoft.com/dotnet/api/system.single)
+ float
 
 ### <a id="Ink_Canvas_Helpers_IacoreTextHint_HintTop"></a> HintTop
 
@@ -75,7 +66,7 @@ public float HintTop
 
 #### Field Value
 
- [float](https://learn.microsoft.com/dotnet/api/system.single)
+ float
 
 ### <a id="Ink_Canvas_Helpers_IacoreTextHint_HintWidth"></a> HintWidth
 
@@ -85,7 +76,7 @@ public float HintWidth
 
 #### Field Value
 
- [float](https://learn.microsoft.com/dotnet/api/system.single)
+ float
 
 ### <a id="Ink_Canvas_Helpers_IacoreTextHint_WordList"></a> WordList
 
@@ -95,7 +86,7 @@ public string[] WordList
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 ### <a id="Ink_Canvas_Helpers_IacoreTextHint_WordMode"></a> WordMode
 
@@ -105,5 +96,5 @@ public bool WordMode
 
 #### Field Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

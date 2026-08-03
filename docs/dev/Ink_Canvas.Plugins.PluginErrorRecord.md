@@ -11,18 +11,8 @@ public class PluginErrorRecord
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PluginErrorRecord](Ink\_Canvas.Plugins.PluginErrorRecord.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -34,7 +24,7 @@ public bool AutoDisabled { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_PluginErrorRecord_AutoDisabledAt"></a> AutoDisabledAt
 
@@ -44,7 +34,7 @@ public DateTime? AutoDisabledAt { get; set; }
 
 #### Property Value
 
- [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)?
+ DateTime?
 
 ### <a id="Ink_Canvas_Plugins_PluginErrorRecord_FailureTimestamps"></a> FailureTimestamps
 
@@ -54,7 +44,7 @@ public List<DateTime> FailureTimestamps { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)\>
+ List<DateTime\>
 
 ### <a id="Ink_Canvas_Plugins_PluginErrorRecord_FirstFailureAt"></a> FirstFailureAt
 
@@ -64,7 +54,7 @@ public DateTime FirstFailureAt { get; set; }
 
 #### Property Value
 
- [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
+ DateTime
 
 ### <a id="Ink_Canvas_Plugins_PluginErrorRecord_LastErrorMessage"></a> LastErrorMessage
 
@@ -74,7 +64,7 @@ public string LastErrorMessage { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginErrorRecord_LastFailureAt"></a> LastFailureAt
 
@@ -84,7 +74,7 @@ public DateTime LastFailureAt { get; set; }
 
 #### Property Value
 
- [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
+ DateTime
 
 ### <a id="Ink_Canvas_Plugins_PluginErrorRecord_LastStackTrace"></a> LastStackTrace
 
@@ -94,7 +84,7 @@ public string LastStackTrace { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginErrorRecord_PluginId"></a> PluginId
 
@@ -104,7 +94,7 @@ public string PluginId { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginErrorRecord_PluginName"></a> PluginName
 
@@ -114,7 +104,7 @@ public string PluginName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 

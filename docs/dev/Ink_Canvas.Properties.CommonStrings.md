@@ -9,18 +9,8 @@ public static class CommonStrings
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CommonStrings](Ink\_Canvas.Properties.CommonStrings.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -32,7 +22,7 @@ public static string Color { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CommonStrings_Common_Cancel"></a> Common\_Cancel
 
@@ -42,7 +32,7 @@ public static string Common_Cancel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CommonStrings_Common_OK"></a> Common\_OK
 
@@ -52,7 +42,7 @@ public static string Common_OK { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CommonStrings_Common_Off"></a> Common\_Off
 
@@ -62,7 +52,7 @@ public static string Common_Off { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CommonStrings_Common_On"></a> Common\_On
 
@@ -72,7 +62,7 @@ public static string Common_On { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CommonStrings_Culture"></a> Culture
 
@@ -82,7 +72,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
+ CultureInfo
 
 ### <a id="Ink_Canvas_Properties_CommonStrings_Hotkey_NotSet"></a> Hotkey\_NotSet
 
@@ -92,7 +82,7 @@ public static string Hotkey_NotSet { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CommonStrings_Mode_PPTOnly"></a> Mode\_PPTOnly
 
@@ -102,7 +92,7 @@ public static string Mode_PPTOnly { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CommonStrings_No"></a> No
 
@@ -112,7 +102,7 @@ public static string No { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CommonStrings_ResourceManager"></a> ResourceManager
 
@@ -132,7 +122,7 @@ public static string Size_Medium { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CommonStrings_Size_Small"></a> Size\_Small
 
@@ -142,7 +132,7 @@ public static string Size_Small { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CommonStrings_Time_End"></a> Time\_End
 
@@ -152,7 +142,7 @@ public static string Time_End { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CommonStrings_Time_Start"></a> Time\_Start
 
@@ -162,7 +152,7 @@ public static string Time_Start { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CommonStrings_Yes"></a> Yes
 
@@ -172,7 +162,7 @@ public static string Yes { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -184,9 +174,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`key` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

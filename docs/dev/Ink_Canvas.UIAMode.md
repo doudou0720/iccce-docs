@@ -9,7 +9,7 @@ public enum UIAMode
 
 ## Fields
 
-`ProcessToken = 1` 
+`ProcessToken` 
 
-`UserToken = 0` 
+`UserToken` 
 

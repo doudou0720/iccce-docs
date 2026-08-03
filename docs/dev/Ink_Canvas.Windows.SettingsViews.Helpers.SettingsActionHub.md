@@ -9,18 +9,8 @@ public static class SettingsActionHub
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SettingsActionHub](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsActionHub.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -56,7 +46,7 @@ public static void OnBlackBoardLeftScaleChanged(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnBlackBoardRightScaleChanged_System_Double_"></a> OnBlackBoardRightScaleChanged\(double\)
 
@@ -66,7 +56,7 @@ public static void OnBlackBoardRightScaleChanged(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnBlackBoardScaleChanged_System_Double_"></a> OnBlackBoardScaleChanged\(double\)
 
@@ -76,7 +66,7 @@ public static void OnBlackBoardScaleChanged(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnBoardMenuOpacityChanged_System_Double_"></a> OnBoardMenuOpacityChanged\(double\)
 
@@ -86,7 +76,7 @@ public static void OnBoardMenuOpacityChanged(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnBoardToolbarCenterOpacityChanged_System_Double_"></a> OnBoardToolbarCenterOpacityChanged\(double\)
 
@@ -96,7 +86,7 @@ public static void OnBoardToolbarCenterOpacityChanged(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnBoardToolbarLeftOpacityChanged_System_Double_"></a> OnBoardToolbarLeftOpacityChanged\(double\)
 
@@ -106,7 +96,7 @@ public static void OnBoardToolbarLeftOpacityChanged(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnBoardToolbarRightOpacityChanged_System_Double_"></a> OnBoardToolbarRightOpacityChanged\(double\)
 
@@ -116,7 +106,7 @@ public static void OnBoardToolbarRightOpacityChanged(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnChickenSoupAutoRotationChanged"></a> OnChickenSoupAutoRotationChanged\(\)
 
@@ -132,9 +122,9 @@ public static void OnChickenSoupInWhiteboardChanged(bool isOn, bool isTimeDispla
 
 #### Parameters
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
-`isTimeDisplayOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isTimeDisplayOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnChickenSoupPositionChanged"></a> OnChickenSoupPositionChanged\(\)
 
@@ -162,7 +152,7 @@ public static void OnCompactFloatingBarChanged(bool isOn)
 
 #### Parameters
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnCurveSmoothingModeChanged_System_Boolean_System_Boolean_"></a> OnCurveSmoothingModeChanged\(bool, bool\)
 
@@ -172,9 +162,9 @@ public static void OnCurveSmoothingModeChanged(bool fitToCurve, bool useAdvanced
 
 #### Parameters
 
-`fitToCurve` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`fitToCurve` bool
 
-`useAdvancedBezier` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`useAdvancedBezier` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnCustomPenCursorPathChanged"></a> OnCustomPenCursorPathChanged\(\)
 
@@ -190,7 +180,7 @@ public static void OnDisablePressureChanged(bool value)
 
 #### Parameters
 
-`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`value` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnEnableIdleMiniBarChanged_System_Boolean_"></a> OnEnableIdleMiniBarChanged\(bool\)
 
@@ -200,7 +190,17 @@ public static void OnEnableIdleMiniBarChanged(bool isOn)
 
 #### Parameters
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnEnableLiquidGlassBarChanged_System_Boolean_"></a> OnEnableLiquidGlassBarChanged\(bool\)
+
+```csharp
+public static void OnEnableLiquidGlassBarChanged(bool isOn)
+```
+
+#### Parameters
+
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnEnablePressureTouchModeChanged_System_Boolean_"></a> OnEnablePressureTouchModeChanged\(bool\)
 
@@ -210,7 +210,7 @@ public static void OnEnablePressureTouchModeChanged(bool value)
 
 #### Parameters
 
-`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`value` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnEnableQuickDrawChanged"></a> OnEnableQuickDrawChanged\(\)
 
@@ -226,9 +226,9 @@ public static void OnEraserSizeChanged(int selectedIndex)
 
 #### Parameters
 
-`selectedIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`selectedIndex` int
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnExitApplication_System_Object_System_Windows_RoutedEventArgs_"></a> OnExitApplication\(object, RoutedEventArgs\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnExitApplication_System_Object_RoutedEventArgs_"></a> OnExitApplication\(object, RoutedEventArgs\)
 
 ```csharp
 public static void OnExitApplication(object sender, RoutedEventArgs e)
@@ -236,9 +236,9 @@ public static void OnExitApplication(object sender, RoutedEventArgs e)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
-`e` [RoutedEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs)
+`e` RoutedEventArgs
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnFingerModeBoundsWidthChanged"></a> OnFingerModeBoundsWidthChanged\(\)
 
@@ -266,7 +266,7 @@ public static void OnFloatingBarMenuOpacityChanged(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnFloatingBarMenuOpacityInPPTChanged_System_Double_"></a> OnFloatingBarMenuOpacityInPPTChanged\(double\)
 
@@ -276,7 +276,7 @@ public static void OnFloatingBarMenuOpacityInPPTChanged(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnFloatingBarOpacityChanged_System_Double_"></a> OnFloatingBarOpacityChanged\(double\)
 
@@ -286,7 +286,7 @@ public static void OnFloatingBarOpacityChanged(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnFloatingBarOpacityInPPTChanged_System_Double_"></a> OnFloatingBarOpacityInPPTChanged\(double\)
 
@@ -296,7 +296,7 @@ public static void OnFloatingBarOpacityInPPTChanged(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnFloatingBarScaleChanged_System_Double_"></a> OnFloatingBarScaleChanged\(double\)
 
@@ -306,7 +306,7 @@ public static void OnFloatingBarScaleChanged(double actualScale)
 
 #### Parameters
 
-`actualScale` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`actualScale` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnFloatingWindowInterceptorEnabledCheck_System_Boolean_"></a> OnFloatingWindowInterceptorEnabledCheck\(bool\)
 
@@ -316,7 +316,7 @@ public static void OnFloatingWindowInterceptorEnabledCheck(bool anyOn)
 
 #### Parameters
 
-`anyOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`anyOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnFloatingWindowInterceptorRuleChanged_System_String_System_Boolean_"></a> OnFloatingWindowInterceptorRuleChanged\(string, bool\)
 
@@ -326,9 +326,9 @@ public static void OnFloatingWindowInterceptorRuleChanged(string ruleKey, bool i
 
 #### Parameters
 
-`ruleKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`ruleKey` string
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnHandwritingRecognizerLanguageChanged"></a> OnHandwritingRecognizerLanguageChanged\(\)
 
@@ -352,7 +352,7 @@ public static void OnHideFloatingBarBorderChanged(bool isOn)
 
 #### Parameters
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnIdleMiniBarOpacityChanged_System_Double_"></a> OnIdleMiniBarOpacityChanged\(double\)
 
@@ -362,7 +362,7 @@ public static void OnIdleMiniBarOpacityChanged(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnInkToShapeEnabledChanged_System_Boolean_"></a> OnInkToShapeEnabledChanged\(bool\)
 
@@ -372,7 +372,7 @@ public static void OnInkToShapeEnabledChanged(bool isOn)
 
 #### Parameters
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnIsShowCursorChanged_System_Boolean_"></a> OnIsShowCursorChanged\(bool\)
 
@@ -382,7 +382,7 @@ public static void OnIsShowCursorChanged(bool value)
 
 #### Parameters
 
-`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`value` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnLanguageChanged_System_String_"></a> OnLanguageChanged\(string\)
 
@@ -392,7 +392,17 @@ public static void OnLanguageChanged(string language)
 
 #### Parameters
 
-`language` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`language` string
+
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnLiquidGlassBarOpacityChanged_System_Double_"></a> OnLiquidGlassBarOpacityChanged\(double\)
+
+```csharp
+public static void OnLiquidGlassBarOpacityChanged(double value)
+```
+
+#### Parameters
+
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnNibModeBoundsWidthChanged"></a> OnNibModeBoundsWidthChanged\(\)
 
@@ -408,7 +418,7 @@ public static void OnNibModeChanged(bool isOn)
 
 #### Parameters
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnPPTBButtonsOptionChanged"></a> OnPPTBButtonsOptionChanged\(\)
 
@@ -430,9 +440,9 @@ public static void OnPPTButtonOpacityChanged(string buttonKey, double value)
 
 #### Parameters
 
-`buttonKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`buttonKey` string
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnPPTButtonPositionChanged"></a> OnPPTButtonPositionChanged\(\)
 
@@ -454,7 +464,7 @@ public static void OnPPTEnhancementChanged(bool isOn)
 
 #### Parameters
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnPPTGlobalSettingsChanged"></a> OnPPTGlobalSettingsChanged\(\)
 
@@ -479,7 +489,7 @@ public static void OnPPTNavBarScaleChanged(double scale)
 
 #### Parameters
 
-`scale` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`scale` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnPPTSButtonsOptionChanged"></a> OnPPTSButtonsOptionChanged\(\)
 
@@ -501,7 +511,7 @@ public static void OnPPTSupportChanged(bool isOn)
 
 #### Parameters
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnPPTTimeCapsuleChanged"></a> OnPPTTimeCapsuleChanged\(\)
 
@@ -535,7 +545,7 @@ public static void OnPenCursorTypeChanged(int selectedIndex)
 
 #### Parameters
 
-`selectedIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`selectedIndex` int
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnQuickPanelBottomOffsetChanged_System_Double_"></a> OnQuickPanelBottomOffsetChanged\(double\)
 
@@ -545,7 +555,7 @@ public static void OnQuickPanelBottomOffsetChanged(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnQuickPanelOpacityChanged_System_Double_"></a> OnQuickPanelOpacityChanged\(double\)
 
@@ -555,7 +565,7 @@ public static void OnQuickPanelOpacityChanged(double value)
 
 #### Parameters
 
-`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
+`value` double
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnReloadSettingsFromFile"></a> OnReloadSettingsFromFile\(\)
 
@@ -569,7 +579,7 @@ public static void OnReloadSettingsFromFile()
 public static void OnResetPPTTimeCapsulePosition()
 ```
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnResetToSuggestion_System_Object_System_Windows_RoutedEventArgs_"></a> OnResetToSuggestion\(object, RoutedEventArgs\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnResetToSuggestion_System_Object_RoutedEventArgs_"></a> OnResetToSuggestion\(object, RoutedEventArgs\)
 
 ```csharp
 public static void OnResetToSuggestion(object sender, RoutedEventArgs e)
@@ -577,11 +587,11 @@ public static void OnResetToSuggestion(object sender, RoutedEventArgs e)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
-`e` [RoutedEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs)
+`e` RoutedEventArgs
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnRestartApplication_System_Object_System_Windows_RoutedEventArgs_"></a> OnRestartApplication\(object, RoutedEventArgs\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnRestartApplication_System_Object_RoutedEventArgs_"></a> OnRestartApplication\(object, RoutedEventArgs\)
 
 ```csharp
 public static void OnRestartApplication(object sender, RoutedEventArgs e)
@@ -589,9 +599,9 @@ public static void OnRestartApplication(object sender, RoutedEventArgs e)
 
 #### Parameters
 
-`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`sender` object
 
-`e` [RoutedEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs)
+`e` RoutedEventArgs
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnReverseToolbarContentChanged_System_Boolean_"></a> OnReverseToolbarContentChanged\(bool\)
 
@@ -601,7 +611,7 @@ public static void OnReverseToolbarContentChanged(bool isOn)
 
 #### Parameters
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnShowPPTButtonChanged_System_Boolean_"></a> OnShowPPTButtonChanged\(bool\)
 
@@ -611,7 +621,7 @@ public static void OnShowPPTButtonChanged(bool isOn)
 
 #### Parameters
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnShowPPTSidebarByDefaultChanged"></a> OnShowPPTSidebarByDefaultChanged\(\)
 
@@ -627,7 +637,7 @@ public static void OnShowRandomAndSingleDrawChanged(bool isOn)
 
 #### Parameters
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnSkipAnimationsWhenGoNextChanged_System_Boolean_"></a> OnSkipAnimationsWhenGoNextChanged\(bool\)
 
@@ -637,7 +647,7 @@ public static void OnSkipAnimationsWhenGoNextChanged(bool isOn)
 
 #### Parameters
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnSmartUpdateChanged"></a> OnSmartUpdateChanged\(\)
 
@@ -665,7 +675,7 @@ public static void OnThemeChanged(int themeIndex)
 
 #### Parameters
 
-`themeIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`themeIndex` int
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnTimeDisplayInWhiteboardChanged_System_Boolean_"></a> OnTimeDisplayInWhiteboardChanged\(bool\)
 
@@ -675,7 +685,7 @@ public static void OnTimeDisplayInWhiteboardChanged(bool isOn)
 
 #### Parameters
 
-`isOn` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`isOn` bool
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnToolbarPositionChanged_Ink_Canvas_ToolbarPosition_"></a> OnToolbarPositionChanged\(ToolbarPosition\)
 
@@ -695,7 +705,7 @@ public static void OnUnFoldButtonImageTypeChanged(int selectedIndex)
 
 #### Parameters
 
-`selectedIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`selectedIndex` int
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnUpdateChannelChanged"></a> OnUpdateChannelChanged\(\)
 

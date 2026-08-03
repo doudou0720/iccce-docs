@@ -9,5 +9,5 @@ public delegate void TimeMachine.OnUndoStateChange(bool status)
 
 #### Parameters
 
-`status` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`status` bool
 

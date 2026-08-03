@@ -11,18 +11,8 @@ public static class ScreenDetectionHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ScreenDetectionHelper](Ink\_Canvas.Helpers.ScreenDetectionHelper.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -36,7 +26,7 @@ public static Screen[] GetAllScreens()
 
 #### Returns
 
- [Screen](https://learn.microsoft.com/dotnet/api/system.windows.forms.screen)\[\]
+ Screen\[\]
 
 所有屏幕的数组
 
@@ -50,11 +40,11 @@ public static Screen GetPrimaryScreen()
 
 #### Returns
 
- [Screen](https://learn.microsoft.com/dotnet/api/system.windows.forms.screen)
+ Screen
 
 主屏幕
 
-### <a id="Ink_Canvas_Helpers_ScreenDetectionHelper_GetWindowScreen_System_Windows_Window_"></a> GetWindowScreen\(Window\)
+### <a id="Ink_Canvas_Helpers_ScreenDetectionHelper_GetWindowScreen_Window_"></a> GetWindowScreen\(Window\)
 
 获取窗口所在的屏幕
 
@@ -64,13 +54,13 @@ public static Screen GetWindowScreen(Window window)
 
 #### Parameters
 
-`window` [Window](https://learn.microsoft.com/dotnet/api/system.windows.window)
+`window` Window
 
 要检测的窗口
 
 #### Returns
 
- [Screen](https://learn.microsoft.com/dotnet/api/system.windows.forms.screen)
+ Screen
 
 窗口所在的屏幕，如果无法检测则返回主屏幕
 
@@ -84,11 +74,11 @@ public static bool HasMultipleScreens()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 如果有多个屏幕返回true，否则返回false
 
-### <a id="Ink_Canvas_Helpers_ScreenDetectionHelper_IsWindowOnPrimaryScreen_System_Windows_Window_"></a> IsWindowOnPrimaryScreen\(Window\)
+### <a id="Ink_Canvas_Helpers_ScreenDetectionHelper_IsWindowOnPrimaryScreen_Window_"></a> IsWindowOnPrimaryScreen\(Window\)
 
 检查窗口是否在主屏幕上
 
@@ -98,13 +88,13 @@ public static bool IsWindowOnPrimaryScreen(Window window)
 
 #### Parameters
 
-`window` [Window](https://learn.microsoft.com/dotnet/api/system.windows.window)
+`window` Window
 
 要检查的窗口
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 如果窗口在主屏幕上返回true，否则返回false
 

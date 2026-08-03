@@ -9,18 +9,8 @@ public class AnnouncementCenterItem
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnnouncementCenterItem](Ink\_Canvas.Models.AnnouncementCenterItem.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -32,7 +22,7 @@ public string ActionUrl { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_AnnouncementCenterItem_Content"></a> Content
 
@@ -42,7 +32,7 @@ public string Content { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_AnnouncementCenterItem_CreatedAt"></a> CreatedAt
 
@@ -52,7 +42,7 @@ public DateTime CreatedAt { get; set; }
 
 #### Property Value
 
- [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
+ DateTime
 
 ### <a id="Ink_Canvas_Models_AnnouncementCenterItem_Id"></a> Id
 
@@ -62,7 +52,7 @@ public string Id { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_AnnouncementCenterItem_IsNew"></a> IsNew
 
@@ -72,7 +62,7 @@ public bool IsNew { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Models_AnnouncementCenterItem_IsRead"></a> IsRead
 
@@ -82,7 +72,7 @@ public bool IsRead { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Models_AnnouncementCenterItem_IsUnread"></a> IsUnread
 
@@ -92,7 +82,7 @@ public bool IsUnread { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Models_AnnouncementCenterItem_Level"></a> Level
 
@@ -112,7 +102,7 @@ public string Summary { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_AnnouncementCenterItem_Title"></a> Title
 
@@ -122,7 +112,7 @@ public string Title { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_AnnouncementCenterItem_Type"></a> Type
 

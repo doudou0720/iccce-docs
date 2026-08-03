@@ -11,26 +11,12 @@ public class InkSmoothingManager : IDisposable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+IDisposable ← 
 [InkSmoothingManager](Ink\_Canvas.Helpers.InkSmoothingManager.md)
-
-#### Implements
-
-[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
-### <a id="Ink_Canvas_Helpers_InkSmoothingManager__ctor_System_Windows_Threading_Dispatcher_"></a> InkSmoothingManager\(Dispatcher\)
+### <a id="Ink_Canvas_Helpers_InkSmoothingManager__ctor_Dispatcher_"></a> InkSmoothingManager\(Dispatcher\)
 
 ```csharp
 public InkSmoothingManager(Dispatcher uiDispatcher)
@@ -38,7 +24,7 @@ public InkSmoothingManager(Dispatcher uiDispatcher)
 
 #### Parameters
 
-`uiDispatcher` [Dispatcher](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcher)
+`uiDispatcher` Dispatcher
 
 ## Properties
 
@@ -74,8 +60,6 @@ public void CancelAllTasks()
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingManager_Dispose"></a> Dispose\(\)
 
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
-
 ```csharp
 public void Dispose()
 ```
@@ -102,7 +86,7 @@ public string GetPerformanceStats()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingManager_GetRecommendedConfig"></a> GetRecommendedConfig\(\)
 
@@ -126,7 +110,7 @@ public static bool IsHardwareAccelerationSupported()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingManager_ResetPerformanceStats"></a> ResetPerformanceStats\(\)
 
@@ -134,7 +118,7 @@ public static bool IsHardwareAccelerationSupported()
 public void ResetPerformanceStats()
 ```
 
-### <a id="Ink_Canvas_Helpers_InkSmoothingManager_SmoothStroke_System_Windows_Ink_Stroke_"></a> SmoothStroke\(Stroke\)
+### <a id="Ink_Canvas_Helpers_InkSmoothingManager_SmoothStroke_Stroke_"></a> SmoothStroke\(Stroke\)
 
 同步平滑笔画（用于向后兼容）
 
@@ -144,31 +128,31 @@ public Stroke SmoothStroke(Stroke originalStroke)
 
 #### Parameters
 
-`originalStroke` [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
+`originalStroke` Stroke
 
 #### Returns
 
- [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
+ Stroke
 
-### <a id="Ink_Canvas_Helpers_InkSmoothingManager_SmoothStrokeAsync_System_Windows_Ink_Stroke_System_Action_System_Windows_Ink_Stroke_System_Windows_Ink_Stroke__System_Threading_CancellationToken_"></a> SmoothStrokeAsync\(Stroke, Action<Stroke, Stroke\>, CancellationToken\)
+### <a id="Ink_Canvas_Helpers_InkSmoothingManager_SmoothStrokeAsync_Stroke_Action_Stroke_Stroke__CancellationToken_"></a> SmoothStrokeAsync\(Stroke, Action<Stroke, Stroke\>, CancellationToken\)
 
 平滑笔画（自动选择最佳方法）
 
 ```csharp
-public Task<Stroke> SmoothStrokeAsync(Stroke originalStroke, Action<Stroke, Stroke> onCompleted = null, CancellationToken cancellationToken = default)
+public Task<Stroke> SmoothStrokeAsync(Stroke originalStroke, Action<Stroke, Stroke> onCompleted = null, CancellationToken cancellationToken = null)
 ```
 
 #### Parameters
 
-`originalStroke` [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
+`originalStroke` Stroke
 
-`onCompleted` [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke), [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)\>
+`onCompleted` Action<Stroke, Stroke\>
 
-`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+`cancellationToken` CancellationToken
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)\>
+ Task<Stroke\>
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingManager_UpdateConfig"></a> UpdateConfig\(\)
 

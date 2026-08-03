@@ -20,6 +20,8 @@
 
  [Ink\_Canvas.Properties](Ink\_Canvas.Properties.md)
 
+ [Ink\_Canvas.Shaders](Ink\_Canvas.Shaders.md)
+
  [Ink\_Canvas.Windows](Ink\_Canvas.Windows.md)
 
  [Ink\_Canvas.WorkflowAutomation](Ink\_Canvas.WorkflowAutomation.md)
@@ -62,8 +64,6 @@ Interaction logic for StopwatchWindow.xaml
 
  [CrashWindow](Ink\_Canvas.CrashWindow.md)
 
-CrashWindow
-
  [CustomFloatingBarIcon](Ink\_Canvas.CustomFloatingBarIcon.md)
 
  [CustomIconWindow](Ink\_Canvas.CustomIconWindow.md)
@@ -85,6 +85,12 @@ CustomIconWindow.xaml 的交互逻辑
  [InkToShape](Ink\_Canvas.InkToShape.md)
 
  [FloatingWindowInterceptorManager.InterceptStatistics](Ink\_Canvas.FloatingWindowInterceptorManager.InterceptStatistics.md)
+
+ [LiquidGlassBarWindow](Ink\_Canvas.LiquidGlassBarWindow.md)
+
+液态玻璃浮动栏：独立的置顶、不可激活胶囊窗口，把桌面截图经折射着色器处理后作为自身背景，
+呈现一块厚玻璃压在桌面上的效果。工具按钮转发到 <xref href="Ink_Canvas.MainWindow" data-throw-if-not-resolved="false"></xref> 的既有处理器。
+参考 wpf-liquid-glass-window（MIT）的三层结构：截图背景 → 折射 → 半透明内容。
 
  [MainWindow](Ink\_Canvas.MainWindow.md)
 
@@ -136,8 +142,6 @@ Super-detailed realtime-ink fields are only populated when Debug 页开关开启
 
  [PrivacyAgreementWindow](Ink\_Canvas.PrivacyAgreementWindow.md)
 
-PrivacyAgreementWindow
-
  [QuickDrawWindow](Ink\_Canvas.QuickDrawWindow.md)
 
 快抽窗口
@@ -165,8 +169,6 @@ Interaction logic for RollCallHistoryWindow.xaml
 ListView 展示行：把 NameRoster 的内容与"是否当前"状态合并展示。
 
  [ScreenshotSelectorWindow](Ink\_Canvas.ScreenshotSelectorWindow.md)
-
-ScreenshotSelectorWindow
 
  [Security](Ink\_Canvas.Security.md)
 

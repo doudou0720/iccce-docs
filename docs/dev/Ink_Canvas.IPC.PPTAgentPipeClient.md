@@ -9,21 +9,8 @@ public sealed class PPTAgentPipeClient : IDisposable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+IDisposable ← 
 [PPTAgentPipeClient](Ink\_Canvas.IPC.PPTAgentPipeClient.md)
-
-#### Implements
-
-[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -35,13 +22,11 @@ public bool IsConnected { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
 ### <a id="Ink_Canvas_IPC_PPTAgentPipeClient_Dispose"></a> Dispose\(\)
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ```csharp
 public void Dispose()
@@ -55,29 +40,29 @@ public bool SendCommand(string command, object data = null)
 
 #### Parameters
 
-`command` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`command` string
 
-`data` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`data` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_IPC_PPTAgentPipeClient_SendRequest__1_System_String_System_Object_System_Int32_"></a> SendRequest<T\>\(string, object, int\)
 
 Synchronous request. Prefer <xref href="Ink_Canvas.IPC.PPTAgentPipeClient.SendRequestAsync%60%601(System.String%2cSystem.Object%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> to avoid sync-over-async deadlocks.
 
 ```csharp
-public T SendRequest<T>(string command, object data = null, int timeoutMilliseconds = default)
+public T SendRequest<T>(string command, object data = null, int timeoutMilliseconds = null)
 ```
 
 #### Parameters
 
-`command` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`command` string
 
-`data` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`data` object
 
-`timeoutMilliseconds` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`timeoutMilliseconds` int
 
 #### Returns
 
@@ -90,20 +75,20 @@ public T SendRequest<T>(string command, object data = null, int timeoutMilliseco
 ### <a id="Ink_Canvas_IPC_PPTAgentPipeClient_SendRequestAsync__1_System_String_System_Object_System_Int32_"></a> SendRequestAsync<T\>\(string, object, int\)
 
 ```csharp
-public Task<T> SendRequestAsync<T>(string command, object data = null, int timeoutMilliseconds = default)
+public Task<T> SendRequestAsync<T>(string command, object data = null, int timeoutMilliseconds = null)
 ```
 
 #### Parameters
 
-`command` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`command` string
 
-`data` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`data` object
 
-`timeoutMilliseconds` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`timeoutMilliseconds` int
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<T\>
+ Task<T\>
 
 #### Type Parameters
 
@@ -129,7 +114,7 @@ public event Action<bool> ConnectionChanged
 
 #### Event Type
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+ Action<bool\>
 
 ### <a id="Ink_Canvas_IPC_PPTAgentPipeClient_EventReceived"></a> EventReceived
 
@@ -139,7 +124,7 @@ public event Action<string, PPTState> EventReceived
 
 #### Event Type
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), PPTState\>
+ Action<string, PPTState\>
 
 ### <a id="Ink_Canvas_IPC_PPTAgentPipeClient_StateReceived"></a> StateReceived
 
@@ -149,5 +134,5 @@ public event Action<PPTState> StateReceived
 
 #### Event Type
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<PPTState\>
+ Action<PPTState\>
 

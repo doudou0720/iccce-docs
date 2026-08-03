@@ -9,18 +9,8 @@ public static class CanvasStrings
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [CanvasStrings](Ink\_Canvas.Properties.CanvasStrings.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -32,7 +22,7 @@ public static string CanvasAndInkPanel_1920_1080Hint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_CanvasAndInkPanel_Hint_9"></a> CanvasAndInkPanel\_Hint\_9
 
@@ -42,7 +32,7 @@ public static string CanvasAndInkPanel_Hint_9 { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_AdvancedSmoothing"></a> Canvas\_AdvancedSmoothing
 
@@ -52,7 +42,7 @@ public static string Canvas_AdvancedSmoothing { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_ApplyColor"></a> Canvas\_ApplyColor
 
@@ -62,7 +52,7 @@ public static string Canvas_ApplyColor { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_AskEachTime"></a> Canvas\_AskEachTime
 
@@ -72,7 +62,7 @@ public static string Canvas_AskEachTime { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_AutoRestoreTimePoints"></a> Canvas\_AutoRestoreTimePoints
 
@@ -82,7 +72,7 @@ public static string Canvas_AutoRestoreTimePoints { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_BackgroundColor"></a> Canvas\_BackgroundColor
 
@@ -92,7 +82,7 @@ public static string Canvas_BackgroundColor { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_BackgroundSettings"></a> Canvas\_BackgroundSettings
 
@@ -102,7 +92,7 @@ public static string Canvas_BackgroundSettings { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_Blackboard"></a> Canvas\_Blackboard
 
@@ -112,7 +102,7 @@ public static string Canvas_Blackboard { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_BrushAutoRestore"></a> Canvas\_BrushAutoRestore
 
@@ -122,7 +112,7 @@ public static string Canvas_BrushAutoRestore { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_BrushAutoRestoreHint"></a> Canvas\_BrushAutoRestoreHint
 
@@ -132,7 +122,7 @@ public static string Canvas_BrushAutoRestoreHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_ClearCanvasAlsoClearImages"></a> Canvas\_ClearCanvasAlsoClearImages
 
@@ -142,7 +132,7 @@ public static string Canvas_ClearCanvasAlsoClearImages { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_ClearInkAlsoClearHistory"></a> Canvas\_ClearInkAlsoClearHistory
 
@@ -152,7 +142,7 @@ public static string Canvas_ClearInkAlsoClearHistory { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_Color_Black"></a> Canvas\_Color\_Black
 
@@ -162,7 +152,7 @@ public static string Canvas_Color_Black { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_Color_Blue"></a> Canvas\_Color\_Blue
 
@@ -172,7 +162,7 @@ public static string Canvas_Color_Blue { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_Color_Default"></a> Canvas\_Color\_Default
 
@@ -182,7 +172,7 @@ public static string Canvas_Color_Default { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_Color_Green"></a> Canvas\_Color\_Green
 
@@ -192,7 +182,7 @@ public static string Canvas_Color_Green { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_Color_Orange"></a> Canvas\_Color\_Orange
 
@@ -202,7 +192,7 @@ public static string Canvas_Color_Orange { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_Color_Purple"></a> Canvas\_Color\_Purple
 
@@ -212,7 +202,7 @@ public static string Canvas_Color_Purple { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_Color_Red"></a> Canvas\_Color\_Red
 
@@ -222,7 +212,7 @@ public static string Canvas_Color_Red { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_Color_White"></a> Canvas\_Color\_White
 
@@ -232,7 +222,7 @@ public static string Canvas_Color_White { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_Color_Yellow"></a> Canvas\_Color\_Yellow
 
@@ -242,7 +232,7 @@ public static string Canvas_Color_Yellow { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_CompressPicturesUploaded"></a> Canvas\_CompressPicturesUploaded
 
@@ -252,7 +242,7 @@ public static string Canvas_CompressPicturesUploaded { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_CurveSmoothingMode"></a> Canvas\_CurveSmoothingMode
 
@@ -262,7 +252,7 @@ public static string Canvas_CurveSmoothingMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_CurveSmoothing_Off"></a> Canvas\_CurveSmoothing\_Off
 
@@ -272,7 +262,7 @@ public static string Canvas_CurveSmoothing_Off { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_CustomPenCursorFilter"></a> Canvas\_CustomPenCursorFilter
 
@@ -282,7 +272,7 @@ public static string Canvas_CustomPenCursorFilter { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_CustomPenCursorPath"></a> Canvas\_CustomPenCursorPath
 
@@ -292,7 +282,7 @@ public static string Canvas_CustomPenCursorPath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_CustomPenCursorPathHint"></a> Canvas\_CustomPenCursorPathHint
 
@@ -302,7 +292,7 @@ public static string Canvas_CustomPenCursorPathHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_DarkMode"></a> Canvas\_DarkMode
 
@@ -312,7 +302,7 @@ public static string Canvas_DarkMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_DisableHardwareAcceleration"></a> Canvas\_DisableHardwareAcceleration
 
@@ -322,7 +312,7 @@ public static string Canvas_DisableHardwareAcceleration { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_DisableHardwareAccelerationHint"></a> Canvas\_DisableHardwareAccelerationHint
 
@@ -332,7 +322,7 @@ public static string Canvas_DisableHardwareAccelerationHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_DisablePressureHint"></a> Canvas\_DisablePressureHint
 
@@ -342,7 +332,7 @@ public static string Canvas_DisablePressureHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EnableNativeInkPrediction"></a> Canvas\_EnableNativeInkPrediction
 
@@ -352,7 +342,7 @@ public static string Canvas_EnableNativeInkPrediction { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EnableNativeInkPredictionHint"></a> Canvas\_EnableNativeInkPredictionHint
 
@@ -362,7 +352,7 @@ public static string Canvas_EnableNativeInkPredictionHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EnablePressureTouch"></a> Canvas\_EnablePressureTouch
 
@@ -372,7 +362,7 @@ public static string Canvas_EnablePressureTouch { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EnablePressureTouchHint"></a> Canvas\_EnablePressureTouchHint
 
@@ -382,7 +372,7 @@ public static string Canvas_EnablePressureTouchHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EraserSize"></a> Canvas\_EraserSize
 
@@ -392,7 +382,7 @@ public static string Canvas_EraserSize { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EraserSizeHint"></a> Canvas\_EraserSizeHint
 
@@ -402,7 +392,7 @@ public static string Canvas_EraserSizeHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EraserSize_Large"></a> Canvas\_EraserSize\_Large
 
@@ -412,7 +402,7 @@ public static string Canvas_EraserSize_Large { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EraserSize_Medium"></a> Canvas\_EraserSize\_Medium
 
@@ -422,7 +412,7 @@ public static string Canvas_EraserSize_Medium { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EraserSize_Small"></a> Canvas\_EraserSize\_Small
 
@@ -432,7 +422,7 @@ public static string Canvas_EraserSize_Small { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EraserSize_VeryLarge"></a> Canvas\_EraserSize\_VeryLarge
 
@@ -442,7 +432,7 @@ public static string Canvas_EraserSize_VeryLarge { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_EraserSize_VerySmall"></a> Canvas\_EraserSize\_VerySmall
 
@@ -452,7 +442,7 @@ public static string Canvas_EraserSize_VerySmall { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_GroupTitle"></a> Canvas\_GroupTitle
 
@@ -462,7 +452,7 @@ public static string Canvas_GroupTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_HideInkOnExit"></a> Canvas\_HideInkOnExit
 
@@ -472,7 +462,7 @@ public static string Canvas_HideInkOnExit { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_HideStrokeWhenSelectingHint"></a> Canvas\_HideStrokeWhenSelectingHint
 
@@ -482,7 +472,7 @@ public static string Canvas_HideStrokeWhenSelectingHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_HyperbolaAsymptoteHint"></a> Canvas\_HyperbolaAsymptoteHint
 
@@ -492,7 +482,7 @@ public static string Canvas_HyperbolaAsymptoteHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_IgnorePressure"></a> Canvas\_IgnorePressure
 
@@ -502,7 +492,7 @@ public static string Canvas_IgnorePressure { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_KeepAsymptote"></a> Canvas\_KeepAsymptote
 
@@ -512,7 +502,7 @@ public static string Canvas_KeepAsymptote { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_LaunchSeewoVideoShowcaseForWhiteboardBooth"></a> Canvas\_LaunchSeewoVideoShowcaseForWhiteboardBooth
 
@@ -522,7 +512,7 @@ public static string Canvas_LaunchSeewoVideoShowcaseForWhiteboardBooth { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_LaunchSeewoVideoShowcaseForWhiteboardBoothHint"></a> Canvas\_LaunchSeewoVideoShowcaseForWhiteboardBoothHint
 
@@ -532,7 +522,7 @@ public static string Canvas_LaunchSeewoVideoShowcaseForWhiteboardBoothHint { get
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_MergeInkSmoothingWithUndo"></a> Canvas\_MergeInkSmoothingWithUndo
 
@@ -542,7 +532,7 @@ public static string Canvas_MergeInkSmoothingWithUndo { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_MergeInkSmoothingWithUndoHint"></a> Canvas\_MergeInkSmoothingWithUndoHint
 
@@ -552,7 +542,7 @@ public static string Canvas_MergeInkSmoothingWithUndoHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_No"></a> Canvas\_No
 
@@ -562,7 +552,7 @@ public static string Canvas_No { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_PenCursorType"></a> Canvas\_PenCursorType
 
@@ -572,7 +562,7 @@ public static string Canvas_PenCursorType { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_PenCursorTypeHint"></a> Canvas\_PenCursorTypeHint
 
@@ -582,7 +572,7 @@ public static string Canvas_PenCursorTypeHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_PenCursorType_BuiltIn"></a> Canvas\_PenCursorType\_BuiltIn
 
@@ -592,7 +582,7 @@ public static string Canvas_PenCursorType_BuiltIn { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_PenCursorType_Custom"></a> Canvas\_PenCursorType\_Custom
 
@@ -602,7 +592,7 @@ public static string Canvas_PenCursorType_Custom { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_PenCursorType_System"></a> Canvas\_PenCursorType\_System
 
@@ -612,7 +602,7 @@ public static string Canvas_PenCursorType_System { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_RestoreColor"></a> Canvas\_RestoreColor
 
@@ -622,7 +612,7 @@ public static string Canvas_RestoreColor { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_RestoreOpacity"></a> Canvas\_RestoreOpacity
 
@@ -632,7 +622,7 @@ public static string Canvas_RestoreOpacity { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_RestoreWidth"></a> Canvas\_RestoreWidth
 
@@ -642,7 +632,7 @@ public static string Canvas_RestoreWidth { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_SecondsFormat"></a> Canvas\_SecondsFormat
 
@@ -652,7 +642,7 @@ public static string Canvas_SecondsFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_SelectCustomPenCursor"></a> Canvas\_SelectCustomPenCursor
 
@@ -662,7 +652,7 @@ public static string Canvas_SelectCustomPenCursor { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_ShowCircleCenter"></a> Canvas\_ShowCircleCenter
 
@@ -672,7 +662,7 @@ public static string Canvas_ShowCircleCenter { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_ShowCoordinateUnitMarks"></a> Canvas\_ShowCoordinateUnitMarks
 
@@ -682,7 +672,7 @@ public static string Canvas_ShowCoordinateUnitMarks { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_ShowCoordinateUnitMarksHint"></a> Canvas\_ShowCoordinateUnitMarksHint
 
@@ -692,7 +682,7 @@ public static string Canvas_ShowCoordinateUnitMarksHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_ShowPenCursor"></a> Canvas\_ShowPenCursor
 
@@ -702,7 +692,7 @@ public static string Canvas_ShowPenCursor { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_SwitchBackAfterEraser"></a> Canvas\_SwitchBackAfterEraser
 
@@ -712,7 +702,7 @@ public static string Canvas_SwitchBackAfterEraser { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_SwitchBackAfterEraserHint"></a> Canvas\_SwitchBackAfterEraserHint
 
@@ -722,7 +712,7 @@ public static string Canvas_SwitchBackAfterEraserHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_SwitchBackDelay"></a> Canvas\_SwitchBackDelay
 
@@ -732,7 +722,7 @@ public static string Canvas_SwitchBackDelay { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_SwitchBackDelayHint"></a> Canvas\_SwitchBackDelayHint
 
@@ -742,7 +732,7 @@ public static string Canvas_SwitchBackDelayHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_UseLegacyWetInk"></a> Canvas\_UseLegacyWetInk
 
@@ -752,7 +742,7 @@ public static string Canvas_UseLegacyWetInk { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_UseLegacyWetInkHint"></a> Canvas\_UseLegacyWetInkHint
 
@@ -762,7 +752,7 @@ public static string Canvas_UseLegacyWetInkHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_UseLegacyWetInkRestartNotice"></a> Canvas\_UseLegacyWetInkRestartNotice
 
@@ -772,7 +762,7 @@ public static string Canvas_UseLegacyWetInkRestartNotice { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_WPFBezier"></a> Canvas\_WPFBezier
 
@@ -782,7 +772,7 @@ public static string Canvas_WPFBezier { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_WetInkRendererFailed"></a> Canvas\_WetInkRendererFailed
 
@@ -792,7 +782,7 @@ public static string Canvas_WetInkRendererFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_WhiteboardMode"></a> Canvas\_WhiteboardMode
 
@@ -802,7 +792,7 @@ public static string Canvas_WhiteboardMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_Yes"></a> Canvas\_Yes
 
@@ -812,7 +802,7 @@ public static string Canvas_Yes { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Culture"></a> Culture
 
@@ -822,7 +812,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
+ CultureInfo
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_AutoStraightLine"></a> InkRecog\_AutoStraightLine
 
@@ -832,7 +822,7 @@ public static string InkRecog_AutoStraightLine { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_BlockRectFakePressure"></a> InkRecog\_BlockRectFakePressure
 
@@ -842,7 +832,7 @@ public static string InkRecog_BlockRectFakePressure { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_BlockTriFakePressure"></a> InkRecog\_BlockTriFakePressure
 
@@ -852,7 +842,7 @@ public static string InkRecog_BlockTriFakePressure { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_EnableInkRecognition"></a> InkRecog\_EnableInkRecognition
 
@@ -862,7 +852,7 @@ public static string InkRecog_EnableInkRecognition { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_FixEllipse"></a> InkRecog\_FixEllipse
 
@@ -872,7 +862,7 @@ public static string InkRecog_FixEllipse { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_FixRectangle"></a> InkRecog\_FixRectangle
 
@@ -882,7 +872,7 @@ public static string InkRecog_FixRectangle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_FixTriangle"></a> InkRecog\_FixTriangle
 
@@ -892,7 +882,7 @@ public static string InkRecog_FixTriangle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_FangSong"></a> InkRecog\_Font\_FangSong
 
@@ -902,7 +892,7 @@ public static string InkRecog_Font_FangSong { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_InkFreeKaiti"></a> InkRecog\_Font\_InkFreeKaiti
 
@@ -912,7 +902,7 @@ public static string InkRecog_Font_InkFreeKaiti { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_Kaiti"></a> InkRecog\_Font\_Kaiti
 
@@ -922,7 +912,7 @@ public static string InkRecog_Font_Kaiti { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_LiSu"></a> InkRecog\_Font\_LiSu
 
@@ -932,7 +922,7 @@ public static string InkRecog_Font_LiSu { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_STFangsong"></a> InkRecog\_Font\_STFangsong
 
@@ -942,7 +932,7 @@ public static string InkRecog_Font_STFangsong { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_STKaiti"></a> InkRecog\_Font\_STKaiti
 
@@ -952,7 +942,7 @@ public static string InkRecog_Font_STKaiti { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_STXingkai"></a> InkRecog\_Font\_STXingkai
 
@@ -962,7 +952,7 @@ public static string InkRecog_Font_STXingkai { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Font_YouYuan"></a> InkRecog\_Font\_YouYuan
 
@@ -972,7 +962,7 @@ public static string InkRecog_Font_YouYuan { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_HandwritingBeautify"></a> InkRecog\_HandwritingBeautify
 
@@ -982,7 +972,7 @@ public static string InkRecog_HandwritingBeautify { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_HandwritingBeautifyHint"></a> InkRecog\_HandwritingBeautifyHint
 
@@ -992,7 +982,7 @@ public static string InkRecog_HandwritingBeautifyHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_HandwritingFont"></a> InkRecog\_HandwritingFont
 
@@ -1002,7 +992,7 @@ public static string InkRecog_HandwritingFont { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_HandwritingFontHint"></a> InkRecog\_HandwritingFontHint
 
@@ -1012,7 +1002,7 @@ public static string InkRecog_HandwritingFontHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_HighPrecisionHint"></a> InkRecog\_HighPrecisionHint
 
@@ -1022,7 +1012,7 @@ public static string InkRecog_HighPrecisionHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_HighPrecisionStraighten"></a> InkRecog\_HighPrecisionStraighten
 
@@ -1032,7 +1022,7 @@ public static string InkRecog_HighPrecisionStraighten { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_LengthThreshold"></a> InkRecog\_LengthThreshold
 
@@ -1042,7 +1032,7 @@ public static string InkRecog_LengthThreshold { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_LineEndpointSnapping"></a> InkRecog\_LineEndpointSnapping
 
@@ -1052,7 +1042,7 @@ public static string InkRecog_LineEndpointSnapping { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_LineEndpointSnappingHint"></a> InkRecog\_LineEndpointSnappingHint
 
@@ -1062,7 +1052,7 @@ public static string InkRecog_LineEndpointSnappingHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_PauseStraightenDelay"></a> InkRecog\_PauseStraightenDelay
 
@@ -1072,7 +1062,7 @@ public static string InkRecog_PauseStraightenDelay { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_PauseStraightenHint"></a> InkRecog\_PauseStraightenHint
 
@@ -1082,7 +1072,7 @@ public static string InkRecog_PauseStraightenHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_PauseStraightenLine"></a> InkRecog\_PauseStraightenLine
 
@@ -1092,7 +1082,7 @@ public static string InkRecog_PauseStraightenLine { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Sensitivity"></a> InkRecog\_Sensitivity
 
@@ -1102,7 +1092,7 @@ public static string InkRecog_Sensitivity { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_ShapeCorrection"></a> InkRecog\_ShapeCorrection
 
@@ -1112,7 +1102,7 @@ public static string InkRecog_ShapeCorrection { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_ShapeEngine"></a> InkRecog\_ShapeEngine
 
@@ -1122,7 +1112,7 @@ public static string InkRecog_ShapeEngine { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_ShapeEngineAuto"></a> InkRecog\_ShapeEngineAuto
 
@@ -1132,7 +1122,7 @@ public static string InkRecog_ShapeEngineAuto { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_ShapeEngineHint"></a> InkRecog\_ShapeEngineHint
 
@@ -1142,7 +1132,7 @@ public static string InkRecog_ShapeEngineHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_SnappingDistance"></a> InkRecog\_SnappingDistance
 
@@ -1152,7 +1142,7 @@ public static string InkRecog_SnappingDistance { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_InkRecog_Title"></a> InkRecog\_Title
 
@@ -1162,7 +1152,7 @@ public static string InkRecog_Title { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_CanvasStrings_ResourceManager"></a> ResourceManager
 
@@ -1182,7 +1172,7 @@ public static string Shape_RemoveAsymptote { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -1194,9 +1184,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`key` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

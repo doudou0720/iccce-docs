@@ -9,7 +9,7 @@ public delegate void ActionRegistryInfo.HandleDelegate(object settings, string g
 
 #### Parameters
 
-`settings` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`settings` object
 
-`guid` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`guid` string
 

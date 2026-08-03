@@ -9,17 +9,8 @@ public sealed class InkSmoothingPipelineSample
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [InkSmoothingPipelineSample](Ink\_Canvas.Helpers.InkSmoothingPipelineSample.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -31,7 +22,7 @@ public double BezierMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_CompletedAt"></a> CompletedAt
 
@@ -41,7 +32,7 @@ public string CompletedAt { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_ComputeCompletedAt"></a> ComputeCompletedAt
 
@@ -51,7 +42,7 @@ public string ComputeCompletedAt { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_ComputeMs"></a> ComputeMs
 
@@ -61,7 +52,7 @@ public double ComputeMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_DispatcherQueuedAt"></a> DispatcherQueuedAt
 
@@ -71,7 +62,7 @@ public string DispatcherQueuedAt { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_DispatcherWaitMs"></a> DispatcherWaitMs
 
@@ -81,7 +72,7 @@ public double DispatcherWaitMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_Gen0CollectionCountEnd"></a> Gen0CollectionCountEnd
 
@@ -91,7 +82,7 @@ public int Gen0CollectionCountEnd { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_Gen0CollectionCountStart"></a> Gen0CollectionCountStart
 
@@ -101,7 +92,7 @@ public int Gen0CollectionCountStart { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_Gen1CollectionCountEnd"></a> Gen1CollectionCountEnd
 
@@ -111,7 +102,7 @@ public int Gen1CollectionCountEnd { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_Gen1CollectionCountStart"></a> Gen1CollectionCountStart
 
@@ -121,7 +112,7 @@ public int Gen1CollectionCountStart { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_Gen2CollectionCountEnd"></a> Gen2CollectionCountEnd
 
@@ -131,7 +122,7 @@ public int Gen2CollectionCountEnd { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_Gen2CollectionCountStart"></a> Gen2CollectionCountStart
 
@@ -141,7 +132,7 @@ public int Gen2CollectionCountStart { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_InputPointCount"></a> InputPointCount
 
@@ -151,7 +142,7 @@ public int InputPointCount { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_ManagedMemoryBytesEnd"></a> ManagedMemoryBytesEnd
 
@@ -161,7 +152,7 @@ public long ManagedMemoryBytesEnd { get; set; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_ManagedMemoryBytesStart"></a> ManagedMemoryBytesStart
 
@@ -171,7 +162,7 @@ public long ManagedMemoryBytesStart { get; set; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_MaxConcurrentTasks"></a> MaxConcurrentTasks
 
@@ -181,7 +172,7 @@ public int MaxConcurrentTasks { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_OutputPointCount"></a> OutputPointCount
 
@@ -191,7 +182,7 @@ public int OutputPointCount { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_PointCopyMs"></a> PointCopyMs
 
@@ -201,7 +192,7 @@ public double PointCopyMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_ResampleMs"></a> ResampleMs
 
@@ -211,7 +202,7 @@ public double ResampleMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_SemaphoreWaitMs"></a> SemaphoreWaitMs
 
@@ -221,7 +212,7 @@ public double SemaphoreWaitMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_StartedAt"></a> StartedAt
 
@@ -231,7 +222,7 @@ public string StartedAt { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_StrokeConstructionMs"></a> StrokeConstructionMs
 
@@ -241,7 +232,7 @@ public double StrokeConstructionMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_ThreadPoolQueueMs"></a> ThreadPoolQueueMs
 
@@ -251,7 +242,7 @@ public double ThreadPoolQueueMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_ThreadPoolStartedAt"></a> ThreadPoolStartedAt
 
@@ -261,7 +252,7 @@ public string ThreadPoolStartedAt { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_TotalMs"></a> TotalMs
 
@@ -271,7 +262,7 @@ public double TotalMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_UiCallbackCompletedAt"></a> UiCallbackCompletedAt
 
@@ -281,7 +272,7 @@ public string UiCallbackCompletedAt { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_UiCallbackMs"></a> UiCallbackMs
 
@@ -291,7 +282,7 @@ public double UiCallbackMs { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_UiCallbackStartedAt"></a> UiCallbackStartedAt
 
@@ -301,7 +292,7 @@ public string UiCallbackStartedAt { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingPipelineSample_WasCancelled"></a> WasCancelled
 
@@ -311,5 +302,5 @@ public bool WasCancelled { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

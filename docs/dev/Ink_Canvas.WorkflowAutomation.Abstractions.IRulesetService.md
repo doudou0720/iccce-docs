@@ -21,7 +21,7 @@ public static Dictionary<string, RuleRegistryInfo> Rules { get; }
 
 #### Property Value
 
- [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md)\>
+ Dictionary<string, [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md)\>
 
 ## Methods
 
@@ -39,7 +39,7 @@ bool IsRulesetSatisfied(Ruleset ruleset)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Abstractions_IRulesetService_NotifyStatusChanged"></a> NotifyStatusChanged\(\)
 
@@ -60,7 +60,7 @@ void RegisterRuleHandler(string id, RuleRegistryInfo.HandleDelegate handler)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 `handler` [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)
 
@@ -74,7 +74,7 @@ void UnregisterRuleHandler(string id, RuleRegistryInfo.HandleDelegate handler)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 `handler` [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)
 
@@ -88,5 +88,5 @@ event EventHandler StatusUpdated
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+ EventHandler
 

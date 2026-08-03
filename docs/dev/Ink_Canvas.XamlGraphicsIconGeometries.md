@@ -11,18 +11,8 @@ public static class XamlGraphicsIconGeometries
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [XamlGraphicsIconGeometries](Ink\_Canvas.XamlGraphicsIconGeometries.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Remarks
 
@@ -45,7 +35,7 @@ public static string ClearInkIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_ClipGeometry24x24"></a> ClipGeometry24x24
 
@@ -55,7 +45,7 @@ public static string ClipGeometry24x24
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_ColorPaletteIconGeometry"></a> ColorPaletteIconGeometry
 
@@ -67,7 +57,7 @@ public static string ColorPaletteIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_CursorWithDelFloatingBarBtnIcon"></a> CursorWithDelFloatingBarBtnIcon
 
@@ -79,7 +69,7 @@ public static string CursorWithDelFloatingBarBtnIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_DeleteIcon"></a> DeleteIcon
 
@@ -89,7 +79,7 @@ public static string DeleteIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_DisabledGestureIcon"></a> DisabledGestureIcon
 
@@ -101,7 +91,7 @@ public static string DisabledGestureIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -117,7 +107,7 @@ public static string EnabledGestureIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -133,7 +123,7 @@ public static string EnabledGestureIconBadgeCheck
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -147,7 +137,7 @@ public static string ExitPresentationIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_FoldIcon"></a> FoldIcon
 
@@ -157,7 +147,7 @@ public static string FoldIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_FreezeIconGeometry"></a> FreezeIconGeometry
 
@@ -167,7 +157,7 @@ public static string FreezeIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_GroupIconGeometry"></a> GroupIconGeometry
 
@@ -179,7 +169,7 @@ public static string GroupIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_LegacyLinedCursorIcon"></a> LegacyLinedCursorIcon
 
@@ -191,7 +181,7 @@ public static string LegacyLinedCursorIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -207,7 +197,7 @@ public static string LegacyLinedEraserCircleIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -223,7 +213,7 @@ public static string LegacyLinedEraserStrokeIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -239,7 +229,7 @@ public static string LegacyLinedLassoSelectIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -255,7 +245,7 @@ public static string LegacyLinedPenIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -271,7 +261,7 @@ public static string LegacySolidCursorIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -287,7 +277,7 @@ public static string LegacySolidEraserCircleIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -303,7 +293,7 @@ public static string LegacySolidEraserStrokeIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -319,7 +309,7 @@ public static string LegacySolidLassoSelectIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -335,7 +325,7 @@ public static string LegacySolidPenIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -351,7 +341,7 @@ public static string LinedCursorIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -367,7 +357,7 @@ public static string LinedEraserCircleIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -383,7 +373,7 @@ public static string LinedEraserStrokeIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -399,7 +389,7 @@ public static string LinedLassoSelectIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -415,7 +405,7 @@ public static string LinedPenIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -429,7 +419,7 @@ public static string ManualIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_NavAboutIconGeometry"></a> NavAboutIconGeometry
 
@@ -439,7 +429,7 @@ public static string NavAboutIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_NavAdvancedIconGeometry"></a> NavAdvancedIconGeometry
 
@@ -449,7 +439,7 @@ public static string NavAdvancedIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_NavAutomationIconGeometry"></a> NavAutomationIconGeometry
 
@@ -459,7 +449,7 @@ public static string NavAutomationIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_NavCanvasIconGeometry"></a> NavCanvasIconGeometry
 
@@ -469,7 +459,7 @@ public static string NavCanvasIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_NavCollapseSidebarIconGeometry"></a> NavCollapseSidebarIconGeometry
 
@@ -479,7 +469,7 @@ public static string NavCollapseSidebarIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_NavInkRecognitionIconGeometry"></a> NavInkRecognitionIconGeometry
 
@@ -489,7 +479,7 @@ public static string NavInkRecognitionIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_NavPPTIconGeometry"></a> NavPPTIconGeometry
 
@@ -499,7 +489,7 @@ public static string NavPPTIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_NavRandomWindowIconGeometry"></a> NavRandomWindowIconGeometry
 
@@ -509,7 +499,7 @@ public static string NavRandomWindowIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_NavShortcutsIconGeometry"></a> NavShortcutsIconGeometry
 
@@ -519,7 +509,7 @@ public static string NavShortcutsIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_NavShowSidebarIconGeometry"></a> NavShowSidebarIconGeometry
 
@@ -529,7 +519,7 @@ public static string NavShowSidebarIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_NavStartupIconGeometry"></a> NavStartupIconGeometry
 
@@ -539,7 +529,7 @@ public static string NavStartupIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_NavThemeIconGeometry"></a> NavThemeIconGeometry
 
@@ -549,7 +539,7 @@ public static string NavThemeIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_OpenIconGeometry"></a> OpenIconGeometry
 
@@ -559,7 +549,7 @@ public static string OpenIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_PageInfoIconGeometry"></a> PageInfoIconGeometry
 
@@ -571,7 +561,7 @@ public static string PageInfoIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_RandomDrawIconGeometry"></a> RandomDrawIconGeometry
 
@@ -581,7 +571,7 @@ public static string RandomDrawIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_RedoIcon"></a> RedoIcon
 
@@ -591,7 +581,7 @@ public static string RedoIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_ReplayIconGeometry"></a> ReplayIconGeometry
 
@@ -601,7 +591,7 @@ public static string ReplayIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_SaveIconGeometry"></a> SaveIconGeometry
 
@@ -611,7 +601,7 @@ public static string SaveIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_ScreenshotIconGeometry"></a> ScreenshotIconGeometry
 
@@ -621,7 +611,7 @@ public static string ScreenshotIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_SeparatorIconGeometry"></a> SeparatorIconGeometry
 
@@ -633,7 +623,7 @@ public static string SeparatorIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_SettingsIconGeometry"></a> SettingsIconGeometry
 
@@ -643,7 +633,7 @@ public static string SettingsIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_ShapesIcon"></a> ShapesIcon
 
@@ -653,7 +643,7 @@ public static string ShapesIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_SingleDrawIconGeometry"></a> SingleDrawIconGeometry
 
@@ -663,7 +653,7 @@ public static string SingleDrawIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_SolidCursorIcon"></a> SolidCursorIcon
 
@@ -675,7 +665,7 @@ public static string SolidCursorIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -691,7 +681,7 @@ public static string SolidEraserCircleIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -707,7 +697,7 @@ public static string SolidEraserStrokeIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -723,7 +713,7 @@ public static string SolidLassoSelectIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -739,7 +729,7 @@ public static string SolidPenIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 #### Remarks
 
@@ -753,7 +743,7 @@ public static string TimerIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_ToolsFloatingBarBtnIcon"></a> ToolsFloatingBarBtnIcon
 
@@ -763,7 +753,7 @@ public static string ToolsFloatingBarBtnIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_UndoIcon"></a> UndoIcon
 
@@ -773,7 +763,7 @@ public static string UndoIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_UnfreezeIconGeometry"></a> UnfreezeIconGeometry
 
@@ -783,7 +773,7 @@ public static string UnfreezeIconGeometry
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_XamlGraphicsIconGeometries_WhiteboardFloatingBarBtnIcon"></a> WhiteboardFloatingBarBtnIcon
 
@@ -795,5 +785,5 @@ public static string WhiteboardFloatingBarBtnIcon
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

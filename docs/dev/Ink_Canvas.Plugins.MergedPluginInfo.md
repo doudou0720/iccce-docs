@@ -11,22 +11,8 @@ public class MergedPluginInfo : INotifyPropertyChanged
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+INotifyPropertyChanged ← 
 [MergedPluginInfo](Ink\_Canvas.Plugins.MergedPluginInfo.md)
-
-#### Implements
-
-[INotifyPropertyChanged](https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -38,7 +24,7 @@ public string Author { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_Description"></a> Description
 
@@ -48,7 +34,7 @@ public string Description { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_DownloadCount"></a> DownloadCount
 
@@ -58,7 +44,7 @@ public long DownloadCount { get; set; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_DownloadCountText"></a> DownloadCountText
 
@@ -68,7 +54,7 @@ public string DownloadCountText { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_DownloadTask"></a> DownloadTask
 
@@ -88,7 +74,7 @@ public string DownloadUrl { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_IconDisplayPath"></a> IconDisplayPath
 
@@ -98,7 +84,7 @@ public string IconDisplayPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_IconUrl"></a> IconUrl
 
@@ -108,7 +94,7 @@ public string IconUrl { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_Id"></a> Id
 
@@ -118,7 +104,7 @@ public string Id { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_IsDownloading"></a> IsDownloading
 
@@ -128,7 +114,7 @@ public bool IsDownloading { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_IsLocal"></a> IsLocal
 
@@ -138,7 +124,7 @@ public bool IsLocal { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_IsOnMarket"></a> IsOnMarket
 
@@ -148,7 +134,7 @@ public bool IsOnMarket { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_IsUpdateAvailable"></a> IsUpdateAvailable
 
@@ -158,7 +144,7 @@ public bool IsUpdateAvailable { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_LoadStatus"></a> LoadStatus
 
@@ -198,7 +184,7 @@ public string MarketVersion { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_Name"></a> Name
 
@@ -208,7 +194,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_PluginConfigFolder"></a> PluginConfigFolder
 
@@ -218,7 +204,7 @@ public string PluginConfigFolder { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_PluginFolderPath"></a> PluginFolderPath
 
@@ -228,7 +214,7 @@ public string PluginFolderPath { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_ReadmeUrl"></a> ReadmeUrl
 
@@ -238,7 +224,7 @@ public string ReadmeUrl { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_RestartRequired"></a> RestartRequired
 
@@ -248,7 +234,7 @@ public bool RestartRequired { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_ShowInstallButton"></a> ShowInstallButton
 
@@ -258,7 +244,7 @@ public bool ShowInstallButton { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_ShowInstalledBadge"></a> ShowInstalledBadge
 
@@ -268,7 +254,7 @@ public bool ShowInstalledBadge { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_StarsCount"></a> StarsCount
 
@@ -278,7 +264,7 @@ public long StarsCount { get; set; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_Version"></a> Version
 
@@ -288,7 +274,7 @@ public string Version { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_VersionText"></a> VersionText
 
@@ -298,7 +284,7 @@ public string VersionText { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -310,11 +296,9 @@ protected void OnPropertyChanged(string propertyName = null)
 
 #### Parameters
 
-`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`propertyName` string
 
 ### <a id="Ink_Canvas_Plugins_MergedPluginInfo_PropertyChanged"></a> PropertyChanged
-
-Occurs when a property value changes.
 
 ```csharp
 public event PropertyChangedEventHandler PropertyChanged
@@ -322,5 +306,5 @@ public event PropertyChangedEventHandler PropertyChanged
 
 #### Event Type
 
- [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
+ PropertyChangedEventHandler
 

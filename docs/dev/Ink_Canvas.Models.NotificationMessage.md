@@ -9,31 +9,20 @@ public class NotificationMessage
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [NotificationMessage](Ink\_Canvas.Models.NotificationMessage.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_Action"></a> Action
 
 ```csharp
-[JsonIgnore]
 public Action Action { get; set; }
 ```
 
 #### Property Value
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action)
+ Action
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_ActionText"></a> ActionText
 
@@ -43,7 +32,7 @@ public string ActionText { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_ActionUrl"></a> ActionUrl
 
@@ -53,7 +42,7 @@ public string ActionUrl { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_AnnouncementId"></a> AnnouncementId
 
@@ -63,7 +52,7 @@ public string AnnouncementId { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_AnnouncementType"></a> AnnouncementType
 
@@ -73,7 +62,7 @@ public string AnnouncementType { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_Content"></a> Content
 
@@ -83,7 +72,7 @@ public string Content { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_CreatedAt"></a> CreatedAt
 
@@ -93,7 +82,7 @@ public DateTime CreatedAt { get; set; }
 
 #### Property Value
 
- [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
+ DateTime
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_DisplaySeconds"></a> DisplaySeconds
 
@@ -103,7 +92,7 @@ public int DisplaySeconds { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_ForcePopup"></a> ForcePopup
 
@@ -113,7 +102,7 @@ public bool ForcePopup { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_Icon"></a> Icon
 
@@ -123,7 +112,7 @@ public string Icon { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_Id"></a> Id
 
@@ -133,7 +122,7 @@ public string Id { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_Level"></a> Level
 
@@ -153,7 +142,7 @@ public int Priority { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_ProviderId"></a> ProviderId
 
@@ -163,7 +152,7 @@ public string ProviderId { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_Source"></a> Source
 
@@ -173,7 +162,7 @@ public string Source { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_Summary"></a> Summary
 
@@ -183,7 +172,7 @@ public string Summary { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_Title"></a> Title
 
@@ -193,7 +182,7 @@ public string Title { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Models_NotificationMessage_Type"></a> Type
 

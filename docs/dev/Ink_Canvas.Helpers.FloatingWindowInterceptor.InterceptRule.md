@@ -11,18 +11,8 @@ public class FloatingWindowInterceptor.InterceptRule
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [FloatingWindowInterceptor.InterceptRule](Ink\_Canvas.Helpers.FloatingWindowInterceptor.InterceptRule.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -34,7 +24,7 @@ public List<FloatingWindowInterceptor.InterceptType> ChildTypes { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md).[InterceptType](Ink\_Canvas.Helpers.FloatingWindowInterceptor.InterceptType.md)\>
+ List<[FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md).[InterceptType](Ink\_Canvas.Helpers.FloatingWindowInterceptor.InterceptType.md)\>
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_ClassNamePattern"></a> ClassNamePattern
 
@@ -44,7 +34,7 @@ public string ClassNamePattern { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_Description"></a> Description
 
@@ -54,7 +44,7 @@ public string Description { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_ExactClassNameMatch"></a> ExactClassNameMatch
 
@@ -64,7 +54,7 @@ public bool ExactClassNameMatch { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_ExactTitleMatch"></a> ExactTitleMatch
 
@@ -74,7 +64,7 @@ public bool ExactTitleMatch { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_HasWindowSize"></a> HasWindowSize
 
@@ -84,7 +74,7 @@ public bool HasWindowSize { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_HasWindowStyle"></a> HasWindowStyle
 
@@ -94,7 +84,7 @@ public bool HasWindowStyle { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_IsEnabled"></a> IsEnabled
 
@@ -104,7 +94,7 @@ public bool IsEnabled { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_ParentType"></a> ParentType
 
@@ -124,7 +114,7 @@ public string ProcessName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_RequiresAdmin"></a> RequiresAdmin
 
@@ -134,7 +124,7 @@ public bool RequiresAdmin { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_Type"></a> Type
 
@@ -154,7 +144,7 @@ public int WindowHeight { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_WindowStyle"></a> WindowStyle
 
@@ -164,7 +154,7 @@ public uint WindowStyle { get; set; }
 
 #### Property Value
 
- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+ uint
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_WindowTitlePattern"></a> WindowTitlePattern
 
@@ -174,7 +164,7 @@ public string WindowTitlePattern { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_WindowWidth"></a> WindowWidth
 
@@ -184,7 +174,7 @@ public int WindowWidth { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_foundHwnd"></a> foundHwnd
 
@@ -194,7 +184,7 @@ public bool foundHwnd { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_InterceptRule_outHwnd"></a> outHwnd
 
@@ -204,5 +194,5 @@ public IntPtr outHwnd { get; set; }
 
 #### Property Value
 
- [IntPtr](https://learn.microsoft.com/dotnet/api/system.intptr)
+ IntPtr
 

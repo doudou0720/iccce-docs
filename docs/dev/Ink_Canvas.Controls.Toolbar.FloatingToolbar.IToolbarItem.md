@@ -20,7 +20,7 @@ IReadOnlyList<PluginToolbarSettingInfo> CustomSettings { get; }
 
 #### Property Value
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<PluginToolbarSettingInfo\>
+ IReadOnlyList<PluginToolbarSettingInfo\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_CustomSettingsPanelFactory"></a> CustomSettingsPanelFactory
 
@@ -33,7 +33,7 @@ Func<FrameworkElement> CustomSettingsPanelFactory { get; }
 
 #### Property Value
 
- [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)\>
+ Func<FrameworkElement\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_DefaultHidingRuleset"></a> DefaultHidingRuleset
 
@@ -53,7 +53,7 @@ bool DefaultPreventHideOnDragClick { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_DefaultShowSeparateBorder"></a> DefaultShowSeparateBorder
 
@@ -63,7 +63,7 @@ bool DefaultShowSeparateBorder { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_Description"></a> Description
 
@@ -73,7 +73,7 @@ string Description { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_DisplayName"></a> DisplayName
 
@@ -83,7 +83,7 @@ string DisplayName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_IconGeometry"></a> IconGeometry
 
@@ -93,7 +93,7 @@ string IconGeometry { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_IconKey"></a> IconKey
 
@@ -103,7 +103,7 @@ FontIconData? IconKey { get; }
 
 #### Property Value
 
- [FontIconData](https://github.com/iNKORE\-NET/UI.WPF.Modern/blob/v2/source/Inkore.UI.WPF.Modern/Common/IconKeys/FontDictionary.cs)?
+ FontIconData?
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_Id"></a> Id
 
@@ -113,11 +113,11 @@ string Id { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
-### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_ApplyOrientation_System_Windows_FrameworkElement_System_Windows_Controls_Orientation_"></a> ApplyOrientation\(FrameworkElement, Orientation\)
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_ApplyOrientation_FrameworkElement_Orientation_"></a> ApplyOrientation\(FrameworkElement, Orientation\)
 
 ```csharp
 void ApplyOrientation(FrameworkElement view, Orientation orientation)
@@ -125,9 +125,9 @@ void ApplyOrientation(FrameworkElement view, Orientation orientation)
 
 #### Parameters
 
-`view` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+`view` FrameworkElement
 
-`orientation` [Orientation](https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation)
+`orientation` Orientation
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_BuildView_Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarHost_"></a> BuildView\(IToolbarHost\)
 
@@ -141,5 +141,5 @@ FrameworkElement BuildView(IToolbarHost host)
 
 #### Returns
 
- [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+ FrameworkElement
 

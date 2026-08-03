@@ -9,18 +9,8 @@ public static class FloatingBarStrings
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [FloatingBarStrings](Ink\_Canvas.Properties.FloatingBarStrings.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -32,7 +22,7 @@ public static string BoardToolbarPage_AddComponent2 { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_AddGroup"></a> BoardToolbarPage\_AddGroup
 
@@ -42,7 +32,7 @@ public static string BoardToolbarPage_AddGroup { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_AddGroup2"></a> BoardToolbarPage\_AddGroup2
 
@@ -52,7 +42,7 @@ public static string BoardToolbarPage_AddGroup2 { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_AreaComponents"></a> BoardToolbarPage\_AreaComponents
 
@@ -62,7 +52,7 @@ public static string BoardToolbarPage_AreaComponents { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_AreaComponentsHint"></a> BoardToolbarPage\_AreaComponentsHint
 
@@ -72,7 +62,7 @@ public static string BoardToolbarPage_AreaComponentsHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_AreaGroups"></a> BoardToolbarPage\_AreaGroups
 
@@ -82,7 +72,7 @@ public static string BoardToolbarPage_AreaGroups { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_Areas"></a> BoardToolbarPage\_Areas
 
@@ -92,7 +82,7 @@ public static string BoardToolbarPage_Areas { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_AtLeastOneConfig"></a> BoardToolbarPage\_AtLeastOneConfig
 
@@ -102,7 +92,7 @@ public static string BoardToolbarPage_AtLeastOneConfig { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_CenterArea"></a> BoardToolbarPage\_CenterArea
 
@@ -112,7 +102,7 @@ public static string BoardToolbarPage_CenterArea { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_ComponentLibrary"></a> BoardToolbarPage\_ComponentLibrary
 
@@ -122,7 +112,7 @@ public static string BoardToolbarPage_ComponentLibrary { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_ConfigProfiles"></a> BoardToolbarPage\_ConfigProfiles
 
@@ -132,7 +122,7 @@ public static string BoardToolbarPage_ConfigProfiles { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_ConfirmDeleteConfig"></a> BoardToolbarPage\_ConfirmDeleteConfig
 
@@ -142,7 +132,7 @@ public static string BoardToolbarPage_ConfirmDeleteConfig { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_DeleteProfile"></a> BoardToolbarPage\_DeleteProfile
 
@@ -152,7 +142,7 @@ public static string BoardToolbarPage_DeleteProfile { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_DuplicateProfile"></a> BoardToolbarPage\_DuplicateProfile
 
@@ -162,7 +152,7 @@ public static string BoardToolbarPage_DuplicateProfile { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_EnterNewConfigName"></a> BoardToolbarPage\_EnterNewConfigName
 
@@ -172,7 +162,7 @@ public static string BoardToolbarPage_EnterNewConfigName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_GroupAddPage"></a> BoardToolbarPage\_GroupAddPage
 
@@ -182,7 +172,7 @@ public static string BoardToolbarPage_GroupAddPage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_GroupGesture"></a> BoardToolbarPage\_GroupGesture
 
@@ -192,7 +182,7 @@ public static string BoardToolbarPage_GroupGesture { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_GroupNavigation"></a> BoardToolbarPage\_GroupNavigation
 
@@ -202,7 +192,7 @@ public static string BoardToolbarPage_GroupNavigation { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_GroupSystem"></a> BoardToolbarPage\_GroupSystem
 
@@ -212,7 +202,7 @@ public static string BoardToolbarPage_GroupSystem { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_GroupTools"></a> BoardToolbarPage\_GroupTools
 
@@ -222,7 +212,7 @@ public static string BoardToolbarPage_GroupTools { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_GroupVideoBooth"></a> BoardToolbarPage\_GroupVideoBooth
 
@@ -232,7 +222,7 @@ public static string BoardToolbarPage_GroupVideoBooth { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_LeftArea"></a> BoardToolbarPage\_LeftArea
 
@@ -242,7 +232,7 @@ public static string BoardToolbarPage_LeftArea { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_MoveDown"></a> BoardToolbarPage\_MoveDown
 
@@ -252,7 +242,7 @@ public static string BoardToolbarPage_MoveDown { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_MoveUp"></a> BoardToolbarPage\_MoveUp
 
@@ -262,7 +252,7 @@ public static string BoardToolbarPage_MoveUp { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_NewGroupName"></a> BoardToolbarPage\_NewGroupName
 
@@ -272,7 +262,7 @@ public static string BoardToolbarPage_NewGroupName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_NewProfile"></a> BoardToolbarPage\_NewProfile
 
@@ -282,7 +272,7 @@ public static string BoardToolbarPage_NewProfile { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_Position"></a> BoardToolbarPage\_Position
 
@@ -292,7 +282,7 @@ public static string BoardToolbarPage_Position { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_PositionDesc"></a> BoardToolbarPage\_PositionDesc
 
@@ -302,7 +292,7 @@ public static string BoardToolbarPage_PositionDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_PositionFirst"></a> BoardToolbarPage\_PositionFirst
 
@@ -312,7 +302,7 @@ public static string BoardToolbarPage_PositionFirst { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_PositionLast"></a> BoardToolbarPage\_PositionLast
 
@@ -322,7 +312,7 @@ public static string BoardToolbarPage_PositionLast { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_PositionMiddle"></a> BoardToolbarPage\_PositionMiddle
 
@@ -332,7 +322,7 @@ public static string BoardToolbarPage_PositionMiddle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_PositionSingle"></a> BoardToolbarPage\_PositionSingle
 
@@ -342,7 +332,7 @@ public static string BoardToolbarPage_PositionSingle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_ResetConfirm"></a> BoardToolbarPage\_ResetConfirm
 
@@ -352,7 +342,7 @@ public static string BoardToolbarPage_ResetConfirm { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_ResetDefault"></a> BoardToolbarPage\_ResetDefault
 
@@ -362,7 +352,7 @@ public static string BoardToolbarPage_ResetDefault { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_RightArea"></a> BoardToolbarPage\_RightArea
 
@@ -372,7 +362,7 @@ public static string BoardToolbarPage_RightArea { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_BoardToolbarPage_Title"></a> BoardToolbarPage\_Title
 
@@ -382,7 +372,7 @@ public static string BoardToolbarPage_Title { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Background"></a> Board\_Background
 
@@ -392,7 +382,7 @@ public static string Board_Background { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_ClearInk"></a> Board\_ClearInk
 
@@ -402,7 +392,7 @@ public static string Board_ClearInk { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_ClearInkAndHistory"></a> Board\_ClearInkAndHistory
 
@@ -412,7 +402,7 @@ public static string Board_ClearInkAndHistory { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_DeleteThisPage"></a> Board\_DeleteThisPage
 
@@ -422,7 +412,7 @@ public static string Board_DeleteThisPage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Eraser"></a> Board\_Eraser
 
@@ -432,7 +422,7 @@ public static string Board_Eraser { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_EraserOptions"></a> Board\_EraserOptions
 
@@ -442,7 +432,7 @@ public static string Board_EraserOptions { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_EraserShape_Blackboard"></a> Board\_EraserShape\_Blackboard
 
@@ -452,7 +442,7 @@ public static string Board_EraserShape_Blackboard { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_EraserShape_Circle"></a> Board\_EraserShape\_Circle
 
@@ -462,7 +452,7 @@ public static string Board_EraserShape_Circle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Gesture"></a> Board\_Gesture
 
@@ -472,7 +462,7 @@ public static string Board_Gesture { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Highlighter"></a> Board\_Highlighter
 
@@ -482,7 +472,7 @@ public static string Board_Highlighter { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_InsertImage"></a> Board\_InsertImage
 
@@ -492,7 +482,7 @@ public static string Board_InsertImage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_LaserPen"></a> Board\_LaserPen
 
@@ -502,7 +492,7 @@ public static string Board_LaserPen { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_NewPage"></a> Board\_NewPage
 
@@ -512,7 +502,7 @@ public static string Board_NewPage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_NextPage"></a> Board\_NextPage
 
@@ -522,7 +512,7 @@ public static string Board_NextPage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Page"></a> Board\_Page
 
@@ -532,7 +522,7 @@ public static string Board_Page { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Pen"></a> Board\_Pen
 
@@ -542,7 +532,7 @@ public static string Board_Pen { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_PreviousPage"></a> Board\_PreviousPage
 
@@ -552,7 +542,7 @@ public static string Board_PreviousPage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Redo"></a> Board\_Redo
 
@@ -562,7 +552,7 @@ public static string Board_Redo { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Roaming"></a> Board\_Roaming
 
@@ -572,7 +562,7 @@ public static string Board_Roaming { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_RoamingPanelHint"></a> Board\_RoamingPanelHint
 
@@ -582,7 +572,7 @@ public static string Board_RoamingPanelHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_RoamingPanelScale"></a> Board\_RoamingPanelScale
 
@@ -592,7 +582,7 @@ public static string Board_RoamingPanelScale { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_RoamingPanelTitle"></a> Board\_RoamingPanelTitle
 
@@ -602,7 +592,7 @@ public static string Board_RoamingPanelTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Screenshot"></a> Board\_Screenshot
 
@@ -612,7 +602,7 @@ public static string Board_Screenshot { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Select"></a> Board\_Select
 
@@ -622,7 +612,7 @@ public static string Board_Select { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_SelectImage"></a> Board\_SelectImage
 
@@ -632,7 +622,7 @@ public static string Board_SelectImage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Shape"></a> Board\_Shape
 
@@ -642,7 +632,7 @@ public static string Board_Shape { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Size"></a> Board\_Size
 
@@ -652,7 +642,7 @@ public static string Board_Size { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_StrokeEraser"></a> Board\_StrokeEraser
 
@@ -662,7 +652,7 @@ public static string Board_StrokeEraser { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Tools"></a> Board\_Tools
 
@@ -672,7 +662,7 @@ public static string Board_Tools { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_TwoFingerMove"></a> Board\_TwoFingerMove
 
@@ -682,7 +672,7 @@ public static string Board_TwoFingerMove { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Board_Undo"></a> Board\_Undo
 
@@ -692,7 +682,7 @@ public static string Board_Undo { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_EdgeExpandHint_Button"></a> Canvas\_EdgeExpandHint\_Button
 
@@ -702,7 +692,7 @@ public static string Canvas_EdgeExpandHint_Button { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_EdgeExpandHint_Settings_Enable"></a> Canvas\_EdgeExpandHint\_Settings\_Enable
 
@@ -712,7 +702,7 @@ public static string Canvas_EdgeExpandHint_Settings_Enable { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_EdgeExpandHint_Settings_Threshold"></a> Canvas\_EdgeExpandHint\_Settings\_Threshold
 
@@ -722,7 +712,7 @@ public static string Canvas_EdgeExpandHint_Settings_Threshold { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_EdgeExpandHint_Settings_TranslateStep"></a> Canvas\_EdgeExpandHint\_Settings\_TranslateStep
 
@@ -732,7 +722,7 @@ public static string Canvas_EdgeExpandHint_Settings_TranslateStep { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Culture"></a> Culture
 
@@ -742,7 +732,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
+ CultureInfo
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Annotate"></a> FloatingBar\_Annotate
 
@@ -752,7 +742,7 @@ public static string FloatingBar_Annotate { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_AreaEraser"></a> FloatingBar\_AreaEraser
 
@@ -762,7 +752,7 @@ public static string FloatingBar_AreaEraser { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Clear"></a> FloatingBar\_Clear
 
@@ -772,7 +762,7 @@ public static string FloatingBar_Clear { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_ClearAndMouse"></a> FloatingBar\_ClearAndMouse
 
@@ -782,7 +772,7 @@ public static string FloatingBar_ClearAndMouse { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_ColorThemeLight"></a> FloatingBar\_ColorThemeLight
 
@@ -792,7 +782,7 @@ public static string FloatingBar_ColorThemeLight { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_ExitButton"></a> FloatingBar\_ExitButton
 
@@ -802,7 +792,7 @@ public static string FloatingBar_ExitButton { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_FadeDelay"></a> FloatingBar\_FadeDelay
 
@@ -812,7 +802,7 @@ public static string FloatingBar_FadeDelay { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_FadeSpeed"></a> FloatingBar\_FadeSpeed
 
@@ -822,7 +812,7 @@ public static string FloatingBar_FadeSpeed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Freeze"></a> FloatingBar\_Freeze
 
@@ -832,7 +822,7 @@ public static string FloatingBar_Freeze { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Geometry"></a> FloatingBar\_Geometry
 
@@ -842,7 +832,7 @@ public static string FloatingBar_Geometry { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_GestureButton"></a> FloatingBar\_GestureButton
 
@@ -852,7 +842,7 @@ public static string FloatingBar_GestureButton { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Gesture_MultiTouchWriting"></a> FloatingBar\_Gesture\_MultiTouchWriting
 
@@ -862,7 +852,7 @@ public static string FloatingBar_Gesture_MultiTouchWriting { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Gesture_TwoFingerRotate"></a> FloatingBar\_Gesture\_TwoFingerRotate
 
@@ -872,7 +862,7 @@ public static string FloatingBar_Gesture_TwoFingerRotate { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Gesture_TwoFingerZoom"></a> FloatingBar\_Gesture\_TwoFingerZoom
 
@@ -882,7 +872,7 @@ public static string FloatingBar_Gesture_TwoFingerZoom { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Hide"></a> FloatingBar\_Hide
 
@@ -892,7 +882,7 @@ public static string FloatingBar_Hide { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_HighlighterOverlap"></a> FloatingBar\_HighlighterOverlap
 
@@ -902,7 +892,7 @@ public static string FloatingBar_HighlighterOverlap { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_LassoSelect"></a> FloatingBar\_LassoSelect
 
@@ -912,7 +902,7 @@ public static string FloatingBar_LassoSelect { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_MiniWhiteboard"></a> FloatingBar\_MiniWhiteboard
 
@@ -922,7 +912,7 @@ public static string FloatingBar_MiniWhiteboard { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Mouse"></a> FloatingBar\_Mouse
 
@@ -932,7 +922,7 @@ public static string FloatingBar_Mouse { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Opacity"></a> FloatingBar\_Opacity
 
@@ -942,7 +932,7 @@ public static string FloatingBar_Opacity { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_PenStyle_Off"></a> FloatingBar\_PenStyle\_Off
 
@@ -952,7 +942,7 @@ public static string FloatingBar_PenStyle_Off { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_PenStyle_PointSet"></a> FloatingBar\_PenStyle\_PointSet
 
@@ -962,7 +952,7 @@ public static string FloatingBar_PenStyle_PointSet { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_PenStyle_RealTime"></a> FloatingBar\_PenStyle\_RealTime
 
@@ -972,7 +962,7 @@ public static string FloatingBar_PenStyle_RealTime { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_PenStyle_Velocity"></a> FloatingBar\_PenStyle\_Velocity
 
@@ -982,7 +972,7 @@ public static string FloatingBar_PenStyle_Velocity { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_PenTipStyle"></a> FloatingBar\_PenTipStyle
 
@@ -992,7 +982,7 @@ public static string FloatingBar_PenTipStyle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_QuickPaletteMode"></a> FloatingBar\_QuickPaletteMode
 
@@ -1002,7 +992,7 @@ public static string FloatingBar_QuickPaletteMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_StrokeEraser"></a> FloatingBar\_StrokeEraser
 
@@ -1012,7 +1002,7 @@ public static string FloatingBar_StrokeEraser { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Unfreeze"></a> FloatingBar\_Unfreeze
 
@@ -1022,7 +1012,7 @@ public static string FloatingBar_Unfreeze { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_FloatingBar_Whiteboard"></a> FloatingBar\_Whiteboard
 
@@ -1032,7 +1022,7 @@ public static string FloatingBar_Whiteboard { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_IdleMiniBar_Annotate"></a> IdleMiniBar\_Annotate
 
@@ -1042,7 +1032,7 @@ public static string IdleMiniBar_Annotate { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_IdleMiniBar_ClearPage"></a> IdleMiniBar\_ClearPage
 
@@ -1052,7 +1042,7 @@ public static string IdleMiniBar_ClearPage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_IdleMiniBar_Expand"></a> IdleMiniBar\_Expand
 
@@ -1062,7 +1052,7 @@ public static string IdleMiniBar_Expand { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_IdleMiniBar_More"></a> IdleMiniBar\_More
 
@@ -1072,7 +1062,7 @@ public static string IdleMiniBar_More { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_IdleMiniBar_StartAnnotate"></a> IdleMiniBar\_StartAnnotate
 
@@ -1082,7 +1072,7 @@ public static string IdleMiniBar_StartAnnotate { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_IdleMiniBar_Whiteboard"></a> IdleMiniBar\_Whiteboard
 
@@ -1092,7 +1082,7 @@ public static string IdleMiniBar_Whiteboard { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Clear"></a> MiniWhiteboard\_Clear
 
@@ -1102,7 +1092,7 @@ public static string MiniWhiteboard_Clear { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_DeletePage"></a> MiniWhiteboard\_DeletePage
 
@@ -1112,7 +1102,7 @@ public static string MiniWhiteboard_DeletePage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Eraser"></a> MiniWhiteboard\_Eraser
 
@@ -1122,7 +1112,7 @@ public static string MiniWhiteboard_Eraser { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_NewPage"></a> MiniWhiteboard\_NewPage
 
@@ -1132,7 +1122,7 @@ public static string MiniWhiteboard_NewPage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_PageInfo"></a> MiniWhiteboard\_PageInfo
 
@@ -1142,7 +1132,7 @@ public static string MiniWhiteboard_PageInfo { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Pen"></a> MiniWhiteboard\_Pen
 
@@ -1152,7 +1142,7 @@ public static string MiniWhiteboard_Pen { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Redo"></a> MiniWhiteboard\_Redo
 
@@ -1162,7 +1152,7 @@ public static string MiniWhiteboard_Redo { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Settings_DefaultSize"></a> MiniWhiteboard\_Settings\_DefaultSize
 
@@ -1172,7 +1162,7 @@ public static string MiniWhiteboard_Settings_DefaultSize { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Settings_Enable"></a> MiniWhiteboard\_Settings\_Enable
 
@@ -1182,7 +1172,7 @@ public static string MiniWhiteboard_Settings_Enable { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Settings_Opacity"></a> MiniWhiteboard\_Settings\_Opacity
 
@@ -1192,7 +1182,7 @@ public static string MiniWhiteboard_Settings_Opacity { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Settings_SyncPPT"></a> MiniWhiteboard\_Settings\_SyncPPT
 
@@ -1202,7 +1192,7 @@ public static string MiniWhiteboard_Settings_SyncPPT { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_MiniWhiteboard_Undo"></a> MiniWhiteboard\_Undo
 
@@ -1212,7 +1202,7 @@ public static string MiniWhiteboard_Undo { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_OldUI_Dark"></a> OldUI\_Dark
 
@@ -1222,7 +1212,7 @@ public static string OldUI_Dark { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_OldUI_Exit"></a> OldUI\_Exit
 
@@ -1232,7 +1222,7 @@ public static string OldUI_Exit { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_OldUI_Thickness"></a> OldUI\_Thickness
 
@@ -1242,7 +1232,7 @@ public static string OldUI_Thickness { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_QuickPanel_ExitShow"></a> QuickPanel\_ExitShow
 
@@ -1252,7 +1242,7 @@ public static string QuickPanel_ExitShow { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_QuickPanel_Show"></a> QuickPanel\_Show
 
@@ -1262,7 +1252,7 @@ public static string QuickPanel_Show { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_QuickPanel_SingleDraw"></a> QuickPanel\_SingleDraw
 
@@ -1272,7 +1262,7 @@ public static string QuickPanel_SingleDraw { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_QuickPanel_Timer"></a> QuickPanel\_Timer
 
@@ -1282,7 +1272,7 @@ public static string QuickPanel_Timer { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ResourceManager"></a> ResourceManager
 
@@ -1302,7 +1292,7 @@ public static string ToolbarCondition_Annotating { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarCondition_Collapsed"></a> ToolbarCondition\_Collapsed
 
@@ -1312,7 +1302,7 @@ public static string ToolbarCondition_Collapsed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarCondition_PPTMode"></a> ToolbarCondition\_PPTMode
 
@@ -1322,7 +1312,7 @@ public static string ToolbarCondition_PPTMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Clear"></a> ToolbarItem\_Desc\_Clear
 
@@ -1332,7 +1322,7 @@ public static string ToolbarItem_Desc_Clear { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Cursor"></a> ToolbarItem\_Desc\_Cursor
 
@@ -1342,7 +1332,7 @@ public static string ToolbarItem_Desc_Cursor { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_CursorWithDel"></a> ToolbarItem\_Desc\_CursorWithDel
 
@@ -1352,7 +1342,7 @@ public static string ToolbarItem_Desc_CursorWithDel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Eraser"></a> ToolbarItem\_Desc\_Eraser
 
@@ -1362,7 +1352,7 @@ public static string ToolbarItem_Desc_Eraser { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Exit"></a> ToolbarItem\_Desc\_Exit
 
@@ -1372,7 +1362,7 @@ public static string ToolbarItem_Desc_Exit { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Fold"></a> ToolbarItem\_Desc\_Fold
 
@@ -1382,7 +1372,7 @@ public static string ToolbarItem_Desc_Fold { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Gesture"></a> ToolbarItem\_Desc\_Gesture
 
@@ -1392,7 +1382,7 @@ public static string ToolbarItem_Desc_Gesture { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Group"></a> ToolbarItem\_Desc\_Group
 
@@ -1402,7 +1392,7 @@ public static string ToolbarItem_Desc_Group { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_InkFreeze"></a> ToolbarItem\_Desc\_InkFreeze
 
@@ -1412,7 +1402,7 @@ public static string ToolbarItem_Desc_InkFreeze { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Pen"></a> ToolbarItem\_Desc\_Pen
 
@@ -1422,7 +1412,7 @@ public static string ToolbarItem_Desc_Pen { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_QuickColorPalette"></a> ToolbarItem\_Desc\_QuickColorPalette
 
@@ -1432,7 +1422,7 @@ public static string ToolbarItem_Desc_QuickColorPalette { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Select"></a> ToolbarItem\_Desc\_Select
 
@@ -1442,7 +1432,7 @@ public static string ToolbarItem_Desc_Select { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_Separator"></a> ToolbarItem\_Desc\_Separator
 
@@ -1452,7 +1442,7 @@ public static string ToolbarItem_Desc_Separator { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarItem_Desc_StrokeEraser"></a> ToolbarItem\_Desc\_StrokeEraser
 
@@ -1462,7 +1452,7 @@ public static string ToolbarItem_Desc_StrokeEraser { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AddGroup"></a> ToolbarPage\_AddGroup
 
@@ -1472,7 +1462,7 @@ public static string ToolbarPage_AddGroup { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AddToAdded"></a> ToolbarPage\_AddToAdded
 
@@ -1482,7 +1472,7 @@ public static string ToolbarPage_AddToAdded { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AddedComponents"></a> ToolbarPage\_AddedComponents
 
@@ -1492,7 +1482,7 @@ public static string ToolbarPage_AddedComponents { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AddedComponentsHint"></a> ToolbarPage\_AddedComponentsHint
 
@@ -1502,7 +1492,7 @@ public static string ToolbarPage_AddedComponentsHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Alignment"></a> ToolbarPage\_Alignment
 
@@ -1512,7 +1502,7 @@ public static string ToolbarPage_Alignment { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AllConditionGroupsMet"></a> ToolbarPage\_AllConditionGroupsMet
 
@@ -1522,7 +1512,7 @@ public static string ToolbarPage_AllConditionGroupsMet { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AllConditionsMet"></a> ToolbarPage\_AllConditionsMet
 
@@ -1532,7 +1522,7 @@ public static string ToolbarPage_AllConditionsMet { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AnyConditionGroupMet"></a> ToolbarPage\_AnyConditionGroupMet
 
@@ -1542,7 +1532,7 @@ public static string ToolbarPage_AnyConditionGroupMet { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AnyConditionMet"></a> ToolbarPage\_AnyConditionMet
 
@@ -1552,7 +1542,7 @@ public static string ToolbarPage_AnyConditionMet { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Appearance"></a> ToolbarPage\_Appearance
 
@@ -1562,7 +1552,7 @@ public static string ToolbarPage_Appearance { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_AtLeastOneConfig"></a> ToolbarPage\_AtLeastOneConfig
 
@@ -1572,7 +1562,7 @@ public static string ToolbarPage_AtLeastOneConfig { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Bottom"></a> ToolbarPage\_Bottom
 
@@ -1582,7 +1572,7 @@ public static string ToolbarPage_Bottom { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Cancel"></a> ToolbarPage\_Cancel
 
@@ -1592,7 +1582,7 @@ public static string ToolbarPage_Cancel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Center"></a> ToolbarPage\_Center
 
@@ -1602,7 +1592,7 @@ public static string ToolbarPage_Center { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_CloseGroupChildren"></a> ToolbarPage\_CloseGroupChildren
 
@@ -1612,7 +1602,7 @@ public static string ToolbarPage_CloseGroupChildren { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ComponentLibrary"></a> ToolbarPage\_ComponentLibrary
 
@@ -1622,7 +1612,7 @@ public static string ToolbarPage_ComponentLibrary { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ComponentLibraryHint"></a> ToolbarPage\_ComponentLibraryHint
 
@@ -1632,7 +1622,7 @@ public static string ToolbarPage_ComponentLibraryHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ComponentProperties"></a> ToolbarPage\_ComponentProperties
 
@@ -1642,7 +1632,7 @@ public static string ToolbarPage_ComponentProperties { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ComponentSettings"></a> ToolbarPage\_ComponentSettings
 
@@ -1652,7 +1642,7 @@ public static string ToolbarPage_ComponentSettings { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ConfigProfiles"></a> ToolbarPage\_ConfigProfiles
 
@@ -1662,7 +1652,7 @@ public static string ToolbarPage_ConfigProfiles { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ConfirmDelete"></a> ToolbarPage\_ConfirmDelete
 
@@ -1672,7 +1662,7 @@ public static string ToolbarPage_ConfirmDelete { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ConfirmDeleteConfig"></a> ToolbarPage\_ConfirmDeleteConfig
 
@@ -1682,7 +1672,7 @@ public static string ToolbarPage_ConfirmDeleteConfig { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_CopyConfig"></a> ToolbarPage\_CopyConfig
 
@@ -1692,7 +1682,7 @@ public static string ToolbarPage_CopyConfig { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_DeleteProfile"></a> ToolbarPage\_DeleteProfile
 
@@ -1702,7 +1692,7 @@ public static string ToolbarPage_DeleteProfile { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_DisplayMode"></a> ToolbarPage\_DisplayMode
 
@@ -1712,7 +1702,7 @@ public static string ToolbarPage_DisplayMode { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Duplicate"></a> ToolbarPage\_Duplicate
 
@@ -1722,7 +1712,7 @@ public static string ToolbarPage_Duplicate { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_DuplicateConfigExists"></a> ToolbarPage\_DuplicateConfigExists
 
@@ -1732,7 +1722,7 @@ public static string ToolbarPage_DuplicateConfigExists { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_DuplicateProfile"></a> ToolbarPage\_DuplicateProfile
 
@@ -1742,7 +1732,7 @@ public static string ToolbarPage_DuplicateProfile { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_EnableConditionGroup"></a> ToolbarPage\_EnableConditionGroup
 
@@ -1752,7 +1742,7 @@ public static string ToolbarPage_EnableConditionGroup { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_EnterConfigName"></a> ToolbarPage\_EnterConfigName
 
@@ -1762,7 +1752,7 @@ public static string ToolbarPage_EnterConfigName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_EnterNewConfigName"></a> ToolbarPage\_EnterNewConfigName
 
@@ -1772,7 +1762,7 @@ public static string ToolbarPage_EnterNewConfigName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_FixedHeight"></a> ToolbarPage\_FixedHeight
 
@@ -1782,7 +1772,7 @@ public static string ToolbarPage_FixedHeight { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_FixedWidth"></a> ToolbarPage\_FixedWidth
 
@@ -1792,7 +1782,7 @@ public static string ToolbarPage_FixedWidth { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_FontSize"></a> ToolbarPage\_FontSize
 
@@ -1802,7 +1792,7 @@ public static string ToolbarPage_FontSize { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_GroupChildren"></a> ToolbarPage\_GroupChildren
 
@@ -1812,7 +1802,7 @@ public static string ToolbarPage_GroupChildren { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_GroupChildrenHint"></a> ToolbarPage\_GroupChildrenHint
 
@@ -1822,7 +1812,7 @@ public static string ToolbarPage_GroupChildrenHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_HideByRules"></a> ToolbarPage\_HideByRules
 
@@ -1832,7 +1822,7 @@ public static string ToolbarPage_HideByRules { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_HideByRulesDesc"></a> ToolbarPage\_HideByRulesDesc
 
@@ -1842,7 +1832,7 @@ public static string ToolbarPage_HideByRulesDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Hint"></a> ToolbarPage\_Hint
 
@@ -1852,7 +1842,7 @@ public static string ToolbarPage_Hint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_HorizontalAlignment"></a> ToolbarPage\_HorizontalAlignment
 
@@ -1862,7 +1852,7 @@ public static string ToolbarPage_HorizontalAlignment { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_IconSize"></a> ToolbarPage\_IconSize
 
@@ -1872,7 +1862,7 @@ public static string ToolbarPage_IconSize { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Left"></a> ToolbarPage\_Left
 
@@ -1882,7 +1872,7 @@ public static string ToolbarPage_Left { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Margin"></a> ToolbarPage\_Margin
 
@@ -1892,7 +1882,7 @@ public static string ToolbarPage_Margin { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_MarginHint"></a> ToolbarPage\_MarginHint
 
@@ -1902,7 +1892,7 @@ public static string ToolbarPage_MarginHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_MaxHeight"></a> ToolbarPage\_MaxHeight
 
@@ -1912,7 +1902,7 @@ public static string ToolbarPage_MaxHeight { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_MaxWidth"></a> ToolbarPage\_MaxWidth
 
@@ -1922,7 +1912,7 @@ public static string ToolbarPage_MaxWidth { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_MinHeight"></a> ToolbarPage\_MinHeight
 
@@ -1932,7 +1922,7 @@ public static string ToolbarPage_MinHeight { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_MinWidth"></a> ToolbarPage\_MinWidth
 
@@ -1942,7 +1932,7 @@ public static string ToolbarPage_MinWidth { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_NewConfig"></a> ToolbarPage\_NewConfig
 
@@ -1952,7 +1942,7 @@ public static string ToolbarPage_NewConfig { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_NewProfile"></a> ToolbarPage\_NewProfile
 
@@ -1962,7 +1952,7 @@ public static string ToolbarPage_NewProfile { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_OK"></a> ToolbarPage\_OK
 
@@ -1972,7 +1962,7 @@ public static string ToolbarPage_OK { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Opacity"></a> ToolbarPage\_Opacity
 
@@ -1982,7 +1972,7 @@ public static string ToolbarPage_Opacity { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_OpenConfigFolder"></a> ToolbarPage\_OpenConfigFolder
 
@@ -1992,7 +1982,7 @@ public static string ToolbarPage_OpenConfigFolder { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_QuickPaletteDisplayModeDesc"></a> ToolbarPage\_QuickPaletteDisplayModeDesc
 
@@ -2002,7 +1992,7 @@ public static string ToolbarPage_QuickPaletteDisplayModeDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_RedStyle"></a> ToolbarPage\_RedStyle
 
@@ -2012,7 +2002,7 @@ public static string ToolbarPage_RedStyle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_RedStyleDesc"></a> ToolbarPage\_RedStyleDesc
 
@@ -2022,7 +2012,7 @@ public static string ToolbarPage_RedStyleDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_RefreshProfile"></a> ToolbarPage\_RefreshProfile
 
@@ -2032,7 +2022,7 @@ public static string ToolbarPage_RefreshProfile { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ResetComponentSettings"></a> ToolbarPage\_ResetComponentSettings
 
@@ -2042,7 +2032,7 @@ public static string ToolbarPage_ResetComponentSettings { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_ResetLayout"></a> ToolbarPage\_ResetLayout
 
@@ -2052,7 +2042,7 @@ public static string ToolbarPage_ResetLayout { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Reverse"></a> ToolbarPage\_Reverse
 
@@ -2062,7 +2052,7 @@ public static string ToolbarPage_Reverse { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Right"></a> ToolbarPage\_Right
 
@@ -2072,7 +2062,7 @@ public static string ToolbarPage_Right { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Rule"></a> ToolbarPage\_Rule
 
@@ -2082,7 +2072,7 @@ public static string ToolbarPage_Rule { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_SeparateBorder"></a> ToolbarPage\_SeparateBorder
 
@@ -2092,7 +2082,7 @@ public static string ToolbarPage_SeparateBorder { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_SeparateBorderDesc"></a> ToolbarPage\_SeparateBorderDesc
 
@@ -2102,7 +2092,7 @@ public static string ToolbarPage_SeparateBorderDesc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Size"></a> ToolbarPage\_Size
 
@@ -2112,7 +2102,7 @@ public static string ToolbarPage_Size { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Stretch"></a> ToolbarPage\_Stretch
 
@@ -2122,7 +2112,7 @@ public static string ToolbarPage_Stretch { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_Top"></a> ToolbarPage\_Top
 
@@ -2132,7 +2122,7 @@ public static string ToolbarPage_Top { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_ToolbarPage_VerticalAlignment"></a> ToolbarPage\_VerticalAlignment
 
@@ -2142,7 +2132,7 @@ public static string ToolbarPage_VerticalAlignment { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Tools_Manual"></a> Tools\_Manual
 
@@ -2152,7 +2142,7 @@ public static string Tools_Manual { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Tools_MoreFeaturesTitle"></a> Tools\_MoreFeaturesTitle
 
@@ -2162,7 +2152,7 @@ public static string Tools_MoreFeaturesTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Tools_Open"></a> Tools\_Open
 
@@ -2172,7 +2162,7 @@ public static string Tools_Open { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Tools_RandomDraw"></a> Tools\_RandomDraw
 
@@ -2182,7 +2172,7 @@ public static string Tools_RandomDraw { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Tools_Replay"></a> Tools\_Replay
 
@@ -2192,7 +2182,7 @@ public static string Tools_Replay { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Tools_Save"></a> Tools\_Save
 
@@ -2202,7 +2192,7 @@ public static string Tools_Save { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Tools_Screenshot"></a> Tools\_Screenshot
 
@@ -2212,7 +2202,7 @@ public static string Tools_Screenshot { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -2224,9 +2214,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`key` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

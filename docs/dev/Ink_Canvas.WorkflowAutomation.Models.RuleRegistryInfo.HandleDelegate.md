@@ -9,9 +9,9 @@ public delegate bool RuleRegistryInfo.HandleDelegate(object settings)
 
 #### Parameters
 
-`settings` [object](https://learn.microsoft.com/dotnet/api/system.object)
+`settings` object
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

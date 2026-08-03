@@ -6,18 +6,14 @@ Assembly: InkCanvasForClass.dll
 WebDAV上传队列
 
 ```csharp
-public class WebDavUploadQueue : BaseUploadQueue, IDisposable
+public class WebDavUploadQueue : BaseUploadQueue
 ```
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+IDisposable ← 
 [BaseUploadQueue](Ink\_Canvas.Helpers.BaseUploadQueue.md) ← 
 [WebDavUploadQueue](Ink\_Canvas.Helpers.WebDavUploadQueue.md)
-
-#### Implements
-
-[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 #### Inherited Members
 
@@ -34,24 +30,17 @@ public class WebDavUploadQueue : BaseUploadQueue, IDisposable
 [BaseUploadQueue.GetQueueFilePath\(\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_GetQueueFilePath), 
 [BaseUploadQueue.GetMaxFileSize\(string\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_GetMaxFileSize\_System\_String\_), 
 [BaseUploadQueue.InitializeQueue\(\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_InitializeQueue), 
-[BaseUploadQueue.SaveQueueToFileAsync\(CancellationToken\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_SaveQueueToFileAsync\_System\_Threading\_CancellationToken\_), 
+[BaseUploadQueue.SaveQueueToFileAsync\(CancellationToken\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_SaveQueueToFileAsync\_CancellationToken\_), 
 [BaseUploadQueue.ClearQueueFile\(\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_ClearQueueFile), 
-[BaseUploadQueue.EnqueueFile\(string, int, CancellationToken\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_EnqueueFile\_System\_String\_System\_Int32\_System\_Threading\_CancellationToken\_), 
-[BaseUploadQueue.ProcessUploadQueueAsync\(CancellationToken\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_ProcessUploadQueueAsync\_System\_Threading\_CancellationToken\_), 
+[BaseUploadQueue.EnqueueFile\(string, int, CancellationToken\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_EnqueueFile\_System\_String\_System\_Int32\_CancellationToken\_), 
+[BaseUploadQueue.ProcessUploadQueueAsync\(CancellationToken\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_ProcessUploadQueueAsync\_CancellationToken\_), 
 [BaseUploadQueue.IsValidFile\(string\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_IsValidFile\_System\_String\_), 
 [BaseUploadQueue.IsRetryableError\(string\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_IsRetryableError\_System\_String\_), 
 [BaseUploadQueue.IsUploadEnabled\(\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_IsUploadEnabled), 
-[BaseUploadQueue.UploadFileInternalAsync\(string, CancellationToken\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_UploadFileInternalAsync\_System\_String\_System\_Threading\_CancellationToken\_), 
-[BaseUploadQueue.UploadFileAsync\(string, CancellationToken\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_UploadFileAsync\_System\_String\_System\_Threading\_CancellationToken\_), 
+[BaseUploadQueue.UploadFileInternalAsync\(string, CancellationToken\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_UploadFileInternalAsync\_System\_String\_CancellationToken\_), 
+[BaseUploadQueue.UploadFileAsync\(string, CancellationToken\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_UploadFileAsync\_System\_String\_CancellationToken\_), 
 [BaseUploadQueue.Dispose\(\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_Dispose), 
-[BaseUploadQueue.Dispose\(bool\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_Dispose\_System\_Boolean\_), 
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+[BaseUploadQueue.Dispose\(bool\)](Ink\_Canvas.Helpers.BaseUploadQueue.md\#Ink\_Canvas\_Helpers\_BaseUploadQueue\_Dispose\_System\_Boolean\_)
 
 ## Properties
 
@@ -65,7 +54,7 @@ protected override string QueueFileName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -79,9 +68,9 @@ protected override bool IsUploadEnabled()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
-### <a id="Ink_Canvas_Helpers_WebDavUploadQueue_UploadFileInternalAsync_System_String_System_Threading_CancellationToken_"></a> UploadFileInternalAsync\(string, CancellationToken\)
+### <a id="Ink_Canvas_Helpers_WebDavUploadQueue_UploadFileInternalAsync_System_String_CancellationToken_"></a> UploadFileInternalAsync\(string, CancellationToken\)
 
 内部上传方法，执行实际上传操作
 
@@ -91,11 +80,11 @@ protected override Task<bool> UploadFileInternalAsync(string filePath, Cancellat
 
 #### Parameters
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
-`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
+`cancellationToken` CancellationToken
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+ Task<bool\>
 

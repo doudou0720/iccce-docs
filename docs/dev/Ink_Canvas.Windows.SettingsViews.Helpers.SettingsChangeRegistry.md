@@ -9,18 +9,8 @@ public static class SettingsChangeRegistry
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [SettingsChangeRegistry](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsChangeRegistry.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -32,7 +22,7 @@ public static void Invoke(string methodName, params object[] args)
 
 #### Parameters
 
-`methodName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`methodName` string
 
-`args` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
+`args` object\[\]
 

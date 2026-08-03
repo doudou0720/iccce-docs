@@ -9,117 +9,98 @@ public class MiniWhiteboardSettings
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [MiniWhiteboardSettings](Ink\_Canvas.MiniWhiteboardSettings.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
 ### <a id="Ink_Canvas_MiniWhiteboardSettings_BackgroundColor"></a> BackgroundColor
 
 ```csharp
-[JsonProperty("backgroundColor")]
 public string BackgroundColor { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_MiniWhiteboardSettings_CurrentColorIndex"></a> CurrentColorIndex
 
 ```csharp
-[JsonProperty("currentColorIndex")]
 public int CurrentColorIndex { get; set; }
 ```
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_MiniWhiteboardSettings_DefaultHeight"></a> DefaultHeight
 
 ```csharp
-[JsonProperty("defaultHeight")]
 public double DefaultHeight { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_MiniWhiteboardSettings_DefaultOpacity"></a> DefaultOpacity
 
 ```csharp
-[JsonProperty("defaultOpacity")]
 public double DefaultOpacity { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_MiniWhiteboardSettings_DefaultWidth"></a> DefaultWidth
 
 ```csharp
-[JsonProperty("defaultWidth")]
 public double DefaultWidth { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_MiniWhiteboardSettings_IsEnabled"></a> IsEnabled
 
 ```csharp
-[JsonProperty("isEnabled")]
 public bool IsEnabled { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_MiniWhiteboardSettings_PenColor"></a> PenColor
 
 ```csharp
-[JsonProperty("penColor")]
 public string PenColor { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_MiniWhiteboardSettings_PenWidth"></a> PenWidth
 
 ```csharp
-[JsonProperty("penWidth")]
 public double PenWidth { get; set; }
 ```
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_MiniWhiteboardSettings_SyncWithPPTPages"></a> SyncWithPPTPages
 
 ```csharp
-[JsonProperty("syncWithPPTPages")]
 public bool SyncWithPPTPages { get; set; }
 ```
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

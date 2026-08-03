@@ -11,18 +11,8 @@ public class PluginMarketSourcesService
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PluginMarketSourcesService](Ink\_Canvas.Plugins.PluginMarketSourcesService.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -34,7 +24,7 @@ public PluginMarketSourcesService(string basePath)
 
 #### Parameters
 
-`basePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`basePath` string
 
 ## Fields
 
@@ -60,7 +50,7 @@ public string ActiveSourceId { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketSourcesService_Sources"></a> Sources
 
@@ -72,7 +62,7 @@ public IReadOnlyList<PluginMarketSourceInfo> Sources { get; }
 
 #### Property Value
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[PluginMarketSourceInfo](Ink\_Canvas.Plugins.PluginMarketSourceInfo.md)\>
+ IReadOnlyList<[PluginMarketSourceInfo](Ink\_Canvas.Plugins.PluginMarketSourceInfo.md)\>
 
 ## Methods
 
@@ -90,7 +80,7 @@ public static string DisplayNameOf(PluginMarketSourceInfo source)
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketSourcesService_GetActiveSource"></a> GetActiveSource\(\)
 
@@ -114,11 +104,11 @@ public bool Remove(string sourceId)
 
 #### Parameters
 
-`sourceId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`sourceId` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketSourcesService_SelectMirror_System_String_System_String_"></a> SelectMirror\(string, string\)
 
@@ -130,13 +120,13 @@ public bool SelectMirror(string sourceId, string mirrorKey)
 
 #### Parameters
 
-`sourceId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`sourceId` string
 
-`mirrorKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`mirrorKey` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketSourcesService_TryAdd_Ink_Canvas_Plugins_PluginMarketSourceInfo_System_String__"></a> TryAdd\(PluginMarketSourceInfo, out string\)
 
@@ -150,11 +140,11 @@ public bool TryAdd(PluginMarketSourceInfo source, out string error)
 
 `source` [PluginMarketSourceInfo](Ink\_Canvas.Plugins.PluginMarketSourceInfo.md)
 
-`error` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`error` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketSourcesService_Update_Ink_Canvas_Plugins_PluginMarketSourceInfo_System_String__"></a> Update\(PluginMarketSourceInfo, out string\)
 
@@ -168,9 +158,9 @@ public bool Update(PluginMarketSourceInfo source, out string error)
 
 `source` [PluginMarketSourceInfo](Ink\_Canvas.Plugins.PluginMarketSourceInfo.md)
 
-`error` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`error` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

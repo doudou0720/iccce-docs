@@ -17,7 +17,7 @@ bool CanAddNewPage { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_CanDeletePage"></a> CanDeletePage
 
@@ -27,7 +27,7 @@ bool CanDeletePage { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_CanRedo"></a> CanRedo
 
@@ -37,7 +37,7 @@ bool CanRedo { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_CanSwitchToNextPage"></a> CanSwitchToNextPage
 
@@ -47,7 +47,7 @@ bool CanSwitchToNextPage { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_CanSwitchToPreviousPage"></a> CanSwitchToPreviousPage
 
@@ -57,7 +57,7 @@ bool CanSwitchToPreviousPage { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_CanUndo"></a> CanUndo
 
@@ -67,7 +67,7 @@ bool CanUndo { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_CurrentPageInfo"></a> CurrentPageInfo
 
@@ -77,7 +77,7 @@ string CurrentPageInfo { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_Window"></a> Window
 
@@ -123,11 +123,11 @@ FrameworkElement FindView(string id)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 #### Returns
 
- [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+ FrameworkElement
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_InsertImage"></a> InsertImage\(\)
 
@@ -147,7 +147,7 @@ void OpenTools()
 void Redo()
 ```
 
-### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_RegisterView_System_String_System_Windows_FrameworkElement_"></a> RegisterView\(string, FrameworkElement\)
+### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_RegisterView_System_String_FrameworkElement_"></a> RegisterView\(string, FrameworkElement\)
 
 ```csharp
 void RegisterView(string id, FrameworkElement view)
@@ -155,9 +155,9 @@ void RegisterView(string id, FrameworkElement view)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
-`view` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+`view` FrameworkElement
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_SelectEraser"></a> SelectEraser\(\)
 

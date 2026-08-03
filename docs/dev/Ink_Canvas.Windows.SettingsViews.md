@@ -22,5 +22,3 @@
 
  [SettingsWindow](Ink\_Canvas.Windows.SettingsViews.SettingsWindow.md)
 
-SettingsWindow
-

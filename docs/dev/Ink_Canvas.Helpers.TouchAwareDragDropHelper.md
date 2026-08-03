@@ -20,18 +20,8 @@ public static class TouchAwareDragDropHelper
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [TouchAwareDragDropHelper](Ink\_Canvas.Helpers.TouchAwareDragDropHelper.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -43,7 +33,7 @@ public static readonly DependencyProperty IsEnabledProperty
 
 #### Field Value
 
- [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+ DependencyProperty
 
 ### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_IsExplicitVisibleProperty"></a> IsExplicitVisibleProperty
 
@@ -55,7 +45,7 @@ public static readonly DependencyProperty IsExplicitVisibleProperty
 
 #### Field Value
 
- [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+ DependencyProperty
 
 ### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_IsGripHandleProperty"></a> IsGripHandleProperty
 
@@ -65,7 +55,7 @@ public static readonly DependencyProperty IsGripHandleProperty
 
 #### Field Value
 
- [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+ DependencyProperty
 
 ### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_IsTouchModeProperty"></a> IsTouchModeProperty
 
@@ -75,11 +65,11 @@ public static readonly DependencyProperty IsTouchModeProperty
 
 #### Field Value
 
- [DependencyProperty](https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty)
+ DependencyProperty
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_GetIsEnabled_System_Windows_DependencyObject_"></a> GetIsEnabled\(DependencyObject\)
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_GetIsEnabled_DependencyObject_"></a> GetIsEnabled\(DependencyObject\)
 
 ```csharp
 public static bool GetIsEnabled(DependencyObject obj)
@@ -87,13 +77,13 @@ public static bool GetIsEnabled(DependencyObject obj)
 
 #### Parameters
 
-`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+`obj` DependencyObject
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
-### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_GetIsExplicitVisible_System_Windows_DependencyObject_"></a> GetIsExplicitVisible\(DependencyObject\)
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_GetIsExplicitVisible_DependencyObject_"></a> GetIsExplicitVisible\(DependencyObject\)
 
 ```csharp
 public static bool GetIsExplicitVisible(DependencyObject obj)
@@ -101,13 +91,13 @@ public static bool GetIsExplicitVisible(DependencyObject obj)
 
 #### Parameters
 
-`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+`obj` DependencyObject
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
-### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_GetIsGripHandle_System_Windows_DependencyObject_"></a> GetIsGripHandle\(DependencyObject\)
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_GetIsGripHandle_DependencyObject_"></a> GetIsGripHandle\(DependencyObject\)
 
 ```csharp
 public static bool GetIsGripHandle(DependencyObject obj)
@@ -115,13 +105,13 @@ public static bool GetIsGripHandle(DependencyObject obj)
 
 #### Parameters
 
-`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+`obj` DependencyObject
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
-### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_GetIsTouchMode_System_Windows_DependencyObject_"></a> GetIsTouchMode\(DependencyObject\)
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_GetIsTouchMode_DependencyObject_"></a> GetIsTouchMode\(DependencyObject\)
 
 ```csharp
 public static bool GetIsTouchMode(DependencyObject obj)
@@ -129,13 +119,13 @@ public static bool GetIsTouchMode(DependencyObject obj)
 
 #### Parameters
 
-`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+`obj` DependencyObject
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
-### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_SetIsEnabled_System_Windows_DependencyObject_System_Boolean_"></a> SetIsEnabled\(DependencyObject, bool\)
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_SetIsEnabled_DependencyObject_System_Boolean_"></a> SetIsEnabled\(DependencyObject, bool\)
 
 ```csharp
 public static void SetIsEnabled(DependencyObject obj, bool value)
@@ -143,11 +133,11 @@ public static void SetIsEnabled(DependencyObject obj, bool value)
 
 #### Parameters
 
-`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+`obj` DependencyObject
 
-`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`value` bool
 
-### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_SetIsExplicitVisible_System_Windows_DependencyObject_System_Boolean_"></a> SetIsExplicitVisible\(DependencyObject, bool\)
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_SetIsExplicitVisible_DependencyObject_System_Boolean_"></a> SetIsExplicitVisible\(DependencyObject, bool\)
 
 ```csharp
 public static void SetIsExplicitVisible(DependencyObject obj, bool value)
@@ -155,11 +145,11 @@ public static void SetIsExplicitVisible(DependencyObject obj, bool value)
 
 #### Parameters
 
-`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+`obj` DependencyObject
 
-`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`value` bool
 
-### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_SetIsGripHandle_System_Windows_DependencyObject_System_Boolean_"></a> SetIsGripHandle\(DependencyObject, bool\)
+### <a id="Ink_Canvas_Helpers_TouchAwareDragDropHelper_SetIsGripHandle_DependencyObject_System_Boolean_"></a> SetIsGripHandle\(DependencyObject, bool\)
 
 ```csharp
 public static void SetIsGripHandle(DependencyObject obj, bool value)
@@ -167,7 +157,7 @@ public static void SetIsGripHandle(DependencyObject obj, bool value)
 
 #### Parameters
 
-`obj` [DependencyObject](https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject)
+`obj` DependencyObject
 
-`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`value` bool
 

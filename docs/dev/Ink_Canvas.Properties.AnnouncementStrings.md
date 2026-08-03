@@ -9,18 +9,8 @@ public static class AnnouncementStrings
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [AnnouncementStrings](Ink\_Canvas.Properties.AnnouncementStrings.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -32,7 +22,7 @@ public static string ApiBaseUrl { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_ApiBaseUrlHint"></a> ApiBaseUrlHint
 
@@ -42,7 +32,7 @@ public static string ApiBaseUrlHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_CenterHint"></a> CenterHint
 
@@ -52,7 +42,7 @@ public static string CenterHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_CenterTitle"></a> CenterTitle
 
@@ -62,7 +52,7 @@ public static string CenterTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_ClearHistory"></a> ClearHistory
 
@@ -72,7 +62,7 @@ public static string ClearHistory { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_ConnectionHint"></a> ConnectionHint
 
@@ -82,7 +72,7 @@ public static string ConnectionHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_ConnectionTitle"></a> ConnectionTitle
 
@@ -92,7 +82,7 @@ public static string ConnectionTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_Culture"></a> Culture
 
@@ -102,7 +92,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
+ CultureInfo
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_ItemCount"></a> ItemCount
 
@@ -112,7 +102,7 @@ public static string ItemCount { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_MarkAllAsRead"></a> MarkAllAsRead
 
@@ -122,7 +112,7 @@ public static string MarkAllAsRead { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_NavTooltip"></a> NavTooltip
 
@@ -132,7 +122,7 @@ public static string NavTooltip { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_NoItems"></a> NoItems
 
@@ -142,7 +132,7 @@ public static string NoItems { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_PageTitle"></a> PageTitle
 
@@ -152,7 +142,7 @@ public static string PageTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_ResourceManager"></a> ResourceManager
 
@@ -172,7 +162,7 @@ public static string StartupUnreadAction { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_StartupUnreadSummary"></a> StartupUnreadSummary
 
@@ -182,7 +172,7 @@ public static string StartupUnreadSummary { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_StartupUnreadTitle"></a> StartupUnreadTitle
 
@@ -192,7 +182,7 @@ public static string StartupUnreadTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_Token"></a> Token
 
@@ -202,7 +192,7 @@ public static string Token { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_TokenHint"></a> TokenHint
 
@@ -212,7 +202,7 @@ public static string TokenHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_WebSocketUrl"></a> WebSocketUrl
 
@@ -222,7 +212,7 @@ public static string WebSocketUrl { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_AnnouncementStrings_WebSocketUrlHint"></a> WebSocketUrlHint
 
@@ -232,7 +222,7 @@ public static string WebSocketUrlHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -244,9 +234,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`key` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

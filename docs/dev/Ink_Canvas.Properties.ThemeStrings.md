@@ -9,18 +9,8 @@ public static class ThemeStrings
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [ThemeStrings](Ink\_Canvas.Properties.ThemeStrings.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -32,7 +22,7 @@ public static string AppearancePanel_24HourTimeFormat { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Culture"></a> Culture
 
@@ -42,7 +32,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
+ CultureInfo
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_ResourceManager"></a> ResourceManager
 
@@ -62,7 +52,7 @@ public static string Theme_AllowDragSidePanel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_AutoCollapseQuickPanel"></a> Theme\_AutoCollapseQuickPanel
 
@@ -72,7 +62,7 @@ public static string Theme_AutoCollapseQuickPanel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_AutoCollapseQuickPanelDelay"></a> Theme\_AutoCollapseQuickPanelDelay
 
@@ -82,7 +72,7 @@ public static string Theme_AutoCollapseQuickPanelDelay { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BlackboardScale80"></a> Theme\_BlackboardScale80
 
@@ -92,7 +82,7 @@ public static string Theme_BlackboardScale80 { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardMenuOpacity"></a> Theme\_BoardMenuOpacity
 
@@ -102,7 +92,7 @@ public static string Theme_BoardMenuOpacity { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardScaleCenter"></a> Theme\_BoardScaleCenter
 
@@ -112,7 +102,7 @@ public static string Theme_BoardScaleCenter { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardScaleLeft"></a> Theme\_BoardScaleLeft
 
@@ -122,7 +112,7 @@ public static string Theme_BoardScaleLeft { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardScaleRight"></a> Theme\_BoardScaleRight
 
@@ -132,7 +122,7 @@ public static string Theme_BoardScaleRight { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardToolbarOpacity"></a> Theme\_BoardToolbarOpacity
 
@@ -142,7 +132,7 @@ public static string Theme_BoardToolbarOpacity { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardToolbarOpacityCenter"></a> Theme\_BoardToolbarOpacityCenter
 
@@ -152,7 +142,7 @@ public static string Theme_BoardToolbarOpacityCenter { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardToolbarOpacityLeft"></a> Theme\_BoardToolbarOpacityLeft
 
@@ -162,7 +152,7 @@ public static string Theme_BoardToolbarOpacityLeft { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_BoardToolbarOpacityRight"></a> Theme\_BoardToolbarOpacityRight
 
@@ -172,7 +162,7 @@ public static string Theme_BoardToolbarOpacityRight { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Clear"></a> Theme\_Clear
 
@@ -182,7 +172,7 @@ public static string Theme_Clear { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_CompactFloatingBar"></a> Theme\_CompactFloatingBar
 
@@ -192,7 +182,7 @@ public static string Theme_CompactFloatingBar { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_CompactFloatingBarHint"></a> Theme\_CompactFloatingBarHint
 
@@ -202,7 +192,7 @@ public static string Theme_CompactFloatingBarHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_CustomFloatingIconLabel"></a> Theme\_CustomFloatingIconLabel
 
@@ -212,7 +202,7 @@ public static string Theme_CustomFloatingIconLabel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_CustomSplashImage"></a> Theme\_CustomSplashImage
 
@@ -222,7 +212,7 @@ public static string Theme_CustomSplashImage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_CustomSplashImage_Desc"></a> Theme\_CustomSplashImage\_Desc
 
@@ -232,7 +222,7 @@ public static string Theme_CustomSplashImage_Desc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_CustomSplashTextPosition"></a> Theme\_CustomSplashTextPosition
 
@@ -242,7 +232,7 @@ public static string Theme_CustomSplashTextPosition { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_CustomSplashTextPosition_Desc"></a> Theme\_CustomSplashTextPosition\_Desc
 
@@ -252,7 +242,7 @@ public static string Theme_CustomSplashTextPosition_Desc { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_CustomSplash_NotSelected"></a> Theme\_CustomSplash\_NotSelected
 
@@ -262,7 +252,7 @@ public static string Theme_CustomSplash_NotSelected { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Dark"></a> Theme\_Dark
 
@@ -272,7 +262,7 @@ public static string Theme_Dark { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_EnableQuickPanel"></a> Theme\_EnableQuickPanel
 
@@ -282,7 +272,7 @@ public static string Theme_EnableQuickPanel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_EnableSplash"></a> Theme\_EnableSplash
 
@@ -292,7 +282,7 @@ public static string Theme_EnableSplash { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarBorderColor"></a> Theme\_FloatingBarBorderColor
 
@@ -302,7 +292,7 @@ public static string Theme_FloatingBarBorderColor { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarBorderColorHint"></a> Theme\_FloatingBarBorderColorHint
 
@@ -312,7 +302,7 @@ public static string Theme_FloatingBarBorderColorHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarBorderColorReset"></a> Theme\_FloatingBarBorderColorReset
 
@@ -322,7 +312,7 @@ public static string Theme_FloatingBarBorderColorReset { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarBorderColor_Custom"></a> Theme\_FloatingBarBorderColor\_Custom
 
@@ -332,7 +322,7 @@ public static string Theme_FloatingBarBorderColor_Custom { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarBorderColor_Default"></a> Theme\_FloatingBarBorderColor\_Default
 
@@ -342,7 +332,7 @@ public static string Theme_FloatingBarBorderColor_Default { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarBorderColor_FollowBackground"></a> Theme\_FloatingBarBorderColor\_FollowBackground
 
@@ -352,7 +342,7 @@ public static string Theme_FloatingBarBorderColor_FollowBackground { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarButtonsDescription"></a> Theme\_FloatingBarButtonsDescription
 
@@ -362,7 +352,7 @@ public static string Theme_FloatingBarButtonsDescription { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarButtonsTitle"></a> Theme\_FloatingBarButtonsTitle
 
@@ -372,7 +362,7 @@ public static string Theme_FloatingBarButtonsTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarIcon"></a> Theme\_FloatingBarIcon
 
@@ -382,7 +372,7 @@ public static string Theme_FloatingBarIcon { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarMenuOpacity"></a> Theme\_FloatingBarMenuOpacity
 
@@ -392,7 +382,7 @@ public static string Theme_FloatingBarMenuOpacity { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarMenuOpacityInPPT"></a> Theme\_FloatingBarMenuOpacityInPPT
 
@@ -402,7 +392,7 @@ public static string Theme_FloatingBarMenuOpacityInPPT { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarOpacity"></a> Theme\_FloatingBarOpacity
 
@@ -412,7 +402,7 @@ public static string Theme_FloatingBarOpacity { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarOpacityInPPT"></a> Theme\_FloatingBarOpacityInPPT
 
@@ -422,7 +412,7 @@ public static string Theme_FloatingBarOpacityInPPT { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarOpacityInPPTHint"></a> Theme\_FloatingBarOpacityInPPTHint
 
@@ -432,7 +422,7 @@ public static string Theme_FloatingBarOpacityInPPTHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarScale"></a> Theme\_FloatingBarScale
 
@@ -442,7 +432,7 @@ public static string Theme_FloatingBarScale { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemeMarketInstall"></a> Theme\_FloatingBarThemeMarketInstall
 
@@ -452,7 +442,7 @@ public static string Theme_FloatingBarThemeMarketInstall { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemeMarketInstalled"></a> Theme\_FloatingBarThemeMarketInstalled
 
@@ -462,7 +452,7 @@ public static string Theme_FloatingBarThemeMarketInstalled { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemeMarketRefresh"></a> Theme\_FloatingBarThemeMarketRefresh
 
@@ -472,7 +462,7 @@ public static string Theme_FloatingBarThemeMarketRefresh { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemeMarketTitle"></a> Theme\_FloatingBarThemeMarketTitle
 
@@ -482,7 +472,7 @@ public static string Theme_FloatingBarThemeMarketTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesApply"></a> Theme\_FloatingBarThemesApply
 
@@ -492,7 +482,7 @@ public static string Theme_FloatingBarThemesApply { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesApplyFailed"></a> Theme\_FloatingBarThemesApplyFailed
 
@@ -502,7 +492,7 @@ public static string Theme_FloatingBarThemesApplyFailed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesDelete"></a> Theme\_FloatingBarThemesDelete
 
@@ -512,7 +502,7 @@ public static string Theme_FloatingBarThemesDelete { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesDescription"></a> Theme\_FloatingBarThemesDescription
 
@@ -522,7 +512,7 @@ public static string Theme_FloatingBarThemesDescription { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesFolder"></a> Theme\_FloatingBarThemesFolder
 
@@ -532,7 +522,7 @@ public static string Theme_FloatingBarThemesFolder { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesOpenFolder"></a> Theme\_FloatingBarThemesOpenFolder
 
@@ -542,7 +532,7 @@ public static string Theme_FloatingBarThemesOpenFolder { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesReload"></a> Theme\_FloatingBarThemesReload
 
@@ -552,7 +542,7 @@ public static string Theme_FloatingBarThemesReload { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingBarThemesTitle"></a> Theme\_FloatingBarThemesTitle
 
@@ -562,7 +552,7 @@ public static string Theme_FloatingBarThemesTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingIcon_CoolapkAbused"></a> Theme\_FloatingIcon\_CoolapkAbused
 
@@ -572,7 +562,7 @@ public static string Theme_FloatingIcon_CoolapkAbused { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingIcon_CoolapkCrossEye"></a> Theme\_FloatingIcon\_CoolapkCrossEye
 
@@ -582,7 +572,7 @@ public static string Theme_FloatingIcon_CoolapkCrossEye { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingIcon_CoolapkGreenHatDoge"></a> Theme\_FloatingIcon\_CoolapkGreenHatDoge
 
@@ -592,7 +582,7 @@ public static string Theme_FloatingIcon_CoolapkGreenHatDoge { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingIcon_CoolapkSmile"></a> Theme\_FloatingIcon\_CoolapkSmile
 
@@ -602,7 +592,7 @@ public static string Theme_FloatingIcon_CoolapkSmile { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingIcon_CoolapkUnderwear"></a> Theme\_FloatingIcon\_CoolapkUnderwear
 
@@ -612,7 +602,7 @@ public static string Theme_FloatingIcon_CoolapkUnderwear { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingIcon_IccBlackTransparent"></a> Theme\_FloatingIcon\_IccBlackTransparent
 
@@ -622,7 +612,7 @@ public static string Theme_FloatingIcon_IccBlackTransparent { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingIcon_IccDark"></a> Theme\_FloatingIcon\_IccDark
 
@@ -632,7 +622,7 @@ public static string Theme_FloatingIcon_IccDark { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingIcon_IccDarkBreath"></a> Theme\_FloatingIcon\_IccDarkBreath
 
@@ -642,7 +632,7 @@ public static string Theme_FloatingIcon_IccDarkBreath { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingIcon_IccDefault"></a> Theme\_FloatingIcon\_IccDefault
 
@@ -652,7 +642,7 @@ public static string Theme_FloatingIcon_IccDefault { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingIcon_IccNoShadow"></a> Theme\_FloatingIcon\_IccNoShadow
 
@@ -662,7 +652,7 @@ public static string Theme_FloatingIcon_IccNoShadow { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingIcon_IccWhiteTransparent"></a> Theme\_FloatingIcon\_IccWhiteTransparent
 
@@ -672,7 +662,7 @@ public static string Theme_FloatingIcon_IccWhiteTransparent { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_FloatingIcon_TiebaEmoji"></a> Theme\_FloatingIcon\_TiebaEmoji
 
@@ -682,7 +672,7 @@ public static string Theme_FloatingIcon_TiebaEmoji { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_GroupTitle"></a> Theme\_GroupTitle
 
@@ -692,7 +682,7 @@ public static string Theme_GroupTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HideFloatingBarBorder"></a> Theme\_HideFloatingBarBorder
 
@@ -702,7 +692,7 @@ public static string Theme_HideFloatingBarBorder { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HideFloatingBarBorderHint"></a> Theme\_HideFloatingBarBorderHint
 
@@ -712,7 +702,7 @@ public static string Theme_HideFloatingBarBorderHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HitokotoCategory_FromWeb"></a> Theme\_HitokotoCategory\_FromWeb
 
@@ -722,7 +712,7 @@ public static string Theme_HitokotoCategory_FromWeb { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HitokotoCategory_Game"></a> Theme\_HitokotoCategory\_Game
 
@@ -732,7 +722,7 @@ public static string Theme_HitokotoCategory_Game { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HitokotoCategory_Humor"></a> Theme\_HitokotoCategory\_Humor
 
@@ -742,7 +732,7 @@ public static string Theme_HitokotoCategory_Humor { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HitokotoCategory_Literature"></a> Theme\_HitokotoCategory\_Literature
 
@@ -752,7 +742,7 @@ public static string Theme_HitokotoCategory_Literature { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HitokotoCategory_Manga"></a> Theme\_HitokotoCategory\_Manga
 
@@ -762,7 +752,7 @@ public static string Theme_HitokotoCategory_Manga { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HitokotoCategory_Movie"></a> Theme\_HitokotoCategory\_Movie
 
@@ -772,7 +762,7 @@ public static string Theme_HitokotoCategory_Movie { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HitokotoCategory_NeteaseCloud"></a> Theme\_HitokotoCategory\_NeteaseCloud
 
@@ -782,7 +772,7 @@ public static string Theme_HitokotoCategory_NeteaseCloud { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HitokotoCategory_Original"></a> Theme\_HitokotoCategory\_Original
 
@@ -792,7 +782,7 @@ public static string Theme_HitokotoCategory_Original { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HitokotoCategory_Philosophy"></a> Theme\_HitokotoCategory\_Philosophy
 
@@ -802,7 +792,7 @@ public static string Theme_HitokotoCategory_Philosophy { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_HitokotoCategory_Poetry"></a> Theme\_HitokotoCategory\_Poetry
 
@@ -812,7 +802,7 @@ public static string Theme_HitokotoCategory_Poetry { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Hitokoto_CustomizeTitle"></a> Theme\_Hitokoto\_CustomizeTitle
 
@@ -822,7 +812,7 @@ public static string Theme_Hitokoto_CustomizeTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Hitokoto_SelectAll"></a> Theme\_Hitokoto\_SelectAll
 
@@ -832,7 +822,7 @@ public static string Theme_Hitokoto_SelectAll { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_IdleMiniBar"></a> Theme\_IdleMiniBar
 
@@ -842,7 +832,7 @@ public static string Theme_IdleMiniBar { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_IdleMiniBarAutoRestore"></a> Theme\_IdleMiniBarAutoRestore
 
@@ -852,7 +842,7 @@ public static string Theme_IdleMiniBarAutoRestore { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_IdleMiniBarHint"></a> Theme\_IdleMiniBarHint
 
@@ -862,7 +852,7 @@ public static string Theme_IdleMiniBarHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_IdleMiniBarOpacity"></a> Theme\_IdleMiniBarOpacity
 
@@ -872,7 +862,7 @@ public static string Theme_IdleMiniBarOpacity { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Label"></a> Theme\_Label
 
@@ -882,7 +872,7 @@ public static string Theme_Label { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LanguageLabel"></a> Theme\_LanguageLabel
 
@@ -892,7 +882,7 @@ public static string Theme_LanguageLabel { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Language_ChineseSimplified"></a> Theme\_Language\_ChineseSimplified
 
@@ -902,7 +892,7 @@ public static string Theme_Language_ChineseSimplified { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Language_English"></a> Theme\_Language\_English
 
@@ -912,7 +902,7 @@ public static string Theme_Language_English { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Language_MemeChinese"></a> Theme\_Language\_MemeChinese
 
@@ -922,7 +912,7 @@ public static string Theme_Language_MemeChinese { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Language_RestartHint"></a> Theme\_Language\_RestartHint
 
@@ -932,7 +922,7 @@ public static string Theme_Language_RestartHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Light"></a> Theme\_Light
 
@@ -942,7 +932,177 @@ public static string Theme_Light { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar"></a> Theme\_LiquidGlassBar
+
+```csharp
+public static string Theme_LiquidGlassBar { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBarHint"></a> Theme\_LiquidGlassBarHint
+
+```csharp
+public static string Theme_LiquidGlassBarHint { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBarOpacity"></a> Theme\_LiquidGlassBarOpacity
+
+```csharp
+public static string Theme_LiquidGlassBarOpacity { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar_Clear"></a> Theme\_LiquidGlassBar\_Clear
+
+```csharp
+public static string Theme_LiquidGlassBar_Clear { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar_ColorBlack"></a> Theme\_LiquidGlassBar\_ColorBlack
+
+```csharp
+public static string Theme_LiquidGlassBar_ColorBlack { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar_ColorBlue"></a> Theme\_LiquidGlassBar\_ColorBlue
+
+```csharp
+public static string Theme_LiquidGlassBar_ColorBlue { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar_ColorRed"></a> Theme\_LiquidGlassBar\_ColorRed
+
+```csharp
+public static string Theme_LiquidGlassBar_ColorRed { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar_ColorYellow"></a> Theme\_LiquidGlassBar\_ColorYellow
+
+```csharp
+public static string Theme_LiquidGlassBar_ColorYellow { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar_Drag"></a> Theme\_LiquidGlassBar\_Drag
+
+```csharp
+public static string Theme_LiquidGlassBar_Drag { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar_Eraser"></a> Theme\_LiquidGlassBar\_Eraser
+
+```csharp
+public static string Theme_LiquidGlassBar_Eraser { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar_Highlighter"></a> Theme\_LiquidGlassBar\_Highlighter
+
+```csharp
+public static string Theme_LiquidGlassBar_Highlighter { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar_More"></a> Theme\_LiquidGlassBar\_More
+
+```csharp
+public static string Theme_LiquidGlassBar_More { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar_Pen"></a> Theme\_LiquidGlassBar\_Pen
+
+```csharp
+public static string Theme_LiquidGlassBar_Pen { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar_Redo"></a> Theme\_LiquidGlassBar\_Redo
+
+```csharp
+public static string Theme_LiquidGlassBar_Redo { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar_Select"></a> Theme\_LiquidGlassBar\_Select
+
+```csharp
+public static string Theme_LiquidGlassBar_Select { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar_Undo"></a> Theme\_LiquidGlassBar\_Undo
+
+```csharp
+public static string Theme_LiquidGlassBar_Undo { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_LiquidGlassBar_Whiteboard"></a> Theme\_LiquidGlassBar\_Whiteboard
+
+```csharp
+public static string Theme_LiquidGlassBar_Whiteboard { get; }
+```
+
+#### Property Value
+
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Manage"></a> Theme\_Manage
 
@@ -952,7 +1112,7 @@ public static string Theme_Manage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuickPalette_DoubleRow"></a> Theme\_QuickPalette\_DoubleRow
 
@@ -962,7 +1122,7 @@ public static string Theme_QuickPalette_DoubleRow { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuickPalette_SingleRow"></a> Theme\_QuickPalette\_SingleRow
 
@@ -972,7 +1132,7 @@ public static string Theme_QuickPalette_SingleRow { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuickPanelBottomOffset"></a> Theme\_QuickPanelBottomOffset
 
@@ -982,7 +1142,7 @@ public static string Theme_QuickPanelBottomOffset { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuickPanelBottomOffset_Description"></a> Theme\_QuickPanelBottomOffset\_Description
 
@@ -992,7 +1152,7 @@ public static string Theme_QuickPanelBottomOffset_Description { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuickPanelOpacity"></a> Theme\_QuickPanelOpacity
 
@@ -1002,7 +1162,7 @@ public static string Theme_QuickPanelOpacity { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuotePosition"></a> Theme\_QuotePosition
 
@@ -1012,7 +1172,7 @@ public static string Theme_QuotePosition { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuotePosition_BottomLeft"></a> Theme\_QuotePosition\_BottomLeft
 
@@ -1022,7 +1182,7 @@ public static string Theme_QuotePosition_BottomLeft { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuotePosition_BottomRight"></a> Theme\_QuotePosition\_BottomRight
 
@@ -1032,7 +1192,7 @@ public static string Theme_QuotePosition_BottomRight { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuotePosition_TopLeft"></a> Theme\_QuotePosition\_TopLeft
 
@@ -1042,7 +1202,7 @@ public static string Theme_QuotePosition_TopLeft { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuotePosition_TopRight"></a> Theme\_QuotePosition\_TopRight
 
@@ -1052,7 +1212,7 @@ public static string Theme_QuotePosition_TopRight { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuoteSource"></a> Theme\_QuoteSource
 
@@ -1062,7 +1222,7 @@ public static string Theme_QuoteSource { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuoteSource_GaokaoBless"></a> Theme\_QuoteSource\_GaokaoBless
 
@@ -1072,7 +1232,7 @@ public static string Theme_QuoteSource_GaokaoBless { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuoteSource_Hitokoto"></a> Theme\_QuoteSource\_Hitokoto
 
@@ -1082,7 +1242,7 @@ public static string Theme_QuoteSource_Hitokoto { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuoteSource_Mottos"></a> Theme\_QuoteSource\_Mottos
 
@@ -1092,7 +1252,7 @@ public static string Theme_QuoteSource_Mottos { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuoteSource_OsuQuotes"></a> Theme\_QuoteSource\_OsuQuotes
 
@@ -1102,7 +1262,7 @@ public static string Theme_QuoteSource_OsuQuotes { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_QuoteSource_PhigrosTips"></a> Theme\_QuoteSource\_PhigrosTips
 
@@ -1112,7 +1272,7 @@ public static string Theme_QuoteSource_PhigrosTips { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_SelectCustomSplashImage"></a> Theme\_SelectCustomSplashImage
 
@@ -1122,7 +1282,7 @@ public static string Theme_SelectCustomSplashImage { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_ShowPenColorOnBoardToolbarIcon"></a> Theme\_ShowPenColorOnBoardToolbarIcon
 
@@ -1132,7 +1292,7 @@ public static string Theme_ShowPenColorOnBoardToolbarIcon { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_ShowPenColorOnFloatingBarIcon"></a> Theme\_ShowPenColorOnFloatingBarIcon
 
@@ -1142,7 +1302,7 @@ public static string Theme_ShowPenColorOnFloatingBarIcon { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_ShowQuoteInWhiteboard"></a> Theme\_ShowQuoteInWhiteboard
 
@@ -1152,7 +1312,7 @@ public static string Theme_ShowQuoteInWhiteboard { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_ShowTimeInWhiteboard"></a> Theme\_ShowTimeInWhiteboard
 
@@ -1162,7 +1322,7 @@ public static string Theme_ShowTimeInWhiteboard { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_SidebarGroupTitle"></a> Theme\_SidebarGroupTitle
 
@@ -1172,7 +1332,7 @@ public static string Theme_SidebarGroupTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_SplashStyle"></a> Theme\_SplashStyle
 
@@ -1182,7 +1342,7 @@ public static string Theme_SplashStyle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Splash_Autumn"></a> Theme\_Splash\_Autumn
 
@@ -1192,7 +1352,7 @@ public static string Theme_Splash_Autumn { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Splash_Custom"></a> Theme\_Splash\_Custom
 
@@ -1202,7 +1362,7 @@ public static string Theme_Splash_Custom { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Splash_Horse"></a> Theme\_Splash\_Horse
 
@@ -1212,7 +1372,7 @@ public static string Theme_Splash_Horse { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Splash_Random"></a> Theme\_Splash\_Random
 
@@ -1222,7 +1382,7 @@ public static string Theme_Splash_Random { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Splash_Seasonal"></a> Theme\_Splash\_Seasonal
 
@@ -1232,7 +1392,7 @@ public static string Theme_Splash_Seasonal { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Splash_Spring"></a> Theme\_Splash\_Spring
 
@@ -1242,7 +1402,7 @@ public static string Theme_Splash_Spring { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Splash_Summer"></a> Theme\_Splash\_Summer
 
@@ -1252,7 +1412,7 @@ public static string Theme_Splash_Summer { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Splash_Winter"></a> Theme\_Splash\_Winter
 
@@ -1262,7 +1422,7 @@ public static string Theme_Splash_Winter { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_System"></a> Theme\_System
 
@@ -1272,7 +1432,7 @@ public static string Theme_System { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_Abandon"></a> Theme\_Tips\_Abandon
 
@@ -1282,7 +1442,7 @@ public static string Theme_Tips_Abandon { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_AutoRotation"></a> Theme\_Tips\_AutoRotation
 
@@ -1292,7 +1452,7 @@ public static string Theme_Tips_AutoRotation { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_AutoRotationHint"></a> Theme\_Tips\_AutoRotationHint
 
@@ -1302,7 +1462,7 @@ public static string Theme_Tips_AutoRotationHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_CancelConfirm"></a> Theme\_Tips\_CancelConfirm
 
@@ -1312,7 +1472,7 @@ public static string Theme_Tips_CancelConfirm { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_ContentRequired"></a> Theme\_Tips\_ContentRequired
 
@@ -1322,7 +1482,7 @@ public static string Theme_Tips_ContentRequired { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_Create"></a> Theme\_Tips\_Create
 
@@ -1332,7 +1492,7 @@ public static string Theme_Tips_Create { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_Edit"></a> Theme\_Tips\_Edit
 
@@ -1342,7 +1502,7 @@ public static string Theme_Tips_Edit { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_EditDialogTitle"></a> Theme\_Tips\_EditDialogTitle
 
@@ -1352,7 +1512,7 @@ public static string Theme_Tips_EditDialogTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_Export"></a> Theme\_Tips\_Export
 
@@ -1362,7 +1522,7 @@ public static string Theme_Tips_Export { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_GlobalSettings"></a> Theme\_Tips\_GlobalSettings
 
@@ -1372,7 +1532,7 @@ public static string Theme_Tips_GlobalSettings { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_GlobalSettingsHint"></a> Theme\_Tips\_GlobalSettingsHint
 
@@ -1382,7 +1542,7 @@ public static string Theme_Tips_GlobalSettingsHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_Import"></a> Theme\_Tips\_Import
 
@@ -1392,7 +1552,7 @@ public static string Theme_Tips_Import { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_ImportDialogTitle"></a> Theme\_Tips\_ImportDialogTitle
 
@@ -1402,7 +1562,7 @@ public static string Theme_Tips_ImportDialogTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_NameExists"></a> Theme\_Tips\_NameExists
 
@@ -1412,7 +1572,7 @@ public static string Theme_Tips_NameExists { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_NameRequired"></a> Theme\_Tips\_NameRequired
 
@@ -1422,7 +1582,7 @@ public static string Theme_Tips_NameRequired { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_NewDialogTitle"></a> Theme\_Tips\_NewDialogTitle
 
@@ -1432,7 +1592,7 @@ public static string Theme_Tips_NewDialogTitle { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_PresetLocked"></a> Theme\_Tips\_PresetLocked
 
@@ -1442,7 +1602,7 @@ public static string Theme_Tips_PresetLocked { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_RotationInterval"></a> Theme\_Tips\_RotationInterval
 
@@ -1452,7 +1612,7 @@ public static string Theme_Tips_RotationInterval { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_RotationIntervalHint"></a> Theme\_Tips\_RotationIntervalHint
 
@@ -1462,7 +1622,7 @@ public static string Theme_Tips_RotationIntervalHint { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_SchemeContent"></a> Theme\_Tips\_SchemeContent
 
@@ -1472,7 +1632,7 @@ public static string Theme_Tips_SchemeContent { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_SchemeName"></a> Theme\_Tips\_SchemeName
 
@@ -1482,7 +1642,7 @@ public static string Theme_Tips_SchemeName { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_SelectSchemeFirst"></a> Theme\_Tips\_SelectSchemeFirst
 
@@ -1492,7 +1652,7 @@ public static string Theme_Tips_SelectSchemeFirst { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_SelectTxtFile"></a> Theme\_Tips\_SelectTxtFile
 
@@ -1502,7 +1662,7 @@ public static string Theme_Tips_SelectTxtFile { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_Title"></a> Theme\_Tips\_Title
 
@@ -1512,7 +1672,7 @@ public static string Theme_Tips_Title { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_UnfoldButtonIcon"></a> Theme\_UnfoldButtonIcon
 
@@ -1522,7 +1682,7 @@ public static string Theme_UnfoldButtonIcon { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_UnfoldIcon_Arrow"></a> Theme\_UnfoldIcon\_Arrow
 
@@ -1532,7 +1692,7 @@ public static string Theme_UnfoldIcon_Arrow { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_UnfoldIcon_ClassicArrow"></a> Theme\_UnfoldIcon\_ClassicArrow
 
@@ -1542,7 +1702,7 @@ public static string Theme_UnfoldIcon_ClassicArrow { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_UnfoldIcon_ClassicPen"></a> Theme\_UnfoldIcon\_ClassicPen
 
@@ -1552,7 +1712,7 @@ public static string Theme_UnfoldIcon_ClassicPen { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_UnfoldIcon_Stripe"></a> Theme\_UnfoldIcon\_Stripe
 
@@ -1562,7 +1722,7 @@ public static string Theme_UnfoldIcon_Stripe { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Upload"></a> Theme\_Upload
 
@@ -1572,7 +1732,7 @@ public static string Theme_Upload { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_UseLegacyFloatingBarUI"></a> Theme\_UseLegacyFloatingBarUI
 
@@ -1582,7 +1742,7 @@ public static string Theme_UseLegacyFloatingBarUI { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_WindowBackdrop"></a> Theme\_WindowBackdrop
 
@@ -1592,7 +1752,7 @@ public static string Theme_WindowBackdrop { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_WindowBackdrop_Acrylic"></a> Theme\_WindowBackdrop\_Acrylic
 
@@ -1602,7 +1762,7 @@ public static string Theme_WindowBackdrop_Acrylic { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_WindowBackdrop_Acrylic10"></a> Theme\_WindowBackdrop\_Acrylic10
 
@@ -1612,7 +1772,7 @@ public static string Theme_WindowBackdrop_Acrylic10 { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_WindowBackdrop_Acrylic11"></a> Theme\_WindowBackdrop\_Acrylic11
 
@@ -1622,7 +1782,7 @@ public static string Theme_WindowBackdrop_Acrylic11 { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_WindowBackdrop_Description"></a> Theme\_WindowBackdrop\_Description
 
@@ -1632,7 +1792,7 @@ public static string Theme_WindowBackdrop_Description { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_WindowBackdrop_Mica"></a> Theme\_WindowBackdrop\_Mica
 
@@ -1642,7 +1802,7 @@ public static string Theme_WindowBackdrop_Mica { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_WindowBackdrop_None"></a> Theme\_WindowBackdrop\_None
 
@@ -1652,7 +1812,7 @@ public static string Theme_WindowBackdrop_None { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_WindowBackdrop_Tabbed"></a> Theme\_WindowBackdrop\_Tabbed
 
@@ -1662,7 +1822,7 @@ public static string Theme_WindowBackdrop_Tabbed { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_WindowBackdrop_Transient"></a> Theme\_WindowBackdrop\_Transient
 
@@ -1672,7 +1832,7 @@ public static string Theme_WindowBackdrop_Transient { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -1684,9 +1844,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`key` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

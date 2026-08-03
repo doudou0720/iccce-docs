@@ -4,19 +4,13 @@
 
  [AboutPage](Ink\_Canvas.Windows.SettingsViews.Pages.AboutPage.md)
 
-AboutPage
-
  [AdvancedPage](Ink\_Canvas.Windows.SettingsViews.Pages.AdvancedPage.md)
 
  [AnnouncementCenterPage](Ink\_Canvas.Windows.SettingsViews.Pages.AnnouncementCenterPage.md)
 
-AnnouncementCenterPage
-
  [AnnouncementPage](Ink\_Canvas.Windows.SettingsViews.Pages.AnnouncementPage.md)
 
  [AppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.AppearancePage.md)
-
-AppearancePage
 
  [AuthWithTokenResponse](Ink\_Canvas.Windows.SettingsViews.Pages.AuthWithTokenResponse.md)
 
@@ -56,21 +50,15 @@ AppearancePage
 
  [BoardMenuPage](Ink\_Canvas.Windows.SettingsViews.Pages.BoardMenuPage.md)
 
-BoardMenuPage
-
  [BoardPositionNameConverter](Ink\_Canvas.Windows.SettingsViews.Pages.BoardPositionNameConverter.md)
 
  [BoardToolbarPage](Ink\_Canvas.Windows.SettingsViews.Pages.BoardToolbarPage.md)
-
-BoardToolbarPage
 
  [CanvasPage](Ink\_Canvas.Windows.SettingsViews.Pages.CanvasPage.md)
 
  [ClassSelectionItem](Ink\_Canvas.Windows.SettingsViews.Pages.ClassSelectionItem.md)
 
  [ClockPage](Ink\_Canvas.Windows.SettingsViews.Pages.ClockPage.md)
-
-ClockPage
 
  [CloudStoragePage](Ink\_Canvas.Windows.SettingsViews.Pages.CloudStoragePage.md)
 
@@ -82,21 +70,13 @@ ClockPage
 
  [FloatingBarThemeMarketPage](Ink\_Canvas.Windows.SettingsViews.Pages.FloatingBarThemeMarketPage.md)
 
-FloatingBarThemeMarketPage
-
  [FloatingBarThemePage](Ink\_Canvas.Windows.SettingsViews.Pages.FloatingBarThemePage.md)
 
-FloatingBarThemePage
-
  [FriendlyLinksPage](Ink\_Canvas.Windows.SettingsViews.Pages.FriendlyLinksPage.md)
-
-FriendlyLinksPage
 
  [GroupChildrenDropHandler](Ink\_Canvas.Windows.SettingsViews.Pages.GroupChildrenDropHandler.md)
 
  [HomePage](Ink\_Canvas.Windows.SettingsViews.Pages.HomePage.md)
-
-HomePage
 
  [HotkeyPage](Ink\_Canvas.Windows.SettingsViews.Pages.HotkeyPage.md)
 
@@ -126,8 +106,6 @@ HomePage
 
  [PPTPageFlipPreviewPage](Ink\_Canvas.Windows.SettingsViews.Pages.PPTPageFlipPreviewPage.md)
 
-PPTPageFlipPreviewPage
-
  [PerformancePage](Ink\_Canvas.Windows.SettingsViews.Pages.PerformancePage.md)
 
  [PluginMarketSourcesWindow](Ink\_Canvas.Windows.SettingsViews.Pages.PluginMarketSourcesWindow.md)
@@ -136,21 +114,13 @@ PPTPageFlipPreviewPage
 
  [PluginMarketplacePage](Ink\_Canvas.Windows.SettingsViews.Pages.PluginMarketplacePage.md)
 
-PluginMarketplacePage
-
  [PluginPage](Ink\_Canvas.Windows.SettingsViews.Pages.PluginPage.md)
 
-PluginPage
-
  [PluginSettingsPage](Ink\_Canvas.Windows.SettingsViews.Pages.PluginSettingsPage.md)
-
-PluginSettingsPage
 
  [PowerPointPage](Ink\_Canvas.Windows.SettingsViews.Pages.PowerPointPage.md)
 
  [PrivacyPage](Ink\_Canvas.Windows.SettingsViews.Pages.PrivacyPage.md)
-
-PrivacyPage
 
  [RandomDrawPage](Ink\_Canvas.Windows.SettingsViews.Pages.RandomDrawPage.md)
 
@@ -162,31 +132,19 @@ RulesetLogicalMode 到 int 的转换器，用于 ComboBox SelectedIndex 绑定
 
  [SettingsPage](Ink\_Canvas.Windows.SettingsViews.Pages.SettingsPage.md)
 
-SettingsPage
-
  [SidebarPage](Ink\_Canvas.Windows.SettingsViews.Pages.SidebarPage.md)
 
-SidebarPage
-
  [StartupPage](Ink\_Canvas.Windows.SettingsViews.Pages.StartupPage.md)
-
-StartupPage
 
  [StateToBrushConverter](Ink\_Canvas.Windows.SettingsViews.Pages.StateToBrushConverter.md)
 
  [StoragePage](Ink\_Canvas.Windows.SettingsViews.Pages.StoragePage.md)
 
-StoragePage
-
  [ToolbarAppearancePage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarAppearancePage.md)
 
  [ToolbarMenuPage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarMenuPage.md)
 
-ToolbarMenuPage
-
  [ToolbarPage](Ink\_Canvas.Windows.SettingsViews.Pages.ToolbarPage.md)
-
-ToolbarPage
 
  [UpdatePage](Ink\_Canvas.Windows.SettingsViews.Pages.UpdatePage.md)
 

@@ -115,6 +115,8 @@
     href: Ink_Canvas.Gesture.md
   - name: InkToShape
     href: Ink_Canvas.InkToShape.md
+  - name: LiquidGlassBarWindow
+    href: Ink_Canvas.LiquidGlassBarWindow.md
   - name: MainWindow
     href: Ink_Canvas.MainWindow.md
   - name: ManageNameRostersWindow
@@ -958,6 +960,12 @@
     href: Ink_Canvas.Resources.ICCConfiguration.ElementCornerRadiusTypes.md
   - name: InitialPositionTypes
     href: Ink_Canvas.Resources.ICCConfiguration.InitialPositionTypes.md
+- name: Ink_Canvas.Shaders
+  href: Ink_Canvas.Shaders.md
+  items:
+  - name: Classes
+  - name: LiquidGlassEffect
+    href: Ink_Canvas.Shaders.LiquidGlassEffect.md
 - name: Ink_Canvas.Windows
   href: Ink_Canvas.Windows.md
   items:

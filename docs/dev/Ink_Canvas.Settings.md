@@ -9,25 +9,14 @@ public class Settings
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [Settings](Ink\_Canvas.Settings.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
 ### <a id="Ink_Canvas_Settings_Advanced"></a> Advanced
 
 ```csharp
-[JsonProperty("advanced")]
 public Advanced Advanced { get; set; }
 ```
 
@@ -38,7 +27,6 @@ public Advanced Advanced { get; set; }
 ### <a id="Ink_Canvas_Settings_Appearance"></a> Appearance
 
 ```csharp
-[JsonProperty("appearance")]
 public Appearance Appearance { get; set; }
 ```
 
@@ -49,7 +37,6 @@ public Appearance Appearance { get; set; }
 ### <a id="Ink_Canvas_Settings_Automation"></a> Automation
 
 ```csharp
-[JsonProperty("automation")]
 public Automation Automation { get; set; }
 ```
 
@@ -60,18 +47,16 @@ public Automation Automation { get; set; }
 ### <a id="Ink_Canvas_Settings_BoardToolbarConfigName"></a> BoardToolbarConfigName
 
 ```csharp
-[JsonProperty("boardToolbarConfigName")]
 public string BoardToolbarConfigName { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Settings_Camera"></a> Camera
 
 ```csharp
-[JsonProperty("camera")]
 public CameraSettings Camera { get; set; }
 ```
 
@@ -82,7 +67,6 @@ public CameraSettings Camera { get; set; }
 ### <a id="Ink_Canvas_Settings_Canvas"></a> Canvas
 
 ```csharp
-[JsonProperty("canvas")]
 public Canvas Canvas { get; set; }
 ```
 
@@ -93,7 +77,6 @@ public Canvas Canvas { get; set; }
 ### <a id="Ink_Canvas_Settings_Dlass"></a> Dlass
 
 ```csharp
-[JsonProperty("dlass")]
 public DlassSettings Dlass { get; set; }
 ```
 
@@ -104,7 +87,6 @@ public DlassSettings Dlass { get; set; }
 ### <a id="Ink_Canvas_Settings_Gesture"></a> Gesture
 
 ```csharp
-[JsonProperty("gesture")]
 public Gesture Gesture { get; set; }
 ```
 
@@ -115,7 +97,6 @@ public Gesture Gesture { get; set; }
 ### <a id="Ink_Canvas_Settings_InkToShape"></a> InkToShape
 
 ```csharp
-[JsonProperty("inkToShape")]
 public InkToShape InkToShape { get; set; }
 ```
 
@@ -126,7 +107,6 @@ public InkToShape InkToShape { get; set; }
 ### <a id="Ink_Canvas_Settings_MiniWhiteboard"></a> MiniWhiteboard
 
 ```csharp
-[JsonProperty("miniWhiteboard")]
 public MiniWhiteboardSettings MiniWhiteboard { get; set; }
 ```
 
@@ -137,7 +117,6 @@ public MiniWhiteboardSettings MiniWhiteboard { get; set; }
 ### <a id="Ink_Canvas_Settings_ModeSettings"></a> ModeSettings
 
 ```csharp
-[JsonProperty("modeSettings")]
 public ModeSettings ModeSettings { get; set; }
 ```
 
@@ -148,7 +127,6 @@ public ModeSettings ModeSettings { get; set; }
 ### <a id="Ink_Canvas_Settings_Notification"></a> Notification
 
 ```csharp
-[JsonProperty("notification")]
 public NotificationSettings Notification { get; set; }
 ```
 
@@ -159,7 +137,6 @@ public NotificationSettings Notification { get; set; }
 ### <a id="Ink_Canvas_Settings_Performance"></a> Performance
 
 ```csharp
-[JsonProperty("performance")]
 public PerformanceSettings Performance { get; set; }
 ```
 
@@ -170,7 +147,6 @@ public PerformanceSettings Performance { get; set; }
 ### <a id="Ink_Canvas_Settings_PowerPointSettings"></a> PowerPointSettings
 
 ```csharp
-[JsonProperty("behavior")]
 public PowerPointSettings PowerPointSettings { get; set; }
 ```
 
@@ -181,7 +157,6 @@ public PowerPointSettings PowerPointSettings { get; set; }
 ### <a id="Ink_Canvas_Settings_RandSettings"></a> RandSettings
 
 ```csharp
-[JsonProperty("randSettings")]
 public RandSettings RandSettings { get; set; }
 ```
 
@@ -192,7 +167,6 @@ public RandSettings RandSettings { get; set; }
 ### <a id="Ink_Canvas_Settings_Security"></a> Security
 
 ```csharp
-[JsonProperty("security")]
 public Security Security { get; set; }
 ```
 
@@ -203,7 +177,6 @@ public Security Security { get; set; }
 ### <a id="Ink_Canvas_Settings_Startup"></a> Startup
 
 ```csharp
-[JsonProperty("startup")]
 public Startup Startup { get; set; }
 ```
 
@@ -214,7 +187,6 @@ public Startup Startup { get; set; }
 ### <a id="Ink_Canvas_Settings_Toolbar"></a> Toolbar
 
 ```csharp
-[JsonProperty("toolbar")]
 public ToolbarLayoutSettings Toolbar { get; set; }
 ```
 
@@ -225,18 +197,16 @@ public ToolbarLayoutSettings Toolbar { get; set; }
 ### <a id="Ink_Canvas_Settings_ToolbarConfigName"></a> ToolbarConfigName
 
 ```csharp
-[JsonProperty("toolbarConfigName")]
 public string ToolbarConfigName { get; set; }
 ```
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Settings_Upload"></a> Upload
 
 ```csharp
-[JsonProperty("upload")]
 public UploadSettings Upload { get; set; }
 ```
 

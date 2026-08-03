@@ -13,22 +13,8 @@ public class SystemEventMonitor : IDisposable
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+IDisposable ← 
 [SystemEventMonitor](Ink\_Canvas.WorkflowAutomation.Services.SystemEventMonitor.md)
-
-#### Implements
-
-[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -41,8 +27,6 @@ public SystemEventMonitor()
 ## Methods
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_SystemEventMonitor_Dispose"></a> Dispose\(\)
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ```csharp
 public void Dispose()
@@ -58,11 +42,11 @@ public bool IsProcessRunning(string processName)
 
 #### Parameters
 
-`processName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`processName` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_SystemEventMonitor_NotifyInternalStateChanged"></a> NotifyInternalStateChanged\(\)
 
@@ -83,7 +67,7 @@ public void RegisterProcess(string processName)
 
 #### Parameters
 
-`processName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`processName` string
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_SystemEventMonitor_Start"></a> Start\(\)
 
@@ -111,7 +95,7 @@ public void UnregisterProcess(string processName)
 
 #### Parameters
 
-`processName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`processName` string
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_SystemEventMonitor_ForegroundWindowChanged"></a> ForegroundWindowChanged
 
@@ -123,7 +107,7 @@ public event EventHandler ForegroundWindowChanged
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+ EventHandler
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_SystemEventMonitor_InternalStateChanged"></a> InternalStateChanged
 
@@ -135,7 +119,7 @@ public event EventHandler InternalStateChanged
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+ EventHandler
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_SystemEventMonitor_ProcessChanged"></a> ProcessChanged
 
@@ -147,5 +131,5 @@ public event EventHandler ProcessChanged
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+ EventHandler
 
