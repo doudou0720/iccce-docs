@@ -740,6 +740,8 @@
     href: Ink_Canvas.Plugins.PluginQuoteScheme.md
   - name: PluginReadmeRenderer
     href: Ink_Canvas.Plugins.PluginReadmeRenderer.md
+  - name: PluginReloadResult
+    href: Ink_Canvas.Plugins.PluginReloadResult.md
   - name: PluginResolutionInfo
     href: Ink_Canvas.Plugins.PluginResolutionInfo.md
   - name: PluginScreenInfo

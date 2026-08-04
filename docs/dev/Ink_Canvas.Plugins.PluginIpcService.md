@@ -112,6 +112,25 @@ public void RegisterHandler(string method, Func<System.Text.Json.JsonElement?, o
 public void Start()
 ```
 
+### <a id="Ink_Canvas_Plugins_PluginIpcService_UnregisterHandler_System_String_Func_System_Nullable_System_Text_Json_JsonElement__System_Object__"></a> UnregisterHandler\(string, Func<JsonElement?, object\>\)
+
+注销之前注册的处理函数（按引用匹配）。插件卸载时必须调用，
+否则委托留在 <xref href="Ink_Canvas.Plugins.PluginIpcService._handlers" data-throw-if-not-resolved="false"></xref> 中会钉住插件 ALC，导致热重载失效。
+
+```csharp
+public bool UnregisterHandler(string method, Func<System.Text.Json.JsonElement?, object> handler)
+```
+
+#### Parameters
+
+`method` string
+
+`handler` Func<System.Text.Json.JsonElement?, object\>
+
+#### Returns
+
+ bool
+
 ### <a id="Ink_Canvas_Plugins_PluginIpcService_MessageReceived"></a> MessageReceived
 
 收到任何消息时触发。

@@ -834,6 +834,46 @@ public static string Plugin_NoPlugins { get; }
 
  string
 
+### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_Reload"></a> Plugin\_Reload
+
+```csharp
+public static string Plugin_Reload { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ReloadFailed"></a> Plugin\_ReloadFailed
+
+```csharp
+public static string Plugin_ReloadFailed { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ReloadPartial"></a> Plugin\_ReloadPartial
+
+```csharp
+public static string Plugin_ReloadPartial { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ReloadSuccess"></a> Plugin\_ReloadSuccess
+
+```csharp
+public static string Plugin_ReloadSuccess { get; }
+```
+
+#### Property Value
+
+ string
+
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_Settings"></a> Plugin\_Settings
 
 ```csharp

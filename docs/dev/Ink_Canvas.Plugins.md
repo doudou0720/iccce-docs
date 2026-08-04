@@ -145,6 +145,10 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 不引入任何第三方依赖，支持：标题、加粗、斜体、行内代码、代码块、列表、
 链接、引用、分隔线与简单表格。
 
+ [PluginReloadResult](Ink\_Canvas.Plugins.PluginReloadResult.md)
+
+<xref href="Ink_Canvas.Plugins.PluginManager.ReloadPlugin(System.String)" data-throw-if-not-resolved="false"></xref> 的结果。
+
  [PluginResolutionInfo](Ink\_Canvas.Plugins.PluginResolutionInfo.md)
 
 摄像头分辨率（宽×高×帧率）。

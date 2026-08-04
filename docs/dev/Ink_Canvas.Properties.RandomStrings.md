@@ -684,6 +684,16 @@ public static string Random_QuickDraw_Title { get; }
 
  string
 
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_QuickDraw_UseExternal"></a> Random\_QuickDraw\_UseExternal
+
+```csharp
+public static string Random_QuickDraw_UseExternal { get; }
+```
+
+#### Property Value
+
+ string
+
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_QuickDraw_WindowTitle"></a> Random\_QuickDraw\_WindowTitle
 
 ```csharp

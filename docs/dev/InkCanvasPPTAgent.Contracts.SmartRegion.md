@@ -39,7 +39,7 @@ public double Height { get; set; }
 
 ### <a id="InkCanvasPPTAgent_Contracts_SmartRegion_MediaType"></a> MediaType
 
-媒体类型（ppMediaTypeVideo = 13）
+媒体类型（PpMediaType，视频为 ppMediaTypeMovie = 3；仅作调试信息，不影响行为）
 
 ```csharp
 public int MediaType { get; set; }

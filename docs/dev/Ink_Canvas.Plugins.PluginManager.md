@@ -488,6 +488,25 @@ public void RegisterUriHandler(string subPath, Func<PluginUriRequest, bool> hand
 
 `handler` Func<PluginUriRequest, bool\>
 
+### <a id="Ink_Canvas_Plugins_PluginManager_ReloadPlugin_System_String_"></a> ReloadPlugin\(string\)
+
+热重载单个插件：卸载 → 校验 ALC 已释放 → 从磁盘重新发现并加载。
+用于插件开发时直接覆盖 DLL 后免重启生效，也用于市场更新的热更新路径。
+
+```csharp
+public PluginReloadResult ReloadPlugin(string pluginId)
+```
+
+#### Parameters
+
+`pluginId` string
+
+#### Returns
+
+ [PluginReloadResult](Ink\_Canvas.Plugins.PluginReloadResult.md)
+
+重载结果，<xref href="Ink_Canvas.Plugins.PluginReloadResult.Success" data-throw-if-not-resolved="false"></xref> 为 false 时调用方应提示重启。
+
 ### <a id="Ink_Canvas_Plugins_PluginManager_ResetPluginFailure_System_String_"></a> ResetPluginFailure\(string\)
 
 显式重置插件的错误记录并清除禁用状态，然后尝试热加载。
@@ -548,6 +567,30 @@ public void UnloadPlugin(PluginInfo plugin)
 #### Parameters
 
 `plugin` PluginInfo
+
+### <a id="Ink_Canvas_Plugins_PluginManager_WaitForUnload_System_String_System_Int32_"></a> WaitForUnload\(string, int\)
+
+等待指定插件的 ALC 被 GC 真正回收，返回是否卸载成功。
+
+<p>
+AssemblyLoadContext.Unload 只是发起卸载请求，实际释放要等 GC 确认
+无人引用。这里做有限次 GC 后检查弱引用；仍存活说明宿主某处还留着插件对象，
+属于注册撤销不完整，调用方据此决定是否回退到重启。
+</p>
+
+```csharp
+public bool WaitForUnload(string pluginId, int maxAttempts = 10)
+```
+
+#### Parameters
+
+`pluginId` string
+
+`maxAttempts` int
+
+#### Returns
+
+ bool
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_LogMessage"></a> LogMessage
 

@@ -352,6 +352,25 @@ public static void SetUseRedStyle(FrameworkElement element, bool value)
 
 `value` bool
 
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_UnregisterPluginItem_System_String_"></a> UnregisterPluginItem\(string\)
+
+注销插件注册的工具栏组件，断开对插件程序集中委托（ViewFactory 等）的引用。
+热重载必需：这些委托只要还留在静态表里，插件 ALC 就永远卸载不掉。
+只清注册表与已构建的 <xref href="Ink_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRegistry._items" data-throw-if-not-resolved="false"></xref> 缓存，不动用户的布局配置文件——
+重载后同 Id 组件会重新注册，用户摆好的位置得以保留。
+
+```csharp
+public static bool UnregisterPluginItem(string itemId)
+```
+
+#### Parameters
+
+`itemId` string
+
+#### Returns
+
+ bool
+
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_UpdateVisibilityByMode_Panel_System_Boolean_System_Boolean_"></a> UpdateVisibilityByMode\(Panel, bool, bool\)
 
 ```csharp

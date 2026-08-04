@@ -164,6 +164,16 @@ public double ProgressiveReminderVolume { get; set; }
 
  double
 
+### <a id="Ink_Canvas_RandSettings_QuickDrawExternalCaller"></a> QuickDrawExternalCaller
+
+```csharp
+public bool QuickDrawExternalCaller { get; set; }
+```
+
+#### Property Value
+
+ bool
+
 ### <a id="Ink_Canvas_RandSettings_RandWindowOnceCloseLatency"></a> RandWindowOnceCloseLatency
 
 ```csharp

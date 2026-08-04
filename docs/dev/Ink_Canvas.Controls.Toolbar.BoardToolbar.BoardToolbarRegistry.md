@@ -275,3 +275,21 @@ public static void SaveConfigFile(string name, BoardToolbarLayoutSettings layout
 
 `layout` [BoardToolbarLayoutSettings](Ink\_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarLayoutSettings.md)
 
+### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_UnregisterPluginItem_System_String_"></a> UnregisterPluginItem\(string\)
+
+注销插件注册的白板工具栏组件，断开对插件程序集中委托的引用。语义同
+<xref href="Ink_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRegistry.UnregisterPluginItem(System.String)" data-throw-if-not-resolved="false"></xref>：热重载必需，
+且不动用户布局配置。
+
+```csharp
+public static bool UnregisterPluginItem(string itemId)
+```
+
+#### Parameters
+
+`itemId` string
+
+#### Returns
+
+ bool
+
