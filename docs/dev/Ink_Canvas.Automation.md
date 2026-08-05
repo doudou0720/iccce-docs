@@ -466,6 +466,16 @@ public bool IsSaveScreenshotsInDateFolders { get; set; }
 
  bool
 
+### <a id="Ink_Canvas_Automation_IsSaveStrokesAsUInK"></a> IsSaveStrokesAsUInK
+
+```csharp
+public bool IsSaveStrokesAsUInK { get; set; }
+```
+
+#### Property Value
+
+ bool
+
 ### <a id="Ink_Canvas_Automation_IsSaveStrokesAsXML"></a> IsSaveStrokesAsXML
 
 ```csharp

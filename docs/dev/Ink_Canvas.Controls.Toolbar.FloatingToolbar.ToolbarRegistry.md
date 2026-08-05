@@ -292,6 +292,26 @@ public static void RegisterPluginItem(PluginToolbarItemInfo itemInfo, bool autoA
 
 `autoAddToActiveConfig` bool
 
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_RemovePluginEntryFromAllConfigs_System_String_"></a> RemovePluginEntryFromAllConfigs\(string\)
+
+从所有浮动工具栏配置文件里移除指定 Id 的组件条目（递归处理组合子项）。
+插件卸载时调用：用户把插件组件拖进了工具栏，卸载后该组件已不存在，
+不清理会导致 Populate 反复刷 "未找到条目" 警告，且工具栏持续保留空白位。
+
+```csharp
+public static int RemovePluginEntryFromAllConfigs(string itemId)
+```
+
+#### Parameters
+
+`itemId` string
+
+#### Returns
+
+ int
+
+被修改的配置文件数量。
+
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_SaveConfigFile_System_String_Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarLayoutSettings_"></a> SaveConfigFile\(string, ToolbarLayoutSettings\)
 
 ```csharp

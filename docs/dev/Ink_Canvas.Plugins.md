@@ -250,6 +250,22 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
 所有方法都可以从任意线程调用，宿主内部会切换到 UI 线程。
 
+ [ICanvasElementService](Ink\_Canvas.Plugins.ICanvasElementService.md)
+
+画布元素服务：允许插件把任意 WPF 控件作为「元素」插入主画布，
+复用宿主对图片/媒体元素的完整交互（拖动、缩放、旋转、触摸、撤销历史、冻结页保护）。
+
+<p>
+典型用法（如单词卡片、可点击的教具控件）：
+
+<ol><li>用 XAML/C# 构造一个 <xref href="System.Windows.FrameworkElement" data-throw-if-not-resolved="false"></xref> 控件（Grid/StackPanel/Border 等）；</li><li>调用 <xref href="Ink_Canvas.Plugins.ICanvasElementService.InsertElement(System.Windows.FrameworkElement)" data-throw-if-not-resolved="false"></xref> 插入画布（居中、自动尺寸、进撤销历史、切选择模式）；</li><li>用户可像拖动图片一样拖动/缩放/旋转该控件，并按 Ctrl+Z 撤销插入；</li><li>控件内部的按钮/滑块等交互子元素，在选中模式下可正常点击（宿主已做命中穿透处理）。</li></ol>
+</p>
+<p>
+所有方法都可以从任意线程调用，宿主内部会切换到 UI 线程。
+元素只存在于当前会话的画布/页面历史中，不会随 .ink/.elements.json 持久化到磁盘，
+翻页后由页面历史恢复到画布，但交互/事件绑定会随会话重建。
+</p>
+
  [ICanvasInkService](Ink\_Canvas.Plugins.ICanvasInkService.md)
 
 画布墨迹服务：允许插件读取、插入、清除主画布墨迹，切换工具，

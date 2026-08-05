@@ -824,6 +824,16 @@ public static string Storage_Refresh { get; }
 
  string
 
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_SaveAsUInk"></a> Storage\_SaveAsUInk
+
+```csharp
+public static string Storage_SaveAsUInk { get; }
+```
+
+#### Property Value
+
+ string
+
 ### <a id="Ink_Canvas_Properties_StorageStrings_Storage_SaveAsXml"></a> Storage\_SaveAsXml
 
 ```csharp

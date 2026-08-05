@@ -784,6 +784,8 @@
     href: Ink_Canvas.Plugins.ICameraService.md
   - name: ICanvasCompositionService
     href: Ink_Canvas.Plugins.ICanvasCompositionService.md
+  - name: ICanvasElementService
+    href: Ink_Canvas.Plugins.ICanvasElementService.md
   - name: ICanvasInkService
     href: Ink_Canvas.Plugins.ICanvasInkService.md
   - name: IClipboardService
@@ -968,6 +970,106 @@
   - name: Classes
   - name: LiquidGlassEffect
     href: Ink_Canvas.Shaders.LiquidGlassEffect.md
+- name: Ink_Canvas.UInk
+  href: Ink_Canvas.UInk.md
+  items:
+  - name: Classes
+  - name: UInkAppend
+    href: Ink_Canvas.UInk.UInkAppend.md
+  - name: UInkCanvas
+    href: Ink_Canvas.UInk.UInkCanvas.md
+  - name: UInkCanvasFormatter
+    href: Ink_Canvas.UInk.UInkCanvasFormatter.md
+  - name: UInkCanvasRecord
+    href: Ink_Canvas.UInk.UInkCanvasRecord.md
+  - name: UInkCircleGeometry
+    href: Ink_Canvas.UInk.UInkCircleGeometry.md
+  - name: UInkColor
+    href: Ink_Canvas.UInk.UInkColor.md
+  - name: UInkConversion
+    href: Ink_Canvas.UInk.UInkConversion.md
+  - name: UInkDevice
+    href: Ink_Canvas.UInk.UInkDevice.md
+  - name: UInkDocument
+    href: Ink_Canvas.UInk.UInkDocument.md
+  - name: UInkExtraArchive
+    href: Ink_Canvas.UInk.UInkExtraArchive.md
+  - name: UInkFill
+    href: Ink_Canvas.UInk.UInkFill.md
+  - name: UInkHardware
+    href: Ink_Canvas.UInk.UInkHardware.md
+  - name: UInkHeader
+    href: Ink_Canvas.UInk.UInkHeader.md
+  - name: UInkHeaderExtension
+    href: Ink_Canvas.UInk.UInkHeaderExtension.md
+  - name: UInkHeaderExtensionFormatter
+    href: Ink_Canvas.UInk.UInkHeaderExtensionFormatter.md
+  - name: UInkHeaderFormatter
+    href: Ink_Canvas.UInk.UInkHeaderFormatter.md
+  - name: UInkIccMapper
+    href: Ink_Canvas.UInk.UInkIccMapper.md
+  - name: UInkInk
+    href: Ink_Canvas.UInk.UInkInk.md
+  - name: UInkInkFormatter
+    href: Ink_Canvas.UInk.UInkInkFormatter.md
+  - name: UInkInkPoint
+    href: Ink_Canvas.UInk.UInkInkPoint.md
+  - name: UInkLineGeometry
+    href: Ink_Canvas.UInk.UInkLineGeometry.md
+  - name: UInkMedia
+    href: Ink_Canvas.UInk.UInkMedia.md
+  - name: UInkMediaFormatter
+    href: Ink_Canvas.UInk.UInkMediaFormatter.md
+  - name: UInkPageData
+    href: Ink_Canvas.UInk.UInkPageData.md
+  - name: UInkPageInput
+    href: Ink_Canvas.UInk.UInkPageInput.md
+  - name: UInkReader
+    href: Ink_Canvas.UInk.UInkReader.md
+  - name: UInkRectGeometry
+    href: Ink_Canvas.UInk.UInkRectGeometry.md
+  - name: UInkSaveService
+    href: Ink_Canvas.UInk.UInkSaveService.md
+  - name: UInkSerializer
+    href: Ink_Canvas.UInk.UInkSerializer.md
+  - name: UInkShape
+    href: Ink_Canvas.UInk.UInkShape.md
+  - name: UInkShapeFormatter
+    href: Ink_Canvas.UInk.UInkShapeFormatter.md
+  - name: UInkShapeGeometry
+    href: Ink_Canvas.UInk.UInkShapeGeometry.md
+  - name: UInkShapePoint
+    href: Ink_Canvas.UInk.UInkShapePoint.md
+  - name: UInkSquareGeometry
+    href: Ink_Canvas.UInk.UInkSquareGeometry.md
+  - name: UInkStroke
+    href: Ink_Canvas.UInk.UInkStroke.md
+  - name: UInkUndoAdaptation
+    href: Ink_Canvas.UInk.UInkUndoAdaptation.md
+  - name: UInkUndoAdapter
+    href: Ink_Canvas.UInk.UInkUndoAdapter.md
+  - name: UInkViewport
+    href: Ink_Canvas.UInk.UInkViewport.md
+  - name: UInkWorkspace
+    href: Ink_Canvas.UInk.UInkWorkspace.md
+  - name: UInkWriter
+    href: Ink_Canvas.UInk.UInkWriter.md
+  - name: Interfaces
+  - name: IUInkContentBlock
+    href: Ink_Canvas.UInk.IUInkContentBlock.md
+  - name: Enums
+  - name: UInkBlockType
+    href: Ink_Canvas.UInk.UInkBlockType.md
+  - name: UInkDeviceType
+    href: Ink_Canvas.UInk.UInkDeviceType.md
+  - name: UInkFillType
+    href: Ink_Canvas.UInk.UInkFillType.md
+  - name: UInkInkType
+    href: Ink_Canvas.UInk.UInkInkType.md
+  - name: UInkShapeType
+    href: Ink_Canvas.UInk.UInkShapeType.md
+  - name: UInkWorkspaceType
+    href: Ink_Canvas.UInk.UInkWorkspaceType.md
 - name: Ink_Canvas.Windows
   href: Ink_Canvas.Windows.md
   items:

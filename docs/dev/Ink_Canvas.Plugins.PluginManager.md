@@ -52,6 +52,20 @@ public PluginConfigIo ConfigIo { get; }
 
  [PluginConfigIo](Ink\_Canvas.Plugins.PluginConfigIo.md)
 
+### <a id="Ink_Canvas_Plugins_PluginManager_CurrentLoadingPluginId"></a> CurrentLoadingPluginId
+
+当前正在 Initialize 的插件。供宿主服务（如 Ink_Canvas.Plugins.Services.NotificationService）
+在插件调用时识别来源，确保热重载时能按插件 ID 辨认通知回调归属。
+不暴露 IPlugin 字段以免插件引用影响到 GC 回收。
+
+```csharp
+public string CurrentLoadingPluginId { get; }
+```
+
+#### Property Value
+
+ string
+
 ### <a id="Ink_Canvas_Plugins_PluginManager_DisabledPlugins"></a> DisabledPlugins
 
 已禁用的插件 ID 列表。
@@ -406,6 +420,20 @@ public bool OpenUri(string uri)
 
  bool
 
+### <a id="Ink_Canvas_Plugins_PluginManager_PurgeUnloadedPlugin_Ink_Canvas_Plugins_PluginInfo_"></a> PurgeUnloadedPlugin\(PluginInfo\)
+
+删除一个未加载插件的全部磁盘残留：插件目录、配置目录、日志目录、
+错误恢复记录与禁用标记。已加载的插件请走 <xref href="Ink_Canvas.Plugins.PluginManager.UnloadPlugin(Ink_Canvas.Plugins.PluginInfo%2cSystem.Boolean)" data-throw-if-not-resolved="false"></xref>
+并传 <code>deleteFolder: true</code>。
+
+```csharp
+public void PurgeUnloadedPlugin(PluginInfo plugin)
+```
+
+#### Parameters
+
+`plugin` PluginInfo
+
 ### <a id="Ink_Canvas_Plugins_PluginManager_RegisterBoardToolbarItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterBoardToolbarItem\(PluginToolbarItemInfo\)
 
 向白板工具栏注册插件组件。行为与 <xref href="Ink_Canvas.Plugins.PluginManager.RegisterToolbarItem(Ink_Canvas.Plugins.PluginToolbarItemInfo)" data-throw-if-not-resolved="false"></xref> 相同，仅目标工具栏不同。
@@ -558,15 +586,24 @@ public bool TryDispatchUri(string pluginId, string subPath, string rawUri)
 public void UnloadAll()
 ```
 
-### <a id="Ink_Canvas_Plugins_PluginManager_UnloadPlugin_Ink_Canvas_Plugins_PluginInfo_"></a> UnloadPlugin\(PluginInfo\)
+### <a id="Ink_Canvas_Plugins_PluginManager_UnloadPlugin_Ink_Canvas_Plugins_PluginInfo_System_Boolean_"></a> UnloadPlugin\(PluginInfo, bool\)
+
+卸载插件：撤销所有宿主注册、释放 AssemblyLoadContext，并按需删除插件目录。
 
 ```csharp
-public void UnloadPlugin(PluginInfo plugin)
+public void UnloadPlugin(PluginInfo plugin, bool deleteFolder = false)
 ```
 
 #### Parameters
 
 `plugin` PluginInfo
+
+要卸载的插件。
+
+`deleteFolder` bool
+
+true = 真正卸载，连同插件目录一并删除（用户点"删除"）；
+false = 仅卸载实例并释放目录锁，保留文件（热重载 / 覆盖安装）。
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_WaitForUnload_System_String_System_Int32_"></a> WaitForUnload\(string, int\)
 

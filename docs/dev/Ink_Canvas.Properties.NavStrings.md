@@ -24,6 +24,96 @@ public static CultureInfo Culture { get; set; }
 
  CultureInfo
 
+### <a id="Ink_Canvas_Properties_NavStrings_Menu_AddedItems"></a> Menu\_AddedItems
+
+```csharp
+public static string Menu_AddedItems { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_NavStrings_Menu_AvailableItems"></a> Menu\_AvailableItems
+
+```csharp
+public static string Menu_AvailableItems { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_NavStrings_Menu_BoardDesc"></a> Menu\_BoardDesc
+
+```csharp
+public static string Menu_BoardDesc { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_NavStrings_Menu_LimitReached"></a> Menu\_LimitReached
+
+```csharp
+public static string Menu_LimitReached { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_NavStrings_Menu_ResetConfirmMsg"></a> Menu\_ResetConfirmMsg
+
+```csharp
+public static string Menu_ResetConfirmMsg { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_NavStrings_Menu_ResetConfirmTitle"></a> Menu\_ResetConfirmTitle
+
+```csharp
+public static string Menu_ResetConfirmTitle { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_NavStrings_Menu_ResetDone"></a> Menu\_ResetDone
+
+```csharp
+public static string Menu_ResetDone { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_NavStrings_Menu_ResetLayout"></a> Menu\_ResetLayout
+
+```csharp
+public static string Menu_ResetLayout { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_NavStrings_Menu_ToolbarDesc"></a> Menu\_ToolbarDesc
+
+```csharp
+public static string Menu_ToolbarDesc { get; }
+```
+
+#### Property Value
+
+ string
+
 ### <a id="Ink_Canvas_Properties_NavStrings_Nav_AboutInkCanvas"></a> Nav\_AboutInkCanvas
 
 ```csharp

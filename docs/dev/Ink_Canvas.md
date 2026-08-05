@@ -22,6 +22,8 @@
 
  [Ink\_Canvas.Shaders](Ink\_Canvas.Shaders.md)
 
+ [Ink\_Canvas.UInk](Ink\_Canvas.UInk.md)
+
  [Ink\_Canvas.Windows](Ink\_Canvas.Windows.md)
 
  [Ink\_Canvas.WorkflowAutomation](Ink\_Canvas.WorkflowAutomation.md)

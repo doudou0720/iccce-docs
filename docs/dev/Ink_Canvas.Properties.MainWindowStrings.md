@@ -1334,6 +1334,16 @@ public static string Main_Strokes_OpenIccSuccess { get; }
 
  string
 
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_OpenUInkSuccess"></a> Main\_Strokes\_OpenUInkSuccess
+
+```csharp
+public static string Main_Strokes_OpenUInkSuccess { get; }
+```
+
+#### Property Value
+
+ string
+
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_SaveFailed"></a> Main\_Strokes\_SaveFailed
 
 ```csharp
@@ -1404,10 +1414,40 @@ public static string Main_Strokes_SaveSuccess { get; }
 
  string
 
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_SaveUInkFailed"></a> Main\_Strokes\_SaveUInkFailed
+
+```csharp
+public static string Main_Strokes_SaveUInkFailed { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_SaveUInkSuccess"></a> Main\_Strokes\_SaveUInkSuccess
+
+```csharp
+public static string Main_Strokes_SaveUInkSuccess { get; }
+```
+
+#### Property Value
+
+ string
+
 ### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_SaveXmlSuccess"></a> Main\_Strokes\_SaveXmlSuccess
 
 ```csharp
 public static string Main_Strokes_SaveXmlSuccess { get; }
+```
+
+#### Property Value
+
+ string
+
+### <a id="Ink_Canvas_Properties_MainWindowStrings_Main_Strokes_UInkInvalid"></a> Main\_Strokes\_UInkInvalid
+
+```csharp
+public static string Main_Strokes_UInkInvalid { get; }
 ```
 
 #### Property Value

@@ -144,6 +144,19 @@ public static string GetConfigFilePath(string name)
 
  string
 
+### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_GetPluginItems"></a> GetPluginItems\(\)
+
+当前注册到白板工具栏的插件组件列表的只读快照。
+PluginManager 卸载前会读取此列表以便从 *.json 配置文件里一并清除残留条目。
+
+```csharp
+public static IReadOnlyList<PluginToolbarItemInfo> GetPluginItems()
+```
+
+#### Returns
+
+ IReadOnlyList<PluginToolbarItemInfo\>
+
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_ListConfigFiles"></a> ListConfigFiles\(\)
 
 ```csharp
@@ -262,6 +275,25 @@ public static void RegisterPluginItem(PluginToolbarItemInfo itemInfo, bool autoA
 `itemInfo` PluginToolbarItemInfo
 
 `autoAddToActiveConfig` bool
+
+### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_RemovePluginEntryFromAllConfigs_System_String_"></a> RemovePluginEntryFromAllConfigs\(string\)
+
+从所有白板工具栏配置文件里移除指定 Id 的组件条目。Area → Group → Components
+三层结构下逐层递归剔除，避免 Populate 时刷 "组件 X 构建失败" 警告。
+
+```csharp
+public static int RemovePluginEntryFromAllConfigs(string itemId)
+```
+
+#### Parameters
+
+`itemId` string
+
+#### Returns
+
+ int
+
+被修改的配置文件数量。
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_SaveConfigFile_System_String_Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarLayoutSettings_"></a> SaveConfigFile\(string, BoardToolbarLayoutSettings\)
 
