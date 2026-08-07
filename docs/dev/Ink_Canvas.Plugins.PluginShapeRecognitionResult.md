@@ -12,8 +12,17 @@ public sealed class PluginShapeRecognitionResult
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PluginShapeRecognitionResult](Ink\_Canvas.Plugins.PluginShapeRecognitionResult.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -27,7 +36,7 @@ public Point Centroid { get; set; }
 
 #### Property Value
 
- Point
+ [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
 
 ### <a id="Ink_Canvas_Plugins_PluginShapeRecognitionResult_HotPoints"></a> HotPoints
 
@@ -39,7 +48,7 @@ public PointCollection HotPoints { get; set; }
 
 #### Property Value
 
- PointCollection
+ [PointCollection](https://learn.microsoft.com/dotnet/api/system.windows.media.pointcollection)
 
 ### <a id="Ink_Canvas_Plugins_PluginShapeRecognitionResult_IsSuccess"></a> IsSuccess
 
@@ -51,7 +60,7 @@ public bool IsSuccess { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginShapeRecognitionResult_ShapeHeight"></a> ShapeHeight
 
@@ -63,7 +72,7 @@ public double ShapeHeight { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Plugins_PluginShapeRecognitionResult_ShapeName"></a> ShapeName
 
@@ -75,7 +84,7 @@ public string ShapeName { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginShapeRecognitionResult_ShapeWidth"></a> ShapeWidth
 
@@ -87,7 +96,7 @@ public double ShapeWidth { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Plugins_PluginShapeRecognitionResult_StrokesToRemove"></a> StrokesToRemove
 
@@ -99,5 +108,5 @@ public StrokeCollection StrokesToRemove { get; set; }
 
 #### Property Value
 
- StrokeCollection
+ [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
 

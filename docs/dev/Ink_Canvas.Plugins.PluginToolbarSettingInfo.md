@@ -11,8 +11,18 @@ public class PluginToolbarSettingInfo
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PluginToolbarSettingInfo](Ink\_Canvas.Plugins.PluginToolbarSettingInfo.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -24,7 +34,7 @@ public string DefaultValue { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_Description"></a> Description
 
@@ -34,7 +44,7 @@ public string Description { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_DisplayName"></a> DisplayName
 
@@ -44,7 +54,7 @@ public string DisplayName { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_Key"></a> Key
 
@@ -54,7 +64,7 @@ public string Key { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_MaxValue"></a> MaxValue
 
@@ -66,7 +76,7 @@ public double? MaxValue { get; set; }
 
 #### Property Value
 
- double?
+ [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_MinValue"></a> MinValue
 
@@ -78,7 +88,7 @@ public double? MinValue { get; set; }
 
 #### Property Value
 
- double?
+ [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_OptionValues"></a> OptionValues
 
@@ -91,7 +101,7 @@ public List<string> OptionValues { get; set; }
 
 #### Property Value
 
- List<string\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_Options"></a> Options
 
@@ -101,7 +111,7 @@ public List<string> Options { get; set; }
 
 #### Property Value
 
- List<string\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_StepSize"></a> StepSize
 
@@ -114,7 +124,7 @@ public double? StepSize { get; set; }
 
 #### Property Value
 
- double?
+ [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_Type"></a> Type
 

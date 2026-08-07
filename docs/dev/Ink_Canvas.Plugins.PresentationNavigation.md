@@ -11,13 +11,13 @@ public enum PresentationNavigation
 
 ## Fields
 
-`Next` 
+`Next = 1` 
 
 下一页。
 
 
 
-`Previous` 
+`Previous = 0` 
 
 上一页。
 

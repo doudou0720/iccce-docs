@@ -11,7 +11,7 @@ public interface IThemeService
 
 ## Methods
 
-### <a id="Ink_Canvas_Plugins_IThemeService_ApplyThemeToElement_FrameworkElement_"></a> ApplyThemeToElement\(FrameworkElement\)
+### <a id="Ink_Canvas_Plugins_IThemeService_ApplyThemeToElement_System_Windows_FrameworkElement_"></a> ApplyThemeToElement\(FrameworkElement\)
 
 把宿主当前主题应用到指定元素（调用方需持有该元素在可视树中的引用）。
 
@@ -21,7 +21,7 @@ void ApplyThemeToElement(FrameworkElement element)
 
 #### Parameters
 
-`element` FrameworkElement
+`element` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
 
 ### <a id="Ink_Canvas_Plugins_IThemeService_GetEffectiveTheme"></a> GetEffectiveTheme\(\)
 
@@ -45,5 +45,5 @@ bool IsSystemThemeLight()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

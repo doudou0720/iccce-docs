@@ -21,7 +21,7 @@ T Get<T>(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 设置键，使用 "." 分隔层级，如 "appearance.theme"
 
@@ -45,11 +45,11 @@ bool Has(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_ISettingsService_Set__1_System_String___0_"></a> Set<T\>\(string, T\)
 
@@ -61,7 +61,7 @@ void Set<T>(string key, T value)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 设置键
 
@@ -78,10 +78,10 @@ void Set<T>(string key, T value)
 设置变更时触发。
 
 ```csharp
-event System.Action<string, object> SettingChanged
+event Action<string, object> SettingChanged
 ```
 
 #### Event Type
 
- System.Action<string, object\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [object](https://learn.microsoft.com/dotnet/api/system.object)\>
 

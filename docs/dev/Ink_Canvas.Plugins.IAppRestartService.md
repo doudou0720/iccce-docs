@@ -17,7 +17,7 @@ bool IsRunningAsAdmin { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -29,7 +29,7 @@ void RestartApp(bool asAdmin)
 
 #### Parameters
 
-`asAdmin` bool
+`asAdmin` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_IAppRestartService_RestartAsAdmin"></a> RestartAsAdmin\(\)
 

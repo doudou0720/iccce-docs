@@ -11,13 +11,13 @@ public enum PluginTheme
 
 ## Fields
 
-`Dark` 
+`Dark = 1` 
 
 深色。
 
 
 
-`Light` 
+`Light = 0` 
 
 浅色。
 

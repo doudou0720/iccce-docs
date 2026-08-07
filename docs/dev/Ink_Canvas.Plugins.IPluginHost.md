@@ -31,7 +31,7 @@ IServiceProvider ServiceProvider { get; }
 
 #### Property Value
 
- IServiceProvider
+ [IServiceProvider](https://learn.microsoft.com/dotnet/api/system.iserviceprovider)
 
 ### <a id="Ink_Canvas_Plugins_IPluginHost_Services"></a> Services
 
@@ -43,7 +43,7 @@ IServiceCollection Services { get; }
 
 #### Property Value
 
- IServiceCollection
+ [IServiceCollection](https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection)
 
 ## Methods
 
@@ -59,11 +59,11 @@ SecurityVerdict EvaluateTrust(string packagePath, string expectedSha256, string 
 
 #### Parameters
 
-`packagePath` string
+`packagePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`expectedSha256` string
+`expectedSha256` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`declaredPluginId` string
+`declaredPluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
@@ -93,9 +93,9 @@ void Log(string message)
 
 #### Parameters
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Plugins_IPluginHost_LogError_System_String_Exception_"></a> LogError\(string, Exception\)
+### <a id="Ink_Canvas_Plugins_IPluginHost_LogError_System_String_System_Exception_"></a> LogError\(string, Exception\)
 
 ```csharp
 void LogError(string message, Exception ex = null)
@@ -103,9 +103,9 @@ void LogError(string message, Exception ex = null)
 
 #### Parameters
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`ex` Exception
+`ex` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
 ### <a id="Ink_Canvas_Plugins_IPluginHost_RegisterBoardToolbarItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterBoardToolbarItem\(PluginToolbarItemInfo\)
 
@@ -119,19 +119,19 @@ void RegisterBoardToolbarItem(PluginToolbarItemInfo itemInfo)
 
 `itemInfo` [PluginToolbarItemInfo](Ink\_Canvas.Plugins.PluginToolbarItemInfo.md)
 
-### <a id="Ink_Canvas_Plugins_IPluginHost_RegisterIpcHandler_System_String_Func_System_Nullable_System_Text_Json_JsonElement__System_Object__"></a> RegisterIpcHandler\(string, Func<JsonElement?, object\>\)
+### <a id="Ink_Canvas_Plugins_IPluginHost_RegisterIpcHandler_System_String_System_Func_System_Nullable_System_Text_Json_JsonElement__System_Object__"></a> RegisterIpcHandler\(string, Func<JsonElement?, object\>\)
 
 注册一个 IPC 方法，由插件调用。返回前请确保未注册相同 <code class="paramref">method</code>。
 
 ```csharp
-void RegisterIpcHandler(string method, Func<System.Text.Json.JsonElement?, object> handler)
+void RegisterIpcHandler(string method, Func<JsonElement?, object> handler)
 ```
 
 #### Parameters
 
-`method` string
+`method` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`handler` Func<System.Text.Json.JsonElement?, object\>
+`handler` [Func](https://learn.microsoft.com/dotnet/api/system.func\-2)<[JsonElement](https://learn.microsoft.com/dotnet/api/system.text.json.jsonelement)?, [object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
 ### <a id="Ink_Canvas_Plugins_IPluginHost_RegisterService__1___0_"></a> RegisterService<T\>\(T\)
 

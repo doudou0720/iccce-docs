@@ -9,10 +9,10 @@ Assembly: InkCanvas.PluginSdk.dll
 <p>
 宿主在以下时机回调（均发生在 UI 线程）：
 
-<ol><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureStarting(ManipulationStartingEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作即将开始，返回 <code>true</code> 表示插件接管，
-    此时插件应在 ManipulationStartingEventArgs.Mode 里声明需要的手势类型
-    （如 ManipulationModes.Scale | ManipulationModes.Translate）；</li><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureDelta(ManipulationDeltaEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作增量，返回 <code>true</code> 表示插件已处理，
-    宿主将跳过默认的墨迹/画布变换；</li><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureCompleted(ManipulationCompletedEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作结束，宿主的编辑模式恢复由宿主照常处理。</li></ol>
+<ol><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureStarting(System.Windows.Input.ManipulationStartingEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作即将开始，返回 <code>true</code> 表示插件接管，
+    此时插件应在 <xref href="System.Windows.Input.ManipulationStartingEventArgs.Mode" data-throw-if-not-resolved="false"></xref> 里声明需要的手势类型
+    （如 <xref href="System.Windows.Input.ManipulationModes.Scale" data-throw-if-not-resolved="false"></xref> | <xref href="System.Windows.Input.ManipulationModes.Translate" data-throw-if-not-resolved="false"></xref>）；</li><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureDelta(System.Windows.Input.ManipulationDeltaEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作增量，返回 <code>true</code> 表示插件已处理，
+    宿主将跳过默认的墨迹/画布变换；</li><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureCompleted(System.Windows.Input.ManipulationCompletedEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作结束，宿主的编辑模式恢复由宿主照常处理。</li></ol>
 
 不参与手势时应返回 <code>false</code>，让宿主走默认行为（书写/选择/橡皮擦等）。
 </p>
@@ -23,7 +23,7 @@ public interface IPluginCanvasGestureHandler
 
 ## Methods
 
-### <a id="Ink_Canvas_Plugins_IPluginCanvasGestureHandler_OnCanvasGestureCompleted_ManipulationCompletedEventArgs_"></a> OnCanvasGestureCompleted\(ManipulationCompletedEventArgs\)
+### <a id="Ink_Canvas_Plugins_IPluginCanvasGestureHandler_OnCanvasGestureCompleted_System_Windows_Input_ManipulationCompletedEventArgs_"></a> OnCanvasGestureCompleted\(ManipulationCompletedEventArgs\)
 
 操作结束。宿主清理照常进行，这里只做插件自身的收尾。
 
@@ -33,9 +33,9 @@ void OnCanvasGestureCompleted(ManipulationCompletedEventArgs e)
 
 #### Parameters
 
-`e` ManipulationCompletedEventArgs
+`e` [ManipulationCompletedEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.input.manipulationcompletedeventargs)
 
-### <a id="Ink_Canvas_Plugins_IPluginCanvasGestureHandler_OnCanvasGestureDelta_ManipulationDeltaEventArgs_"></a> OnCanvasGestureDelta\(ManipulationDeltaEventArgs\)
+### <a id="Ink_Canvas_Plugins_IPluginCanvasGestureHandler_OnCanvasGestureDelta_System_Windows_Input_ManipulationDeltaEventArgs_"></a> OnCanvasGestureDelta\(ManipulationDeltaEventArgs\)
 
 操作增量。返回 <code>true</code> 表示插件已处理，宿主跳过默认变换。
 
@@ -45,13 +45,13 @@ bool OnCanvasGestureDelta(ManipulationDeltaEventArgs e)
 
 #### Parameters
 
-`e` ManipulationDeltaEventArgs
+`e` [ManipulationDeltaEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.input.manipulationdeltaeventargs)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Plugins_IPluginCanvasGestureHandler_OnCanvasGestureStarting_ManipulationStartingEventArgs_"></a> OnCanvasGestureStarting\(ManipulationStartingEventArgs\)
+### <a id="Ink_Canvas_Plugins_IPluginCanvasGestureHandler_OnCanvasGestureStarting_System_Windows_Input_ManipulationStartingEventArgs_"></a> OnCanvasGestureStarting\(ManipulationStartingEventArgs\)
 
 操作即将开始。返回 <code>true</code> 表示插件接管该次操作。
 
@@ -61,9 +61,9 @@ bool OnCanvasGestureStarting(ManipulationStartingEventArgs e)
 
 #### Parameters
 
-`e` ManipulationStartingEventArgs
+`e` [ManipulationStartingEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.input.manipulationstartingeventargs)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

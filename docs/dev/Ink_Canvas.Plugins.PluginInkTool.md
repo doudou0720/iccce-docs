@@ -11,37 +11,37 @@ public enum PluginInkTool
 
 ## Fields
 
-`Eraser` 
+`Eraser = 2` 
 
 点橡皮擦。
 
 
 
-`Pen` 
+`Pen = 1` 
 
 画笔。
 
 
 
-`Roaming` 
+`Roaming = 5` 
 
 漫游（抓手，仅白板模式有效）。
 
 
 
-`Select` 
+`Select = 0` 
 
 选择（套索）。
 
 
 
-`Shape` 
+`Shape = 4` 
 
 几何形状绘制（矩形）。
 
 
 
-`StrokeEraser` 
+`StrokeEraser = 3` 
 
 笔画橡皮擦。
 

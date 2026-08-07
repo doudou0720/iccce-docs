@@ -11,11 +11,11 @@ public enum PluginLoadStatus
 
 ## Fields
 
-`Disabled` 
+`Disabled = 2` 
 
-`Error` 
+`Error = 3` 
 
-`Loaded` 
+`Loaded = 1` 
 
-`NotLoaded` 
+`NotLoaded = 0` 
 

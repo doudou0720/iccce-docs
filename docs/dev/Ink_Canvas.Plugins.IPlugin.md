@@ -17,7 +17,7 @@ string Author { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_IPlugin_Description"></a> Description
 
@@ -27,7 +27,7 @@ string Description { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_IPlugin_Id"></a> Id
 
@@ -37,7 +37,7 @@ string Id { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_IPlugin_Name"></a> Name
 
@@ -47,7 +47,7 @@ string Name { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_IPlugin_Order"></a> Order
 
@@ -57,7 +57,7 @@ int Order { get; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Plugins_IPlugin_Version"></a> Version
 
@@ -67,7 +67,7 @@ string Version { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -79,7 +79,7 @@ object GetMainView()
 
 #### Returns
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 ### <a id="Ink_Canvas_Plugins_IPlugin_GetSettingsView"></a> GetSettingsView\(\)
 
@@ -89,7 +89,7 @@ object GetSettingsView()
 
 #### Returns
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 ### <a id="Ink_Canvas_Plugins_IPlugin_Initialize_Ink_Canvas_Plugins_IPluginHost_"></a> Initialize\(IPluginHost\)
 

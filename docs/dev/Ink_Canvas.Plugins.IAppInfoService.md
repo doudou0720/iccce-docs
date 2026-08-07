@@ -21,7 +21,7 @@ bool IsUIAccessTopMostEnabled { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_IAppInfoService_IsUpdateInstalling"></a> IsUpdateInstalling
 
@@ -33,7 +33,7 @@ bool IsUpdateInstalling { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_IAppInfoService_RootPath"></a> RootPath
 
@@ -45,7 +45,7 @@ string RootPath { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_IAppInfoService_StartWithBoardMode"></a> StartWithBoardMode
 
@@ -57,7 +57,7 @@ bool StartWithBoardMode { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_IAppInfoService_Version"></a> Version
 
@@ -69,5 +69,5 @@ string Version { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

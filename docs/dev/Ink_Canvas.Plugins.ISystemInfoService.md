@@ -21,7 +21,7 @@ string DeviceId { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_ISystemInfoService_SystemVersion"></a> SystemVersion
 
@@ -33,7 +33,7 @@ string SystemVersion { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 

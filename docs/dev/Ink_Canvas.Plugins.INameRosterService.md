@@ -22,11 +22,11 @@ string AddRoster(string name)
 
 #### Parameters
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_INameRosterService_ApplyRoster_Ink_Canvas_Plugins_PluginNameRoster_"></a> ApplyRoster\(PluginNameRoster\)
 
@@ -42,7 +42,7 @@ bool ApplyRoster(PluginNameRoster roster)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_INameRosterService_DeleteRoster_System_String_"></a> DeleteRoster\(string\)
 
@@ -54,11 +54,11 @@ bool DeleteRoster(string guid)
 
 #### Parameters
 
-`guid` string
+`guid` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_INameRosterService_GetSelectedRoster"></a> GetSelectedRoster\(\)
 
@@ -82,7 +82,7 @@ PluginNameRoster GetSelectedRoster()
 
 #### Returns
 
- \(string [NamesContent](System.ValueTuple\{System.String,System.String\}.md\#System\_ValueTuple\_System\_String\_System\_String\_\_NamesContent), string [ReplaceContent](System.ValueTuple\{System.String,System.String\}.md\#System\_ValueTuple\_System\_String\_System\_String\_\_ReplaceContent)\)
+ \([string](https://learn.microsoft.com/dotnet/api/system.string) [NamesContent](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,system.string\-.namescontent), [string](https://learn.microsoft.com/dotnet/api/system.string) [ReplaceContent](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,system.string\-.replacecontent)\)
 
 ### <a id="Ink_Canvas_Plugins_INameRosterService_RenameRoster_System_String_System_String_"></a> RenameRoster\(string, string\)
 
@@ -94,13 +94,13 @@ bool RenameRoster(string guid, string newName)
 
 #### Parameters
 
-`guid` string
+`guid` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`newName` string
+`newName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_INameRosterService_SaveCurrentFilesToRoster_System_String_"></a> SaveCurrentFilesToRoster\(string\)
 
@@ -112,11 +112,11 @@ bool SaveCurrentFilesToRoster(string guid)
 
 #### Parameters
 
-`guid` string
+`guid` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_INameRosterService_SelectAndApply_System_String_"></a> SelectAndApply\(string\)
 
@@ -128,11 +128,11 @@ bool SelectAndApply(string guid)
 
 #### Parameters
 
-`guid` string
+`guid` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_INameRosterService_WriteCurrentFiles_System_String_System_String_"></a> WriteCurrentFiles\(string, string\)
 
@@ -144,7 +144,7 @@ void WriteCurrentFiles(string namesContent, string replaceContent)
 
 #### Parameters
 
-`namesContent` string
+`namesContent` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`replaceContent` string
+`replaceContent` [string](https://learn.microsoft.com/dotnet/api/system.string)
 

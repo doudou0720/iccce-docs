@@ -19,7 +19,7 @@ event Action AppExiting
 
 #### Event Type
 
- Action
+ [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
 ### <a id="Ink_Canvas_Plugins_IEventService_PenModeChanged"></a> PenModeChanged
 
@@ -31,7 +31,7 @@ event Action<bool> PenModeChanged
 
 #### Event Type
 
- Action<bool\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
 ### <a id="Ink_Canvas_Plugins_IEventService_SlideChanged"></a> SlideChanged
 
@@ -43,7 +43,7 @@ event Action<int> SlideChanged
 
 #### Event Type
 
- Action<int\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
 ### <a id="Ink_Canvas_Plugins_IEventService_SlideShowEnded"></a> SlideShowEnded
 
@@ -55,7 +55,7 @@ event Action SlideShowEnded
 
 #### Event Type
 
- Action
+ [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
 ### <a id="Ink_Canvas_Plugins_IEventService_SlideShowStarted"></a> SlideShowStarted
 
@@ -67,7 +67,7 @@ event Action SlideShowStarted
 
 #### Event Type
 
- Action
+ [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
 ### <a id="Ink_Canvas_Plugins_IEventService_StrokesChanged"></a> StrokesChanged
 
@@ -81,7 +81,7 @@ event Action<StrokeCollection, StrokeCollection> StrokesChanged
 
 #### Event Type
 
- Action<StrokeCollection, StrokeCollection\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection), [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)\>
 
 ### <a id="Ink_Canvas_Plugins_IEventService_TopMostChanged"></a> TopMostChanged
 
@@ -93,7 +93,7 @@ event Action<bool> TopMostChanged
 
 #### Event Type
 
- Action<bool\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
 ### <a id="Ink_Canvas_Plugins_IEventService_UndoRedoStateChanged"></a> UndoRedoStateChanged
 
@@ -105,7 +105,7 @@ event Action<bool, bool> UndoRedoStateChanged
 
 #### Event Type
 
- Action<bool, bool\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean), [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
 ### <a id="Ink_Canvas_Plugins_IEventService_WhiteboardModeChanged"></a> WhiteboardModeChanged
 
@@ -117,7 +117,7 @@ event Action<bool> WhiteboardModeChanged
 
 #### Event Type
 
- Action<bool\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
 ### <a id="Ink_Canvas_Plugins_IEventService_WhiteboardPageChanged"></a> WhiteboardPageChanged
 
@@ -129,5 +129,5 @@ event Action<int, int> WhiteboardPageChanged
 
 #### Event Type
 
- Action<int, int\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[int](https://learn.microsoft.com/dotnet/api/system.int32), [int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 

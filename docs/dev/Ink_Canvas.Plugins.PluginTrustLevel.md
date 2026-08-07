@@ -11,9 +11,9 @@ public enum PluginTrustLevel
 
 ## Fields
 
-`Known` 
+`Known = 1` 
 
-`Trusted` 
+`Trusted = 2` 
 
-`Unknown` 
+`Unknown = 0` 
 

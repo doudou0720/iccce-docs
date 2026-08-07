@@ -21,7 +21,7 @@ IReadOnlyList<PluginScreenInfo> GetAllScreens()
 
 #### Returns
 
- IReadOnlyList<[PluginScreenInfo](Ink\_Canvas.Plugins.PluginScreenInfo.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[PluginScreenInfo](Ink\_Canvas.Plugins.PluginScreenInfo.md)\>
 
 ### <a id="Ink_Canvas_Plugins_IScreenInfoService_GetPrimaryScreen"></a> GetPrimaryScreen\(\)
 
@@ -45,5 +45,5 @@ bool HasMultipleScreens()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

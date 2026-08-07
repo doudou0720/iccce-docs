@@ -11,8 +11,17 @@ public sealed class PluginHandwritingWord
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PluginHandwritingWord](Ink\_Canvas.Plugins.PluginHandwritingWord.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -26,7 +35,7 @@ public Rect BoundingRectangle { get; set; }
 
 #### Property Value
 
- Rect
+ [Rect](https://learn.microsoft.com/dotnet/api/system.windows.rect)
 
 ### <a id="Ink_Canvas_Plugins_PluginHandwritingWord_TextCandidates"></a> TextCandidates
 
@@ -38,5 +47,5 @@ public List<string> TextCandidates { get; set; }
 
 #### Property Value
 
- List<string\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 

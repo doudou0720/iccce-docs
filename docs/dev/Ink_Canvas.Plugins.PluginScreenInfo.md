@@ -11,8 +11,17 @@ public sealed class PluginScreenInfo
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PluginScreenInfo](Ink\_Canvas.Plugins.PluginScreenInfo.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -26,7 +35,7 @@ public Rect Bounds { get; set; }
 
 #### Property Value
 
- Rect
+ [Rect](https://learn.microsoft.com/dotnet/api/system.windows.rect)
 
 ### <a id="Ink_Canvas_Plugins_PluginScreenInfo_DeviceName"></a> DeviceName
 
@@ -38,7 +47,7 @@ public string DeviceName { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginScreenInfo_IsPrimary"></a> IsPrimary
 
@@ -50,7 +59,7 @@ public bool IsPrimary { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginScreenInfo_WorkingArea"></a> WorkingArea
 
@@ -62,5 +71,5 @@ public Rect WorkingArea { get; set; }
 
 #### Property Value
 
- Rect
+ [Rect](https://learn.microsoft.com/dotnet/api/system.windows.rect)
 

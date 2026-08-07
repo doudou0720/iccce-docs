@@ -11,8 +11,18 @@ public class PresentationSourceDescriptor
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PresentationSourceDescriptor](Ink\_Canvas.Plugins.PresentationSourceDescriptor.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -27,7 +37,7 @@ public bool AllowPageNumberClick { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PresentationSourceDescriptor_CurrentPage"></a> CurrentPage
 
@@ -39,11 +49,11 @@ public int CurrentPage { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Plugins_PresentationSourceDescriptor_Id"></a> Id
 
-演示源唯一标识，建议用插件 Id。<xref href="Ink_Canvas.Plugins.IPresentationSourceService.EndAsync(System.String%2cCancellationToken)" data-throw-if-not-resolved="false"></xref>
+演示源唯一标识，建议用插件 Id。<xref href="Ink_Canvas.Plugins.IPresentationSourceService.EndAsync(System.String%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref>
 按此值校验，避免插件误关掉别人的放映。
 
 ```csharp
@@ -52,7 +62,7 @@ public string Id { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PresentationSourceDescriptor_Name"></a> Name
 
@@ -64,7 +74,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PresentationSourceDescriptor_NavigateAsync"></a> NavigateAsync
 
@@ -72,7 +82,7 @@ public string Name { get; set; }
 （从 1 开始）；返回 0 或负数表示已到边界/翻页失败，宿主不更新页码。
 
 <p>
-返回值即宿主用来刷新翻页条的页码，插件无需再调用 <xref href="Ink_Canvas.Plugins.IPresentationSourceService.UpdatePageAsync(System.Int32%2cSystem.Int32%2cCancellationToken)" data-throw-if-not-resolved="false"></xref>。
+返回值即宿主用来刷新翻页条的页码，插件无需再调用 <xref href="Ink_Canvas.Plugins.IPresentationSourceService.UpdatePageAsync(System.Int32%2cSystem.Int32%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref>。
 </p>
 <p>回调在 UI 线程之外执行，插件内部若要触碰 WPF 元素需自行切回 Dispatcher。</p>
 
@@ -82,7 +92,7 @@ public Func<PresentationNavigation, CancellationToken, Task<int>> NavigateAsync 
 
 #### Property Value
 
- Func<[PresentationNavigation](Ink\_Canvas.Plugins.PresentationNavigation.md), CancellationToken, Task<int\>\>
+ [Func](https://learn.microsoft.com/dotnet/api/system.func\-3)<[PresentationNavigation](Ink\_Canvas.Plugins.PresentationNavigation.md), [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken), [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>\>
 
 ### <a id="Ink_Canvas_Plugins_PresentationSourceDescriptor_PageCount"></a> PageCount
 
@@ -94,5 +104,5 @@ public int PageCount { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

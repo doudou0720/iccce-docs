@@ -25,7 +25,7 @@ double FadeSpeedMultiplier { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Plugins_IInkEffectService_FadeTime"></a> FadeTime
 
@@ -37,7 +37,7 @@ int FadeTime { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Plugins_IInkEffectService_IsEnabled"></a> IsEnabled
 
@@ -49,28 +49,28 @@ bool IsEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
-### <a id="Ink_Canvas_Plugins_IInkEffectService_AddFadingStroke_Stroke_Point_Point_System_Int64_"></a> AddFadingStroke\(Stroke, Point, Point, long\)
+### <a id="Ink_Canvas_Plugins_IInkEffectService_AddFadingStroke_System_Windows_Ink_Stroke_System_Windows_Point_System_Windows_Point_System_Int64_"></a> AddFadingStroke\(Stroke, Point, Point, long\)
 
 把一条墨迹加入渐隐队列（从 <code class="paramref">startPoint</code> 画到 <code class="paramref">endPoint</code>，
 持续 <code class="paramref">strokeDurationMs</code> 毫秒后渐隐消失）。
 
 ```csharp
-void AddFadingStroke(Stroke stroke, Point startPoint, Point endPoint, long strokeDurationMs = null)
+void AddFadingStroke(Stroke stroke, Point startPoint, Point endPoint, long strokeDurationMs = 0)
 ```
 
 #### Parameters
 
-`stroke` Stroke
+`stroke` [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
 
-`startPoint` Point
+`startPoint` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
 
-`endPoint` Point
+`endPoint` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
 
-`strokeDurationMs` long
+`strokeDurationMs` [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
 ### <a id="Ink_Canvas_Plugins_IInkEffectService_ClearAllFadingStrokes"></a> ClearAllFadingStrokes\(\)
 
@@ -96,7 +96,7 @@ void Disable()
 void Enable()
 ```
 
-### <a id="Ink_Canvas_Plugins_IInkEffectService_RemoveStroke_Stroke_"></a> RemoveStroke\(Stroke\)
+### <a id="Ink_Canvas_Plugins_IInkEffectService_RemoveStroke_System_Windows_Ink_Stroke_"></a> RemoveStroke\(Stroke\)
 
 从渐隐队列移除指定墨迹（立即停止其渐隐动画）。
 
@@ -106,7 +106,7 @@ void RemoveStroke(Stroke stroke)
 
 #### Parameters
 
-`stroke` Stroke
+`stroke` [Stroke](https://learn.microsoft.com/dotnet/api/system.windows.ink.stroke)
 
 ### <a id="Ink_Canvas_Plugins_IInkEffectService_UpdateFadeSpeedMultiplier_System_Double_"></a> UpdateFadeSpeedMultiplier\(double\)
 
@@ -118,7 +118,7 @@ void UpdateFadeSpeedMultiplier(double multiplier)
 
 #### Parameters
 
-`multiplier` double
+`multiplier` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Plugins_IInkEffectService_UpdateFadeTime_System_Int32_"></a> UpdateFadeTime\(int\)
 
@@ -130,5 +130,5 @@ void UpdateFadeTime(int fadeTime)
 
 #### Parameters
 
-`fadeTime` int
+`fadeTime` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

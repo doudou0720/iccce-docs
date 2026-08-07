@@ -23,7 +23,7 @@ IReadOnlyList<PluginQuoteScheme> GetPresetSchemes()
 
 #### Returns
 
- IReadOnlyList<[PluginQuoteScheme](Ink\_Canvas.Plugins.PluginQuoteScheme.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[PluginQuoteScheme](Ink\_Canvas.Plugins.PluginQuoteScheme.md)\>
 
 ### <a id="Ink_Canvas_Plugins_IQuoteService_GetTipsFromPreset_System_String_"></a> GetTipsFromPreset\(string\)
 
@@ -35,13 +35,13 @@ string[] GetTipsFromPreset(string presetId)
 
 #### Parameters
 
-`presetId` string
+`presetId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 预设 ID（如 "osu"、"mottos"、"gaokao"、"phigros"）。
 
 #### Returns
 
- string\[\]
+ [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 语录数组；hitokoto 或未知 ID 返回 null。
 
@@ -55,5 +55,5 @@ Task RefreshAsync()
 
 #### Returns
 
- Task
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 

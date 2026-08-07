@@ -11,19 +11,19 @@ public enum PluginUpdateChannel
 
 ## Fields
 
-`Beta` 
+`Beta = 2` 
 
 Beta 版。
 
 
 
-`Preview` 
+`Preview = 1` 
 
 预览版。
 
 
 
-`Release` 
+`Release = 0` 
 
 稳定版。
 

@@ -11,20 +11,30 @@ public class SecurityVerdict
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [SecurityVerdict](Ink\_Canvas.Plugins.SecurityVerdict.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_DetectedAt"></a> DetectedAt
 
 ```csharp
-public System.DateTime DetectedAt { get; set; }
+public DateTime DetectedAt { get; set; }
 ```
 
 #### Property Value
 
- System.DateTime
+ [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_IsOnMarket"></a> IsOnMarket
 
@@ -34,7 +44,7 @@ public bool IsOnMarket { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_PackagePath"></a> PackagePath
 
@@ -44,7 +54,7 @@ public string PackagePath { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_PackageSha256"></a> PackageSha256
 
@@ -54,7 +64,7 @@ public string PackageSha256 { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_Permissions"></a> Permissions
 
@@ -64,7 +74,7 @@ public List<string> Permissions { get; }
 
 #### Property Value
 
- List<string\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_PluginId"></a> PluginId
 
@@ -74,7 +84,7 @@ public string PluginId { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_Reasons"></a> Reasons
 
@@ -84,7 +94,7 @@ public List<string> Reasons { get; }
 
 #### Property Value
 
- List<string\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_TrustLevel"></a> TrustLevel
 

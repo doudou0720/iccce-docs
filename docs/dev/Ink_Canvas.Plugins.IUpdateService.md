@@ -23,7 +23,7 @@ string LastDownloadFailure { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -32,7 +32,7 @@ string LastDownloadFailure { get; }
 检查指定通道是否有新版本。
 
 ```csharp
-Task<PluginUpdateCheckResult> CheckForUpdatesAsync(PluginUpdateChannel channel = default)
+Task<PluginUpdateCheckResult> CheckForUpdatesAsync(PluginUpdateChannel channel = PluginUpdateChannel.Release)
 ```
 
 #### Parameters
@@ -43,7 +43,7 @@ Task<PluginUpdateCheckResult> CheckForUpdatesAsync(PluginUpdateChannel channel =
 
 #### Returns
 
- Task<[PluginUpdateCheckResult](Ink\_Canvas.Plugins.PluginUpdateCheckResult.md)\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[PluginUpdateCheckResult](Ink\_Canvas.Plugins.PluginUpdateCheckResult.md)\>
 
 检查结果；无新版本时 <xref href="Ink_Canvas.Plugins.PluginUpdateCheckResult.RemoteVersion" data-throw-if-not-resolved="false"></xref> 为空。
 
@@ -52,7 +52,7 @@ Task<PluginUpdateCheckResult> CheckForUpdatesAsync(PluginUpdateChannel channel =
 获取指定通道的更新日志（UpdateLog 全文）。
 
 ```csharp
-Task<string> GetUpdateLogAsync(PluginUpdateChannel channel = default)
+Task<string> GetUpdateLogAsync(PluginUpdateChannel channel = PluginUpdateChannel.Release)
 ```
 
 #### Parameters
@@ -61,7 +61,7 @@ Task<string> GetUpdateLogAsync(PluginUpdateChannel channel = default)
 
 #### Returns
 
- Task<string\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Plugins_IUpdateService_InstallNewVersion_System_String_System_Boolean_"></a> InstallNewVersion\(string, bool\)
 
@@ -73,11 +73,11 @@ void InstallNewVersion(string version, bool isInSilence)
 
 #### Parameters
 
-`version` string
+`version` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 要安装的版本号（来自 <xref href="Ink_Canvas.Plugins.IUpdateService.CheckForUpdatesAsync(Ink_Canvas.Plugins.PluginUpdateChannel)" data-throw-if-not-resolved="false"></xref>）。
 
-`isInSilence` bool
+`isInSilence` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否静默安装（无确认提示）。
 

@@ -21,7 +21,7 @@ string CurrentFileName { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_IPowerPointService_CurrentSlide"></a> CurrentSlide
 
@@ -33,7 +33,7 @@ int CurrentSlide { get; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Plugins_IPowerPointService_IsConnected"></a> IsConnected
 
@@ -45,7 +45,7 @@ bool IsConnected { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_IPowerPointService_IsSlideshowActive"></a> IsSlideshowActive
 
@@ -57,7 +57,7 @@ bool IsSlideshowActive { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_IPowerPointService_TotalSlides"></a> TotalSlides
 
@@ -69,7 +69,7 @@ int TotalSlides { get; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 
@@ -83,17 +83,17 @@ IReadOnlyList<PluginSlideThumbnail> ExportSlideThumbnails(int width, int height)
 
 #### Parameters
 
-`width` int
+`width` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 缩略图宽度。
 
-`height` int
+`height` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 缩略图高度。
 
 #### Returns
 
- IReadOnlyList<[PluginSlideThumbnail](Ink\_Canvas.Plugins.PluginSlideThumbnail.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[PluginSlideThumbnail](Ink\_Canvas.Plugins.PluginSlideThumbnail.md)\>
 
 缩略图列表；未连接时返回空列表。
 
@@ -107,7 +107,7 @@ string GetPresentationPath()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_IPowerPointService_GoToSlide_System_Int32_"></a> GoToSlide\(int\)
 
@@ -119,7 +119,7 @@ void GoToSlide(int slideNumber)
 
 #### Parameters
 
-`slideNumber` int
+`slideNumber` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Plugins_IPowerPointService_NextSlide"></a> NextSlide\(\)
 
@@ -163,7 +163,7 @@ bool TryShowSlideNavigation()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_IPowerPointService_SlideChanged"></a> SlideChanged
 
@@ -175,7 +175,7 @@ event Action<int> SlideChanged
 
 #### Event Type
 
- Action<int\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
 ### <a id="Ink_Canvas_Plugins_IPowerPointService_SlideshowEnded"></a> SlideshowEnded
 
@@ -187,7 +187,7 @@ event Action SlideshowEnded
 
 #### Event Type
 
- Action
+ [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
 ### <a id="Ink_Canvas_Plugins_IPowerPointService_SlideshowStarted"></a> SlideshowStarted
 
@@ -199,5 +199,5 @@ event Action SlideshowStarted
 
 #### Event Type
 
- Action
+ [Action](https://learn.microsoft.com/dotnet/api/system.action)
 

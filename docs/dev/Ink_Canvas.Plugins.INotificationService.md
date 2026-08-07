@@ -21,25 +21,25 @@ void ClearHistory(string source = null)
 
 #### Parameters
 
-`source` string
+`source` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_INotificationService_GetHistory_System_String_"></a> GetHistory\(string\)
 
 读取通知历史（宿主通知中心保留最近 100 条）。
 
 ```csharp
-System.Collections.Generic.IReadOnlyList<PluginNotification> GetHistory(string source = null)
+IReadOnlyList<PluginNotification> GetHistory(string source = null)
 ```
 
 #### Parameters
 
-`source` string
+`source` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 按来源过滤；null 表示全部。
 
 #### Returns
 
- System.Collections.Generic.IReadOnlyList<[PluginNotification](Ink\_Canvas.Plugins.PluginNotification.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[PluginNotification](Ink\_Canvas.Plugins.PluginNotification.md)\>
 
 ### <a id="Ink_Canvas_Plugins_INotificationService_Show_System_String_System_String_Ink_Canvas_Plugins_NotificationLevel_"></a> Show\(string, string, NotificationLevel\)
 
@@ -51,11 +51,11 @@ void Show(string title, string message, NotificationLevel level = NotificationLe
 
 #### Parameters
 
-`title` string
+`title` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 通知标题
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 通知内容
 
@@ -69,18 +69,18 @@ void Show(string title, string message, NotificationLevel level = NotificationLe
 灵动通知会显示操作按钮，用户点击后触发 <code class="paramref">onClicked</code>。
 
 ```csharp
-void Show(string title, string message, NotificationLevel level, System.Action onClicked)
+void Show(string title, string message, NotificationLevel level, Action onClicked)
 ```
 
 #### Parameters
 
-`title` string
+`title` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `level` [NotificationLevel](Ink\_Canvas.Plugins.NotificationLevel.md)
 
-`onClicked` System.Action
+`onClicked` [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
 ### <a id="Ink_Canvas_Plugins_INotificationService_ShowWindowsToast_System_String_System_String_"></a> ShowWindowsToast\(string, string\)
 
@@ -92,7 +92,7 @@ void ShowWindowsToast(string title, string message)
 
 #### Parameters
 
-`title` string
+`title` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 

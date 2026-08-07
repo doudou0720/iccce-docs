@@ -29,7 +29,7 @@ bool PerformAutoBackup()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_IBackupService_ShouldPerformAutoBackup"></a> ShouldPerformAutoBackup\(\)
 
@@ -41,7 +41,7 @@ bool ShouldPerformAutoBackup()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_IBackupService_TryRestoreFromBackup"></a> TryRestoreFromBackup\(\)
 
@@ -53,5 +53,5 @@ bool TryRestoreFromBackup()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

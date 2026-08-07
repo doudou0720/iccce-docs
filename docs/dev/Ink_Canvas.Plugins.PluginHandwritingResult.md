@@ -11,8 +11,17 @@ public sealed class PluginHandwritingResult
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PluginHandwritingResult](Ink\_Canvas.Plugins.PluginHandwritingResult.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -26,7 +35,7 @@ public string CombinedText { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginHandwritingResult_IsSuccess"></a> IsSuccess
 
@@ -38,7 +47,7 @@ public bool IsSuccess { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginHandwritingResult_Words"></a> Words
 
@@ -50,5 +59,5 @@ public List<PluginHandwritingWord> Words { get; set; }
 
 #### Property Value
 
- List<[PluginHandwritingWord](Ink\_Canvas.Plugins.PluginHandwritingWord.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PluginHandwritingWord](Ink\_Canvas.Plugins.PluginHandwritingWord.md)\>
 
