@@ -32,17 +32,17 @@ bool OpenUri(string uri)
 
 #### Parameters
 
-`uri` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`uri` string
 
 形如 <code>icc://settings/CanvasPage?key=xxx</code> 或 <code>icc://plugin/&lt;id&gt;/&lt;path&gt;</code>。
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 是否已受理（已进入路由，不代表命令一定成功）。
 
-### <a id="Ink_Canvas_Plugins_IPluginUriService_RegisterHandler_System_String_System_Func_Ink_Canvas_Plugins_PluginUriRequest_System_Boolean__"></a> RegisterHandler\(string, Func<PluginUriRequest, bool\>\)
+### <a id="Ink_Canvas_Plugins_IPluginUriService_RegisterHandler_System_String_Func_Ink_Canvas_Plugins_PluginUriRequest_System_Boolean__"></a> RegisterHandler\(string, Func<PluginUriRequest, bool\>\)
 
 注册 URI 处理程序。
 
@@ -57,11 +57,11 @@ void RegisterHandler(string subPath, Func<PluginUriRequest, bool> handler)
 
 #### Parameters
 
-`subPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`subPath` string
 
 子路径（去 <code>plugin/&lt;id&gt;/</code> 前缀），空字符串表示接收全部子路径。
 
-`handler` [Func](https://learn.microsoft.com/dotnet/api/system.func\-2)<[PluginUriRequest](Ink\_Canvas.Plugins.PluginUriRequest.md), [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+`handler` Func<[PluginUriRequest](Ink\_Canvas.Plugins.PluginUriRequest.md), bool\>
 
 处理器；返回 <code>true</code> 表示已处理，返回 <code>false</code> 时宿主记录「未处理」日志。
 

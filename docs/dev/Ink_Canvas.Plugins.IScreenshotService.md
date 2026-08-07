@@ -23,9 +23,9 @@ BitmapSource CaptureFullScreen()
 
 #### Returns
 
- [BitmapSource](https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource)
+ BitmapSource
 
-已 Freeze 的 <xref href="System.Windows.Media.Imaging.BitmapSource" data-throw-if-not-resolved="false"></xref>，可直接用于 WPF 绑定/绘制。
+已 Freeze 的 BitmapSource，可直接用于 WPF 绑定/绘制。
 
 ### <a id="Ink_Canvas_Plugins_IScreenshotService_CaptureScreenArea_System_Int32_System_Int32_System_Int32_System_Int32_"></a> CaptureScreenArea\(int, int, int, int\)
 
@@ -37,27 +37,27 @@ BitmapSource CaptureScreenArea(int x, int y, int width, int height)
 
 #### Parameters
 
-`x` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`x` int
 
 区域左上角 X（屏幕坐标）。
 
-`y` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`y` int
 
 区域左上角 Y（屏幕坐标）。
 
-`width` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`width` int
 
 区域宽度。
 
-`height` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`height` int
 
 区域高度。
 
 #### Returns
 
- [BitmapSource](https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource)
+ BitmapSource
 
-已 Freeze 的 <xref href="System.Windows.Media.Imaging.BitmapSource" data-throw-if-not-resolved="false"></xref>。
+已 Freeze 的 BitmapSource。
 
 ### <a id="Ink_Canvas_Plugins_IScreenshotService_SaveFullScreenToFile_System_String_"></a> SaveFullScreenToFile\(string\)
 
@@ -69,13 +69,13 @@ bool SaveFullScreenToFile(string filePath)
 
 #### Parameters
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 输出 PNG 路径（目录需已存在）。
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 是否保存成功。
 

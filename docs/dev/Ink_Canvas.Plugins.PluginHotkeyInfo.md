@@ -11,17 +11,8 @@ public sealed class PluginHotkeyInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PluginHotkeyInfo](Ink\_Canvas.Plugins.PluginHotkeyInfo.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -35,7 +26,7 @@ public Key Key { get; set; }
 
 #### Property Value
 
- [Key](https://learn.microsoft.com/dotnet/api/system.windows.input.key)
+ Key
 
 ### <a id="Ink_Canvas_Plugins_PluginHotkeyInfo_Modifiers"></a> Modifiers
 
@@ -47,7 +38,7 @@ public ModifierKeys Modifiers { get; set; }
 
 #### Property Value
 
- [ModifierKeys](https://learn.microsoft.com/dotnet/api/system.windows.input.modifierkeys)
+ ModifierKeys
 
 ### <a id="Ink_Canvas_Plugins_PluginHotkeyInfo_Name"></a> Name
 
@@ -59,5 +50,5 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

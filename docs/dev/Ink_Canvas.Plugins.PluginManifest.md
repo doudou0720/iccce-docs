@@ -11,18 +11,8 @@ public class PluginManifest
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PluginManifest](Ink\_Canvas.Plugins.PluginManifest.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -36,7 +26,7 @@ public string ApiVersion { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_Author"></a> Author
 
@@ -48,7 +38,7 @@ public string Author { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_Dependencies"></a> Dependencies
 
@@ -60,7 +50,7 @@ public List<PluginDependency> Dependencies { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PluginDependency](Ink\_Canvas.Plugins.PluginDependency.md)\>
+ List<[PluginDependency](Ink\_Canvas.Plugins.PluginDependency.md)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_Description"></a> Description
 
@@ -72,7 +62,7 @@ public string Description { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_EntranceAssembly"></a> EntranceAssembly
 
@@ -84,7 +74,7 @@ public string EntranceAssembly { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_Icon"></a> Icon
 
@@ -96,7 +86,7 @@ public string Icon { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_Id"></a> Id
 
@@ -108,7 +98,7 @@ public string Id { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_License"></a> License
 
@@ -120,7 +110,7 @@ public string License { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_MinHostVersion"></a> MinHostVersion
 
@@ -134,7 +124,7 @@ public string MinHostVersion { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_Name"></a> Name
 
@@ -146,7 +136,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_Permissions"></a> Permissions
 
@@ -159,7 +149,7 @@ public List<string> Permissions { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_SourceUrl"></a> SourceUrl
 
@@ -171,7 +161,7 @@ public string SourceUrl { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_Tags"></a> Tags
 
@@ -183,7 +173,7 @@ public List<string> Tags { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ List<string\>
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_Url"></a> Url
 
@@ -195,7 +185,7 @@ public string Url { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_Version"></a> Version
 
@@ -207,7 +197,7 @@ public string Version { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginManifest_VersionRange"></a> VersionRange
 
@@ -221,5 +211,5 @@ public string VersionRange { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

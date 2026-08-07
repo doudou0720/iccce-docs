@@ -16,34 +16,34 @@ public interface IPluginIpcBus
 调用对端服务。
 
 ```csharp
-Task<object> InvokeAsync(string method, JsonElement? args, TimeSpan? timeout = null)
+System.Threading.Tasks.Task<object> InvokeAsync(string method, System.Text.Json.JsonElement? args, System.TimeSpan? timeout = null)
 ```
 
 #### Parameters
 
-`method` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`method` string
 
-`args` [JsonElement](https://learn.microsoft.com/dotnet/api/system.text.json.jsonelement)?
+`args` System.Text.Json.JsonElement?
 
-`timeout` [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)?
+`timeout` System.TimeSpan?
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
+ System.Threading.Tasks.Task<object\>
 
-### <a id="Ink_Canvas_Plugins_IPluginIpcBus_RegisterHandler_System_String_System_Func_System_Nullable_System_Text_Json_JsonElement__System_Object__"></a> RegisterHandler\(string, Func<JsonElement?, object\>\)
+### <a id="Ink_Canvas_Plugins_IPluginIpcBus_RegisterHandler_System_String_Func_System_Nullable_System_Text_Json_JsonElement__System_Object__"></a> RegisterHandler\(string, Func<JsonElement?, object\>\)
 
 注册一个方法处理函数。
 
 ```csharp
-void RegisterHandler(string method, Func<JsonElement?, object> handler)
+void RegisterHandler(string method, Func<System.Text.Json.JsonElement?, object> handler)
 ```
 
 #### Parameters
 
-`method` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`method` string
 
-`handler` [Func](https://learn.microsoft.com/dotnet/api/system.func\-2)<[JsonElement](https://learn.microsoft.com/dotnet/api/system.text.json.jsonelement)?, [object](https://learn.microsoft.com/dotnet/api/system.object)\>
+`handler` Func<System.Text.Json.JsonElement?, object\>
 
 ### <a id="Ink_Canvas_Plugins_IPluginIpcBus_Start"></a> Start\(\)
 
@@ -58,10 +58,10 @@ void Start()
 收到任何消息时触发。
 
 ```csharp
-event EventHandler<IpcMessage> MessageReceived
+event System.EventHandler<IpcMessage> MessageReceived
 ```
 
 #### Event Type
 
- [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[IpcMessage](Ink\_Canvas.Plugins.IpcMessage.md)\>
+ System.EventHandler<[IpcMessage](Ink\_Canvas.Plugins.IpcMessage.md)\>
 

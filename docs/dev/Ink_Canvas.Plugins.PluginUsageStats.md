@@ -11,17 +11,8 @@ public sealed class PluginUsageStats
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PluginUsageStats](Ink\_Canvas.Plugins.PluginUsageStats.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -35,7 +26,7 @@ public double AvgSessionSeconds { get; set; }
 
 #### Property Value
 
- [double](https://learn.microsoft.com/dotnet/api/system.double)
+ double
 
 ### <a id="Ink_Canvas_Plugins_PluginUsageStats_LaunchCount"></a> LaunchCount
 
@@ -47,7 +38,7 @@ public int LaunchCount { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Plugins_PluginUsageStats_TotalSeconds"></a> TotalSeconds
 
@@ -59,7 +50,7 @@ public long TotalSeconds { get; set; }
 
 #### Property Value
 
- [long](https://learn.microsoft.com/dotnet/api/system.int64)
+ long
 
 ### <a id="Ink_Canvas_Plugins_PluginUsageStats_UpdatePriority"></a> UpdatePriority
 
@@ -71,5 +62,5 @@ public int UpdatePriority { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 

@@ -21,7 +21,7 @@ bool IsCollapsed { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_IWindowService_IsFullscreen"></a> IsFullscreen
 
@@ -33,7 +33,7 @@ bool IsFullscreen { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_IWindowService_IsTopMost"></a> IsTopMost
 
@@ -45,7 +45,7 @@ bool IsTopMost { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_IWindowService_IsWhiteboardMode"></a> IsWhiteboardMode
 
@@ -57,7 +57,7 @@ bool IsWhiteboardMode { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
@@ -103,7 +103,7 @@ void SetFullscreen(bool fullscreen)
 
 #### Parameters
 
-`fullscreen` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`fullscreen` bool
 
 ### <a id="Ink_Canvas_Plugins_IWindowService_SetTopMost_System_Boolean_"></a> SetTopMost\(bool\)
 
@@ -115,7 +115,7 @@ void SetTopMost(bool topMost)
 
 #### Parameters
 
-`topMost` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+`topMost` bool
 
 ### <a id="Ink_Canvas_Plugins_IWindowService_ToggleCollapse"></a> ToggleCollapse\(\)
 
@@ -151,7 +151,7 @@ event Action<bool> CollapseChanged
 
 #### Event Type
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+ Action<bool\>
 
 ### <a id="Ink_Canvas_Plugins_IWindowService_TopMostChanged"></a> TopMostChanged
 
@@ -163,5 +163,5 @@ event Action<bool> TopMostChanged
 
 #### Event Type
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+ Action<bool\>
 

@@ -37,7 +37,7 @@ IReadOnlyList<PluginHotkeyInfo> GetRegisteredHotkeys()
 
 #### Returns
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[PluginHotkeyInfo](Ink\_Canvas.Plugins.PluginHotkeyInfo.md)\>
+ IReadOnlyList<[PluginHotkeyInfo](Ink\_Canvas.Plugins.PluginHotkeyInfo.md)\>
 
 ### <a id="Ink_Canvas_Plugins_IHotkeyService_IsRegistered_System_String_"></a> IsRegistered\(string\)
 
@@ -49,41 +49,41 @@ bool IsRegistered(string id)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_IHotkeyService_Register_System_String_System_UInt32_System_UInt32_System_Action_"></a> Register\(string, uint, uint, Action\)
 
 注册全局热键。
 
 ```csharp
-bool Register(string id, uint modifiers, uint key, Action callback)
+bool Register(string id, uint modifiers, uint key, System.Action callback)
 ```
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 热键唯一标识
 
-`modifiers` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`modifiers` uint
 
 修饰键组合（Ctrl=2, Alt=1, Shift=4, Win=8）
 
-`key` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+`key` uint
 
 虚拟键码（如 0x42 = B）
 
-`callback` [Action](https://learn.microsoft.com/dotnet/api/system.action)
+`callback` System.Action
 
 按下时的回调
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 是否注册成功
 
@@ -97,13 +97,13 @@ bool Unregister(string id)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
-### <a id="Ink_Canvas_Plugins_IHotkeyService_UpdateHotkey_System_String_System_Windows_Input_Key_System_Windows_Input_ModifierKeys_"></a> UpdateHotkey\(string, Key, ModifierKeys\)
+### <a id="Ink_Canvas_Plugins_IHotkeyService_UpdateHotkey_System_String_Key_ModifierKeys_"></a> UpdateHotkey\(string, Key, ModifierKeys\)
 
 更新宿主内置热键的按键组合（按热键名称，如 "Undo"、"Redo"）。
 
@@ -113,15 +113,15 @@ bool UpdateHotkey(string hotkeyName, Key key, ModifierKeys modifiers)
 
 #### Parameters
 
-`hotkeyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`hotkeyName` string
 
-`key` [Key](https://learn.microsoft.com/dotnet/api/system.windows.input.key)
+`key` Key
 
-`modifiers` [ModifierKeys](https://learn.microsoft.com/dotnet/api/system.windows.input.modifierkeys)
+`modifiers` ModifierKeys
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 是否更新成功。
 

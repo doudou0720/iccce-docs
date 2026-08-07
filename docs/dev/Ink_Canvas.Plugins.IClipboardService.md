@@ -25,7 +25,7 @@ bool ContainsImage()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_IClipboardService_GetImage"></a> GetImage\(\)
 
@@ -37,7 +37,7 @@ BitmapSource GetImage()
 
 #### Returns
 
- [BitmapSource](https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource)
+ BitmapSource
 
 ### <a id="Ink_Canvas_Plugins_IClipboardService_GetText"></a> GetText\(\)
 
@@ -49,9 +49,9 @@ string GetText()
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
-### <a id="Ink_Canvas_Plugins_IClipboardService_SetImage_System_Windows_Media_Imaging_BitmapSource_"></a> SetImage\(BitmapSource\)
+### <a id="Ink_Canvas_Plugins_IClipboardService_SetImage_BitmapSource_"></a> SetImage\(BitmapSource\)
 
 把图像写入剪贴板。返回是否成功。
 
@@ -61,11 +61,11 @@ bool SetImage(BitmapSource image)
 
 #### Parameters
 
-`image` [BitmapSource](https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource)
+`image` BitmapSource
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_IClipboardService_SetText_System_String_"></a> SetText\(string\)
 
@@ -77,11 +77,11 @@ bool SetText(string text)
 
 #### Parameters
 
-`text` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`text` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_IClipboardService_ClipboardUpdate"></a> ClipboardUpdate
 
@@ -93,5 +93,5 @@ event Action ClipboardUpdate
 
 #### Event Type
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action)
+ Action
 

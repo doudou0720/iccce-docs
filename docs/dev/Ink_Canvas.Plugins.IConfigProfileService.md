@@ -22,11 +22,11 @@ bool ApplyProfile(string profileName)
 
 #### Parameters
 
-`profileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`profileName` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_IConfigProfileService_DeleteProfile_System_String_"></a> DeleteProfile\(string\)
 
@@ -38,11 +38,11 @@ bool DeleteProfile(string profileName)
 
 #### Parameters
 
-`profileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`profileName` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_IConfigProfileService_GetProfilePath_System_String_"></a> GetProfilePath\(string\)
 
@@ -54,11 +54,11 @@ string GetProfilePath(string profileName)
 
 #### Parameters
 
-`profileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`profileName` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_IConfigProfileService_ListProfiles"></a> ListProfiles\(\)
 
@@ -70,7 +70,7 @@ IReadOnlyList<string> ListProfiles()
 
 #### Returns
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+ IReadOnlyList<string\>
 
 ### <a id="Ink_Canvas_Plugins_IConfigProfileService_SaveAsProfile_System_String_System_String_"></a> SaveAsProfile\(string, string\)
 
@@ -82,11 +82,11 @@ bool SaveAsProfile(string profileName, string settingsJson)
 
 #### Parameters
 
-`profileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`profileName` string
 
-`settingsJson` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`settingsJson` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

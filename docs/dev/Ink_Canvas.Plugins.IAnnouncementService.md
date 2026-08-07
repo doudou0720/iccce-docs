@@ -29,7 +29,7 @@ IReadOnlyList<PluginAnnouncement> GetHistory()
 
 #### Returns
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[PluginAnnouncement](Ink\_Canvas.Plugins.PluginAnnouncement.md)\>
+ IReadOnlyList<[PluginAnnouncement](Ink\_Canvas.Plugins.PluginAnnouncement.md)\>
 
 ### <a id="Ink_Canvas_Plugins_IAnnouncementService_GetUnreadCount"></a> GetUnreadCount\(\)
 
@@ -41,7 +41,7 @@ int GetUnreadCount()
 
 #### Returns
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Plugins_IAnnouncementService_MarkAllAsRead"></a> MarkAllAsRead\(\)
 
@@ -61,7 +61,7 @@ void MarkAsRead(string announcementId)
 
 #### Parameters
 
-`announcementId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`announcementId` string
 
 ### <a id="Ink_Canvas_Plugins_IAnnouncementService_UnreadCountChanged"></a> UnreadCountChanged
 
@@ -73,5 +73,5 @@ event Action UnreadCountChanged
 
 #### Event Type
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action)
+ Action
 

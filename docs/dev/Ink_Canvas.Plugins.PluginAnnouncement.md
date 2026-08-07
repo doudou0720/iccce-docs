@@ -11,17 +11,8 @@ public sealed class PluginAnnouncement
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PluginAnnouncement](Ink\_Canvas.Plugins.PluginAnnouncement.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -35,19 +26,19 @@ public string Content { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginAnnouncement_CreatedAt"></a> CreatedAt
 
 发布时间。
 
 ```csharp
-public DateTime CreatedAt { get; set; }
+public System.DateTime CreatedAt { get; set; }
 ```
 
 #### Property Value
 
- [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
+ System.DateTime
 
 ### <a id="Ink_Canvas_Plugins_PluginAnnouncement_Id"></a> Id
 
@@ -59,7 +50,7 @@ public string Id { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginAnnouncement_IsNew"></a> IsNew
 
@@ -71,7 +62,7 @@ public bool IsNew { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_PluginAnnouncement_IsRead"></a> IsRead
 
@@ -83,7 +74,7 @@ public bool IsRead { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_PluginAnnouncement_Summary"></a> Summary
 
@@ -95,7 +86,7 @@ public string Summary { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginAnnouncement_Title"></a> Title
 
@@ -107,5 +98,5 @@ public string Title { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 

@@ -58,6 +58,25 @@ public static void ApplyRecommendedSettings()
 public void CancelAllTasks()
 ```
 
+### <a id="Ink_Canvas_Helpers_InkSmoothingManager_CopyPropertyData_Stroke_Stroke_"></a> CopyPropertyData\(Stroke, Stroke\)
+
+把 <code class="paramref">source</code> 的全部 property data 复制到 <code class="paramref">target</code>。
+平滑器（AsyncAdvancedBezierSmoothing / HardwareAcceleratedInkProcessor / AdvancedBezierSmoothing）
+创建的新 Stroke 只克隆 DrawingAttributes，会丢失 NativeWetInkCommittedGuid、
+LaserRenderModeGuid、RealtimeVelocityBrushTipAppliedGuid 等标记——激光笔迹会因此失去
+激光渲染效果，原生湿墨笔迹会失去「压感已烘焙」识别（后续可能被当普通笔画二次重写压感）。
+必须在 UI 线程调用（property data 值可能是 DispatcherObject）。
+
+```csharp
+public static void CopyPropertyData(Stroke source, Stroke target)
+```
+
+#### Parameters
+
+`source` Stroke
+
+`target` Stroke
+
 ### <a id="Ink_Canvas_Helpers_InkSmoothingManager_Dispose"></a> Dispose\(\)
 
 ```csharp

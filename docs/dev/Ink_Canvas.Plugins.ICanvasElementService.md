@@ -9,7 +9,7 @@ Assembly: InkCanvas.PluginSdk.dll
 <p>
 典型用法（如单词卡片、可点击的教具控件）：
 
-<ol><li>用 XAML/C# 构造一个 <xref href="System.Windows.FrameworkElement" data-throw-if-not-resolved="false"></xref> 控件（Grid/StackPanel/Border 等）；</li><li>调用 <xref href="Ink_Canvas.Plugins.ICanvasElementService.InsertElement(System.Windows.FrameworkElement)" data-throw-if-not-resolved="false"></xref> 插入画布（居中、自动尺寸、进撤销历史、切选择模式）；</li><li>用户可像拖动图片一样拖动/缩放/旋转该控件，并按 Ctrl+Z 撤销插入；</li><li>控件内部的按钮/滑块等交互子元素，在选中模式下可正常点击（宿主已做命中穿透处理）。</li></ol>
+<ol><li>用 XAML/C# 构造一个 FrameworkElement 控件（Grid/StackPanel/Border 等）；</li><li>调用 <xref href="Ink_Canvas.Plugins.ICanvasElementService.InsertElement(FrameworkElement)" data-throw-if-not-resolved="false"></xref> 插入画布（居中、自动尺寸、进撤销历史、切选择模式）；</li><li>用户可像拖动图片一样拖动/缩放/旋转该控件，并按 Ctrl+Z 撤销插入；</li><li>控件内部的按钮/滑块等交互子元素，在选中模式下可正常点击（宿主已做命中穿透处理）。</li></ol>
 </p>
 <p>
 所有方法都可以从任意线程调用，宿主内部会切换到 UI 线程。
@@ -23,7 +23,7 @@ public interface ICanvasElementService
 
 ## Methods
 
-### <a id="Ink_Canvas_Plugins_ICanvasElementService_ContainsElement_System_Windows_FrameworkElement_"></a> ContainsElement\(FrameworkElement\)
+### <a id="Ink_Canvas_Plugins_ICanvasElementService_ContainsElement_FrameworkElement_"></a> ContainsElement\(FrameworkElement\)
 
 指定控件当前是否位于画布上。
 
@@ -33,11 +33,11 @@ bool ContainsElement(FrameworkElement element)
 
 #### Parameters
 
-`element` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+`element` FrameworkElement
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_ICanvasElementService_GetElements"></a> GetElements\(\)
 
@@ -49,9 +49,9 @@ IReadOnlyList<FrameworkElement> GetElements()
 
 #### Returns
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)\>
+ IReadOnlyList<FrameworkElement\>
 
-### <a id="Ink_Canvas_Plugins_ICanvasElementService_InsertElement_System_Windows_FrameworkElement_"></a> InsertElement\(FrameworkElement\)
+### <a id="Ink_Canvas_Plugins_ICanvasElementService_InsertElement_FrameworkElement_"></a> InsertElement\(FrameworkElement\)
 
 把控件插入当前画布：居中放置（最大为画布 70%，无显式尺寸时按内容测量），
 写入 TimeMachine 历史（可按 Ctrl+Z 撤销），并切换到选择模式。
@@ -63,16 +63,16 @@ bool InsertElement(FrameworkElement element)
 
 #### Parameters
 
-`element` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+`element` FrameworkElement
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
-### <a id="Ink_Canvas_Plugins_ICanvasElementService_InsertElement_System_Windows_FrameworkElement_System_Windows_Point_"></a> InsertElement\(FrameworkElement, Point\)
+### <a id="Ink_Canvas_Plugins_ICanvasElementService_InsertElement_FrameworkElement_Point_"></a> InsertElement\(FrameworkElement, Point\)
 
 把控件插入当前画布，使控件左上角对齐到 <code class="paramref">position</code>（画布坐标），
-不缩放、不居中。其余行为同 <xref href="Ink_Canvas.Plugins.ICanvasElementService.InsertElement(System.Windows.FrameworkElement)" data-throw-if-not-resolved="false"></xref>。
+不缩放、不居中。其余行为同 <xref href="Ink_Canvas.Plugins.ICanvasElementService.InsertElement(FrameworkElement)" data-throw-if-not-resolved="false"></xref>。
 
 ```csharp
 bool InsertElement(FrameworkElement element, Point position)
@@ -80,15 +80,15 @@ bool InsertElement(FrameworkElement element, Point position)
 
 #### Parameters
 
-`element` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+`element` FrameworkElement
 
-`position` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+`position` Point
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
-### <a id="Ink_Canvas_Plugins_ICanvasElementService_TryRemoveElement_System_Windows_FrameworkElement_"></a> TryRemoveElement\(FrameworkElement\)
+### <a id="Ink_Canvas_Plugins_ICanvasElementService_TryRemoveElement_FrameworkElement_"></a> TryRemoveElement\(FrameworkElement\)
 
 从当前画布移除指定控件，并写入撤销历史（可按 Ctrl+Z 恢复）。
 控件不在画布上时返回 <code>false</code>。
@@ -99,9 +99,9 @@ bool TryRemoveElement(FrameworkElement element)
 
 #### Parameters
 
-`element` [FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)
+`element` FrameworkElement
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

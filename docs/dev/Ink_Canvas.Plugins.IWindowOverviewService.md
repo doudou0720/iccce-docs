@@ -29,7 +29,7 @@ IReadOnlyList<PluginWindowInfo> Windows { get; }
 
 #### Property Value
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[PluginWindowInfo](Ink\_Canvas.Plugins.PluginWindowInfo.md)\>
+ IReadOnlyList<[PluginWindowInfo](Ink\_Canvas.Plugins.PluginWindowInfo.md)\>
 
 ## Methods
 
@@ -47,5 +47,5 @@ event Action WindowsChanged
 
 #### Event Type
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action)
+ Action
 

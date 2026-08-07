@@ -23,21 +23,21 @@ string OpenFile(string title, string filter = null, string initialDirectory = nu
 
 #### Parameters
 
-`title` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`title` string
 
 对话框标题。
 
-`filter` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filter` string
 
 文件过滤器，如 "文本文件 (*.txt)|*.txt|所有文件 (*.*)|*.*"；null 用默认。
 
-`initialDirectory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`initialDirectory` string
 
 初始目录；null 用上次目录。
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 选中的文件路径；用户取消返回 null。
 
@@ -51,15 +51,15 @@ string[] OpenFiles(string title, string filter = null, string initialDirectory =
 
 #### Parameters
 
-`title` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`title` string
 
-`filter` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filter` string
 
-`initialDirectory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`initialDirectory` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+ string\[\]
 
 选中的文件路径列表；用户取消返回空数组。
 
@@ -73,19 +73,19 @@ string SaveFile(string title, string filter = null, string defaultFileName = nul
 
 #### Parameters
 
-`title` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`title` string
 
-`filter` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filter` string
 
-`defaultFileName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`defaultFileName` string
 
 默认文件名。
 
-`initialDirectory` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`initialDirectory` string
 
 #### Returns
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 选中的保存路径；用户取消返回 null。
 

@@ -11,19 +11,19 @@ public enum PluginRecognitionEngine
 
 ## Fields
 
-`Auto = 0` 
+`Auto` 
 
 自动选择后端。
 
 
 
-`IACore = 1` 
+`IACore` 
 
 传统 IACore 识别（走 IPC 辅助进程）。
 
 
 
-`WinRT = 2` 
+`WinRT` 
 
 Windows Runtime 识别。
 

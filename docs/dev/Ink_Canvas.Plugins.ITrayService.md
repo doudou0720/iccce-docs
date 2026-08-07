@@ -30,7 +30,7 @@ bool IsIconVisible { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_ITrayService_IsMainWindowVisible"></a> IsMainWindowVisible
 
@@ -42,11 +42,11 @@ bool IsMainWindowVisible { get; set; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ## Methods
 
-### <a id="Ink_Canvas_Plugins_ITrayService_AddMenuItem_System_String_System_String_System_Action_"></a> AddMenuItem\(string, string, Action\)
+### <a id="Ink_Canvas_Plugins_ITrayService_AddMenuItem_System_String_System_String_Action_"></a> AddMenuItem\(string, string, Action\)
 
 向托盘右键菜单注入一个菜单项，插入到宿主固定菜单区之间。
 
@@ -56,21 +56,21 @@ bool AddMenuItem(string id, string text, Action onClicked)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 菜单项唯一标识，用于后续移除/查重。
 
-`text` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`text` string
 
 菜单项显示文本。
 
-`onClicked` [Action](https://learn.microsoft.com/dotnet/api/system.action)
+`onClicked` Action
 
 点击回调（在 UI 线程触发）。
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 是否成功；<code class="paramref">id</code> 已存在或参数无效时返回 false。
 
@@ -84,11 +84,11 @@ bool HasMenuItem(string id)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_ITrayService_RemoveMenuItem_System_String_"></a> RemoveMenuItem\(string\)
 
@@ -100,11 +100,11 @@ bool RemoveMenuItem(string id)
 
 #### Parameters
 
-`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`id` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 是否移除成功。
 
@@ -126,7 +126,7 @@ event Action LeftClicked
 
 #### Event Type
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action)
+ Action
 
 ### <a id="Ink_Canvas_Plugins_ITrayService_RightClicked"></a> RightClicked
 
@@ -138,5 +138,5 @@ event Action RightClicked
 
 #### Event Type
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action)
+ Action
 

@@ -11,22 +11,12 @@ public abstract class PluginBase : IPlugin
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PluginBase](Ink\_Canvas.Plugins.PluginBase.md)
 
 #### Implements
 
 [IPlugin](Ink\_Canvas.Plugins.IPlugin.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -38,7 +28,7 @@ public virtual string Author { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginBase_Description"></a> Description
 
@@ -48,7 +38,7 @@ public virtual string Description { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginBase_Host"></a> Host
 
@@ -68,7 +58,7 @@ public virtual string Id { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginBase_Manifest"></a> Manifest
 
@@ -90,7 +80,7 @@ public virtual string Name { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginBase_Order"></a> Order
 
@@ -100,7 +90,7 @@ public virtual int Order { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Plugins_PluginBase_PluginConfigFolder"></a> PluginConfigFolder
 
@@ -112,7 +102,7 @@ public string PluginConfigFolder { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginBase_PluginFolder"></a> PluginFolder
 
@@ -124,7 +114,7 @@ public string PluginFolder { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginBase_Version"></a> Version
 
@@ -134,7 +124,7 @@ public virtual string Version { get; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ## Methods
 
@@ -146,7 +136,7 @@ public virtual object GetMainView()
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="Ink_Canvas_Plugins_PluginBase_GetService__1"></a> GetService<T\>\(\)
 
@@ -170,7 +160,7 @@ public virtual object GetSettingsView()
 
 #### Returns
 
- [object](https://learn.microsoft.com/dotnet/api/system.object)
+ object
 
 ### <a id="Ink_Canvas_Plugins_PluginBase_Initialize_Ink_Canvas_Plugins_IPluginHost_"></a> Initialize\(IPluginHost\)
 
@@ -185,7 +175,7 @@ public virtual void Initialize(IPluginHost host)
 
 `host` [IPluginHost](Ink\_Canvas.Plugins.IPluginHost.md)
 
-### <a id="Ink_Canvas_Plugins_PluginBase_Initialize_Ink_Canvas_Plugins_IPluginHost_Microsoft_Extensions_DependencyInjection_IServiceCollection_"></a> Initialize\(IPluginHost, IServiceCollection\)
+### <a id="Ink_Canvas_Plugins_PluginBase_Initialize_Ink_Canvas_Plugins_IPluginHost_IServiceCollection_"></a> Initialize\(IPluginHost, IServiceCollection\)
 
 初始化插件（新版签名，支持 DI 服务注册）。
 默认调用旧版 Initialize(host) 以保持兼容。
@@ -199,7 +189,7 @@ public virtual void Initialize(IPluginHost host, IServiceCollection services)
 
 `host` [IPluginHost](Ink\_Canvas.Plugins.IPluginHost.md)
 
-`services` [IServiceCollection](https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection)
+`services` IServiceCollection
 
 ### <a id="Ink_Canvas_Plugins_PluginBase_Log_System_String_"></a> Log\(string\)
 
@@ -209,9 +199,9 @@ protected void Log(string message)
 
 #### Parameters
 
-`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`message` string
 
-### <a id="Ink_Canvas_Plugins_PluginBase_LogError_System_String_System_Exception_"></a> LogError\(string, Exception\)
+### <a id="Ink_Canvas_Plugins_PluginBase_LogError_System_String_Exception_"></a> LogError\(string, Exception\)
 
 ```csharp
 protected void LogError(string message, Exception ex = null)
@@ -219,9 +209,9 @@ protected void LogError(string message, Exception ex = null)
 
 #### Parameters
 
-`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`message` string
 
-`ex` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+`ex` Exception
 
 ### <a id="Ink_Canvas_Plugins_PluginBase_Shutdown"></a> Shutdown\(\)
 

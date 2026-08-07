@@ -11,18 +11,8 @@ public class IpcMessage
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IpcMessage](Ink\_Canvas.Plugins.IpcMessage.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -44,7 +34,7 @@ public string From { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_IpcMessage_Id"></a> Id
 
@@ -54,7 +44,7 @@ public string Id { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_IpcMessage_IsError"></a> IsError
 
@@ -64,7 +54,7 @@ public bool IsError { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_IpcMessage_Method"></a> Method
 
@@ -74,25 +64,25 @@ public string Method { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_IpcMessage_Params"></a> Params
 
 ```csharp
-public JsonElement? Params { get; set; }
+public System.Text.Json.JsonElement? Params { get; set; }
 ```
 
 #### Property Value
 
- [JsonElement](https://learn.microsoft.com/dotnet/api/system.text.json.jsonelement)?
+ System.Text.Json.JsonElement?
 
 ### <a id="Ink_Canvas_Plugins_IpcMessage_Result"></a> Result
 
 ```csharp
-public JsonElement? Result { get; set; }
+public System.Text.Json.JsonElement? Result { get; set; }
 ```
 
 #### Property Value
 
- [JsonElement](https://learn.microsoft.com/dotnet/api/system.text.json.jsonelement)?
+ System.Text.Json.JsonElement?
 

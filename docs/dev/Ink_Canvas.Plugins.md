@@ -212,7 +212,7 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
  [PluginVisiblePage](Ink\_Canvas.Plugins.PluginVisiblePage.md)
 
 一个可见页：页索引 + 该页在背景层内占据的矩形（背景元素坐标系，DIP）。
-供 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.SetVisiblePagesAsync(System.Collections.Generic.IReadOnlyList%7bInk_Canvas.Plugins.PluginVisiblePage%7d%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref> 使用。
+供 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.SetVisiblePagesAsync(IReadOnlyList%7bInk_Canvas.Plugins.PluginVisiblePage%7d%2cCancellationToken)" data-throw-if-not-resolved="false"></xref> 使用。
 
 ### Interfaces
 
@@ -236,7 +236,7 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
 <p>底层复用宿主视频展台的 DirectShow 采集（<code>CameraServiceFactory.Create()</code>），
 与展台共用摄像头设备——插件启动预览可能抢占展台正在使用的设备。</p>
-<p>帧回调在后台线程触发，返回的 <xref href="System.Windows.Media.Imaging.BitmapSource" data-throw-if-not-resolved="false"></xref> 已 Freeze。</p>
+<p>帧回调在后台线程触发，返回的 BitmapSource 已 Freeze。</p>
 
  [ICanvasCompositionService](Ink\_Canvas.Plugins.ICanvasCompositionService.md)
 
@@ -245,7 +245,7 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 <p>
 典型用法（以 PDF 阅读器为例）：
 
-<ol><li>调用 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.InjectBackgroundLayer(System.Func%7bSystem.Windows.FrameworkElement%7d)" data-throw-if-not-resolved="false"></xref> 把自己的页面视图放到 InkCanvas 下方；</li><li>调用 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.ConfigurePages(System.UInt32%2cSystem.UInt32%2cSystem.Func%7bSystem.UInt32%2cSystem.Threading.CancellationToken%2cSystem.Threading.Tasks.Task%7bSystem.Windows.Media.Imaging.BitmapSource%7d%7d)" data-throw-if-not-resolved="false"></xref> 告知总页数、当前页与离屏渲染回调；</li><li>自己翻页后调用 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.SetCurrentPageAsync(System.UInt32%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref>，宿主会自动保存/恢复每页墨迹；</li><li>需要成品时调用 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.ExportWithInkAsync(System.String%2cSystem.UInt32%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref>。</li></ol>
+<ol><li>调用 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.InjectBackgroundLayer(Func%7bFrameworkElement%7d)" data-throw-if-not-resolved="false"></xref> 把自己的页面视图放到 InkCanvas 下方；</li><li>调用 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.ConfigurePages(System.UInt32%2cSystem.UInt32%2cFunc%7bSystem.UInt32%2cCancellationToken%2cTask%7bBitmapSource%7d%7d)" data-throw-if-not-resolved="false"></xref> 告知总页数、当前页与离屏渲染回调；</li><li>自己翻页后调用 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.SetCurrentPageAsync(System.UInt32%2cCancellationToken)" data-throw-if-not-resolved="false"></xref>，宿主会自动保存/恢复每页墨迹；</li><li>需要成品时调用 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService.ExportWithInkAsync(System.String%2cSystem.UInt32%2cCancellationToken)" data-throw-if-not-resolved="false"></xref>。</li></ol>
 </p>
 
 所有方法都可以从任意线程调用，宿主内部会切换到 UI 线程。
@@ -258,7 +258,7 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 <p>
 典型用法（如单词卡片、可点击的教具控件）：
 
-<ol><li>用 XAML/C# 构造一个 <xref href="System.Windows.FrameworkElement" data-throw-if-not-resolved="false"></xref> 控件（Grid/StackPanel/Border 等）；</li><li>调用 <xref href="Ink_Canvas.Plugins.ICanvasElementService.InsertElement(System.Windows.FrameworkElement)" data-throw-if-not-resolved="false"></xref> 插入画布（居中、自动尺寸、进撤销历史、切选择模式）；</li><li>用户可像拖动图片一样拖动/缩放/旋转该控件，并按 Ctrl+Z 撤销插入；</li><li>控件内部的按钮/滑块等交互子元素，在选中模式下可正常点击（宿主已做命中穿透处理）。</li></ol>
+<ol><li>用 XAML/C# 构造一个 FrameworkElement 控件（Grid/StackPanel/Border 等）；</li><li>调用 <xref href="Ink_Canvas.Plugins.ICanvasElementService.InsertElement(FrameworkElement)" data-throw-if-not-resolved="false"></xref> 插入画布（居中、自动尺寸、进撤销历史、切选择模式）；</li><li>用户可像拖动图片一样拖动/缩放/旋转该控件，并按 Ctrl+Z 撤销插入；</li><li>控件内部的按钮/滑块等交互子元素，在选中模式下可正常点击（宿主已做命中穿透处理）。</li></ol>
 </p>
 <p>
 所有方法都可以从任意线程调用，宿主内部会切换到 UI 线程。
@@ -335,10 +335,10 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 <p>
 宿主在以下时机回调（均发生在 UI 线程）：
 
-<ol><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureStarting(System.Windows.Input.ManipulationStartingEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作即将开始，返回 <code>true</code> 表示插件接管，
-    此时插件应在 <xref href="System.Windows.Input.ManipulationStartingEventArgs.Mode" data-throw-if-not-resolved="false"></xref> 里声明需要的手势类型
-    （如 <xref href="System.Windows.Input.ManipulationModes.Scale" data-throw-if-not-resolved="false"></xref> | <xref href="System.Windows.Input.ManipulationModes.Translate" data-throw-if-not-resolved="false"></xref>）；</li><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureDelta(System.Windows.Input.ManipulationDeltaEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作增量，返回 <code>true</code> 表示插件已处理，
-    宿主将跳过默认的墨迹/画布变换；</li><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureCompleted(System.Windows.Input.ManipulationCompletedEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作结束，宿主的编辑模式恢复由宿主照常处理。</li></ol>
+<ol><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureStarting(ManipulationStartingEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作即将开始，返回 <code>true</code> 表示插件接管，
+    此时插件应在 ManipulationStartingEventArgs.Mode 里声明需要的手势类型
+    （如 ManipulationModes.Scale | ManipulationModes.Translate）；</li><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureDelta(ManipulationDeltaEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作增量，返回 <code>true</code> 表示插件已处理，
+    宿主将跳过默认的墨迹/画布变换；</li><li><xref href="Ink_Canvas.Plugins.IPluginCanvasGestureHandler.OnCanvasGestureCompleted(ManipulationCompletedEventArgs)" data-throw-if-not-resolved="false"></xref> — 操作结束，宿主的编辑模式恢复由宿主照常处理。</li></ol>
 
 不参与手势时应返回 <code>false</code>，让宿主走默认行为（书写/选择/橡皮擦等）。
 </p>
@@ -378,7 +378,7 @@ PowerPoint 控制服务，供插件操控 PPT 联动。
 <p>
 典型用法（以 PDF 阅读器为例）：
 
-<ol><li>打开文档并注入背景层后调用 <xref href="Ink_Canvas.Plugins.IPresentationSourceService.BeginAsync(Ink_Canvas.Plugins.PresentationSourceDescriptor%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref>，宿主进入放映模式并显示翻页条；</li><li>宿主翻页条被点击时回调 <xref href="Ink_Canvas.Plugins.PresentationSourceDescriptor.NavigateAsync" data-throw-if-not-resolved="false"></xref>；</li><li>插件自己翻页（滚轮、弹窗按钮）后调用 <xref href="Ink_Canvas.Plugins.IPresentationSourceService.UpdatePageAsync(System.Int32%2cSystem.Int32%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref> 同步页码；</li><li>关闭文档时调用 <xref href="Ink_Canvas.Plugins.IPresentationSourceService.EndAsync(System.String%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref> 退出放映模式。</li></ol>
+<ol><li>打开文档并注入背景层后调用 <xref href="Ink_Canvas.Plugins.IPresentationSourceService.BeginAsync(Ink_Canvas.Plugins.PresentationSourceDescriptor%2cCancellationToken)" data-throw-if-not-resolved="false"></xref>，宿主进入放映模式并显示翻页条；</li><li>宿主翻页条被点击时回调 <xref href="Ink_Canvas.Plugins.PresentationSourceDescriptor.NavigateAsync" data-throw-if-not-resolved="false"></xref>；</li><li>插件自己翻页（滚轮、弹窗按钮）后调用 <xref href="Ink_Canvas.Plugins.IPresentationSourceService.UpdatePageAsync(System.Int32%2cSystem.Int32%2cCancellationToken)" data-throw-if-not-resolved="false"></xref> 同步页码；</li><li>关闭文档时调用 <xref href="Ink_Canvas.Plugins.IPresentationSourceService.EndAsync(System.String%2cCancellationToken)" data-throw-if-not-resolved="false"></xref> 退出放映模式。</li></ol>
 </p>
 
 所有方法都可以从任意线程调用，宿主内部会切换到 UI 线程。

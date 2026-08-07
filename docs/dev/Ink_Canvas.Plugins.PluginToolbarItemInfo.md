@@ -11,18 +11,8 @@ public class PluginToolbarItemInfo
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [PluginToolbarItemInfo](Ink\_Canvas.Plugins.PluginToolbarItemInfo.md)
-
-#### Inherited Members
-
-[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
-[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -34,7 +24,7 @@ public Action<FrameworkElement, Orientation> ApplyOrientation { get; set; }
 
 #### Property Value
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement), [Orientation](https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation)\>
+ Action<FrameworkElement, Orientation\>
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_ApplySettings"></a> ApplySettings
 
@@ -44,7 +34,7 @@ public Action<FrameworkElement, Dictionary<string, object>> ApplySettings { get;
 
 #### Property Value
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement), [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [object](https://learn.microsoft.com/dotnet/api/system.object)\>\>
+ Action<FrameworkElement, Dictionary<string, object\>\>
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_CustomSettings"></a> CustomSettings
 
@@ -54,7 +44,7 @@ public List<PluginToolbarSettingInfo> CustomSettings { get; set; }
 
 #### Property Value
 
- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PluginToolbarSettingInfo](Ink\_Canvas.Plugins.PluginToolbarSettingInfo.md)\>
+ List<[PluginToolbarSettingInfo](Ink\_Canvas.Plugins.PluginToolbarSettingInfo.md)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_Description"></a> Description
 
@@ -64,7 +54,7 @@ public string Description { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_DisplayName"></a> DisplayName
 
@@ -74,7 +64,7 @@ public string DisplayName { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_IconGeometry"></a> IconGeometry
 
@@ -84,7 +74,7 @@ public string IconGeometry { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_Id"></a> Id
 
@@ -94,7 +84,7 @@ public string Id { get; set; }
 
 #### Property Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_PopupContentFactory"></a> PopupContentFactory
 
@@ -107,7 +97,7 @@ public Func<FrameworkElement> PopupContentFactory { get; set; }
 
 #### Property Value
 
- [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)\>
+ Func<FrameworkElement\>
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_ViewFactory"></a> ViewFactory
 
@@ -117,5 +107,5 @@ public Func<FrameworkElement> ViewFactory { get; set; }
 
 #### Property Value
 
- [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)\>
+ Func<FrameworkElement\>
 

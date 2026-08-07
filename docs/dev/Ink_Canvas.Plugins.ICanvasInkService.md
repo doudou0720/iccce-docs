@@ -28,7 +28,7 @@ bool CanRedo { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_ICanvasInkService_CanUndo"></a> CanUndo
 
@@ -40,7 +40,7 @@ bool CanUndo { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_ICanvasInkService_CanvasSize"></a> CanvasSize
 
@@ -52,7 +52,7 @@ Size CanvasSize { get; }
 
 #### Property Value
 
- [Size](https://learn.microsoft.com/dotnet/api/system.windows.size)
+ Size
 
 ### <a id="Ink_Canvas_Plugins_ICanvasInkService_CurrentWhiteboardPage"></a> CurrentWhiteboardPage
 
@@ -64,7 +64,7 @@ int CurrentWhiteboardPage { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Plugins_ICanvasInkService_IsPageFrozen"></a> IsPageFrozen
 
@@ -76,7 +76,7 @@ bool IsPageFrozen { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_ICanvasInkService_IsPenMode"></a> IsPenMode
 
@@ -88,7 +88,7 @@ bool IsPenMode { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_ICanvasInkService_WhiteboardPageCount"></a> WhiteboardPageCount
 
@@ -100,7 +100,7 @@ int WhiteboardPageCount { get; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -146,13 +146,13 @@ bool ExportCurrentPageAsPng(string filePath)
 
 #### Parameters
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 输出 PNG 路径（目录需已存在）。
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 是否导出成功。
 
@@ -161,22 +161,22 @@ bool ExportCurrentPageAsPng(string filePath)
 把指定墨迹集合渲染为 PNG 文件。
 
 ```csharp
-bool ExportStrokesAsPng(StrokeCollection strokes, string filePath)
+bool ExportStrokesAsPng(System.Windows.Ink.StrokeCollection strokes, string filePath)
 ```
 
 #### Parameters
 
-`strokes` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
+`strokes` System.Windows.Ink.StrokeCollection
 
 要导出的墨迹。
 
-`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`filePath` string
 
 输出 PNG 路径（目录需已存在）。
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 是否导出成功。
 
@@ -190,7 +190,7 @@ DrawingAttributes GetDefaultDrawingAttributes()
 
 #### Returns
 
- [DrawingAttributes](https://learn.microsoft.com/dotnet/api/system.windows.ink.drawingattributes)
+ DrawingAttributes
 
 ### <a id="Ink_Canvas_Plugins_ICanvasInkService_GetStrokes"></a> GetStrokes\(\)
 
@@ -203,25 +203,25 @@ StrokeCollection GetStrokes()
 
 #### Returns
 
- [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
+ StrokeCollection
 
 ### <a id="Ink_Canvas_Plugins_ICanvasInkService_InsertBitmap_System_Windows_Media_Imaging_BitmapSource_"></a> InsertBitmap\(BitmapSource\)
 
 把图片插入当前画布（居中缩放、进入撤销历史、切换到选择模式）。
 
 ```csharp
-bool InsertBitmap(BitmapSource bitmapSource)
+bool InsertBitmap(System.Windows.Media.Imaging.BitmapSource bitmapSource)
 ```
 
 #### Parameters
 
-`bitmapSource` [BitmapSource](https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource)
+`bitmapSource` System.Windows.Media.Imaging.BitmapSource
 
 要插入的图片。
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 是否已触发插入流程。
 
@@ -236,25 +236,25 @@ bool InsertImage()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_ICanvasInkService_PasteClipboardImageAsync_System_Nullable_System_Windows_Point__"></a> PasteClipboardImageAsync\(Point?\)
 
 把剪贴板图片粘贴到画布（可选指定坐标）。
 
 ```csharp
-Task<bool> PasteClipboardImageAsync(Point? position = null)
+System.Threading.Tasks.Task<bool> PasteClipboardImageAsync(System.Windows.Point? position = null)
 ```
 
 #### Parameters
 
-`position` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)?
+`position` System.Windows.Point?
 
 插入位置（画布坐标）；null 表示居中。
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+ System.Threading.Tasks.Task<bool\>
 
 是否已触发粘贴流程。
 
@@ -280,7 +280,7 @@ bool SelectTool(PluginInkTool tool)
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 是否切换成功。
 
@@ -316,7 +316,7 @@ void ToggleGesture()
 void ToggleInkFreeze()
 ```
 
-### <a id="Ink_Canvas_Plugins_ICanvasInkService_TryAddStrokes_System_Windows_Ink_StrokeCollection_"></a> TryAddStrokes\(StrokeCollection\)
+### <a id="Ink_Canvas_Plugins_ICanvasInkService_TryAddStrokes_StrokeCollection_"></a> TryAddStrokes\(StrokeCollection\)
 
 把墨迹插入当前画布（保持原坐标），并写入 TimeMachine 历史（可按 Ctrl+Z 撤销）。
 当前页冻结时返回 <code>false</code>；传入空集合返回 <code>false</code>。
@@ -327,16 +327,16 @@ bool TryAddStrokes(StrokeCollection strokes)
 
 #### Parameters
 
-`strokes` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
+`strokes` StrokeCollection
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
-### <a id="Ink_Canvas_Plugins_ICanvasInkService_TryAddStrokes_System_Windows_Ink_StrokeCollection_System_Windows_Point_"></a> TryAddStrokes\(StrokeCollection, Point\)
+### <a id="Ink_Canvas_Plugins_ICanvasInkService_TryAddStrokes_StrokeCollection_Point_"></a> TryAddStrokes\(StrokeCollection, Point\)
 
 把墨迹插入当前画布，并使墨迹包围盒中心对齐到 <code class="paramref">center</code>（画布坐标）。
-其余行为同 <xref href="Ink_Canvas.Plugins.ICanvasInkService.TryAddStrokes(System.Windows.Ink.StrokeCollection)" data-throw-if-not-resolved="false"></xref>。
+其余行为同 <xref href="Ink_Canvas.Plugins.ICanvasInkService.TryAddStrokes(StrokeCollection)" data-throw-if-not-resolved="false"></xref>。
 
 ```csharp
 bool TryAddStrokes(StrokeCollection strokes, Point center)
@@ -344,13 +344,13 @@ bool TryAddStrokes(StrokeCollection strokes, Point center)
 
 #### Parameters
 
-`strokes` [StrokeCollection](https://learn.microsoft.com/dotnet/api/system.windows.ink.strokecollection)
+`strokes` StrokeCollection
 
-`center` [Point](https://learn.microsoft.com/dotnet/api/system.windows.point)
+`center` Point
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_ICanvasInkService_TryClearStrokes"></a> TryClearStrokes\(\)
 
@@ -363,7 +363,7 @@ bool TryClearStrokes()
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_ICanvasInkService_Undo"></a> Undo\(\)
 

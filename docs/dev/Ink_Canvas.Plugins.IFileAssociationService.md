@@ -21,11 +21,11 @@ bool IsRegistered(string extension)
 
 #### Parameters
 
-`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`extension` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_IFileAssociationService_Register_System_String_System_String_System_String_System_String_"></a> Register\(string, string, string, string\)
 
@@ -37,25 +37,25 @@ bool Register(string extension, string progId, string description, string iconPa
 
 #### Parameters
 
-`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`extension` string
 
 文件扩展名，如 ".icstk"
 
-`progId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`progId` string
 
 程序标识符，如 "InkCanvasForClass.CE.icstk"
 
-`description` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`description` string
 
 文件类型描述
 
-`iconPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`iconPath` string
 
 图标路径（可选）
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 是否注册成功
 
@@ -69,9 +69,9 @@ bool Unregister(string extension)
 
 #### Parameters
 
-`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
+`extension` string
 
 #### Returns
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 

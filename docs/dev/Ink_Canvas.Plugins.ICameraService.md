@@ -7,7 +7,7 @@ Assembly: InkCanvas.PluginSdk.dll
 
 <p>底层复用宿主视频展台的 DirectShow 采集（<code>CameraServiceFactory.Create()</code>），
 与展台共用摄像头设备——插件启动预览可能抢占展台正在使用的设备。</p>
-<p>帧回调在后台线程触发，返回的 <xref href="System.Windows.Media.Imaging.BitmapSource" data-throw-if-not-resolved="false"></xref> 已 Freeze。</p>
+<p>帧回调在后台线程触发，返回的 BitmapSource 已 Freeze。</p>
 
 ```csharp
 public interface ICameraService
@@ -25,7 +25,7 @@ IReadOnlyList<PluginCameraInfo> AvailableCameras { get; }
 
 #### Property Value
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[PluginCameraInfo](Ink\_Canvas.Plugins.PluginCameraInfo.md)\>
+ IReadOnlyList<[PluginCameraInfo](Ink\_Canvas.Plugins.PluginCameraInfo.md)\>
 
 ### <a id="Ink_Canvas_Plugins_ICameraService_IsCapturing"></a> IsCapturing
 
@@ -37,7 +37,7 @@ bool IsCapturing { get; }
 
 #### Property Value
 
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+ bool
 
 ### <a id="Ink_Canvas_Plugins_ICameraService_NativeResolutions"></a> NativeResolutions
 
@@ -49,7 +49,7 @@ IReadOnlyList<PluginResolutionInfo> NativeResolutions { get; }
 
 #### Property Value
 
- [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[PluginResolutionInfo](Ink\_Canvas.Plugins.PluginResolutionInfo.md)\>
+ IReadOnlyList<[PluginResolutionInfo](Ink\_Canvas.Plugins.PluginResolutionInfo.md)\>
 
 ### <a id="Ink_Canvas_Plugins_ICameraService_RotationAngle"></a> RotationAngle
 
@@ -61,7 +61,7 @@ int RotationAngle { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="Ink_Canvas_Plugins_ICameraService_SelectedResolutionIndex"></a> SelectedResolutionIndex
 
@@ -73,7 +73,7 @@ int SelectedResolutionIndex { get; set; }
 
 #### Property Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ## Methods
 
@@ -87,7 +87,7 @@ BitmapSource GetCurrentFrame()
 
 #### Returns
 
- [BitmapSource](https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource)
+ BitmapSource
 
 ### <a id="Ink_Canvas_Plugins_ICameraService_RefreshCameraListAsync"></a> RefreshCameraListAsync\(\)
 
@@ -99,7 +99,7 @@ Task RefreshCameraListAsync()
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+ Task
 
 ### <a id="Ink_Canvas_Plugins_ICameraService_StartPreviewAsync_System_Int32_"></a> StartPreviewAsync\(int\)
 
@@ -111,11 +111,11 @@ Task<bool> StartPreviewAsync(int cameraIndex)
 
 #### Parameters
 
-`cameraIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+`cameraIndex` int
 
 #### Returns
 
- [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+ Task<bool\>
 
 ### <a id="Ink_Canvas_Plugins_ICameraService_StopPreview"></a> StopPreview\(\)
 
@@ -135,5 +135,5 @@ event Action<BitmapSource> FrameReceived
 
 #### Event Type
 
- [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[BitmapSource](https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource)\>
+ Action<BitmapSource\>
 
