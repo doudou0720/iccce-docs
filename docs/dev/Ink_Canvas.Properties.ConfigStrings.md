@@ -9,8 +9,18 @@ public static class ConfigStrings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ConfigStrings](Ink\_Canvas.Properties.ConfigStrings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- CultureInfo
+ [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_Delete"></a> Delete
 
@@ -32,7 +42,7 @@ public static string Delete { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_Delete_ConfirmMsg"></a> Delete\_ConfirmMsg
 
@@ -42,7 +52,7 @@ public static string Delete_ConfirmMsg { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_Delete_ConfirmTitle"></a> Delete\_ConfirmTitle
 
@@ -52,7 +62,7 @@ public static string Delete_ConfirmTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_Delete_Failed"></a> Delete\_Failed
 
@@ -62,7 +72,7 @@ public static string Delete_Failed { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_Delete_FailedMsg"></a> Delete\_FailedMsg
 
@@ -72,7 +82,7 @@ public static string Delete_FailedMsg { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_Delete_SelectFirst"></a> Delete\_SelectFirst
 
@@ -82,7 +92,7 @@ public static string Delete_SelectFirst { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_DeletedAndSwitched"></a> DeletedAndSwitched
 
@@ -92,7 +102,7 @@ public static string DeletedAndSwitched { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_DeletedProfile"></a> DeletedProfile
 
@@ -102,7 +112,7 @@ public static string DeletedProfile { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_Desc"></a> Desc
 
@@ -112,7 +122,7 @@ public static string Desc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_Label"></a> Label
 
@@ -122,7 +132,7 @@ public static string Label { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_ProfileNameLabel"></a> ProfileNameLabel
 
@@ -132,7 +142,7 @@ public static string ProfileNameLabel { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_ResourceManager"></a> ResourceManager
 
@@ -142,7 +152,7 @@ public static ResourceManager ResourceManager { get; }
 
 #### Property Value
 
- ResourceManager
+ [ResourceManager](https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_SaveAs"></a> SaveAs
 
@@ -152,7 +162,7 @@ public static string SaveAs { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_SaveAsProfileTitle"></a> SaveAsProfileTitle
 
@@ -162,7 +172,7 @@ public static string SaveAsProfileTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_SaveAs_EnterName"></a> SaveAs\_EnterName
 
@@ -172,7 +182,7 @@ public static string SaveAs_EnterName { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_SaveAs_Failed"></a> SaveAs\_Failed
 
@@ -182,7 +192,7 @@ public static string SaveAs_Failed { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_SaveAs_FailedMsg"></a> SaveAs\_FailedMsg
 
@@ -192,7 +202,7 @@ public static string SaveAs_FailedMsg { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_SavedAsProfile"></a> SavedAsProfile
 
@@ -202,7 +212,7 @@ public static string SavedAsProfile { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_SwitchedToProfile"></a> SwitchedToProfile
 
@@ -212,7 +222,7 @@ public static string SwitchedToProfile { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_ConfigStrings_Title"></a> Title
 
@@ -222,7 +232,7 @@ public static string Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -234,9 +244,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

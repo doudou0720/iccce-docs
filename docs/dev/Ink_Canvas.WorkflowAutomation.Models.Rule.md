@@ -26,7 +26,7 @@ public string Id { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_Rule_IsReversed"></a> IsReversed
 
@@ -38,7 +38,7 @@ public bool IsReversed { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_Rule_Settings"></a> Settings
 
@@ -50,7 +50,7 @@ public object Settings { get; set; }
 
 #### Property Value
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_Rule_State"></a> State
 
@@ -62,5 +62,5 @@ public int State { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

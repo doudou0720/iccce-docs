@@ -27,7 +27,7 @@ string Description { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarItem_DisplayName"></a> DisplayName
 
@@ -37,7 +37,7 @@ string DisplayName { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarItem_IconGeometry"></a> IconGeometry
 
@@ -47,7 +47,7 @@ string IconGeometry { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarItem_IconKey"></a> IconKey
 
@@ -67,7 +67,7 @@ string Id { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 

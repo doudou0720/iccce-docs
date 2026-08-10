@@ -12,7 +12,7 @@ public interface ICameraService : IDisposable
 
 #### Implements
 
-IDisposable
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 ## Properties
 
@@ -28,7 +28,7 @@ IReadOnlyList<ResolutionInfo> AllResolutionFpsCombos { get; }
 
 #### Property Value
 
- IReadOnlyList<[ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)\>
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_AvailableCameras"></a> AvailableCameras
 
@@ -38,7 +38,7 @@ IReadOnlyList<CameraInfo> AvailableCameras { get; }
 
 #### Property Value
 
- IReadOnlyList<[CameraInfo](Ink\_Canvas.Helpers.CameraInfo.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[CameraInfo](Ink\_Canvas.Helpers.CameraInfo.md)\>
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_CurrentCamera"></a> CurrentCamera
 
@@ -58,7 +58,7 @@ bool IsCapturing { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_NativeResolutions"></a> NativeResolutions
 
@@ -70,7 +70,7 @@ IReadOnlyList<ResolutionInfo> NativeResolutions { get; }
 
 #### Property Value
 
- IReadOnlyList<[ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)\>
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_RotationAngle"></a> RotationAngle
 
@@ -82,7 +82,7 @@ int RotationAngle { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_SelectedComboIndex"></a> SelectedComboIndex
 
@@ -94,7 +94,7 @@ int SelectedComboIndex { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_SelectedFramerateIndex"></a> SelectedFramerateIndex
 
@@ -106,7 +106,7 @@ int SelectedFramerateIndex { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_SelectedResolutionIndex"></a> SelectedResolutionIndex
 
@@ -118,7 +118,7 @@ int SelectedResolutionIndex { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_SelectedUniqueResolutionIndex"></a> SelectedUniqueResolutionIndex
 
@@ -130,7 +130,7 @@ int SelectedUniqueResolutionIndex { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_UniqueResolutions"></a> UniqueResolutions
 
@@ -143,7 +143,7 @@ IReadOnlyList<ResolutionInfo> UniqueResolutions { get; }
 
 #### Property Value
 
- IReadOnlyList<[ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[ResolutionInfo](Ink\_Canvas.Helpers.ResolutionInfo.md)\>
 
 ## Methods
 
@@ -162,11 +162,11 @@ Task EnumerateResolutionsAsync(int cameraIndex)
 
 #### Parameters
 
-`cameraIndex` int
+`cameraIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 #### Returns
 
- Task
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_FindCapabilityIndex_System_Int32_System_Int32_System_Int32_"></a> FindCapabilityIndex\(int, int, int\)
 
@@ -179,15 +179,15 @@ int FindCapabilityIndex(int width, int height, int framerate)
 
 #### Parameters
 
-`width` int
+`width` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`height` int
+`height` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`framerate` int
+`framerate` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 #### Returns
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_GetCurrentFrameAsBitmap"></a> GetCurrentFrameAsBitmap\(\)
 
@@ -223,13 +223,13 @@ IReadOnlyList<int> GetFrameratesFor(int width, int height)
 
 #### Parameters
 
-`width` int
+`width` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`height` int
+`height` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 #### Returns
 
- IReadOnlyList<int\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_RefreshCameraListAsync"></a> RefreshCameraListAsync\(\)
 
@@ -242,7 +242,7 @@ Task RefreshCameraListAsync()
 
 #### Returns
 
- Task
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_SetSelectedResolutionIndexSilent_System_Int32_"></a> SetSelectedResolutionIndexSilent\(int\)
 
@@ -256,7 +256,7 @@ void SetSelectedResolutionIndexSilent(int value)
 
 #### Parameters
 
-`value` int
+`value` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_StartPreviewAsync_System_Int32_"></a> StartPreviewAsync\(int\)
 
@@ -268,11 +268,11 @@ Task<bool> StartPreviewAsync(int cameraIndex)
 
 #### Parameters
 
-`cameraIndex` int
+`cameraIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 #### Returns
 
- Task<bool\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_StopPreview"></a> StopPreview\(\)
 
@@ -292,7 +292,7 @@ event EventHandler<string> ErrorOccurred
 
 #### Event Type
 
- EventHandler<string\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_FrameReceived"></a> FrameReceived
 
@@ -304,5 +304,5 @@ event EventHandler<FrameEventArgs> FrameReceived
 
 #### Event Type
 
- EventHandler<[FrameEventArgs](Ink\_Canvas.Helpers.FrameEventArgs.md)\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[FrameEventArgs](Ink\_Canvas.Helpers.FrameEventArgs.md)\>
 

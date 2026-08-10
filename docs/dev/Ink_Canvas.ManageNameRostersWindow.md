@@ -32,7 +32,7 @@ public ObservableCollection<RosterDisplayItem> Rosters { get; set; }
 
 #### Property Value
 
- ObservableCollection<[RosterDisplayItem](Ink\_Canvas.RosterDisplayItem.md)\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[RosterDisplayItem](Ink\_Canvas.RosterDisplayItem.md)\>
 
 ## Methods
 
@@ -51,7 +51,7 @@ public static Task<string> AddNewRosterDialogAsync(Window owner)
 
 #### Returns
 
- Task<string\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_ManageNameRostersWindow_PromptRosterNameAsync_Window_System_String_System_String_System_String_"></a> PromptRosterNameAsync\(Window, string, string, string\)
 
@@ -67,15 +67,15 @@ public static Task<string> PromptRosterNameAsync(Window owner, string title, str
 
 `owner` Window
 
-`title` string
+`title` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`prompt` string
+`prompt` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`defaultValue` string
+`defaultValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- Task<string\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_ManageNameRostersWindow_RefreshList"></a> RefreshList\(\)
 

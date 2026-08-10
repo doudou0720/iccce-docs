@@ -11,8 +11,18 @@ public class TriggerInfo
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [TriggerInfo](Ink\_Canvas.WorkflowAutomation.Models.TriggerInfo.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -24,11 +34,11 @@ public TriggerInfo(string id, string name, string iconKind = "ClockOutline")
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`iconKind` string
+`iconKind` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Properties
 
@@ -42,7 +52,7 @@ public string IconKind { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_TriggerInfo_Id"></a> Id
 
@@ -54,7 +64,7 @@ public string Id { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_TriggerInfo_Name"></a> Name
 
@@ -66,7 +76,7 @@ public string Name { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_TriggerInfo_SettingsControlType"></a> SettingsControlType
 
@@ -78,7 +88,7 @@ public Type SettingsControlType { get; set; }
 
 #### Property Value
 
- Type
+ [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_TriggerInfo_SettingsType"></a> SettingsType
 
@@ -90,7 +100,7 @@ public Type SettingsType { get; }
 
 #### Property Value
 
- Type
+ [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_TriggerInfo_TriggerType"></a> TriggerType
 
@@ -102,5 +112,5 @@ public Type TriggerType { get; }
 
 #### Property Value
 
- Type
+ [Type](https://learn.microsoft.com/dotnet/api/system.type)
 

@@ -15,50 +15,60 @@ public static class UInkExtraArchive
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkExtraArchive](Ink\_Canvas.UInk.UInkExtraArchive.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
 ### <a id="Ink_Canvas_UInk_UInkExtraArchive_MaxCompressionRatio"></a> MaxCompressionRatio
 
 ```csharp
-public const double MaxCompressionRatio
+public const double MaxCompressionRatio = 1000
 ```
 
 #### Field Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_UInk_UInkExtraArchive_MaxEntries"></a> MaxEntries
 
 ```csharp
-public const int MaxEntries
+public const int MaxEntries = 10000
 ```
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_UInk_UInkExtraArchive_MaxSingleEntryBytes"></a> MaxSingleEntryBytes
 
 ```csharp
-public const long MaxSingleEntryBytes
+public const long MaxSingleEntryBytes = 536870912
 ```
 
 #### Field Value
 
- long
+ [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
 ### <a id="Ink_Canvas_UInk_UInkExtraArchive_MaxTotalBytes"></a> MaxTotalBytes
 
 ```csharp
-public const long MaxTotalBytes
+public const long MaxTotalBytes = 1073741824
 ```
 
 #### Field Value
 
- long
+ [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
 ## Methods
 
@@ -73,13 +83,13 @@ public static Dictionary<string, string> ExtractWithBudget(string zipPath, strin
 
 #### Parameters
 
-`zipPath` string
+`zipPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`extractDir` string
+`extractDir` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- Dictionary<string, string\>
+ [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_UInk_UInkExtraArchive_MimeForPath_System_String_"></a> MimeForPath\(string\)
 
@@ -91,11 +101,11 @@ public static string MimeForPath(string path)
 
 #### Parameters
 
-`path` string
+`path` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_UInk_UInkExtraArchive_NormalizeEntryPath_System_String_"></a> NormalizeEntryPath\(string\)
 
@@ -107,13 +117,13 @@ public static string NormalizeEntryPath(string rawPath)
 
 #### Parameters
 
-`rawPath` string
+`rawPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_UInk_UInkExtraArchive_WriteArchive_System_String_IReadOnlyList_System_ValueTuple_System_String_System_String___"></a> WriteArchive\(string, IReadOnlyList<\(string entryPath, string sourceFile\)\>\)
+### <a id="Ink_Canvas_UInk_UInkExtraArchive_WriteArchive_System_String_System_Collections_Generic_IReadOnlyList_System_ValueTuple_System_String_System_String___"></a> WriteArchive\(string, IReadOnlyList<\(string entryPath, string sourceFile\)\>\)
 
 创建 `.uink.extra` ZIP。重复条目、非法条目跳过；入口路径已 NFC 规范化。
 
@@ -123,7 +133,7 @@ public static void WriteArchive(string zipPath, IReadOnlyList<(string entryPath,
 
 #### Parameters
 
-`zipPath` string
+`zipPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`resources` IReadOnlyList<\(string [entryPath](System.ValueTuple\{System.String,System.String\}.md\#System\_ValueTuple\_System\_String\_System\_String\_\_entryPath), string [sourceFile](System.ValueTuple\{System.String,System.String\}.md\#System\_ValueTuple\_System\_String\_System\_String\_\_sourceFile)\)\>
+`resources` [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<\([string](https://learn.microsoft.com/dotnet/api/system.string) [entryPath](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,system.string\-.entrypath), [string](https://learn.microsoft.com/dotnet/api/system.string) [sourceFile](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,system.string\-.sourcefile)\)\>
 

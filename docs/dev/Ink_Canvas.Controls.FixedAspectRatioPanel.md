@@ -37,7 +37,7 @@ public double AspectRatio { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ## Methods
 

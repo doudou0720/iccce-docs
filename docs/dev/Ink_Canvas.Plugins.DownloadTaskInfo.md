@@ -11,8 +11,22 @@ public class DownloadTaskInfo : INotifyPropertyChanged
 
 #### Inheritance
 
-INotifyPropertyChanged ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DownloadTaskInfo](Ink\_Canvas.Plugins.DownloadTaskInfo.md)
+
+#### Implements
+
+[INotifyPropertyChanged](https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -24,7 +38,7 @@ public CancellationToken CancellationToken { get; }
 
 #### Property Value
 
- CancellationToken
+ [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
 
 ### <a id="Ink_Canvas_Plugins_DownloadTaskInfo_CancellationTokenSource"></a> CancellationTokenSource
 
@@ -34,7 +48,7 @@ public CancellationTokenSource CancellationTokenSource { get; }
 
 #### Property Value
 
- CancellationTokenSource
+ [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource)
 
 ### <a id="Ink_Canvas_Plugins_DownloadTaskInfo_Error"></a> Error
 
@@ -44,7 +58,7 @@ public string Error { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_DownloadTaskInfo_IsCancelled"></a> IsCancelled
 
@@ -54,7 +68,7 @@ public bool IsCancelled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_DownloadTaskInfo_IsCompleted"></a> IsCompleted
 
@@ -64,7 +78,7 @@ public bool IsCompleted { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_DownloadTaskInfo_IsDownloading"></a> IsDownloading
 
@@ -74,7 +88,7 @@ public bool IsDownloading { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_DownloadTaskInfo_Progress"></a> Progress
 
@@ -84,7 +98,7 @@ public double Progress { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ## Methods
 
@@ -96,9 +110,11 @@ protected void OnPropertyChanged(string propertyName = null)
 
 #### Parameters
 
-`propertyName` string
+`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_DownloadTaskInfo_PropertyChanged"></a> PropertyChanged
+
+Occurs when a property value changes.
 
 ```csharp
 public event PropertyChangedEventHandler PropertyChanged
@@ -106,5 +122,5 @@ public event PropertyChangedEventHandler PropertyChanged
 
 #### Event Type
 
- PropertyChangedEventHandler
+ [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
 

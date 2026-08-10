@@ -11,8 +11,22 @@ public class HardwareAcceleratedInkProcessor : IDisposable
 
 #### Inheritance
 
-IDisposable ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [HardwareAcceleratedInkProcessor](Ink\_Canvas.Helpers.HardwareAcceleratedInkProcessor.md)
+
+#### Implements
+
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -24,9 +38,9 @@ public HardwareAcceleratedInkProcessor(int width = 1920, int height = 1080)
 
 #### Parameters
 
-`width` int
+`width` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`height` int
+`height` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 
@@ -52,7 +66,7 @@ public static StylusPoint[] ParallelBezierInterpolation(StylusPoint[] controlPoi
 
 `controlPoints` StylusPoint\[\]
 
-`segments` int
+`segments` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 #### Returns
 
@@ -72,5 +86,5 @@ public Task<Stroke> SmoothStrokeWithGPU(Stroke originalStroke)
 
 #### Returns
 
- Task<Stroke\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<Stroke\>
 

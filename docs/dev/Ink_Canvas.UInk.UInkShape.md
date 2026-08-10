@@ -9,12 +9,21 @@ public sealed class UInkShape : IUInkContentBlock
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkShape](Ink\_Canvas.UInk.UInkShape.md)
 
 #### Implements
 
 [IUInkContentBlock](Ink\_Canvas.UInk.IUInkContentBlock.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -26,7 +35,7 @@ public uint ContentId
 
 #### Field Value
 
- uint
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 ### <a id="Ink_Canvas_UInk_UInkShape_Extra"></a> Extra
 
@@ -36,7 +45,7 @@ public Dictionary<string, string> Extra
 
 #### Field Value
 
- Dictionary<string, string\>
+ [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_UInk_UInkShape_Fill"></a> Fill
 
@@ -66,7 +75,7 @@ public bool RenderOnlyWhenLatest
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_UInk_UInkShape_ShapeType"></a> ShapeType
 
@@ -76,7 +85,7 @@ public int ShapeType
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_UInk_UInkShape_Stroke"></a> Stroke
 
@@ -96,5 +105,5 @@ public uint UndoId
 
 #### Field Value
 
- uint
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

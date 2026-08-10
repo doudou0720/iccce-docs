@@ -13,8 +13,18 @@ public static class FullScreenHelper
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [FullScreenHelper](Ink\_Canvas.Helpers.FullScreenHelper.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -32,17 +42,17 @@ public static void EndFullScreen(Window window)
 
 `window` Window
 
-### <a id="Ink_Canvas_Helpers_FullScreenHelper_MarkFullscreenWindowTaskbarList_IntPtr_System_Boolean_"></a> MarkFullscreenWindowTaskbarList\(IntPtr, bool\)
+### <a id="Ink_Canvas_Helpers_FullScreenHelper_MarkFullscreenWindowTaskbarList_System_IntPtr_System_Boolean_"></a> MarkFullscreenWindowTaskbarList\(nint, bool\)
 
 ```csharp
-public static void MarkFullscreenWindowTaskbarList(IntPtr hwnd, bool isFullscreen)
+public static void MarkFullscreenWindowTaskbarList(nint hwnd, bool isFullscreen)
 ```
 
 #### Parameters
 
-`hwnd` IntPtr
+`hwnd` [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
-`isFullscreen` bool
+`isFullscreen` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_FullScreenHelper_StartFullScreen_Window_"></a> StartFullScreen\(Window\)
 

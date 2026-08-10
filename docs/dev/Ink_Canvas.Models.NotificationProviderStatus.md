@@ -9,8 +9,18 @@ public class NotificationProviderStatus
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [NotificationProviderStatus](Ink\_Canvas.Models.NotificationProviderStatus.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public string Description { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Models_NotificationProviderStatus_DisplayName"></a> DisplayName
 
@@ -32,7 +42,7 @@ public string DisplayName { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Models_NotificationProviderStatus_IsEnabled"></a> IsEnabled
 
@@ -42,7 +52,7 @@ public bool IsEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Models_NotificationProviderStatus_IsRunning"></a> IsRunning
 
@@ -52,7 +62,7 @@ public bool IsRunning { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Models_NotificationProviderStatus_LastUpdatedAt"></a> LastUpdatedAt
 
@@ -62,7 +72,7 @@ public DateTime? LastUpdatedAt { get; set; }
 
 #### Property Value
 
- DateTime?
+ [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)?
 
 ### <a id="Ink_Canvas_Models_NotificationProviderStatus_ProviderId"></a> ProviderId
 
@@ -72,7 +82,7 @@ public string ProviderId { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Models_NotificationProviderStatus_Status"></a> Status
 
@@ -82,5 +92,5 @@ public string Status { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

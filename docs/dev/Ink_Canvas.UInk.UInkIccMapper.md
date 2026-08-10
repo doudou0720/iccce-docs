@@ -13,8 +13,18 @@ public static class UInkIccMapper
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkIccMapper](Ink\_Canvas.UInk.UInkIccMapper.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -43,17 +53,17 @@ public static UInkCanvas BuildCanvas(string workspaceGuid, string deviceGuid, st
 
 #### Parameters
 
-`workspaceGuid` string
+`workspaceGuid` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`deviceGuid` string
+`deviceGuid` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`pageGuid` string
+`pageGuid` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`pageIndex` uint
+`pageIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-`pageNumber` uint
+`pageNumber` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-`slideId` int?
+`slideId` [int](https://learn.microsoft.com/dotnet/api/system.int32)?
 
 `viewport` [UInkViewport](Ink\_Canvas.UInk.UInkViewport.md)
 
@@ -71,9 +81,9 @@ public static List<UInkDevice> BuildDisplayDevices()
 
 #### Returns
 
- List<[UInkDevice](Ink\_Canvas.UInk.UInkDevice.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UInkDevice](Ink\_Canvas.UInk.UInkDevice.md)\>
 
-### <a id="Ink_Canvas_UInk_UInkIccMapper_BuildDocument_System_String_IReadOnlyList_Ink_Canvas_UInk_UInkDevice__IReadOnlyList_Ink_Canvas_UInk_UInkWorkspace__IReadOnlyList_Ink_Canvas_UInk_UInkPageInput__System_UInt64_"></a> BuildDocument\(string, IReadOnlyList<UInkDevice\>, IReadOnlyList<UInkWorkspace\>, IReadOnlyList<UInkPageInput\>, ulong\)
+### <a id="Ink_Canvas_UInk_UInkIccMapper_BuildDocument_System_String_System_Collections_Generic_IReadOnlyList_Ink_Canvas_UInk_UInkDevice__System_Collections_Generic_IReadOnlyList_Ink_Canvas_UInk_UInkWorkspace__System_Collections_Generic_IReadOnlyList_Ink_Canvas_UInk_UInkPageInput__System_UInt64_"></a> BuildDocument\(string, IReadOnlyList<UInkDevice\>, IReadOnlyList<UInkWorkspace\>, IReadOnlyList<UInkPageInput\>, ulong\)
 
 汇总为 UInkDocument：写 Header/HeaderExtension、逐页写 Canvas+内容块、重算 Header 统计。
 
@@ -83,21 +93,21 @@ public static UInkDocument BuildDocument(string headerGuid, IReadOnlyList<UInkDe
 
 #### Parameters
 
-`headerGuid` string
+`headerGuid` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`devices` IReadOnlyList<[UInkDevice](Ink\_Canvas.UInk.UInkDevice.md)\>
+`devices` [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[UInkDevice](Ink\_Canvas.UInk.UInkDevice.md)\>
 
-`workspaces` IReadOnlyList<[UInkWorkspace](Ink\_Canvas.UInk.UInkWorkspace.md)\>
+`workspaces` [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[UInkWorkspace](Ink\_Canvas.UInk.UInkWorkspace.md)\>
 
-`pages` IReadOnlyList<[UInkPageInput](Ink\_Canvas.UInk.UInkPageInput.md)\>
+`pages` [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[UInkPageInput](Ink\_Canvas.UInk.UInkPageInput.md)\>
 
-`nowUnixSeconds` ulong
+`nowUnixSeconds` [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
 #### Returns
 
  [UInkDocument](Ink\_Canvas.UInk.UInkDocument.md)
 
-### <a id="Ink_Canvas_UInk_UInkIccMapper_EnsureWorkspace_List_Ink_Canvas_UInk_UInkWorkspace__Ink_Canvas_UInk_UInkWorkspace_"></a> EnsureWorkspace\(List<UInkWorkspace\>, UInkWorkspace\)
+### <a id="Ink_Canvas_UInk_UInkIccMapper_EnsureWorkspace_System_Collections_Generic_List_Ink_Canvas_UInk_UInkWorkspace__Ink_Canvas_UInk_UInkWorkspace_"></a> EnsureWorkspace\(List<UInkWorkspace\>, UInkWorkspace\)
 
 把一个 Workspace 注册项加入列表（同 GUID 去重）。
 
@@ -107,7 +117,7 @@ public static UInkWorkspace EnsureWorkspace(List<UInkWorkspace> workspaces, UInk
 
 #### Parameters
 
-`workspaces` List<[UInkWorkspace](Ink\_Canvas.UInk.UInkWorkspace.md)\>
+`workspaces` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UInkWorkspace](Ink\_Canvas.UInk.UInkWorkspace.md)\>
 
 `ws` [UInkWorkspace](Ink\_Canvas.UInk.UInkWorkspace.md)
 
@@ -137,9 +147,9 @@ public static string NewFileGuid()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_UInk_UInkIccMapper_ToPages_Ink_Canvas_UInk_UInkDocument_Func_Ink_Canvas_UInk_IUInkContentBlock_Stroke__"></a> ToPages\(UInkDocument, Func<IUInkContentBlock, Stroke\>\)
+### <a id="Ink_Canvas_UInk_UInkIccMapper_ToPages_Ink_Canvas_UInk_UInkDocument_System_Func_Ink_Canvas_UInk_IUInkContentBlock_Stroke__"></a> ToPages\(UInkDocument, Func<IUInkContentBlock, Stroke\>\)
 
 把文档映射为逻辑页面列表：按 (workspaceGuid, deviceGuid, pageGuid) 合并同页所有 layer，
 layerIndex 越大越靠前；layer 1+ 继承 layer 0 的 viewport。各 layer 的撤回 delta 链按层顺序拼接。
@@ -152,9 +162,9 @@ public static List<UInkPageData> ToPages(UInkDocument doc, Func<IUInkContentBloc
 
 `doc` [UInkDocument](Ink\_Canvas.UInk.UInkDocument.md)
 
-`toStroke` Func<[IUInkContentBlock](Ink\_Canvas.UInk.IUInkContentBlock.md), Stroke\>
+`toStroke` [Func](https://learn.microsoft.com/dotnet/api/system.func\-2)<[IUInkContentBlock](Ink\_Canvas.UInk.IUInkContentBlock.md), Stroke\>
 
 #### Returns
 
- List<[UInkPageData](Ink\_Canvas.UInk.UInkPageData.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UInkPageData](Ink\_Canvas.UInk.UInkPageData.md)\>
 

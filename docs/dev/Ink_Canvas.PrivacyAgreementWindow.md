@@ -30,5 +30,5 @@ public bool UserAccepted { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

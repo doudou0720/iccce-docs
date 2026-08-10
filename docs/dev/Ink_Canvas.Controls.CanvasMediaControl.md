@@ -30,7 +30,7 @@ public string DisplayName { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_CanvasMediaControl_IsAudioOnly"></a> IsAudioOnly
 
@@ -40,7 +40,7 @@ public bool IsAudioOnly { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_CanvasMediaControl_MediaPlayer"></a> MediaPlayer
 
@@ -60,7 +60,7 @@ public double PlaybackRate { get; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Controls_CanvasMediaControl_SourcePath"></a> SourcePath
 
@@ -70,7 +70,7 @@ public string SourcePath { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_CanvasMediaControl_VolumeLevel"></a> VolumeLevel
 
@@ -80,7 +80,7 @@ public double VolumeLevel { get; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ## Methods
 
@@ -92,7 +92,7 @@ public TimeSpan? GetPlaybackPositionOrNull()
 
 #### Returns
 
- TimeSpan?
+ [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)?
 
 ### <a id="Ink_Canvas_Controls_CanvasMediaControl_Initialize_System_String_System_String_"></a> Initialize\(string, string\)
 
@@ -102,9 +102,9 @@ public void Initialize(string sourcePath, string displayName = null)
 
 #### Parameters
 
-`sourcePath` string
+`sourcePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`displayName` string
+`displayName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_CanvasMediaControl_IsInteractiveChildTarget_DependencyObject_"></a> IsInteractiveChildTarget\(DependencyObject\)
 
@@ -118,7 +118,7 @@ public static bool IsInteractiveChildTarget(DependencyObject current)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_CanvasMediaControl_OnMouseLeftButtonDown_MouseButtonEventArgs_"></a> OnMouseLeftButtonDown\(MouseButtonEventArgs\)
 
@@ -156,7 +156,7 @@ public void RegisterSelectHandler(MouseButtonEventHandler handler)
 
 `handler` MouseButtonEventHandler
 
-### <a id="Ink_Canvas_Controls_CanvasMediaControl_RegisterTouchSelectHandler_EventHandler_TouchEventArgs__"></a> RegisterTouchSelectHandler\(EventHandler<TouchEventArgs\>\)
+### <a id="Ink_Canvas_Controls_CanvasMediaControl_RegisterTouchSelectHandler_System_EventHandler_TouchEventArgs__"></a> RegisterTouchSelectHandler\(EventHandler<TouchEventArgs\>\)
 
 ```csharp
 public void RegisterTouchSelectHandler(EventHandler<TouchEventArgs> handler)
@@ -164,9 +164,9 @@ public void RegisterTouchSelectHandler(EventHandler<TouchEventArgs> handler)
 
 #### Parameters
 
-`handler` EventHandler<TouchEventArgs\>
+`handler` [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<TouchEventArgs\>
 
-### <a id="Ink_Canvas_Controls_CanvasMediaControl_SetPlaybackPosition_TimeSpan_"></a> SetPlaybackPosition\(TimeSpan\)
+### <a id="Ink_Canvas_Controls_CanvasMediaControl_SetPlaybackPosition_System_TimeSpan_"></a> SetPlaybackPosition\(TimeSpan\)
 
 ```csharp
 public void SetPlaybackPosition(TimeSpan position)
@@ -174,7 +174,7 @@ public void SetPlaybackPosition(TimeSpan position)
 
 #### Parameters
 
-`position` TimeSpan
+`position` [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)
 
 ### <a id="Ink_Canvas_Controls_CanvasMediaControl_SetPlaybackRate_System_Double_"></a> SetPlaybackRate\(double\)
 
@@ -184,7 +184,7 @@ public void SetPlaybackRate(double speedRatio)
 
 #### Parameters
 
-`speedRatio` double
+`speedRatio` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Controls_CanvasMediaControl_SetVolumeLevel_System_Double_"></a> SetVolumeLevel\(double\)
 
@@ -194,7 +194,7 @@ public void SetVolumeLevel(double volume)
 
 #### Parameters
 
-`volume` double
+`volume` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Controls_CanvasMediaControl_Shutdown"></a> Shutdown\(\)
 

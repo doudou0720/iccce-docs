@@ -11,8 +11,18 @@ public static class AvoidFullScreenHelper
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AvoidFullScreenHelper](Ink\_Canvas.Helpers.AvoidFullScreenHelper.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -28,7 +38,7 @@ public static bool GetIsAvoidFullScreenEnabled(DependencyObject obj)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_AvoidFullScreenHelper_SetBoardMode_System_Boolean_"></a> SetBoardMode\(bool\)
 
@@ -38,7 +48,7 @@ public static void SetBoardMode(bool isBoardMode)
 
 #### Parameters
 
-`isBoardMode` bool
+`isBoardMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_AvoidFullScreenHelper_SetIsAvoidFullScreenEnabled_DependencyObject_System_Boolean_"></a> SetIsAvoidFullScreenEnabled\(DependencyObject, bool\)
 
@@ -50,7 +60,7 @@ public static void SetIsAvoidFullScreenEnabled(DependencyObject obj, bool value)
 
 `obj` DependencyObject
 
-`value` bool
+`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_AvoidFullScreenHelper_StartAvoidFullScreen_Window_"></a> StartAvoidFullScreen\(Window\)
 

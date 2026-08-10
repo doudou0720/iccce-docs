@@ -16,7 +16,7 @@ UserControl ←
 
 #### Implements
 
-IDisposable
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 ## Constructors
 
@@ -38,7 +38,7 @@ public bool IsCountdownRunning { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Windows_PPTTimeCapsule_IsOvertime"></a> IsOvertime
 
@@ -50,7 +50,7 @@ public bool IsOvertime { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -64,9 +64,9 @@ public void ApplyDragOffset(double offsetX, double offsetY)
 
 #### Parameters
 
-`offsetX` double
+`offsetX` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-`offsetY` double
+`offsetY` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Windows_PPTTimeCapsule_Dispose"></a> Dispose\(\)
 

@@ -35,7 +35,7 @@ public int CurrentPageIndex { get; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_MiniWhiteboardWindow_TotalPageCount"></a> TotalPageCount
 
@@ -47,7 +47,7 @@ public int TotalPageCount { get; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 
@@ -75,5 +75,5 @@ public void OnPPTSlideChangedExternal(int slideIndex)
 
 #### Parameters
 
-`slideIndex` int
+`slideIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

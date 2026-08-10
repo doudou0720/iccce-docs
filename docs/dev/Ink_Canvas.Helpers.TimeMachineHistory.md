@@ -9,8 +9,18 @@ public class TimeMachineHistory
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [TimeMachineHistory](Ink\_Canvas.Helpers.TimeMachineHistory.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -26,9 +36,9 @@ public TimeMachineHistory(StrokeCollection currentStroke, TimeMachineHistoryType
 
 `commitType` [TimeMachineHistoryType](Ink\_Canvas.Helpers.TimeMachineHistoryType.md)
 
-`strokeHasBeenCleared` bool
+`strokeHasBeenCleared` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Helpers_TimeMachineHistory__ctor_Dictionary_Stroke_Tuple_StylusPointCollection_StylusPointCollection___Ink_Canvas_Helpers_TimeMachineHistoryType_"></a> TimeMachineHistory\(Dictionary<Stroke, Tuple<StylusPointCollection, StylusPointCollection\>\>, TimeMachineHistoryType\)
+### <a id="Ink_Canvas_Helpers_TimeMachineHistory__ctor_System_Collections_Generic_Dictionary_Stroke_System_Tuple_StylusPointCollection_StylusPointCollection___Ink_Canvas_Helpers_TimeMachineHistoryType_"></a> TimeMachineHistory\(Dictionary<Stroke, Tuple<StylusPointCollection, StylusPointCollection\>\>, TimeMachineHistoryType\)
 
 ```csharp
 public TimeMachineHistory(Dictionary<Stroke, Tuple<StylusPointCollection, StylusPointCollection>> stylusPointDictionary, TimeMachineHistoryType commitType)
@@ -36,11 +46,11 @@ public TimeMachineHistory(Dictionary<Stroke, Tuple<StylusPointCollection, Stylus
 
 #### Parameters
 
-`stylusPointDictionary` Dictionary<Stroke, Tuple<StylusPointCollection, StylusPointCollection\>\>
+`stylusPointDictionary` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<Stroke, [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<StylusPointCollection, StylusPointCollection\>\>
 
 `commitType` [TimeMachineHistoryType](Ink\_Canvas.Helpers.TimeMachineHistoryType.md)
 
-### <a id="Ink_Canvas_Helpers_TimeMachineHistory__ctor_Dictionary_Stroke_Tuple_DrawingAttributes_DrawingAttributes___Ink_Canvas_Helpers_TimeMachineHistoryType_"></a> TimeMachineHistory\(Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes\>\>, TimeMachineHistoryType\)
+### <a id="Ink_Canvas_Helpers_TimeMachineHistory__ctor_System_Collections_Generic_Dictionary_Stroke_System_Tuple_DrawingAttributes_DrawingAttributes___Ink_Canvas_Helpers_TimeMachineHistoryType_"></a> TimeMachineHistory\(Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes\>\>, TimeMachineHistoryType\)
 
 ```csharp
 public TimeMachineHistory(Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes>> drawingAttributes, TimeMachineHistoryType commitType)
@@ -48,7 +58,7 @@ public TimeMachineHistory(Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAtt
 
 #### Parameters
 
-`drawingAttributes` Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes\>\>
+`drawingAttributes` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<Stroke, [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<DrawingAttributes, DrawingAttributes\>\>
 
 `commitType` [TimeMachineHistoryType](Ink\_Canvas.Helpers.TimeMachineHistoryType.md)
 
@@ -64,7 +74,7 @@ public TimeMachineHistory(StrokeCollection currentStroke, TimeMachineHistoryType
 
 `commitType` [TimeMachineHistoryType](Ink\_Canvas.Helpers.TimeMachineHistoryType.md)
 
-`strokeHasBeenCleared` bool
+`strokeHasBeenCleared` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 `replacedStroke` StrokeCollection
 
@@ -110,7 +120,7 @@ public Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes>> DrawingAt
 
 #### Field Value
 
- Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes\>\>
+ [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<Stroke, [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<DrawingAttributes, DrawingAttributes\>\>
 
 ### <a id="Ink_Canvas_Helpers_TimeMachineHistory_InsertedElement"></a> InsertedElement
 
@@ -140,7 +150,7 @@ public bool StrokeHasBeenCleared
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_TimeMachineHistory_StylusPointDictionary"></a> StylusPointDictionary
 
@@ -150,5 +160,5 @@ public Dictionary<Stroke, Tuple<StylusPointCollection, StylusPointCollection>> S
 
 #### Field Value
 
- Dictionary<Stroke, Tuple<StylusPointCollection, StylusPointCollection\>\>
+ [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<Stroke, [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<StylusPointCollection, StylusPointCollection\>\>
 

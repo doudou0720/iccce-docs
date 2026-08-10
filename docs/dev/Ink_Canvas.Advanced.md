@@ -9,8 +9,18 @@ public class Advanced
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Advanced](Ink\_Canvas.Advanced.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public int AutoBackupIntervalDays { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Advanced_EdgeGestureUtilOnlyAffectBlackboardMode"></a> EdgeGestureUtilOnlyAffectBlackboardMode
 
@@ -32,7 +42,7 @@ public bool EdgeGestureUtilOnlyAffectBlackboardMode { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_EnableMultiScreenSupport"></a> EnableMultiScreenSupport
 
@@ -42,7 +52,7 @@ public bool EnableMultiScreenSupport { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_EnableUIAccessTopMost"></a> EnableUIAccessTopMost
 
@@ -52,7 +62,7 @@ public bool EnableUIAccessTopMost { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_EraserBindTouchMultiplier"></a> EraserBindTouchMultiplier
 
@@ -62,7 +72,7 @@ public bool EraserBindTouchMultiplier { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_FingerModeBoundsWidth"></a> FingerModeBoundsWidth
 
@@ -72,7 +82,7 @@ public int FingerModeBoundsWidth { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Advanced_FingerModeBoundsWidthEraserSize"></a> FingerModeBoundsWidthEraserSize
 
@@ -82,7 +92,7 @@ public double FingerModeBoundsWidthEraserSize { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Advanced_FingerModeBoundsWidthThresholdValue"></a> FingerModeBoundsWidthThresholdValue
 
@@ -92,7 +102,7 @@ public double FingerModeBoundsWidthThresholdValue { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Advanced_FollowMouseForScreenSelection"></a> FollowMouseForScreenSelection
 
@@ -102,7 +112,7 @@ public bool FollowMouseForScreenSelection { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsAlwaysOnTop"></a> IsAlwaysOnTop
 
@@ -112,7 +122,7 @@ public bool IsAlwaysOnTop { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsAutoBackupBeforeUpdate"></a> IsAutoBackupBeforeUpdate
 
@@ -122,7 +132,7 @@ public bool IsAutoBackupBeforeUpdate { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsAutoBackupEnabled"></a> IsAutoBackupEnabled
 
@@ -132,7 +142,7 @@ public bool IsAutoBackupEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsDebugConsoleEnabled"></a> IsDebugConsoleEnabled
 
@@ -142,7 +152,7 @@ public bool IsDebugConsoleEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsEnableAvoidFullScreenHelper"></a> IsEnableAvoidFullScreenHelper
 
@@ -152,7 +162,7 @@ public bool IsEnableAvoidFullScreenHelper { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsEnableDPIChangeDetection"></a> IsEnableDPIChangeDetection
 
@@ -162,7 +172,7 @@ public bool IsEnableDPIChangeDetection { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsEnableEdgeGestureUtil"></a> IsEnableEdgeGestureUtil
 
@@ -172,7 +182,7 @@ public bool IsEnableEdgeGestureUtil { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsEnableForceFullScreen"></a> IsEnableForceFullScreen
 
@@ -182,7 +192,7 @@ public bool IsEnableForceFullScreen { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsEnableFullScreenHelper"></a> IsEnableFullScreenHelper
 
@@ -192,7 +202,7 @@ public bool IsEnableFullScreenHelper { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsEnableResolutionChangeDetection"></a> IsEnableResolutionChangeDetection
 
@@ -202,7 +212,7 @@ public bool IsEnableResolutionChangeDetection { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsEnableUriScheme"></a> IsEnableUriScheme
 
@@ -212,7 +222,7 @@ public bool IsEnableUriScheme { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsLogEnabled"></a> IsLogEnabled
 
@@ -222,7 +232,7 @@ public bool IsLogEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsNoFocusMode"></a> IsNoFocusMode
 
@@ -232,7 +242,7 @@ public bool IsNoFocusMode { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsPPTComDebugProbeEnabled"></a> IsPPTComDebugProbeEnabled
 
@@ -242,7 +252,7 @@ public bool IsPPTComDebugProbeEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsPPTPageFlipPreviewVisible"></a> IsPPTPageFlipPreviewVisible
 
@@ -252,7 +262,7 @@ public bool IsPPTPageFlipPreviewVisible { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsQuadIR"></a> IsQuadIR
 
@@ -262,7 +272,7 @@ public bool IsQuadIR { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsRealtimeInkDebugLogEnabled"></a> IsRealtimeInkDebugLogEnabled
 
@@ -274,19 +284,7 @@ public bool IsRealtimeInkDebugLogEnabled { get; set; }
 
 #### Property Value
 
- bool
-
-### <a id="Ink_Canvas_Advanced_IsRealtimeInkFpsOverlayEnabled"></a> IsRealtimeInkFpsOverlayEnabled
-
-在屏幕角落显示实时墨迹 FPS 与提交延迟 HUD（毫秒）。默认关闭，独立于详细日志开关。
-
-```csharp
-public bool IsRealtimeInkFpsOverlayEnabled { get; set; }
-```
-
-#### Property Value
-
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsSaveLogByDate"></a> IsSaveLogByDate
 
@@ -296,7 +294,7 @@ public bool IsSaveLogByDate { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsSecondConfirmWhenShutdownApp"></a> IsSecondConfirmWhenShutdownApp
 
@@ -306,7 +304,7 @@ public bool IsSecondConfirmWhenShutdownApp { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_IsSpecialScreen"></a> IsSpecialScreen
 
@@ -316,7 +314,7 @@ public bool IsSpecialScreen { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Advanced_LastAutoBackupTime"></a> LastAutoBackupTime
 
@@ -326,7 +324,7 @@ public DateTime LastAutoBackupTime { get; set; }
 
 #### Property Value
 
- DateTime
+ [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
 
 ### <a id="Ink_Canvas_Advanced_NibModeBoundsWidth"></a> NibModeBoundsWidth
 
@@ -336,7 +334,7 @@ public int NibModeBoundsWidth { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Advanced_NibModeBoundsWidthEraserSize"></a> NibModeBoundsWidthEraserSize
 
@@ -346,7 +344,7 @@ public double NibModeBoundsWidthEraserSize { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Advanced_NibModeBoundsWidthThresholdValue"></a> NibModeBoundsWidthThresholdValue
 
@@ -356,7 +354,7 @@ public double NibModeBoundsWidthThresholdValue { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Advanced_TouchMultiplier"></a> TouchMultiplier
 
@@ -366,7 +364,7 @@ public double TouchMultiplier { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Advanced_UIAMode"></a> UIAMode
 
@@ -386,5 +384,5 @@ public bool WindowMode { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

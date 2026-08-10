@@ -11,5 +11,5 @@ public enum UInkFillType
 
 ## Fields
 
-`Solid` 
+`Solid = 0` 
 

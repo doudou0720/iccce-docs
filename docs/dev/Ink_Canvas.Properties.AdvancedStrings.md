@@ -9,8 +9,18 @@ public static class AdvancedStrings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AdvancedStrings](Ink\_Canvas.Properties.AdvancedStrings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public static string AvoidFullScreenHelper { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_AvoidFullScreenHelperHint"></a> AvoidFullScreenHelperHint
 
@@ -32,7 +42,7 @@ public static string AvoidFullScreenHelperHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_ConfirmExit"></a> ConfirmExit
 
@@ -42,7 +52,7 @@ public static string ConfirmExit { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Culture"></a> Culture
 
@@ -52,7 +62,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- CultureInfo
+ [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_DPIChangeDetection"></a> DPIChangeDetection
 
@@ -62,7 +72,7 @@ public static string DPIChangeDetection { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_DPIChangeDetectionHint"></a> DPIChangeDetectionHint
 
@@ -72,7 +82,7 @@ public static string DPIChangeDetectionHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_CrashTest_Section"></a> Debug\_CrashTest\_Section
 
@@ -82,7 +92,7 @@ public static string Debug_CrashTest_Section { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_IconSettings"></a> Debug\_IconSettings
 
@@ -92,7 +102,7 @@ public static string Debug_IconSettings { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_MemoryBreakdownDump_Button"></a> Debug\_MemoryBreakdownDump\_Button
 
@@ -102,7 +112,7 @@ public static string Debug_MemoryBreakdownDump_Button { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_MemoryBreakdownDump_Desc"></a> Debug\_MemoryBreakdownDump\_Desc
 
@@ -112,7 +122,7 @@ public static string Debug_MemoryBreakdownDump_Desc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_MemoryBreakdownDump_Header"></a> Debug\_MemoryBreakdownDump\_Header
 
@@ -122,7 +132,7 @@ public static string Debug_MemoryBreakdownDump_Header { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_MemoryBreakdownForceGC_Button"></a> Debug\_MemoryBreakdownForceGC\_Button
 
@@ -132,7 +142,7 @@ public static string Debug_MemoryBreakdownForceGC_Button { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_MemoryBreakdownForceGC_Desc"></a> Debug\_MemoryBreakdownForceGC\_Desc
 
@@ -142,7 +152,7 @@ public static string Debug_MemoryBreakdownForceGC_Desc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_MemoryBreakdownForceGC_Header"></a> Debug\_MemoryBreakdownForceGC\_Header
 
@@ -152,7 +162,7 @@ public static string Debug_MemoryBreakdownForceGC_Header { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_MemoryBreakdownSection"></a> Debug\_MemoryBreakdownSection
 
@@ -162,7 +172,7 @@ public static string Debug_MemoryBreakdownSection { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PPTComProbe_Desc"></a> Debug\_PPTComProbe\_Desc
 
@@ -172,7 +182,7 @@ public static string Debug_PPTComProbe_Desc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PPTComProbe_Header"></a> Debug\_PPTComProbe\_Header
 
@@ -182,7 +192,7 @@ public static string Debug_PPTComProbe_Header { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PPTPreviewVisible_Desc"></a> Debug\_PPTPreviewVisible\_Desc
 
@@ -192,7 +202,7 @@ public static string Debug_PPTPreviewVisible_Desc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PPTPreviewVisible_Header"></a> Debug\_PPTPreviewVisible\_Header
 
@@ -202,7 +212,7 @@ public static string Debug_PPTPreviewVisible_Header { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PageHeader"></a> Debug\_PageHeader
 
@@ -212,7 +222,7 @@ public static string Debug_PageHeader { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_PageTitle"></a> Debug\_PageTitle
 
@@ -222,27 +232,7 @@ public static string Debug_PageTitle { get; }
 
 #### Property Value
 
- string
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_RealtimeInkFpsOverlay_Desc"></a> Debug\_RealtimeInkFpsOverlay\_Desc
-
-```csharp
-public static string Debug_RealtimeInkFpsOverlay_Desc { get; }
-```
-
-#### Property Value
-
- string
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_RealtimeInkFpsOverlay_Header"></a> Debug\_RealtimeInkFpsOverlay\_Header
-
-```csharp
-public static string Debug_RealtimeInkFpsOverlay_Header { get; }
-```
-
-#### Property Value
-
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_RealtimeInkLog_Desc"></a> Debug\_RealtimeInkLog\_Desc
 
@@ -252,7 +242,7 @@ public static string Debug_RealtimeInkLog_Desc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_RealtimeInkLog_Header"></a> Debug\_RealtimeInkLog\_Header
 
@@ -262,7 +252,7 @@ public static string Debug_RealtimeInkLog_Header { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_ResetStartupCount_Button"></a> Debug\_ResetStartupCount\_Button
 
@@ -272,7 +262,7 @@ public static string Debug_ResetStartupCount_Button { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_ResetStartupCount_Desc"></a> Debug\_ResetStartupCount\_Desc
 
@@ -282,7 +272,7 @@ public static string Debug_ResetStartupCount_Desc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_ResetStartupCount_Header"></a> Debug\_ResetStartupCount\_Header
 
@@ -292,7 +282,7 @@ public static string Debug_ResetStartupCount_Header { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SettingsExpanderExample"></a> Debug\_SettingsExpanderExample
 
@@ -302,7 +292,7 @@ public static string Debug_SettingsExpanderExample { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SettingsExpanderExample_Desc"></a> Debug\_SettingsExpanderExample\_Desc
 
@@ -312,7 +302,7 @@ public static string Debug_SettingsExpanderExample_Desc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SettingsExpanderExample_Header"></a> Debug\_SettingsExpanderExample\_Header
 
@@ -322,7 +312,7 @@ public static string Debug_SettingsExpanderExample_Header { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_ShowConsole_Desc"></a> Debug\_ShowConsole\_Desc
 
@@ -332,7 +322,7 @@ public static string Debug_ShowConsole_Desc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_ShowConsole_Header"></a> Debug\_ShowConsole\_Header
 
@@ -342,7 +332,7 @@ public static string Debug_ShowConsole_Header { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SimulateCrash_Button"></a> Debug\_SimulateCrash\_Button
 
@@ -352,7 +342,7 @@ public static string Debug_SimulateCrash_Button { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SimulateCrash_Desc"></a> Debug\_SimulateCrash\_Desc
 
@@ -362,7 +352,7 @@ public static string Debug_SimulateCrash_Desc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SimulateCrash_Header"></a> Debug\_SimulateCrash\_Header
 
@@ -372,7 +362,7 @@ public static string Debug_SimulateCrash_Header { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SimulateHeartbeatTimeout_Button"></a> Debug\_SimulateHeartbeatTimeout\_Button
 
@@ -382,7 +372,7 @@ public static string Debug_SimulateHeartbeatTimeout_Button { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SimulateHeartbeatTimeout_Desc"></a> Debug\_SimulateHeartbeatTimeout\_Desc
 
@@ -392,7 +382,7 @@ public static string Debug_SimulateHeartbeatTimeout_Desc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Debug_SimulateHeartbeatTimeout_Header"></a> Debug\_SimulateHeartbeatTimeout\_Header
 
@@ -402,7 +392,7 @@ public static string Debug_SimulateHeartbeatTimeout_Header { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_EdgeGestureUtil"></a> EdgeGestureUtil
 
@@ -412,7 +402,7 @@ public static string EdgeGestureUtil { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_EdgeGestureUtilHint_Part1"></a> EdgeGestureUtilHint\_Part1
 
@@ -422,7 +412,7 @@ public static string EdgeGestureUtilHint_Part1 { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_EraserBindTouchHint"></a> EraserBindTouchHint
 
@@ -432,7 +422,7 @@ public static string EraserBindTouchHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_EraserBindTouchMultiplier"></a> EraserBindTouchMultiplier
 
@@ -442,7 +432,7 @@ public static string EraserBindTouchMultiplier { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Experimental"></a> Experimental
 
@@ -452,7 +442,7 @@ public static string Experimental { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_FingerModeBoundsWidthHeader"></a> FingerModeBoundsWidthHeader
 
@@ -462,7 +452,7 @@ public static string FingerModeBoundsWidthHeader { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_ForceFullScreen"></a> ForceFullScreen
 
@@ -472,7 +462,7 @@ public static string ForceFullScreen { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_ForceFullScreenHint"></a> ForceFullScreenHint
 
@@ -482,7 +472,7 @@ public static string ForceFullScreenHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_FullScreenHelper"></a> FullScreenHelper
 
@@ -492,7 +482,7 @@ public static string FullScreenHelper { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_FullScreenHelperHint"></a> FullScreenHelperHint
 
@@ -502,7 +492,7 @@ public static string FullScreenHelperHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_LogByDate"></a> LogByDate
 
@@ -512,7 +502,7 @@ public static string LogByDate { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_LogRotateHint"></a> LogRotateHint
 
@@ -522,7 +512,7 @@ public static string LogRotateHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Logging"></a> Logging
 
@@ -532,7 +522,7 @@ public static string Logging { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_NibModeBoundsWidthHeader"></a> NibModeBoundsWidthHeader
 
@@ -542,7 +532,7 @@ public static string NibModeBoundsWidthHeader { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_QuadIRMode"></a> QuadIRMode
 
@@ -552,27 +542,7 @@ public static string QuadIRMode { get; }
 
 #### Property Value
 
- string
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_RealtimeInkFpsOverlay_ActiveText"></a> RealtimeInkFpsOverlay\_ActiveText
-
-```csharp
-public static string RealtimeInkFpsOverlay_ActiveText { get; }
-```
-
-#### Property Value
-
- string
-
-### <a id="Ink_Canvas_Properties_AdvancedStrings_RealtimeInkFpsOverlay_IdleText"></a> RealtimeInkFpsOverlay\_IdleText
-
-```csharp
-public static string RealtimeInkFpsOverlay_IdleText { get; }
-```
-
-#### Property Value
-
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_ResolutionChangeDetection"></a> ResolutionChangeDetection
 
@@ -582,7 +552,7 @@ public static string ResolutionChangeDetection { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_ResolutionChangeDetectionHint"></a> ResolutionChangeDetectionHint
 
@@ -592,7 +562,7 @@ public static string ResolutionChangeDetectionHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_ResourceManager"></a> ResourceManager
 
@@ -602,7 +572,7 @@ public static ResourceManager ResourceManager { get; }
 
 #### Property Value
 
- ResourceManager
+ [ResourceManager](https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_SpecialScreenMode"></a> SpecialScreenMode
 
@@ -612,7 +582,7 @@ public static string SpecialScreenMode { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_Title"></a> Title
 
@@ -622,7 +592,7 @@ public static string Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_TouchMultiplier"></a> TouchMultiplier
 
@@ -632,7 +602,7 @@ public static string TouchMultiplier { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_TouchMultiplierCalibrateHint"></a> TouchMultiplierCalibrateHint
 
@@ -642,7 +612,7 @@ public static string TouchMultiplierCalibrateHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_TouchMultiplierHint"></a> TouchMultiplierHint
 
@@ -652,7 +622,7 @@ public static string TouchMultiplierHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_TouchMultiplierValueHint"></a> TouchMultiplierValueHint
 
@@ -662,7 +632,7 @@ public static string TouchMultiplierValueHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -674,9 +644,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -11,17 +11,17 @@ public enum UInkShapeType
 
 ## Fields
 
-`Circle` 
+`Circle = 5` 
 
-`Ellipse` 
+`Ellipse = 4` 
 
-`Line` 
+`Line = 0` 
 
-`Polygon` 
+`Polygon = 6` 
 
-`Polyline` 
+`Polyline = 1` 
 
-`Rectangle` 
+`Rectangle = 2` 
 
-`Square` 
+`Square = 3` 
 

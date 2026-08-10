@@ -9,8 +9,18 @@ public class ICCFloatingBarConfiguration
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ICCFloatingBarConfiguration](Ink\_Canvas.Resources.ICCConfiguration.ICCFloatingBarConfiguration.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -22,7 +32,7 @@ public double ElementCornerRadiusValue
 
 #### Field Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ## Properties
 
@@ -84,7 +94,7 @@ public bool MiniMode { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Resources_ICCConfiguration_ICCFloatingBarConfiguration_MovingLimitationNoSnap"></a> MovingLimitationNoSnap
 
@@ -94,7 +104,7 @@ public double MovingLimitationNoSnap { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Resources_ICCConfiguration_ICCFloatingBarConfiguration_MovingLimitationSnapped"></a> MovingLimitationSnapped
 
@@ -104,7 +114,7 @@ public double MovingLimitationSnapped { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Resources_ICCConfiguration_ICCFloatingBarConfiguration_NearSnap"></a> NearSnap
 
@@ -114,7 +124,7 @@ public bool NearSnap { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Resources_ICCConfiguration_ICCFloatingBarConfiguration_NearSnapAreaSize"></a> NearSnapAreaSize
 
@@ -134,7 +144,7 @@ public bool ParallaxEffect { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Resources_ICCConfiguration_ICCFloatingBarConfiguration_SemiTransparent"></a> SemiTransparent
 
@@ -144,7 +154,7 @@ public bool SemiTransparent { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Resources_ICCConfiguration_ICCFloatingBarConfiguration_ToolBarItemsInAnnotationMode"></a> ToolBarItemsInAnnotationMode
 
@@ -154,7 +164,7 @@ public string[] ToolBarItemsInAnnotationMode { get; set; }
 
 #### Property Value
 
- string\[\]
+ [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 ### <a id="Ink_Canvas_Resources_ICCConfiguration_ICCFloatingBarConfiguration_ToolBarItemsInCursorMode"></a> ToolBarItemsInCursorMode
 
@@ -164,7 +174,7 @@ public string[] ToolBarItemsInCursorMode { get; set; }
 
 #### Property Value
 
- string\[\]
+ [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 ### <a id="Ink_Canvas_Resources_ICCConfiguration_ICCFloatingBarConfiguration_ToolBarItemsInMiniMode"></a> ToolBarItemsInMiniMode
 
@@ -174,7 +184,7 @@ public string[] ToolBarItemsInMiniMode { get; set; }
 
 #### Property Value
 
- string\[\]
+ [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 ### <a id="Ink_Canvas_Resources_ICCConfiguration_ICCFloatingBarConfiguration_ToolButtonSelectedBgColor"></a> ToolButtonSelectedBgColor
 

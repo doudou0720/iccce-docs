@@ -38,7 +38,7 @@ public string Id { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_TriggerSettings_Settings"></a> Settings
 
@@ -50,5 +50,5 @@ public object Settings { get; set; }
 
 #### Property Value
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 

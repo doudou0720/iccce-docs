@@ -9,8 +9,18 @@ public class CustomPickNameBackground
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [CustomPickNameBackground](Ink\_Canvas.CustomPickNameBackground.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -22,9 +32,9 @@ public CustomPickNameBackground(string name, string filePath)
 
 #### Parameters
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`filePath` string
+`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_CustomPickNameBackground__ctor"></a> CustomPickNameBackground\(\)
 
@@ -42,7 +52,7 @@ public string FilePath { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_CustomPickNameBackground_Name"></a> Name
 
@@ -52,5 +62,5 @@ public string Name { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

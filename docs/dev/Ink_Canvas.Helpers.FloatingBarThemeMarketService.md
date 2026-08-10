@@ -11,20 +11,29 @@ public sealed class FloatingBarThemeMarketService
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [FloatingBarThemeMarketService](Ink\_Canvas.Helpers.FloatingBarThemeMarketService.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeMarketService_OfficialIndexUrl"></a> OfficialIndexUrl
 
 ```csharp
-public const string OfficialIndexUrl
+public const string OfficialIndexUrl = "https://github.com/InkCanvasForClass/ThemeMarket/releases/download/latest/themes.json"
 ```
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Properties
 
@@ -36,7 +45,7 @@ public List<ThemeMarketEntry> Entries { get; }
 
 #### Property Value
 
- List<[ThemeMarketEntry](Ink\_Canvas.Helpers.ThemeMarketEntry.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ThemeMarketEntry](Ink\_Canvas.Helpers.ThemeMarketEntry.md)\>
 
 ## Methods
 
@@ -52,7 +61,7 @@ public Task<bool> InstallAsync(ThemeMarketEntry entry)
 
 #### Returns
 
- Task<bool\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeMarketService_IsInstalled_Ink_Canvas_Helpers_ThemeMarketEntry_"></a> IsInstalled\(ThemeMarketEntry\)
 
@@ -66,7 +75,7 @@ public bool IsInstalled(ThemeMarketEntry entry)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeMarketService_RefreshAsync"></a> RefreshAsync\(\)
 
@@ -76,5 +85,5 @@ public Task<bool> RefreshAsync()
 
 #### Returns
 
- Task<bool\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 

@@ -33,7 +33,7 @@ public string MarkdownTemplate { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_FeedbackPages_FeedbackPage3_PastebinUrl"></a> PastebinUrl
 
@@ -43,7 +43,7 @@ public string PastebinUrl { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_FeedbackPages_FeedbackPage3_BtnCopyMarkdownClick"></a> BtnCopyMarkdownClick
 
@@ -53,7 +53,7 @@ public event EventHandler<RoutedEventArgs> BtnCopyMarkdownClick
 
 #### Event Type
 
- EventHandler<RoutedEventArgs\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<RoutedEventArgs\>
 
 ### <a id="Ink_Canvas_Windows_FeedbackPages_FeedbackPage3_BtnCopyPasteUrlClick"></a> BtnCopyPasteUrlClick
 
@@ -63,7 +63,17 @@ public event EventHandler<RoutedEventArgs> BtnCopyPasteUrlClick
 
 #### Event Type
 
- EventHandler<RoutedEventArgs\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<RoutedEventArgs\>
+
+### <a id="Ink_Canvas_Windows_FeedbackPages_FeedbackPage3_BtnOpenFeishuFormClick"></a> BtnOpenFeishuFormClick
+
+```csharp
+public event EventHandler<RoutedEventArgs> BtnOpenFeishuFormClick
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<RoutedEventArgs\>
 
 ### <a id="Ink_Canvas_Windows_FeedbackPages_FeedbackPage3_BtnOpenGitHubIssueClick"></a> BtnOpenGitHubIssueClick
 
@@ -73,7 +83,7 @@ public event EventHandler<RoutedEventArgs> BtnOpenGitHubIssueClick
 
 #### Event Type
 
- EventHandler<RoutedEventArgs\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<RoutedEventArgs\>
 
 ### <a id="Ink_Canvas_Windows_FeedbackPages_FeedbackPage3_BtnUploadPastebinClick"></a> BtnUploadPastebinClick
 
@@ -83,7 +93,17 @@ public event EventHandler<RoutedEventArgs> BtnUploadPastebinClick
 
 #### Event Type
 
- EventHandler<RoutedEventArgs\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<RoutedEventArgs\>
+
+### <a id="Ink_Canvas_Windows_FeedbackPages_FeedbackPage3_CardCopyFeishuUrlClick"></a> CardCopyFeishuUrlClick
+
+```csharp
+public event EventHandler<RoutedEventArgs> CardCopyFeishuUrlClick
+```
+
+#### Event Type
+
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<RoutedEventArgs\>
 
 ### <a id="Ink_Canvas_Windows_FeedbackPages_FeedbackPage3_CardCopyIssueUrlClick"></a> CardCopyIssueUrlClick
 
@@ -93,5 +113,5 @@ public event EventHandler<RoutedEventArgs> CardCopyIssueUrlClick
 
 #### Event Type
 
- EventHandler<RoutedEventArgs\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<RoutedEventArgs\>
 

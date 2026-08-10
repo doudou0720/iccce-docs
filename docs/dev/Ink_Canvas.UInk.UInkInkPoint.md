@@ -9,8 +9,17 @@ public sealed class UInkInkPoint
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkInkPoint](Ink\_Canvas.UInk.UInkInkPoint.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -32,7 +41,7 @@ public float? Opacity
 
 #### Field Value
 
- float?
+ [float](https://learn.microsoft.com/dotnet/api/system.single)?
 
 ### <a id="Ink_Canvas_UInk_UInkInkPoint_Width"></a> Width
 
@@ -42,7 +51,7 @@ public float Width
 
 #### Field Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_UInk_UInkInkPoint_X"></a> X
 
@@ -52,7 +61,7 @@ public float X
 
 #### Field Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_UInk_UInkInkPoint_Y"></a> Y
 
@@ -62,5 +71,5 @@ public float Y
 
 #### Field Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -19,12 +19,22 @@ public static class UInkUndoAdapter
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkUndoAdapter](Ink\_Canvas.UInk.UInkUndoAdapter.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
-### <a id="Ink_Canvas_UInk_UInkUndoAdapter_Adapt_Ink_Canvas_UInk_UInkCanvasRecord_Func_Ink_Canvas_UInk_IUInkContentBlock_Stroke__"></a> Adapt\(UInkCanvasRecord, Func<IUInkContentBlock, Stroke\>\)
+### <a id="Ink_Canvas_UInk_UInkUndoAdapter_Adapt_Ink_Canvas_UInk_UInkCanvasRecord_System_Func_Ink_Canvas_UInk_IUInkContentBlock_Stroke__"></a> Adapt\(UInkCanvasRecord, Func<IUInkContentBlock, Stroke\>\)
 
 ```csharp
 public static UInkUndoAdaptation Adapt(UInkCanvasRecord record, Func<IUInkContentBlock, Stroke> toStroke)
@@ -34,7 +44,7 @@ public static UInkUndoAdaptation Adapt(UInkCanvasRecord record, Func<IUInkConten
 
 `record` [UInkCanvasRecord](Ink\_Canvas.UInk.UInkCanvasRecord.md)
 
-`toStroke` Func<[IUInkContentBlock](Ink\_Canvas.UInk.IUInkContentBlock.md), Stroke\>
+`toStroke` [Func](https://learn.microsoft.com/dotnet/api/system.func\-2)<[IUInkContentBlock](Ink\_Canvas.UInk.IUInkContentBlock.md), Stroke\>
 
 #### Returns
 

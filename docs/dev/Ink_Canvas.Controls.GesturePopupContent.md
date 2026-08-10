@@ -50,7 +50,7 @@ public string Title { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_GesturePopupContent_TwoFingerGestureSimpleStackPanel"></a> TwoFingerGestureSimpleStackPanel
 

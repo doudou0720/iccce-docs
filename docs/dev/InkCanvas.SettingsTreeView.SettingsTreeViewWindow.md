@@ -86,6 +86,7 @@ public class SettingsTreeViewWindow : Window, IAnimatable, ISupportInitialize, I
 [Window.ShowInTaskbar](https://learn.microsoft.com/dotnet/api/system.windows.window.showintaskbar), 
 [Window.SizeToContent](https://learn.microsoft.com/dotnet/api/system.windows.window.sizetocontent), 
 [Window.TaskbarItemInfo](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfo), 
+[Window.ThemeMode](https://learn.microsoft.com/dotnet/api/system.windows.window.thememode), 
 [Window.Title](https://learn.microsoft.com/dotnet/api/system.windows.window.title), 
 [Window.Top](https://learn.microsoft.com/dotnet/api/system.windows.window.top), 
 [Window.Topmost](https://learn.microsoft.com/dotnet/api/system.windows.window.topmost), 

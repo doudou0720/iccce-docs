@@ -10,13 +10,13 @@
 
 行动设置控件的基类。
 
- [RuleSettingsControlBase](Ink\_Canvas.WorkflowAutomation.Abstractions.RuleSettingsControlBase.md)
-
-规则设置控件的基类。
-
  [RuleSettingsControlBase<T\>](Ink\_Canvas.WorkflowAutomation.Abstractions.RuleSettingsControlBase\-1.md)
 
 带强类型设置的规则设置控件基类。
+
+ [RuleSettingsControlBase](Ink\_Canvas.WorkflowAutomation.Abstractions.RuleSettingsControlBase.md)
+
+规则设置控件的基类。
 
  [TriggerBase<T\>](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase\-1.md)
 
@@ -30,13 +30,13 @@
 
 自动化触发器信息特性。
 
- [TriggerSettingsControlBase<T\>](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerSettingsControlBase\-1.md)
-
-带强类型设置的触发器设置控件基类。
-
  [TriggerSettingsControlBase](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerSettingsControlBase.md)
 
 触发器设置控件的基类。
+
+ [TriggerSettingsControlBase<T\>](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerSettingsControlBase\-1.md)
+
+带强类型设置的触发器设置控件基类。
 
 ### Interfaces
 

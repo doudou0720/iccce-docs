@@ -9,8 +9,18 @@ public class Security
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Security](Ink\_Canvas.Security.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public bool EnableProcessProtection { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Security_PasswordEnabled"></a> PasswordEnabled
 
@@ -32,7 +42,7 @@ public bool PasswordEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Security_PasswordHash"></a> PasswordHash
 
@@ -42,7 +52,7 @@ public string PasswordHash { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Security_PasswordSalt"></a> PasswordSalt
 
@@ -52,7 +62,7 @@ public string PasswordSalt { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Security_RequirePasswordOnEnterSettings"></a> RequirePasswordOnEnterSettings
 
@@ -62,7 +72,7 @@ public bool RequirePasswordOnEnterSettings { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Security_RequirePasswordOnExit"></a> RequirePasswordOnExit
 
@@ -72,7 +82,7 @@ public bool RequirePasswordOnExit { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Security_RequirePasswordOnModifyOrClearNameList"></a> RequirePasswordOnModifyOrClearNameList
 
@@ -82,7 +92,7 @@ public bool RequirePasswordOnModifyOrClearNameList { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Security_RequirePasswordOnResetConfig"></a> RequirePasswordOnResetConfig
 
@@ -92,7 +102,7 @@ public bool RequirePasswordOnResetConfig { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Security_TotpEnabled"></a> TotpEnabled
 
@@ -102,7 +112,7 @@ public bool TotpEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Security_TotpOnlyMode"></a> TotpOnlyMode
 
@@ -112,7 +122,7 @@ public bool TotpOnlyMode { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Security_TotpSecret"></a> TotpSecret
 
@@ -122,7 +132,7 @@ public string TotpSecret { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Security_UsbAuthorizedSns"></a> UsbAuthorizedSns
 
@@ -132,7 +142,7 @@ public string UsbAuthorizedSns { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Security_UsbVerificationEnabled"></a> UsbVerificationEnabled
 
@@ -142,5 +152,5 @@ public bool UsbVerificationEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

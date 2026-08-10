@@ -9,8 +9,18 @@ public static class GeometryStrings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [GeometryStrings](Ink\_Canvas.Properties.GeometryStrings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- CultureInfo
+ [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawArrow"></a> DrawArrow
 
@@ -32,7 +42,7 @@ public static string DrawArrow { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCenteredCircle"></a> DrawCenteredCircle
 
@@ -42,7 +52,7 @@ public static string DrawCenteredCircle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCenteredDashedCircle"></a> DrawCenteredDashedCircle
 
@@ -52,7 +62,7 @@ public static string DrawCenteredDashedCircle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCenteredEllipse"></a> DrawCenteredEllipse
 
@@ -62,7 +72,7 @@ public static string DrawCenteredEllipse { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCenteredEllipseWithFocalPoint"></a> DrawCenteredEllipseWithFocalPoint
 
@@ -72,7 +82,7 @@ public static string DrawCenteredEllipseWithFocalPoint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCenteredSquare"></a> DrawCenteredSquare
 
@@ -82,7 +92,7 @@ public static string DrawCenteredSquare { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCone"></a> DrawCone
 
@@ -92,7 +102,7 @@ public static string DrawCone { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCoordinate1"></a> DrawCoordinate1
 
@@ -102,7 +112,7 @@ public static string DrawCoordinate1 { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCoordinate2"></a> DrawCoordinate2
 
@@ -112,7 +122,7 @@ public static string DrawCoordinate2 { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCoordinate3"></a> DrawCoordinate3
 
@@ -122,7 +132,7 @@ public static string DrawCoordinate3 { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCoordinate4"></a> DrawCoordinate4
 
@@ -132,7 +142,7 @@ public static string DrawCoordinate4 { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCoordinate5"></a> DrawCoordinate5
 
@@ -142,7 +152,7 @@ public static string DrawCoordinate5 { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCuboid"></a> DrawCuboid
 
@@ -152,7 +162,7 @@ public static string DrawCuboid { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawCylinder"></a> DrawCylinder
 
@@ -162,7 +172,7 @@ public static string DrawCylinder { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawDashedLine"></a> DrawDashedLine
 
@@ -172,7 +182,7 @@ public static string DrawDashedLine { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawDottedLine"></a> DrawDottedLine
 
@@ -182,7 +192,7 @@ public static string DrawDottedLine { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawHyperbola"></a> DrawHyperbola
 
@@ -192,7 +202,7 @@ public static string DrawHyperbola { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawHyperbolaWithFocal"></a> DrawHyperbolaWithFocal
 
@@ -202,7 +212,7 @@ public static string DrawHyperbolaWithFocal { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawLine"></a> DrawLine
 
@@ -212,7 +222,7 @@ public static string DrawLine { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawParabola"></a> DrawParabola
 
@@ -222,7 +232,7 @@ public static string DrawParabola { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawParabola2"></a> DrawParabola2
 
@@ -232,7 +242,7 @@ public static string DrawParabola2 { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawParabolaWithFocal"></a> DrawParabolaWithFocal
 
@@ -242,7 +252,7 @@ public static string DrawParabolaWithFocal { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawParallelLines"></a> DrawParallelLines
 
@@ -252,7 +262,7 @@ public static string DrawParallelLines { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_DrawSquare"></a> DrawSquare
 
@@ -262,7 +272,7 @@ public static string DrawSquare { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_ResourceManager"></a> ResourceManager
 
@@ -272,7 +282,7 @@ public static ResourceManager ResourceManager { get; }
 
 #### Property Value
 
- ResourceManager
+ [ResourceManager](https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager)
 
 ### <a id="Ink_Canvas_Properties_GeometryStrings_Title"></a> Title
 
@@ -282,7 +292,7 @@ public static string Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -294,9 +304,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

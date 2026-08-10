@@ -9,12 +9,21 @@ public sealed class UInkMedia : IUInkContentBlock
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkMedia](Ink\_Canvas.UInk.UInkMedia.md)
 
 #### Implements
 
 [IUInkContentBlock](Ink\_Canvas.UInk.IUInkContentBlock.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -26,7 +35,7 @@ public bool Autoplay
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_ContentId"></a> ContentId
 
@@ -36,7 +45,7 @@ public uint ContentId
 
 #### Field Value
 
- uint
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_Extra"></a> Extra
 
@@ -46,7 +55,7 @@ public Dictionary<string, string> Extra
 
 #### Field Value
 
- Dictionary<string, string\>
+ [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_Height"></a> Height
 
@@ -56,7 +65,7 @@ public float? Height
 
 #### Field Value
 
- float?
+ [float](https://learn.microsoft.com/dotnet/api/system.single)?
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_Loop"></a> Loop
 
@@ -66,7 +75,7 @@ public bool Loop
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_MimeType"></a> MimeType
 
@@ -76,7 +85,7 @@ public string MimeType
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_Opacity"></a> Opacity
 
@@ -86,7 +95,7 @@ public float? Opacity
 
 #### Field Value
 
- float?
+ [float](https://learn.microsoft.com/dotnet/api/system.single)?
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_PageCount"></a> PageCount
 
@@ -96,7 +105,7 @@ public uint? PageCount
 
 #### Field Value
 
- uint?
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)?
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_PageIndex"></a> PageIndex
 
@@ -106,7 +115,7 @@ public uint? PageIndex
 
 #### Field Value
 
- uint?
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)?
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_Path"></a> Path
 
@@ -116,7 +125,7 @@ public string Path
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_PlaybackRate"></a> PlaybackRate
 
@@ -126,7 +135,7 @@ public float PlaybackRate
 
 #### Field Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_StartTime"></a> StartTime
 
@@ -136,7 +145,7 @@ public double StartTime
 
 #### Field Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_Transform"></a> Transform
 
@@ -146,7 +155,7 @@ public float[] Transform
 
 #### Field Value
 
- float\[\]
+ [float](https://learn.microsoft.com/dotnet/api/system.single)\[\]
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_UndoId"></a> UndoId
 
@@ -156,7 +165,7 @@ public uint UndoId
 
 #### Field Value
 
- uint
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_Volume"></a> Volume
 
@@ -166,7 +175,7 @@ public float Volume
 
 #### Field Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_UInk_UInkMedia_Width"></a> Width
 
@@ -176,5 +185,5 @@ public float? Width
 
 #### Field Value
 
- float?
+ [float](https://learn.microsoft.com/dotnet/api/system.single)?
 

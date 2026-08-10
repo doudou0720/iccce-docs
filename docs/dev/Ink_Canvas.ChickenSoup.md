@@ -9,8 +9,18 @@ public static class ChickenSoup
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ChickenSoup](Ink\_Canvas.ChickenSoup.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -22,7 +32,7 @@ public static string[] GaoKaoPhrases
 
 #### Field Value
 
- string\[\]
+ [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 ### <a id="Ink_Canvas_ChickenSoup_MingYanJingJu"></a> MingYanJingJu
 
@@ -32,7 +42,7 @@ public static string[] MingYanJingJu
 
 #### Field Value
 
- string\[\]
+ [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 ### <a id="Ink_Canvas_ChickenSoup_OSUPlayerYuLu"></a> OSUPlayerYuLu
 
@@ -42,7 +52,7 @@ public static string[] OSUPlayerYuLu
 
 #### Field Value
 
- string\[\]
+ [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 ### <a id="Ink_Canvas_ChickenSoup_PhigrosTips"></a> PhigrosTips
 
@@ -52,7 +62,7 @@ public static string[] PhigrosTips
 
 #### Field Value
 
- string\[\]
+ [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 ## Methods
 
@@ -64,7 +74,7 @@ public static List<TipsScheme> GetPresetSchemes()
 
 #### Returns
 
- List<[TipsScheme](Ink\_Canvas.TipsScheme.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[TipsScheme](Ink\_Canvas.TipsScheme.md)\>
 
 ### <a id="Ink_Canvas_ChickenSoup_GetTipsFromPreset_System_String_"></a> GetTipsFromPreset\(string\)
 
@@ -74,9 +84,9 @@ public static string[] GetTipsFromPreset(string presetId)
 
 #### Parameters
 
-`presetId` string
+`presetId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string\[\]
+ [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 

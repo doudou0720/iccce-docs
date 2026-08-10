@@ -9,8 +9,17 @@ public sealed class UInkHardware
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkHardware](Ink\_Canvas.UInk.UInkHardware.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -22,7 +31,7 @@ public string Id
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_UInk_UInkHardware_Identifiers"></a> Identifiers
 
@@ -32,7 +41,7 @@ public Dictionary<string, string> Identifiers
 
 #### Field Value
 
- Dictionary<string, string\>
+ [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_UInk_UInkHardware_Name"></a> Name
 
@@ -42,7 +51,7 @@ public string Name
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_UInk_UInkHardware_PhysicalHeight"></a> PhysicalHeight
 
@@ -52,7 +61,7 @@ public uint? PhysicalHeight
 
 #### Field Value
 
- uint?
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)?
 
 ### <a id="Ink_Canvas_UInk_UInkHardware_PhysicalWidth"></a> PhysicalWidth
 
@@ -62,7 +71,7 @@ public uint? PhysicalWidth
 
 #### Field Value
 
- uint?
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)?
 
 ### <a id="Ink_Canvas_UInk_UInkHardware_ScaleFactor"></a> ScaleFactor
 
@@ -72,5 +81,5 @@ public float? ScaleFactor
 
 #### Field Value
 
- float?
+ [float](https://learn.microsoft.com/dotnet/api/system.single)?
 

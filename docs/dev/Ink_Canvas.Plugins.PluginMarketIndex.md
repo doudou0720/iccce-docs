@@ -11,8 +11,18 @@ public class PluginMarketIndex
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PluginMarketIndex](Ink\_Canvas.Plugins.PluginMarketIndex.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -27,7 +37,7 @@ public Dictionary<string, string> DownloadMirrors { get; set; }
 
 #### Property Value
 
- Dictionary<string, string\>
+ [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginMarketIndex_Plugins"></a> Plugins
 
@@ -39,5 +49,5 @@ public List<PluginMarketEntry> Plugins { get; set; }
 
 #### Property Value
 
- List<[PluginMarketEntry](Ink\_Canvas.Plugins.PluginMarketEntry.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PluginMarketEntry](Ink\_Canvas.Plugins.PluginMarketEntry.md)\>
 

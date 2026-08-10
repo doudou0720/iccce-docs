@@ -12,8 +12,18 @@ public static class VstoRegistrationHelper
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [VstoRegistrationHelper](Ink\_Canvas.Helpers.VstoRegistrationHelper.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -31,7 +41,7 @@ public static bool EnsureRegistered()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_VstoRegistrationHelper_IsRegistered"></a> IsRegistered\(\)
 
@@ -41,7 +51,7 @@ public static bool IsRegistered()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_VstoRegistrationHelper_IsVstoAvailable"></a> IsVstoAvailable\(\)
 
@@ -53,7 +63,7 @@ public static bool IsVstoAvailable()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_VstoRegistrationHelper_Register"></a> Register\(\)
 
@@ -63,7 +73,7 @@ public static bool Register()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_VstoRegistrationHelper_Unregister"></a> Unregister\(\)
 
@@ -73,5 +83,5 @@ public static bool Unregister()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

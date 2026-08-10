@@ -16,8 +16,18 @@ public static class UIAccessHelper
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UIAccessHelper](Ink\_Canvas.Helpers.UIAccessHelper.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -31,7 +41,7 @@ public static bool HasUIAccess()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_UIAccessHelper_LaunchNormalUserWithUIAccessFromElevatedHelper"></a> LaunchNormalUserWithUIAccessFromElevatedHelper\(\)
 
@@ -41,21 +51,21 @@ public static bool LaunchNormalUserWithUIAccessFromElevatedHelper()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_UIAccessHelper_LaunchNormalUserWithUIAccessFromElevatedHelper_ProcessToken_System_UInt32_"></a> LaunchNormalUserWithUIAccessFromElevatedHelper\_ProcessToken\(uint\)
 
 ```csharp
-public static bool LaunchNormalUserWithUIAccessFromElevatedHelper_ProcessToken(uint sourcePid = null)
+public static bool LaunchNormalUserWithUIAccessFromElevatedHelper_ProcessToken(uint sourcePid = 0)
 ```
 
 #### Parameters
 
-`sourcePid` uint
+`sourcePid` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_UIAccessHelper_RestartAsNormalUser_System_String_"></a> RestartAsNormalUser\(string\)
 
@@ -70,13 +80,13 @@ public static bool RestartAsNormalUser(string extraArgs = null)
 
 #### Parameters
 
-`extraArgs` string
+`extraArgs` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 追加到新进程的额外命令行参数。
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_UIAccessHelper_RestartAsNormalUserWithUIAccess_System_String_"></a> RestartAsNormalUserWithUIAccess\(string\)
 
@@ -86,11 +96,11 @@ public static bool RestartAsNormalUserWithUIAccess(string extraArgs = null)
 
 #### Parameters
 
-`extraArgs` string
+`extraArgs` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_UIAccessHelper_RestartAsNormalUserWithUIAccess_ProcessToken_System_String_System_UInt32_"></a> RestartAsNormalUserWithUIAccess\_ProcessToken\(string, uint\)
 
@@ -98,18 +108,18 @@ public static bool RestartAsNormalUserWithUIAccess(string extraArgs = null)
 优先从原始进程复制用户令牌，失败时回退到 explorer.exe/ctfmon.exe。
 
 ```csharp
-public static bool RestartAsNormalUserWithUIAccess_ProcessToken(string extraArgs = null, uint sourcePid = null)
+public static bool RestartAsNormalUserWithUIAccess_ProcessToken(string extraArgs = null, uint sourcePid = 0)
 ```
 
 #### Parameters
 
-`extraArgs` string
+`extraArgs` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`sourcePid` uint
+`sourcePid` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_UIAccessHelper_RestartWithUIAccess_System_String_"></a> RestartWithUIAccess\(string\)
 
@@ -122,11 +132,11 @@ public static bool RestartWithUIAccess(string extraArgs = null)
 
 #### Parameters
 
-`extraArgs` string
+`extraArgs` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 追加到新进程的额外命令行参数（例如 --skip-mutex-check）。
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

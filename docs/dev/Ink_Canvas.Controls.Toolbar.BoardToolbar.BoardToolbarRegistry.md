@@ -9,12 +9,22 @@ public static class BoardToolbarRegistry
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [BoardToolbarRegistry](Ink\_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarRegistry.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
-### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_BuildGroup_Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_List_Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarComponentEntry__System_String_"></a> BuildGroup\(IBoardToolbarHost, List<BoardToolbarComponentEntry\>, string\)
+### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_BuildGroup_Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_System_Collections_Generic_List_Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarComponentEntry__System_String_"></a> BuildGroup\(IBoardToolbarHost, List<BoardToolbarComponentEntry\>, string\)
 
 ```csharp
 public static List<FrameworkElement> BuildGroup(IBoardToolbarHost host, List<BoardToolbarComponentEntry> components, string areaId = null)
@@ -24,13 +34,13 @@ public static List<FrameworkElement> BuildGroup(IBoardToolbarHost host, List<Boa
 
 `host` [IBoardToolbarHost](Ink\_Canvas.Controls.Toolbar.BoardToolbar.IBoardToolbarHost.md)
 
-`components` List<[BoardToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarComponentEntry.md)\>
+`components` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[BoardToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarComponentEntry.md)\>
 
-`areaId` string
+`areaId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- List<FrameworkElement\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<FrameworkElement\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_BuildGroup_Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_System_String___"></a> BuildGroup\(IBoardToolbarHost, params string\[\]\)
 
@@ -42,11 +52,11 @@ public static List<FrameworkElement> BuildGroup(IBoardToolbarHost host, params s
 
 `host` [IBoardToolbarHost](Ink\_Canvas.Controls.Toolbar.BoardToolbar.IBoardToolbarHost.md)
 
-`ids` string\[\]
+`ids` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 #### Returns
 
- List<FrameworkElement\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<FrameworkElement\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_BuildView_System_String_Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_"></a> BuildView\(string, IBoardToolbarHost\)
 
@@ -56,7 +66,7 @@ public static FrameworkElement BuildView(string id, IBoardToolbarHost host)
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `host` [IBoardToolbarHost](Ink\_Canvas.Controls.Toolbar.BoardToolbar.IBoardToolbarHost.md)
 
@@ -64,7 +74,7 @@ public static FrameworkElement BuildView(string id, IBoardToolbarHost host)
 
  FrameworkElement
 
-### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_CreateGroupBorder_List_FrameworkElement__Orientation_"></a> CreateGroupBorder\(List<FrameworkElement\>, Orientation\)
+### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_CreateGroupBorder_System_Collections_Generic_List_FrameworkElement__Orientation_"></a> CreateGroupBorder\(List<FrameworkElement\>, Orientation\)
 
 ```csharp
 public static Border CreateGroupBorder(List<FrameworkElement> views, Orientation orientation = null)
@@ -72,7 +82,7 @@ public static Border CreateGroupBorder(List<FrameworkElement> views, Orientation
 
 #### Parameters
 
-`views` List<FrameworkElement\>
+`views` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<FrameworkElement\>
 
 `orientation` Orientation
 
@@ -88,7 +98,7 @@ public static void DeleteConfigFile(string name)
 
 #### Parameters
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_Discover"></a> Discover\(\)
 
@@ -98,7 +108,7 @@ public static IReadOnlyList<IBoardToolbarItem> Discover()
 
 #### Returns
 
- IReadOnlyList<[IBoardToolbarItem](Ink\_Canvas.Controls.Toolbar.BoardToolbar.IBoardToolbarItem.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[IBoardToolbarItem](Ink\_Canvas.Controls.Toolbar.BoardToolbar.IBoardToolbarItem.md)\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_EnsureDefaultConfigExists"></a> EnsureDefaultConfigExists\(\)
 
@@ -114,7 +124,7 @@ public static IBoardToolbarItem FindItem(string id)
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
@@ -128,7 +138,7 @@ public static string GetConfigDirectory()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_GetConfigFilePath_System_String_"></a> GetConfigFilePath\(string\)
 
@@ -138,11 +148,11 @@ public static string GetConfigFilePath(string name)
 
 #### Parameters
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_GetPluginItems"></a> GetPluginItems\(\)
 
@@ -155,7 +165,7 @@ public static IReadOnlyList<PluginToolbarItemInfo> GetPluginItems()
 
 #### Returns
 
- IReadOnlyList<PluginToolbarItemInfo\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<PluginToolbarItemInfo\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_ListConfigFiles"></a> ListConfigFiles\(\)
 
@@ -165,7 +175,7 @@ public static List<string> ListConfigFiles()
 
 #### Returns
 
- List<string\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_LoadActiveConfig"></a> LoadActiveConfig\(\)
 
@@ -185,7 +195,7 @@ public static BoardToolbarLayoutSettings LoadConfigFile(string name)
 
 #### Parameters
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
@@ -274,7 +284,7 @@ public static void RegisterPluginItem(PluginToolbarItemInfo itemInfo, bool autoA
 
 `itemInfo` PluginToolbarItemInfo
 
-`autoAddToActiveConfig` bool
+`autoAddToActiveConfig` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_RemovePluginEntryFromAllConfigs_System_String_"></a> RemovePluginEntryFromAllConfigs\(string\)
 
@@ -287,11 +297,11 @@ public static int RemovePluginEntryFromAllConfigs(string itemId)
 
 #### Parameters
 
-`itemId` string
+`itemId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 被修改的配置文件数量。
 
@@ -303,7 +313,7 @@ public static void SaveConfigFile(string name, BoardToolbarLayoutSettings layout
 
 #### Parameters
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `layout` [BoardToolbarLayoutSettings](Ink\_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarLayoutSettings.md)
 
@@ -319,9 +329,9 @@ public static bool UnregisterPluginItem(string itemId)
 
 #### Parameters
 
-`itemId` string
+`itemId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

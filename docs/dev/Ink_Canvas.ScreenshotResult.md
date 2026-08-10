@@ -7,27 +7,36 @@ Assembly: InkCanvasForClass.dll
 public struct ScreenshotResult
 ```
 
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+
 ## Constructors
 
-### <a id="Ink_Canvas_ScreenshotResult__ctor_Rectangle_List_System_Windows_Point__Bitmap_BitmapSource_System_Boolean_System_Boolean_BitmapSource_"></a> ScreenshotResult\(Rectangle, List<Point\>, Bitmap, BitmapSource, bool, bool, BitmapSource\)
+### <a id="Ink_Canvas_ScreenshotResult__ctor_System_Drawing_Rectangle_System_Collections_Generic_List_System_Windows_Point__Bitmap_BitmapSource_System_Boolean_System_Boolean_BitmapSource_"></a> ScreenshotResult\(Rectangle, List<Point\>, Bitmap, BitmapSource, bool, bool, BitmapSource\)
 
 ```csharp
-public ScreenshotResult(Rectangle area, List<System.Windows.Point> path = null, Bitmap cameraImage = null, BitmapSource cameraBitmapSource = null, bool addToWhiteboard = false, bool includeInk = false, BitmapSource inkOverlayBitmapSource = null)
+public ScreenshotResult(Rectangle area, List<Point> path = null, Bitmap cameraImage = null, BitmapSource cameraBitmapSource = null, bool addToWhiteboard = false, bool includeInk = false, BitmapSource inkOverlayBitmapSource = null)
 ```
 
 #### Parameters
 
-`area` Rectangle
+`area` [Rectangle](https://learn.microsoft.com/dotnet/api/system.drawing.rectangle)
 
-`path` List<System.Windows.Point\>
+`path` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Point\>
 
 `cameraImage` Bitmap
 
 `cameraBitmapSource` BitmapSource
 
-`addToWhiteboard` bool
+`addToWhiteboard` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-`includeInk` bool
+`includeInk` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 `inkOverlayBitmapSource` BitmapSource
 
@@ -41,7 +50,7 @@ public bool AddToWhiteboard
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_ScreenshotResult_Area"></a> Area
 
@@ -51,7 +60,7 @@ public Rectangle Area
 
 #### Field Value
 
- Rectangle
+ [Rectangle](https://learn.microsoft.com/dotnet/api/system.drawing.rectangle)
 
 ### <a id="Ink_Canvas_ScreenshotResult_CameraBitmapSource"></a> CameraBitmapSource
 
@@ -81,7 +90,7 @@ public bool IncludeInk
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_ScreenshotResult_InkOverlayBitmapSource"></a> InkOverlayBitmapSource
 
@@ -96,10 +105,10 @@ public BitmapSource InkOverlayBitmapSource
 ### <a id="Ink_Canvas_ScreenshotResult_Path"></a> Path
 
 ```csharp
-public List<System.Windows.Point> Path
+public List<Point> Path
 ```
 
 #### Field Value
 
- List<System.Windows.Point\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Point\>
 

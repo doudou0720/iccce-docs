@@ -12,8 +12,18 @@ public static class AutoBackupManager
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AutoBackupManager](Ink\_Canvas.Helpers.AutoBackupManager.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -62,7 +72,7 @@ public static bool PerformAutoBackup(Settings settings)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> 表示备份成功，<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> 表示备份失败或被跳过。
 
@@ -86,7 +96,7 @@ public static bool ShouldPerformAutoBackup(Settings settings)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 如果需要备份返回<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>，否则返回<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>
 
@@ -100,7 +110,7 @@ public static bool TryRestoreFromBackup()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> 如果恢复成功，<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> 否则。
 

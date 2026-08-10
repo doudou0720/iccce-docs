@@ -11,8 +11,20 @@ public class InkSmoothingEventArgs : EventArgs
 
 #### Inheritance
 
-EventArgs ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
 [InkSmoothingEventArgs](Ink\_Canvas.Helpers.InkSmoothingEventArgs.md)
+
+#### Inherited Members
+
+[EventArgs.Empty](https://learn.microsoft.com/dotnet/api/system.eventargs.empty), 
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -34,7 +46,7 @@ public TimeSpan ProcessingTime { get; set; }
 
 #### Property Value
 
- TimeSpan
+ [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingEventArgs_SmoothedStroke"></a> SmoothedStroke
 
@@ -54,7 +66,7 @@ public bool UsedHardwareAcceleration { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingEventArgs_WasAsync"></a> WasAsync
 
@@ -64,5 +76,5 @@ public bool WasAsync { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

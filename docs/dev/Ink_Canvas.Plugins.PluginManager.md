@@ -9,12 +9,22 @@ public class PluginManager : IPluginHost
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PluginManager](Ink\_Canvas.Plugins.PluginManager.md)
 
 #### Implements
 
 IPluginHost
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -26,7 +36,7 @@ public static readonly string ManifestFileName
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_PluginPackageExtension"></a> PluginPackageExtension
 
@@ -36,7 +46,7 @@ public static readonly string PluginPackageExtension
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Properties
 
@@ -64,7 +74,7 @@ public string CurrentLoadingPluginId { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_DisabledPlugins"></a> DisabledPlugins
 
@@ -76,7 +86,7 @@ public IReadOnlyCollection<string> DisabledPlugins { get; }
 
 #### Property Value
 
- IReadOnlyCollection<string\>
+ [IReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_Instance"></a> Instance
 
@@ -120,9 +130,11 @@ public IReadOnlyList<PluginInfo> Plugins { get; }
 
 #### Property Value
 
- IReadOnlyList<PluginInfo\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<PluginInfo\>
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_ServiceProvider"></a> ServiceProvider
+
+依赖注入服务提供者。在所有插件 Initialize 完成后可用。
 
 ```csharp
 public IServiceProvider ServiceProvider { get; }
@@ -130,7 +142,7 @@ public IServiceProvider ServiceProvider { get; }
 
 #### Property Value
 
- IServiceProvider
+ [IServiceProvider](https://learn.microsoft.com/dotnet/api/system.iserviceprovider)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_Services"></a> Services
 
@@ -166,7 +178,7 @@ public void DisablePlugin(string pluginId)
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_EnablePlugin_System_String_"></a> EnablePlugin\(string\)
 
@@ -178,7 +190,7 @@ public void EnablePlugin(string pluginId)
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_EvaluateTrust_System_String_System_String_System_String_"></a> EvaluateTrust\(string, string, string\)
 
@@ -190,11 +202,11 @@ public SecurityVerdict EvaluateTrust(string packagePath, string expectedSha256, 
 
 #### Parameters
 
-`packagePath` string
+`packagePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`expectedSha256` string
+`expectedSha256` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`declaredPluginId` string
+`declaredPluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
@@ -210,7 +222,7 @@ public PluginLogger GetLogger(string pluginId)
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
@@ -226,7 +238,7 @@ public HashSet<string> GetPendingPackagePluginIds()
 
 #### Returns
 
- HashSet<string\>
+ [HashSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_GetPluginError_System_String_"></a> GetPluginError\(string\)
 
@@ -238,7 +250,7 @@ public PluginErrorRecord GetPluginError(string pluginId)
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
@@ -254,11 +266,11 @@ public string GetPluginLogPath(string pluginId)
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_GetService__1"></a> GetService<T\>\(\)
 
@@ -299,13 +311,13 @@ public IReadOnlyList<string> InstallPendingPackages(string approvedPackagePath =
 
 #### Parameters
 
-`approvedPackagePath` string
+`approvedPackagePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`approvedPackageSha256` string
+`approvedPackageSha256` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- IReadOnlyList<string\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 本次成功安装（解压）的插件 ID 列表。
 
@@ -319,11 +331,11 @@ public bool IsPluginDisabled(string pluginId)
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_LoadAllAsync"></a> LoadAllAsync\(\)
 
@@ -333,7 +345,7 @@ public Task LoadAllAsync()
 
 #### Returns
 
- Task
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_Log_System_String_"></a> Log\(string\)
 
@@ -343,9 +355,9 @@ public void Log(string message)
 
 #### Parameters
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Plugins_PluginManager_LogError_System_String_Exception_"></a> LogError\(string, Exception\)
+### <a id="Ink_Canvas_Plugins_PluginManager_LogError_System_String_System_Exception_"></a> LogError\(string, Exception\)
 
 ```csharp
 public void LogError(string message, Exception ex = null)
@@ -353,9 +365,9 @@ public void LogError(string message, Exception ex = null)
 
 #### Parameters
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`ex` Exception
+`ex` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_LogPlugin_System_String_System_String_System_String_"></a> LogPlugin\(string, string, string\)
 
@@ -367,11 +379,11 @@ public void LogPlugin(string pluginId, string level, string message)
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`level` string
+`level` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_OnLogMessage_System_String_"></a> OnLogMessage\(string\)
 
@@ -381,7 +393,7 @@ protected virtual void OnLogMessage(string message)
 
 #### Parameters
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_OnPluginLoaded_Ink_Canvas_Plugins_PluginInfo_"></a> OnPluginLoaded\(PluginInfo\)
 
@@ -414,11 +426,11 @@ public bool OpenUri(string uri)
 
 #### Parameters
 
-`uri` string
+`uri` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_PurgeUnloadedPlugin_Ink_Canvas_Plugins_PluginInfo_"></a> PurgeUnloadedPlugin\(PluginInfo\)
 
@@ -446,19 +458,19 @@ public void RegisterBoardToolbarItem(PluginToolbarItemInfo itemInfo)
 
 `itemInfo` PluginToolbarItemInfo
 
-### <a id="Ink_Canvas_Plugins_PluginManager_RegisterIpcHandler_System_String_Func_System_Nullable_System_Text_Json_JsonElement__System_Object__"></a> RegisterIpcHandler\(string, Func<JsonElement?, object\>\)
+### <a id="Ink_Canvas_Plugins_PluginManager_RegisterIpcHandler_System_String_System_Func_System_Nullable_System_Text_Json_JsonElement__System_Object__"></a> RegisterIpcHandler\(string, Func<JsonElement?, object\>\)
 
 注册 IPC 处理函数。
 
 ```csharp
-public void RegisterIpcHandler(string method, Func<System.Text.Json.JsonElement?, object> handler)
+public void RegisterIpcHandler(string method, Func<JsonElement?, object> handler)
 ```
 
 #### Parameters
 
-`method` string
+`method` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`handler` Func<System.Text.Json.JsonElement?, object\>
+`handler` [Func](https://learn.microsoft.com/dotnet/api/system.func\-2)<[JsonElement](https://learn.microsoft.com/dotnet/api/system.text.json.jsonelement)?, [object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_RegisterService__1___0_"></a> RegisterService<T\>\(T\)
 
@@ -476,7 +488,7 @@ public void RegisterService<T>(T service) where T : class
 
 `T` 
 
-### <a id="Ink_Canvas_Plugins_PluginManager_RegisterService_Type_System_Object_"></a> RegisterService\(Type, object\)
+### <a id="Ink_Canvas_Plugins_PluginManager_RegisterService_System_Type_System_Object_"></a> RegisterService\(Type, object\)
 
 非泛型注册服务，支持 Type 参数批量注册。
 
@@ -486,9 +498,9 @@ public void RegisterService(Type serviceType, object service)
 
 #### Parameters
 
-`serviceType` Type
+`serviceType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-`service` object
+`service` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_RegisterToolbarItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterToolbarItem\(PluginToolbarItemInfo\)
 
@@ -502,7 +514,7 @@ public void RegisterToolbarItem(PluginToolbarItemInfo itemInfo)
 
 `itemInfo` PluginToolbarItemInfo
 
-### <a id="Ink_Canvas_Plugins_PluginManager_RegisterUriHandler_System_String_Func_Ink_Canvas_Plugins_PluginUriRequest_System_Boolean__"></a> RegisterUriHandler\(string, Func<PluginUriRequest, bool\>\)
+### <a id="Ink_Canvas_Plugins_PluginManager_RegisterUriHandler_System_String_System_Func_Ink_Canvas_Plugins_PluginUriRequest_System_Boolean__"></a> RegisterUriHandler\(string, Func<PluginUriRequest, bool\>\)
 
 注册 URI 处理程序。须在插件 Initialize 阶段调用，通过 <xref href="Ink_Canvas.Plugins.PluginManager._currentLoadingPlugin" data-throw-if-not-resolved="false"></xref> 识别调用方插件。
 
@@ -512,9 +524,9 @@ public void RegisterUriHandler(string subPath, Func<PluginUriRequest, bool> hand
 
 #### Parameters
 
-`subPath` string
+`subPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`handler` Func<PluginUriRequest, bool\>
+`handler` [Func](https://learn.microsoft.com/dotnet/api/system.func\-2)<PluginUriRequest, [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_ReloadPlugin_System_String_"></a> ReloadPlugin\(string\)
 
@@ -527,7 +539,7 @@ public PluginReloadResult ReloadPlugin(string pluginId)
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
@@ -545,11 +557,11 @@ public bool ResetPluginFailure(string pluginId)
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_StartIpc"></a> StartIpc\(\)
 
@@ -570,15 +582,15 @@ public bool TryDispatchUri(string pluginId, string subPath, string rawUri)
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`subPath` string
+`subPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`rawUri` string
+`rawUri` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_UnloadAll"></a> UnloadAll\(\)
 
@@ -600,7 +612,7 @@ public void UnloadPlugin(PluginInfo plugin, bool deleteFolder = false)
 
 要卸载的插件。
 
-`deleteFolder` bool
+`deleteFolder` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 true = 真正卸载，连同插件目录一并删除（用户点"删除"）；
 false = 仅卸载实例并释放目录锁，保留文件（热重载 / 覆盖安装）。
@@ -610,7 +622,7 @@ false = 仅卸载实例并释放目录锁，保留文件（热重载 / 覆盖安
 等待指定插件的 ALC 被 GC 真正回收，返回是否卸载成功。
 
 <p>
-AssemblyLoadContext.Unload 只是发起卸载请求，实际释放要等 GC 确认
+<xref href="System.Runtime.Loader.AssemblyLoadContext.Unload" data-throw-if-not-resolved="false"></xref> 只是发起卸载请求，实际释放要等 GC 确认
 无人引用。这里做有限次 GC 后检查弱引用；仍存活说明宿主某处还留着插件对象，
 属于注册撤销不完整，调用方据此决定是否回退到重启。
 </p>
@@ -621,13 +633,13 @@ public bool WaitForUnload(string pluginId, int maxAttempts = 10)
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`maxAttempts` int
+`maxAttempts` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_LogMessage"></a> LogMessage
 
@@ -637,7 +649,7 @@ public event EventHandler<string> LogMessage
 
 #### Event Type
 
- EventHandler<string\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_PluginLoaded"></a> PluginLoaded
 
@@ -647,7 +659,7 @@ public event EventHandler<PluginInfo> PluginLoaded
 
 #### Event Type
 
- EventHandler<PluginInfo\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<PluginInfo\>
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_PluginUnloaded"></a> PluginUnloaded
 
@@ -657,5 +669,5 @@ public event EventHandler<PluginInfo> PluginUnloaded
 
 #### Event Type
 
- EventHandler<PluginInfo\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<PluginInfo\>
 

@@ -9,8 +9,17 @@ public sealed class UInkDevice
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkDevice](Ink\_Canvas.UInk.UInkDevice.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -22,7 +31,7 @@ public int DeviceType
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_UInk_UInkDevice_DisplayHeight"></a> DisplayHeight
 
@@ -32,7 +41,7 @@ public uint? DisplayHeight
 
 #### Field Value
 
- uint?
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)?
 
 ### <a id="Ink_Canvas_UInk_UInkDevice_DisplayWidth"></a> DisplayWidth
 
@@ -42,7 +51,7 @@ public uint? DisplayWidth
 
 #### Field Value
 
- uint?
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)?
 
 ### <a id="Ink_Canvas_UInk_UInkDevice_DisplayX"></a> DisplayX
 
@@ -52,7 +61,7 @@ public int? DisplayX
 
 #### Field Value
 
- int?
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)?
 
 ### <a id="Ink_Canvas_UInk_UInkDevice_DisplayY"></a> DisplayY
 
@@ -62,7 +71,7 @@ public int? DisplayY
 
 #### Field Value
 
- int?
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)?
 
 ### <a id="Ink_Canvas_UInk_UInkDevice_Extra"></a> Extra
 
@@ -72,7 +81,7 @@ public Dictionary<string, string> Extra
 
 #### Field Value
 
- Dictionary<string, string\>
+ [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_UInk_UInkDevice_Guid"></a> Guid
 
@@ -82,7 +91,7 @@ public string Guid
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_UInk_UInkDevice_Hardware"></a> Hardware
 
@@ -102,7 +111,7 @@ public string Name
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_UInk_UInkDevice_ParentDeviceGuid"></a> ParentDeviceGuid
 
@@ -112,7 +121,7 @@ public string ParentDeviceGuid
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_UInk_UInkDevice_WindowHeight"></a> WindowHeight
 
@@ -122,7 +131,7 @@ public float? WindowHeight
 
 #### Field Value
 
- float?
+ [float](https://learn.microsoft.com/dotnet/api/system.single)?
 
 ### <a id="Ink_Canvas_UInk_UInkDevice_WindowWidth"></a> WindowWidth
 
@@ -132,7 +141,7 @@ public float? WindowWidth
 
 #### Field Value
 
- float?
+ [float](https://learn.microsoft.com/dotnet/api/system.single)?
 
 ### <a id="Ink_Canvas_UInk_UInkDevice_WindowX"></a> WindowX
 
@@ -142,7 +151,7 @@ public float? WindowX
 
 #### Field Value
 
- float?
+ [float](https://learn.microsoft.com/dotnet/api/system.single)?
 
 ### <a id="Ink_Canvas_UInk_UInkDevice_WindowY"></a> WindowY
 
@@ -152,7 +161,7 @@ public float? WindowY
 
 #### Field Value
 
- float?
+ [float](https://learn.microsoft.com/dotnet/api/system.single)?
 
 ### <a id="Ink_Canvas_UInk_UInkDevice_ZIndex"></a> ZIndex
 
@@ -162,5 +171,5 @@ public uint? ZIndex
 
 #### Field Value
 
- uint?
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)?
 

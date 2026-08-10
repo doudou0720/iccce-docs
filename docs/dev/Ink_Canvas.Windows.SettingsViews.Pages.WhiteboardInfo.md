@@ -9,8 +9,18 @@ public class WhiteboardInfo
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [WhiteboardInfo](Ink\_Canvas.Windows.SettingsViews.Pages.WhiteboardInfo.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public string BoardId { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_ClassId"></a> ClassId
 
@@ -32,7 +42,7 @@ public int ClassId { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_ClassName"></a> ClassName
 
@@ -42,7 +52,7 @@ public string ClassName { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_CreatedAt"></a> CreatedAt
 
@@ -52,7 +62,7 @@ public string CreatedAt { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_Id"></a> Id
 
@@ -62,7 +72,7 @@ public int Id { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_IsOnline"></a> IsOnline
 
@@ -72,7 +82,7 @@ public bool IsOnline { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_LastHeartbeat"></a> LastHeartbeat
 
@@ -82,7 +92,7 @@ public string LastHeartbeat { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_Name"></a> Name
 
@@ -92,7 +102,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_WhiteboardInfo_SecretKey"></a> SecretKey
 
@@ -102,5 +112,5 @@ public string SecretKey { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

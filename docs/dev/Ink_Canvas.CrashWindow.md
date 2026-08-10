@@ -30,5 +30,5 @@ public string CrashInfo { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

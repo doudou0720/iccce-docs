@@ -43,7 +43,7 @@ public static PPTPageFlipPreviewOverlayWindow ActiveInstance { get; }
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_SettingsViews_PPTPageFlipPreviewOverlayWindow_OnSourceInitialized_EventArgs_"></a> OnSourceInitialized\(EventArgs\)
+### <a id="Ink_Canvas_Windows_SettingsViews_PPTPageFlipPreviewOverlayWindow_OnSourceInitialized_System_EventArgs_"></a> OnSourceInitialized\(EventArgs\)
 
 ```csharp
 protected override void OnSourceInitialized(EventArgs e)
@@ -51,7 +51,7 @@ protected override void OnSourceInitialized(EventArgs e)
 
 #### Parameters
 
-`e` EventArgs
+`e` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_PPTPageFlipPreviewOverlayWindow_UpdatePreview"></a> UpdatePreview\(\)
 

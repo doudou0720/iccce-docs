@@ -40,7 +40,7 @@ public int LoadSplashImageWithStyle()
 
 #### Returns
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 实际选择的样式
 
@@ -54,7 +54,7 @@ public void SetLoadingMessage(string message)
 
 #### Parameters
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 加载消息
 
@@ -66,9 +66,9 @@ public void SetLoadingMessage(string message, int actualSplashStyle)
 
 #### Parameters
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`actualSplashStyle` int
+`actualSplashStyle` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Windows_SplashScreen_SetProgress_System_Int32_"></a> SetProgress\(int\)
 
@@ -80,7 +80,7 @@ public void SetProgress(int progress)
 
 #### Parameters
 
-`progress` int
+`progress` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 进度百分比
 

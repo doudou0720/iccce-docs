@@ -9,13 +9,13 @@ public enum ToolbarHidingRule
 
 ## Fields
 
-`AlwaysShow` 
+`AlwaysShow = 0` 
 
-`AnnotationOnly` 
+`AnnotationOnly = 1` 
 
-`AnnotationOrPPTGesture` 
+`AnnotationOrPPTGesture = 4` 
 
-`PPTAnnotationOnly` 
+`PPTAnnotationOnly = 3` 
 
-`PPTOnly` 
+`PPTOnly = 2` 
 

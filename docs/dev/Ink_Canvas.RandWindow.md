@@ -36,7 +36,7 @@ public RandWindow(Settings settings, bool IsAutoClose)
 
 `settings` [Settings](Ink\_Canvas.Settings.md)
 
-`IsAutoClose` bool
+`IsAutoClose` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Fields
 
@@ -48,7 +48,7 @@ public List<string> Names
 
 #### Field Value
 
- List<string\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_RandWindow_PeopleCount"></a> PeopleCount
 
@@ -58,7 +58,7 @@ public int PeopleCount
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_RandWindow_RandDoneAutoCloseWaitTime"></a> RandDoneAutoCloseWaitTime
 
@@ -68,7 +68,7 @@ public int RandDoneAutoCloseWaitTime
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_RandWindow_RandMaxPeopleOneTime"></a> RandMaxPeopleOneTime
 
@@ -78,7 +78,7 @@ public int RandMaxPeopleOneTime
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_RandWindow_RandWaitingThreadSleepTime"></a> RandWaitingThreadSleepTime
 
@@ -88,7 +88,7 @@ public int RandWaitingThreadSleepTime
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_RandWindow_RandWaitingTimes"></a> RandWaitingTimes
 
@@ -98,7 +98,7 @@ public int RandWaitingTimes
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_RandWindow_TotalCount"></a> TotalCount
 
@@ -108,7 +108,7 @@ public int TotalCount
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_RandWindow_isAutoClose"></a> isAutoClose
 
@@ -118,7 +118,7 @@ public bool isAutoClose
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_RandWindow_isNotRepeatName"></a> isNotRepeatName
 
@@ -128,7 +128,7 @@ public bool isNotRepeatName
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_RandWindow_randSeed"></a> randSeed
 
@@ -138,7 +138,7 @@ public static int randSeed
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 

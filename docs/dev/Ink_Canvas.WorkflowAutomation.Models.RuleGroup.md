@@ -26,7 +26,7 @@ public bool IsEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_RuleGroup_IsReversed"></a> IsReversed
 
@@ -38,7 +38,7 @@ public bool IsReversed { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_RuleGroup_Mode"></a> Mode
 
@@ -62,7 +62,7 @@ public ObservableCollection<Rule> Rules { get; set; }
 
 #### Property Value
 
- ObservableCollection<[Rule](Ink\_Canvas.WorkflowAutomation.Models.Rule.md)\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[Rule](Ink\_Canvas.WorkflowAutomation.Models.Rule.md)\>
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_RuleGroup_State"></a> State
 
@@ -74,5 +74,5 @@ public int State { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -36,7 +36,7 @@ public bool IsUsingWindowChromeRendering { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -64,5 +64,5 @@ protected virtual bool ShouldHandleWindowChromeHitTest(Point windowPoint)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

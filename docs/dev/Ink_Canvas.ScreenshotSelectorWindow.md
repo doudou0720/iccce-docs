@@ -29,12 +29,12 @@ public ScreenshotSelectorWindow(BitmapSource inkOverlayPreview = null)
 ### <a id="Ink_Canvas_ScreenshotSelectorWindow_CameraBitmapSource"></a> CameraBitmapSource
 
 ```csharp
-public System.Windows.Media.Imaging.BitmapSource CameraBitmapSource { get; }
+public Media.Imaging.BitmapSource CameraBitmapSource { get; }
 ```
 
 #### Property Value
 
- System.Windows.Media.Imaging.BitmapSource
+ Media.Imaging.BitmapSource
 
 ### <a id="Ink_Canvas_ScreenshotSelectorWindow_CameraImage"></a> CameraImage
 
@@ -54,27 +54,27 @@ public bool IncludeInkInScreenshot { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_ScreenshotSelectorWindow_SelectedArea"></a> SelectedArea
 
 ```csharp
-public System.Drawing.Rectangle? SelectedArea { get; }
+public Rectangle? SelectedArea { get; }
 ```
 
 #### Property Value
 
- System.Drawing.Rectangle?
+ [Rectangle](https://learn.microsoft.com/dotnet/api/system.drawing.rectangle)?
 
 ### <a id="Ink_Canvas_ScreenshotSelectorWindow_SelectedPath"></a> SelectedPath
 
 ```csharp
-public List<System.Windows.Point> SelectedPath { get; }
+public List<Point> SelectedPath { get; }
 ```
 
 #### Property Value
 
- List<System.Windows.Point\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Point\>
 
 ### <a id="Ink_Canvas_ScreenshotSelectorWindow_ShouldAddToWhiteboard"></a> ShouldAddToWhiteboard
 
@@ -84,11 +84,11 @@ public bool ShouldAddToWhiteboard { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
-### <a id="Ink_Canvas_ScreenshotSelectorWindow_OnClosed_EventArgs_"></a> OnClosed\(EventArgs\)
+### <a id="Ink_Canvas_ScreenshotSelectorWindow_OnClosed_System_EventArgs_"></a> OnClosed\(EventArgs\)
 
 ```csharp
 protected override void OnClosed(EventArgs e)
@@ -96,5 +96,5 @@ protected override void OnClosed(EventArgs e)
 
 #### Parameters
 
-`e` EventArgs
+`e` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
 

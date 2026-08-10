@@ -9,7 +9,7 @@ public enum ToolbarLogicalMode
 
 ## Fields
 
-`And` 
+`And = 1` 
 
-`Or` 
+`Or = 0` 
 

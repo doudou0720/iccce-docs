@@ -9,8 +9,18 @@ public static class CrashStrings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [CrashStrings](Ink\_Canvas.Properties.CrashStrings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public static string CrashWindowClose { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_CrashStrings_CrashWindowCopy"></a> CrashWindowCopy
 
@@ -32,7 +42,7 @@ public static string CrashWindowCopy { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_CrashStrings_CrashWindowDescription"></a> CrashWindowDescription
 
@@ -42,7 +52,7 @@ public static string CrashWindowDescription { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_CrashStrings_CrashWindowFooter"></a> CrashWindowFooter
 
@@ -52,7 +62,7 @@ public static string CrashWindowFooter { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_CrashStrings_CrashWindowHeader"></a> CrashWindowHeader
 
@@ -62,7 +72,7 @@ public static string CrashWindowHeader { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_CrashStrings_CrashWindowNoDetails"></a> CrashWindowNoDetails
 
@@ -72,7 +82,7 @@ public static string CrashWindowNoDetails { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_CrashStrings_CrashWindowTitle"></a> CrashWindowTitle
 
@@ -82,7 +92,7 @@ public static string CrashWindowTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_CrashStrings_Crash_Desc"></a> Crash\_Desc
 
@@ -92,7 +102,7 @@ public static string Crash_Desc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_CrashStrings_Crash_NoAction"></a> Crash\_NoAction
 
@@ -102,7 +112,7 @@ public static string Crash_NoAction { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_CrashStrings_Crash_ShowCrashWindow"></a> Crash\_ShowCrashWindow
 
@@ -112,7 +122,7 @@ public static string Crash_ShowCrashWindow { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_CrashStrings_Crash_SilentRestart"></a> Crash\_SilentRestart
 
@@ -122,7 +132,7 @@ public static string Crash_SilentRestart { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_CrashStrings_Crash_Title"></a> Crash\_Title
 
@@ -132,7 +142,7 @@ public static string Crash_Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_CrashStrings_Culture"></a> Culture
 
@@ -142,7 +152,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- CultureInfo
+ [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 ### <a id="Ink_Canvas_Properties_CrashStrings_ResourceManager"></a> ResourceManager
 
@@ -152,7 +162,7 @@ public static ResourceManager ResourceManager { get; }
 
 #### Property Value
 
- ResourceManager
+ [ResourceManager](https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager)
 
 ## Methods
 
@@ -164,9 +174,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

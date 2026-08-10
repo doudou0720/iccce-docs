@@ -9,8 +9,18 @@ public static class StartupStrings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [StartupStrings](Ink\_Canvas.Properties.StartupStrings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public static string AutoUpdateHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_Culture"></a> Culture
 
@@ -32,7 +42,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- CultureInfo
+ [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_EnableNibMode"></a> EnableNibMode
 
@@ -42,7 +52,7 @@ public static string EnableNibMode { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_EnableNibModeHint"></a> EnableNibModeHint
 
@@ -52,7 +62,7 @@ public static string EnableNibModeHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_ExternalProtocol"></a> ExternalProtocol
 
@@ -62,7 +72,7 @@ public static string ExternalProtocol { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_ExternalProtocolHint"></a> ExternalProtocolHint
 
@@ -72,7 +82,7 @@ public static string ExternalProtocolHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_FastStartup"></a> FastStartup
 
@@ -82,7 +92,7 @@ public static string FastStartup { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_FastStartupHint"></a> FastStartupHint
 
@@ -92,7 +102,7 @@ public static string FastStartupHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_FixVersionHint"></a> FixVersionHint
 
@@ -102,7 +112,7 @@ public static string FixVersionHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_FoldAtStartup"></a> FoldAtStartup
 
@@ -112,7 +122,7 @@ public static string FoldAtStartup { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_FoldAtStartupHint"></a> FoldAtStartupHint
 
@@ -122,7 +132,7 @@ public static string FoldAtStartupHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_NoBorderMode"></a> NoBorderMode
 
@@ -132,7 +142,7 @@ public static string NoBorderMode { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_NoBorderModeHint"></a> NoBorderModeHint
 
@@ -142,7 +152,7 @@ public static string NoBorderModeHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_NoFocusMode"></a> NoFocusMode
 
@@ -152,7 +162,7 @@ public static string NoFocusMode { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_NoFocusModeHint"></a> NoFocusModeHint
 
@@ -162,7 +172,7 @@ public static string NoFocusModeHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_ResourceManager"></a> ResourceManager
 
@@ -172,7 +182,7 @@ public static ResourceManager ResourceManager { get; }
 
 #### Property Value
 
- ResourceManager
+ [ResourceManager](https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_RunAtStartup"></a> RunAtStartup
 
@@ -182,7 +192,7 @@ public static string RunAtStartup { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_RunAtStartupHint"></a> RunAtStartupHint
 
@@ -192,7 +202,7 @@ public static string RunAtStartupHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_SilentUpdateFullHint"></a> SilentUpdateFullHint
 
@@ -202,7 +212,7 @@ public static string SilentUpdateFullHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_SilentUpdateHint"></a> SilentUpdateHint
 
@@ -212,7 +222,7 @@ public static string SilentUpdateHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_SilentUpdate_TimeRange"></a> SilentUpdate\_TimeRange
 
@@ -222,7 +232,7 @@ public static string SilentUpdate_TimeRange { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_SmartUpdate"></a> SmartUpdate
 
@@ -232,7 +242,7 @@ public static string SmartUpdate { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_SmartUpdateHint"></a> SmartUpdateHint
 
@@ -242,7 +252,7 @@ public static string SmartUpdateHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_Start"></a> Start
 
@@ -252,7 +262,7 @@ public static string Start { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_Startup_Behavior"></a> Startup\_Behavior
 
@@ -262,7 +272,7 @@ public static string Startup_Behavior { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_TimePeriodHint"></a> TimePeriodHint
 
@@ -272,7 +282,7 @@ public static string TimePeriodHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_TopMost"></a> TopMost
 
@@ -282,7 +292,7 @@ public static string TopMost { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_TopMostHint"></a> TopMostHint
 
@@ -292,7 +302,7 @@ public static string TopMostHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_TopMostMode"></a> TopMostMode
 
@@ -302,7 +312,7 @@ public static string TopMostMode { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_TopMostMode_CurrentUIAccessNormal"></a> TopMostMode\_CurrentUIAccessNormal
 
@@ -312,7 +322,7 @@ public static string TopMostMode_CurrentUIAccessNormal { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_TopMostMode_Normal"></a> TopMostMode\_Normal
 
@@ -322,7 +332,7 @@ public static string TopMostMode_Normal { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_TopMostMode_Normal_RestartRequired"></a> TopMostMode\_Normal\_RestartRequired
 
@@ -332,7 +342,7 @@ public static string TopMostMode_Normal_RestartRequired { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_TopMostMode_RestartAsAdmin"></a> TopMostMode\_RestartAsAdmin
 
@@ -342,7 +352,7 @@ public static string TopMostMode_RestartAsAdmin { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_TopMostMode_RestartAsNormal"></a> TopMostMode\_RestartAsNormal
 
@@ -352,7 +362,7 @@ public static string TopMostMode_RestartAsNormal { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_TopMostMode_UIA"></a> TopMostMode\_UIA
 
@@ -362,7 +372,7 @@ public static string TopMostMode_UIA { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_TopMostMode_UIA_RestartRequired"></a> TopMostMode\_UIA\_RestartRequired
 
@@ -372,7 +382,7 @@ public static string TopMostMode_UIA_RestartRequired { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_UIAMode_Description"></a> UIAMode\_Description
 
@@ -382,7 +392,7 @@ public static string UIAMode_Description { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_UIAMode_Label"></a> UIAMode\_Label
 
@@ -392,7 +402,7 @@ public static string UIAMode_Label { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_UIAMode_ProcessToken"></a> UIAMode\_ProcessToken
 
@@ -402,7 +412,7 @@ public static string UIAMode_ProcessToken { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_UIAMode_UserToken"></a> UIAMode\_UserToken
 
@@ -412,7 +422,7 @@ public static string UIAMode_UserToken { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_UpdateChannel"></a> UpdateChannel
 
@@ -422,7 +432,7 @@ public static string UpdateChannel { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_UpdateChannelHint"></a> UpdateChannelHint
 
@@ -432,7 +442,7 @@ public static string UpdateChannelHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_UpdatePackageArchitecture"></a> UpdatePackageArchitecture
 
@@ -442,7 +452,7 @@ public static string UpdatePackageArchitecture { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_StartupStrings_UpdatePackageArchitectureHint"></a> UpdatePackageArchitectureHint
 
@@ -452,7 +462,7 @@ public static string UpdatePackageArchitectureHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -464,9 +474,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

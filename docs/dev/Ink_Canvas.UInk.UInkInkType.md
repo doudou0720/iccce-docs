@@ -11,11 +11,11 @@ public enum UInkInkType
 
 ## Fields
 
-`AdvancedHighlighter` 
+`AdvancedHighlighter = 3` 
 
-`Erase` 
+`Erase = 0` 
 
-`Highlighter` 
+`Highlighter = 2` 
 
-`Pen` 
+`Pen = 1` 
 

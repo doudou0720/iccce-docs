@@ -11,8 +11,18 @@ public static class AutomationRegistryExtensions
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AutomationRegistryExtensions](Ink\_Canvas.WorkflowAutomation.Extensions.AutomationRegistryExtensions.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -28,11 +38,11 @@ public static IServiceCollection AddAction(this IServiceCollection services, str
 
 `services` IServiceCollection
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`iconKind` string
+`iconKind` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `onHandle` [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
 
@@ -52,11 +62,11 @@ public static IServiceCollection AddAction<TSettings>(this IServiceCollection se
 
 `services` IServiceCollection
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`iconKind` string
+`iconKind` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `onHandle` [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
 
@@ -80,11 +90,11 @@ public static IServiceCollection AddAction<TSettings, TSettingsControl>(this ISe
 
 `services` IServiceCollection
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`iconKind` string
+`iconKind` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `onHandle` [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
 
@@ -110,11 +120,11 @@ public static IServiceCollection AddRule(this IServiceCollection services, strin
 
 `services` IServiceCollection
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`iconKind` string
+`iconKind` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `onHandle` [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)
 
@@ -134,11 +144,11 @@ public static IServiceCollection AddRule<TSettings>(this IServiceCollection serv
 
 `services` IServiceCollection
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`iconKind` string
+`iconKind` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `onHandle` [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)
 
@@ -162,11 +172,11 @@ public static IServiceCollection AddRule<TSettings, TSettingsControl>(this IServ
 
 `services` IServiceCollection
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`iconKind` string
+`iconKind` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `onHandle` [RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.HandleDelegate.md)
 

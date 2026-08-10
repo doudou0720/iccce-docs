@@ -35,7 +35,7 @@ public override object Settings { get; set; }
 
 #### Property Value
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Abstractions_ActionSettingsControlBase_1_TypedSettings"></a> TypedSettings
 

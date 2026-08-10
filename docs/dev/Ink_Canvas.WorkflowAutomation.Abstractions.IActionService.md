@@ -21,7 +21,7 @@ public static Dictionary<string, ActionRegistryInfo> Actions { get; }
 
 #### Property Value
 
- Dictionary<string, [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md)\>
+ [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md)\>
 
 ## Methods
 
@@ -39,7 +39,7 @@ bool ExistRevertHandler(Action action)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Abstractions_IActionService_Invoke_Ink_Canvas_WorkflowAutomation_Models_ActionSet_"></a> Invoke\(ActionSet\)
 
@@ -64,7 +64,7 @@ void RegisterActionHandler(string id, ActionRegistryInfo.HandleDelegate handler)
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `handler` [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
 
@@ -79,7 +79,7 @@ void RegisterRevertHandler(string id, ActionRegistryInfo.HandleDelegate handler)
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `handler` [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
 
@@ -105,7 +105,7 @@ void UnregisterActionHandler(string id, ActionRegistryInfo.HandleDelegate handle
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `handler` [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
 
@@ -119,7 +119,7 @@ void UnregisterRevertHandler(string id, ActionRegistryInfo.HandleDelegate handle
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `handler` [ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md).[HandleDelegate](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.HandleDelegate.md)
 

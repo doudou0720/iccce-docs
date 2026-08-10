@@ -11,7 +11,7 @@ public enum UInkDeviceType
 
 ## Fields
 
-`Display` 
+`Display = 0` 
 
-`Window` 
+`Window = 1` 
 

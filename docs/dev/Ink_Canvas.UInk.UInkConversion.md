@@ -16,8 +16,18 @@ public static class UInkConversion
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkConversion](Ink\_Canvas.UInk.UInkConversion.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -26,12 +36,12 @@ object ←
 私有扩展键：序列化的 ICC DrawingAttributes 字符串。
 
 ```csharp
-public const string IccDaKey
+public const string IccDaKey = "icc:da"
 ```
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -65,7 +75,7 @@ public static Stroke InkToStroke(UInkInk ink)
 
  Stroke
 
-### <a id="Ink_Canvas_UInk_UInkConversion_InksToStrokes_IEnumerable_Ink_Canvas_UInk_UInkInk__"></a> InksToStrokes\(IEnumerable<UInkInk\>\)
+### <a id="Ink_Canvas_UInk_UInkConversion_InksToStrokes_System_Collections_Generic_IEnumerable_Ink_Canvas_UInk_UInkInk__"></a> InksToStrokes\(IEnumerable<UInkInk\>\)
 
 ```csharp
 public static StrokeCollection InksToStrokes(IEnumerable<UInkInk> inks)
@@ -73,7 +83,7 @@ public static StrokeCollection InksToStrokes(IEnumerable<UInkInk> inks)
 
 #### Parameters
 
-`inks` IEnumerable<[UInkInk](Ink\_Canvas.UInk.UInkInk.md)\>
+`inks` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[UInkInk](Ink\_Canvas.UInk.UInkInk.md)\>
 
 #### Returns
 
@@ -100,16 +110,16 @@ public static Stroke ShapeToStroke(UInkShape shape)
 ### <a id="Ink_Canvas_UInk_UInkConversion_StrokeToInk_Stroke_System_UInt32_System_UInt32_"></a> StrokeToInk\(Stroke, uint, uint\)
 
 ```csharp
-public static UInkInk StrokeToInk(Stroke stroke, uint contentId = null, uint undoId = null)
+public static UInkInk StrokeToInk(Stroke stroke, uint contentId = 0, uint undoId = 0)
 ```
 
 #### Parameters
 
 `stroke` Stroke
 
-`contentId` uint
+`contentId` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-`undoId` uint
+`undoId` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 #### Returns
 
@@ -118,18 +128,18 @@ public static UInkInk StrokeToInk(Stroke stroke, uint contentId = null, uint und
 ### <a id="Ink_Canvas_UInk_UInkConversion_StrokesToInks_StrokeCollection_System_UInt32_System_UInt32_"></a> StrokesToInks\(StrokeCollection, uint, uint\)
 
 ```csharp
-public static List<UInkInk> StrokesToInks(StrokeCollection strokes, uint startContentId = null, uint undoId = null)
+public static List<UInkInk> StrokesToInks(StrokeCollection strokes, uint startContentId = 0, uint undoId = 0)
 ```
 
 #### Parameters
 
 `strokes` StrokeCollection
 
-`startContentId` uint
+`startContentId` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-`undoId` uint
+`undoId` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 #### Returns
 
- List<[UInkInk](Ink\_Canvas.UInk.UInkInk.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UInkInk](Ink\_Canvas.UInk.UInkInk.md)\>
 

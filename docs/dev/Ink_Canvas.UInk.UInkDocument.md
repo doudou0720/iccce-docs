@@ -9,8 +9,17 @@ public sealed class UInkDocument
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkDocument](Ink\_Canvas.UInk.UInkDocument.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -22,7 +31,7 @@ public List<UInkCanvasRecord> Canvases
 
 #### Field Value
 
- List<[UInkCanvasRecord](Ink\_Canvas.UInk.UInkCanvasRecord.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UInkCanvasRecord](Ink\_Canvas.UInk.UInkCanvasRecord.md)\>
 
 ### <a id="Ink_Canvas_UInk_UInkDocument_Header"></a> Header
 
@@ -56,5 +65,5 @@ public List<(UInkCanvasRecord record, IUInkContentBlock block)> AllBlocks()
 
 #### Returns
 
- List<\([UInkCanvasRecord](Ink\_Canvas.UInk.UInkCanvasRecord.md) [record](System.ValueTuple\{Ink\_Canvas.UInk.UInkCanvasRecord,Ink\_Canvas.UInk.IUInkContentBlock\}.md\#System\_ValueTuple\_Ink\_Canvas\_UInk\_UInkCanvasRecord\_Ink\_Canvas\_UInk\_IUInkContentBlock\_\_record), [IUInkContentBlock](Ink\_Canvas.UInk.IUInkContentBlock.md) [block](System.ValueTuple\{Ink\_Canvas.UInk.UInkCanvasRecord,Ink\_Canvas.UInk.IUInkContentBlock\}.md\#System\_ValueTuple\_Ink\_Canvas\_UInk\_UInkCanvasRecord\_Ink\_Canvas\_UInk\_IUInkContentBlock\_\_block)\)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<\([UInkCanvasRecord](Ink\_Canvas.UInk.UInkCanvasRecord.md) [record](https://learn.microsoft.com/dotnet/api/system.valuetuple\-ink\_canvas.uink.uinkcanvasrecord,ink\_canvas.uink.iuinkcontentblock\-.record), [IUInkContentBlock](Ink\_Canvas.UInk.IUInkContentBlock.md) [block](https://learn.microsoft.com/dotnet/api/system.valuetuple\-ink\_canvas.uink.uinkcanvasrecord,ink\_canvas.uink.iuinkcontentblock\-.block)\)\>
 

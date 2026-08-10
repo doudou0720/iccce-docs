@@ -32,7 +32,7 @@ public double CurrentValue { set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_ProcessBars_CycleProcessBar_IsPaused"></a> IsPaused
 
@@ -42,5 +42,5 @@ public bool IsPaused { set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

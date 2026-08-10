@@ -13,8 +13,18 @@ public static class AutoFontSizeHelper
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AutoFontSizeHelper](Ink\_Canvas.Helpers.AutoFontSizeHelper.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -72,7 +82,7 @@ public static bool GetIsEnabled(DependencyObject element)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_AutoFontSizeHelper_GetMaxFontSize_DependencyObject_"></a> GetMaxFontSize\(DependencyObject\)
 
@@ -86,7 +96,7 @@ public static double GetMaxFontSize(DependencyObject element)
 
 #### Returns
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_AutoFontSizeHelper_GetMinFontSize_DependencyObject_"></a> GetMinFontSize\(DependencyObject\)
 
@@ -100,7 +110,7 @@ public static double GetMinFontSize(DependencyObject element)
 
 #### Returns
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_AutoFontSizeHelper_GetStep_DependencyObject_"></a> GetStep\(DependencyObject\)
 
@@ -114,7 +124,7 @@ public static double GetStep(DependencyObject element)
 
 #### Returns
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_AutoFontSizeHelper_SetIsEnabled_DependencyObject_System_Boolean_"></a> SetIsEnabled\(DependencyObject, bool\)
 
@@ -126,7 +136,7 @@ public static void SetIsEnabled(DependencyObject element, bool value)
 
 `element` DependencyObject
 
-`value` bool
+`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_AutoFontSizeHelper_SetMaxFontSize_DependencyObject_System_Double_"></a> SetMaxFontSize\(DependencyObject, double\)
 
@@ -138,7 +148,7 @@ public static void SetMaxFontSize(DependencyObject element, double value)
 
 `element` DependencyObject
 
-`value` double
+`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_AutoFontSizeHelper_SetMinFontSize_DependencyObject_System_Double_"></a> SetMinFontSize\(DependencyObject, double\)
 
@@ -150,7 +160,7 @@ public static void SetMinFontSize(DependencyObject element, double value)
 
 `element` DependencyObject
 
-`value` double
+`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_AutoFontSizeHelper_SetStep_DependencyObject_System_Double_"></a> SetStep\(DependencyObject, double\)
 
@@ -162,5 +172,5 @@ public static void SetStep(DependencyObject element, double value)
 
 `element` DependencyObject
 
-`value` double
+`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
 

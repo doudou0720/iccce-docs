@@ -11,8 +11,18 @@ public static class SettingsListItemHelper
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [SettingsListItemHelper](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsListItemHelper.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -28,7 +38,7 @@ public static T FindVisualChild<T>(DependencyObject parent, string name) where T
 
 `parent` DependencyObject
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
@@ -50,7 +60,7 @@ public static void UpdateButtonVisibility(ListView listView, string buttonName)
 
 `listView` ListView
 
-`buttonName` string
+`buttonName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsListItemHelper_UpdateButtonVisibility_ItemsControl_System_String_"></a> UpdateButtonVisibility\(ItemsControl, string\)
 
@@ -62,7 +72,7 @@ public static void UpdateButtonVisibility(ItemsControl itemsControl, string butt
 
 `itemsControl` ItemsControl
 
-`buttonName` string
+`buttonName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsListItemHelper_UpdateRemoveButtonVisibility_ListView_System_String_"></a> UpdateRemoveButtonVisibility\(ListView, string\)
 
@@ -76,5 +86,5 @@ public static void UpdateRemoveButtonVisibility(ListView listView, string button
 
 `listView` ListView
 
-`buttonName` string
+`buttonName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 

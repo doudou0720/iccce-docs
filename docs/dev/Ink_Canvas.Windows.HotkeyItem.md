@@ -54,7 +54,7 @@ public string DefaultKey { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_HotkeyItem_DefaultModifiers"></a> DefaultModifiers
 
@@ -64,7 +64,7 @@ public string DefaultModifiers { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_HotkeyItem_Description"></a> Description
 
@@ -74,7 +74,7 @@ public string Description { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_HotkeyItem_HotkeyName"></a> HotkeyName
 
@@ -86,7 +86,7 @@ public string HotkeyName { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_HotkeyItem_Title"></a> Title
 
@@ -96,7 +96,7 @@ public string Title { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -108,7 +108,7 @@ public (Key key, ModifierKeys modifiers) GetCurrentHotkey()
 
 #### Returns
 
- \(Key [key](System.ValueTuple\{Key,ModifierKeys\}.md\#System\_ValueTuple\_Key\_ModifierKeys\_\_key), ModifierKeys [modifiers](System.ValueTuple\{Key,ModifierKeys\}.md\#System\_ValueTuple\_Key\_ModifierKeys\_\_modifiers)\)
+ \(Key [key](https://learn.microsoft.com/dotnet/api/system.valuetuple\-key,modifierkeys\-.key), ModifierKeys [modifiers](https://learn.microsoft.com/dotnet/api/system.valuetuple\-key,modifierkeys\-.modifiers)\)
 
 ### <a id="Ink_Canvas_Windows_HotkeyItem_SetCurrentHotkey_Key_ModifierKeys_"></a> SetCurrentHotkey\(Key, ModifierKeys\)
 
@@ -132,5 +132,5 @@ public event EventHandler<HotkeyChangedEventArgs> HotkeyChanged
 
 #### Event Type
 
- EventHandler<[HotkeyChangedEventArgs](Ink\_Canvas.Windows.HotkeyChangedEventArgs.md)\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[HotkeyChangedEventArgs](Ink\_Canvas.Windows.HotkeyChangedEventArgs.md)\>
 

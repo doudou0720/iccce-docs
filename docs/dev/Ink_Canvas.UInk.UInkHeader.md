@@ -9,8 +9,17 @@ public sealed class UInkHeader
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkHeader](Ink\_Canvas.UInk.UInkHeader.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -22,7 +31,7 @@ public uint DeviceNum
 
 #### Field Value
 
- uint
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 ### <a id="Ink_Canvas_UInk_UInkHeader_Guid"></a> Guid
 
@@ -32,7 +41,7 @@ public string Guid
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_UInk_UInkHeader_PageNum"></a> PageNum
 
@@ -42,7 +51,7 @@ public uint PageNum
 
 #### Field Value
 
- uint
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 ### <a id="Ink_Canvas_UInk_UInkHeader_Time"></a> Time
 
@@ -52,7 +61,7 @@ public ulong Time
 
 #### Field Value
 
- ulong
+ [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
 ### <a id="Ink_Canvas_UInk_UInkHeader_Type"></a> Type
 
@@ -62,7 +71,7 @@ public ushort Type
 
 #### Field Value
 
- ushort
+ [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
 ### <a id="Ink_Canvas_UInk_UInkHeader_Version"></a> Version
 
@@ -72,7 +81,7 @@ public ushort Version
 
 #### Field Value
 
- ushort
+ [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
 ### <a id="Ink_Canvas_UInk_UInkHeader_WorkspaceNum"></a> WorkspaceNum
 
@@ -82,5 +91,5 @@ public uint WorkspaceNum
 
 #### Field Value
 
- uint
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

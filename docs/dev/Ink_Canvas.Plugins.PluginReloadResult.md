@@ -11,8 +11,18 @@ public class PluginReloadResult
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PluginReloadResult](Ink\_Canvas.Plugins.PluginReloadResult.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -26,7 +36,7 @@ public string ErrorMessage { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginReloadResult_FullyUnloaded"></a> FullyUnloaded
 
@@ -44,7 +54,7 @@ public bool FullyUnloaded { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginReloadResult_Success"></a> Success
 
@@ -56,7 +66,7 @@ public bool Success { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginReloadResult_WasRemoved"></a> WasRemoved
 
@@ -68,7 +78,7 @@ public bool WasRemoved { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -80,7 +90,7 @@ public static PluginReloadResult Failed(string message)
 
 #### Parameters
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 

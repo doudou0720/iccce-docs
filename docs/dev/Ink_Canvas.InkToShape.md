@@ -9,8 +9,18 @@ public class InkToShape
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [InkToShape](Ink\_Canvas.InkToShape.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public bool EnableWinRtHandwritingStrokeBeautify { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_InkToShape_HandwritingBeautifyDebounceMs"></a> HandwritingBeautifyDebounceMs
 
@@ -34,7 +44,7 @@ public int HandwritingBeautifyDebounceMs { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_InkToShape_HandwritingCorrectionFontFamily"></a> HandwritingCorrectionFontFamily
 
@@ -44,7 +54,7 @@ public string HandwritingCorrectionFontFamily { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_InkToShape_HandwritingLanguageOverrideLcid"></a> HandwritingLanguageOverrideLcid
 
@@ -56,7 +66,7 @@ public int HandwritingLanguageOverrideLcid { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_InkToShape_IsInkToShapeEnabled"></a> IsInkToShapeEnabled
 
@@ -66,7 +76,7 @@ public bool IsInkToShapeEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_InkToShape_IsInkToShapeNoFakePressureRectangle"></a> IsInkToShapeNoFakePressureRectangle
 
@@ -76,7 +86,7 @@ public bool IsInkToShapeNoFakePressureRectangle { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_InkToShape_IsInkToShapeNoFakePressureTriangle"></a> IsInkToShapeNoFakePressureTriangle
 
@@ -86,7 +96,7 @@ public bool IsInkToShapeNoFakePressureTriangle { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_InkToShape_IsInkToShapeRectangle"></a> IsInkToShapeRectangle
 
@@ -96,7 +106,7 @@ public bool IsInkToShapeRectangle { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_InkToShape_IsInkToShapeRounded"></a> IsInkToShapeRounded
 
@@ -106,7 +116,7 @@ public bool IsInkToShapeRounded { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_InkToShape_IsInkToShapeTriangle"></a> IsInkToShapeTriangle
 
@@ -116,7 +126,7 @@ public bool IsInkToShapeTriangle { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_InkToShape_LineNormalizationThreshold"></a> LineNormalizationThreshold
 
@@ -126,7 +136,7 @@ public double LineNormalizationThreshold { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_InkToShape_LineStraightenSensitivity"></a> LineStraightenSensitivity
 
@@ -136,7 +146,7 @@ public double LineStraightenSensitivity { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_InkToShape_ShapeRecognitionEngine"></a> ShapeRecognitionEngine
 
@@ -146,5 +156,5 @@ public int ShapeRecognitionEngine { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

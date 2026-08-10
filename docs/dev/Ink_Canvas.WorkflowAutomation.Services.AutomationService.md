@@ -16,7 +16,7 @@ ObservableObject ←
 
 ## Constructors
 
-### <a id="Ink_Canvas_WorkflowAutomation_Services_AutomationService__ctor_System_String_IServiceProvider_"></a> AutomationService\(string, IServiceProvider\)
+### <a id="Ink_Canvas_WorkflowAutomation_Services_AutomationService__ctor_System_String_System_IServiceProvider_"></a> AutomationService\(string, IServiceProvider\)
 
 ```csharp
 public AutomationService(string configsFolderPath, IServiceProvider serviceProvider = null)
@@ -24,9 +24,9 @@ public AutomationService(string configsFolderPath, IServiceProvider serviceProvi
 
 #### Parameters
 
-`configsFolderPath` string
+`configsFolderPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`serviceProvider` IServiceProvider
+`serviceProvider` [IServiceProvider](https://learn.microsoft.com/dotnet/api/system.iserviceprovider)
 
 ## Properties
 
@@ -48,7 +48,7 @@ public List<string> Configs { get; set; }
 
 #### Property Value
 
- List<string\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_AutomationService_CurrentConfig"></a> CurrentConfig
 
@@ -58,7 +58,7 @@ public string CurrentConfig { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_AutomationService_CurrentConfigPath"></a> CurrentConfigPath
 
@@ -68,7 +68,7 @@ public string CurrentConfigPath { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_AutomationService_IsAutomationEnabled"></a> IsAutomationEnabled
 
@@ -78,7 +78,7 @@ public bool IsAutomationEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_AutomationService_RulesetService"></a> RulesetService
 
@@ -98,7 +98,7 @@ public ObservableCollection<Workflow> Workflows { get; set; }
 
 #### Property Value
 
- ObservableCollection<[Workflow](Ink\_Canvas.WorkflowAutomation.Models.Workflow.md)\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[Workflow](Ink\_Canvas.WorkflowAutomation.Models.Workflow.md)\>
 
 ## Methods
 
@@ -128,7 +128,7 @@ public void SaveConfig(string note = "")
 
 #### Parameters
 
-`note` string
+`note` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Services_AutomationService_UnloadWorkflow_Ink_Canvas_WorkflowAutomation_Models_Workflow_"></a> UnloadWorkflow\(Workflow\)
 

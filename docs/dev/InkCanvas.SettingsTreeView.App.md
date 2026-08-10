@@ -54,6 +54,7 @@ public class App : Application, IQueryAmbient
 [Application.Resources](https://learn.microsoft.com/dotnet/api/system.windows.application.resources), 
 [Application.ShutdownMode](https://learn.microsoft.com/dotnet/api/system.windows.application.shutdownmode), 
 [Application.StartupUri](https://learn.microsoft.com/dotnet/api/system.windows.application.startupuri), 
+[Application.ThemeMode](https://learn.microsoft.com/dotnet/api/system.windows.application.thememode), 
 [Application.Windows](https://learn.microsoft.com/dotnet/api/system.windows.application.windows), 
 [Application.Activated](https://learn.microsoft.com/dotnet/api/system.windows.application.activated), 
 [Application.Deactivated](https://learn.microsoft.com/dotnet/api/system.windows.application.deactivated), 

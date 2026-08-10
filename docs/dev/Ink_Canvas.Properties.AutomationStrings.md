@@ -9,8 +9,18 @@ public static class AutomationStrings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AutomationStrings](Ink\_Canvas.Properties.AutomationStrings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public static string AutoFold_App_AdmoxBoard { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_AdmoxBooth"></a> AutoFold\_App\_AdmoxBooth
 
@@ -32,7 +42,7 @@ public static string AutoFold_App_AdmoxBooth { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_HiteBoard"></a> AutoFold\_App\_HiteBoard
 
@@ -42,7 +52,7 @@ public static string AutoFold_App_HiteBoard { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_HiteCamera"></a> AutoFold\_App\_HiteCamera
 
@@ -52,7 +62,7 @@ public static string AutoFold_App_HiteCamera { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_HiteLightBoard"></a> AutoFold\_App\_HiteLightBoard
 
@@ -62,7 +72,7 @@ public static string AutoFold_App_HiteLightBoard { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_MSWhiteboard"></a> AutoFold\_App\_MSWhiteboard
 
@@ -72,7 +82,7 @@ public static string AutoFold_App_MSWhiteboard { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_MaxHubBoard"></a> AutoFold\_App\_MaxHubBoard
 
@@ -82,7 +92,7 @@ public static string AutoFold_App_MaxHubBoard { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_SeewoBoard3"></a> AutoFold\_App\_SeewoBoard3
 
@@ -92,7 +102,7 @@ public static string AutoFold_App_SeewoBoard3 { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_SeewoBoard5"></a> AutoFold\_App\_SeewoBoard5
 
@@ -102,7 +112,7 @@ public static string AutoFold_App_SeewoBoard5 { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_SeewoCamera"></a> AutoFold\_App\_SeewoCamera
 
@@ -112,7 +122,7 @@ public static string AutoFold_App_SeewoCamera { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_SeewoLightBoard"></a> AutoFold\_App\_SeewoLightBoard
 
@@ -122,7 +132,7 @@ public static string AutoFold_App_SeewoLightBoard { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_SeewoLightBoard5C"></a> AutoFold\_App\_SeewoLightBoard5C
 
@@ -132,7 +142,7 @@ public static string AutoFold_App_SeewoLightBoard5C { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_WenXiangBoard"></a> AutoFold\_App\_WenXiangBoard
 
@@ -142,7 +152,7 @@ public static string AutoFold_App_WenXiangBoard { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_YiYunBoard"></a> AutoFold\_App\_YiYunBoard
 
@@ -152,7 +162,7 @@ public static string AutoFold_App_YiYunBoard { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_App_YiYunBooth"></a> AutoFold\_App\_YiYunBooth
 
@@ -162,7 +172,7 @@ public static string AutoFold_App_YiYunBooth { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_Group_Hite"></a> AutoFold\_Group\_Hite
 
@@ -172,7 +182,7 @@ public static string AutoFold_Group_Hite { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_Group_Other"></a> AutoFold\_Group\_Other
 
@@ -182,7 +192,7 @@ public static string AutoFold_Group_Other { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_Group_Seewo"></a> AutoFold\_Group\_Seewo
 
@@ -192,7 +202,7 @@ public static string AutoFold_Group_Seewo { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_Mode"></a> AutoFold\_Mode
 
@@ -202,7 +212,7 @@ public static string AutoFold_Mode { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoFold_OldZyBoard"></a> AutoFold\_OldZyBoard
 
@@ -212,7 +222,7 @@ public static string AutoFold_OldZyBoard { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_EasiNote5"></a> AutoKill\_EasiNote5
 
@@ -222,7 +232,7 @@ public static string AutoKill_EasiNote5 { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_HiteAfterKillEnterAnnotation"></a> AutoKill\_HiteAfterKillEnterAnnotation
 
@@ -232,7 +242,7 @@ public static string AutoKill_HiteAfterKillEnterAnnotation { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_HiteAnnotation"></a> AutoKill\_HiteAnnotation
 
@@ -242,7 +252,7 @@ public static string AutoKill_HiteAnnotation { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_ICA"></a> AutoKill\_ICA
 
@@ -252,7 +262,7 @@ public static string AutoKill_ICA { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_InkCanvasIC"></a> AutoKill\_InkCanvasIC
 
@@ -262,7 +272,7 @@ public static string AutoKill_InkCanvasIC { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_Inkeys"></a> AutoKill\_Inkeys
 
@@ -272,7 +282,7 @@ public static string AutoKill_Inkeys { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_PPTTools"></a> AutoKill\_PPTTools
 
@@ -282,7 +292,7 @@ public static string AutoKill_PPTTools { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_PPTToolsHint"></a> AutoKill\_PPTToolsHint
 
@@ -292,7 +302,7 @@ public static string AutoKill_PPTToolsHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_SeewoDesktop2Anno"></a> AutoKill\_SeewoDesktop2Anno
 
@@ -302,7 +312,7 @@ public static string AutoKill_SeewoDesktop2Anno { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_SeewoDesktop2AnnoHint"></a> AutoKill\_SeewoDesktop2AnnoHint
 
@@ -312,7 +322,7 @@ public static string AutoKill_SeewoDesktop2AnnoHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_Title"></a> AutoKill\_Title
 
@@ -322,7 +332,7 @@ public static string AutoKill_Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_AutoKill_YouJiao"></a> AutoKill\_YouJiao
 
@@ -332,7 +342,7 @@ public static string AutoKill_YouJiao { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_AutoFoldInPPT"></a> Automation\_AutoFoldInPPT
 
@@ -342,7 +352,7 @@ public static string Automation_AutoFoldInPPT { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_AutoFoldTitle"></a> Automation\_AutoFoldTitle
 
@@ -352,7 +362,7 @@ public static string Automation_AutoFoldTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_KeepFoldAfterExit"></a> Automation\_KeepFoldAfterExit
 
@@ -362,7 +372,7 @@ public static string Automation_KeepFoldAfterExit { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_KeepFoldAfterExitHint"></a> Automation\_KeepFoldAfterExitHint
 
@@ -372,7 +382,7 @@ public static string Automation_KeepFoldAfterExitHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_SaveFileNameFormat"></a> Automation\_SaveFileNameFormat
 
@@ -382,7 +392,7 @@ public static string Automation_SaveFileNameFormat { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_SaveFileName_Custom"></a> Automation\_SaveFileName\_Custom
 
@@ -392,7 +402,7 @@ public static string Automation_SaveFileName_Custom { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_SaveFileName_CustomTemplate_Desc"></a> Automation\_SaveFileName\_CustomTemplate\_Desc
 
@@ -402,7 +412,7 @@ public static string Automation_SaveFileName_CustomTemplate_Desc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_SaveFileName_CustomTemplate_Header"></a> Automation\_SaveFileName\_CustomTemplate\_Header
 
@@ -412,7 +422,7 @@ public static string Automation_SaveFileName_CustomTemplate_Header { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_SaveFileName_Date"></a> Automation\_SaveFileName\_Date
 
@@ -422,7 +432,7 @@ public static string Automation_SaveFileName_Date { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_SaveFileName_DateMode"></a> Automation\_SaveFileName\_DateMode
 
@@ -432,7 +442,7 @@ public static string Automation_SaveFileName_DateMode { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_SaveFileName_DateModePage"></a> Automation\_SaveFileName\_DateModePage
 
@@ -442,7 +452,7 @@ public static string Automation_SaveFileName_DateModePage { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_SaveFileName_DateModePageCount"></a> Automation\_SaveFileName\_DateModePageCount
 
@@ -452,7 +462,7 @@ public static string Automation_SaveFileName_DateModePageCount { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_SaveFileName_DateTime"></a> Automation\_SaveFileName\_DateTime
 
@@ -462,7 +472,7 @@ public static string Automation_SaveFileName_DateTime { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_SaveFileName_Timestamp"></a> Automation\_SaveFileName\_Timestamp
 
@@ -472,7 +482,7 @@ public static string Automation_SaveFileName_Timestamp { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_Title"></a> Automation\_Title
 
@@ -482,7 +492,7 @@ public static string Automation_Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_UseCustomSaveFileName_Desc"></a> Automation\_UseCustomSaveFileName\_Desc
 
@@ -492,7 +502,7 @@ public static string Automation_UseCustomSaveFileName_Desc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Automation_UseCustomSaveFileName_Header"></a> Automation\_UseCustomSaveFileName\_Header
 
@@ -502,7 +512,7 @@ public static string Automation_UseCustomSaveFileName_Header { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Culture"></a> Culture
 
@@ -512,7 +522,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- CultureInfo
+ [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_CheckDesc"></a> FileAssoc\_CheckDesc
 
@@ -522,7 +532,7 @@ public static string FileAssoc_CheckDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_CheckError"></a> FileAssoc\_CheckError
 
@@ -532,7 +542,7 @@ public static string FileAssoc_CheckError { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_ExitedFoldMode"></a> FileAssoc\_ExitedFoldMode
 
@@ -542,7 +552,7 @@ public static string FileAssoc_ExitedFoldMode { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_LoadedStrokesFile"></a> FileAssoc\_LoadedStrokesFile
 
@@ -552,7 +562,7 @@ public static string FileAssoc_LoadedStrokesFile { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_NotChecked"></a> FileAssoc\_NotChecked
 
@@ -562,7 +572,7 @@ public static string FileAssoc_NotChecked { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_NotRegistered"></a> FileAssoc\_NotRegistered
 
@@ -572,7 +582,7 @@ public static string FileAssoc_NotRegistered { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_RegisterDesc"></a> FileAssoc\_RegisterDesc
 
@@ -582,7 +592,7 @@ public static string FileAssoc_RegisterDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_RegisterFailed"></a> FileAssoc\_RegisterFailed
 
@@ -592,7 +602,7 @@ public static string FileAssoc_RegisterFailed { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_RegisterHeader"></a> FileAssoc\_RegisterHeader
 
@@ -602,7 +612,7 @@ public static string FileAssoc_RegisterHeader { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_RegisterSuccess"></a> FileAssoc\_RegisterSuccess
 
@@ -612,7 +622,7 @@ public static string FileAssoc_RegisterSuccess { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_Registered"></a> FileAssoc\_Registered
 
@@ -622,7 +632,7 @@ public static string FileAssoc_Registered { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_SwitchedToBoardMode"></a> FileAssoc\_SwitchedToBoardMode
 
@@ -632,7 +642,7 @@ public static string FileAssoc_SwitchedToBoardMode { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_UnregisterDesc"></a> FileAssoc\_UnregisterDesc
 
@@ -642,7 +652,7 @@ public static string FileAssoc_UnregisterDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_UnregisterFailed"></a> FileAssoc\_UnregisterFailed
 
@@ -652,7 +662,7 @@ public static string FileAssoc_UnregisterFailed { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FileAssoc_UnregisterSuccess"></a> FileAssoc\_UnregisterSuccess
 
@@ -662,7 +672,7 @@ public static string FileAssoc_UnregisterSuccess { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_App_ChangYanClass"></a> FloatingInterceptor\_App\_ChangYanClass
 
@@ -672,7 +682,7 @@ public static string FloatingInterceptor_App_ChangYanClass { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_App_ChangYanPPT"></a> FloatingInterceptor\_App\_ChangYanPPT
 
@@ -682,7 +692,7 @@ public static string FloatingInterceptor_App_ChangYanPPT { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_App_HiteAnnotation"></a> FloatingInterceptor\_App\_HiteAnnotation
 
@@ -692,7 +702,7 @@ public static string FloatingInterceptor_App_HiteAnnotation { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_App_IntelligentClass"></a> FloatingInterceptor\_App\_IntelligentClass
 
@@ -702,7 +712,7 @@ public static string FloatingInterceptor_App_IntelligentClass { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_App_SeewoBoard5C"></a> FloatingInterceptor\_App\_SeewoBoard5C
 
@@ -712,7 +722,7 @@ public static string FloatingInterceptor_App_SeewoBoard5C { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_App_SeewoDesktopAnnotation"></a> FloatingInterceptor\_App\_SeewoDesktopAnnotation
 
@@ -722,7 +732,7 @@ public static string FloatingInterceptor_App_SeewoDesktopAnnotation { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_App_SeewoDesktopSideBar"></a> FloatingInterceptor\_App\_SeewoDesktopSideBar
 
@@ -732,7 +742,7 @@ public static string FloatingInterceptor_App_SeewoDesktopSideBar { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_App_SeewoPPTTools"></a> FloatingInterceptor\_App\_SeewoPPTTools
 
@@ -742,7 +752,7 @@ public static string FloatingInterceptor_App_SeewoPPTTools { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_App_SeewoPinco"></a> FloatingInterceptor\_App\_SeewoPinco
 
@@ -752,7 +762,7 @@ public static string FloatingInterceptor_App_SeewoPinco { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_App_SeewoPincoDrawing"></a> FloatingInterceptor\_App\_SeewoPincoDrawing
 
@@ -762,7 +772,7 @@ public static string FloatingInterceptor_App_SeewoPincoDrawing { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_Enable"></a> FloatingInterceptor\_Enable
 
@@ -772,7 +782,7 @@ public static string FloatingInterceptor_Enable { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_Group_Seewo"></a> FloatingInterceptor\_Group\_Seewo
 
@@ -782,7 +792,7 @@ public static string FloatingInterceptor_Group_Seewo { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FloatingInterceptor_Title"></a> FloatingInterceptor\_Title
 
@@ -792,7 +802,7 @@ public static string FloatingInterceptor_Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FoldMode_AutoFoldAfterPPT"></a> FoldMode\_AutoFoldAfterPPT
 
@@ -802,7 +812,7 @@ public static string FoldMode_AutoFoldAfterPPT { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FoldMode_AutoFoldAfterPPTHint"></a> FoldMode\_AutoFoldAfterPPTHint
 
@@ -812,7 +822,7 @@ public static string FoldMode_AutoFoldAfterPPTHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FoldMode_AutoFoldAfterWhiteboard"></a> FoldMode\_AutoFoldAfterWhiteboard
 
@@ -822,7 +832,7 @@ public static string FoldMode_AutoFoldAfterWhiteboard { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FoldMode_AutoFoldAfterWhiteboardHint"></a> FoldMode\_AutoFoldAfterWhiteboardHint
 
@@ -832,7 +842,7 @@ public static string FoldMode_AutoFoldAfterWhiteboardHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FoldMode_ExitToAnnotation"></a> FoldMode\_ExitToAnnotation
 
@@ -842,7 +852,7 @@ public static string FoldMode_ExitToAnnotation { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_FoldMode_ExitToAnnotationHint"></a> FoldMode\_ExitToAnnotationHint
 
@@ -852,7 +862,7 @@ public static string FoldMode_ExitToAnnotationHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_ResourceManager"></a> ResourceManager
 
@@ -862,7 +872,7 @@ public static ResourceManager ResourceManager { get; }
 
 #### Property Value
 
- ResourceManager
+ [ResourceManager](https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Storage_AutoDeleteDaysThreshold"></a> Storage\_AutoDeleteDaysThreshold
 
@@ -872,7 +882,7 @@ public static string Storage_AutoDeleteDaysThreshold { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_AutomationStrings_Storage_MinAutomationStrokes"></a> Storage\_MinAutomationStrokes
 
@@ -882,7 +892,7 @@ public static string Storage_MinAutomationStrokes { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -894,9 +904,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

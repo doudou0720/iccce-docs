@@ -14,7 +14,7 @@ iNKORE.UI.WPF.Modern.Controls.Page ←
 
 #### Implements
 
-INotifyPropertyChanged
+[INotifyPropertyChanged](https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged)
 
 ## Constructors
 
@@ -34,7 +34,7 @@ public static List<ActionRegistryInfo> RegisteredActionsList { get; }
 
 #### Property Value
 
- List<[ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ActionRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.ActionRegistryInfo.md)\>
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AutomationWorkflowPage_RegisteredRulesList"></a> RegisteredRulesList
 
@@ -44,7 +44,7 @@ public static List<RuleRegistryInfo> RegisteredRulesList { get; }
 
 #### Property Value
 
- List<[RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[RuleRegistryInfo](Ink\_Canvas.WorkflowAutomation.Models.RuleRegistryInfo.md)\>
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AutomationWorkflowPage_RegisteredTriggersList"></a> RegisteredTriggersList
 
@@ -54,7 +54,7 @@ public static List<TriggerInfo> RegisteredTriggersList { get; }
 
 #### Property Value
 
- List<[TriggerInfo](Ink\_Canvas.WorkflowAutomation.Models.TriggerInfo.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[TriggerInfo](Ink\_Canvas.WorkflowAutomation.Models.TriggerInfo.md)\>
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AutomationWorkflowPage_SelectedWorkflow"></a> SelectedWorkflow
 
@@ -68,11 +68,13 @@ public Workflow SelectedWorkflow { get; }
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AutomationWorkflowPage_PropertyChanged"></a> PropertyChanged
 
+Occurs when a property value changes.
+
 ```csharp
 public event PropertyChangedEventHandler PropertyChanged
 ```
 
 #### Event Type
 
- PropertyChangedEventHandler
+ [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
 

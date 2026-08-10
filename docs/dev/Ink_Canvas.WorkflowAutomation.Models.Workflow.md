@@ -38,7 +38,7 @@ public bool IsConditionEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_Workflow_Ruleset"></a> Ruleset
 
@@ -62,5 +62,5 @@ public ObservableCollection<TriggerSettings> Triggers { get; set; }
 
 #### Property Value
 
- ObservableCollection<[TriggerSettings](Ink\_Canvas.WorkflowAutomation.Models.TriggerSettings.md)\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[TriggerSettings](Ink\_Canvas.WorkflowAutomation.Models.TriggerSettings.md)\>
 

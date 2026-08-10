@@ -9,8 +9,18 @@ public static class FriendlyLinksStrings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [FriendlyLinksStrings](Ink\_Canvas.Properties.FriendlyLinksStrings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- CultureInfo
+ [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 ### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_CjikSponsorDescription"></a> FriendlyLinks\_CjikSponsorDescription
 
@@ -32,7 +42,7 @@ public static string FriendlyLinks_CjikSponsorDescription { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_DeveloperCloudDescription"></a> FriendlyLinks\_DeveloperCloudDescription
 
@@ -42,7 +52,7 @@ public static string FriendlyLinks_DeveloperCloudDescription { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_FriendsSectionTitle"></a> FriendlyLinks\_FriendsSectionTitle
 
@@ -52,7 +62,7 @@ public static string FriendlyLinks_FriendsSectionTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_InkeysDescription"></a> FriendlyLinks\_InkeysDescription
 
@@ -62,7 +72,7 @@ public static string FriendlyLinks_InkeysDescription { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_NamePickerDescription"></a> FriendlyLinks\_NamePickerDescription
 
@@ -72,7 +82,7 @@ public static string FriendlyLinks_NamePickerDescription { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_Sponsor"></a> FriendlyLinks\_Sponsor
 
@@ -82,7 +92,7 @@ public static string FriendlyLinks_Sponsor { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_SponsorSectionTitle"></a> FriendlyLinks\_SponsorSectionTitle
 
@@ -92,7 +102,7 @@ public static string FriendlyLinks_SponsorSectionTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_Title"></a> FriendlyLinks\_Title
 
@@ -102,7 +112,7 @@ public static string FriendlyLinks_Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_FriendlyLinks_Visit"></a> FriendlyLinks\_Visit
 
@@ -112,7 +122,7 @@ public static string FriendlyLinks_Visit { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_FriendlyLinksStrings_ResourceManager"></a> ResourceManager
 
@@ -122,7 +132,7 @@ public static ResourceManager ResourceManager { get; }
 
 #### Property Value
 
- ResourceManager
+ [ResourceManager](https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager)
 
 ## Methods
 
@@ -134,9 +144,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

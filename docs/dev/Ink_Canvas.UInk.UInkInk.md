@@ -9,12 +9,21 @@ public sealed class UInkInk : IUInkContentBlock
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkInk](Ink\_Canvas.UInk.UInkInk.md)
 
 #### Implements
 
 [IUInkContentBlock](Ink\_Canvas.UInk.IUInkContentBlock.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -36,7 +45,7 @@ public uint ContentId
 
 #### Field Value
 
- uint
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 ### <a id="Ink_Canvas_UInk_UInkInk_Extra"></a> Extra
 
@@ -46,7 +55,7 @@ public Dictionary<string, string> Extra
 
 #### Field Value
 
- Dictionary<string, string\>
+ [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_UInk_UInkInk_InkType"></a> InkType
 
@@ -56,7 +65,7 @@ public int InkType
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_UInk_UInkInk_Opacity"></a> Opacity
 
@@ -66,7 +75,7 @@ public float Opacity
 
 #### Field Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_UInk_UInkInk_Points"></a> Points
 
@@ -76,7 +85,7 @@ public List<UInkInkPoint> Points
 
 #### Field Value
 
- List<[UInkInkPoint](Ink\_Canvas.UInk.UInkInkPoint.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UInkInkPoint](Ink\_Canvas.UInk.UInkInkPoint.md)\>
 
 ### <a id="Ink_Canvas_UInk_UInkInk_RenderOnlyWhenLatest"></a> RenderOnlyWhenLatest
 
@@ -86,7 +95,7 @@ public bool RenderOnlyWhenLatest
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_UInk_UInkInk_Texture"></a> Texture
 
@@ -96,7 +105,7 @@ public int Texture
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_UInk_UInkInk_UndoId"></a> UndoId
 
@@ -106,5 +115,5 @@ public uint UndoId
 
 #### Field Value
 
- uint
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

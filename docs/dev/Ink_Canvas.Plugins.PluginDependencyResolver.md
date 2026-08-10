@@ -13,12 +13,22 @@ public class PluginDependencyResolver
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PluginDependencyResolver](Ink\_Canvas.Plugins.PluginDependencyResolver.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
-### <a id="Ink_Canvas_Plugins_PluginDependencyResolver_Analyze_IEnumerable_Ink_Canvas_Plugins_PluginInfo__"></a> Analyze\(IEnumerable<PluginInfo\>\)
+### <a id="Ink_Canvas_Plugins_PluginDependencyResolver_Analyze_System_Collections_Generic_IEnumerable_Ink_Canvas_Plugins_PluginInfo__"></a> Analyze\(IEnumerable<PluginInfo\>\)
 
 在一组候选插件之间检测冲突并返回信息。
 
@@ -28,7 +38,7 @@ public DependencyAnalysis Analyze(IEnumerable<PluginInfo> candidates)
 
 #### Parameters
 
-`candidates` IEnumerable<PluginInfo\>
+`candidates` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<PluginInfo\>
 
 #### Returns
 

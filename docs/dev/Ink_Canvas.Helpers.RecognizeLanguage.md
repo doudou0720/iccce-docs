@@ -9,9 +9,9 @@ public enum RecognizeLanguage
 
 ## Fields
 
-`English` 
+`English = 2057` 
 
-`SimplifiedChinese` 
+`SimplifiedChinese = 2052` 
 
-`TraditionalChinese` 
+`TraditionalChinese = 31747` 
 

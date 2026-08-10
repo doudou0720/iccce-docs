@@ -9,10 +9,70 @@ public static class BoothStrings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [BoothStrings](Ink\_Canvas.Properties.BoothStrings.md)
 
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+
 ## Properties
+
+### <a id="Ink_Canvas_Properties_BoothStrings_Acceleration"></a> Acceleration
+
+```csharp
+public static string Acceleration { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_AccelerationCUDA"></a> AccelerationCUDA
+
+```csharp
+public static string AccelerationCUDA { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_AccelerationCpu"></a> AccelerationCpu
+
+```csharp
+public static string AccelerationCpu { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_AccelerationOpenCL"></a> AccelerationOpenCL
+
+```csharp
+public static string AccelerationOpenCL { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_Acceleration_Tooltip"></a> Acceleration\_Tooltip
+
+```csharp
+public static string Acceleration_Tooltip { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_BoothStrings_CameraDevices"></a> CameraDevices
 
@@ -22,7 +82,7 @@ public static string CameraDevices { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_BoothStrings_Capture"></a> Capture
 
@@ -32,7 +92,7 @@ public static string Capture { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_BoothStrings_CapturedPhotos"></a> CapturedPhotos
 
@@ -42,7 +102,7 @@ public static string CapturedPhotos { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_BoothStrings_Close"></a> Close
 
@@ -52,7 +112,7 @@ public static string Close { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_BoothStrings_Correction"></a> Correction
 
@@ -62,7 +122,7 @@ public static string Correction { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_BoothStrings_Culture"></a> Culture
 
@@ -72,7 +132,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- CultureInfo
+ [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 ### <a id="Ink_Canvas_Properties_BoothStrings_Present"></a> Present
 
@@ -82,7 +142,7 @@ public static string Present { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_BoothStrings_Resolution_Tooltip"></a> Resolution\_Tooltip
 
@@ -92,7 +152,7 @@ public static string Resolution_Tooltip { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_BoothStrings_ResourceManager"></a> ResourceManager
 
@@ -102,7 +162,7 @@ public static ResourceManager ResourceManager { get; }
 
 #### Property Value
 
- ResourceManager
+ [ResourceManager](https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager)
 
 ### <a id="Ink_Canvas_Properties_BoothStrings_Rotate"></a> Rotate
 
@@ -112,7 +172,7 @@ public static string Rotate { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_BoothStrings_Title"></a> Title
 
@@ -122,7 +182,7 @@ public static string Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -134,9 +194,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

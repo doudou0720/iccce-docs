@@ -9,9 +9,9 @@ public enum InkSmoothingConfig.InkSmoothingQuality
 
 ## Fields
 
-`Balanced` 
+`Balanced = 1` 
 
-`HighPerformance` 
+`HighPerformance = 0` 
 
-`HighQuality` 
+`HighQuality = 2` 
 

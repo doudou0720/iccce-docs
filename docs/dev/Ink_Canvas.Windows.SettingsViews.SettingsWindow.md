@@ -33,7 +33,7 @@ public bool SuppressInitialNavigation { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -45,7 +45,7 @@ public void ApplyWindowBackdrop(string backdropName)
 
 #### Parameters
 
-`backdropName` string
+`backdropName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_SettingsWindow_BuildSettingsUri_System_String_System_String_"></a> BuildSettingsUri\(string, string\)
 
@@ -57,13 +57,13 @@ public string BuildSettingsUri(string pageTag = null, string settingKey = null)
 
 #### Parameters
 
-`pageTag` string
+`pageTag` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`settingKey` string
+`settingKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_SettingsWindow_GetNavigationView"></a> GetNavigationView\(\)
 
@@ -85,7 +85,7 @@ public void HighlightSetting(string settingKey)
 
 #### Parameters
 
-`settingKey` string
+`settingKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_SettingsWindow_NavigateToPage_System_String_Ink_Canvas_Plugins_PluginInfo_"></a> NavigateToPage\(string, PluginInfo\)
 
@@ -95,7 +95,7 @@ public void NavigateToPage(string pageTag, PluginInfo pluginInfo = null)
 
 #### Parameters
 
-`pageTag` string
+`pageTag` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `pluginInfo` PluginInfo
 
@@ -124,7 +124,7 @@ public void SetPendingHighlightKey(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_SettingsWindow_UpdateAnnouncementUnreadBadge"></a> UpdateAnnouncementUnreadBadge\(\)
 

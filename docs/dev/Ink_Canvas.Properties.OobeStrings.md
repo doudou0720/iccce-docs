@@ -9,8 +9,18 @@ public static class OobeStrings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OobeStrings](Ink\_Canvas.Properties.OobeStrings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- CultureInfo
+ [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_AgreePrivacy"></a> Oobe\_AgreePrivacy
 
@@ -32,7 +42,7 @@ public static string Oobe_AgreePrivacy { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_AppTheme"></a> Oobe\_AppTheme
 
@@ -42,7 +52,7 @@ public static string Oobe_AppTheme { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_AppThemeDesc"></a> Oobe\_AppThemeDesc
 
@@ -52,7 +62,7 @@ public static string Oobe_AppThemeDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_AutoFoldInPPT"></a> Oobe\_AutoFoldInPPT
 
@@ -62,7 +72,7 @@ public static string Oobe_AutoFoldInPPT { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_AutoSaveInk"></a> Oobe\_AutoSaveInk
 
@@ -72,7 +82,7 @@ public static string Oobe_AutoSaveInk { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_AutoSaveInkDesc"></a> Oobe\_AutoSaveInkDesc
 
@@ -82,7 +92,7 @@ public static string Oobe_AutoSaveInkDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_AutoSaveScreenshot"></a> Oobe\_AutoSaveScreenshot
 
@@ -92,7 +102,7 @@ public static string Oobe_AutoSaveScreenshot { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_AutoSaveStrokes"></a> Oobe\_AutoSaveStrokes
 
@@ -102,7 +112,7 @@ public static string Oobe_AutoSaveStrokes { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_AutoSaveStrokesDesc"></a> Oobe\_AutoSaveStrokesDesc
 
@@ -112,7 +122,7 @@ public static string Oobe_AutoSaveStrokesDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_AutoScreenshot"></a> Oobe\_AutoScreenshot
 
@@ -122,7 +132,7 @@ public static string Oobe_AutoScreenshot { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_AutoScreenshotDesc"></a> Oobe\_AutoScreenshotDesc
 
@@ -132,7 +142,7 @@ public static string Oobe_AutoScreenshotDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_AutoUpdate"></a> Oobe\_AutoUpdate
 
@@ -142,7 +152,7 @@ public static string Oobe_AutoUpdate { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_BoolDisabled"></a> Oobe\_BoolDisabled
 
@@ -152,7 +162,7 @@ public static string Oobe_BoolDisabled { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_BoolEnabled"></a> Oobe\_BoolEnabled
 
@@ -162,7 +172,7 @@ public static string Oobe_BoolEnabled { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_CrashAction"></a> Oobe\_CrashAction
 
@@ -172,7 +182,7 @@ public static string Oobe_CrashAction { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_CrashActionDesc"></a> Oobe\_CrashActionDesc
 
@@ -182,7 +192,7 @@ public static string Oobe_CrashActionDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_CrashNoAction"></a> Oobe\_CrashNoAction
 
@@ -192,7 +202,7 @@ public static string Oobe_CrashNoAction { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_CrashShowDialog"></a> Oobe\_CrashShowDialog
 
@@ -202,7 +212,7 @@ public static string Oobe_CrashShowDialog { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_CrashSilentRestart"></a> Oobe\_CrashSilentRestart
 
@@ -212,7 +222,7 @@ public static string Oobe_CrashSilentRestart { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_EnableGlobalHotkeys"></a> Oobe\_EnableGlobalHotkeys
 
@@ -222,7 +232,7 @@ public static string Oobe_EnableGlobalHotkeys { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_EnableGlobalHotkeysDesc"></a> Oobe\_EnableGlobalHotkeysDesc
 
@@ -232,7 +242,7 @@ public static string Oobe_EnableGlobalHotkeysDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_EnableLog"></a> Oobe\_EnableLog
 
@@ -242,7 +252,7 @@ public static string Oobe_EnableLog { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_EnableLogDesc"></a> Oobe\_EnableLogDesc
 
@@ -252,7 +262,7 @@ public static string Oobe_EnableLogDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_EnablePPTLink"></a> Oobe\_EnablePPTLink
 
@@ -262,7 +272,7 @@ public static string Oobe_EnablePPTLink { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_EnablePPTLinkDesc"></a> Oobe\_EnablePPTLinkDesc
 
@@ -272,7 +282,7 @@ public static string Oobe_EnablePPTLinkDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_EnableQuickPanel"></a> Oobe\_EnableQuickPanel
 
@@ -282,7 +292,7 @@ public static string Oobe_EnableQuickPanel { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_EnableQuickPanelDesc"></a> Oobe\_EnableQuickPanelDesc
 
@@ -292,7 +302,7 @@ public static string Oobe_EnableQuickPanelDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_EnableTimeCapsule"></a> Oobe\_EnableTimeCapsule
 
@@ -302,7 +312,7 @@ public static string Oobe_EnableTimeCapsule { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_EnableTimeCapsuleDesc"></a> Oobe\_EnableTimeCapsuleDesc
 
@@ -312,7 +322,7 @@ public static string Oobe_EnableTimeCapsuleDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_EnableTrayIcon"></a> Oobe\_EnableTrayIcon
 
@@ -322,7 +332,7 @@ public static string Oobe_EnableTrayIcon { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_EnableTrayIconDesc"></a> Oobe\_EnableTrayIconDesc
 
@@ -332,7 +342,7 @@ public static string Oobe_EnableTrayIconDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_EnableTwoFingerPan"></a> Oobe\_EnableTwoFingerPan
 
@@ -342,7 +352,7 @@ public static string Oobe_EnableTwoFingerPan { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_EnableTwoFingerZoom"></a> Oobe\_EnableTwoFingerZoom
 
@@ -352,7 +362,7 @@ public static string Oobe_EnableTwoFingerZoom { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_FinishDesc"></a> Oobe\_FinishDesc
 
@@ -362,7 +372,7 @@ public static string Oobe_FinishDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_FinishTitle"></a> Oobe\_FinishTitle
 
@@ -372,7 +382,7 @@ public static string Oobe_FinishTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_FloatingInterceptorDesc"></a> Oobe\_FloatingInterceptorDesc
 
@@ -382,7 +392,7 @@ public static string Oobe_FloatingInterceptorDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_FoldAtStartup"></a> Oobe\_FoldAtStartup
 
@@ -392,7 +402,7 @@ public static string Oobe_FoldAtStartup { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_FoldAtStartupDesc"></a> Oobe\_FoldAtStartupDesc
 
@@ -402,7 +412,7 @@ public static string Oobe_FoldAtStartupDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_HideInkOnExit"></a> Oobe\_HideInkOnExit
 
@@ -412,7 +422,7 @@ public static string Oobe_HideInkOnExit { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_HideInkOnExitDesc"></a> Oobe\_HideInkOnExitDesc
 
@@ -422,7 +432,7 @@ public static string Oobe_HideInkOnExitDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_IgnorePressureDesc"></a> Oobe\_IgnorePressureDesc
 
@@ -432,7 +442,7 @@ public static string Oobe_IgnorePressureDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_InkRecogDesc"></a> Oobe\_InkRecogDesc
 
@@ -442,7 +452,7 @@ public static string Oobe_InkRecogDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_NavAdvanced"></a> Oobe\_NavAdvanced
 
@@ -452,7 +462,7 @@ public static string Oobe_NavAdvanced { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_NavAutomation"></a> Oobe\_NavAutomation
 
@@ -462,7 +472,7 @@ public static string Oobe_NavAutomation { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_NavCanvas"></a> Oobe\_NavCanvas
 
@@ -472,7 +482,7 @@ public static string Oobe_NavCanvas { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_NavFinish"></a> Oobe\_NavFinish
 
@@ -482,7 +492,7 @@ public static string Oobe_NavFinish { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_NavGestures"></a> Oobe\_NavGestures
 
@@ -492,7 +502,7 @@ public static string Oobe_NavGestures { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_NavPPT"></a> Oobe\_NavPPT
 
@@ -502,7 +512,7 @@ public static string Oobe_NavPPT { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_NavTelemetry"></a> Oobe\_NavTelemetry
 
@@ -512,7 +522,7 @@ public static string Oobe_NavTelemetry { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_NavWelcome"></a> Oobe\_NavWelcome
 
@@ -522,7 +532,7 @@ public static string Oobe_NavWelcome { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Next"></a> Oobe\_Next
 
@@ -532,7 +542,7 @@ public static string Oobe_Next { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PalmEraserDesc"></a> Oobe\_PalmEraserDesc
 
@@ -542,7 +552,7 @@ public static string Oobe_PalmEraserDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PresetApply"></a> Oobe\_PresetApply
 
@@ -552,7 +562,7 @@ public static string Oobe_PresetApply { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PresetBack"></a> Oobe\_PresetBack
 
@@ -562,7 +572,7 @@ public static string Oobe_PresetBack { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PresetLite"></a> Oobe\_PresetLite
 
@@ -572,7 +582,7 @@ public static string Oobe_PresetLite { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PresetLiteDesc"></a> Oobe\_PresetLiteDesc
 
@@ -582,7 +592,7 @@ public static string Oobe_PresetLiteDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PresetNote"></a> Oobe\_PresetNote
 
@@ -592,7 +602,7 @@ public static string Oobe_PresetNote { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PresetStandard"></a> Oobe\_PresetStandard
 
@@ -602,7 +612,7 @@ public static string Oobe_PresetStandard { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PresetStandardDesc"></a> Oobe\_PresetStandardDesc
 
@@ -612,7 +622,7 @@ public static string Oobe_PresetStandardDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PresetSubtitle"></a> Oobe\_PresetSubtitle
 
@@ -622,7 +632,7 @@ public static string Oobe_PresetSubtitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PresetTagPPTLink"></a> Oobe\_PresetTagPPTLink
 
@@ -632,7 +642,7 @@ public static string Oobe_PresetTagPPTLink { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PresetTagTrayIcon"></a> Oobe\_PresetTagTrayIcon
 
@@ -642,7 +652,7 @@ public static string Oobe_PresetTagTrayIcon { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PresetTagTwoFinger"></a> Oobe\_PresetTagTwoFinger
 
@@ -652,7 +662,7 @@ public static string Oobe_PresetTagTwoFinger { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PresetTitle"></a> Oobe\_PresetTitle
 
@@ -662,7 +672,7 @@ public static string Oobe_PresetTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Previous"></a> Oobe\_Previous
 
@@ -672,7 +682,7 @@ public static string Oobe_Previous { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PrivacyDesc"></a> Oobe\_PrivacyDesc
 
@@ -682,7 +692,7 @@ public static string Oobe_PrivacyDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PrivacyPolicy"></a> Oobe\_PrivacyPolicy
 
@@ -692,7 +702,7 @@ public static string Oobe_PrivacyPolicy { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_PrivacyTitle"></a> Oobe\_PrivacyTitle
 
@@ -702,7 +712,7 @@ public static string Oobe_PrivacyTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SaveAndStart"></a> Oobe\_SaveAndStart
 
@@ -712,7 +722,7 @@ public static string Oobe_SaveAndStart { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SaveByDate"></a> Oobe\_SaveByDate
 
@@ -722,7 +732,7 @@ public static string Oobe_SaveByDate { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_ScreenshotTitle"></a> Oobe\_ScreenshotTitle
 
@@ -732,7 +742,7 @@ public static string Oobe_ScreenshotTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_ShowPenCursorDesc"></a> Oobe\_ShowPenCursorDesc
 
@@ -742,7 +752,7 @@ public static string Oobe_ShowPenCursorDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_ShowRollCallButtons"></a> Oobe\_ShowRollCallButtons
 
@@ -752,7 +762,7 @@ public static string Oobe_ShowRollCallButtons { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_ShowSplashScreenDesc"></a> Oobe\_ShowSplashScreenDesc
 
@@ -762,7 +772,7 @@ public static string Oobe_ShowSplashScreenDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_StartStepByStep"></a> Oobe\_StartStepByStep
 
@@ -772,7 +782,7 @@ public static string Oobe_StartStepByStep { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_StartupCrashTitle"></a> Oobe\_StartupCrashTitle
 
@@ -782,7 +792,7 @@ public static string Oobe_StartupCrashTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Step1Subtitle"></a> Oobe\_Step1Subtitle
 
@@ -792,7 +802,7 @@ public static string Oobe_Step1Subtitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Step1Title"></a> Oobe\_Step1Title
 
@@ -802,7 +812,7 @@ public static string Oobe_Step1Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Step2Subtitle"></a> Oobe\_Step2Subtitle
 
@@ -812,7 +822,7 @@ public static string Oobe_Step2Subtitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Step2Title"></a> Oobe\_Step2Title
 
@@ -822,7 +832,7 @@ public static string Oobe_Step2Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Step3Subtitle"></a> Oobe\_Step3Subtitle
 
@@ -832,7 +842,7 @@ public static string Oobe_Step3Subtitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Step3Title"></a> Oobe\_Step3Title
 
@@ -842,7 +852,7 @@ public static string Oobe_Step3Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Step4Subtitle"></a> Oobe\_Step4Subtitle
 
@@ -852,7 +862,7 @@ public static string Oobe_Step4Subtitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Step5Subtitle"></a> Oobe\_Step5Subtitle
 
@@ -862,7 +872,7 @@ public static string Oobe_Step5Subtitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Step5Title"></a> Oobe\_Step5Title
 
@@ -872,7 +882,7 @@ public static string Oobe_Step5Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Step6Subtitle"></a> Oobe\_Step6Subtitle
 
@@ -882,7 +892,7 @@ public static string Oobe_Step6Subtitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Step6Title"></a> Oobe\_Step6Title
 
@@ -892,7 +902,7 @@ public static string Oobe_Step6Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Step7Subtitle"></a> Oobe\_Step7Subtitle
 
@@ -902,7 +912,7 @@ public static string Oobe_Step7Subtitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Step8Subtitle"></a> Oobe\_Step8Subtitle
 
@@ -912,7 +922,7 @@ public static string Oobe_Step8Subtitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_Step8Title"></a> Oobe\_Step8Title
 
@@ -922,7 +932,7 @@ public static string Oobe_Step8Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_StepCount"></a> Oobe\_StepCount
 
@@ -932,7 +942,7 @@ public static string Oobe_StepCount { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_StepFinishFormat"></a> Oobe\_StepFinishFormat
 
@@ -942,7 +952,7 @@ public static string Oobe_StepFinishFormat { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_StepFormat"></a> Oobe\_StepFormat
 
@@ -952,7 +962,7 @@ public static string Oobe_StepFormat { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryAppTheme"></a> Oobe\_SummaryAppTheme
 
@@ -962,7 +972,7 @@ public static string Oobe_SummaryAppTheme { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryLogEnabled"></a> Oobe\_SummaryLogEnabled
 
@@ -972,7 +982,7 @@ public static string Oobe_SummaryLogEnabled { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryPPTLink"></a> Oobe\_SummaryPPTLink
 
@@ -982,7 +992,7 @@ public static string Oobe_SummaryPPTLink { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryTelemetryLevel"></a> Oobe\_SummaryTelemetryLevel
 
@@ -992,7 +1002,7 @@ public static string Oobe_SummaryTelemetryLevel { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryTrayIcon"></a> Oobe\_SummaryTrayIcon
 
@@ -1002,7 +1012,7 @@ public static string Oobe_SummaryTrayIcon { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_SummaryTwoFingerZoom"></a> Oobe\_SummaryTwoFingerZoom
 
@@ -1012,7 +1022,7 @@ public static string Oobe_SummaryTwoFingerZoom { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_TelemetryBasic"></a> Oobe\_TelemetryBasic
 
@@ -1022,7 +1032,7 @@ public static string Oobe_TelemetryBasic { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_TelemetryLevel"></a> Oobe\_TelemetryLevel
 
@@ -1032,7 +1042,7 @@ public static string Oobe_TelemetryLevel { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_TelemetryLevelDesc"></a> Oobe\_TelemetryLevelDesc
 
@@ -1042,7 +1052,7 @@ public static string Oobe_TelemetryLevelDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_TelemetryNone"></a> Oobe\_TelemetryNone
 
@@ -1052,7 +1062,7 @@ public static string Oobe_TelemetryNone { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_TelemetryOptional"></a> Oobe\_TelemetryOptional
 
@@ -1062,7 +1072,7 @@ public static string Oobe_TelemetryOptional { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_ThemeLight"></a> Oobe\_ThemeLight
 
@@ -1072,7 +1082,7 @@ public static string Oobe_ThemeLight { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_TrayAndQuickPanel"></a> Oobe\_TrayAndQuickPanel
 
@@ -1082,7 +1092,7 @@ public static string Oobe_TrayAndQuickPanel { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_UsePreset"></a> Oobe\_UsePreset
 
@@ -1092,7 +1102,7 @@ public static string Oobe_UsePreset { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_WelcomeDesc"></a> Oobe\_WelcomeDesc
 
@@ -1102,7 +1112,7 @@ public static string Oobe_WelcomeDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_Oobe_WelcomeTitle"></a> Oobe\_WelcomeTitle
 
@@ -1112,7 +1122,7 @@ public static string Oobe_WelcomeTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_OobeStrings_ResourceManager"></a> ResourceManager
 
@@ -1122,7 +1132,7 @@ public static ResourceManager ResourceManager { get; }
 
 #### Property Value
 
- ResourceManager
+ [ResourceManager](https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager)
 
 ## Methods
 
@@ -1134,9 +1144,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

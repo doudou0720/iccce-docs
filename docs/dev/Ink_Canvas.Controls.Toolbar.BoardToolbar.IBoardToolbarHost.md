@@ -17,7 +17,7 @@ bool CanAddNewPage { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_CanDeletePage"></a> CanDeletePage
 
@@ -27,7 +27,7 @@ bool CanDeletePage { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_CanRedo"></a> CanRedo
 
@@ -37,7 +37,7 @@ bool CanRedo { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_CanSwitchToNextPage"></a> CanSwitchToNextPage
 
@@ -47,7 +47,7 @@ bool CanSwitchToNextPage { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_CanSwitchToPreviousPage"></a> CanSwitchToPreviousPage
 
@@ -57,7 +57,7 @@ bool CanSwitchToPreviousPage { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_CanUndo"></a> CanUndo
 
@@ -67,7 +67,7 @@ bool CanUndo { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_CurrentPageInfo"></a> CurrentPageInfo
 
@@ -77,7 +77,7 @@ string CurrentPageInfo { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_Window"></a> Window
 
@@ -123,7 +123,7 @@ FrameworkElement FindView(string id)
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
@@ -155,7 +155,7 @@ void RegisterView(string id, FrameworkElement view)
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `view` FrameworkElement
 

@@ -11,8 +11,22 @@ public class GlobalHotkeyManager : IDisposable
 
 #### Inheritance
 
-IDisposable ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [GlobalHotkeyManager](Ink\_Canvas.Helpers.GlobalHotkeyManager.md)
+
+#### Implements
+
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -47,6 +61,8 @@ public void DisableScreenSpecificHotkeys()
 
 ### <a id="Ink_Canvas_Helpers_GlobalHotkeyManager_Dispose"></a> Dispose\(\)
 
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+
 ```csharp
 public void Dispose()
 ```
@@ -78,7 +94,7 @@ public string GetCurrentScreenInfo()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 当前屏幕信息
 
@@ -92,7 +108,7 @@ public List<GlobalHotkeyManager.HotkeyInfo> GetHotkeysFromConfigFile()
 
 #### Returns
 
- List<[GlobalHotkeyManager](Ink\_Canvas.Helpers.GlobalHotkeyManager.md).[HotkeyInfo](Ink\_Canvas.Helpers.GlobalHotkeyManager.HotkeyInfo.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GlobalHotkeyManager](Ink\_Canvas.Helpers.GlobalHotkeyManager.md).[HotkeyInfo](Ink\_Canvas.Helpers.GlobalHotkeyManager.HotkeyInfo.md)\>
 
 配置文件中的快捷键列表
 
@@ -106,7 +122,7 @@ public List<GlobalHotkeyManager.HotkeyInfo> GetRegisteredHotkeys()
 
 #### Returns
 
- List<[GlobalHotkeyManager](Ink\_Canvas.Helpers.GlobalHotkeyManager.md).[HotkeyInfo](Ink\_Canvas.Helpers.GlobalHotkeyManager.HotkeyInfo.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GlobalHotkeyManager](Ink\_Canvas.Helpers.GlobalHotkeyManager.md).[HotkeyInfo](Ink\_Canvas.Helpers.GlobalHotkeyManager.HotkeyInfo.md)\>
 
 快捷键信息列表
 
@@ -120,13 +136,13 @@ public bool IsHotkeyRegistered(string hotkeyName)
 
 #### Parameters
 
-`hotkeyName` string
+`hotkeyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 快捷键名称
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否已注册
 
@@ -140,7 +156,7 @@ public bool IsScreenSpecificHotkeysEnabled()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否启用
 
@@ -176,7 +192,7 @@ public void RefreshMultiScreenSettings()
 public void RegisterDefaultHotkeys()
 ```
 
-### <a id="Ink_Canvas_Helpers_GlobalHotkeyManager_RegisterHotkey_System_String_Key_ModifierKeys_Action_"></a> RegisterHotkey\(string, Key, ModifierKeys, Action\)
+### <a id="Ink_Canvas_Helpers_GlobalHotkeyManager_RegisterHotkey_System_String_Key_ModifierKeys_System_Action_"></a> RegisterHotkey\(string, Key, ModifierKeys, Action\)
 
 注册全局快捷键
 
@@ -186,7 +202,7 @@ public bool RegisterHotkey(string hotkeyName, Key key, ModifierKeys modifiers, A
 
 #### Parameters
 
-`hotkeyName` string
+`hotkeyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 快捷键名称
 
@@ -198,13 +214,13 @@ public bool RegisterHotkey(string hotkeyName, Key key, ModifierKeys modifiers, A
 
 修饰键
 
-`action` Action
+`action` [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
 执行动作
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否注册成功
 
@@ -234,13 +250,13 @@ public bool UnregisterHotkey(string hotkeyName)
 
 #### Parameters
 
-`hotkeyName` string
+`hotkeyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 快捷键名称
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否注销成功
 
@@ -254,7 +270,7 @@ public bool UpdateHotkey(string hotkeyName, Key key, ModifierKeys modifiers)
 
 #### Parameters
 
-`hotkeyName` string
+`hotkeyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 快捷键名称
 
@@ -268,7 +284,7 @@ public bool UpdateHotkey(string hotkeyName, Key key, ModifierKeys modifiers)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否更新成功
 
@@ -283,7 +299,7 @@ public void UpdateHotkeyStateForToolMode(bool isMouseMode)
 
 #### Parameters
 
-`isMouseMode` bool
+`isMouseMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否为鼠标模式（选择模式）
 

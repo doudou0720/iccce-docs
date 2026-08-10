@@ -11,9 +11,9 @@ public enum ShapeRecognitionEngineMode
 
 ## Fields
 
-`Auto` 
+`Auto = 0` 
 
-`IACore` 
+`IACore = 1` 
 
-`WinRT` 
+`WinRT = 2` 
 

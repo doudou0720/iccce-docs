@@ -35,7 +35,7 @@ public Action<byte[]> ApplyStrokes { get; set; }
 
 #### Property Value
 
- Action<byte\[\]\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]\>
 
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_CanGoNext"></a> CanGoNext
 
@@ -45,7 +45,7 @@ public bool CanGoNext { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_CanGoPrevious"></a> CanGoPrevious
 
@@ -55,7 +55,7 @@ public bool CanGoPrevious { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_CaptureStrokes"></a> CaptureStrokes
 
@@ -67,7 +67,7 @@ public Func<byte[]> CaptureStrokes { get; set; }
 
 #### Property Value
 
- Func<byte\[\]\>
+ [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]\>
 
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_ClearAllStrokes"></a> ClearAllStrokes
 
@@ -79,7 +79,7 @@ public Action ClearAllStrokes { get; set; }
 
 #### Property Value
 
- Action
+ [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_CurrentPageIndex"></a> CurrentPageIndex
 
@@ -89,7 +89,7 @@ public uint CurrentPageIndex { get; }
 
 #### Property Value
 
- uint
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_EnableStrokesPersistence"></a> EnableStrokesPersistence
 
@@ -101,7 +101,7 @@ public bool EnableStrokesPersistence { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_PageCount"></a> PageCount
 
@@ -111,7 +111,7 @@ public uint PageCount { get; }
 
 #### Property Value
 
- uint
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_PageLabelText"></a> PageLabelText
 
@@ -121,7 +121,7 @@ public string PageLabelText { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_PdfPath"></a> PdfPath
 
@@ -131,7 +131,7 @@ public string PdfPath { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -143,7 +143,7 @@ public Task GoToNextPageAsync()
 
 #### Returns
 
- Task
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_GoToPreviousPageAsync"></a> GoToPreviousPageAsync\(\)
 
@@ -153,31 +153,31 @@ public Task GoToPreviousPageAsync()
 
 #### Returns
 
- Task
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_InitializeAsync_System_String_System_UInt32_System_Boolean_System_UInt32_"></a> InitializeAsync\(string, uint, bool, uint\)
 
 初始化并显示指定页；由 MainWindow 在 UI 线程创建后调用。
 
 ```csharp
-public Task InitializeAsync(string pdfFilePath, uint pageCount, bool compressLargePictures, uint initialPageIndex = null)
+public Task InitializeAsync(string pdfFilePath, uint pageCount, bool compressLargePictures, uint initialPageIndex = 0)
 ```
 
 #### Parameters
 
-`pdfFilePath` string
+`pdfFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`pageCount` uint
+`pageCount` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-`compressLargePictures` bool
+`compressLargePictures` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-`initialPageIndex` uint
+`initialPageIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 从 0 开始的页码，超出范围时夹紧到合法区间。
 
 #### Returns
 
- Task
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
 ### <a id="Ink_Canvas_Controls_PdfEmbeddedView_PageNavigationStateChanged"></a> PageNavigationStateChanged
 
@@ -189,5 +189,5 @@ public event EventHandler PageNavigationStateChanged
 
 #### Event Type
 
- EventHandler
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 

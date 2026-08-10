@@ -86,7 +86,7 @@ public int CurrentSlide { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Controls_PPTNavBar_Direction"></a> Direction
 
@@ -106,7 +106,7 @@ public bool IsPreviewExpanded { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_PPTNavBar_PreviewItems"></a> PreviewItems
 
@@ -116,7 +116,7 @@ public IList<PPTNavBar.PreviewItem> PreviewItems { get; set; }
 
 #### Property Value
 
- IList<[PPTNavBar](Ink\_Canvas.Controls.PPTNavBar.md).[PreviewItem](Ink\_Canvas.Controls.PPTNavBar.PreviewItem.md)\>
+ [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[PPTNavBar](Ink\_Canvas.Controls.PPTNavBar.md).[PreviewItem](Ink\_Canvas.Controls.PPTNavBar.PreviewItem.md)\>
 
 ### <a id="Ink_Canvas_Controls_PPTNavBar_TotalSlides"></a> TotalSlides
 
@@ -126,7 +126,7 @@ public int TotalSlides { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 
@@ -138,7 +138,7 @@ public void ApplyTheme(bool isDark)
 
 #### Parameters
 
-`isDark` bool
+`isDark` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_PPTNavBar_SetBarOpacity_System_Double_"></a> SetBarOpacity\(double\)
 
@@ -148,7 +148,7 @@ public void SetBarOpacity(double opacity)
 
 #### Parameters
 
-`opacity` double
+`opacity` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Controls_PPTNavBar_SetBarScale_System_Double_"></a> SetBarScale\(double\)
 
@@ -158,7 +158,7 @@ public void SetBarScale(double scale)
 
 #### Parameters
 
-`scale` double
+`scale` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Controls_PPTNavBar_SetPageButtonVisibility_Visibility_"></a> SetPageButtonVisibility\(Visibility\)
 
@@ -178,7 +178,7 @@ public event EventHandler NextClick
 
 #### Event Type
 
- EventHandler
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
 ### <a id="Ink_Canvas_Controls_PPTNavBar_NextPressedDown"></a> NextPressedDown
 
@@ -188,7 +188,7 @@ public event EventHandler NextPressedDown
 
 #### Event Type
 
- EventHandler
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
 ### <a id="Ink_Canvas_Controls_PPTNavBar_PageClick"></a> PageClick
 
@@ -198,7 +198,7 @@ public event EventHandler PageClick
 
 #### Event Type
 
- EventHandler
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
 ### <a id="Ink_Canvas_Controls_PPTNavBar_PressEnded"></a> PressEnded
 
@@ -208,7 +208,7 @@ public event EventHandler PressEnded
 
 #### Event Type
 
- EventHandler
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
 ### <a id="Ink_Canvas_Controls_PPTNavBar_PreviewExpandedChanged"></a> PreviewExpandedChanged
 
@@ -218,7 +218,7 @@ public event EventHandler<bool> PreviewExpandedChanged
 
 #### Event Type
 
- EventHandler<bool\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
 ### <a id="Ink_Canvas_Controls_PPTNavBar_PreviousClick"></a> PreviousClick
 
@@ -228,7 +228,7 @@ public event EventHandler PreviousClick
 
 #### Event Type
 
- EventHandler
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
 ### <a id="Ink_Canvas_Controls_PPTNavBar_PreviousPressedDown"></a> PreviousPressedDown
 
@@ -238,7 +238,7 @@ public event EventHandler PreviousPressedDown
 
 #### Event Type
 
- EventHandler
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
 ### <a id="Ink_Canvas_Controls_PPTNavBar_SlideSelected"></a> SlideSelected
 
@@ -248,5 +248,5 @@ public event EventHandler<int> SlideSelected
 
 #### Event Type
 
- EventHandler<int\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 

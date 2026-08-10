@@ -11,8 +11,18 @@ public class InkSmoothingConfig
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [InkSmoothingConfig](Ink\_Canvas.Helpers.InkSmoothingConfig.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -24,7 +34,7 @@ public double CurveTension { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingConfig_InterpolationSteps"></a> InterpolationSteps
 
@@ -34,7 +44,7 @@ public int InterpolationSteps { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingConfig_MaxConcurrentTasks"></a> MaxConcurrentTasks
 
@@ -44,7 +54,7 @@ public int MaxConcurrentTasks { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingConfig_MaxCurvatureThreshold"></a> MaxCurvatureThreshold
 
@@ -54,7 +64,7 @@ public double MaxCurvatureThreshold { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingConfig_MaxPointsPerStroke"></a> MaxPointsPerStroke
 
@@ -64,7 +74,7 @@ public int MaxPointsPerStroke { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingConfig_MinCurvatureThreshold"></a> MinCurvatureThreshold
 
@@ -74,7 +84,7 @@ public double MinCurvatureThreshold { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingConfig_Quality"></a> Quality
 
@@ -94,7 +104,7 @@ public double ResampleInterval { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingConfig_SmoothingStrength"></a> SmoothingStrength
 
@@ -104,7 +114,7 @@ public double SmoothingStrength { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingConfig_UseAdaptiveInterpolation"></a> UseAdaptiveInterpolation
 
@@ -114,7 +124,7 @@ public bool UseAdaptiveInterpolation { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingConfig_UseAsyncProcessing"></a> UseAsyncProcessing
 
@@ -124,7 +134,7 @@ public bool UseAsyncProcessing { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingConfig_UseHardwareAcceleration"></a> UseHardwareAcceleration
 
@@ -134,7 +144,7 @@ public bool UseHardwareAcceleration { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -168,7 +178,7 @@ public string GetSummary()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingConfig_SaveToSettings"></a> SaveToSettings\(\)
 
@@ -188,5 +198,5 @@ public bool Validate()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

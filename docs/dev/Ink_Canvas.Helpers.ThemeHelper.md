@@ -9,8 +9,18 @@ public static class ThemeHelper
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ThemeHelper](Ink\_Canvas.Helpers.ThemeHelper.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -26,7 +36,7 @@ public static void ApplyTheme(FrameworkElement element, Settings settings)
 
 `settings` [Settings](Ink\_Canvas.Settings.md)
 
-### <a id="Ink_Canvas_Helpers_ThemeHelper_ApplyTheme_FrameworkElement_Ink_Canvas_Settings_Action_System_String__"></a> ApplyTheme\(FrameworkElement, Settings, Action<string\>\)
+### <a id="Ink_Canvas_Helpers_ThemeHelper_ApplyTheme_FrameworkElement_Ink_Canvas_Settings_System_Action_System_String__"></a> ApplyTheme\(FrameworkElement, Settings, Action<string\>\)
 
 ```csharp
 public static void ApplyTheme(FrameworkElement element, Settings settings, Action<string> onThemeApplied)
@@ -38,7 +48,7 @@ public static void ApplyTheme(FrameworkElement element, Settings settings, Actio
 
 `settings` [Settings](Ink\_Canvas.Settings.md)
 
-`onThemeApplied` Action<string\>
+`onThemeApplied` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Helpers_ThemeHelper_GetEffectiveTheme_Ink_Canvas_Settings_"></a> GetEffectiveTheme\(Settings\)
 
@@ -62,7 +72,7 @@ public static bool IsSystemThemeLight()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_ThemeHelper_IsSystemThemeLightLegacy"></a> IsSystemThemeLightLegacy\(\)
 
@@ -72,5 +82,5 @@ public static bool IsSystemThemeLightLegacy()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

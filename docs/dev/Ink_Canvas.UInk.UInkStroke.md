@@ -9,8 +9,17 @@ public sealed class UInkStroke
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkStroke](Ink\_Canvas.UInk.UInkStroke.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -32,7 +41,7 @@ public List<float> DashArray
 
 #### Field Value
 
- List<float\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)\>
 
 ### <a id="Ink_Canvas_UInk_UInkStroke_DashOffset"></a> DashOffset
 
@@ -42,7 +51,7 @@ public float? DashOffset
 
 #### Field Value
 
- float?
+ [float](https://learn.microsoft.com/dotnet/api/system.single)?
 
 ### <a id="Ink_Canvas_UInk_UInkStroke_EndMarker"></a> EndMarker
 
@@ -52,7 +61,7 @@ public int? EndMarker
 
 #### Field Value
 
- int?
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)?
 
 ### <a id="Ink_Canvas_UInk_UInkStroke_Opacity"></a> Opacity
 
@@ -62,7 +71,7 @@ public float Opacity
 
 #### Field Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_UInk_UInkStroke_StartMarker"></a> StartMarker
 
@@ -72,7 +81,7 @@ public int? StartMarker
 
 #### Field Value
 
- int?
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)?
 
 ### <a id="Ink_Canvas_UInk_UInkStroke_Width"></a> Width
 
@@ -82,5 +91,5 @@ public float Width
 
 #### Field Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 

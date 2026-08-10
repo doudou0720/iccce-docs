@@ -5,7 +5,7 @@ Assembly: InkCanvasForClass.dll
 
 摄像头服务工厂。
 统一返回 <xref href="Ink_Canvas.Helpers.DirectShowCameraService" data-throw-if-not-resolved="false"></xref>（基于 DirectShowLib + SampleGrabber），
-不再依赖 AForge.Video / WinRT MediaFrameReader。
+不依赖 WinRT MediaFrameReader。
 视频展台特殊模式（全屏预览）走 MainWindow.VideoPresenterFullCanvasImage（WPFMediaKit VideoCaptureElement）。
 
 ```csharp
@@ -14,8 +14,18 @@ public static class CameraServiceFactory
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [CameraServiceFactory](Ink\_Canvas.Helpers.CameraServiceFactory.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 

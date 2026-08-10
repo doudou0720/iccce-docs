@@ -17,12 +17,22 @@ public static class UInkSaveService
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkSaveService](Ink\_Canvas.UInk.UInkSaveService.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
-### <a id="Ink_Canvas_UInk_UInkSaveService_SaveFull_Ink_Canvas_UInk_UInkDocument_System_String_IReadOnlyList_System_ValueTuple_System_String_System_String___"></a> SaveFull\(UInkDocument, string, IReadOnlyList<\(string entryPath, string sourceFile\)\>\)
+### <a id="Ink_Canvas_UInk_UInkSaveService_SaveFull_Ink_Canvas_UInk_UInkDocument_System_String_System_Collections_Generic_IReadOnlyList_System_ValueTuple_System_String_System_String___"></a> SaveFull\(UInkDocument, string, IReadOnlyList<\(string entryPath, string sourceFile\)\>\)
 
 完整保存：把 doc 写入 mainPath，资源打包进 mainPath + ".extra"。
 resources 为「新主文件引用的资源」（入口路径 NFC 规范化在 WriteArchive 内完成）。
@@ -35,9 +45,9 @@ public static void SaveFull(UInkDocument doc, string mainPath, IReadOnlyList<(st
 
 `doc` [UInkDocument](Ink\_Canvas.UInk.UInkDocument.md)
 
-`mainPath` string
+`mainPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`resources` IReadOnlyList<\(string [entryPath](System.ValueTuple\{System.String,System.String\}.md\#System\_ValueTuple\_System\_String\_System\_String\_\_entryPath), string [sourceFile](System.ValueTuple\{System.String,System.String\}.md\#System\_ValueTuple\_System\_String\_System\_String\_\_sourceFile)\)\>
+`resources` [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<\([string](https://learn.microsoft.com/dotnet/api/system.string) [entryPath](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,system.string\-.entrypath), [string](https://learn.microsoft.com/dotnet/api/system.string) [sourceFile](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,system.string\-.sourcefile)\)\>
 
 ### <a id="Ink_Canvas_UInk_UInkSaveService_TempExtraPath_System_String_"></a> TempExtraPath\(string\)
 
@@ -47,11 +57,11 @@ public static string TempExtraPath(string mainPath)
 
 #### Parameters
 
-`mainPath` string
+`mainPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_UInk_UInkSaveService_TempMainPath_System_String_"></a> TempMainPath\(string\)
 
@@ -63,9 +73,9 @@ public static string TempMainPath(string mainPath)
 
 #### Parameters
 
-`mainPath` string
+`mainPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

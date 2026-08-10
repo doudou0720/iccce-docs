@@ -134,7 +134,7 @@ Media 块不参与墨迹撤回链（其 undoId 分组语义由元素恢复管线
  [UInkWriter](Ink\_Canvas.UInk.UInkWriter.md)
 
 UInk 主文件写入器。按对象流顺序写出 Header → HeaderExtension → (Canvas → 内容块)*。
-完整保存走 <xref href="Ink_Canvas.UInk.UInkWriter.Save(Ink_Canvas.UInk.UInkDocument%2cSystem.String)" data-throw-if-not-resolved="false"></xref>；增量追加走 <xref href="Ink_Canvas.UInk.UInkWriter.AppendBlocks(System.String%2cIEnumerable%7bSystem.Object%7d)" data-throw-if-not-resolved="false"></xref>。
+完整保存走 <xref href="Ink_Canvas.UInk.UInkWriter.Save(Ink_Canvas.UInk.UInkDocument%2cSystem.String)" data-throw-if-not-resolved="false"></xref>；增量追加走 <xref href="Ink_Canvas.UInk.UInkWriter.AppendBlocks(System.String%2cSystem.Collections.Generic.IEnumerable%7bSystem.Object%7d)" data-throw-if-not-resolved="false"></xref>。
 两阶段提交（先 .uink.extra 后主文件）由 UInkSaveService 编排。
 
 ### Interfaces

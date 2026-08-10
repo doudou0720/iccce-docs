@@ -37,7 +37,7 @@ Only shrinks, never enlarges above MaxFontSize.
 
 摄像头服务工厂。
 统一返回 <xref href="Ink_Canvas.Helpers.DirectShowCameraService" data-throw-if-not-resolved="false"></xref>（基于 DirectShowLib + SampleGrabber），
-不再依赖 AForge.Video / WinRT MediaFrameReader。
+不依赖 WinRT MediaFrameReader。
 视频展台特殊模式（全屏预览）走 MainWindow.VideoPresenterFullCanvasImage（WPFMediaKit VideoCaptureElement）。
 
  [CapturableVideoCaptureElement](Ink\_Canvas.Helpers.CapturableVideoCaptureElement.md)
@@ -63,7 +63,7 @@ D3DImage 属性是 protected，只能在子类中访问。
  [DirectShowCameraService](Ink\_Canvas.Helpers.DirectShowCameraService.md)
 
 基于 DirectShow (DirectShowLib) FilterGraph + SampleGrabber 的摄像头服务实现。
-不依赖 AForge.Video / WinRT，纯 DirectShow + GDI+。兼容 Win7 SP1+。
+纯 DirectShow + GDI+，兼容 Win7 SP1+。
 ScreenshotSelectorWindow 使用此实现（不创建 UI 控件，纯帧事件路径）。
 视频展台特殊模式（全屏预览）仍走 MainWindow.VideoPresenterFullCanvasImage (WPFMediaKit VideoCaptureElement)。
 
@@ -98,6 +98,16 @@ Dlass上传队列
  [FileAssociationManager](Ink\_Canvas.Helpers.FileAssociationManager.md)
 
 文件关联管理器，用于注册和处理.icstk文件的关联
+
+ [FillImage](Ink\_Canvas.Helpers.FillImage.md)
+
+继承自 FrameworkElement，自行管理 Source + Stretch 渲染。
+行为与 WPFMediaKit 的 VideoCaptureElement 一致：
+  MeasureOverride / ArrangeOverride 都返回可用空间本身（填满容器），
+  OnRender 在 RenderSize 内按 Stretch=Uniform 居中绘制图像（有黑边但居中）。
+不继承 Image：Image.ArrangeOverride 返回按图像比例 fit 后的尺寸（小于容器），
+且内部 _arrangedSize 在 LayoutTransform 旋转后会与实际不匹配导致拉伸。
+用于拍照后的照片预览，使其与实时画面走完全相同的变换管线。
 
  [FloatingBarThemeMarketService](Ink\_Canvas.Helpers.FloatingBarThemeMarketService.md)
 

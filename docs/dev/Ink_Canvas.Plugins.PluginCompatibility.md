@@ -9,8 +9,18 @@ public static class PluginCompatibility
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PluginCompatibility](Ink\_Canvas.Plugins.PluginCompatibility.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -40,11 +50,11 @@ public static bool IsApiVersionCompatible(string required)
 
 #### Parameters
 
-`required` string
+`required` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginCompatibility_IsVersionAtLeast_System_String_System_String_"></a> IsVersionAtLeast\(string, string\)
 
@@ -56,13 +66,13 @@ public static bool IsVersionAtLeast(string hostVersion, string requiredMinVersio
 
 #### Parameters
 
-`hostVersion` string
+`hostVersion` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`requiredMinVersion` string
+`requiredMinVersion` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginCompatibility_IsVersionInRange_System_String_System_String_"></a> IsVersionInRange\(string, string\)
 
@@ -74,17 +84,17 @@ public static bool IsVersionInRange(string version, string range)
 
 #### Parameters
 
-`version` string
+`version` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`range` string
+`range` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginCompatibility_NormalizeVersion_System_String_"></a> NormalizeVersion\(string\)
 
-将 "v1.2"、"1.2" 这种短写法补齐为 "x.y.z" 以便 Version.TryParse 解析。
+将 "v1.2"、"1.2" 这种短写法补齐为 "x.y.z" 以便 <xref href="System.Version.TryParse(System.ReadOnlySpan%7bSystem.Byte%7d%2cSystem.Version%40)" data-throw-if-not-resolved="false"></xref> 解析。
 
 ```csharp
 public static string NormalizeVersion(string v)
@@ -92,9 +102,9 @@ public static string NormalizeVersion(string v)
 
 #### Parameters
 
-`v` string
+`v` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

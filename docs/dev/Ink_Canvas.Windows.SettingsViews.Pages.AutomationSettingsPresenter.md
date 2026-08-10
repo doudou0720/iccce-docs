@@ -42,7 +42,7 @@ public object Item { get; set; }
 
 #### Property Value
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AutomationSettingsPresenter_SettingsChanged"></a> SettingsChanged
 
@@ -52,5 +52,5 @@ public event EventHandler SettingsChanged
 
 #### Event Type
 
- EventHandler
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 

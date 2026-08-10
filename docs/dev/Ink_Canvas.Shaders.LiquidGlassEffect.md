@@ -159,7 +159,7 @@ public float BlurRadius { get; set; }
 
 #### Property Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_Shaders_LiquidGlassEffect_ChromaticAberration"></a> ChromaticAberration
 
@@ -171,7 +171,7 @@ public float ChromaticAberration { get; set; }
 
 #### Property Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_Shaders_LiquidGlassEffect_CornerRadius"></a> CornerRadius
 
@@ -183,7 +183,7 @@ public float CornerRadius { get; set; }
 
 #### Property Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_Shaders_LiquidGlassEffect_DepthEffect"></a> DepthEffect
 
@@ -195,7 +195,7 @@ public float DepthEffect { get; set; }
 
 #### Property Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_Shaders_LiquidGlassEffect_HighlightAngle"></a> HighlightAngle
 
@@ -207,7 +207,7 @@ public float HighlightAngle { get; set; }
 
 #### Property Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_Shaders_LiquidGlassEffect_HighlightFalloff"></a> HighlightFalloff
 
@@ -219,7 +219,7 @@ public float HighlightFalloff { get; set; }
 
 #### Property Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_Shaders_LiquidGlassEffect_HighlightStrength"></a> HighlightStrength
 
@@ -231,7 +231,7 @@ public float HighlightStrength { get; set; }
 
 #### Property Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_Shaders_LiquidGlassEffect_HighlightWidth"></a> HighlightWidth
 
@@ -244,7 +244,7 @@ public float HighlightWidth { get; set; }
 
 #### Property Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_Shaders_LiquidGlassEffect_Input"></a> Input
 
@@ -266,7 +266,7 @@ public static bool IsShaderAvailable { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Shaders_LiquidGlassEffect_RefractionAmount"></a> RefractionAmount
 
@@ -278,7 +278,7 @@ public float RefractionAmount { get; set; }
 
 #### Property Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_Shaders_LiquidGlassEffect_RefractionHeight"></a> RefractionHeight
 
@@ -290,7 +290,7 @@ public float RefractionHeight { get; set; }
 
 #### Property Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_Shaders_LiquidGlassEffect_TextureSize"></a> TextureSize
 

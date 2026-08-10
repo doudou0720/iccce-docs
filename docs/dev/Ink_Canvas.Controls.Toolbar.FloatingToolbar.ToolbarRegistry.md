@@ -9,8 +9,18 @@ public static class ToolbarRegistry
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ToolbarRegistry](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRegistry.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -64,7 +74,7 @@ public static List<KeyValuePair<string, string>> AvailableConditions { get; }
 
 #### Property Value
 
- List<KeyValuePair<string, string\>\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_IsContentCollapsedByUser"></a> IsContentCollapsedByUser
 
@@ -74,7 +84,7 @@ public static bool IsContentCollapsedByUser { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -106,7 +116,7 @@ public static void DeleteConfigFile(string name)
 
 #### Parameters
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_Discover"></a> Discover\(\)
 
@@ -116,7 +126,7 @@ public static IReadOnlyList<IToolbarItem> Discover()
 
 #### Returns
 
- IReadOnlyList<[IToolbarItem](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.IToolbarItem.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[IToolbarItem](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.IToolbarItem.md)\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_EnsureDefaultConfigExists"></a> EnsureDefaultConfigExists\(\)
 
@@ -124,7 +134,7 @@ public static IReadOnlyList<IToolbarItem> Discover()
 public static void EnsureDefaultConfigExists()
 ```
 
-### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_EvaluateRuleset_Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleset_Dictionary_System_String_System_Boolean__"></a> EvaluateRuleset\(ToolbarRuleset, Dictionary<string, bool\>\)
+### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_EvaluateRuleset_Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleset_System_Collections_Generic_Dictionary_System_String_System_Boolean__"></a> EvaluateRuleset\(ToolbarRuleset, Dictionary<string, bool\>\)
 
 ```csharp
 public static bool EvaluateRuleset(ToolbarRuleset ruleset, Dictionary<string, bool> context)
@@ -134,11 +144,11 @@ public static bool EvaluateRuleset(ToolbarRuleset ruleset, Dictionary<string, bo
 
 `ruleset` [ToolbarRuleset](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRuleset.md)
 
-`context` Dictionary<string, bool\>
+`context` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_GetConfigDirectory"></a> GetConfigDirectory\(\)
 
@@ -148,7 +158,7 @@ public static string GetConfigDirectory()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_GetConfigFilePath_System_String_"></a> GetConfigFilePath\(string\)
 
@@ -158,11 +168,11 @@ public static string GetConfigFilePath(string name)
 
 #### Parameters
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_GetHidingRuleset_FrameworkElement_"></a> GetHidingRuleset\(FrameworkElement\)
 
@@ -190,7 +200,7 @@ public static bool GetIsContentCollapsedByUser(FrameworkElement element)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_GetPluginItems"></a> GetPluginItems\(\)
 
@@ -200,7 +210,7 @@ public static IReadOnlyList<PluginToolbarItemInfo> GetPluginItems()
 
 #### Returns
 
- IReadOnlyList<PluginToolbarItemInfo\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<PluginToolbarItemInfo\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_GetPreventHideOnDragClick_FrameworkElement_"></a> GetPreventHideOnDragClick\(FrameworkElement\)
 
@@ -214,7 +224,7 @@ public static bool GetPreventHideOnDragClick(FrameworkElement element)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_GetUseRedStyle_FrameworkElement_"></a> GetUseRedStyle\(FrameworkElement\)
 
@@ -228,7 +238,7 @@ public static bool GetUseRedStyle(FrameworkElement element)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_ListConfigFiles"></a> ListConfigFiles\(\)
 
@@ -238,7 +248,7 @@ public static List<string> ListConfigFiles()
 
 #### Returns
 
- List<string\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_LoadActiveConfig"></a> LoadActiveConfig\(\)
 
@@ -258,7 +268,7 @@ public static ToolbarLayoutSettings LoadConfigFile(string name)
 
 #### Parameters
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
@@ -290,7 +300,7 @@ public static void RegisterPluginItem(PluginToolbarItemInfo itemInfo, bool autoA
 
 `itemInfo` PluginToolbarItemInfo
 
-`autoAddToActiveConfig` bool
+`autoAddToActiveConfig` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_RemovePluginEntryFromAllConfigs_System_String_"></a> RemovePluginEntryFromAllConfigs\(string\)
 
@@ -304,11 +314,11 @@ public static int RemovePluginEntryFromAllConfigs(string itemId)
 
 #### Parameters
 
-`itemId` string
+`itemId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 被修改的配置文件数量。
 
@@ -320,7 +330,7 @@ public static void SaveConfigFile(string name, ToolbarLayoutSettings layout)
 
 #### Parameters
 
-`name` string
+`name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `layout` [ToolbarLayoutSettings](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarLayoutSettings.md)
 
@@ -346,7 +356,7 @@ public static void SetIsContentCollapsedByUser(FrameworkElement element, bool va
 
 `element` FrameworkElement
 
-`value` bool
+`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_SetPreventHideOnDragClick_FrameworkElement_System_Boolean_"></a> SetPreventHideOnDragClick\(FrameworkElement, bool\)
 
@@ -358,7 +368,7 @@ public static void SetPreventHideOnDragClick(FrameworkElement element, bool valu
 
 `element` FrameworkElement
 
-`value` bool
+`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_SetUseRedStyle_FrameworkElement_System_Boolean_"></a> SetUseRedStyle\(FrameworkElement, bool\)
 
@@ -370,7 +380,7 @@ public static void SetUseRedStyle(FrameworkElement element, bool value)
 
 `element` FrameworkElement
 
-`value` bool
+`value` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_UnregisterPluginItem_System_String_"></a> UnregisterPluginItem\(string\)
 
@@ -385,11 +395,11 @@ public static bool UnregisterPluginItem(string itemId)
 
 #### Parameters
 
-`itemId` string
+`itemId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_UpdateVisibilityByMode_Panel_System_Boolean_System_Boolean_"></a> UpdateVisibilityByMode\(Panel, bool, bool\)
 
@@ -401,7 +411,7 @@ public static void UpdateVisibilityByMode(Panel rootPanel, bool isAnnotating, bo
 
 `rootPanel` Panel
 
-`isAnnotating` bool
+`isAnnotating` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-`isPPTMode` bool
+`isPPTMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

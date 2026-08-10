@@ -22,11 +22,11 @@ public InputDialog(string prompt, string title, string defaultValue)
 
 #### Parameters
 
-`prompt` string
+`prompt` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`title` string
+`title` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`defaultValue` string
+`defaultValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Properties
 
@@ -38,5 +38,5 @@ public string InputText { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

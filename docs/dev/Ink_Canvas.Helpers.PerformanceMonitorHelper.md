@@ -11,8 +11,18 @@ public static class PerformanceMonitorHelper
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PerformanceMonitorHelper](Ink\_Canvas.Helpers.PerformanceMonitorHelper.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -26,7 +36,7 @@ public static double CurrentAvgCpu { get; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_PerformanceMonitorHelper_CurrentMemoryMb"></a> CurrentMemoryMb
 
@@ -38,7 +48,7 @@ public static double CurrentMemoryMb { get; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_PerformanceMonitorHelper_CurrentSystemCpuPercent"></a> CurrentSystemCpuPercent
 
@@ -50,7 +60,7 @@ public static double CurrentSystemCpuPercent { get; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_PerformanceMonitorHelper_IsMonitoring"></a> IsMonitoring
 
@@ -62,7 +72,7 @@ public static bool IsMonitoring { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_PerformanceMonitorHelper_SampleCount"></a> SampleCount
 
@@ -74,7 +84,7 @@ public static int SampleCount { get; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 
@@ -96,7 +106,7 @@ public static List<PerformanceRunRecord> LoadHistory()
 
 #### Returns
 
- List<[PerformanceRunRecord](Ink\_Canvas.PerformanceRunRecord.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PerformanceRunRecord](Ink\_Canvas.PerformanceRunRecord.md)\>
 
 ### <a id="Ink_Canvas_Helpers_PerformanceMonitorHelper_RunDeviceEvaluationAsync"></a> RunDeviceEvaluationAsync\(\)
 
@@ -109,9 +119,9 @@ public static Task<(int overall, int cpu, int memory, int disk)> RunDeviceEvalua
 
 #### Returns
 
- Task<\(int [overall](System.ValueTuple\{System.Int32,System.Int32,System.Int32,System.Int32\}.md\#System\_ValueTuple\_System\_Int32\_System\_Int32\_System\_Int32\_System\_Int32\_\_overall), int [cpu](System.ValueTuple\{System.Int32,System.Int32,System.Int32,System.Int32\}.md\#System\_ValueTuple\_System\_Int32\_System\_Int32\_System\_Int32\_System\_Int32\_\_cpu), int [memory](System.ValueTuple\{System.Int32,System.Int32,System.Int32,System.Int32\}.md\#System\_ValueTuple\_System\_Int32\_System\_Int32\_System\_Int32\_System\_Int32\_\_memory), int [disk](System.ValueTuple\{System.Int32,System.Int32,System.Int32,System.Int32\}.md\#System\_ValueTuple\_System\_Int32\_System\_Int32\_System\_Int32\_System\_Int32\_\_disk)\)\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<\([int](https://learn.microsoft.com/dotnet/api/system.int32) [overall](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32,system.int32,system.int32\-.overall), [int](https://learn.microsoft.com/dotnet/api/system.int32) [cpu](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32,system.int32,system.int32\-.cpu), [int](https://learn.microsoft.com/dotnet/api/system.int32) [memory](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32,system.int32,system.int32\-.memory), [int](https://learn.microsoft.com/dotnet/api/system.int32) [disk](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32,system.int32,system.int32\-.disk)\)\>
 
-### <a id="Ink_Canvas_Helpers_PerformanceMonitorHelper_SaveHistory_List_Ink_Canvas_PerformanceRunRecord__"></a> SaveHistory\(List<PerformanceRunRecord\>\)
+### <a id="Ink_Canvas_Helpers_PerformanceMonitorHelper_SaveHistory_System_Collections_Generic_List_Ink_Canvas_PerformanceRunRecord__"></a> SaveHistory\(List<PerformanceRunRecord\>\)
 
 Saves history list to disk.
 
@@ -121,7 +131,7 @@ public static void SaveHistory(List<PerformanceRunRecord> history)
 
 #### Parameters
 
-`history` List<[PerformanceRunRecord](Ink\_Canvas.PerformanceRunRecord.md)\>
+`history` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PerformanceRunRecord](Ink\_Canvas.PerformanceRunRecord.md)\>
 
 ### <a id="Ink_Canvas_Helpers_PerformanceMonitorHelper_Start"></a> Start\(\)
 
@@ -177,5 +187,5 @@ public static event Action<double, double> SampleCollected
 
 #### Event Type
 
- Action<double, double\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[double](https://learn.microsoft.com/dotnet/api/system.double), [double](https://learn.microsoft.com/dotnet/api/system.double)\>
 

@@ -56,7 +56,7 @@ public void SetViewport(Rect viewport, Rect movementBounds, string hint)
 
 `movementBounds` Rect
 
-`hint` string
+`hint` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_BoardRoamingPopupContent_ViewportDragCompleted"></a> ViewportDragCompleted
 
@@ -66,7 +66,7 @@ public event Action ViewportDragCompleted
 
 #### Event Type
 
- Action
+ [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
 ### <a id="Ink_Canvas_Controls_BoardRoamingPopupContent_ViewportDragStarted"></a> ViewportDragStarted
 
@@ -76,7 +76,7 @@ public event Action ViewportDragStarted
 
 #### Event Type
 
- Action
+ [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
 ### <a id="Ink_Canvas_Controls_BoardRoamingPopupContent_ViewportPositionChanged"></a> ViewportPositionChanged
 
@@ -86,5 +86,5 @@ public event Action<Point> ViewportPositionChanged
 
 #### Event Type
 
- Action<Point\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<Point\>
 

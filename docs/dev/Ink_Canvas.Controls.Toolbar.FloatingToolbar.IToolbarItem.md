@@ -20,7 +20,7 @@ IReadOnlyList<PluginToolbarSettingInfo> CustomSettings { get; }
 
 #### Property Value
 
- IReadOnlyList<PluginToolbarSettingInfo\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<PluginToolbarSettingInfo\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_CustomSettingsPanelFactory"></a> CustomSettingsPanelFactory
 
@@ -33,7 +33,7 @@ Func<FrameworkElement> CustomSettingsPanelFactory { get; }
 
 #### Property Value
 
- Func<FrameworkElement\>
+ [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<FrameworkElement\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_DefaultHidingRuleset"></a> DefaultHidingRuleset
 
@@ -53,7 +53,7 @@ bool DefaultPreventHideOnDragClick { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_DefaultShowSeparateBorder"></a> DefaultShowSeparateBorder
 
@@ -63,7 +63,7 @@ bool DefaultShowSeparateBorder { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_Description"></a> Description
 
@@ -73,7 +73,7 @@ string Description { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_DisplayName"></a> DisplayName
 
@@ -83,7 +83,7 @@ string DisplayName { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_IconGeometry"></a> IconGeometry
 
@@ -93,7 +93,7 @@ string IconGeometry { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_IToolbarItem_IconKey"></a> IconKey
 
@@ -113,7 +113,7 @@ string Id { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 

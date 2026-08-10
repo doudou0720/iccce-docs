@@ -11,8 +11,18 @@ public static class FileAssociationManager
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [FileAssociationManager](Ink\_Canvas.Helpers.FileAssociationManager.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -26,13 +36,13 @@ public static string GetIcstkFileFromArgs(string[] args)
 
 #### Parameters
 
-`args` string\[\]
+`args` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 命令行参数
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 找到的.icstk文件路径，如果没有找到则返回null
 
@@ -46,7 +56,7 @@ public static bool IsFileAssociationRegistered()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_FileAssociationManager_IsFileAssociationRegistered_System_String_System_String_"></a> IsFileAssociationRegistered\(string, string\)
 
@@ -58,15 +68,15 @@ public static bool IsFileAssociationRegistered(string extension, string progId =
 
 #### Parameters
 
-`extension` string
+`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`progId` string
+`progId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 可选的 ProgId；非空时校验扩展名指向的 ProgId 是否与之匹配。
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 已注册且命令指向宿主 exe 时返回 true。
 
@@ -80,7 +90,7 @@ public static bool RegisterFileAssociation()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_FileAssociationManager_RegisterFileAssociation_System_String_System_String_System_String_System_String_"></a> RegisterFileAssociation\(string, string, string, string\)
 
@@ -93,17 +103,17 @@ public static bool RegisterFileAssociation(string extension, string progId, stri
 
 #### Parameters
 
-`extension` string
+`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`progId` string
+`progId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`description` string
+`description` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`iconPath` string
+`iconPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否注册成功；扩展名/ProgId 无效或扩展名受保护时返回 false。
 
@@ -133,7 +143,7 @@ public static bool TrySendBoardModeCommandToExistingInstance()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否成功发送
 
@@ -147,13 +157,13 @@ public static bool TrySendFileToExistingInstance(string filePath)
 
 #### Parameters
 
-`filePath` string
+`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 要打开的文件路径
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否成功发送
 
@@ -167,7 +177,7 @@ public static bool TrySendShowModeCommandToExistingInstance()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否成功发送
 
@@ -181,13 +191,13 @@ public static bool TrySendUriCommandToExistingInstance(string uri)
 
 #### Parameters
 
-`uri` string
+`uri` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 URI命令
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否成功发送
 
@@ -201,7 +211,7 @@ public static bool UnregisterFileAssociation()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_FileAssociationManager_UnregisterFileAssociation_System_String_"></a> UnregisterFileAssociation\(string\)
 
@@ -214,11 +224,11 @@ public static bool UnregisterFileAssociation(string extension)
 
 #### Parameters
 
-`extension` string
+`extension` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否注销成功。
 

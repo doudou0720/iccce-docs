@@ -52,7 +52,7 @@ public ObservableCollection<BoardToolbarGroupEntry> AreaGroups { get; }
 
 #### Property Value
 
- ObservableCollection<[BoardToolbarGroupEntry](Ink\_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarGroupEntry.md)\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[BoardToolbarGroupEntry](Ink\_Canvas.Controls.Toolbar.BoardToolbar.BoardToolbarGroupEntry.md)\>
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardToolbarPage_AvailableItems"></a> AvailableItems
 
@@ -62,7 +62,7 @@ public IReadOnlyList<IBoardToolbarItem> AvailableItems { get; }
 
 #### Property Value
 
- IReadOnlyList<[IBoardToolbarItem](Ink\_Canvas.Controls.Toolbar.BoardToolbar.IBoardToolbarItem.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[IBoardToolbarItem](Ink\_Canvas.Controls.Toolbar.BoardToolbar.IBoardToolbarItem.md)\>
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_BoardToolbarPage_GroupDropHandler"></a> GroupDropHandler
 
@@ -102,5 +102,5 @@ public int SettingsTabIndex { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

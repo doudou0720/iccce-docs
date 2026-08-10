@@ -30,5 +30,5 @@ public abstract object Settings { get; set; }
 
 #### Property Value
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 

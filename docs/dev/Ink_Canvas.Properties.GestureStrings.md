@@ -9,8 +9,18 @@ public static class GestureStrings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [GestureStrings](Ink\_Canvas.Properties.GestureStrings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- CultureInfo
+ [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 ### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_AllowRotateScale"></a> Gesture\_AllowRotateScale
 
@@ -32,7 +42,7 @@ public static string Gesture_AllowRotateScale { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_AllowRotateScaleHint"></a> Gesture\_AllowRotateScaleHint
 
@@ -42,7 +52,7 @@ public static string Gesture_AllowRotateScaleHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_EnablePalmEraser"></a> Gesture\_EnablePalmEraser
 
@@ -52,7 +62,7 @@ public static string Gesture_EnablePalmEraser { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_PalmHint"></a> Gesture\_PalmHint
 
@@ -62,7 +72,7 @@ public static string Gesture_PalmHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_PalmSensitivity"></a> Gesture\_PalmSensitivity
 
@@ -72,7 +82,7 @@ public static string Gesture_PalmSensitivity { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_PalmSensitivityHigh"></a> Gesture\_PalmSensitivityHigh
 
@@ -82,7 +92,7 @@ public static string Gesture_PalmSensitivityHigh { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_PalmSensitivityLow"></a> Gesture\_PalmSensitivityLow
 
@@ -92,7 +102,7 @@ public static string Gesture_PalmSensitivityLow { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_PalmSensitivityMedium"></a> Gesture\_PalmSensitivityMedium
 
@@ -102,7 +112,7 @@ public static string Gesture_PalmSensitivityMedium { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GestureStrings_Gesture_Title"></a> Gesture\_Title
 
@@ -112,7 +122,7 @@ public static string Gesture_Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_GestureStrings_ResourceManager"></a> ResourceManager
 
@@ -122,7 +132,7 @@ public static ResourceManager ResourceManager { get; }
 
 #### Property Value
 
- ResourceManager
+ [ResourceManager](https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager)
 
 ## Methods
 
@@ -134,9 +144,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

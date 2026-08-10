@@ -11,8 +11,22 @@ public class InkSmoothingManager : IDisposable
 
 #### Inheritance
 
-IDisposable ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [InkSmoothingManager](Ink\_Canvas.Helpers.InkSmoothingManager.md)
+
+#### Implements
+
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -62,9 +76,8 @@ public void CancelAllTasks()
 
 把 <code class="paramref">source</code> 的全部 property data 复制到 <code class="paramref">target</code>。
 平滑器（AsyncAdvancedBezierSmoothing / HardwareAcceleratedInkProcessor / AdvancedBezierSmoothing）
-创建的新 Stroke 只克隆 DrawingAttributes，会丢失 NativeWetInkCommittedGuid、
-LaserRenderModeGuid、RealtimeVelocityBrushTipAppliedGuid 等标记——激光笔迹会因此失去
-激光渲染效果，原生湿墨笔迹会失去「压感已烘焙」识别（后续可能被当普通笔画二次重写压感）。
+创建的新 Stroke 只克隆 DrawingAttributes，会丢失 LaserRenderModeGuid 等标记——
+激光笔迹会因此失去激光渲染效果。
 必须在 UI 线程调用（property data 值可能是 DispatcherObject）。
 
 ```csharp
@@ -78,6 +91,8 @@ public static void CopyPropertyData(Stroke source, Stroke target)
 `target` Stroke
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingManager_Dispose"></a> Dispose\(\)
+
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ```csharp
 public void Dispose()
@@ -105,7 +120,7 @@ public string GetPerformanceStats()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingManager_GetRecommendedConfig"></a> GetRecommendedConfig\(\)
 
@@ -129,7 +144,7 @@ public static bool IsHardwareAccelerationSupported()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingManager_ResetPerformanceStats"></a> ResetPerformanceStats\(\)
 
@@ -153,25 +168,25 @@ public Stroke SmoothStroke(Stroke originalStroke)
 
  Stroke
 
-### <a id="Ink_Canvas_Helpers_InkSmoothingManager_SmoothStrokeAsync_Stroke_Action_Stroke_Stroke__CancellationToken_"></a> SmoothStrokeAsync\(Stroke, Action<Stroke, Stroke\>, CancellationToken\)
+### <a id="Ink_Canvas_Helpers_InkSmoothingManager_SmoothStrokeAsync_Stroke_System_Action_Stroke_Stroke__System_Threading_CancellationToken_"></a> SmoothStrokeAsync\(Stroke, Action<Stroke, Stroke\>, CancellationToken\)
 
 平滑笔画（自动选择最佳方法）
 
 ```csharp
-public Task<Stroke> SmoothStrokeAsync(Stroke originalStroke, Action<Stroke, Stroke> onCompleted = null, CancellationToken cancellationToken = null)
+public Task<Stroke> SmoothStrokeAsync(Stroke originalStroke, Action<Stroke, Stroke> onCompleted = null, CancellationToken cancellationToken = default)
 ```
 
 #### Parameters
 
 `originalStroke` Stroke
 
-`onCompleted` Action<Stroke, Stroke\>
+`onCompleted` [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<Stroke, Stroke\>
 
-`cancellationToken` CancellationToken
+`cancellationToken` [CancellationToken](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken)
 
 #### Returns
 
- Task<Stroke\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<Stroke\>
 
 ### <a id="Ink_Canvas_Helpers_InkSmoothingManager_UpdateConfig"></a> UpdateConfig\(\)
 

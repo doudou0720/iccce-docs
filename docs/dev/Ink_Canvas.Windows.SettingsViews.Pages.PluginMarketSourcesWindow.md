@@ -38,5 +38,5 @@ public bool HasChanges { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

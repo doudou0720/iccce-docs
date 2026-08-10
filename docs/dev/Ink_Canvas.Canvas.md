@@ -9,8 +9,18 @@ public class Canvas
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Canvas](Ink\_Canvas.Canvas.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public bool AutoStraightenLine { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_AutoStraightenLineThreshold"></a> AutoStraightenLineThreshold
 
@@ -32,7 +42,7 @@ public int AutoStraightenLineThreshold { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_BrushAutoRestoreAlpha"></a> BrushAutoRestoreAlpha
 
@@ -42,7 +52,7 @@ public int BrushAutoRestoreAlpha { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_BrushAutoRestoreColor"></a> BrushAutoRestoreColor
 
@@ -52,7 +62,7 @@ public string BrushAutoRestoreColor { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Canvas_BrushAutoRestoreDelaySeconds"></a> BrushAutoRestoreDelaySeconds
 
@@ -62,7 +72,7 @@ public int BrushAutoRestoreDelaySeconds { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_BrushAutoRestoreTimes"></a> BrushAutoRestoreTimes
 
@@ -72,7 +82,7 @@ public string BrushAutoRestoreTimes { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Canvas_BrushAutoRestoreWidth"></a> BrushAutoRestoreWidth
 
@@ -82,7 +92,7 @@ public double BrushAutoRestoreWidth { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Canvas_ClearCanvasAlsoClearImages"></a> ClearCanvasAlsoClearImages
 
@@ -92,7 +102,7 @@ public bool ClearCanvasAlsoClearImages { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_ClearCanvasAndClearTimeMachine"></a> ClearCanvasAndClearTimeMachine
 
@@ -102,7 +112,7 @@ public bool ClearCanvasAndClearTimeMachine { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_CustomBackgroundColor"></a> CustomBackgroundColor
 
@@ -112,7 +122,7 @@ public string CustomBackgroundColor { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Canvas_CustomPenCursorPath"></a> CustomPenCursorPath
 
@@ -124,7 +134,7 @@ public string CustomPenCursorPath { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Canvas_DisablePressure"></a> DisablePressure
 
@@ -134,7 +144,7 @@ public bool DisablePressure { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_EdgeExpandAutoHideMs"></a> EdgeExpandAutoHideMs
 
@@ -146,7 +156,7 @@ public double EdgeExpandAutoHideMs { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Canvas_EdgeExpandThreshold"></a> EdgeExpandThreshold
 
@@ -159,7 +169,7 @@ public double EdgeExpandThreshold { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Canvas_EdgeExpandTranslateStep"></a> EdgeExpandTranslateStep
 
@@ -171,7 +181,7 @@ public double EdgeExpandTranslateStep { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Canvas_EnableBrushAutoRestore"></a> EnableBrushAutoRestore
 
@@ -181,7 +191,7 @@ public bool EnableBrushAutoRestore { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_EnableEraserAutoSwitchBack"></a> EnableEraserAutoSwitchBack
 
@@ -191,7 +201,7 @@ public bool EnableEraserAutoSwitchBack { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_EnableInkFade"></a> EnableInkFade
 
@@ -201,17 +211,7 @@ public bool EnableInkFade { get; set; }
 
 #### Property Value
 
- bool
-
-### <a id="Ink_Canvas_Canvas_EnableNativeInkPrediction"></a> EnableNativeInkPrediction
-
-```csharp
-public bool EnableNativeInkPrediction { get; set; }
-```
-
-#### Property Value
-
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_EnablePalmEraser"></a> EnablePalmEraser
 
@@ -221,7 +221,7 @@ public bool EnablePalmEraser { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_EnablePressureTouchMode"></a> EnablePressureTouchMode
 
@@ -231,7 +231,7 @@ public bool EnablePressureTouchMode { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_EnableVelocityBrushTip"></a> EnableVelocityBrushTip
 
@@ -241,7 +241,7 @@ public bool EnableVelocityBrushTip { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_EraserAutoSwitchBackDelaySeconds"></a> EraserAutoSwitchBackDelaySeconds
 
@@ -251,7 +251,7 @@ public int EraserAutoSwitchBackDelaySeconds { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_EraserShapeType"></a> EraserShapeType
 
@@ -261,7 +261,7 @@ public int EraserShapeType { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_EraserSize"></a> EraserSize
 
@@ -271,7 +271,7 @@ public int EraserSize { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_EraserType"></a> EraserType
 
@@ -281,7 +281,7 @@ public int EraserType { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_FitToCurve"></a> FitToCurve
 
@@ -291,7 +291,7 @@ public bool FitToCurve { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_HideStrokeWhenSelecting"></a> HideStrokeWhenSelecting
 
@@ -301,7 +301,7 @@ public bool HideStrokeWhenSelecting { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_HighPrecisionLineStraighten"></a> HighPrecisionLineStraighten
 
@@ -311,7 +311,7 @@ public bool HighPrecisionLineStraighten { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_HighlighterAlpha"></a> HighlighterAlpha
 
@@ -321,7 +321,7 @@ public double HighlighterAlpha { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Canvas_HighlighterOverlapEnabled"></a> HighlighterOverlapEnabled
 
@@ -331,7 +331,7 @@ public bool HighlighterOverlapEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_HighlighterWidth"></a> HighlighterWidth
 
@@ -341,7 +341,7 @@ public double HighlighterWidth { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Canvas_HyperbolaAsymptoteOption"></a> HyperbolaAsymptoteOption
 
@@ -361,7 +361,7 @@ public double InkAlpha { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Canvas_InkFadeSpeedMultiplier"></a> InkFadeSpeedMultiplier
 
@@ -371,7 +371,7 @@ public double InkFadeSpeedMultiplier { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Canvas_InkFadeTime"></a> InkFadeTime
 
@@ -381,7 +381,7 @@ public int InkFadeTime { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_InkSmoothingQuality"></a> InkSmoothingQuality
 
@@ -391,7 +391,7 @@ public int InkSmoothingQuality { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_InkStyle"></a> InkStyle
 
@@ -403,7 +403,7 @@ public int InkStyle { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_InkWidth"></a> InkWidth
 
@@ -413,7 +413,7 @@ public double InkWidth { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Canvas_IsCompressPicturesUploaded"></a> IsCompressPicturesUploaded
 
@@ -423,7 +423,7 @@ public bool IsCompressPicturesUploaded { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_IsEnableEdgeExpandHint"></a> IsEnableEdgeExpandHint
 
@@ -436,7 +436,7 @@ public bool IsEnableEdgeExpandHint { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_IsShowCursor"></a> IsShowCursor
 
@@ -446,7 +446,7 @@ public bool IsShowCursor { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_LaserPenAlpha"></a> LaserPenAlpha
 
@@ -456,7 +456,7 @@ public int LaserPenAlpha { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_LaserPenWidth"></a> LaserPenWidth
 
@@ -466,7 +466,7 @@ public double LaserPenWidth { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Canvas_LaunchSeewoVideoShowcaseForWhiteboardBooth"></a> LaunchSeewoVideoShowcaseForWhiteboardBooth
 
@@ -478,7 +478,7 @@ public bool LaunchSeewoVideoShowcaseForWhiteboardBooth { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_LineEndpointSnapping"></a> LineEndpointSnapping
 
@@ -488,7 +488,7 @@ public bool LineEndpointSnapping { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_LineEndpointSnappingThreshold"></a> LineEndpointSnappingThreshold
 
@@ -498,7 +498,7 @@ public int LineEndpointSnappingThreshold { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_MaxConcurrentSmoothingTasks"></a> MaxConcurrentSmoothingTasks
 
@@ -508,7 +508,7 @@ public int MaxConcurrentSmoothingTasks { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_MergeInkSmoothingWithUndo"></a> MergeInkSmoothingWithUndo
 
@@ -518,7 +518,7 @@ public bool MergeInkSmoothingWithUndo { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_PalmEraserSensitivity"></a> PalmEraserSensitivity
 
@@ -528,7 +528,7 @@ public int PalmEraserSensitivity { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_PauseStraightenDelay"></a> PauseStraightenDelay
 
@@ -538,7 +538,7 @@ public int PauseStraightenDelay { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_PauseStraightenLine"></a> PauseStraightenLine
 
@@ -548,7 +548,7 @@ public bool PauseStraightenLine { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_PenCursorType"></a> PenCursorType
 
@@ -560,7 +560,7 @@ public int PenCursorType { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Canvas_RealtimeBrushTipMinDistanceScale"></a> RealtimeBrushTipMinDistanceScale
 
@@ -570,7 +570,7 @@ public double RealtimeBrushTipMinDistanceScale { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Canvas_ShowCircleCenter"></a> ShowCircleCenter
 
@@ -580,7 +580,7 @@ public bool ShowCircleCenter { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_ShowCoordinateUnitMarks"></a> ShowCoordinateUnitMarks
 
@@ -590,7 +590,7 @@ public bool ShowCoordinateUnitMarks { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_UseAdvancedBezierSmoothing"></a> UseAdvancedBezierSmoothing
 
@@ -600,7 +600,7 @@ public bool UseAdvancedBezierSmoothing { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_UseAsyncInkSmoothing"></a> UseAsyncInkSmoothing
 
@@ -610,7 +610,7 @@ public bool UseAsyncInkSmoothing { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_UseHardwareAcceleration"></a> UseHardwareAcceleration
 
@@ -620,17 +620,7 @@ public bool UseHardwareAcceleration { get; set; }
 
 #### Property Value
 
- bool
-
-### <a id="Ink_Canvas_Canvas_UseLegacyWetInk"></a> UseLegacyWetInk
-
-```csharp
-public bool UseLegacyWetInk { get; set; }
-```
-
-#### Property Value
-
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_UsingWhiteboard"></a> UsingWhiteboard
 
@@ -640,7 +630,7 @@ public bool UsingWhiteboard { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Canvas_VelocityBrushTipMix"></a> VelocityBrushTipMix
 
@@ -650,7 +640,7 @@ public double VelocityBrushTipMix { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Canvas_VideoPresenterLastCameraName"></a> VideoPresenterLastCameraName
 
@@ -664,7 +654,7 @@ public string VideoPresenterLastCameraName { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Canvas_VideoPresenterLastResolutionKey"></a> VideoPresenterLastResolutionKey
 
@@ -678,5 +668,5 @@ public string VideoPresenterLastResolutionKey { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

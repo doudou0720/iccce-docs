@@ -28,7 +28,7 @@ public FullscreenTimerWindow(NewStyleTimerWindow parent)
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_FullscreenTimerWindow_OnClosed_EventArgs_"></a> OnClosed\(EventArgs\)
+### <a id="Ink_Canvas_Windows_FullscreenTimerWindow_OnClosed_System_EventArgs_"></a> OnClosed\(EventArgs\)
 
 ```csharp
 protected override void OnClosed(EventArgs e)
@@ -36,5 +36,5 @@ protected override void OnClosed(EventArgs e)
 
 #### Parameters
 
-`e` EventArgs
+`e` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
 

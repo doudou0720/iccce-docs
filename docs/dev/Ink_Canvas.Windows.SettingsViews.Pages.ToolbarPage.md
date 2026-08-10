@@ -76,7 +76,7 @@ public ObservableCollection<ToolbarComponentEntry> AddedComponents { get; }
 
 #### Property Value
 
- ObservableCollection<[ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarComponentEntry.md)\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarComponentEntry.md)\>
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_AvailableItems"></a> AvailableItems
 
@@ -86,7 +86,7 @@ public IReadOnlyList<IToolbarItem> AvailableItems { get; }
 
 #### Property Value
 
- IReadOnlyList<[IToolbarItem](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.IToolbarItem.md)\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[IToolbarItem](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.IToolbarItem.md)\>
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_GroupChildren"></a> GroupChildren
 
@@ -96,7 +96,7 @@ public ObservableCollection<ToolbarComponentEntry> GroupChildren { get; }
 
 #### Property Value
 
- ObservableCollection<[ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarComponentEntry.md)\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarComponentEntry.md)\>
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_GroupDropHandler"></a> GroupDropHandler
 
@@ -116,7 +116,7 @@ public bool IsGroupChildrenVisible { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_ToolbarPage_SelectedEntry"></a> SelectedEntry
 
@@ -146,7 +146,7 @@ public int SettingsTabIndex { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 

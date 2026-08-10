@@ -9,8 +9,18 @@ public static class ToolsMenuRegistry
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ToolsMenuRegistry](Ink\_Canvas.Controls.Toolbar.ToolsMenuRegistry.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -22,7 +32,7 @@ public static readonly List<ToolsMenuItemInfo> AllItems
 
 #### Field Value
 
- List<[ToolsMenuItemInfo](Ink\_Canvas.Controls.Toolbar.ToolsMenuItemInfo.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ToolsMenuItemInfo](Ink\_Canvas.Controls.Toolbar.ToolsMenuItemInfo.md)\>
 
 ## Properties
 
@@ -34,7 +44,7 @@ public static List<ToolsMenuItemInfo> BoardAvailableItems { get; }
 
 #### Property Value
 
- List<[ToolsMenuItemInfo](Ink\_Canvas.Controls.Toolbar.ToolsMenuItemInfo.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ToolsMenuItemInfo](Ink\_Canvas.Controls.Toolbar.ToolsMenuItemInfo.md)\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolsMenuRegistry_FloatingBarAvailableItems"></a> FloatingBarAvailableItems
 
@@ -44,7 +54,7 @@ public static List<ToolsMenuItemInfo> FloatingBarAvailableItems { get; }
 
 #### Property Value
 
- List<[ToolsMenuItemInfo](Ink\_Canvas.Controls.Toolbar.ToolsMenuItemInfo.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ToolsMenuItemInfo](Ink\_Canvas.Controls.Toolbar.ToolsMenuItemInfo.md)\>
 
 ## Methods
 
@@ -76,7 +86,7 @@ public static ToolsMenuItemInfo FindItem(string id)
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
@@ -90,7 +100,7 @@ public static string GetBoardConfigPath()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolsMenuRegistry_GetConfigDirectory"></a> GetConfigDirectory\(\)
 
@@ -100,7 +110,7 @@ public static string GetConfigDirectory()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolsMenuRegistry_GetFloatingBarConfigPath"></a> GetFloatingBarConfigPath\(\)
 
@@ -110,7 +120,7 @@ public static string GetFloatingBarConfigPath()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolsMenuRegistry_LoadBoardConfig"></a> LoadBoardConfig\(\)
 

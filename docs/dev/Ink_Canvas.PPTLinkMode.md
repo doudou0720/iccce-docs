@@ -9,9 +9,9 @@ public enum PPTLinkMode
 
 ## Fields
 
-`Agent` 
+`Agent = 2` 
 
-`Com` 
+`Com = 0` 
 
-`Rot` 
+`Rot = 1` 
 

@@ -36,7 +36,7 @@ public bool IsSuccess { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -48,7 +48,7 @@ public bool CanSave()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_AddCustomIconWindow_Save"></a> Save\(\)
 
@@ -58,7 +58,7 @@ public bool Save()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_AddCustomIconWindow_OnInputChanged"></a> OnInputChanged
 
@@ -70,5 +70,5 @@ public event Action OnInputChanged
 
 #### Event Type
 
- Action
+ [Action](https://learn.microsoft.com/dotnet/api/system.action)
 

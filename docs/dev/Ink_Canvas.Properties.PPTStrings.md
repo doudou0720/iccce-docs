@@ -9,8 +9,18 @@ public static class PPTStrings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PPTStrings](Ink\_Canvas.Properties.PPTStrings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public static string AutoSaveStrokes { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_AutoSaveStrokesHint"></a> AutoSaveStrokesHint
 
@@ -32,7 +42,7 @@ public static string AutoSaveStrokesHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_AutoScreenshot"></a> AutoScreenshot
 
@@ -42,7 +52,7 @@ public static string AutoScreenshot { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_AutoScreenshotHint"></a> AutoScreenshotHint
 
@@ -52,7 +62,7 @@ public static string AutoScreenshotHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_BlackBackground"></a> BlackBackground
 
@@ -62,7 +72,7 @@ public static string BlackBackground { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_BottomGroupTitle"></a> BottomGroupTitle
 
@@ -72,7 +82,7 @@ public static string BottomGroupTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_Culture"></a> Culture
 
@@ -82,7 +92,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- CultureInfo
+ [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_EnhancedPreview"></a> EnhancedPreview
 
@@ -92,7 +102,7 @@ public static string EnhancedPreview { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_EnhancedPreviewHint"></a> EnhancedPreviewHint
 
@@ -102,7 +112,7 @@ public static string EnhancedPreviewHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_EnhancedPreviewLoadingAnimation"></a> EnhancedPreviewLoadingAnimation
 
@@ -112,7 +122,7 @@ public static string EnhancedPreviewLoadingAnimation { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_EnhancedPreviewLoadingAnimationHint"></a> EnhancedPreviewLoadingAnimationHint
 
@@ -122,7 +132,7 @@ public static string EnhancedPreviewLoadingAnimationHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_Enhancement"></a> Enhancement
 
@@ -132,7 +142,7 @@ public static string Enhancement { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_EnterAnnotationOnShow"></a> EnterAnnotationOnShow
 
@@ -142,7 +152,7 @@ public static string EnterAnnotationOnShow { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_FingerGestureSlide"></a> FingerGestureSlide
 
@@ -152,7 +162,7 @@ public static string FingerGestureSlide { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_FingerGestureSlideHint"></a> FingerGestureSlideHint
 
@@ -162,7 +172,7 @@ public static string FingerGestureSlideHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_FlipButtonsScale"></a> FlipButtonsScale
 
@@ -172,7 +182,7 @@ public static string FlipButtonsScale { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_FlipButtonsTitle"></a> FlipButtonsTitle
 
@@ -182,7 +192,7 @@ public static string FlipButtonsTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_GoToFirstPageOnReenter"></a> GoToFirstPageOnReenter
 
@@ -192,7 +202,7 @@ public static string GoToFirstPageOnReenter { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_GroupTitle"></a> GroupTitle
 
@@ -202,7 +212,7 @@ public static string GroupTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_HalfOpacity"></a> HalfOpacity
 
@@ -212,7 +222,7 @@ public static string HalfOpacity { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_KillWppHint"></a> KillWppHint
 
@@ -222,7 +232,7 @@ public static string KillWppHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_KillWppProcess"></a> KillWppProcess
 
@@ -232,7 +242,7 @@ public static string KillWppProcess { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_LeftBottomOffset"></a> LeftBottomOffset
 
@@ -242,7 +252,7 @@ public static string LeftBottomOffset { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_LeftBottomOpacity"></a> LeftBottomOpacity
 
@@ -252,7 +262,7 @@ public static string LeftBottomOpacity { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_LeftOffset"></a> LeftOffset
 
@@ -262,7 +272,7 @@ public static string LeftOffset { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_LeftOpacity"></a> LeftOpacity
 
@@ -272,7 +282,7 @@ public static string LeftOpacity { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_LoadingPPT"></a> LoadingPPT
 
@@ -282,7 +292,7 @@ public static string LoadingPPT { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_LongPressPageTurn"></a> LongPressPageTurn
 
@@ -292,7 +302,7 @@ public static string LongPressPageTurn { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_LongPressPageTurnHint"></a> LongPressPageTurnHint
 
@@ -302,7 +312,7 @@ public static string LongPressPageTurnHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_NotifyAutoPlay"></a> NotifyAutoPlay
 
@@ -312,7 +322,7 @@ public static string NotifyAutoPlay { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_NotifyHiddenPage"></a> NotifyHiddenPage
 
@@ -322,7 +332,7 @@ public static string NotifyHiddenPage { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTAgentArchitecture"></a> PPTAgentArchitecture
 
@@ -332,7 +342,7 @@ public static string PPTAgentArchitecture { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTAgentArchitectureHint"></a> PPTAgentArchitectureHint
 
@@ -342,7 +352,7 @@ public static string PPTAgentArchitectureHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTAgentInstallHint"></a> PPTAgentInstallHint
 
@@ -352,7 +362,7 @@ public static string PPTAgentInstallHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTAgentNotConnected"></a> PPTAgentNotConnected
 
@@ -362,7 +372,7 @@ public static string PPTAgentNotConnected { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTArchitecture"></a> PPTArchitecture
 
@@ -372,7 +382,7 @@ public static string PPTArchitecture { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTComArchitecture"></a> PPTComArchitecture
 
@@ -382,7 +392,7 @@ public static string PPTComArchitecture { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_CloseMagnifier"></a> PPTQuickPanel\_CloseMagnifier
 
@@ -392,7 +402,7 @@ public static string PPTQuickPanel_CloseMagnifier { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_FocusMagnifier"></a> PPTQuickPanel\_FocusMagnifier
 
@@ -402,7 +412,7 @@ public static string PPTQuickPanel_FocusMagnifier { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_Insert"></a> PPTQuickPanel\_Insert
 
@@ -412,7 +422,7 @@ public static string PPTQuickPanel_Insert { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_MagnifierHint"></a> PPTQuickPanel\_MagnifierHint
 
@@ -422,7 +432,7 @@ public static string PPTQuickPanel_MagnifierHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_OpenMagnifier"></a> PPTQuickPanel\_OpenMagnifier
 
@@ -432,7 +442,7 @@ public static string PPTQuickPanel_OpenMagnifier { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_ScreenshotInsert"></a> PPTQuickPanel\_ScreenshotInsert
 
@@ -442,7 +452,7 @@ public static string PPTQuickPanel_ScreenshotInsert { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_Sound"></a> PPTQuickPanel\_Sound
 
@@ -452,7 +462,7 @@ public static string PPTQuickPanel_Sound { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTQuickPanel_Zoom"></a> PPTQuickPanel\_Zoom
 
@@ -462,7 +472,7 @@ public static string PPTQuickPanel_Zoom { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPTRotArchitecture"></a> PPTRotArchitecture
 
@@ -472,7 +482,7 @@ public static string PPTRotArchitecture { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPT_AutoPlay_Detected"></a> PPT\_AutoPlay\_Detected
 
@@ -482,7 +492,7 @@ public static string PPT_AutoPlay_Detected { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPT_HiddenSlides_Detected"></a> PPT\_HiddenSlides\_Detected
 
@@ -492,7 +502,7 @@ public static string PPT_HiddenSlides_Detected { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPT_ModePrompt_Message"></a> PPT\_ModePrompt\_Message
 
@@ -502,7 +512,7 @@ public static string PPT_ModePrompt_Message { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPT_ModePrompt_Setting"></a> PPT\_ModePrompt\_Setting
 
@@ -512,7 +522,7 @@ public static string PPT_ModePrompt_Setting { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPT_ModePrompt_SettingHint"></a> PPT\_ModePrompt\_SettingHint
 
@@ -522,7 +532,7 @@ public static string PPT_ModePrompt_SettingHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPT_ModePrompt_Title"></a> PPT\_ModePrompt\_Title
 
@@ -532,7 +542,7 @@ public static string PPT_ModePrompt_Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPT_RememberLastPage_Prompt"></a> PPT\_RememberLastPage\_Prompt
 
@@ -542,7 +552,7 @@ public static string PPT_RememberLastPage_Prompt { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PPT_SlidesNotFound"></a> PPT\_SlidesNotFound
 
@@ -552,7 +562,7 @@ public static string PPT_SlidesNotFound { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PageButtonClickable"></a> PageButtonClickable
 
@@ -562,7 +572,7 @@ public static string PageButtonClickable { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_PageButtonClickableHint"></a> PageButtonClickableHint
 
@@ -572,7 +582,7 @@ public static string PageButtonClickableHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_Position_Left"></a> Position\_Left
 
@@ -582,7 +592,7 @@ public static string Position_Left { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_Position_LeftBottom"></a> Position\_LeftBottom
 
@@ -592,7 +602,7 @@ public static string Position_LeftBottom { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_Position_Right"></a> Position\_Right
 
@@ -602,7 +612,7 @@ public static string Position_Right { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_Position_RightBottom"></a> Position\_RightBottom
 
@@ -612,7 +622,7 @@ public static string Position_RightBottom { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_RememberLastPage"></a> RememberLastPage
 
@@ -622,7 +632,7 @@ public static string RememberLastPage { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_RememberLastPageHint"></a> RememberLastPageHint
 
@@ -632,7 +642,7 @@ public static string RememberLastPageHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_ResourceManager"></a> ResourceManager
 
@@ -642,7 +652,7 @@ public static ResourceManager ResourceManager { get; }
 
 #### Property Value
 
- ResourceManager
+ [ResourceManager](https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_RightBottomOffset"></a> RightBottomOffset
 
@@ -652,7 +662,7 @@ public static string RightBottomOffset { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_RightBottomOpacity"></a> RightBottomOpacity
 
@@ -662,7 +672,7 @@ public static string RightBottomOpacity { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_RightOffset"></a> RightOffset
 
@@ -672,7 +682,7 @@ public static string RightOffset { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_RightOpacity"></a> RightOpacity
 
@@ -682,7 +692,7 @@ public static string RightOpacity { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_ShowFlipButtons"></a> ShowFlipButtons
 
@@ -692,7 +702,7 @@ public static string ShowFlipButtons { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_ShowPageNumber"></a> ShowPageNumber
 
@@ -702,7 +712,7 @@ public static string ShowPageNumber { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_ShowQuickPanelInShow"></a> ShowQuickPanelInShow
 
@@ -712,7 +722,7 @@ public static string ShowQuickPanelInShow { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_ShowQuickPanelInShowHint"></a> ShowQuickPanelInShowHint
 
@@ -722,7 +732,7 @@ public static string ShowQuickPanelInShowHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_SideGroupTitle"></a> SideGroupTitle
 
@@ -732,7 +742,7 @@ public static string SideGroupTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_SkipAnimations"></a> SkipAnimations
 
@@ -742,7 +752,7 @@ public static string SkipAnimations { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_SmartMode"></a> SmartMode
 
@@ -752,7 +762,7 @@ public static string SmartMode { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_SmartModeHint"></a> SmartModeHint
 
@@ -762,7 +772,7 @@ public static string SmartModeHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_SupportPowerPoint"></a> SupportPowerPoint
 
@@ -772,7 +782,7 @@ public static string SupportPowerPoint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_SupportWPS"></a> SupportWPS
 
@@ -782,7 +792,7 @@ public static string SupportWPS { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_TimeCapsule"></a> TimeCapsule
 
@@ -792,7 +802,7 @@ public static string TimeCapsule { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_TimeCapsuleHint"></a> TimeCapsuleHint
 
@@ -802,7 +812,7 @@ public static string TimeCapsuleHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_TimeCapsuleOpacity"></a> TimeCapsuleOpacity
 
@@ -812,7 +822,7 @@ public static string TimeCapsuleOpacity { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_TimeCapsulePos_Center"></a> TimeCapsulePos\_Center
 
@@ -822,7 +832,7 @@ public static string TimeCapsulePos_Center { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_TimeCapsulePos_TL"></a> TimeCapsulePos\_TL
 
@@ -832,7 +842,7 @@ public static string TimeCapsulePos_TL { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_TimeCapsulePos_TR"></a> TimeCapsulePos\_TR
 
@@ -842,7 +852,7 @@ public static string TimeCapsulePos_TR { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_TimeCapsulePosition"></a> TimeCapsulePosition
 
@@ -852,7 +862,7 @@ public static string TimeCapsulePosition { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_TimeCapsuleResetPosition"></a> TimeCapsuleResetPosition
 
@@ -862,7 +872,7 @@ public static string TimeCapsuleResetPosition { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_TimeCapsuleResetPositionHint"></a> TimeCapsuleResetPositionHint
 
@@ -872,7 +882,7 @@ public static string TimeCapsuleResetPositionHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_TimeCapsuleScale"></a> TimeCapsuleScale
 
@@ -882,7 +892,7 @@ public static string TimeCapsuleScale { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_TwoFingerGesture"></a> TwoFingerGesture
 
@@ -892,7 +902,7 @@ public static string TwoFingerGesture { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PPTStrings_UseRot"></a> UseRot
 
@@ -902,7 +912,7 @@ public static string UseRot { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -914,9 +924,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

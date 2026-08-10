@@ -9,8 +9,18 @@ public class Startup
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Startup](Ink\_Canvas.Startup.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public string AutoUpdatePauseUntilDate { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Startup_AutoUpdateWithSilenceEndTime"></a> AutoUpdateWithSilenceEndTime
 
@@ -32,7 +42,7 @@ public string AutoUpdateWithSilenceEndTime { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Startup_AutoUpdateWithSilenceStartTime"></a> AutoUpdateWithSilenceStartTime
 
@@ -42,7 +52,7 @@ public string AutoUpdateWithSilenceStartTime { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Startup_CrashAction"></a> CrashAction
 
@@ -52,7 +62,7 @@ public int CrashAction { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Startup_EnableFastStartup"></a> EnableFastStartup
 
@@ -62,7 +72,7 @@ public bool EnableFastStartup { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Startup_EnableWindowChromeRendering"></a> EnableWindowChromeRendering
 
@@ -72,7 +82,7 @@ public bool EnableWindowChromeRendering { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Startup_HasAcceptedTelemetryPrivacy"></a> HasAcceptedTelemetryPrivacy
 
@@ -82,7 +92,7 @@ public bool HasAcceptedTelemetryPrivacy { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Startup_HasShownOobe"></a> HasShownOobe
 
@@ -92,7 +102,7 @@ public bool HasShownOobe { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Startup_IsAutoUpdate"></a> IsAutoUpdate
 
@@ -102,7 +112,7 @@ public bool IsAutoUpdate { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Startup_IsAutoUpdateWithSilence"></a> IsAutoUpdateWithSilence
 
@@ -112,7 +122,7 @@ public bool IsAutoUpdateWithSilence { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Startup_IsEnableNibMode"></a> IsEnableNibMode
 
@@ -122,7 +132,7 @@ public bool IsEnableNibMode { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Startup_IsFoldAtStartup"></a> IsFoldAtStartup
 
@@ -132,7 +142,7 @@ public bool IsFoldAtStartup { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Startup_IsSmartUpdate"></a> IsSmartUpdate
 
@@ -142,7 +152,7 @@ public bool IsSmartUpdate { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Startup_SkippedVersion"></a> SkippedVersion
 
@@ -152,7 +162,7 @@ public string SkippedVersion { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Startup_TelemetryUploadLevel"></a> TelemetryUploadLevel
 

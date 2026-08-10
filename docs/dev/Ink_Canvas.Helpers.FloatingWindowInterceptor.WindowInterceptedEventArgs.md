@@ -9,8 +9,20 @@ public class FloatingWindowInterceptor.WindowInterceptedEventArgs : EventArgs
 
 #### Inheritance
 
-EventArgs ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
 [FloatingWindowInterceptor.WindowInterceptedEventArgs](Ink\_Canvas.Helpers.FloatingWindowInterceptor.WindowInterceptedEventArgs.md)
+
+#### Inherited Members
+
+[EventArgs.Empty](https://learn.microsoft.com/dotnet/api/system.eventargs.empty), 
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -37,12 +49,12 @@ public FloatingWindowInterceptor.InterceptRule Rule { get; set; }
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_WindowInterceptedEventArgs_WindowHandle"></a> WindowHandle
 
 ```csharp
-public IntPtr WindowHandle { get; set; }
+public nint WindowHandle { get; set; }
 ```
 
 #### Property Value
 
- IntPtr
+ [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
 ### <a id="Ink_Canvas_Helpers_FloatingWindowInterceptor_WindowInterceptedEventArgs_WindowTitle"></a> WindowTitle
 
@@ -52,5 +64,5 @@ public string WindowTitle { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

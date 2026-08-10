@@ -34,7 +34,7 @@ public ObservableCollection<string> AddedItems { get; }
 
 #### Property Value
 
- ObservableCollection<string\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ## Methods
 

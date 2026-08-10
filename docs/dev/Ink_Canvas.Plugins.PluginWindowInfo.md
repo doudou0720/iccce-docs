@@ -38,12 +38,12 @@ public string ClassName { get; set; }
 ### <a id="Ink_Canvas_Plugins_PluginWindowInfo_Handle"></a> Handle
 
 ```csharp
-public IntPtr Handle { get; set; }
+public nint Handle { get; set; }
 ```
 
 #### Property Value
 
- [IntPtr](https://learn.microsoft.com/dotnet/api/system.intptr)
+ [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
 ### <a id="Ink_Canvas_Plugins_PluginWindowInfo_IsMinimized"></a> IsMinimized
 

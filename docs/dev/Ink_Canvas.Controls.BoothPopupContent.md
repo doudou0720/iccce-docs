@@ -79,6 +79,16 @@ public Button ExitVideoPresenterButton { get; }
 
  Button
 
+### <a id="Ink_Canvas_Controls_BoothPopupContent_PhotoCorrectionAccelerationComboBox"></a> PhotoCorrectionAccelerationComboBox
+
+```csharp
+public ComboBox PhotoCorrectionAccelerationComboBox { get; }
+```
+
+#### Property Value
+
+ ComboBox
+
 ### <a id="Ink_Canvas_Controls_BoothPopupContent_PhotoCorrectionToggle"></a> PhotoCorrectionToggle
 
 ```csharp

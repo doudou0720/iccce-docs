@@ -187,6 +187,8 @@
     href: Ink_Canvas.OptionalOperation.md
   - name: PPTLinkMode
     href: Ink_Canvas.PPTLinkMode.md
+  - name: PhotoCorrectionAccelerationMode
+    href: Ink_Canvas.PhotoCorrectionAccelerationMode.md
   - name: TelemetryUploadLevel
     href: Ink_Canvas.TelemetryUploadLevel.md
   - name: ToolbarPosition
@@ -429,6 +431,8 @@
     href: Ink_Canvas.Helpers.FeedbackSanitizer.md
   - name: FileAssociationManager
     href: Ink_Canvas.Helpers.FileAssociationManager.md
+  - name: FillImage
+    href: Ink_Canvas.Helpers.FillImage.md
   - name: FloatingBarThemeMarketService
     href: Ink_Canvas.Helpers.FloatingBarThemeMarketService.md
   - name: FloatingBarThemeService

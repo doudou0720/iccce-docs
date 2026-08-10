@@ -36,5 +36,5 @@ public ObservableCollection<CustomPickNameBackground> Backgrounds { get; set; }
 
 #### Property Value
 
- ObservableCollection<[CustomPickNameBackground](Ink\_Canvas.CustomPickNameBackground.md)\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[CustomPickNameBackground](Ink\_Canvas.CustomPickNameBackground.md)\>
 

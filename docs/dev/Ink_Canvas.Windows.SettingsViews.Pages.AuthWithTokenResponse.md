@@ -9,8 +9,18 @@ public class AuthWithTokenResponse
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AuthWithTokenResponse](Ink\_Canvas.Windows.SettingsViews.Pages.AuthWithTokenResponse.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public int Count { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AuthWithTokenResponse_Success"></a> Success
 
@@ -32,7 +42,7 @@ public bool Success { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_AuthWithTokenResponse_User"></a> User
 
@@ -52,5 +62,5 @@ public List<WhiteboardInfo> Whiteboards { get; set; }
 
 #### Property Value
 
- List<[WhiteboardInfo](Ink\_Canvas.Windows.SettingsViews.Pages.WhiteboardInfo.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[WhiteboardInfo](Ink\_Canvas.Windows.SettingsViews.Pages.WhiteboardInfo.md)\>
 

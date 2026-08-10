@@ -11,8 +11,22 @@ public class PPTInkManager : IDisposable
 
 #### Inheritance
 
-IDisposable ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PPTInkManager](Ink\_Canvas.Helpers.PPTInkManager.md)
+
+#### Implements
+
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -34,7 +48,7 @@ public string AutoSaveLocation { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_PPTInkManager_CurrentStrokes"></a> CurrentStrokes
 
@@ -54,7 +68,7 @@ public bool IsAutoSaveEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -68,13 +82,13 @@ public bool CanWriteInk(int currentSlideIndex)
 
 #### Parameters
 
-`currentSlideIndex` int
+`currentSlideIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 当前尝试写入墨迹的幻灯片索引（从 1 开始）。
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 `true` 如果允许写入墨迹（锁已过期、目标为被锁定的幻灯片，或处于短暂的容差窗口内），`false` 否则。
 
@@ -113,7 +127,7 @@ public void ForceSaveSlideStrokes(int slideIndex, StrokeCollection strokes)
 
 #### Parameters
 
-`slideIndex` int
+`slideIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 要保存的幻灯片索引（从 1 开始）。
 
@@ -170,7 +184,7 @@ public StrokeCollection LoadSlideStrokes(int slideIndex)
 
 #### Parameters
 
-`slideIndex` int
+`slideIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 要加载的幻灯片索引（从1开始）。
 
@@ -194,7 +208,7 @@ public void LockInkForSlide(int slideIndex)
 
 #### Parameters
 
-`slideIndex` int
+`slideIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 要上锁的幻灯片索引（大于 0）。锁从调用时刻开始，持续 InkLockMilliseconds 毫秒。
 
@@ -215,7 +229,7 @@ public void ResetLockState()
 保存所有墨迹到文件
 
 ```csharp
-public void SaveAllStrokesToFile(Presentation presentation, int currentSlideIndex = null)
+public void SaveAllStrokesToFile(Presentation presentation, int currentSlideIndex = -1)
 ```
 
 #### Parameters
@@ -224,7 +238,7 @@ public void SaveAllStrokesToFile(Presentation presentation, int currentSlideInde
 
 要保存墨迹的 PowerPoint 演示文稿对象。
 
-`currentSlideIndex` int
+`currentSlideIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 当前播放的页码；如果大于 0 则以此值写入 Position 文件，否则使用当前被锁定的页码或最后切换的页码作为保存位置。
 
@@ -243,7 +257,7 @@ public void SaveCurrentSlideStrokes(int slideIndex, StrokeCollection strokes)
 
 #### Parameters
 
-`slideIndex` int
+`slideIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 要保存的幻灯片索引（从 1 开始）。方法在索引小于或等于 0 时不执行任何操作。
 
@@ -265,7 +279,7 @@ public StrokeCollection SwitchToSlide(int slideIndex, StrokeCollection currentSt
 
 #### Parameters
 
-`slideIndex` int
+`slideIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 要切换到的幻灯片索引（从 1 开始）。
 

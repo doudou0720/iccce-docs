@@ -36,5 +36,5 @@ public ObservableCollection<CustomFloatingBarIcon> CustomIcons { get; set; }
 
 #### Property Value
 
- ObservableCollection<[CustomFloatingBarIcon](Ink\_Canvas.CustomFloatingBarIcon.md)\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[CustomFloatingBarIcon](Ink\_Canvas.CustomFloatingBarIcon.md)\>
 

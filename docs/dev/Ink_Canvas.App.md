@@ -6,17 +6,17 @@ Assembly: InkCanvasForClass.dll
 Interaction logic for App.xaml
 
 ```csharp
-public class App : System.Windows.Application, System.Windows.Application
+public class App : Application, Application
 ```
 
 #### Inheritance
 
-System.Windows.Application ← 
+Application ← 
 [App](Ink\_Canvas.App.md)
 
 #### Implements
 
-System.Windows.Application
+Application
 
 ## Constructors
 
@@ -36,7 +36,7 @@ public static string AppVersion
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_App_CrashAction"></a> CrashAction
 
@@ -56,7 +56,7 @@ public static bool IsAppExitByUser
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_App_IsOobeShowing"></a> IsOobeShowing
 
@@ -66,7 +66,7 @@ public static bool IsOobeShowing
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_App_IsUIAccessTopMostEnabled"></a> IsUIAccessTopMostEnabled
 
@@ -76,7 +76,7 @@ public static bool IsUIAccessTopMostEnabled
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_App_IsUpdateInstalling"></a> IsUpdateInstalling
 
@@ -86,7 +86,7 @@ public static bool IsUpdateInstalling
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_App_RootPath"></a> RootPath
 
@@ -96,7 +96,7 @@ public static string RootPath
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_App_StartArgs"></a> StartArgs
 
@@ -106,7 +106,7 @@ public static string[] StartArgs
 
 #### Field Value
 
- string\[\]
+ [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 ### <a id="Ink_Canvas_App_StartWithBoardMode"></a> StartWithBoardMode
 
@@ -116,7 +116,7 @@ public static bool StartWithBoardMode
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_App_StartWithShowMode"></a> StartWithShowMode
 
@@ -126,7 +126,7 @@ public static bool StartWithShowMode
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_App_watchdogProcess"></a> watchdogProcess
 
@@ -136,7 +136,7 @@ public static Process watchdogProcess
 
 #### Field Value
 
- Process
+ [Process](https://learn.microsoft.com/dotnet/api/system.diagnostics.process)
 
 ## Properties
 
@@ -148,7 +148,7 @@ public static bool IsFastStartupEnabled { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -188,7 +188,7 @@ public static void SetSplashMessage(string message)
 
 #### Parameters
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_App_SetSplashProgress_System_Int32_"></a> SetSplashProgress\(int\)
 
@@ -198,7 +198,7 @@ public static void SetSplashProgress(int progress)
 
 #### Parameters
 
-`progress` int
+`progress` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_App_ShowSplashScreen"></a> ShowSplashScreen\(\)
 

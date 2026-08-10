@@ -9,8 +9,18 @@ public static class NotificationStrings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [NotificationStrings](Ink\_Canvas.Properties.NotificationStrings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public static string ActionsTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_AnimationMode"></a> AnimationMode
 
@@ -32,7 +42,7 @@ public static string AnimationMode { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_AnimationModeHint"></a> AnimationModeHint
 
@@ -42,7 +52,7 @@ public static string AnimationModeHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_AnimationOff"></a> AnimationOff
 
@@ -52,7 +62,7 @@ public static string AnimationOff { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_AnimationSimple"></a> AnimationSimple
 
@@ -62,7 +72,7 @@ public static string AnimationSimple { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_AnimationStandard"></a> AnimationStandard
 
@@ -72,7 +82,7 @@ public static string AnimationStandard { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_BehaviorTitle"></a> BehaviorTitle
 
@@ -82,7 +92,7 @@ public static string BehaviorTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Close"></a> Close
 
@@ -92,7 +102,7 @@ public static string Close { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Culture"></a> Culture
 
@@ -102,7 +112,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- CultureInfo
+ [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_DefaultTitle"></a> DefaultTitle
 
@@ -112,7 +122,7 @@ public static string DefaultTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_DictationDoNotDisturb"></a> DictationDoNotDisturb
 
@@ -122,7 +132,7 @@ public static string DictationDoNotDisturb { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_DictationDoNotDisturbHint"></a> DictationDoNotDisturbHint
 
@@ -132,7 +142,7 @@ public static string DictationDoNotDisturbHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_DictationDoNotDisturbPPT"></a> DictationDoNotDisturbPPT
 
@@ -142,7 +152,7 @@ public static string DictationDoNotDisturbPPT { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_DictationDoNotDisturbPPTHint"></a> DictationDoNotDisturbPPTHint
 
@@ -152,7 +162,7 @@ public static string DictationDoNotDisturbPPTHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_DictationDoNotDisturbWhiteboard"></a> DictationDoNotDisturbWhiteboard
 
@@ -162,7 +172,7 @@ public static string DictationDoNotDisturbWhiteboard { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_DictationDoNotDisturbWhiteboardHint"></a> DictationDoNotDisturbWhiteboardHint
 
@@ -172,7 +182,7 @@ public static string DictationDoNotDisturbWhiteboardHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_EnableAnnouncements"></a> EnableAnnouncements
 
@@ -182,7 +192,7 @@ public static string EnableAnnouncements { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_EnableAnnouncementsHint"></a> EnableAnnouncementsHint
 
@@ -192,7 +202,7 @@ public static string EnableAnnouncementsHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_EnableDynamic"></a> EnableDynamic
 
@@ -202,7 +212,7 @@ public static string EnableDynamic { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_EnableDynamicHint"></a> EnableDynamicHint
 
@@ -212,7 +222,7 @@ public static string EnableDynamicHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_EnableForcePopup"></a> EnableForcePopup
 
@@ -222,7 +232,7 @@ public static string EnableForcePopup { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_EnableForcePopupHint"></a> EnableForcePopupHint
 
@@ -232,7 +242,7 @@ public static string EnableForcePopupHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_EnableWindowsToast"></a> EnableWindowsToast
 
@@ -242,7 +252,7 @@ public static string EnableWindowsToast { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_EnableWindowsToastHint"></a> EnableWindowsToastHint
 
@@ -252,7 +262,7 @@ public static string EnableWindowsToastHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_GroupTitle"></a> GroupTitle
 
@@ -262,7 +272,7 @@ public static string GroupTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_ImportantDuration"></a> ImportantDuration
 
@@ -272,7 +282,7 @@ public static string ImportantDuration { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_ImportantDurationHint"></a> ImportantDurationHint
 
@@ -282,7 +292,7 @@ public static string ImportantDurationHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_NavTooltip"></a> NavTooltip
 
@@ -292,7 +302,7 @@ public static string NavTooltip { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_NewVersion"></a> NewVersion
 
@@ -302,7 +312,7 @@ public static string NewVersion { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_OtherDuration"></a> OtherDuration
 
@@ -312,7 +322,7 @@ public static string OtherDuration { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_OtherDurationHint"></a> OtherDurationHint
 
@@ -322,7 +332,7 @@ public static string OtherDurationHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Placement"></a> Placement
 
@@ -332,7 +342,7 @@ public static string Placement { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_PlacementFloatingBarAbove"></a> PlacementFloatingBarAbove
 
@@ -342,7 +352,7 @@ public static string PlacementFloatingBarAbove { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_PlacementHint"></a> PlacementHint
 
@@ -352,7 +362,7 @@ public static string PlacementHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_PlacementTopCenter"></a> PlacementTopCenter
 
@@ -362,7 +372,7 @@ public static string PlacementTopCenter { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_PlacementTopLeft"></a> PlacementTopLeft
 
@@ -372,7 +382,7 @@ public static string PlacementTopLeft { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_PlacementTopRight"></a> PlacementTopRight
 
@@ -382,7 +392,7 @@ public static string PlacementTopRight { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_ProviderManagement"></a> ProviderManagement
 
@@ -392,7 +402,7 @@ public static string ProviderManagement { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_ProviderManagementHint"></a> ProviderManagementHint
 
@@ -402,7 +412,7 @@ public static string ProviderManagementHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_ProviderRefresh"></a> ProviderRefresh
 
@@ -412,7 +422,7 @@ public static string ProviderRefresh { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_ProviderTitle"></a> ProviderTitle
 
@@ -422,7 +432,7 @@ public static string ProviderTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Provider_Announcement"></a> Provider\_Announcement
 
@@ -432,7 +442,7 @@ public static string Provider_Announcement { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Provider_AnnouncementDesc"></a> Provider\_AnnouncementDesc
 
@@ -442,7 +452,7 @@ public static string Provider_AnnouncementDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Provider_Disabled"></a> Provider\_Disabled
 
@@ -452,7 +462,7 @@ public static string Provider_Disabled { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Provider_HttpOnly"></a> Provider\_HttpOnly
 
@@ -462,7 +472,7 @@ public static string Provider_HttpOnly { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Provider_Local"></a> Provider\_Local
 
@@ -472,7 +482,7 @@ public static string Provider_Local { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Provider_LocalDesc"></a> Provider\_LocalDesc
 
@@ -482,7 +492,7 @@ public static string Provider_LocalDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Provider_NoToken"></a> Provider\_NoToken
 
@@ -492,7 +502,7 @@ public static string Provider_NoToken { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Provider_Reconnecting"></a> Provider\_Reconnecting
 
@@ -502,7 +512,7 @@ public static string Provider_Reconnecting { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Provider_Running"></a> Provider\_Running
 
@@ -512,7 +522,7 @@ public static string Provider_Running { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Provider_Starting"></a> Provider\_Starting
 
@@ -522,7 +532,7 @@ public static string Provider_Starting { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Provider_Stopped"></a> Provider\_Stopped
 
@@ -532,7 +542,7 @@ public static string Provider_Stopped { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Provider_WaitingRestart"></a> Provider\_WaitingRestart
 
@@ -542,7 +552,7 @@ public static string Provider_WaitingRestart { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Provider_WindowsToast"></a> Provider\_WindowsToast
 
@@ -552,7 +562,7 @@ public static string Provider_WindowsToast { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Provider_WindowsToastDesc"></a> Provider\_WindowsToastDesc
 
@@ -562,7 +572,7 @@ public static string Provider_WindowsToastDesc { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_ReminderDuration"></a> ReminderDuration
 
@@ -572,7 +582,7 @@ public static string ReminderDuration { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_ReminderDurationHint"></a> ReminderDurationHint
 
@@ -582,7 +592,7 @@ public static string ReminderDurationHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_ResourceManager"></a> ResourceManager
 
@@ -592,7 +602,7 @@ public static ResourceManager ResourceManager { get; }
 
 #### Property Value
 
- ResourceManager
+ [ResourceManager](https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_SettingsTitle"></a> SettingsTitle
 
@@ -602,7 +612,7 @@ public static string SettingsTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Test"></a> Test
 
@@ -612,7 +622,7 @@ public static string Test { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_TestButton"></a> TestButton
 
@@ -622,7 +632,7 @@ public static string TestButton { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_TestHint"></a> TestHint
 
@@ -632,7 +642,7 @@ public static string TestHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_TestSummary"></a> TestSummary
 
@@ -642,7 +652,7 @@ public static string TestSummary { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_TestText"></a> TestText
 
@@ -652,7 +662,7 @@ public static string TestText { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_TestTitle"></a> TestTitle
 
@@ -662,7 +672,7 @@ public static string TestTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Type_Important"></a> Type\_Important
 
@@ -672,7 +682,7 @@ public static string Type_Important { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Type_Other"></a> Type\_Other
 
@@ -682,7 +692,7 @@ public static string Type_Other { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Type_Reminder"></a> Type\_Reminder
 
@@ -692,7 +702,7 @@ public static string Type_Reminder { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Type_Update"></a> Type\_Update
 
@@ -702,7 +712,7 @@ public static string Type_Update { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_Type_Urgent"></a> Type\_Urgent
 
@@ -712,7 +722,7 @@ public static string Type_Urgent { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_UpdateDuration"></a> UpdateDuration
 
@@ -722,7 +732,7 @@ public static string UpdateDuration { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_UpdateDurationHint"></a> UpdateDurationHint
 
@@ -732,7 +742,7 @@ public static string UpdateDurationHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_UpdateTitle"></a> UpdateTitle
 
@@ -742,7 +752,7 @@ public static string UpdateTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_UrgentDuration"></a> UrgentDuration
 
@@ -752,7 +762,7 @@ public static string UrgentDuration { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_UrgentDurationHint"></a> UrgentDurationHint
 
@@ -762,7 +772,7 @@ public static string UrgentDurationHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_ViewDetails"></a> ViewDetails
 
@@ -772,7 +782,7 @@ public static string ViewDetails { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_NotificationStrings_ViewHistory"></a> ViewHistory
 
@@ -782,7 +792,7 @@ public static string ViewHistory { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -794,9 +804,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

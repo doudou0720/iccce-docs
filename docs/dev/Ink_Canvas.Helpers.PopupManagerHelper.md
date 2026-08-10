@@ -9,8 +9,22 @@ public class PopupManagerHelper : IDisposable
 
 #### Inheritance
 
-IDisposable ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PopupManagerHelper](Ink\_Canvas.Helpers.PopupManagerHelper.md)
+
+#### Implements
+
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +36,7 @@ public Func<bool> ShouldBeTopmost { get; set; }
 
 #### Property Value
 
- Func<bool\>
+ [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
 ## Methods
 
@@ -52,7 +66,7 @@ public void BringToFrontLight(Popup popup)
 public void Cleanup()
 ```
 
-### <a id="Ink_Canvas_Helpers_PopupManagerHelper_CloseAllRegisteredPopups_ICollection_Popup__"></a> CloseAllRegisteredPopups\(ICollection<Popup\>\)
+### <a id="Ink_Canvas_Helpers_PopupManagerHelper_CloseAllRegisteredPopups_System_Collections_Generic_ICollection_Popup__"></a> CloseAllRegisteredPopups\(ICollection<Popup\>\)
 
 关闭所有已注册的 Popup。
 
@@ -68,7 +82,7 @@ public void CloseAllRegisteredPopups(ICollection<Popup> skip = null)
 
 #### Parameters
 
-`skip` ICollection<Popup\>
+`skip` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<Popup\>
 
 需要跳过的 Popup（调用方已自行处理，例如正在播放关闭动画）。
 传 <code>null</code> 表示不跳过任何一个。

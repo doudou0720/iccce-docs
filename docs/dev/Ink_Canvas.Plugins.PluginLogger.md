@@ -9,8 +9,18 @@ public class PluginLogger
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PluginLogger](Ink\_Canvas.Plugins.PluginLogger.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -22,9 +32,9 @@ public PluginLogger(string logsRoot, string pluginId)
 
 #### Parameters
 
-`logsRoot` string
+`logsRoot` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Properties
 
@@ -38,7 +48,7 @@ public long MaxFileSizeBytes { get; set; }
 
 #### Property Value
 
- long
+ [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
 ### <a id="Ink_Canvas_Plugins_PluginLogger_RetainedFiles"></a> RetainedFiles
 
@@ -50,7 +60,7 @@ public int RetainedFiles { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 
@@ -64,9 +74,9 @@ public void Debug(string source, string message)
 
 #### Parameters
 
-`source` string
+`source` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginLogger_EnumerateLogFiles"></a> EnumerateLogFiles\(\)
 
@@ -78,9 +88,9 @@ public IEnumerable<string> EnumerateLogFiles()
 
 #### Returns
 
- IEnumerable<string\>
+ [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="Ink_Canvas_Plugins_PluginLogger_Error_System_String_System_String_Exception_"></a> Error\(string, string, Exception\)
+### <a id="Ink_Canvas_Plugins_PluginLogger_Error_System_String_System_String_System_Exception_"></a> Error\(string, string, Exception\)
 
 写入 Error 级别日志。
 
@@ -90,11 +100,11 @@ public void Error(string source, string message, Exception ex = null)
 
 #### Parameters
 
-`source` string
+`source` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`ex` Exception
+`ex` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
 ### <a id="Ink_Canvas_Plugins_PluginLogger_GetCurrentLogFilePath"></a> GetCurrentLogFilePath\(\)
 
@@ -106,7 +116,7 @@ public string GetCurrentLogFilePath()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginLogger_GetCurrentLogSize"></a> GetCurrentLogSize\(\)
 
@@ -118,7 +128,7 @@ public long GetCurrentLogSize()
 
 #### Returns
 
- long
+ [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
 ### <a id="Ink_Canvas_Plugins_PluginLogger_Info_System_String_System_String_"></a> Info\(string, string\)
 
@@ -130,9 +140,9 @@ public void Info(string source, string message)
 
 #### Parameters
 
-`source` string
+`source` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginLogger_ReadAll"></a> ReadAll\(\)
 
@@ -144,9 +154,9 @@ public string ReadAll()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Plugins_PluginLogger_Warn_System_String_System_String_Exception_"></a> Warn\(string, string, Exception\)
+### <a id="Ink_Canvas_Plugins_PluginLogger_Warn_System_String_System_String_System_Exception_"></a> Warn\(string, string, Exception\)
 
 写入 Warn 级别日志。
 
@@ -156,9 +166,9 @@ public void Warn(string source, string message, Exception ex = null)
 
 #### Parameters
 
-`source` string
+`source` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`message` string
+`message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`ex` Exception
+`ex` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 

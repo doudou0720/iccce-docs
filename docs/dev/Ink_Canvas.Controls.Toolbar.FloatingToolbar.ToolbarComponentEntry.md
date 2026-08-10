@@ -9,8 +9,18 @@ public class ToolbarComponentEntry
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarComponentEntry.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public List<ToolbarComponentEntry> Children { get; set; }
 
 #### Property Value
 
- List<[ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarComponentEntry.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ToolbarComponentEntry](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarComponentEntry.md)\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarComponentEntry_HidingRule"></a> HidingRule
 
@@ -52,7 +62,7 @@ public string Id { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarComponentEntry_InstanceId"></a> InstanceId
 
@@ -62,7 +72,7 @@ public string InstanceId { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarComponentEntry_IsGroup"></a> IsGroup
 
@@ -72,7 +82,7 @@ public bool IsGroup { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarComponentEntry_PreventHideOnDragClick"></a> PreventHideOnDragClick
 
@@ -82,7 +92,7 @@ public bool PreventHideOnDragClick { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarComponentEntry_Settings"></a> Settings
 
@@ -92,7 +102,7 @@ public Dictionary<string, object> Settings { get; set; }
 
 #### Property Value
 
- Dictionary<string, object\>
+ [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarComponentEntry_ShowSeparateBorder"></a> ShowSeparateBorder
 
@@ -102,7 +112,7 @@ public bool ShowSeparateBorder { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -114,11 +124,11 @@ public bool GetSettingBool(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarComponentEntry_GetSettingDouble_System_String_"></a> GetSettingDouble\(string\)
 
@@ -128,11 +138,11 @@ public double? GetSettingDouble(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- double?
+ [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarComponentEntry_GetSettingString_System_String_"></a> GetSettingString\(string\)
 
@@ -142,11 +152,11 @@ public string GetSettingString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarComponentEntry_SetSetting_System_String_System_Object_"></a> SetSetting\(string, object\)
 
@@ -156,7 +166,7 @@ public void SetSetting(string key, object value)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`value` object
+`value` [object](https://learn.microsoft.com/dotnet/api/system.object)
 

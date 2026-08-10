@@ -590,7 +590,7 @@ public int SelectedTabIndex { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_TabBar"></a> TabBar
 

@@ -81,7 +81,7 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
  [PluginErrorReport](Ink\_Canvas.Plugins.PluginErrorReport.md)
 
-错误报告——记录 <xref href="Ink_Canvas.Plugins.PluginErrorRecoveryService.ReportFailure(System.String%2cSystem.String%2cException)" data-throw-if-not-resolved="false"></xref> 的处置结果。
+错误报告——记录 <xref href="Ink_Canvas.Plugins.PluginErrorRecoveryService.ReportFailure(System.String%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref> 的处置结果。
 
  [PluginHandwritingResult](Ink\_Canvas.Plugins.PluginHandwritingResult.md)
 

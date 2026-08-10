@@ -16,7 +16,7 @@ Window ←
 
 ## Constructors
 
-### <a id="Ink_Canvas_Windows_NewStyleMinimizedTimerWindow__ctor_Func_System_Nullable_TimeSpan___Func_System_Boolean__Action_Action_"></a> NewStyleMinimizedTimerWindow\(Func<TimeSpan?\>, Func<bool\>, Action, Action\)
+### <a id="Ink_Canvas_Windows_NewStyleMinimizedTimerWindow__ctor_System_Func_System_Nullable_System_TimeSpan___System_Func_System_Boolean__System_Action_System_Action_"></a> NewStyleMinimizedTimerWindow\(Func<TimeSpan?\>, Func<bool\>, Action, Action\)
 
 ```csharp
 public NewStyleMinimizedTimerWindow(Func<TimeSpan?> remainingTime, Func<bool> shouldHide, Action restoreCallback, Action stopTimerCallback)
@@ -24,11 +24,11 @@ public NewStyleMinimizedTimerWindow(Func<TimeSpan?> remainingTime, Func<bool> sh
 
 #### Parameters
 
-`remainingTime` Func<TimeSpan?\>
+`remainingTime` [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)?\>
 
-`shouldHide` Func<bool\>
+`shouldHide` [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
-`restoreCallback` Action
+`restoreCallback` [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
-`stopTimerCallback` Action
+`stopTimerCallback` [Action](https://learn.microsoft.com/dotnet/api/system.action)
 

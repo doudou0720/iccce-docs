@@ -32,7 +32,7 @@ public bool IsFullscreenWindowOpen { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Windows_NewStyleTimerWindow_IsTimerRunning"></a> IsTimerRunning
 
@@ -42,7 +42,7 @@ public bool IsTimerRunning { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -54,7 +54,7 @@ public TimeSpan? GetElapsedTime()
 
 #### Returns
 
- TimeSpan?
+ [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)?
 
 ### <a id="Ink_Canvas_Windows_NewStyleTimerWindow_GetRemainingTime"></a> GetRemainingTime\(\)
 
@@ -64,7 +64,7 @@ public TimeSpan? GetRemainingTime()
 
 #### Returns
 
- TimeSpan?
+ [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)?
 
 ### <a id="Ink_Canvas_Windows_NewStyleTimerWindow_GetTotalTimeSpan"></a> GetTotalTimeSpan\(\)
 
@@ -74,7 +74,7 @@ public TimeSpan? GetTotalTimeSpan()
 
 #### Returns
 
- TimeSpan?
+ [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)?
 
 ### <a id="Ink_Canvas_Windows_NewStyleTimerWindow_RefreshTheme"></a> RefreshTheme\(\)
 
@@ -114,5 +114,5 @@ public event EventHandler TimerCompleted
 
 #### Event Type
 
- EventHandler
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 

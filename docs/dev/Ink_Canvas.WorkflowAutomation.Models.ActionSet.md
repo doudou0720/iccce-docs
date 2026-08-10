@@ -26,7 +26,7 @@ public ObservableCollection<Action> Actions { get; set; }
 
 #### Property Value
 
- ObservableCollection<[Action](Ink\_Canvas.WorkflowAutomation.Models.Action.md)\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[Action](Ink\_Canvas.WorkflowAutomation.Models.Action.md)\>
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_ActionSet_Guid"></a> Guid
 
@@ -38,7 +38,7 @@ public string Guid { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_ActionSet_IsEnabled"></a> IsEnabled
 
@@ -50,7 +50,7 @@ public bool IsEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_ActionSet_IsOn"></a> IsOn
 
@@ -62,7 +62,7 @@ public bool IsOn { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_ActionSet_IsRevertEnabled"></a> IsRevertEnabled
 
@@ -74,7 +74,7 @@ public bool IsRevertEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_WorkflowAutomation_Models_ActionSet_Name"></a> Name
 
@@ -86,5 +86,5 @@ public string Name { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

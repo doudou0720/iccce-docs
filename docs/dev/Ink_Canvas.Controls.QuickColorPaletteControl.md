@@ -4,17 +4,17 @@ Namespace: [Ink\_Canvas.Controls](Ink\_Canvas.Controls.md)
 Assembly: InkCanvasForClass.dll  
 
 ```csharp
-public class QuickColorPaletteControl : System.Windows.Controls.UserControl, INotifyPropertyChanged
+public class QuickColorPaletteControl : Controls.UserControl, INotifyPropertyChanged
 ```
 
 #### Inheritance
 
-System.Windows.Controls.UserControl ← 
+Controls.UserControl ← 
 [QuickColorPaletteControl](Ink\_Canvas.Controls.QuickColorPaletteControl.md)
 
 #### Implements
 
-INotifyPropertyChanged
+[INotifyPropertyChanged](https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged)
 
 ## Constructors
 
@@ -56,7 +56,7 @@ public int DisplayMode { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 
@@ -68,7 +68,7 @@ public void ApplyOrientation(bool isVertical)
 
 #### Parameters
 
-`isVertical` bool
+`isVertical` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_ClearAllChecked"></a> ClearAllChecked\(\)
 
@@ -92,7 +92,7 @@ protected virtual void OnPropertyChanged(string propertyName = null)
 
 #### Parameters
 
-`propertyName` string
+`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_SetCheckedByColor_Color_System_Int32_"></a> SetCheckedByColor\(Color, int\)
 
@@ -104,7 +104,7 @@ public void SetCheckedByColor(Color color, int tolerance = 15)
 
 `color` Color
 
-`tolerance` int
+`tolerance` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_SyncFromSettings"></a> SyncFromSettings\(\)
 
@@ -124,11 +124,13 @@ public event RoutedEventHandler ColorClicked
 
 ### <a id="Ink_Canvas_Controls_QuickColorPaletteControl_PropertyChanged"></a> PropertyChanged
 
+Occurs when a property value changes.
+
 ```csharp
 public event PropertyChangedEventHandler PropertyChanged
 ```
 
 #### Event Type
 
- PropertyChangedEventHandler
+ [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
 

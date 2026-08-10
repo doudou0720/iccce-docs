@@ -32,7 +32,7 @@ public void RefreshTheme(bool isDark)
 
 #### Parameters
 
-`isDark` bool
+`isDark` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_DynamicNotificationControl_Show_Ink_Canvas_Models_NotificationMessage_"></a> Show\(NotificationMessage\)
 
@@ -52,5 +52,5 @@ public event EventHandler Closed
 
 #### Event Type
 
- EventHandler
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 

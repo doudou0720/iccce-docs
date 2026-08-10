@@ -12,8 +12,18 @@ public static class WrapPanelAutoResize
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [WrapPanelAutoResize](Ink\_Canvas.Windows.SettingsViews.Helpers.WrapPanelAutoResize.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -41,7 +51,7 @@ public static double GetTargetWidth(DependencyObject obj)
 
 #### Returns
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_WrapPanelAutoResize_SetTargetWidth_DependencyObject_System_Double_"></a> SetTargetWidth\(DependencyObject, double\)
 
@@ -53,5 +63,5 @@ public static void SetTargetWidth(DependencyObject obj, double value)
 
 `obj` DependencyObject
 
-`value` double
+`value` [double](https://learn.microsoft.com/dotnet/api/system.double)
 

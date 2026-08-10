@@ -9,8 +9,17 @@ public sealed class ThemeMarketEntry
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ThemeMarketEntry](Ink\_Canvas.Helpers.ThemeMarketEntry.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +31,7 @@ public string BannerUrl { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_ThemeMarketEntry_DownloadSha256"></a> DownloadSha256
 
@@ -32,7 +41,7 @@ public string DownloadSha256 { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_ThemeMarketEntry_DownloadUrl"></a> DownloadUrl
 
@@ -42,7 +51,7 @@ public string DownloadUrl { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_ThemeMarketEntry_IsInstalled"></a> IsInstalled
 
@@ -52,7 +61,7 @@ public bool IsInstalled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_ThemeMarketEntry_Manifest"></a> Manifest
 
@@ -67,10 +76,10 @@ public ThemeMarketManifest Manifest { get; set; }
 ### <a id="Ink_Canvas_Helpers_ThemeMarketEntry_PropertyChanged"></a> PropertyChanged
 
 ```csharp
-public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged
+public event PropertyChangedEventHandler PropertyChanged
 ```
 
 #### Event Type
 
- System.ComponentModel.PropertyChangedEventHandler
+ [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
 

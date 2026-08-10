@@ -36,7 +36,7 @@ public bool IsFrontBufferAvailable { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 

@@ -44,7 +44,7 @@ public override DataTemplate SelectTemplate(object item, DependencyObject contai
 
 #### Parameters
 
-`item` object
+`item` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `container` DependencyObject
 

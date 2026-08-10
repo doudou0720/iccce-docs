@@ -9,7 +9,7 @@ public enum IssueSeverity
 
 ## Fields
 
-`Error` 
+`Error = 1` 
 
-`Warning` 
+`Warning = 0` 
 

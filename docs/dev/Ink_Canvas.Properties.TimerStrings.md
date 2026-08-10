@@ -9,8 +9,18 @@ public static class TimerStrings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [TimerStrings](Ink\_Canvas.Properties.TimerStrings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- CultureInfo
+ [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_ResourceManager"></a> ResourceManager
 
@@ -32,7 +42,7 @@ public static ResourceManager ResourceManager { get; }
 
 #### Property Value
 
- ResourceManager
+ [ResourceManager](https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_45Minutes"></a> Timer\_45Minutes
 
@@ -42,7 +52,7 @@ public static string Timer_45Minutes { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_CommonTab"></a> Timer\_CommonTab
 
@@ -52,7 +62,7 @@ public static string Timer_CommonTab { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_CustomSoundLabel"></a> Timer\_CustomSoundLabel
 
@@ -62,7 +72,7 @@ public static string Timer_CustomSoundLabel { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_EnableCountUp"></a> Timer\_EnableCountUp
 
@@ -72,7 +82,7 @@ public static string Timer_EnableCountUp { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_FullScreen"></a> Timer\_FullScreen
 
@@ -82,7 +92,7 @@ public static string Timer_FullScreen { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_HourDigitDown"></a> Timer\_HourDigitDown
 
@@ -92,7 +102,7 @@ public static string Timer_HourDigitDown { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_HourDigitUp"></a> Timer\_HourDigitUp
 
@@ -102,7 +112,7 @@ public static string Timer_HourDigitUp { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_HourDown"></a> Timer\_HourDown
 
@@ -112,7 +122,7 @@ public static string Timer_HourDown { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_HourUp"></a> Timer\_HourUp
 
@@ -122,7 +132,7 @@ public static string Timer_HourUp { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_MinuteDigitDown"></a> Timer\_MinuteDigitDown
 
@@ -132,7 +142,7 @@ public static string Timer_MinuteDigitDown { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_MinuteDigitUp"></a> Timer\_MinuteDigitUp
 
@@ -142,7 +152,7 @@ public static string Timer_MinuteDigitUp { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_MinuteDown"></a> Timer\_MinuteDown
 
@@ -152,7 +162,7 @@ public static string Timer_MinuteDown { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_MinuteUp"></a> Timer\_MinuteUp
 
@@ -162,7 +172,7 @@ public static string Timer_MinuteUp { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_NewUI"></a> Timer\_NewUI
 
@@ -172,7 +182,7 @@ public static string Timer_NewUI { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_OvertimeHighlight"></a> Timer\_OvertimeHighlight
 
@@ -182,7 +192,7 @@ public static string Timer_OvertimeHighlight { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_Progressive"></a> Timer\_Progressive
 
@@ -192,7 +202,7 @@ public static string Timer_Progressive { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_ProgressiveCustomLabel"></a> Timer\_ProgressiveCustomLabel
 
@@ -202,7 +212,7 @@ public static string Timer_ProgressiveCustomLabel { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_ProgressiveSelectFile"></a> Timer\_ProgressiveSelectFile
 
@@ -212,7 +222,7 @@ public static string Timer_ProgressiveSelectFile { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_ProgressiveVolume"></a> Timer\_ProgressiveVolume
 
@@ -222,7 +232,7 @@ public static string Timer_ProgressiveVolume { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_RecentTab"></a> Timer\_RecentTab
 
@@ -232,7 +242,7 @@ public static string Timer_RecentTab { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_Reset"></a> Timer\_Reset
 
@@ -242,7 +252,7 @@ public static string Timer_Reset { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_SecondDigitDown"></a> Timer\_SecondDigitDown
 
@@ -252,7 +262,7 @@ public static string Timer_SecondDigitDown { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_SecondDigitUp"></a> Timer\_SecondDigitUp
 
@@ -262,7 +272,7 @@ public static string Timer_SecondDigitUp { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_SecondDown"></a> Timer\_SecondDown
 
@@ -272,7 +282,7 @@ public static string Timer_SecondDown { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_SecondUp"></a> Timer\_SecondUp
 
@@ -282,7 +292,7 @@ public static string Timer_SecondUp { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_StartPause"></a> Timer\_StartPause
 
@@ -292,7 +302,7 @@ public static string Timer_StartPause { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_Title"></a> Timer\_Title
 
@@ -302,7 +312,7 @@ public static string Timer_Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_UseLegacyButtons"></a> Timer\_UseLegacyButtons
 
@@ -312,7 +322,7 @@ public static string Timer_UseLegacyButtons { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_TimerStrings_Timer_Volume"></a> Timer\_Volume
 
@@ -322,7 +332,7 @@ public static string Timer_Volume { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -334,9 +344,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

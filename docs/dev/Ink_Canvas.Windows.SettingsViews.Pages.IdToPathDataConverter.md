@@ -18,8 +18,8 @@ IValueConverter ←
 #### Inherited Members
 
 [IdToPathDataConverterBase.ConvertIdToGeometryString\(string\)](Ink\_Canvas.Windows.SettingsViews.Helpers.IdToPathDataConverterBase.md\#Ink\_Canvas\_Windows\_SettingsViews\_Helpers\_IdToPathDataConverterBase\_ConvertIdToGeometryString\_System\_String\_), 
-[IdToPathDataConverterBase.Convert\(object, Type, object, CultureInfo\)](Ink\_Canvas.Windows.SettingsViews.Helpers.IdToPathDataConverterBase.md\#Ink\_Canvas\_Windows\_SettingsViews\_Helpers\_IdToPathDataConverterBase\_Convert\_System\_Object\_Type\_System\_Object\_CultureInfo\_), 
-[IdToPathDataConverterBase.ConvertBack\(object, Type, object, CultureInfo\)](Ink\_Canvas.Windows.SettingsViews.Helpers.IdToPathDataConverterBase.md\#Ink\_Canvas\_Windows\_SettingsViews\_Helpers\_IdToPathDataConverterBase\_ConvertBack\_System\_Object\_Type\_System\_Object\_CultureInfo\_)
+[IdToPathDataConverterBase.Convert\(object, Type, object, CultureInfo\)](Ink\_Canvas.Windows.SettingsViews.Helpers.IdToPathDataConverterBase.md\#Ink\_Canvas\_Windows\_SettingsViews\_Helpers\_IdToPathDataConverterBase\_Convert\_System\_Object\_System\_Type\_System\_Object\_System\_Globalization\_CultureInfo\_), 
+[IdToPathDataConverterBase.ConvertBack\(object, Type, object, CultureInfo\)](Ink\_Canvas.Windows.SettingsViews.Helpers.IdToPathDataConverterBase.md\#Ink\_Canvas\_Windows\_SettingsViews\_Helpers\_IdToPathDataConverterBase\_ConvertBack\_System\_Object\_System\_Type\_System\_Object\_System\_Globalization\_CultureInfo\_)
 
 ## Methods
 
@@ -31,9 +31,9 @@ protected override string ConvertIdToGeometryString(string id)
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

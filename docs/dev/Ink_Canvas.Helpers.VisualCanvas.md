@@ -30,7 +30,7 @@ protected override int VisualChildrenCount { get; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_VisualCanvas_Visuals"></a> Visuals
 
@@ -40,7 +40,7 @@ public IReadOnlyList<DrawingVisual> Visuals { get; }
 
 #### Property Value
 
- IReadOnlyList<DrawingVisual\>
+ [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<DrawingVisual\>
 
 ## Methods
 
@@ -68,7 +68,7 @@ protected override Visual GetVisualChild(int index)
 
 #### Parameters
 
-`index` int
+`index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 #### Returns
 

@@ -9,8 +9,17 @@ public sealed class UInkWorkspace
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkWorkspace](Ink\_Canvas.UInk.UInkWorkspace.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -22,7 +31,7 @@ public uint? CurrentPageIndex
 
 #### Field Value
 
- uint?
+ [uint](https://learn.microsoft.com/dotnet/api/system.uint32)?
 
 ### <a id="Ink_Canvas_UInk_UInkWorkspace_Extra"></a> Extra
 
@@ -32,7 +41,7 @@ public Dictionary<string, string> Extra
 
 #### Field Value
 
- Dictionary<string, string\>
+ [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_UInk_UInkWorkspace_Guid"></a> Guid
 
@@ -42,7 +51,7 @@ public string Guid
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_UInk_UInkWorkspace_HostId"></a> HostId
 
@@ -52,7 +61,7 @@ public string HostId
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_UInk_UInkWorkspace_Name"></a> Name
 
@@ -62,7 +71,7 @@ public string Name
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_UInk_UInkWorkspace_ParentWorkspaceGuid"></a> ParentWorkspaceGuid
 
@@ -72,7 +81,7 @@ public string ParentWorkspaceGuid
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_UInk_UInkWorkspace_WorkspaceType"></a> WorkspaceType
 
@@ -82,5 +91,5 @@ public int WorkspaceType
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

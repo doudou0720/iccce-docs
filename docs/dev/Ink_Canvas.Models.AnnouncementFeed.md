@@ -9,8 +9,18 @@ public class AnnouncementFeed
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AnnouncementFeed](Ink\_Canvas.Models.AnnouncementFeed.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public List<AnnouncementItem> Items { get; set; }
 
 #### Property Value
 
- List<[AnnouncementItem](Ink\_Canvas.Models.AnnouncementItem.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[AnnouncementItem](Ink\_Canvas.Models.AnnouncementItem.md)\>
 
 ### <a id="Ink_Canvas_Models_AnnouncementFeed_SchemaVersion"></a> SchemaVersion
 
@@ -32,7 +42,7 @@ public int SchemaVersion { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Models_AnnouncementFeed_UpdatedAt"></a> UpdatedAt
 
@@ -42,5 +52,5 @@ public DateTimeOffset? UpdatedAt { get; set; }
 
 #### Property Value
 
- DateTimeOffset?
+ [DateTimeOffset](https://learn.microsoft.com/dotnet/api/system.datetimeoffset)?
 

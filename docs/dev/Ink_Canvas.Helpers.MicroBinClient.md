@@ -15,8 +15,18 @@ public class MicroBinClient
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [MicroBinClient](Ink\_Canvas.Helpers.MicroBinClient.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Methods
 
@@ -30,11 +40,11 @@ public static Task<(string url, string error)> UploadRawAsync(string serverUrl, 
 
 #### Parameters
 
-`serverUrl` string
+`serverUrl` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`content` string
+`content` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- Task<\(string [url](System.ValueTuple\{System.String,System.String\}.md\#System\_ValueTuple\_System\_String\_System\_String\_\_url), string [error](System.ValueTuple\{System.String,System.String\}.md\#System\_ValueTuple\_System\_String\_System\_String\_\_error)\)\>
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<\([string](https://learn.microsoft.com/dotnet/api/system.string) [url](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,system.string\-.url), [string](https://learn.microsoft.com/dotnet/api/system.string) [error](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,system.string\-.error)\)\>
 

@@ -9,8 +9,18 @@ public static class SettingsBinder
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [SettingsBinder](Ink\_Canvas.Windows.SettingsViews.Helpers.SettingsBinder.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -90,7 +100,7 @@ public static string GetFormatString(DependencyObject obj)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsBinder_GetPropertyPath_DependencyObject_"></a> GetPropertyPath\(DependencyObject\)
 
@@ -104,7 +114,7 @@ public static string GetPropertyPath(DependencyObject obj)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsBinder_GetSettingsChanged_DependencyObject_"></a> GetSettingsChanged\(DependencyObject\)
 
@@ -118,7 +128,7 @@ public static string GetSettingsChanged(DependencyObject obj)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsBinder_GetTargetTextBlock_DependencyObject_"></a> GetTargetTextBlock\(DependencyObject\)
 
@@ -146,7 +156,7 @@ public static int GetValueRounding(DependencyObject obj)
 
 #### Returns
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsBinder_SetFormatString_DependencyObject_System_String_"></a> SetFormatString\(DependencyObject, string\)
 
@@ -158,7 +168,7 @@ public static void SetFormatString(DependencyObject obj, string value)
 
 `obj` DependencyObject
 
-`value` string
+`value` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsBinder_SetPropertyPath_DependencyObject_System_String_"></a> SetPropertyPath\(DependencyObject, string\)
 
@@ -170,7 +180,7 @@ public static void SetPropertyPath(DependencyObject obj, string value)
 
 `obj` DependencyObject
 
-`value` string
+`value` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsBinder_SetSettingsChanged_DependencyObject_System_String_"></a> SetSettingsChanged\(DependencyObject, string\)
 
@@ -182,7 +192,7 @@ public static void SetSettingsChanged(DependencyObject obj, string value)
 
 `obj` DependencyObject
 
-`value` string
+`value` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsBinder_SetTargetTextBlock_DependencyObject_TextBlock_"></a> SetTargetTextBlock\(DependencyObject, TextBlock\)
 
@@ -206,5 +216,5 @@ public static void SetValueRounding(DependencyObject obj, int value)
 
 `obj` DependencyObject
 
-`value` int
+`value` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

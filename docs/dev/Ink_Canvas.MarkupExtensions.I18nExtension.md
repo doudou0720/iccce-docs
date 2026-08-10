@@ -22,11 +22,11 @@ public string Key { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
-### <a id="Ink_Canvas_MarkupExtensions_I18nExtension_ProvideValue_IServiceProvider_"></a> ProvideValue\(IServiceProvider\)
+### <a id="Ink_Canvas_MarkupExtensions_I18nExtension_ProvideValue_System_IServiceProvider_"></a> ProvideValue\(IServiceProvider\)
 
 ```csharp
 public override object ProvideValue(IServiceProvider serviceProvider)
@@ -34,9 +34,9 @@ public override object ProvideValue(IServiceProvider serviceProvider)
 
 #### Parameters
 
-`serviceProvider` IServiceProvider
+`serviceProvider` [IServiceProvider](https://learn.microsoft.com/dotnet/api/system.iserviceprovider)
 
 #### Returns
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 

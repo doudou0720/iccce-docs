@@ -30,7 +30,7 @@ public static void NotifyBottomOffsetChanged(double val)
 
 #### Parameters
 
-`val` double
+`val` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Pages_SidebarPage_OnBottomOffsetChanged"></a> OnBottomOffsetChanged
 
@@ -40,5 +40,5 @@ public static event Action<double> OnBottomOffsetChanged
 
 #### Event Type
 
- Action<double\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 

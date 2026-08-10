@@ -11,13 +11,13 @@ public enum UpdatePackageArchitecture
 
 ## Fields
 
-`X64` 
+`X64 = 1` 
 
 64 位包，例如 InkCanvasForClass.CE.1.7.0.0-x64.zip
 
 
 
-`X86` 
+`X86 = 0` 
 
 32 位包，例如 InkCanvasForClass.CE.1.7.0.0.zip
 

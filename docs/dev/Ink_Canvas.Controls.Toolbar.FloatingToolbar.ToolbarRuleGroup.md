@@ -9,8 +9,18 @@ public class ToolbarRuleGroup
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ToolbarRuleGroup](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRuleGroup.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public bool IsEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleGroup_IsReversed"></a> IsReversed
 
@@ -32,7 +42,7 @@ public bool IsReversed { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleGroup_Mode"></a> Mode
 
@@ -52,7 +62,7 @@ public List<ToolbarRule> Rules { get; set; }
 
 #### Property Value
 
- List<[ToolbarRule](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRule.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ToolbarRule](Ink\_Canvas.Controls.Toolbar.FloatingToolbar.ToolbarRule.md)\>
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRuleGroup_State"></a> State
 
@@ -62,7 +72,7 @@ public int State { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 

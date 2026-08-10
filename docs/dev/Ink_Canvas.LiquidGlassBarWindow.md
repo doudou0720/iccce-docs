@@ -18,7 +18,7 @@ Window ←
 
 ## Methods
 
-### <a id="Ink_Canvas_LiquidGlassBarWindow_OnLocationChanged_EventArgs_"></a> OnLocationChanged\(EventArgs\)
+### <a id="Ink_Canvas_LiquidGlassBarWindow_OnLocationChanged_System_EventArgs_"></a> OnLocationChanged\(EventArgs\)
 
 ```csharp
 protected override void OnLocationChanged(EventArgs e)
@@ -26,7 +26,7 @@ protected override void OnLocationChanged(EventArgs e)
 
 #### Parameters
 
-`e` EventArgs
+`e` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
 
 ### <a id="Ink_Canvas_LiquidGlassBarWindow_OnRenderSizeChanged_SizeChangedInfo_"></a> OnRenderSizeChanged\(SizeChangedInfo\)
 
@@ -38,7 +38,7 @@ protected override void OnRenderSizeChanged(SizeChangedInfo info)
 
 `info` SizeChangedInfo
 
-### <a id="Ink_Canvas_LiquidGlassBarWindow_OnSourceInitialized_EventArgs_"></a> OnSourceInitialized\(EventArgs\)
+### <a id="Ink_Canvas_LiquidGlassBarWindow_OnSourceInitialized_System_EventArgs_"></a> OnSourceInitialized\(EventArgs\)
 
 ```csharp
 protected override void OnSourceInitialized(EventArgs e)
@@ -46,5 +46,5 @@ protected override void OnSourceInitialized(EventArgs e)
 
 #### Parameters
 
-`e` EventArgs
+`e` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
 

@@ -11,8 +11,18 @@ public class InkFadeManager
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [InkFadeManager](Ink\_Canvas.Helpers.InkFadeManager.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -36,7 +46,7 @@ public int AnimationDuration { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_InkFadeManager_FadeSpeedMultiplier"></a> FadeSpeedMultiplier
 
@@ -46,7 +56,7 @@ public double FadeSpeedMultiplier { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_InkFadeManager_FadeTime"></a> FadeTime
 
@@ -58,7 +68,7 @@ public int FadeTime { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_InkFadeManager_IsEnabled"></a> IsEnabled
 
@@ -70,7 +80,7 @@ public bool IsEnabled { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -79,7 +89,7 @@ public bool IsEnabled { get; set; }
 添加需要渐隐的墨迹
 
 ```csharp
-public void AddFadingStroke(Stroke stroke, Point startPoint, Point endPoint, long strokeDurationMs = null)
+public void AddFadingStroke(Stroke stroke, Point startPoint, Point endPoint, long strokeDurationMs = 0)
 ```
 
 #### Parameters
@@ -96,7 +106,7 @@ public void AddFadingStroke(Stroke stroke, Point startPoint, Point endPoint, lon
 
 抬笔点
 
-`strokeDurationMs` long
+`strokeDurationMs` [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
 ### <a id="Ink_Canvas_Helpers_InkFadeManager_ClearAllFadingStrokes"></a> ClearAllFadingStrokes\(\)
 
@@ -144,7 +154,7 @@ public void UpdateFadeSpeedMultiplier(double multiplier)
 
 #### Parameters
 
-`multiplier` double
+`multiplier` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_InkFadeManager_UpdateFadeTime_System_Int32_"></a> UpdateFadeTime\(int\)
 
@@ -156,7 +166,7 @@ public void UpdateFadeTime(int fadeTime)
 
 #### Parameters
 
-`fadeTime` int
+`fadeTime` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 新的渐隐时间（毫秒）
 

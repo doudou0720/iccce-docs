@@ -9,8 +9,18 @@ public class Automation
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Automation](Ink\_Canvas.Automation.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -22,7 +32,7 @@ public bool AutoDelSavedFiles
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_AutoDelSavedFilesDaysThreshold"></a> AutoDelSavedFilesDaysThreshold
 
@@ -32,7 +42,7 @@ public int AutoDelSavedFilesDaysThreshold
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Automation_AutoSavedStrokesLocation"></a> AutoSavedStrokesLocation
 
@@ -42,7 +52,7 @@ public string AutoSavedStrokesLocation
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Automation_IsSaveFullPageStrokes"></a> IsSaveFullPageStrokes
 
@@ -52,7 +62,7 @@ public bool IsSaveFullPageStrokes
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Properties
 
@@ -64,7 +74,7 @@ public int AutoSaveStrokesIntervalMinutes { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Automation_CustomSaveFileNameTemplate"></a> CustomSaveFileNameTemplate
 
@@ -74,7 +84,7 @@ public string CustomSaveFileNameTemplate { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Automation_FloatingWindowInterceptor"></a> FloatingWindowInterceptor
 
@@ -94,7 +104,7 @@ public bool IsAutoClearWhenExitingWritingMode { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoEnterAnnotationAfterKillHite"></a> IsAutoEnterAnnotationAfterKillHite
 
@@ -104,7 +114,7 @@ public bool IsAutoEnterAnnotationAfterKillHite { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoEnterAnnotationModeWhenExitFoldMode"></a> IsAutoEnterAnnotationModeWhenExitFoldMode
 
@@ -114,7 +124,7 @@ public bool IsAutoEnterAnnotationModeWhenExitFoldMode { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldAfterPPTSlideShow"></a> IsAutoFoldAfterPPTSlideShow
 
@@ -124,7 +134,7 @@ public bool IsAutoFoldAfterPPTSlideShow { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInAdmoxBooth"></a> IsAutoFoldInAdmoxBooth
 
@@ -134,7 +144,7 @@ public bool IsAutoFoldInAdmoxBooth { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInAdmoxWhiteboard"></a> IsAutoFoldInAdmoxWhiteboard
 
@@ -144,7 +154,7 @@ public bool IsAutoFoldInAdmoxWhiteboard { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInEasiCamera"></a> IsAutoFoldInEasiCamera
 
@@ -154,7 +164,7 @@ public bool IsAutoFoldInEasiCamera { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInEasiNote"></a> IsAutoFoldInEasiNote
 
@@ -164,7 +174,7 @@ public bool IsAutoFoldInEasiNote { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInEasiNote3"></a> IsAutoFoldInEasiNote3
 
@@ -174,7 +184,7 @@ public bool IsAutoFoldInEasiNote3 { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInEasiNote3C"></a> IsAutoFoldInEasiNote3C
 
@@ -184,7 +194,7 @@ public bool IsAutoFoldInEasiNote3C { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInEasiNote5C"></a> IsAutoFoldInEasiNote5C
 
@@ -194,7 +204,7 @@ public bool IsAutoFoldInEasiNote5C { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInEasiNoteIgnoreDesktopAnno"></a> IsAutoFoldInEasiNoteIgnoreDesktopAnno
 
@@ -204,7 +214,7 @@ public bool IsAutoFoldInEasiNoteIgnoreDesktopAnno { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInHiteCamera"></a> IsAutoFoldInHiteCamera
 
@@ -214,7 +224,7 @@ public bool IsAutoFoldInHiteCamera { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInHiteLightBoard"></a> IsAutoFoldInHiteLightBoard
 
@@ -224,7 +234,7 @@ public bool IsAutoFoldInHiteLightBoard { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInHiteTouchPro"></a> IsAutoFoldInHiteTouchPro
 
@@ -234,7 +244,7 @@ public bool IsAutoFoldInHiteTouchPro { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInMSWhiteboard"></a> IsAutoFoldInMSWhiteboard
 
@@ -244,7 +254,7 @@ public bool IsAutoFoldInMSWhiteboard { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInMaxHubWhiteboard"></a> IsAutoFoldInMaxHubWhiteboard
 
@@ -254,7 +264,7 @@ public bool IsAutoFoldInMaxHubWhiteboard { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInOldZyBoard"></a> IsAutoFoldInOldZyBoard
 
@@ -264,7 +274,7 @@ public bool IsAutoFoldInOldZyBoard { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInPPTSlideShow"></a> IsAutoFoldInPPTSlideShow
 
@@ -274,7 +284,7 @@ public bool IsAutoFoldInPPTSlideShow { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInQPoint"></a> IsAutoFoldInQPoint
 
@@ -284,7 +294,7 @@ public bool IsAutoFoldInQPoint { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInSeewoPincoTeacher"></a> IsAutoFoldInSeewoPincoTeacher
 
@@ -294,7 +304,7 @@ public bool IsAutoFoldInSeewoPincoTeacher { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInWxBoardMain"></a> IsAutoFoldInWxBoardMain
 
@@ -304,7 +314,7 @@ public bool IsAutoFoldInWxBoardMain { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldInYiYunVisualPresenter"></a> IsAutoFoldInYiYunVisualPresenter
 
@@ -314,7 +324,7 @@ public bool IsAutoFoldInYiYunVisualPresenter { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoFoldWhenExitWhiteboard"></a> IsAutoFoldWhenExitWhiteboard
 
@@ -324,7 +334,7 @@ public bool IsAutoFoldWhenExitWhiteboard { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoKillEasiNote"></a> IsAutoKillEasiNote
 
@@ -334,7 +344,7 @@ public bool IsAutoKillEasiNote { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoKillHiteAnnotation"></a> IsAutoKillHiteAnnotation
 
@@ -344,7 +354,7 @@ public bool IsAutoKillHiteAnnotation { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoKillICA"></a> IsAutoKillICA
 
@@ -354,7 +364,7 @@ public bool IsAutoKillICA { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoKillIDT"></a> IsAutoKillIDT
 
@@ -364,7 +374,7 @@ public bool IsAutoKillIDT { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoKillInkCanvas"></a> IsAutoKillInkCanvas
 
@@ -374,7 +384,7 @@ public bool IsAutoKillInkCanvas { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoKillPPTService"></a> IsAutoKillPPTService
 
@@ -384,7 +394,7 @@ public bool IsAutoKillPPTService { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoKillSeewoLauncher2DesktopAnnotation"></a> IsAutoKillSeewoLauncher2DesktopAnnotation
 
@@ -394,7 +404,7 @@ public bool IsAutoKillSeewoLauncher2DesktopAnnotation { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoKillVComYouJiao"></a> IsAutoKillVComYouJiao
 
@@ -404,7 +414,7 @@ public bool IsAutoKillVComYouJiao { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoSaveScreenshotAtClear"></a> IsAutoSaveScreenshotAtClear
 
@@ -414,7 +424,7 @@ public bool IsAutoSaveScreenshotAtClear { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsAutoSaveStrokesAtScreenshot"></a> IsAutoSaveStrokesAtScreenshot
 
@@ -424,7 +434,7 @@ public bool IsAutoSaveStrokesAtScreenshot { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsEnableAutoFold"></a> IsEnableAutoFold
 
@@ -434,7 +444,7 @@ public bool IsEnableAutoFold { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsEnableAutoSaveStrokes"></a> IsEnableAutoSaveStrokes
 
@@ -444,7 +454,7 @@ public bool IsEnableAutoSaveStrokes { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsEnablePhotoCorrection"></a> IsEnablePhotoCorrection
 
@@ -454,7 +464,7 @@ public bool IsEnablePhotoCorrection { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsSaveScreenshotsInDateFolders"></a> IsSaveScreenshotsInDateFolders
 
@@ -464,7 +474,7 @@ public bool IsSaveScreenshotsInDateFolders { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsSaveStrokesAsUInK"></a> IsSaveStrokesAsUInK
 
@@ -474,7 +484,7 @@ public bool IsSaveStrokesAsUInK { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsSaveStrokesAsXML"></a> IsSaveStrokesAsXML
 
@@ -484,7 +494,7 @@ public bool IsSaveStrokesAsXML { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_IsUseCustomSaveFileName"></a> IsUseCustomSaveFileName
 
@@ -494,7 +504,7 @@ public bool IsUseCustomSaveFileName { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_KeepFoldAfterSoftwareExit"></a> KeepFoldAfterSoftwareExit
 
@@ -504,7 +514,7 @@ public bool KeepFoldAfterSoftwareExit { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Automation_MinimumAutomationStrokeNumber"></a> MinimumAutomationStrokeNumber
 
@@ -514,7 +524,20 @@ public int MinimumAutomationStrokeNumber { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Automation_PhotoCorrectionAcceleration"></a> PhotoCorrectionAcceleration
+
+照片矫正加速模式：CPU（兼容性最好）/ OpenCL（GPU 通用，推荐）/ CUDA（仅 NVIDIA）。
+若所选模式在运行时不可用（如无 OpenCL/CUDA 驱动），自动回退到 CPU。
+
+```csharp
+public PhotoCorrectionAccelerationMode PhotoCorrectionAcceleration { get; set; }
+```
+
+#### Property Value
+
+ [PhotoCorrectionAccelerationMode](Ink\_Canvas.PhotoCorrectionAccelerationMode.md)
 
 ### <a id="Ink_Canvas_Automation_ThoroughlyHideWhenFolded"></a> ThoroughlyHideWhenFolded
 
@@ -524,5 +547,5 @@ public bool ThoroughlyHideWhenFolded { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

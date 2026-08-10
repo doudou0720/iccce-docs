@@ -9,15 +9,15 @@ public enum UInkBlockType : ushort
 
 ## Fields
 
-`Canvas` 
+`Canvas = 2` 
 
-`Header` 
+`Header = 0` 
 
-`HeaderExtension` 
+`HeaderExtension = 1` 
 
-`Ink` 
+`Ink = 3` 
 
-`Media` 
+`Media = 4` 
 
-`Shape` 
+`Shape = 5` 
 

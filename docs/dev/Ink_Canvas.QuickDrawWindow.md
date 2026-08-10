@@ -24,7 +24,7 @@ public QuickDrawWindow()
 
 ## Methods
 
-### <a id="Ink_Canvas_QuickDrawWindow_OnClosed_EventArgs_"></a> OnClosed\(EventArgs\)
+### <a id="Ink_Canvas_QuickDrawWindow_OnClosed_System_EventArgs_"></a> OnClosed\(EventArgs\)
 
 ```csharp
 protected override void OnClosed(EventArgs e)
@@ -32,9 +32,9 @@ protected override void OnClosed(EventArgs e)
 
 #### Parameters
 
-`e` EventArgs
+`e` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
 
-### <a id="Ink_Canvas_QuickDrawWindow_OnSourceInitialized_EventArgs_"></a> OnSourceInitialized\(EventArgs\)
+### <a id="Ink_Canvas_QuickDrawWindow_OnSourceInitialized_System_EventArgs_"></a> OnSourceInitialized\(EventArgs\)
 
 注册到中央置顶管理器，确保窗口立即获得置顶状态
 
@@ -44,7 +44,7 @@ protected override void OnSourceInitialized(EventArgs e)
 
 #### Parameters
 
-`e` EventArgs
+`e` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
 
 ### <a id="Ink_Canvas_QuickDrawWindow_RefreshTheme"></a> RefreshTheme\(\)
 

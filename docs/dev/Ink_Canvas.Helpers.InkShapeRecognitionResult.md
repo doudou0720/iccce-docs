@@ -11,8 +11,17 @@ public sealed class InkShapeRecognitionResult
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [InkShapeRecognitionResult](Ink\_Canvas.Helpers.InkShapeRecognitionResult.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -24,15 +33,15 @@ public InkShapeRecognitionResult(string shapeName, Point centroid, PointCollecti
 
 #### Parameters
 
-`shapeName` string
+`shapeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `centroid` Point
 
 `hotPoints` PointCollection
 
-`shapeWidth` double
+`shapeWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-`shapeHeight` double
+`shapeHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 `strokesToRemove` StrokeCollection
 
@@ -78,7 +87,7 @@ public bool IsSuccess { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_InkShapeRecognitionResult_ShapeHeight"></a> ShapeHeight
 
@@ -88,7 +97,7 @@ public double ShapeHeight { get; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_InkShapeRecognitionResult_ShapeName"></a> ShapeName
 
@@ -98,7 +107,7 @@ public string ShapeName { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_InkShapeRecognitionResult_ShapeWidth"></a> ShapeWidth
 
@@ -108,7 +117,7 @@ public double ShapeWidth { get; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Helpers_InkShapeRecognitionResult_StrokesToRemove"></a> StrokesToRemove
 

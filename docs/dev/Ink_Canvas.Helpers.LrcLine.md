@@ -11,8 +11,18 @@ public class LrcLine
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [LrcLine](Ink\_Canvas.Helpers.LrcLine.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -27,7 +37,7 @@ public List<LrcChar> Chars { get; set; }
 
 #### Property Value
 
- List<[LrcChar](Ink\_Canvas.Helpers.LrcChar.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[LrcChar](Ink\_Canvas.Helpers.LrcChar.md)\>
 
 ### <a id="Ink_Canvas_Helpers_LrcLine_Text"></a> Text
 
@@ -39,7 +49,7 @@ public string Text { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_LrcLine_Time"></a> Time
 
@@ -51,7 +61,7 @@ public TimeSpan Time { get; set; }
 
 #### Property Value
 
- TimeSpan
+ [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)
 
 ### <a id="Ink_Canvas_Helpers_LrcLine_Translation"></a> Translation
 
@@ -63,5 +73,5 @@ public string Translation { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

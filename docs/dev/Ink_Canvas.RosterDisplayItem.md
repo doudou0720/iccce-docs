@@ -26,7 +26,7 @@ public RosterDisplayItem(NameRoster roster, bool isCurrent)
 
 `roster` [NameRoster](Ink\_Canvas.NameRoster.md)
 
-`isCurrent` bool
+`isCurrent` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Fields
 
@@ -60,7 +60,7 @@ public string Guid { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_RosterDisplayItem_Name"></a> Name
 
@@ -70,7 +70,7 @@ public string Name { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_RosterDisplayItem_PeopleCountText"></a> PeopleCountText
 
@@ -80,7 +80,7 @@ public string PeopleCountText { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -94,5 +94,5 @@ public void UpdateFrom(NameRoster roster, bool isCurrent)
 
 `roster` [NameRoster](Ink\_Canvas.NameRoster.md)
 
-`isCurrent` bool
+`isCurrent` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

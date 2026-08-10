@@ -47,11 +47,11 @@ public void UpdateFrame(Point centerCanvas, double width, double height, double 
 
 `centerCanvas` Point
 
-`width` double
+`width` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-`height` double
+`height` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-`rotationAngleDegrees` double
+`rotationAngleDegrees` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_InteractionEnded"></a> InteractionEnded
 
@@ -61,7 +61,7 @@ public event EventHandler InteractionEnded
 
 #### Event Type
 
- EventHandler
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
 ### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_InteractionStarted"></a> InteractionStarted
 
@@ -71,7 +71,7 @@ public event EventHandler InteractionStarted
 
 #### Event Type
 
- EventHandler
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
 ### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_MoveDelta"></a> MoveDelta
 
@@ -81,7 +81,7 @@ public event EventHandler<ImageMoveDeltaEventArgs> MoveDelta
 
 #### Event Type
 
- EventHandler<[ImageMoveDeltaEventArgs](Ink\_Canvas.Controls.ImageMoveDeltaEventArgs.md)\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[ImageMoveDeltaEventArgs](Ink\_Canvas.Controls.ImageMoveDeltaEventArgs.md)\>
 
 ### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_ResizeDelta"></a> ResizeDelta
 
@@ -91,7 +91,7 @@ public event EventHandler<ImageResizeDeltaEventArgs> ResizeDelta
 
 #### Event Type
 
- EventHandler<[ImageResizeDeltaEventArgs](Ink\_Canvas.Controls.ImageResizeDeltaEventArgs.md)\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[ImageResizeDeltaEventArgs](Ink\_Canvas.Controls.ImageResizeDeltaEventArgs.md)\>
 
 ### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_RotateDelta"></a> RotateDelta
 
@@ -101,5 +101,5 @@ public event EventHandler<ImageRotateDeltaEventArgs> RotateDelta
 
 #### Event Type
 
- EventHandler<[ImageRotateDeltaEventArgs](Ink\_Canvas.Controls.ImageRotateDeltaEventArgs.md)\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[ImageRotateDeltaEventArgs](Ink\_Canvas.Controls.ImageRotateDeltaEventArgs.md)\>
 

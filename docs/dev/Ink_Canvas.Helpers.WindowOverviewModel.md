@@ -11,8 +11,22 @@ public class WindowOverviewModel : IDisposable
 
 #### Inheritance
 
-IDisposable ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [WindowOverviewModel](Ink\_Canvas.Helpers.WindowOverviewModel.md)
+
+#### Implements
+
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -36,7 +50,7 @@ public List<WindowInfo> Windows { get; }
 
 #### Property Value
 
- List<[WindowInfo](Ink\_Canvas.Helpers.WindowInfo.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[WindowInfo](Ink\_Canvas.Helpers.WindowInfo.md)\>
 
 ## Methods
 
@@ -58,13 +72,13 @@ public List<WindowInfo> FindWindowsByProcessName(string processName)
 
 #### Parameters
 
-`processName` string
+`processName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 进程名
 
 #### Returns
 
- List<[WindowInfo](Ink\_Canvas.Helpers.WindowInfo.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[WindowInfo](Ink\_Canvas.Helpers.WindowInfo.md)\>
 
 匹配的窗口列表
 
@@ -78,17 +92,17 @@ public List<WindowInfo> FindWindowsByTitle(string title)
 
 #### Parameters
 
-`title` string
+`title` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 窗口标题（支持部分匹配）
 
 #### Returns
 
- List<[WindowInfo](Ink\_Canvas.Helpers.WindowInfo.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[WindowInfo](Ink\_Canvas.Helpers.WindowInfo.md)\>
 
 匹配的窗口列表
 
-### <a id="Ink_Canvas_Helpers_WindowOverviewModel_GetCoveringWindows_Ink_Canvas_Helpers_WindowRect_List_System_String__System_Double_"></a> GetCoveringWindows\(WindowRect, List<string\>, double\)
+### <a id="Ink_Canvas_Helpers_WindowOverviewModel_GetCoveringWindows_Ink_Canvas_Helpers_WindowRect_System_Collections_Generic_List_System_String__System_Double_"></a> GetCoveringWindows\(WindowRect, List<string\>, double\)
 
 获取覆盖指定区域的所有窗口
 
@@ -102,21 +116,21 @@ public List<WindowInfo> GetCoveringWindows(WindowRect area, List<string> exclude
 
 要检查的区域
 
-`excludeProcessNames` List<string\>
+`excludeProcessNames` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 要排除的进程名列表
 
-`coverageThreshold` double
+`coverageThreshold` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 覆盖阈值
 
 #### Returns
 
- List<[WindowInfo](Ink\_Canvas.Helpers.WindowInfo.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[WindowInfo](Ink\_Canvas.Helpers.WindowInfo.md)\>
 
 覆盖该区域的窗口列表（按Z顺序，最上层在前）
 
-### <a id="Ink_Canvas_Helpers_WindowOverviewModel_GetFullScreenWindows_List_System_String__"></a> GetFullScreenWindows\(List<string\>\)
+### <a id="Ink_Canvas_Helpers_WindowOverviewModel_GetFullScreenWindows_System_Collections_Generic_List_System_String__"></a> GetFullScreenWindows\(List<string\>\)
 
 获取所有全屏窗口
 
@@ -126,17 +140,17 @@ public List<WindowInfo> GetFullScreenWindows(List<string> excludeProcessNames = 
 
 #### Parameters
 
-`excludeProcessNames` List<string\>
+`excludeProcessNames` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 要排除的进程名列表
 
 #### Returns
 
- List<[WindowInfo](Ink\_Canvas.Helpers.WindowInfo.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[WindowInfo](Ink\_Canvas.Helpers.WindowInfo.md)\>
 
 全屏窗口列表
 
-### <a id="Ink_Canvas_Helpers_WindowOverviewModel_HasFullScreenWindow_List_System_String__"></a> HasFullScreenWindow\(List<string\>\)
+### <a id="Ink_Canvas_Helpers_WindowOverviewModel_HasFullScreenWindow_System_Collections_Generic_List_System_String__"></a> HasFullScreenWindow\(List<string\>\)
 
 检查是否有全屏窗口
 
@@ -146,17 +160,17 @@ public bool HasFullScreenWindow(List<string> excludeProcessNames = null)
 
 #### Parameters
 
-`excludeProcessNames` List<string\>
+`excludeProcessNames` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 要排除的进程名列表
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 如果有全屏窗口返回true
 
-### <a id="Ink_Canvas_Helpers_WindowOverviewModel_IsAreaCovered_Ink_Canvas_Helpers_WindowRect_List_System_String__System_Double_"></a> IsAreaCovered\(WindowRect, List<string\>, double\)
+### <a id="Ink_Canvas_Helpers_WindowOverviewModel_IsAreaCovered_Ink_Canvas_Helpers_WindowRect_System_Collections_Generic_List_System_String__System_Double_"></a> IsAreaCovered\(WindowRect, List<string\>, double\)
 
 检查指定区域是否被其他窗口覆盖
 
@@ -170,21 +184,21 @@ public bool IsAreaCovered(WindowRect area, List<string> excludeProcessNames = nu
 
 要检查的区域
 
-`excludeProcessNames` List<string\>
+`excludeProcessNames` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 要排除的进程名列表（例如当前应用程序）
 
-`coverageThreshold` double
+`coverageThreshold` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 覆盖阈值（0.0-1.0），超过此阈值认为被覆盖
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 如果被覆盖返回true
 
-### <a id="Ink_Canvas_Helpers_WindowOverviewModel_IsAreaCoveredByFullScreenWindow_Ink_Canvas_Helpers_WindowRect_List_System_String__"></a> IsAreaCoveredByFullScreenWindow\(WindowRect, List<string\>\)
+### <a id="Ink_Canvas_Helpers_WindowOverviewModel_IsAreaCoveredByFullScreenWindow_Ink_Canvas_Helpers_WindowRect_System_Collections_Generic_List_System_String__"></a> IsAreaCoveredByFullScreenWindow\(WindowRect, List<string\>\)
 
 检查指定区域是否被全屏窗口覆盖
 
@@ -198,13 +212,13 @@ public bool IsAreaCoveredByFullScreenWindow(WindowRect area, List<string> exclud
 
 要检查的区域
 
-`excludeProcessNames` List<string\>
+`excludeProcessNames` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 要排除的进程名列表
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 如果被全屏窗口覆盖返回true
 
@@ -226,5 +240,5 @@ public event EventHandler<List<WindowInfo>> WindowsUpdated
 
 #### Event Type
 
- EventHandler<List<[WindowInfo](Ink\_Canvas.Helpers.WindowInfo.md)\>\>
+ [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[WindowInfo](Ink\_Canvas.Helpers.WindowInfo.md)\>\>
 

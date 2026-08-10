@@ -9,5 +9,5 @@ public delegate void TimeMachine.OnRedoStateChange(bool status)
 
 #### Parameters
 
-`status` bool
+`status` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

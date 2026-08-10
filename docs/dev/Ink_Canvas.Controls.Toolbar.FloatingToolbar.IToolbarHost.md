@@ -33,7 +33,7 @@ FrameworkElement FindView(string id)
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
@@ -49,7 +49,7 @@ void RegisterView(string id, FrameworkElement view)
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `view` FrameworkElement
 

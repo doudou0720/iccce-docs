@@ -9,8 +9,18 @@ public static class PluginStrings
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PluginStrings](Ink\_Canvas.Properties.PluginStrings.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public static string Compat_ApiVersionMismatch { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Compat_HostVersionOutOfRange"></a> Compat\_HostVersionOutOfRange
 
@@ -32,7 +42,7 @@ public static string Compat_HostVersionOutOfRange { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Compat_HostVersionTooLow"></a> Compat\_HostVersionTooLow
 
@@ -42,7 +52,7 @@ public static string Compat_HostVersionTooLow { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Culture"></a> Culture
 
@@ -52,7 +62,7 @@ public static CultureInfo Culture { get; set; }
 
 #### Property Value
 
- CultureInfo
+ [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_ActiveSource"></a> Market\_ActiveSource
 
@@ -62,7 +72,7 @@ public static string Market_ActiveSource { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_AddSource"></a> Market\_AddSource
 
@@ -72,7 +82,7 @@ public static string Market_AddSource { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_ApplyPendingUpdate"></a> Market\_ApplyPendingUpdate
 
@@ -82,7 +92,7 @@ public static string Market_ApplyPendingUpdate { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_CancelSource"></a> Market\_CancelSource
 
@@ -92,7 +102,7 @@ public static string Market_CancelSource { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_DependencyTitle"></a> Market\_DependencyTitle
 
@@ -102,7 +112,7 @@ public static string Market_DependencyTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_DependencyWarning"></a> Market\_DependencyWarning
 
@@ -112,7 +122,7 @@ public static string Market_DependencyWarning { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_EditSource"></a> Market\_EditSource
 
@@ -122,7 +132,7 @@ public static string Market_EditSource { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_HotInstallFailedRestart"></a> Market\_HotInstallFailedRestart
 
@@ -132,7 +142,7 @@ public static string Market_HotInstallFailedRestart { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_HotInstallPending"></a> Market\_HotInstallPending
 
@@ -142,7 +152,7 @@ public static string Market_HotInstallPending { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_HotUpdateMessage"></a> Market\_HotUpdateMessage
 
@@ -152,7 +162,7 @@ public static string Market_HotUpdateMessage { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_Install"></a> Market\_Install
 
@@ -162,7 +172,7 @@ public static string Market_Install { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_InstallFromLocal"></a> Market\_InstallFromLocal
 
@@ -172,7 +182,7 @@ public static string Market_InstallFromLocal { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_InstallLocalFailed"></a> Market\_InstallLocalFailed
 
@@ -182,7 +192,7 @@ public static string Market_InstallLocalFailed { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_InstallLocalSuccess"></a> Market\_InstallLocalSuccess
 
@@ -192,7 +202,7 @@ public static string Market_InstallLocalSuccess { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_LoadErrorOnInstall"></a> Market\_LoadErrorOnInstall
 
@@ -202,7 +212,7 @@ public static string Market_LoadErrorOnInstall { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_ManageSources"></a> Market\_ManageSources
 
@@ -212,7 +222,7 @@ public static string Market_ManageSources { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_MirrorAuto"></a> Market\_MirrorAuto
 
@@ -222,7 +232,7 @@ public static string Market_MirrorAuto { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_MirrorGroup"></a> Market\_MirrorGroup
 
@@ -232,7 +242,7 @@ public static string Market_MirrorGroup { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_NoMirrors"></a> Market\_NoMirrors
 
@@ -242,7 +252,7 @@ public static string Market_NoMirrors { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_NoReadme"></a> Market\_NoReadme
 
@@ -252,7 +262,7 @@ public static string Market_NoReadme { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_OpenLogsFolder"></a> Market\_OpenLogsFolder
 
@@ -262,7 +272,7 @@ public static string Market_OpenLogsFolder { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_OpenPluginsFolder"></a> Market\_OpenPluginsFolder
 
@@ -272,7 +282,7 @@ public static string Market_OpenPluginsFolder { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_ProjectHomepage"></a> Market\_ProjectHomepage
 
@@ -282,7 +292,7 @@ public static string Market_ProjectHomepage { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_ReadmeLoadFailed"></a> Market\_ReadmeLoadFailed
 
@@ -292,7 +302,7 @@ public static string Market_ReadmeLoadFailed { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_ReadmeLoading"></a> Market\_ReadmeLoading
 
@@ -302,7 +312,7 @@ public static string Market_ReadmeLoading { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_Refresh"></a> Market\_Refresh
 
@@ -312,7 +322,7 @@ public static string Market_Refresh { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_RemoveSource"></a> Market\_RemoveSource
 
@@ -322,7 +332,7 @@ public static string Market_RemoveSource { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_RemoveSourceConfirmation"></a> Market\_RemoveSourceConfirmation
 
@@ -332,7 +342,7 @@ public static string Market_RemoveSourceConfirmation { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_RestartFailed"></a> Market\_RestartFailed
 
@@ -342,7 +352,7 @@ public static string Market_RestartFailed { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_RestartMessage"></a> Market\_RestartMessage
 
@@ -352,7 +362,7 @@ public static string Market_RestartMessage { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_RestartRequired"></a> Market\_RestartRequired
 
@@ -362,7 +372,7 @@ public static string Market_RestartRequired { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_RestartTitle"></a> Market\_RestartTitle
 
@@ -372,7 +382,7 @@ public static string Market_RestartTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_RestartToApply"></a> Market\_RestartToApply
 
@@ -382,7 +392,7 @@ public static string Market_RestartToApply { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SaveSource"></a> Market\_SaveSource
 
@@ -392,7 +402,7 @@ public static string Market_SaveSource { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SearchPlaceholder"></a> Market\_SearchPlaceholder
 
@@ -402,7 +412,7 @@ public static string Market_SearchPlaceholder { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SecurityNone"></a> Market\_SecurityNone
 
@@ -412,7 +422,7 @@ public static string Market_SecurityNone { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SecurityTitle"></a> Market\_SecurityTitle
 
@@ -422,7 +432,7 @@ public static string Market_SecurityTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SecurityUnknownReason"></a> Market\_SecurityUnknownReason
 
@@ -432,7 +442,7 @@ public static string Market_SecurityUnknownReason { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SecurityWarning"></a> Market\_SecurityWarning
 
@@ -442,7 +452,7 @@ public static string Market_SecurityWarning { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SelectPluginHint"></a> Market\_SelectPluginHint
 
@@ -452,7 +462,7 @@ public static string Market_SelectPluginHint { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SourceDuplicate"></a> Market\_SourceDuplicate
 
@@ -462,7 +472,7 @@ public static string Market_SourceDuplicate { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SourceIdLabel"></a> Market\_SourceIdLabel
 
@@ -472,7 +482,7 @@ public static string Market_SourceIdLabel { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SourceInvalidUrl"></a> Market\_SourceInvalidUrl
 
@@ -482,7 +492,7 @@ public static string Market_SourceInvalidUrl { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SourceNameRequired"></a> Market\_SourceNameRequired
 
@@ -492,7 +502,7 @@ public static string Market_SourceNameRequired { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SourceOfficial"></a> Market\_SourceOfficial
 
@@ -502,7 +512,7 @@ public static string Market_SourceOfficial { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SourceRemoved"></a> Market\_SourceRemoved
 
@@ -512,7 +522,7 @@ public static string Market_SourceRemoved { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SourceSaved"></a> Market\_SourceSaved
 
@@ -522,7 +532,7 @@ public static string Market_SourceSaved { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_SourceUrlLabel"></a> Market\_SourceUrlLabel
 
@@ -532,7 +542,7 @@ public static string Market_SourceUrlLabel { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_TabDependencies"></a> Market\_TabDependencies
 
@@ -542,7 +552,7 @@ public static string Market_TabDependencies { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_TabInstalled"></a> Market\_TabInstalled
 
@@ -552,7 +562,7 @@ public static string Market_TabInstalled { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_TabMarket"></a> Market\_TabMarket
 
@@ -562,7 +572,7 @@ public static string Market_TabMarket { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_TabOverview"></a> Market\_TabOverview
 
@@ -572,7 +582,7 @@ public static string Market_TabOverview { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_Title"></a> Market\_Title
 
@@ -582,7 +592,7 @@ public static string Market_Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_UntrustedInstallConfirmation"></a> Market\_UntrustedInstallConfirmation
 
@@ -592,7 +602,7 @@ public static string Market_UntrustedInstallConfirmation { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_Update"></a> Market\_Update
 
@@ -602,7 +612,7 @@ public static string Market_Update { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Market_UpdateAvailable"></a> Market\_UpdateAvailable
 
@@ -612,7 +622,7 @@ public static string Market_UpdateAvailable { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_Author"></a> Plugin\_Author
 
@@ -622,7 +632,7 @@ public static string Plugin_Author { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_Delete"></a> Plugin\_Delete
 
@@ -632,7 +642,7 @@ public static string Plugin_Delete { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_DeleteConfirm"></a> Plugin\_DeleteConfirm
 
@@ -642,7 +652,7 @@ public static string Plugin_DeleteConfirm { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_DeleteTitle"></a> Plugin\_DeleteTitle
 
@@ -652,7 +662,7 @@ public static string Plugin_DeleteTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ErrorAutoDisabled"></a> Plugin\_ErrorAutoDisabled
 
@@ -662,7 +672,7 @@ public static string Plugin_ErrorAutoDisabled { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ErrorReset"></a> Plugin\_ErrorReset
 
@@ -672,7 +682,7 @@ public static string Plugin_ErrorReset { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ErrorResetConfirm"></a> Plugin\_ErrorResetConfirm
 
@@ -682,7 +692,7 @@ public static string Plugin_ErrorResetConfirm { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ErrorTitle"></a> Plugin\_ErrorTitle
 
@@ -692,7 +702,7 @@ public static string Plugin_ErrorTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ExportConfig"></a> Plugin\_ExportConfig
 
@@ -702,7 +712,7 @@ public static string Plugin_ExportConfig { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ExportFailed"></a> Plugin\_ExportFailed
 
@@ -712,7 +722,7 @@ public static string Plugin_ExportFailed { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ExportSuccess"></a> Plugin\_ExportSuccess
 
@@ -722,7 +732,7 @@ public static string Plugin_ExportSuccess { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ExportTitle"></a> Plugin\_ExportTitle
 
@@ -732,7 +742,7 @@ public static string Plugin_ExportTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ExternalDllAuthorizationMessage"></a> Plugin\_ExternalDllAuthorizationMessage
 
@@ -742,7 +752,7 @@ public static string Plugin_ExternalDllAuthorizationMessage { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ExternalDllAuthorizationTitle"></a> Plugin\_ExternalDllAuthorizationTitle
 
@@ -752,7 +762,7 @@ public static string Plugin_ExternalDllAuthorizationTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ImportConfig"></a> Plugin\_ImportConfig
 
@@ -762,7 +772,7 @@ public static string Plugin_ImportConfig { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ImportFailed"></a> Plugin\_ImportFailed
 
@@ -772,7 +782,7 @@ public static string Plugin_ImportFailed { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ImportSuccess"></a> Plugin\_ImportSuccess
 
@@ -782,7 +792,7 @@ public static string Plugin_ImportSuccess { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ImportTitle"></a> Plugin\_ImportTitle
 
@@ -792,7 +802,7 @@ public static string Plugin_ImportTitle { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_LoadError"></a> Plugin\_LoadError
 
@@ -802,7 +812,7 @@ public static string Plugin_LoadError { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_LoadedCount"></a> Plugin\_LoadedCount
 
@@ -812,7 +822,7 @@ public static string Plugin_LoadedCount { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_Loading"></a> Plugin\_Loading
 
@@ -822,7 +832,7 @@ public static string Plugin_Loading { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_NoPlugins"></a> Plugin\_NoPlugins
 
@@ -832,7 +842,7 @@ public static string Plugin_NoPlugins { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_Reload"></a> Plugin\_Reload
 
@@ -842,7 +852,7 @@ public static string Plugin_Reload { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ReloadFailed"></a> Plugin\_ReloadFailed
 
@@ -852,7 +862,7 @@ public static string Plugin_ReloadFailed { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ReloadPartial"></a> Plugin\_ReloadPartial
 
@@ -862,7 +872,7 @@ public static string Plugin_ReloadPartial { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_ReloadSuccess"></a> Plugin\_ReloadSuccess
 
@@ -872,7 +882,7 @@ public static string Plugin_ReloadSuccess { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_Settings"></a> Plugin\_Settings
 
@@ -882,7 +892,7 @@ public static string Plugin_Settings { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_Title"></a> Plugin\_Title
 
@@ -892,7 +902,7 @@ public static string Plugin_Title { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_Update"></a> Plugin\_Update
 
@@ -902,7 +912,7 @@ public static string Plugin_Update { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_Plugin_UpdateAvailable"></a> Plugin\_UpdateAvailable
 
@@ -912,7 +922,7 @@ public static string Plugin_UpdateAvailable { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Properties_PluginStrings_ResourceManager"></a> ResourceManager
 
@@ -922,7 +932,7 @@ public static ResourceManager ResourceManager { get; }
 
 #### Property Value
 
- ResourceManager
+ [ResourceManager](https://learn.microsoft.com/dotnet/api/system.resources.resourcemanager)
 
 ## Methods
 
@@ -934,9 +944,9 @@ public static string GetString(string key)
 
 #### Parameters
 
-`key` string
+`key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

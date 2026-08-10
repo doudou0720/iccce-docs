@@ -9,7 +9,7 @@ public interface IPPTLinkManager : IDisposable
 
 #### Implements
 
-IDisposable
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 ## Properties
 
@@ -21,7 +21,7 @@ bool IsConnected { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_IsInSlideShow"></a> IsInSlideShow
 
@@ -31,7 +31,7 @@ bool IsInSlideShow { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_IsSupportWPS"></a> IsSupportWPS
 
@@ -41,7 +41,7 @@ bool IsSupportWPS { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_PPTApplication"></a> PPTApplication
 
@@ -51,7 +51,7 @@ object PPTApplication { get; }
 
 #### Property Value
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_SkipAnimationsWhenNavigating"></a> SkipAnimationsWhenNavigating
 
@@ -61,7 +61,7 @@ bool SkipAnimationsWhenNavigating { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_SlidesCount"></a> SlidesCount
 
@@ -71,11 +71,11 @@ int SlidesCount { get; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Methods
 
-### <a id="Ink_Canvas_Helpers_IPPTLinkManager_ExportSlideThumbnails_System_Int32_System_Int32_IProgress_System_Double__"></a> ExportSlideThumbnails\(int, int, IProgress<double\>\)
+### <a id="Ink_Canvas_Helpers_IPPTLinkManager_ExportSlideThumbnails_System_Int32_System_Int32_System_IProgress_System_Double__"></a> ExportSlideThumbnails\(int, int, IProgress<double\>\)
 
 ```csharp
 List<PPTSlideThumbnail> ExportSlideThumbnails(int width, int height, IProgress<double> progress = null)
@@ -83,15 +83,15 @@ List<PPTSlideThumbnail> ExportSlideThumbnails(int width, int height, IProgress<d
 
 #### Parameters
 
-`width` int
+`width` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`height` int
+`height` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`progress` IProgress<double\>
+`progress` [IProgress](https://learn.microsoft.com/dotnet/api/system.iprogress\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
 #### Returns
 
- List<[PPTSlideThumbnail](Ink\_Canvas.Helpers.PPTSlideThumbnail.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PPTSlideThumbnail](Ink\_Canvas.Helpers.PPTSlideThumbnail.md)\>
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_GetCurrentActivePresentation"></a> GetCurrentActivePresentation\(\)
 
@@ -101,7 +101,7 @@ object GetCurrentActivePresentation()
 
 #### Returns
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_GetCurrentSlideNumber"></a> GetCurrentSlideNumber\(\)
 
@@ -111,7 +111,7 @@ int GetCurrentSlideNumber()
 
 #### Returns
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_GetPresentationName"></a> GetPresentationName\(\)
 
@@ -121,7 +121,7 @@ string GetPresentationName()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_GetPresentationPath"></a> GetPresentationPath\(\)
 
@@ -131,7 +131,7 @@ string GetPresentationPath()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_ReloadConnection"></a> ReloadConnection\(\)
 
@@ -161,7 +161,7 @@ void StopMonitoring(bool isShutdown = false)
 
 #### Parameters
 
-`isShutdown` bool
+`isShutdown` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_TryEndSlideShow"></a> TryEndSlideShow\(\)
 
@@ -173,7 +173,7 @@ bool TryEndSlideShow()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> 如果放映已成功结束，<code>false</code> 否则。
 
@@ -185,7 +185,7 @@ bool TryNavigateNext()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_TryNavigatePrevious"></a> TryNavigatePrevious\(\)
 
@@ -195,7 +195,7 @@ bool TryNavigatePrevious()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_TryNavigateToSlide_System_Int32_"></a> TryNavigateToSlide\(int\)
 
@@ -205,11 +205,11 @@ bool TryNavigateToSlide(int slideNumber)
 
 #### Parameters
 
-`slideNumber` int
+`slideNumber` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_TryShowSlideNavigation"></a> TryShowSlideNavigation\(\)
 
@@ -219,7 +219,7 @@ bool TryShowSlideNavigation()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_TryStartSlideShow"></a> TryStartSlideShow\(\)
 
@@ -231,7 +231,7 @@ bool TryStartSlideShow()
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> 如果放映已成功启动，<code>false</code> 否则。
 
@@ -243,7 +243,7 @@ event Action<bool> PPTConnectionChanged
 
 #### Event Type
 
- Action<bool\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_PresentationClose"></a> PresentationClose
 
@@ -253,7 +253,7 @@ event Action<object> PresentationClose
 
 #### Event Type
 
- Action<object\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_PresentationOpen"></a> PresentationOpen
 
@@ -263,7 +263,7 @@ event Action<object> PresentationOpen
 
 #### Event Type
 
- Action<object\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_SlideShowBegin"></a> SlideShowBegin
 
@@ -273,7 +273,7 @@ event Action<object> SlideShowBegin
 
 #### Event Type
 
- Action<object\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_SlideShowEnd"></a> SlideShowEnd
 
@@ -283,7 +283,7 @@ event Action<object> SlideShowEnd
 
 #### Event Type
 
- Action<object\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_SlideShowNextSlide"></a> SlideShowNextSlide
 
@@ -293,7 +293,7 @@ event Action<object> SlideShowNextSlide
 
 #### Event Type
 
- Action<object\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
 ### <a id="Ink_Canvas_Helpers_IPPTLinkManager_SlideShowStateChanged"></a> SlideShowStateChanged
 
@@ -303,5 +303,5 @@ event Action<bool> SlideShowStateChanged
 
 #### Event Type
 
- Action<bool\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 

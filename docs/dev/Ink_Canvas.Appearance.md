@@ -9,8 +9,18 @@ public class Appearance
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Appearance](Ink\_Canvas.Appearance.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public bool AllowDragSidePanel { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_AutoCollapseQuickPanelDelay"></a> AutoCollapseQuickPanelDelay
 
@@ -32,7 +42,7 @@ public double AutoCollapseQuickPanelDelay { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_AutoFlipWhenSpaceInsufficient"></a> AutoFlipWhenSpaceInsufficient
 
@@ -42,7 +52,7 @@ public bool AutoFlipWhenSpaceInsufficient { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_BoardMenuOpacity"></a> BoardMenuOpacity
 
@@ -52,7 +62,7 @@ public double BoardMenuOpacity { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_BoardToolbarCenterOpacity"></a> BoardToolbarCenterOpacity
 
@@ -62,7 +72,7 @@ public double BoardToolbarCenterOpacity { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_BoardToolbarLeftOpacity"></a> BoardToolbarLeftOpacity
 
@@ -72,7 +82,7 @@ public double BoardToolbarLeftOpacity { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_BoardToolbarRightOpacity"></a> BoardToolbarRightOpacity
 
@@ -82,7 +92,7 @@ public double BoardToolbarRightOpacity { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_ChickenSoupAutoRotationInterval"></a> ChickenSoupAutoRotationInterval
 
@@ -92,7 +102,7 @@ public int ChickenSoupAutoRotationInterval { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Appearance_ChickenSoupPosition"></a> ChickenSoupPosition
 
@@ -102,7 +112,7 @@ public string ChickenSoupPosition { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Appearance_ChickenSoupSource"></a> ChickenSoupSource
 
@@ -112,7 +122,7 @@ public int ChickenSoupSource { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Appearance_CompactFloatingBar"></a> CompactFloatingBar
 
@@ -122,7 +132,7 @@ public bool CompactFloatingBar { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_CustomFloatingBarImgs"></a> CustomFloatingBarImgs
 
@@ -132,7 +142,7 @@ public List<CustomFloatingBarIcon> CustomFloatingBarImgs { get; set; }
 
 #### Property Value
 
- List<[CustomFloatingBarIcon](Ink\_Canvas.CustomFloatingBarIcon.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[CustomFloatingBarIcon](Ink\_Canvas.CustomFloatingBarIcon.md)\>
 
 ### <a id="Ink_Canvas_Appearance_CustomSplashImagePath"></a> CustomSplashImagePath
 
@@ -142,7 +152,7 @@ public string CustomSplashImagePath { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Appearance_CustomSplashTextPosition"></a> CustomSplashTextPosition
 
@@ -152,7 +162,7 @@ public int CustomSplashTextPosition { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Appearance_CustomTipsSchemes"></a> CustomTipsSchemes
 
@@ -162,7 +172,7 @@ public List<TipsScheme> CustomTipsSchemes { get; set; }
 
 #### Property Value
 
- List<[TipsScheme](Ink\_Canvas.TipsScheme.md)\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[TipsScheme](Ink\_Canvas.TipsScheme.md)\>
 
 ### <a id="Ink_Canvas_Appearance_DisableToolbarAnimation"></a> DisableToolbarAnimation
 
@@ -172,7 +182,7 @@ public bool DisableToolbarAnimation { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_EnableChickenSoupAutoRotation"></a> EnableChickenSoupAutoRotation
 
@@ -182,7 +192,7 @@ public bool EnableChickenSoupAutoRotation { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_EnableChickenSoupInWhiteboardMode"></a> EnableChickenSoupInWhiteboardMode
 
@@ -192,7 +202,7 @@ public bool EnableChickenSoupInWhiteboardMode { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_EnableHotkeysInMouseMode"></a> EnableHotkeysInMouseMode
 
@@ -202,7 +212,7 @@ public bool EnableHotkeysInMouseMode { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_EnableIdleMiniBar"></a> EnableIdleMiniBar
 
@@ -212,7 +222,7 @@ public bool EnableIdleMiniBar { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_EnableLiquidGlassBar"></a> EnableLiquidGlassBar
 
@@ -222,7 +232,7 @@ public bool EnableLiquidGlassBar { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_EnableSplashScreen"></a> EnableSplashScreen
 
@@ -232,7 +242,7 @@ public bool EnableSplashScreen { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_EnableTimeDisplayInWhiteboardMode"></a> EnableTimeDisplayInWhiteboardMode
 
@@ -242,7 +252,7 @@ public bool EnableTimeDisplayInWhiteboardMode { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_EnableTrayIcon"></a> EnableTrayIcon
 
@@ -252,7 +262,7 @@ public bool EnableTrayIcon { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_EnabledPresetTipsSources"></a> EnabledPresetTipsSources
 
@@ -262,7 +272,7 @@ public List<string> EnabledPresetTipsSources { get; set; }
 
 #### Property Value
 
- List<string\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Appearance_EraserDisplayOption"></a> EraserDisplayOption
 
@@ -272,7 +282,7 @@ public int EraserDisplayOption { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Appearance_FlipContentOnAutoFlip"></a> FlipContentOnAutoFlip
 
@@ -282,7 +292,7 @@ public bool FlipContentOnAutoFlip { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_FloatingBarBorderColor"></a> FloatingBarBorderColor
 
@@ -292,7 +302,7 @@ public string FloatingBarBorderColor { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Appearance_FloatingBarBorderColorMode"></a> FloatingBarBorderColorMode
 
@@ -302,7 +312,7 @@ public int FloatingBarBorderColorMode { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Appearance_FloatingBarImg"></a> FloatingBarImg
 
@@ -312,7 +322,7 @@ public int FloatingBarImg { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Appearance_FloatingBarMenuOpacity"></a> FloatingBarMenuOpacity
 
@@ -322,7 +332,7 @@ public double FloatingBarMenuOpacity { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_FloatingBarMenuOpacityInPPT"></a> FloatingBarMenuOpacityInPPT
 
@@ -332,7 +342,7 @@ public double FloatingBarMenuOpacityInPPT { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_FloatingBarThemeId"></a> FloatingBarThemeId
 
@@ -342,7 +352,7 @@ public string FloatingBarThemeId { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Appearance_HideFloatingBarBorder"></a> HideFloatingBarBorder
 
@@ -352,7 +362,7 @@ public bool HideFloatingBarBorder { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_HitokotoCategories"></a> HitokotoCategories
 
@@ -362,7 +372,7 @@ public List<string> HitokotoCategories { get; set; }
 
 #### Property Value
 
- List<string\>
+ [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Appearance_IdleMiniBarAutoRestoreSeconds"></a> IdleMiniBarAutoRestoreSeconds
 
@@ -372,7 +382,7 @@ public double IdleMiniBarAutoRestoreSeconds { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_IdleMiniBarOpacity"></a> IdleMiniBarOpacity
 
@@ -382,7 +392,7 @@ public double IdleMiniBarOpacity { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_IsAutoCollapseQuickPanel"></a> IsAutoCollapseQuickPanel
 
@@ -392,7 +402,7 @@ public bool IsAutoCollapseQuickPanel { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_IsColorfulViewboxFloatingBar"></a> IsColorfulViewboxFloatingBar
 
@@ -402,7 +412,7 @@ public bool IsColorfulViewboxFloatingBar { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_IsShowEraserButton"></a> IsShowEraserButton
 
@@ -412,7 +422,7 @@ public bool IsShowEraserButton { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_IsShowExitButton"></a> IsShowExitButton
 
@@ -422,7 +432,7 @@ public bool IsShowExitButton { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_IsShowHideControlButton"></a> IsShowHideControlButton
 
@@ -432,7 +442,7 @@ public bool IsShowHideControlButton { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_IsShowLRSwitchButton"></a> IsShowLRSwitchButton
 
@@ -442,7 +452,7 @@ public bool IsShowLRSwitchButton { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_IsShowModeFingerToggleSwitch"></a> IsShowModeFingerToggleSwitch
 
@@ -452,7 +462,7 @@ public bool IsShowModeFingerToggleSwitch { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_IsShowQuickColorPalette"></a> IsShowQuickColorPalette
 
@@ -462,7 +472,7 @@ public bool IsShowQuickColorPalette { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_IsShowQuickPanel"></a> IsShowQuickPanel
 
@@ -472,7 +482,7 @@ public bool IsShowQuickPanel { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_IsTransparentButtonBackground"></a> IsTransparentButtonBackground
 
@@ -482,7 +492,7 @@ public bool IsTransparentButtonBackground { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_Language"></a> Language
 
@@ -492,7 +502,7 @@ public string Language { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Appearance_LiquidGlassBarOpacity"></a> LiquidGlassBarOpacity
 
@@ -502,7 +512,7 @@ public double LiquidGlassBarOpacity { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_LiquidGlassBarPositionX"></a> LiquidGlassBarPositionX
 
@@ -512,7 +522,7 @@ public double LiquidGlassBarPositionX { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_LiquidGlassBarPositionY"></a> LiquidGlassBarPositionY
 
@@ -522,7 +532,7 @@ public double LiquidGlassBarPositionY { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_PassThroughMouseWheelInDrawingMode"></a> PassThroughMouseWheelInDrawingMode
 
@@ -532,7 +542,7 @@ public bool PassThroughMouseWheelInDrawingMode { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_QuickColorPaletteDisplayMode"></a> QuickColorPaletteDisplayMode
 
@@ -542,7 +552,7 @@ public int QuickColorPaletteDisplayMode { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Appearance_QuickPanelBottomOffset"></a> QuickPanelBottomOffset
 
@@ -552,7 +562,7 @@ public double QuickPanelBottomOffset { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_QuickPanelOpacity"></a> QuickPanelOpacity
 
@@ -562,7 +572,7 @@ public double QuickPanelOpacity { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_ReverseToolbarContent"></a> ReverseToolbarContent
 
@@ -572,7 +582,7 @@ public bool ReverseToolbarContent { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_ShowGrabHandleChevron"></a> ShowGrabHandleChevron
 
@@ -582,7 +592,7 @@ public bool ShowGrabHandleChevron { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_ShowPenColorOnBoardToolbarIcon"></a> ShowPenColorOnBoardToolbarIcon
 
@@ -592,7 +602,7 @@ public bool ShowPenColorOnBoardToolbarIcon { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_ShowPenColorOnFloatingBarIcon"></a> ShowPenColorOnFloatingBarIcon
 
@@ -602,7 +612,7 @@ public bool ShowPenColorOnFloatingBarIcon { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_SplashScreenStyle"></a> SplashScreenStyle
 
@@ -612,7 +622,7 @@ public int SplashScreenStyle { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Appearance_Theme"></a> Theme
 
@@ -622,7 +632,7 @@ public int Theme { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Appearance_ToolbarPosition"></a> ToolbarPosition
 
@@ -662,7 +672,7 @@ public int UnFoldButtonImageType { get; set; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Appearance_Use24HourTimeFormat"></a> Use24HourTimeFormat
 
@@ -672,7 +682,7 @@ public bool Use24HourTimeFormat { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_UseFloatingQuickPanel"></a> UseFloatingQuickPanel
 
@@ -682,7 +692,7 @@ public bool UseFloatingQuickPanel { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_UseLegacyFloatingBarUI"></a> UseLegacyFloatingBarUI
 
@@ -692,7 +702,7 @@ public bool UseLegacyFloatingBarUI { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_UseMinimalistGrabHandle"></a> UseMinimalistGrabHandle
 
@@ -702,7 +712,7 @@ public bool UseMinimalistGrabHandle { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Appearance_ViewboxBlackBoardLeftScaleTransformValue"></a> ViewboxBlackBoardLeftScaleTransformValue
 
@@ -712,7 +722,7 @@ public double ViewboxBlackBoardLeftScaleTransformValue { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_ViewboxBlackBoardRightScaleTransformValue"></a> ViewboxBlackBoardRightScaleTransformValue
 
@@ -722,7 +732,7 @@ public double ViewboxBlackBoardRightScaleTransformValue { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_ViewboxBlackBoardScaleTransformValue"></a> ViewboxBlackBoardScaleTransformValue
 
@@ -732,7 +742,7 @@ public double ViewboxBlackBoardScaleTransformValue { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_ViewboxFloatingBarOpacityInPPTValue"></a> ViewboxFloatingBarOpacityInPPTValue
 
@@ -742,7 +752,7 @@ public double ViewboxFloatingBarOpacityInPPTValue { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_ViewboxFloatingBarOpacityValue"></a> ViewboxFloatingBarOpacityValue
 
@@ -752,7 +762,7 @@ public double ViewboxFloatingBarOpacityValue { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_ViewboxFloatingBarScaleTransformValue"></a> ViewboxFloatingBarScaleTransformValue
 
@@ -762,7 +772,7 @@ public double ViewboxFloatingBarScaleTransformValue { get; set; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_Appearance_WindowBackdrop"></a> WindowBackdrop
 
@@ -772,5 +782,5 @@ public string WindowBackdrop { get; set; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 

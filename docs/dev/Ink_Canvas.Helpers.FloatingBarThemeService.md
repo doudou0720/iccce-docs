@@ -12,8 +12,17 @@ public sealed class FloatingBarThemeService
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [FloatingBarThemeService](Ink\_Canvas.Helpers.FloatingBarThemeService.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -37,7 +46,7 @@ public ObservableCollection<FloatingBarThemeService.ThemeInfo> Themes { get; }
 
 #### Property Value
 
- ObservableCollection<[FloatingBarThemeService](Ink\_Canvas.Helpers.FloatingBarThemeService.md).[ThemeInfo](Ink\_Canvas.Helpers.FloatingBarThemeService.ThemeInfo.md)\>
+ [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[FloatingBarThemeService](Ink\_Canvas.Helpers.FloatingBarThemeService.md).[ThemeInfo](Ink\_Canvas.Helpers.FloatingBarThemeService.ThemeInfo.md)\>
 
 ## Methods
 
@@ -55,11 +64,11 @@ public bool ApplyTheme(string themeId)
 
 #### Parameters
 
-`themeId` string
+`themeId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_DeleteTheme_System_String_"></a> DeleteTheme\(string\)
 
@@ -69,11 +78,11 @@ public bool DeleteTheme(string themeId)
 
 #### Parameters
 
-`themeId` string
+`themeId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_LoadThemes"></a> LoadThemes\(\)
 

@@ -42,5 +42,5 @@ public void UpdateVisibility(bool isInPPTMode)
 
 #### Parameters
 
-`isInPPTMode` bool
+`isInPPTMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

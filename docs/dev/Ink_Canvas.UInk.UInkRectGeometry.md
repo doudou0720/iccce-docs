@@ -9,9 +9,18 @@ public sealed class UInkRectGeometry : UInkShapeGeometry
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UInkShapeGeometry](Ink\_Canvas.UInk.UInkShapeGeometry.md) ← 
 [UInkRectGeometry](Ink\_Canvas.UInk.UInkRectGeometry.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Fields
 
@@ -23,7 +32,7 @@ public float CenterX
 
 #### Field Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_UInk_UInkRectGeometry_CenterY"></a> CenterY
 
@@ -33,7 +42,7 @@ public float CenterY
 
 #### Field Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_UInk_UInkRectGeometry_Height"></a> Height
 
@@ -43,7 +52,7 @@ public float Height
 
 #### Field Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### <a id="Ink_Canvas_UInk_UInkRectGeometry_Rotation"></a> Rotation
 
@@ -53,7 +62,7 @@ public float? Rotation
 
 #### Field Value
 
- float?
+ [float](https://learn.microsoft.com/dotnet/api/system.single)?
 
 ### <a id="Ink_Canvas_UInk_UInkRectGeometry_Width"></a> Width
 
@@ -63,5 +72,5 @@ public float Width
 
 #### Field Value
 
- float
+ [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -9,8 +9,18 @@ public class TimeMachine
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [TimeMachine](Ink\_Canvas.Helpers.TimeMachine.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -24,7 +34,7 @@ public bool CanRedo { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_TimeMachine_CanUndo"></a> CanUndo
 
@@ -36,7 +46,7 @@ public bool CanUndo { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
@@ -66,7 +76,7 @@ public void CommitElementRemoveHistory(UIElement element)
 
 `element` UIElement
 
-### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeDrawingAttributesHistory_Dictionary_Stroke_Tuple_DrawingAttributes_DrawingAttributes___"></a> CommitStrokeDrawingAttributesHistory\(Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes\>\>\)
+### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeDrawingAttributesHistory_System_Collections_Generic_Dictionary_Stroke_System_Tuple_DrawingAttributes_DrawingAttributes___"></a> CommitStrokeDrawingAttributesHistory\(Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes\>\>\)
 
 ```csharp
 public void CommitStrokeDrawingAttributesHistory(Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes>> drawingAttributes)
@@ -74,7 +84,7 @@ public void CommitStrokeDrawingAttributesHistory(Dictionary<Stroke, Tuple<Drawin
 
 #### Parameters
 
-`drawingAttributes` Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes\>\>
+`drawingAttributes` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<Stroke, [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<DrawingAttributes, DrawingAttributes\>\>
 
 ### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeEraseHistory_StrokeCollection_StrokeCollection_"></a> CommitStrokeEraseHistory\(StrokeCollection, StrokeCollection\)
 
@@ -88,7 +98,7 @@ public void CommitStrokeEraseHistory(StrokeCollection stroke, StrokeCollection s
 
 `sourceStroke` StrokeCollection
 
-### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeManipulationHistory_Dictionary_Stroke_Tuple_StylusPointCollection_StylusPointCollection___"></a> CommitStrokeManipulationHistory\(Dictionary<Stroke, Tuple<StylusPointCollection, StylusPointCollection\>\>\)
+### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeManipulationHistory_System_Collections_Generic_Dictionary_Stroke_System_Tuple_StylusPointCollection_StylusPointCollection___"></a> CommitStrokeManipulationHistory\(Dictionary<Stroke, Tuple<StylusPointCollection, StylusPointCollection\>\>\)
 
 ```csharp
 public void CommitStrokeManipulationHistory(Dictionary<Stroke, Tuple<StylusPointCollection, StylusPointCollection>> stylusPointDictionary)
@@ -96,7 +106,7 @@ public void CommitStrokeManipulationHistory(Dictionary<Stroke, Tuple<StylusPoint
 
 #### Parameters
 
-`stylusPointDictionary` Dictionary<Stroke, Tuple<StylusPointCollection, StylusPointCollection\>\>
+`stylusPointDictionary` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<Stroke, [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<StylusPointCollection, StylusPointCollection\>\>
 
 ### <a id="Ink_Canvas_Helpers_TimeMachine_CommitStrokeShapeHistory_StrokeCollection_StrokeCollection_"></a> CommitStrokeShapeHistory\(StrokeCollection, StrokeCollection\)
 
@@ -142,7 +152,7 @@ public bool ImportTimeMachineHistory(TimeMachineHistory[] sourceHistory)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_TimeMachine_Redo"></a> Redo\(\)
 
@@ -156,8 +166,13 @@ public TimeMachineHistory Redo()
 
 ### <a id="Ink_Canvas_Helpers_TimeMachine_TransformStrokesInHistory_Matrix_StrokeCollection_"></a> TransformStrokesInHistory\(Matrix, StrokeCollection\)
 
-把历史中保存的墨迹按 matrix 同步变换（撤销/重做时能回到正确几何），
-跳过仍在画布上的笔迹（它们由 inkCanvas.Strokes.Transform 直接处理）。
+对当前页历史中所有不在画布上的 Stroke 应用变换矩阵。
+用于视频展台模式：旋转/移动/缩放摄像头预览时，画布上的笔画已被
+inkCanvas.Strokes.Transform 变换，但历史中已移出画布的 Stroke
+（如形状识别的 ReplacedStroke、已撤销的 CurrentStroke）不会被变换。
+撤销/重做时这些 Stroke 加回画布会出现在旧位置，因此需要同步变换。
+注意：同一个 Stroke 可能出现在多个历史条目中（如条目1的 CurrentStroke
+和条目2的 ReplacedStroke 是同一引用），用 HashSet 去重避免双重变换。
 
 ```csharp
 public void TransformStrokesInHistory(Matrix matrix, StrokeCollection canvasStrokes)
@@ -181,7 +196,7 @@ public bool TryReplaceLastUserInputHistory(StrokeCollection stroke)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Helpers_TimeMachine_Undo"></a> Undo\(\)
 

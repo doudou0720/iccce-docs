@@ -9,8 +9,18 @@ public static class WindowSettingsHelper
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [WindowSettingsHelper](Ink\_Canvas.Windows.SettingsViews.Helpers.WindowSettingsHelper.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Properties
 
@@ -22,7 +32,7 @@ public static bool IsTemporarilyDisablingNoFocusMode { get; set; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_WindowSettingsHelper_OnPPTOnlyModeChanged"></a> OnPPTOnlyModeChanged
 
@@ -32,7 +42,7 @@ public static Action<bool> OnPPTOnlyModeChanged { get; set; }
 
 #### Property Value
 
- Action<bool\>
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_WindowSettingsHelper_OnStartKillProcessTimer"></a> OnStartKillProcessTimer
 
@@ -42,7 +52,7 @@ public static Action OnStartKillProcessTimer { get; set; }
 
 #### Property Value
 
- Action
+ [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_WindowSettingsHelper_OnStopKillProcessTimer"></a> OnStopKillProcessTimer
 
@@ -52,7 +62,7 @@ public static Action OnStopKillProcessTimer { get; set; }
 
 #### Property Value
 
- Action
+ [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
 ## Methods
 
@@ -86,7 +96,7 @@ public static void ApplyPPTOnlyMode(Window window, bool isEnabled)
 
 `window` Window
 
-`isEnabled` bool
+`isEnabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_WindowSettingsHelper_ApplyUIAccessTopMost_Window_"></a> ApplyUIAccessTopMost\(Window\)
 
@@ -124,7 +134,7 @@ public static void SetTopmostBasedOnSettings(Window window, bool shouldBeTopmost
 
 `window` Window
 
-`shouldBeTopmost` bool
+`shouldBeTopmost` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_WindowSettingsHelper_SetWindowMode_Window_"></a> SetWindowMode\(Window\)
 

@@ -16,7 +16,7 @@ IValueConverter ←
 
 ## Methods
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_RulesetLogicalModeToIntConverter_Convert_System_Object_Type_System_Object_CultureInfo_"></a> Convert\(object, Type, object, CultureInfo\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_RulesetLogicalModeToIntConverter_Convert_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> Convert\(object, Type, object, CultureInfo\)
 
 ```csharp
 public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
@@ -24,19 +24,19 @@ public object Convert(object value, Type targetType, object parameter, CultureIn
 
 #### Parameters
 
-`value` object
+`value` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-`targetType` Type
+`targetType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-`parameter` object
+`parameter` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-`culture` CultureInfo
+`culture` [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 #### Returns
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="Ink_Canvas_Windows_SettingsViews_Pages_RulesetLogicalModeToIntConverter_ConvertBack_System_Object_Type_System_Object_CultureInfo_"></a> ConvertBack\(object, Type, object, CultureInfo\)
+### <a id="Ink_Canvas_Windows_SettingsViews_Pages_RulesetLogicalModeToIntConverter_ConvertBack_System_Object_System_Type_System_Object_System_Globalization_CultureInfo_"></a> ConvertBack\(object, Type, object, CultureInfo\)
 
 ```csharp
 public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
@@ -44,15 +44,15 @@ public object ConvertBack(object value, Type targetType, object parameter, Cultu
 
 #### Parameters
 
-`value` object
+`value` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-`targetType` Type
+`targetType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-`parameter` object
+`parameter` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-`culture` CultureInfo
+`culture` [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
 #### Returns
 
- object
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
 

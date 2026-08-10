@@ -63,7 +63,7 @@ public int BoundsWidth
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_MainWindow_CloseIsFromButton"></a> CloseIsFromButton
 
@@ -73,19 +73,19 @@ public static bool CloseIsFromButton
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_CompactFloatingBarScaleFactor"></a> CompactFloatingBarScaleFactor
 
 紧凑模式浮动栏整体缩放倍率（相对用户设置的倍率再缩小至此比例，保持纵横比）。
 
 ```csharp
-public const double CompactFloatingBarScaleFactor
+public const double CompactFloatingBarScaleFactor = 0.85
 ```
 
 #### Field Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_MainWindow_IsShowingRestoreHiddenSlidesWindow"></a> IsShowingRestoreHiddenSlidesWindow
 
@@ -97,7 +97,7 @@ public static bool IsShowingRestoreHiddenSlidesWindow
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow__floatingWindowInterceptorManager"></a> \_floatingWindowInterceptorManager
 
@@ -117,7 +117,7 @@ public string _lastAppliedProfileName
 
 #### Field Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_MainWindow_dpiChangedDelayAction"></a> dpiChangedDelayAction
 
@@ -139,7 +139,7 @@ public double eraserWidth
 
 #### Field Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_MainWindow_isEraserCircleShape"></a> isEraserCircleShape
 
@@ -149,7 +149,7 @@ public bool isEraserCircleShape
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_isFloatingBarFolded"></a> isFloatingBarFolded
 
@@ -161,7 +161,7 @@ public bool isFloatingBarFolded
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_isFullScreenApplied"></a> isFullScreenApplied
 
@@ -171,7 +171,7 @@ public bool isFullScreenApplied
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_isUsingGeometryEraser"></a> isUsingGeometryEraser
 
@@ -181,7 +181,7 @@ public bool isUsingGeometryEraser
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_isUsingStrokesEraser"></a> isUsingStrokesEraser
 
@@ -191,19 +191,19 @@ public bool isUsingStrokesEraser
 
 #### Field Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_pptApplication"></a> pptApplication
 
 PowerPoint应用程序实例，用于与PowerPoint进行交互。
 
 ```csharp
-public static Microsoft.Office.Interop.PowerPoint.Application pptApplication
+public static Office.Interop.PowerPoint.Application pptApplication
 ```
 
 #### Field Value
 
- Microsoft.Office.Interop.PowerPoint.Application
+ Office.Interop.PowerPoint.Application
 
 ### <a id="Ink_Canvas_MainWindow_presentation"></a> presentation
 
@@ -251,7 +251,7 @@ public static int slidescount
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Properties
 
@@ -263,7 +263,7 @@ public int BoothResolutionHeight { get; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_MainWindow_BoothResolutionWidth"></a> BoothResolutionWidth
 
@@ -273,7 +273,7 @@ public int BoothResolutionWidth { get; }
 
 #### Property Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_MainWindow_CanAddNewPage"></a> CanAddNewPage
 
@@ -283,7 +283,7 @@ public bool CanAddNewPage { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_CanDeletePage"></a> CanDeletePage
 
@@ -293,7 +293,7 @@ public bool CanDeletePage { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_CanRedo"></a> CanRedo
 
@@ -303,7 +303,7 @@ public bool CanRedo { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_CanSwitchToNextPage"></a> CanSwitchToNextPage
 
@@ -313,7 +313,7 @@ public bool CanSwitchToNextPage { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_CanSwitchToPreviousPage"></a> CanSwitchToPreviousPage
 
@@ -323,7 +323,7 @@ public bool CanSwitchToPreviousPage { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_CanUndo"></a> CanUndo
 
@@ -333,7 +333,7 @@ public bool CanUndo { get; }
 
 #### Property Value
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_CurrentPageInfo"></a> CurrentPageInfo
 
@@ -343,7 +343,7 @@ public string CurrentPageInfo { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_MainWindow_InkSmoothingManagerInstance"></a> InkSmoothingManagerInstance
 
@@ -391,7 +391,7 @@ public double QuickPanelFoldedMargin { get; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_MainWindow_QuickPanelUnfoldedMargin"></a> QuickPanelUnfoldedMargin
 
@@ -401,7 +401,7 @@ public double QuickPanelUnfoldedMargin { get; }
 
 #### Property Value
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_MainWindow_Settings"></a> Settings
 
@@ -431,7 +431,7 @@ public static string settingsFileName { get; }
 
 #### Property Value
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Methods
 
@@ -505,7 +505,7 @@ public void BtnDrawLine_Click(object sender, MouseButtonEventArgs e)
 
 #### Parameters
 
-`sender` object
+`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 事件发送者
 
@@ -532,7 +532,7 @@ public void BtnResetToSuggestion_Click(object sender, RoutedEventArgs e)
 
 #### Parameters
 
-`sender` object
+`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `e` RoutedEventArgs
 
@@ -550,7 +550,7 @@ public void BtnRestart_Click(object sender, RoutedEventArgs e)
 
 #### Parameters
 
-`sender` object
+`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 发送者
 
@@ -626,7 +626,7 @@ public void ExitApplication(object sender, RoutedEventArgs e)
 
 #### Parameters
 
-`sender` object
+`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 发送者
 
@@ -642,7 +642,7 @@ public Task ExitPPTPresentation()
 
 #### Returns
 
- Task
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
 ### <a id="Ink_Canvas_MainWindow_ExitWhiteboard"></a> ExitWhiteboard\(\)
 
@@ -658,7 +658,7 @@ public FrameworkElement FindView(string id)
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
@@ -667,18 +667,18 @@ public FrameworkElement FindView(string id)
 ### <a id="Ink_Canvas_MainWindow_FixPointsDirection_System_Windows_Point_System_Windows_Point_"></a> FixPointsDirection\(Point, Point\)
 
 ```csharp
-public System.Windows.Point[] FixPointsDirection(System.Windows.Point p1, System.Windows.Point p2)
+public Point[] FixPointsDirection(Point p1, Point p2)
 ```
 
 #### Parameters
 
-`p1` System.Windows.Point
+`p1` Point
 
-`p2` System.Windows.Point
+`p2` Point
 
 #### Returns
 
- System.Windows.Point\[\]
+ Point\[\]
 
 ### <a id="Ink_Canvas_MainWindow_FoldFloatingBar_System_Object_System_Boolean_"></a> FoldFloatingBar\(object, bool\)
 
@@ -690,17 +690,17 @@ public Task FoldFloatingBar(object sender, bool isAutoFoldCommand = false)
 
 #### Parameters
 
-`sender` object
+`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 事件发送者。
 
-`isAutoFoldCommand` bool
+`isAutoFoldCommand` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否为自动折叠命令。
 
 #### Returns
 
- Task
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
 表示异步操作的任务。
 
@@ -728,7 +728,7 @@ public void FoldFloatingBar_MouseUp(object sender, MouseButtonEventArgs e)
 
 #### Parameters
 
-`sender` object
+`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 事件发送者。
 
@@ -767,18 +767,18 @@ public StylusPointCollection GenerateFakePressureTriangle(StylusPointCollection 
 ### <a id="Ink_Canvas_MainWindow_GetCenterPoint_System_Windows_Point_System_Windows_Point_"></a> GetCenterPoint\(Point, Point\)
 
 ```csharp
-public System.Windows.Point GetCenterPoint(System.Windows.Point point1, System.Windows.Point point2)
+public Point GetCenterPoint(Point point1, Point point2)
 ```
 
 #### Parameters
 
-`point1` System.Windows.Point
+`point1` Point
 
-`point2` System.Windows.Point
+`point2` Point
 
 #### Returns
 
- System.Windows.Point
+ Point
 
 ### <a id="Ink_Canvas_MainWindow_GetCenterPoint_StylusPoint_StylusPoint_"></a> GetCenterPoint\(StylusPoint, StylusPoint\)
 
@@ -804,13 +804,13 @@ public string GetCorrectIcon(string iconType, bool isSolid = false)
 
 #### Parameters
 
-`iconType` string
+`iconType` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`isSolid` bool
+`isSolid` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_MainWindow_GetCurrentSelectedMode"></a> GetCurrentSelectedMode\(\)
 
@@ -822,7 +822,7 @@ public string GetCurrentSelectedMode()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 当前选中的模式名称
 
@@ -831,22 +831,22 @@ public string GetCurrentSelectedMode()
 计算两点之间的距离
 
 ```csharp
-public double GetDistance(System.Windows.Point point1, System.Windows.Point point2)
+public double GetDistance(Point point1, Point point2)
 ```
 
 #### Parameters
 
-`point1` System.Windows.Point
+`point1` Point
 
 第一个点
 
-`point2` System.Windows.Point
+`point2` Point
 
 第二个点
 
 #### Returns
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 返回两点之间的距离
 
@@ -865,33 +865,33 @@ public string GetEraserStatusInfo()
 
 #### Returns
 
- string
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_MainWindow_GetPointSpeed_System_Windows_Point_System_Windows_Point_System_Windows_Point_"></a> GetPointSpeed\(Point, Point, Point\)
 
 计算点的速度
 
 ```csharp
-public double GetPointSpeed(System.Windows.Point point1, System.Windows.Point point2, System.Windows.Point point3)
+public double GetPointSpeed(Point point1, Point point2, Point point3)
 ```
 
 #### Parameters
 
-`point1` System.Windows.Point
+`point1` Point
 
 第一个点
 
-`point2` System.Windows.Point
+`point2` Point
 
 第二个点（当前点）
 
-`point3` System.Windows.Point
+`point3` Point
 
 第三个点
 
 #### Returns
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 返回点的速度
 
@@ -931,7 +931,7 @@ public double GetTouchBoundWidth(TouchEventArgs e)
 
 #### Returns
 
- double
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 返回触摸边界宽度
 
@@ -947,15 +947,7 @@ public void HandleUriCommand(string uri)
 
 #### Parameters
 
-`uri` string
-
-### <a id="Ink_Canvas_MainWindow_HideRealtimeInkFpsOverlay"></a> HideRealtimeInkFpsOverlay\(\)
-
-关闭实时墨迹 FPS / 提交延迟 HUD（无实例时静默 no-op）。
-
-```csharp
-public void HideRealtimeInkFpsOverlay()
-```
+`uri` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_MainWindow_InitializePPTManagers"></a> InitializePPTManagers\(\)
 
@@ -975,31 +967,31 @@ public void InitializePPTManagers()
 public void InsertImage()
 ```
 
-### <a id="Ink_Canvas_MainWindow_MoveWindow_IntPtr_System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_"></a> MoveWindow\(IntPtr, int, int, int, int, bool\)
+### <a id="Ink_Canvas_MainWindow_MoveWindow_System_IntPtr_System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_"></a> MoveWindow\(nint, int, int, int, int, bool\)
 
 ```csharp
-public static extern bool MoveWindow(IntPtr hWnd, int X, int Y, int nWidth, int nHeight, bool bRepaint)
+public static extern bool MoveWindow(nint hWnd, int X, int Y, int nWidth, int nHeight, bool bRepaint)
 ```
 
 #### Parameters
 
-`hWnd` IntPtr
+`hWnd` [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
-`X` int
+`X` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`Y` int
+`Y` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`nWidth` int
+`nWidth` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`nHeight` int
+`nHeight` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-`bRepaint` bool
+`bRepaint` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_MainWindow_OnClosing_CancelEventArgs_"></a> OnClosing\(CancelEventArgs\)
+### <a id="Ink_Canvas_MainWindow_OnClosing_System_ComponentModel_CancelEventArgs_"></a> OnClosing\(CancelEventArgs\)
 
 ```csharp
 protected override void OnClosing(CancelEventArgs e)
@@ -1007,7 +999,7 @@ protected override void OnClosing(CancelEventArgs e)
 
 #### Parameters
 
-`e` CancelEventArgs
+`e` [CancelEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs)
 
 ### <a id="Ink_Canvas_MainWindow_OnMouseMove_MouseEventArgs_"></a> OnMouseMove\(MouseEventArgs\)
 
@@ -1029,7 +1021,7 @@ public void OpenSingleStrokeFile(string filePath)
 
 #### Parameters
 
-`filePath` string
+`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 墨迹文件的路径
 
@@ -1058,7 +1050,7 @@ public void OpenXMLStrokeFile(string filePath)
 
 #### Parameters
 
-`filePath` string
+`filePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_MainWindow_PauseTopmostMaintenance"></a> PauseTopmostMaintenance\(\)
 
@@ -1084,7 +1076,7 @@ public void PureViewboxFloatingBarMarginAnimationInPPTMode(bool isRetry = false)
 
 #### Parameters
 
-`isRetry` bool
+`isRetry` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否为重试操作
 
@@ -1102,7 +1094,7 @@ public void RegisterView(string id, FrameworkElement view)
 
 #### Parameters
 
-`id` string
+`id` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `view` FrameworkElement
 
@@ -1178,11 +1170,11 @@ public void SaveInkCanvasStrokes(bool newNotice = true, bool saveByUser = false)
 
 #### Parameters
 
-`newNotice` bool
+`newNotice` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否显示新的通知
 
-`saveByUser` bool
+`saveByUser` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否是用户手动保存
 
@@ -1209,9 +1201,9 @@ public void SavePPTTimeCapsuleOffset(double offsetX, double offsetY)
 
 #### Parameters
 
-`offsetX` double
+`offsetX` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-`offsetY` double
+`offsetY` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_MainWindow_SaveSettingsToFile"></a> SaveSettingsToFile\(\)
 
@@ -1288,12 +1280,12 @@ CustomPopupPlacementCallback 中的 targetSize 来自 PlacementTarget，
 把按钮自身作为 PlacementTarget，让菜单出现在按钮上方。
 
 ```csharp
-public void SetBoothPopupPlacementTarget(System.Windows.FrameworkElement target)
+public void SetBoothPopupPlacementTarget(FrameworkElement target)
 ```
 
 #### Parameters
 
-`target` System.Windows.FrameworkElement
+`target` FrameworkElement
 
 ### <a id="Ink_Canvas_MainWindow_SetCursorBasedOnEditingMode_InkCanvas_"></a> SetCursorBasedOnEditingMode\(InkCanvas\)
 
@@ -1315,7 +1307,7 @@ public void SetInterceptRule(FloatingWindowInterceptor.InterceptType type, bool 
 
 `type` [FloatingWindowInterceptor](Ink\_Canvas.Helpers.FloatingWindowInterceptor.md).[InterceptType](Ink\_Canvas.Helpers.FloatingWindowInterceptor.InterceptType.md)
 
-`enabled` bool
+`enabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_SetSettingsToRecommendation"></a> SetSettingsToRecommendation\(\)
 
@@ -1340,7 +1332,7 @@ public void SetTopmostBasedOnSettings(bool shouldBeTopmost)
 
 #### Parameters
 
-`shouldBeTopmost` bool
+`shouldBeTopmost` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 当前模式是否需要窗口置顶
 
@@ -1369,7 +1361,7 @@ protected override bool ShouldHandleWindowChromeHitTest(Point windowPoint)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_ShowNewMessage_System_String_System_Boolean_"></a> ShowNewMessage\(string, bool\)
 
@@ -1379,9 +1371,9 @@ public static void ShowNewMessage(string notice, bool isShowImmediately = true)
 
 #### Parameters
 
-`notice` string
+`notice` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`isShowImmediately` bool
+`isShowImmediately` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_ShowNotification_System_String_System_Boolean_"></a> ShowNotification\(string, bool\)
 
@@ -1391,9 +1383,9 @@ public void ShowNotification(string notice, bool isShowImmediately = true)
 
 #### Parameters
 
-`notice` string
+`notice` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`isShowImmediately` bool
+`isShowImmediately` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_ShowPPTModePromptNotification"></a> ShowPPTModePromptNotification\(\)
 
@@ -1407,15 +1399,6 @@ public void ShowPPTModePromptNotification()
 
 ```csharp
 public void ShowQuickDrawFloatingButton()
-```
-
-### <a id="Ink_Canvas_MainWindow_ShowRealtimeInkFpsOverlay"></a> ShowRealtimeInkFpsOverlay\(\)
-
-启动实时墨迹 FPS / 提交延迟 HUD。
-若已存在则先关闭再重建，避免和旧实例的 CompositionTarget 订阅叠加。
-
-```csharp
-public void ShowRealtimeInkFpsOverlay()
 ```
 
 ### <a id="Ink_Canvas_MainWindow_StartEraserAutoSwitchBackTimer"></a> StartEraserAutoSwitchBackTimer\(\)
@@ -1491,7 +1474,7 @@ public void StopPowerPointProcessMonitoring(bool isShutdown = false)
 
 #### Parameters
 
-`isShutdown` bool
+`isShutdown` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_SwitchToBoardMode"></a> SwitchToBoardMode\(\)
 
@@ -1540,7 +1523,7 @@ public void ToggleFingerDragMode(object sender, RoutedEventArgs e)
 
 #### Parameters
 
-`sender` object
+`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 发送者
 
@@ -1576,13 +1559,13 @@ public Task UnFoldFloatingBar(object sender)
 
 #### Parameters
 
-`sender` object
+`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 事件发送者。
 
 #### Returns
 
- Task
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
 表示异步操作的任务。
 
@@ -1610,7 +1593,7 @@ public void UnFoldFloatingBar_MouseUp(object sender, MouseButtonEventArgs e)
 
 #### Parameters
 
-`sender` object
+`sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 事件发送者。
 
@@ -1632,7 +1615,7 @@ public void UpdateAutoKillProcessTimer(bool shouldRun)
 
 #### Parameters
 
-`shouldRun` bool
+`shouldRun` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_MainWindow_UpdateAutoSaveStrokesTimer"></a> UpdateAutoSaveStrokesTimer\(\)
 
@@ -1702,9 +1685,9 @@ public void UpdateInkFadeManager(bool isEnabled, int fadeTime = 0)
 
 #### Parameters
 
-`isEnabled` bool
+`isEnabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-`fadeTime` int
+`fadeTime` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_MainWindow_UpdateInkSmoothingConfig"></a> UpdateInkSmoothingConfig\(\)
 
@@ -1776,15 +1759,15 @@ public void ViewboxFloatingBarMarginAnimation(int MarginFromEdge, bool PosXCacul
 
 #### Parameters
 
-`MarginFromEdge` int
+`MarginFromEdge` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 边缘边距
 
-`PosXCaculatedWithTaskbarHeight` bool
+`PosXCaculatedWithTaskbarHeight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否考虑任务栏高度计算位置
 
-`skipAnimation` bool
+`skipAnimation` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 是否跳过动画直接定位（用于启动时快速恢复位置）
 

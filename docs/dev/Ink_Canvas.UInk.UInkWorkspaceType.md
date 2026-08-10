@@ -11,9 +11,9 @@ public enum UInkWorkspaceType
 
 ## Fields
 
-`Presentation` 
+`Presentation = 2` 
 
-`ScreenAnnotation` 
+`ScreenAnnotation = 0` 
 
-`Whiteboard` 
+`Whiteboard = 1` 
 

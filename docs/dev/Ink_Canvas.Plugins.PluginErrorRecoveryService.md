@@ -12,8 +12,18 @@ public class PluginErrorRecoveryService
 
 #### Inheritance
 
-object ← 
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PluginErrorRecoveryService](Ink\_Canvas.Plugins.PluginErrorRecoveryService.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
 
 ## Constructors
 
@@ -27,7 +37,7 @@ public PluginErrorRecoveryService(string basePath)
 
 #### Parameters
 
-`basePath` string
+`basePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Fields
 
@@ -36,22 +46,22 @@ public PluginErrorRecoveryService(string basePath)
 在最近 <xref href="Ink_Canvas.Plugins.PluginErrorRecoveryService.FailureWindowMinutes" data-throw-if-not-resolved="false"></xref> 分钟内连续发生 <xref href="Ink_Canvas.Plugins.PluginErrorRecoveryService.FailureThreshold" data-throw-if-not-resolved="false"></xref> 次失败，自动禁用插件。
 
 ```csharp
-public const int FailureThreshold
+public const int FailureThreshold = 3
 ```
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Plugins_PluginErrorRecoveryService_FailureWindowMinutes"></a> FailureWindowMinutes
 
 ```csharp
-public const int FailureWindowMinutes
+public const int FailureWindowMinutes = 30
 ```
 
 #### Field Value
 
- int
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ## Properties
 
@@ -63,7 +73,7 @@ public IReadOnlyDictionary<string, PluginErrorRecord> Records { get; }
 
 #### Property Value
 
- IReadOnlyDictionary<string, [PluginErrorRecord](Ink\_Canvas.Plugins.PluginErrorRecord.md)\>
+ [IReadOnlyDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [PluginErrorRecord](Ink\_Canvas.Plugins.PluginErrorRecord.md)\>
 
 ## Methods
 
@@ -77,7 +87,7 @@ public PluginErrorRecord GetRecord(string pluginId)
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
@@ -93,13 +103,13 @@ public bool IsAutoDisabled(string pluginId)
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Plugins_PluginErrorRecoveryService_ReportFailure_System_String_System_String_Exception_"></a> ReportFailure\(string, string, Exception\)
+### <a id="Ink_Canvas_Plugins_PluginErrorRecoveryService_ReportFailure_System_String_System_String_System_Exception_"></a> ReportFailure\(string, string, Exception\)
 
 报告一次加载失败。如果触达阈值，自动禁用插件。
 
@@ -109,11 +119,11 @@ public PluginErrorReport ReportFailure(string pluginId, string pluginName, Excep
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`pluginName` string
+`pluginName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-`ex` Exception
+`ex` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
 #### Returns
 
@@ -129,9 +139,9 @@ public bool Reset(string pluginId)
 
 #### Parameters
 
-`pluginId` string
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 #### Returns
 
- bool
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
