@@ -28,6 +28,8 @@ public class PluginToolbarSettingInfo
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_DefaultValue"></a> DefaultValue
 
+设置项默认值（字符串形式）。
+
 ```csharp
 public string DefaultValue { get; set; }
 ```
@@ -37,6 +39,8 @@ public string DefaultValue { get; set; }
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_Description"></a> Description
+
+设置项的说明文本。
 
 ```csharp
 public string Description { get; set; }
@@ -48,6 +52,8 @@ public string Description { get; set; }
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_DisplayName"></a> DisplayName
 
+设置项在设置界面显示的名称。
+
 ```csharp
 public string DisplayName { get; set; }
 ```
@@ -57,6 +63,8 @@ public string DisplayName { get; set; }
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_Key"></a> Key
+
+设置项键名，用于持久化与 <xref href="Ink_Canvas.Plugins.PluginToolbarItemInfo.ApplySettings" data-throw-if-not-resolved="false"></xref> 回调。
 
 ```csharp
 public string Key { get; set; }
@@ -105,6 +113,8 @@ public List<string> OptionValues { get; set; }
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_Options"></a> Options
 
+ComboBox 选项的显示文本。未提供 <xref href="Ink_Canvas.Plugins.PluginToolbarSettingInfo.OptionValues" data-throw-if-not-resolved="false"></xref> 时同时用作保存值。
+
 ```csharp
 public List<string> Options { get; set; }
 ```
@@ -127,6 +137,8 @@ public double? StepSize { get; set; }
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarSettingInfo_Type"></a> Type
+
+设置项类型（ComboBox/Slider/Toggle），决定宿主生成的控件。
 
 ```csharp
 public PluginToolbarSettingType Type { get; set; }

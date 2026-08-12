@@ -27,6 +27,8 @@ public sealed class PluginWindowInfo
 
 ### <a id="Ink_Canvas_Plugins_PluginWindowInfo_ClassName"></a> ClassName
 
+窗口类名。
+
 ```csharp
 public string ClassName { get; set; }
 ```
@@ -36,6 +38,8 @@ public string ClassName { get; set; }
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginWindowInfo_Handle"></a> Handle
+
+窗口句柄（HWND）。
 
 ```csharp
 public nint Handle { get; set; }
@@ -47,6 +51,8 @@ public nint Handle { get; set; }
 
 ### <a id="Ink_Canvas_Plugins_PluginWindowInfo_IsMinimized"></a> IsMinimized
 
+窗口是否最小化（当前快照仅包含可见且未最小化的窗口）。
+
 ```csharp
 public bool IsMinimized { get; set; }
 ```
@@ -56,6 +62,8 @@ public bool IsMinimized { get; set; }
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Plugins_PluginWindowInfo_IsVisible"></a> IsVisible
+
+窗口是否可见（当前快照仅包含可见且未最小化的窗口）。
 
 ```csharp
 public bool IsVisible { get; set; }
@@ -67,6 +75,8 @@ public bool IsVisible { get; set; }
 
 ### <a id="Ink_Canvas_Plugins_PluginWindowInfo_ProcessId"></a> ProcessId
 
+所属进程 ID。
+
 ```csharp
 public uint ProcessId { get; set; }
 ```
@@ -76,6 +86,8 @@ public uint ProcessId { get; set; }
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 ### <a id="Ink_Canvas_Plugins_PluginWindowInfo_ProcessName"></a> ProcessName
+
+所属进程名（不含扩展名）。
 
 ```csharp
 public string ProcessName { get; set; }
@@ -87,6 +99,8 @@ public string ProcessName { get; set; }
 
 ### <a id="Ink_Canvas_Plugins_PluginWindowInfo_ProcessPath"></a> ProcessPath
 
+所属进程的可执行文件路径。
+
 ```csharp
 public string ProcessPath { get; set; }
 ```
@@ -96,6 +110,8 @@ public string ProcessPath { get; set; }
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginWindowInfo_Title"></a> Title
+
+窗口标题。
 
 ```csharp
 public string Title { get; set; }

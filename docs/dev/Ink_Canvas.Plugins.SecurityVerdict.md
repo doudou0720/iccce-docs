@@ -28,6 +28,8 @@ public class SecurityVerdict
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_DetectedAt"></a> DetectedAt
 
+评估时间（UTC）。
+
 ```csharp
 public DateTime DetectedAt { get; set; }
 ```
@@ -37,6 +39,8 @@ public DateTime DetectedAt { get; set; }
  [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_IsOnMarket"></a> IsOnMarket
+
+是否能在官方插件市场索引中找到该插件。
 
 ```csharp
 public bool IsOnMarket { get; set; }
@@ -48,6 +52,8 @@ public bool IsOnMarket { get; set; }
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_PackagePath"></a> PackagePath
 
+被评估安装包的文件路径。
+
 ```csharp
 public string PackagePath { get; set; }
 ```
@@ -57,6 +63,8 @@ public string PackagePath { get; set; }
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_PackageSha256"></a> PackageSha256
+
+安装包实际计算出的 SHA256 校验值（十六进制小写）。
 
 ```csharp
 public string PackageSha256 { get; set; }
@@ -68,6 +76,8 @@ public string PackageSha256 { get; set; }
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_Permissions"></a> Permissions
 
+插件声明的权限列表（从包内 manifest 解析），用于安装前提示。
+
 ```csharp
 public List<string> Permissions { get; }
 ```
@@ -77,6 +87,8 @@ public List<string> Permissions { get; }
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_PluginId"></a> PluginId
+
+插件 ID（调用方声明值，或从包内 manifest 解析）。
 
 ```csharp
 public string PluginId { get; set; }
@@ -88,6 +100,8 @@ public string PluginId { get; set; }
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_Reasons"></a> Reasons
 
+评估结论的说明/警示原因列表，用于安装前提示。
+
 ```csharp
 public List<string> Reasons { get; }
 ```
@@ -97,6 +111,8 @@ public List<string> Reasons { get; }
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 ### <a id="Ink_Canvas_Plugins_SecurityVerdict_TrustLevel"></a> TrustLevel
+
+评估得到的信任级别。
 
 ```csharp
 public PluginTrustLevel TrustLevel { get; set; }

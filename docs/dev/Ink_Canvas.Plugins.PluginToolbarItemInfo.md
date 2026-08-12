@@ -28,6 +28,8 @@ public class PluginToolbarItemInfo
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_ApplyOrientation"></a> ApplyOrientation
 
+工具栏横竖排切换时回调，用于让视图自适应方向。
+
 ```csharp
 public Action<FrameworkElement, Orientation> ApplyOrientation { get; set; }
 ```
@@ -37,6 +39,8 @@ public Action<FrameworkElement, Orientation> ApplyOrientation { get; set; }
  [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement), [Orientation](https://learn.microsoft.com/dotnet/api/system.windows.controls.orientation)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_ApplySettings"></a> ApplySettings
+
+把持久化的组件设置字典应用到视图。宿主在构建视图后调用。
 
 ```csharp
 public Action<FrameworkElement, Dictionary<string, object>> ApplySettings { get; set; }
@@ -48,6 +52,8 @@ public Action<FrameworkElement, Dictionary<string, object>> ApplySettings { get;
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_CustomSettings"></a> CustomSettings
 
+声明式自定义设置列表，宿主据此在设置界面生成设置面板（ComboBox/Slider/Toggle）。
+
 ```csharp
 public List<PluginToolbarSettingInfo> CustomSettings { get; set; }
 ```
@@ -57,6 +63,8 @@ public List<PluginToolbarSettingInfo> CustomSettings { get; set; }
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PluginToolbarSettingInfo](Ink\_Canvas.Plugins.PluginToolbarSettingInfo.md)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_Description"></a> Description
+
+组件的描述文本，用于组件库与设置界面。
 
 ```csharp
 public string Description { get; set; }
@@ -68,6 +76,8 @@ public string Description { get; set; }
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_DisplayName"></a> DisplayName
 
+组件在工具栏上显示的名称。
+
 ```csharp
 public string DisplayName { get; set; }
 ```
@@ -78,6 +88,8 @@ public string DisplayName { get; set; }
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_IconGeometry"></a> IconGeometry
 
+组件图标（SVG Path 几何数据字符串）。为空时使用默认图标。
+
 ```csharp
 public string IconGeometry { get; set; }
 ```
@@ -87,6 +99,8 @@ public string IconGeometry { get; set; }
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_Id"></a> Id
+
+组件唯一标识（在目标工具栏内必须唯一，建议用反域名风格如 "com.example.tool"）。
 
 ```csharp
 public string Id { get; set; }
@@ -110,6 +124,8 @@ public Func<FrameworkElement> PopupContentFactory { get; set; }
  [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)\>
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_ViewFactory"></a> ViewFactory
+
+创建组件视图（FrameworkElement）的工厂。返回 null 时该组件不显示。
 
 ```csharp
 public Func<FrameworkElement> ViewFactory { get; set; }

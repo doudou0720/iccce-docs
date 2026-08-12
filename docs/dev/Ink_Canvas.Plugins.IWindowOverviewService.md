@@ -13,6 +13,8 @@ public interface IWindowOverviewService
 
 ### <a id="Ink_Canvas_Plugins_IWindowOverviewService_ForegroundWindow"></a> ForegroundWindow
 
+当前前台窗口。若前台窗口不在快照列表中（如已最小化、属于其他桌面）则为 null。
+
 ```csharp
 PluginWindowInfo ForegroundWindow { get; }
 ```
@@ -22,6 +24,8 @@ PluginWindowInfo ForegroundWindow { get; }
  [PluginWindowInfo](Ink\_Canvas.Plugins.PluginWindowInfo.md)
 
 ### <a id="Ink_Canvas_Plugins_IWindowOverviewService_Windows"></a> Windows
+
+当前窗口快照（只读）。仅包含可见且未最小化的窗口，宿主在窗口列表变化时自动刷新。
 
 ```csharp
 IReadOnlyList<PluginWindowInfo> Windows { get; }
@@ -35,11 +39,15 @@ IReadOnlyList<PluginWindowInfo> Windows { get; }
 
 ### <a id="Ink_Canvas_Plugins_IWindowOverviewService_Refresh"></a> Refresh\(\)
 
+立即重新枚举窗口并触发 <xref href="Ink_Canvas.Plugins.IWindowOverviewService.WindowsChanged" data-throw-if-not-resolved="false"></xref>。
+
 ```csharp
 void Refresh()
 ```
 
 ### <a id="Ink_Canvas_Plugins_IWindowOverviewService_WindowsChanged"></a> WindowsChanged
+
+窗口快照更新完成后触发。
 
 ```csharp
 event Action WindowsChanged

@@ -13,9 +13,25 @@ public enum NotificationLevel
 
 `Error = 2` 
 
+错误。
+
+
+
 `Info = 0` 
+
+信息。
+
+
 
 `Success = 3` 
 
+成功。
+
+
+
 `Warning = 1` 
+
+警告。
+
+
 

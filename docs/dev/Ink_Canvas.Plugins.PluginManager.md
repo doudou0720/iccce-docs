@@ -274,7 +274,7 @@ public string GetPluginLogPath(string pluginId)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_GetService__1"></a> GetService<T\>\(\)
 
-从 DI 容器获取服务（兼容旧接口）。
+从 DI 容器获取服务（兼容旧接口）。优先从 DI 容器解析，其次回退到旧注册字典。
 
 ```csharp
 public T GetService<T>() where T : class
@@ -284,9 +284,13 @@ public T GetService<T>() where T : class
 
  T
 
+已注册的服务实例；未注册时返回 null。
+
 #### Type Parameters
 
 `T` 
+
+服务类型。
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_InitializeAdvancedServices_Ink_Canvas_Plugins_PluginMarketService_"></a> InitializeAdvancedServices\(PluginMarketService\)
 
@@ -349,6 +353,9 @@ public Task LoadAllAsync()
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_Log_System_String_"></a> Log\(string\)
 
+写入普通日志。仅写入当前插件独立的日志文件（<code>PluginLogs/&lt;plugin-id&gt;/</code>），
+不落入宿主日志与主程序日志。
+
 ```csharp
 public void Log(string message)
 ```
@@ -357,7 +364,12 @@ public void Log(string message)
 
 `message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+日志消息。
+
 ### <a id="Ink_Canvas_Plugins_PluginManager_LogError_System_String_System_Exception_"></a> LogError\(string, Exception\)
+
+写入错误日志，可附带异常。仅写入当前插件独立的日志文件，
+不落入宿主日志与主程序日志。
 
 ```csharp
 public void LogError(string message, Exception ex = null)
@@ -367,7 +379,11 @@ public void LogError(string message, Exception ex = null)
 
 `message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+错误描述。
+
 `ex` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+
+关联异常；可为 null。
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_LogPlugin_System_String_System_String_System_String_"></a> LogPlugin\(string, string, string\)
 
@@ -484,9 +500,13 @@ public void RegisterService<T>(T service) where T : class
 
 `service` T
 
+要注册的服务实例。
+
 #### Type Parameters
 
 `T` 
+
+服务类型。
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_RegisterService_System_Type_System_Object_"></a> RegisterService\(Type, object\)
 
@@ -504,7 +524,7 @@ public void RegisterService(Type serviceType, object service)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_RegisterToolbarItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterToolbarItem\(PluginToolbarItemInfo\)
 
-向工具栏注册插件组件。
+向浮动工具栏注册插件组件。
 
 ```csharp
 public void RegisterToolbarItem(PluginToolbarItemInfo itemInfo)
@@ -513,6 +533,8 @@ public void RegisterToolbarItem(PluginToolbarItemInfo itemInfo)
 #### Parameters
 
 `itemInfo` PluginToolbarItemInfo
+
+要注册的工具栏组件信息。
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_RegisterUriHandler_System_String_System_Func_Ink_Canvas_Plugins_PluginUriRequest_System_Boolean__"></a> RegisterUriHandler\(string, Func<PluginUriRequest, bool\>\)
 

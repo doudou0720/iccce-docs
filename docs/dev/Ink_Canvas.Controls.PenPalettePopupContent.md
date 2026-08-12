@@ -80,7 +80,7 @@ public PenColorButton DefaultPenColorBlack { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_DefaultPenColorBlue"></a> DefaultPenColorBlue
 
@@ -90,7 +90,7 @@ public PenColorButton DefaultPenColorBlue { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_DefaultPenColorGreen"></a> DefaultPenColorGreen
 
@@ -100,7 +100,7 @@ public PenColorButton DefaultPenColorGreen { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_DefaultPenColorOrange"></a> DefaultPenColorOrange
 
@@ -110,7 +110,7 @@ public PenColorButton DefaultPenColorOrange { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_DefaultPenColorPink"></a> DefaultPenColorPink
 
@@ -120,7 +120,7 @@ public PenColorButton DefaultPenColorPink { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_DefaultPenColorRed"></a> DefaultPenColorRed
 
@@ -130,7 +130,7 @@ public PenColorButton DefaultPenColorRed { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_DefaultPenColorTeal"></a> DefaultPenColorTeal
 
@@ -140,7 +140,7 @@ public PenColorButton DefaultPenColorTeal { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_DefaultPenColorWhite"></a> DefaultPenColorWhite
 
@@ -150,7 +150,7 @@ public PenColorButton DefaultPenColorWhite { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_DefaultPenColorYellow"></a> DefaultPenColorYellow
 
@@ -160,7 +160,7 @@ public PenColorButton DefaultPenColorYellow { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_DefaultPenColorsPanel"></a> DefaultPenColorsPanel
 
@@ -200,7 +200,7 @@ public PenColorButton HighlighterPenColorBlack { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_HighlighterPenColorBlue"></a> HighlighterPenColorBlue
 
@@ -210,7 +210,7 @@ public PenColorButton HighlighterPenColorBlue { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_HighlighterPenColorGreen"></a> HighlighterPenColorGreen
 
@@ -220,7 +220,7 @@ public PenColorButton HighlighterPenColorGreen { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_HighlighterPenColorOrange"></a> HighlighterPenColorOrange
 
@@ -230,7 +230,7 @@ public PenColorButton HighlighterPenColorOrange { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_HighlighterPenColorPurple"></a> HighlighterPenColorPurple
 
@@ -240,7 +240,7 @@ public PenColorButton HighlighterPenColorPurple { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_HighlighterPenColorRed"></a> HighlighterPenColorRed
 
@@ -250,7 +250,7 @@ public PenColorButton HighlighterPenColorRed { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_HighlighterPenColorTeal"></a> HighlighterPenColorTeal
 
@@ -260,7 +260,7 @@ public PenColorButton HighlighterPenColorTeal { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_HighlighterPenColorWhite"></a> HighlighterPenColorWhite
 
@@ -270,7 +270,7 @@ public PenColorButton HighlighterPenColorWhite { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_HighlighterPenColorYellow"></a> HighlighterPenColorYellow
 
@@ -280,7 +280,7 @@ public PenColorButton HighlighterPenColorYellow { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_HighlighterPenColorZinc"></a> HighlighterPenColorZinc
 
@@ -290,7 +290,7 @@ public PenColorButton HighlighterPenColorZinc { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_HighlighterPenColorsPanel"></a> HighlighterPenColorsPanel
 
@@ -330,7 +330,7 @@ public PenColorButton LaserPenColorBlack { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorBlue"></a> LaserPenColorBlue
 
@@ -340,7 +340,7 @@ public PenColorButton LaserPenColorBlue { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorGreen"></a> LaserPenColorGreen
 
@@ -350,7 +350,7 @@ public PenColorButton LaserPenColorGreen { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorOrange"></a> LaserPenColorOrange
 
@@ -360,7 +360,7 @@ public PenColorButton LaserPenColorOrange { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorPink"></a> LaserPenColorPink
 
@@ -370,7 +370,7 @@ public PenColorButton LaserPenColorPink { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorRed"></a> LaserPenColorRed
 
@@ -380,7 +380,7 @@ public PenColorButton LaserPenColorRed { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorTeal"></a> LaserPenColorTeal
 
@@ -390,7 +390,7 @@ public PenColorButton LaserPenColorTeal { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorThemeSwitch"></a> LaserPenColorThemeSwitch
 
@@ -430,7 +430,7 @@ public PenColorButton LaserPenColorWhite { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorYellow"></a> LaserPenColorYellow
 
@@ -440,7 +440,7 @@ public PenColorButton LaserPenColorYellow { get; }
 
 #### Property Value
 
- PenColorButton
+ [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
 ### <a id="Ink_Canvas_Controls_PenPalettePopupContent_LaserPenColorsPanel"></a> LaserPenColorsPanel
 
@@ -600,7 +600,7 @@ public PopupTabTitleBar TabBar { get; }
 
 #### Property Value
 
- PopupTabTitleBar
+ [PopupTabTitleBar](Ink\_Canvas.Controls.PopupTabTitleBar.md)
 
 ## Methods
 

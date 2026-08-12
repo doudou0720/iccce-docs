@@ -3,6 +3,8 @@
 Namespace: [Ink\_Canvas.Plugins](Ink\_Canvas.Plugins.md)  
 Assembly: InkCanvas.PluginSdk.dll  
 
+IPC 调用错误描述。
+
 ```csharp
 public class IpcError
 ```
@@ -26,6 +28,8 @@ public class IpcError
 
 ### <a id="Ink_Canvas_Plugins_IpcError_Code"></a> Code
 
+错误码。
+
 ```csharp
 public int Code { get; set; }
 ```
@@ -35,6 +39,8 @@ public int Code { get; set; }
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Plugins_IpcError_Message"></a> Message
+
+错误描述文本。
 
 ```csharp
 public string Message { get; set; }

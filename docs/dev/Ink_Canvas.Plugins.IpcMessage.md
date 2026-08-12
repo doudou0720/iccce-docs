@@ -28,6 +28,8 @@ public class IpcMessage
 
 ### <a id="Ink_Canvas_Plugins_IpcMessage_Error"></a> Error
 
+错误信息；非空表示调用失败。
+
 ```csharp
 public IpcError Error { get; set; }
 ```
@@ -37,6 +39,8 @@ public IpcError Error { get; set; }
  [IpcError](Ink\_Canvas.Plugins.IpcError.md)
 
 ### <a id="Ink_Canvas_Plugins_IpcMessage_From"></a> From
+
+消息来源标识，当前实现中宿主发出的消息为 "host"。
 
 ```csharp
 public string From { get; set; }
@@ -48,6 +52,8 @@ public string From { get; set; }
 
 ### <a id="Ink_Canvas_Plugins_IpcMessage_Id"></a> Id
 
+消息标识（用于请求-响应关联）。
+
 ```csharp
 public string Id { get; set; }
 ```
@@ -57,6 +63,8 @@ public string Id { get; set; }
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Plugins_IpcMessage_IsError"></a> IsError
+
+是否携带错误信息（<xref href="Ink_Canvas.Plugins.IpcMessage.Error" data-throw-if-not-resolved="false"></xref> 非空）。
 
 ```csharp
 public bool IsError { get; }
@@ -68,6 +76,8 @@ public bool IsError { get; }
 
 ### <a id="Ink_Canvas_Plugins_IpcMessage_Method"></a> Method
 
+方法名。
+
 ```csharp
 public string Method { get; set; }
 ```
@@ -78,6 +88,8 @@ public string Method { get; set; }
 
 ### <a id="Ink_Canvas_Plugins_IpcMessage_Params"></a> Params
 
+调用参数（任意 JSON 结构）。
+
 ```csharp
 public JsonElement? Params { get; set; }
 ```
@@ -87,6 +99,8 @@ public JsonElement? Params { get; set; }
  [JsonElement](https://learn.microsoft.com/dotnet/api/system.text.json.jsonelement)?
 
 ### <a id="Ink_Canvas_Plugins_IpcMessage_Result"></a> Result
+
+调用结果（任意 JSON 结构）。
 
 ```csharp
 public JsonElement? Result { get; set; }

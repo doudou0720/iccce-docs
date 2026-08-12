@@ -17,7 +17,7 @@ ButtonPosition DefaultPosition { get; }
 
 #### Property Value
 
- ButtonPosition
+ [ButtonPosition](Ink\_Canvas.Controls.ButtonPosition.md)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarItem_Description"></a> Description
 
@@ -81,7 +81,7 @@ void ApplyPosition(FrameworkElement view, ButtonPosition position)
 
 `view` FrameworkElement
 
-`position` ButtonPosition
+`position` [ButtonPosition](Ink\_Canvas.Controls.ButtonPosition.md)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarItem_BuildView_Ink_Canvas_Controls_Toolbar_BoardToolbar_IBoardToolbarHost_"></a> BuildView\(IBoardToolbarHost\)
 

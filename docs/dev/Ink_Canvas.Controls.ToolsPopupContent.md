@@ -37,7 +37,7 @@ public abstract ToolMenuButton ManualBtn { get; }
 
 #### Property Value
 
- ToolMenuButton
+ [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_OpenBtn"></a> OpenBtn
 
@@ -47,7 +47,7 @@ public abstract ToolMenuButton OpenBtn { get; }
 
 #### Property Value
 
- ToolMenuButton
+ [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_RandomDrawBtn"></a> RandomDrawBtn
 
@@ -57,7 +57,7 @@ public abstract ToolMenuButton RandomDrawBtn { get; }
 
 #### Property Value
 
- ToolMenuButton
+ [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_RedoBtn"></a> RedoBtn
 
@@ -67,7 +67,7 @@ public abstract ToolMenuButton RedoBtn { get; }
 
 #### Property Value
 
- ToolMenuButton
+ [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_ReplayBtn"></a> ReplayBtn
 
@@ -77,7 +77,7 @@ public abstract ToolMenuButton ReplayBtn { get; }
 
 #### Property Value
 
- ToolMenuButton
+ [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_SaveBtn"></a> SaveBtn
 
@@ -87,7 +87,7 @@ public abstract ToolMenuButton SaveBtn { get; }
 
 #### Property Value
 
- ToolMenuButton
+ [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_ScreenshotBtn"></a> ScreenshotBtn
 
@@ -97,7 +97,7 @@ public abstract ToolMenuButton ScreenshotBtn { get; }
 
 #### Property Value
 
- ToolMenuButton
+ [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_SettingsBtn"></a> SettingsBtn
 
@@ -107,7 +107,7 @@ public abstract ToolMenuButton SettingsBtn { get; }
 
 #### Property Value
 
- ToolMenuButton
+ [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_ShapeDrawBtn"></a> ShapeDrawBtn
 
@@ -117,7 +117,7 @@ public abstract ToolMenuButton ShapeDrawBtn { get; }
 
 #### Property Value
 
- ToolMenuButton
+ [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_SingleDrawBtn"></a> SingleDrawBtn
 
@@ -127,7 +127,7 @@ public abstract ToolMenuButton SingleDrawBtn { get; }
 
 #### Property Value
 
- ToolMenuButton
+ [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 
 ### <a id="Ink_Canvas_Controls_ToolsPopupContent_TimerBtn"></a> TimerBtn
 
@@ -137,7 +137,7 @@ public abstract ToolMenuButton TimerBtn { get; }
 
 #### Property Value
 
- ToolMenuButton
+ [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 
 ## Methods
 
@@ -153,5 +153,5 @@ public ToolMenuButton GetButtonByItemId(string itemId)
 
 #### Returns
 
- ToolMenuButton
+ [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 

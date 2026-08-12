@@ -24,6 +24,8 @@
 
  [IpcError](Ink\_Canvas.Plugins.IpcError.md)
 
+IPC 调用错误描述。
+
  [IpcMessage](Ink\_Canvas.Plugins.IpcMessage.md)
 
 IPC 消息结构（JSON 透明传输）。宿主与插件共用。
@@ -96,6 +98,8 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 热键信息（只读描述，不含回调）。
 
  [PluginInfo](Ink\_Canvas.Plugins.PluginInfo.md)
+
+插件运行时信息。宿主加载插件时创建，记录插件元数据与加载状态。
 
  [PluginIpcService](Ink\_Canvas.Plugins.PluginIpcService.md)
 
@@ -226,6 +230,8 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
  [IAppRestartService](Ink\_Canvas.Plugins.IAppRestartService.md)
 
+应用重启服务：供插件以指定权限/置顶模式重启宿主应用。
+
  [IBackupService](Ink\_Canvas.Plugins.IBackupService.md)
 
 自动备份服务：供插件控制宿主的设置文件自动备份（复制 Settings.json 到备份目录）。
@@ -327,6 +333,8 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
  [IPlugin](Ink\_Canvas.Plugins.IPlugin.md)
 
+插件接口。每个插件须有一个实现此接口的类；建议用 <xref href="Ink_Canvas.Plugins.PluginEntranceAttribute" data-throw-if-not-resolved="false"></xref> 标记（未标记时宿主自动回退查找 <xref href="Ink_Canvas.Plugins.PluginBase" data-throw-if-not-resolved="false"></xref> 子类或任意实现）。
+
  [IPluginCanvasGestureHandler](Ink\_Canvas.Plugins.IPluginCanvasGestureHandler.md)
 
 画布双指手势处理器：宿主把 InkCanvas 上的操作（Manipulation）事件转发给插件，
@@ -344,6 +352,10 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 </p>
 
  [IPluginHost](Ink\_Canvas.Plugins.IPluginHost.md)
+
+宿主 API 入口。每个插件在 Initialize 阶段获得自己的宿主代理（<code>PluginHostProxy</code>）：
+日志写入该插件独立的日志目录，其余调用转发到宿主 <code>PluginManager</code>。
+所有注册动作（服务、工具栏项、IPC 处理器等）必须在 Initialize 阶段完成。
 
  [IPluginIpcBus](Ink\_Canvas.Plugins.IPluginIpcBus.md)
 
@@ -471,6 +483,8 @@ PowerPoint 控制服务，供插件操控 PPT 联动。
 主题枚举。
 
  [PluginToolbarSettingType](Ink\_Canvas.Plugins.PluginToolbarSettingType.md)
+
+插件工具栏设置项类型。
 
  [PluginTrustLevel](Ink\_Canvas.Plugins.PluginTrustLevel.md)
 

@@ -30,6 +30,8 @@ IAppRestartService
 
 ### <a id="Ink_Canvas_Plugins_AppRestartService_IsRunningAsAdmin"></a> IsRunningAsAdmin
 
+当前宿主进程是否以管理员身份运行。
+
 ```csharp
 public bool IsRunningAsAdmin { get; }
 ```
@@ -42,6 +44,8 @@ public bool IsRunningAsAdmin { get; }
 
 ### <a id="Ink_Canvas_Plugins_AppRestartService_RestartApp_System_Boolean_"></a> RestartApp\(bool\)
 
+重启宿主应用。
+
 ```csharp
 public void RestartApp(bool asAdmin)
 ```
@@ -50,7 +54,11 @@ public void RestartApp(bool asAdmin)
 
 `asAdmin` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+true 时以管理员权限重启；false 时以普通权限重启。
+
 ### <a id="Ink_Canvas_Plugins_AppRestartService_RestartAsAdmin"></a> RestartAsAdmin\(\)
+
+以管理员权限重启宿主应用。
 
 ```csharp
 public void RestartAsAdmin()
@@ -58,11 +66,15 @@ public void RestartAsAdmin()
 
 ### <a id="Ink_Canvas_Plugins_AppRestartService_RestartAsNormal"></a> RestartAsNormal\(\)
 
+以普通权限重启宿主应用。
+
 ```csharp
 public void RestartAsNormal()
 ```
 
 ### <a id="Ink_Canvas_Plugins_AppRestartService_RestartWithCurrentPrivileges"></a> RestartWithCurrentPrivileges\(\)
+
+以当前权限重启宿主应用。
 
 ```csharp
 public void RestartWithCurrentPrivileges()
@@ -70,11 +82,15 @@ public void RestartWithCurrentPrivileges()
 
 ### <a id="Ink_Canvas_Plugins_AppRestartService_SwitchToNormalTopMostAndRestart"></a> SwitchToNormalTopMostAndRestart\(\)
 
+切换到普通置顶模式并重启宿主应用。
+
 ```csharp
 public void SwitchToNormalTopMostAndRestart()
 ```
 
 ### <a id="Ink_Canvas_Plugins_AppRestartService_SwitchToUIATopMostAndRestart"></a> SwitchToUIATopMostAndRestart\(\)
+
+开启 UIA 置顶模式并重启宿主应用。
 
 ```csharp
 public void SwitchToUIATopMostAndRestart()

@@ -27,6 +27,8 @@ public sealed class PluginResolutionInfo
 
 ### <a id="Ink_Canvas_Plugins_PluginResolutionInfo_FrameRate"></a> FrameRate
 
+帧率（FPS）。
+
 ```csharp
 public int FrameRate { get; set; }
 ```
@@ -37,6 +39,8 @@ public int FrameRate { get; set; }
 
 ### <a id="Ink_Canvas_Plugins_PluginResolutionInfo_Height"></a> Height
 
+分辨率高度（像素）。
+
 ```csharp
 public int Height { get; set; }
 ```
@@ -46,6 +50,8 @@ public int Height { get; set; }
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Plugins_PluginResolutionInfo_Width"></a> Width
+
+分辨率宽度（像素）。
 
 ```csharp
 public int Width { get; set; }
