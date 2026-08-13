@@ -264,6 +264,26 @@ public bool EnableTrayIcon { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Appearance_EnableWhiteboardTipsAutoHideOnInteraction"></a> EnableWhiteboardTipsAutoHideOnInteraction
+
+```csharp
+public bool EnableWhiteboardTipsAutoHideOnInteraction { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Appearance_EnableWhiteboardTipsInstantRestore"></a> EnableWhiteboardTipsInstantRestore
+
+```csharp
+public bool EnableWhiteboardTipsInstantRestore { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Appearance_EnabledPresetTipsSources"></a> EnabledPresetTipsSources
 
 ```csharp
@@ -773,6 +793,16 @@ public double ViewboxFloatingBarScaleTransformValue { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Appearance_WhiteboardTipsAutoHideRestoreDelay"></a> WhiteboardTipsAutoHideRestoreDelay
+
+```csharp
+public int WhiteboardTipsAutoHideRestoreDelay { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Appearance_WindowBackdrop"></a> WindowBackdrop
 

@@ -704,6 +704,26 @@ public static string Canvas_EdgeExpandHint_Button { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_EdgeExpandHint_Settings_AutoHideDelay"></a> Canvas\_EdgeExpandHint\_Settings\_AutoHideDelay
+
+```csharp
+public static string Canvas_EdgeExpandHint_Settings_AutoHideDelay { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_EdgeExpandHint_Settings_AutoHideDelayHint"></a> Canvas\_EdgeExpandHint\_Settings\_AutoHideDelayHint
+
+```csharp
+public static string Canvas_EdgeExpandHint_Settings_AutoHideDelayHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_EdgeExpandHint_Settings_Enable"></a> Canvas\_EdgeExpandHint\_Settings\_Enable
 
 ```csharp
@@ -728,6 +748,26 @@ public static string Canvas_EdgeExpandHint_Settings_Threshold { get; }
 
 ```csharp
 public static string Canvas_EdgeExpandHint_Settings_TranslateStep { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_EdgeExpandHint_Settings_WhiteboardOnly"></a> Canvas\_EdgeExpandHint\_Settings\_WhiteboardOnly
+
+```csharp
+public static string Canvas_EdgeExpandHint_Settings_WhiteboardOnly { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_EdgeExpandHint_Settings_WhiteboardOnlyHint"></a> Canvas\_EdgeExpandHint\_Settings\_WhiteboardOnlyHint
+
+```csharp
+public static string Canvas_EdgeExpandHint_Settings_WhiteboardOnlyHint { get; }
 ```
 
 #### Property Value

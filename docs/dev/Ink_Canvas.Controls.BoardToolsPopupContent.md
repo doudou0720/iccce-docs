@@ -57,7 +57,7 @@ public override ToolMenuButton ManualBtn { get; }
 
 #### Property Value
 
- [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
+ ToolMenuButton
 
 ### <a id="Ink_Canvas_Controls_BoardToolsPopupContent_OpenBtn"></a> OpenBtn
 
@@ -67,7 +67,7 @@ public override ToolMenuButton OpenBtn { get; }
 
 #### Property Value
 
- [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
+ ToolMenuButton
 
 ### <a id="Ink_Canvas_Controls_BoardToolsPopupContent_RandomDrawBtn"></a> RandomDrawBtn
 
@@ -77,7 +77,7 @@ public override ToolMenuButton RandomDrawBtn { get; }
 
 #### Property Value
 
- [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
+ ToolMenuButton
 
 ### <a id="Ink_Canvas_Controls_BoardToolsPopupContent_RedoBtn"></a> RedoBtn
 
@@ -87,7 +87,7 @@ public override ToolMenuButton RedoBtn { get; }
 
 #### Property Value
 
- [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
+ ToolMenuButton
 
 ### <a id="Ink_Canvas_Controls_BoardToolsPopupContent_ReplayBtn"></a> ReplayBtn
 
@@ -97,7 +97,7 @@ public override ToolMenuButton ReplayBtn { get; }
 
 #### Property Value
 
- [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
+ ToolMenuButton
 
 ### <a id="Ink_Canvas_Controls_BoardToolsPopupContent_SaveBtn"></a> SaveBtn
 
@@ -107,7 +107,7 @@ public override ToolMenuButton SaveBtn { get; }
 
 #### Property Value
 
- [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
+ ToolMenuButton
 
 ### <a id="Ink_Canvas_Controls_BoardToolsPopupContent_ScreenshotBtn"></a> ScreenshotBtn
 
@@ -117,7 +117,7 @@ public override ToolMenuButton ScreenshotBtn { get; }
 
 #### Property Value
 
- [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
+ ToolMenuButton
 
 ### <a id="Ink_Canvas_Controls_BoardToolsPopupContent_SettingsBtn"></a> SettingsBtn
 
@@ -127,7 +127,7 @@ public override ToolMenuButton SettingsBtn { get; }
 
 #### Property Value
 
- [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
+ ToolMenuButton
 
 ### <a id="Ink_Canvas_Controls_BoardToolsPopupContent_ShapeDrawBtn"></a> ShapeDrawBtn
 
@@ -137,7 +137,7 @@ public override ToolMenuButton ShapeDrawBtn { get; }
 
 #### Property Value
 
- [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
+ ToolMenuButton
 
 ### <a id="Ink_Canvas_Controls_BoardToolsPopupContent_SingleDrawBtn"></a> SingleDrawBtn
 
@@ -147,7 +147,7 @@ public override ToolMenuButton SingleDrawBtn { get; }
 
 #### Property Value
 
- [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
+ ToolMenuButton
 
 ### <a id="Ink_Canvas_Controls_BoardToolsPopupContent_TimerBtn"></a> TimerBtn
 
@@ -157,7 +157,7 @@ public override ToolMenuButton TimerBtn { get; }
 
 #### Property Value
 
- [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
+ ToolMenuButton
 
 ## Methods
 

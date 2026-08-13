@@ -1454,6 +1454,66 @@ public static string Theme_Tips_Abandon { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_AutoHideInstantRestore"></a> Theme\_Tips\_AutoHideInstantRestore
+
+```csharp
+public static string Theme_Tips_AutoHideInstantRestore { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_AutoHideInstantRestoreHint"></a> Theme\_Tips\_AutoHideInstantRestoreHint
+
+```csharp
+public static string Theme_Tips_AutoHideInstantRestoreHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_AutoHideOnInteraction"></a> Theme\_Tips\_AutoHideOnInteraction
+
+```csharp
+public static string Theme_Tips_AutoHideOnInteraction { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_AutoHideOnInteractionHint"></a> Theme\_Tips\_AutoHideOnInteractionHint
+
+```csharp
+public static string Theme_Tips_AutoHideOnInteractionHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_AutoHideRestoreDelay"></a> Theme\_Tips\_AutoHideRestoreDelay
+
+```csharp
+public static string Theme_Tips_AutoHideRestoreDelay { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_AutoHideRestoreDelayHint"></a> Theme\_Tips\_AutoHideRestoreDelayHint
+
+```csharp
+public static string Theme_Tips_AutoHideRestoreDelayHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_Tips_AutoRotation"></a> Theme\_Tips\_AutoRotation
 
 ```csharp

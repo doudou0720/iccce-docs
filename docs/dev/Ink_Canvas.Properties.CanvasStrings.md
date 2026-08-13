@@ -514,6 +514,56 @@ public static string Canvas_LaunchSeewoVideoShowcaseForWhiteboardBoothHint { get
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_LongPressUndoClear"></a> Canvas\_LongPressUndoClear
+
+```csharp
+public static string Canvas_LongPressUndoClear { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_LongPressUndoClearHint"></a> Canvas\_LongPressUndoClearHint
+
+```csharp
+public static string Canvas_LongPressUndoClearHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_LongPressUndoClearNotification"></a> Canvas\_LongPressUndoClearNotification
+
+```csharp
+public static string Canvas_LongPressUndoClearNotification { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_LongPressUndoClearNotify"></a> Canvas\_LongPressUndoClearNotify
+
+```csharp
+public static string Canvas_LongPressUndoClearNotify { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_LongPressUndoClearNotifyHint"></a> Canvas\_LongPressUndoClearNotifyHint
+
+```csharp
+public static string Canvas_LongPressUndoClearNotifyHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_CanvasStrings_Canvas_MergeInkSmoothingWithUndo"></a> Canvas\_MergeInkSmoothingWithUndo
 
 ```csharp

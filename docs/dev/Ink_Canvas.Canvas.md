@@ -213,6 +213,18 @@ public bool EnableInkFade { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Canvas_EnableLongPressUndoClear"></a> EnableLongPressUndoClear
+
+长按撤销按钮约 0.8 秒清空画布（默认关闭，快速点击仍是普通撤销）。
+
+```csharp
+public bool EnableLongPressUndoClear { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Canvas_EnablePalmEraser"></a> EnablePalmEraser
 
 ```csharp
@@ -438,6 +450,20 @@ public bool IsEnableEdgeExpandHint { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Canvas_IsEnableEdgeExpandHintWhiteboardOnly"></a> IsEnableEdgeExpandHintWhiteboardOnly
+
+"扩展画布"提示是否仅在白板模式下启用。
+为 true 时，桌面批注、PPT 演示等非白板场景即使书写贴近边缘也不会浮现提示按钮。
+默认开启，与功能初衷一致：扩展画布是白板场景的专用能力。
+
+```csharp
+public bool IsEnableEdgeExpandHintWhiteboardOnly { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Canvas_IsShowCursor"></a> IsShowCursor
 
 ```csharp
@@ -514,6 +540,18 @@ public int MaxConcurrentSmoothingTasks { get; set; }
 
 ```csharp
 public bool MergeInkSmoothingWithUndo { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Canvas_NotifyAfterLongPressUndoClear"></a> NotifyAfterLongPressUndoClear
+
+长按撤销清屏后是否在通知中心发送提示（默认开启）。
+
+```csharp
+public bool NotifyAfterLongPressUndoClear { get; set; }
 ```
 
 #### Property Value

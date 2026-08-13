@@ -729,3 +729,9 @@ public static void OnUpdateChannelChanged()
 public static void OnUseLegacyFloatingBarUIChanged()
 ```
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnWhiteboardTipsAutoHideChanged"></a> OnWhiteboardTipsAutoHideChanged\(\)
+
+```csharp
+public static void OnWhiteboardTipsAutoHideChanged()
+```
+
