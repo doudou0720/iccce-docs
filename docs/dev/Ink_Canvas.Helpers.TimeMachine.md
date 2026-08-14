@@ -56,6 +56,23 @@ public bool CanUndo { get; }
 public void ClearStrokeHistory()
 ```
 
+### <a id="Ink_Canvas_Helpers_TimeMachine_CommitElementEditHistory_UIElement_System_String_System_String_"></a> CommitElementEditHistory\(UIElement, string, string\)
+
+把历史中保存的墨迹按 matrix 同步变换（撤销/重做时能回到正确几何），
+跳过仍在画布上的笔迹（它们由 inkCanvas.Strokes.Transform 直接处理）。
+
+```csharp
+public void CommitElementEditHistory(UIElement element, string previousState, string currentState)
+```
+
+#### Parameters
+
+`element` UIElement
+
+`previousState` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`currentState` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Helpers_TimeMachine_CommitElementInsertHistory_UIElement_"></a> CommitElementInsertHistory\(UIElement\)
 
 ```csharp

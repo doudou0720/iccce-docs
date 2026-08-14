@@ -62,6 +62,20 @@ public TimeMachineHistory(Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAtt
 
 `commitType` [TimeMachineHistoryType](Ink\_Canvas.Helpers.TimeMachineHistoryType.md)
 
+### <a id="Ink_Canvas_Helpers_TimeMachineHistory__ctor_UIElement_System_String_System_String_"></a> TimeMachineHistory\(UIElement, string, string\)
+
+```csharp
+public TimeMachineHistory(UIElement element, string previousState, string currentState)
+```
+
+#### Parameters
+
+`element` UIElement
+
+`previousState` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`currentState` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Helpers_TimeMachineHistory__ctor_StrokeCollection_Ink_Canvas_Helpers_TimeMachineHistoryType_System_Boolean_StrokeCollection_"></a> TimeMachineHistory\(StrokeCollection, TimeMachineHistoryType, bool, StrokeCollection\)
 
 ```csharp
@@ -102,6 +116,16 @@ public TimeMachineHistoryType CommitType
 
  [TimeMachineHistoryType](Ink\_Canvas.Helpers.TimeMachineHistoryType.md)
 
+### <a id="Ink_Canvas_Helpers_TimeMachineHistory_CurrentElementState"></a> CurrentElementState
+
+```csharp
+public string CurrentElementState
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Helpers_TimeMachineHistory_CurrentStroke"></a> CurrentStroke
 
 ```csharp
@@ -122,6 +146,16 @@ public Dictionary<Stroke, Tuple<DrawingAttributes, DrawingAttributes>> DrawingAt
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<Stroke, [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<DrawingAttributes, DrawingAttributes\>\>
 
+### <a id="Ink_Canvas_Helpers_TimeMachineHistory_EditedElement"></a> EditedElement
+
+```csharp
+public UIElement EditedElement
+```
+
+#### Field Value
+
+ UIElement
+
 ### <a id="Ink_Canvas_Helpers_TimeMachineHistory_InsertedElement"></a> InsertedElement
 
 ```csharp
@@ -131,6 +165,16 @@ public UIElement InsertedElement
 #### Field Value
 
  UIElement
+
+### <a id="Ink_Canvas_Helpers_TimeMachineHistory_PreviousElementState"></a> PreviousElementState
+
+```csharp
+public string PreviousElementState
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_Helpers_TimeMachineHistory_ReplacedStroke"></a> ReplacedStroke
 

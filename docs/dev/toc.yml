@@ -397,6 +397,8 @@
     href: Ink_Canvas.Helpers.BaseUploadQueue.md
   - name: CameraInfo
     href: Ink_Canvas.Helpers.CameraInfo.md
+  - name: CameraPropState
+    href: Ink_Canvas.Helpers.CameraPropState.md
   - name: CameraServiceFactory
     href: Ink_Canvas.Helpers.CameraServiceFactory.md
   - name: CapturableVideoCaptureElement
@@ -499,6 +501,8 @@
     href: Ink_Canvas.Helpers.LrcParser.md
   - name: MemoryBreakdownHelper
     href: Ink_Canvas.Helpers.MemoryBreakdownHelper.md
+  - name: MessageBoxHelper
+    href: Ink_Canvas.Helpers.MessageBoxHelper.md
   - name: MicroBinClient
     href: Ink_Canvas.Helpers.MicroBinClient.md
   - name: NameRosterManager
@@ -610,6 +614,8 @@
   - name: IUploadProvider
     href: Ink_Canvas.Helpers.IUploadProvider.md
   - name: Enums
+  - name: BoothCameraProperty
+    href: Ink_Canvas.Helpers.BoothCameraProperty.md
   - name: FloatingWindowInterceptor.InterceptType
     href: Ink_Canvas.Helpers.FloatingWindowInterceptor.InterceptType.md
   - name: FullScreenHelper.WindowPositionFlags

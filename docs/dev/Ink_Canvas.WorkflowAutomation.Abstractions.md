@@ -2,21 +2,21 @@
 
 ### Classes
 
- [ActionSettingsControlBase<T\>](Ink\_Canvas.WorkflowAutomation.Abstractions.ActionSettingsControlBase\-1.md)
-
-带强类型设置的行动设置控件基类。
-
  [ActionSettingsControlBase](Ink\_Canvas.WorkflowAutomation.Abstractions.ActionSettingsControlBase.md)
 
 行动设置控件的基类。
 
- [RuleSettingsControlBase<T\>](Ink\_Canvas.WorkflowAutomation.Abstractions.RuleSettingsControlBase\-1.md)
+ [ActionSettingsControlBase<T\>](Ink\_Canvas.WorkflowAutomation.Abstractions.ActionSettingsControlBase\-1.md)
 
-带强类型设置的规则设置控件基类。
+带强类型设置的行动设置控件基类。
 
  [RuleSettingsControlBase](Ink\_Canvas.WorkflowAutomation.Abstractions.RuleSettingsControlBase.md)
 
 规则设置控件的基类。
+
+ [RuleSettingsControlBase<T\>](Ink\_Canvas.WorkflowAutomation.Abstractions.RuleSettingsControlBase\-1.md)
+
+带强类型设置的规则设置控件基类。
 
  [TriggerBase<T\>](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase\-1.md)
 

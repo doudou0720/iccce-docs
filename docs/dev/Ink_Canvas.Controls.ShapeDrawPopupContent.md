@@ -40,7 +40,7 @@ public GeometryButton DrawArrowBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCircleBtn"></a> DrawCircleBtn
 
@@ -50,7 +50,7 @@ public GeometryButton DrawCircleBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawConeBtn"></a> DrawConeBtn
 
@@ -60,7 +60,7 @@ public GeometryButton DrawConeBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCoordinate1Btn"></a> DrawCoordinate1Btn
 
@@ -70,7 +70,7 @@ public GeometryButton DrawCoordinate1Btn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCoordinate2Btn"></a> DrawCoordinate2Btn
 
@@ -80,7 +80,7 @@ public GeometryButton DrawCoordinate2Btn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCoordinate3Btn"></a> DrawCoordinate3Btn
 
@@ -90,7 +90,7 @@ public GeometryButton DrawCoordinate3Btn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCoordinate4Btn"></a> DrawCoordinate4Btn
 
@@ -100,7 +100,7 @@ public GeometryButton DrawCoordinate4Btn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCoordinate5Btn"></a> DrawCoordinate5Btn
 
@@ -110,7 +110,7 @@ public GeometryButton DrawCoordinate5Btn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCuboidBtn"></a> DrawCuboidBtn
 
@@ -120,7 +120,7 @@ public GeometryButton DrawCuboidBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawCylinderBtn"></a> DrawCylinderBtn
 
@@ -130,7 +130,7 @@ public GeometryButton DrawCylinderBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawDashedCircleBtn"></a> DrawDashedCircleBtn
 
@@ -140,7 +140,7 @@ public GeometryButton DrawDashedCircleBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawDashedLineBtn"></a> DrawDashedLineBtn
 
@@ -150,7 +150,7 @@ public GeometryButton DrawDashedLineBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawDotLineBtn"></a> DrawDotLineBtn
 
@@ -160,7 +160,7 @@ public GeometryButton DrawDotLineBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawEllipseCenterBtn"></a> DrawEllipseCenterBtn
 
@@ -170,7 +170,7 @@ public GeometryButton DrawEllipseCenterBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawEllipseCenterWithFocalPointBtn"></a> DrawEllipseCenterWithFocalPointBtn
 
@@ -180,7 +180,7 @@ public GeometryButton DrawEllipseCenterWithFocalPointBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawHyperbolaBtn"></a> DrawHyperbolaBtn
 
@@ -190,7 +190,7 @@ public GeometryButton DrawHyperbolaBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawHyperbolaWithFocalPointBtn"></a> DrawHyperbolaWithFocalPointBtn
 
@@ -200,7 +200,7 @@ public GeometryButton DrawHyperbolaWithFocalPointBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawLineBtn"></a> DrawLineBtn
 
@@ -210,7 +210,7 @@ public GeometryButton DrawLineBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawParabola1Btn"></a> DrawParabola1Btn
 
@@ -220,7 +220,7 @@ public GeometryButton DrawParabola1Btn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawParabola2Btn"></a> DrawParabola2Btn
 
@@ -230,7 +230,7 @@ public GeometryButton DrawParabola2Btn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawParabolaWithFocalPointBtn"></a> DrawParabolaWithFocalPointBtn
 
@@ -240,7 +240,7 @@ public GeometryButton DrawParabolaWithFocalPointBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawParallelLineBtn"></a> DrawParallelLineBtn
 
@@ -250,7 +250,7 @@ public GeometryButton DrawParallelLineBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawRectangleBtn"></a> DrawRectangleBtn
 
@@ -260,7 +260,7 @@ public GeometryButton DrawRectangleBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_DrawRectangleCenterBtn"></a> DrawRectangleCenterBtn
 
@@ -270,7 +270,7 @@ public GeometryButton DrawRectangleCenterBtn { get; }
 
 #### Property Value
 
- GeometryButton
+ [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
 
 ### <a id="Ink_Canvas_Controls_ShapeDrawPopupContent_ShowCircleCenterToggle"></a> ShowCircleCenterToggle
 

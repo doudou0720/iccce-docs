@@ -114,6 +114,26 @@ public bool EnableQuickDraw { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_RandSettings_EnableQuickDrawFinalJump"></a> EnableQuickDrawFinalJump
+
+```csharp
+public bool EnableQuickDrawFinalJump { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_RandSettings_EnableQuickDrawFinalJumpPulse"></a> EnableQuickDrawFinalJumpPulse
+
+```csharp
+public bool EnableQuickDrawFinalJumpPulse { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_RandSettings_ExternalCallerType"></a> ExternalCallerType
 
 ```csharp
@@ -183,6 +203,26 @@ public bool QuickDrawExternalCaller { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_RandSettings_QuickDrawFinalJumpProbability"></a> QuickDrawFinalJumpProbability
+
+```csharp
+public double QuickDrawFinalJumpProbability { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_RandSettings_QuickDrawFinalJumpSettleDelaySeconds"></a> QuickDrawFinalJumpSettleDelaySeconds
+
+```csharp
+public double QuickDrawFinalJumpSettleDelaySeconds { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 ### <a id="Ink_Canvas_RandSettings_RandWindowOnceCloseLatency"></a> RandWindowOnceCloseLatency
 

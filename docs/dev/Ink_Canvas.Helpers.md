@@ -33,6 +33,10 @@ Only shrinks, never enlarges above MaxFontSize.
 
  [CameraInfo](Ink\_Canvas.Helpers.CameraInfo.md)
 
+ [CameraPropState](Ink\_Canvas.Helpers.CameraPropState.md)
+
+单个摄像头属性的支持状态与归一化值。
+
  [CameraServiceFactory](Ink\_Canvas.Helpers.CameraServiceFactory.md)
 
 摄像头服务工厂。
@@ -237,6 +241,12 @@ Builds a detailed memory snapshot of the current process for diagnostics
 The caller can persist the report to Logs/MemoryBreakdown_*.txt and/or
 emit a short summary through <xref href="Ink_Canvas.Helpers.LogHelper.WriteLogToFile(System.String%2cInk_Canvas.Helpers.LogHelper.LogType)" data-throw-if-not-resolved="false"></xref>.
 
+ [MessageBoxHelper](Ink\_Canvas.Helpers.MessageBoxHelper.md)
+
+统一弹窗辅助类。
+自动为弹窗定位最适合的 Owner 窗口（优先关联当前 Page/Control 所在的设置窗口或活动窗口），
+防止在设置窗口置顶或最大化时，无 Owner 的弹窗被遮挡在设置窗口后方导致界面死锁。
+
  [MicroBinClient](Ink\_Canvas.Helpers.MicroBinClient.md)
 
 MicroBin pastebin 客户端。
@@ -438,6 +448,10 @@ WebDav上传工具类
 上传提供者接口
 
 ### Enums
+
+ [BoothCameraProperty](Ink\_Canvas.Helpers.BoothCameraProperty.md)
+
+视频展台可调摄像头属性枚举。映射到 DirectShow IAMVideoProcAmp / IAMCameraControl 的对应 property。
 
  [InkSmoothingConfig.InkSmoothingQuality](Ink\_Canvas.Helpers.InkSmoothingConfig.InkSmoothingQuality.md)
 

@@ -40,6 +40,45 @@ IReadOnlyList<CameraInfo> AvailableCameras { get; }
 
  [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[CameraInfo](Ink\_Canvas.Helpers.CameraInfo.md)\>
 
+### <a id="Ink_Canvas_Helpers_ICameraService_Brightness"></a> Brightness
+
+亮度（曝光度）归一化值，范围 -100..100，0 表示摄像头默认值。
+等价于 <xref href="Ink_Canvas.Helpers.ICameraService.GetCameraPropertyValue(Ink_Canvas.Helpers.BoothCameraProperty)" data-throw-if-not-resolved="false"></xref>(<xref href="Ink_Canvas.Helpers.BoothCameraProperty.Brightness" data-throw-if-not-resolved="false"></xref>)，
+保留是为了与早期代码兼容。setter 会异步把值应用到硬件。
+摄像头不支持时 setter 静默忽略。
+
+```csharp
+int Brightness { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Helpers_ICameraService_BrightnessSupported"></a> BrightnessSupported
+
+当前摄像头是否支持亮度（曝光度）调节。等价于 IsCameraPropertySupported(Brightness)。
+
+```csharp
+bool BrightnessSupported { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Helpers_ICameraService_CameraProperties"></a> CameraProperties
+
+当前摄像头所有属性的支持状态与归一化值（-100..100，0=默认）。需先 ProbeCameraPropertiesAsync。
+
+```csharp
+IReadOnlyDictionary<BoothCameraProperty, CameraPropState> CameraProperties { get; }
+```
+
+#### Property Value
+
+ [IReadOnlyDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary\-2)<[BoothCameraProperty](Ink\_Canvas.Helpers.BoothCameraProperty.md), [CameraPropState](Ink\_Canvas.Helpers.CameraPropState.md)\>
+
 ### <a id="Ink_Canvas_Helpers_ICameraService_CurrentCamera"></a> CurrentCamera
 
 ```csharp
@@ -147,6 +186,34 @@ IReadOnlyList<ResolutionInfo> UniqueResolutions { get; }
 
 ## Methods
 
+### <a id="Ink_Canvas_Helpers_ICameraService_ApplyBrightnessAsync"></a> ApplyBrightnessAsync\(\)
+
+立即把当前 Brightness 应用到摄像头硬件。等价于 ApplyCameraPropertyAsync(Brightness)。
+
+```csharp
+Task<bool> ApplyBrightnessAsync()
+```
+
+#### Returns
+
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+
+### <a id="Ink_Canvas_Helpers_ICameraService_ApplyCameraPropertyAsync_Ink_Canvas_Helpers_BoothCameraProperty_"></a> ApplyCameraPropertyAsync\(BoothCameraProperty\)
+
+立即把指定属性的当前值应用到摄像头硬件。通常由 SetCameraPropertyValue 自动触发。
+
+```csharp
+Task<bool> ApplyCameraPropertyAsync(BoothCameraProperty prop)
+```
+
+#### Parameters
+
+`prop` [BoothCameraProperty](Ink\_Canvas.Helpers.BoothCameraProperty.md)
+
+#### Returns
+
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+
 ### <a id="Ink_Canvas_Helpers_ICameraService_EnumerateResolutionsAsync_System_Int32_"></a> EnumerateResolutionsAsync\(int\)
 
 独立枚举指定摄像头的 native 分辨率（不启动预览，不抢占设备）。
@@ -184,6 +251,22 @@ int FindCapabilityIndex(int width, int height, int framerate)
 `height` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 `framerate` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+#### Returns
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Helpers_ICameraService_GetCameraPropertyValue_Ink_Canvas_Helpers_BoothCameraProperty_"></a> GetCameraPropertyValue\(BoothCameraProperty\)
+
+读取指定属性的归一化值（-100..100，0=默认）。未支持/未探测时返回 0。
+
+```csharp
+int GetCameraPropertyValue(BoothCameraProperty prop)
+```
+
+#### Parameters
+
+`prop` [BoothCameraProperty](Ink\_Canvas.Helpers.BoothCameraProperty.md)
 
 #### Returns
 
@@ -231,6 +314,51 @@ IReadOnlyList<int> GetFrameratesFor(int width, int height)
 
  [IReadOnlyList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
+### <a id="Ink_Canvas_Helpers_ICameraService_IsCameraPropertySupported_Ink_Canvas_Helpers_BoothCameraProperty_"></a> IsCameraPropertySupported\(BoothCameraProperty\)
+
+当前摄像头是否支持指定属性。需先 ProbeCameraPropertiesAsync。
+
+```csharp
+bool IsCameraPropertySupported(BoothCameraProperty prop)
+```
+
+#### Parameters
+
+`prop` [BoothCameraProperty](Ink\_Canvas.Helpers.BoothCameraProperty.md)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Helpers_ICameraService_ProbeBrightnessSupportAsync"></a> ProbeBrightnessSupportAsync\(\)
+
+探测当前摄像头支持的全部属性（亮度/对比度/饱和度/色温/增益/焦距/快门），
+并构建常驻"不抢占设备"的图同时持有 IAMVideoProcAmp 与 IAMCameraControl。
+探测后 <xref href="Ink_Canvas.Helpers.ICameraService.CameraProperties" data-throw-if-not-resolved="false"></xref> 已就绪，并会立即把当前所有值应用一次。
+等价于 <xref href="Ink_Canvas.Helpers.ICameraService.ProbeCameraPropertiesAsync" data-throw-if-not-resolved="false"></xref>，保留是为了兼容。
+
+```csharp
+Task ProbeBrightnessSupportAsync()
+```
+
+#### Returns
+
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+
+### <a id="Ink_Canvas_Helpers_ICameraService_ProbeCameraPropertiesAsync"></a> ProbeCameraPropertiesAsync\(\)
+
+探测当前摄像头支持的全部属性，构建常驻"不抢占设备"的图同时持有 IAMVideoProcAmp 与 IAMCameraControl。
+内部用 FilterGraphNoThread + AddSourceFilterForMoniker，不调用 Run()，可与 VideoCaptureElement 流式预览共存。
+探测后 <xref href="Ink_Canvas.Helpers.ICameraService.CameraProperties" data-throw-if-not-resolved="false"></xref> 已就绪，并会立即把当前所有属性值应用一次。
+
+```csharp
+Task ProbeCameraPropertiesAsync()
+```
+
+#### Returns
+
+ [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+
 ### <a id="Ink_Canvas_Helpers_ICameraService_RefreshCameraListAsync"></a> RefreshCameraListAsync\(\)
 
 刷新可用摄像头列表。返回 Task 以便调用方 await。
@@ -243,6 +371,37 @@ Task RefreshCameraListAsync()
 #### Returns
 
  [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
+
+### <a id="Ink_Canvas_Helpers_ICameraService_ReleaseBrightnessControl"></a> ReleaseBrightnessControl\(\)
+
+释放属性控制占用的常驻 FilterGraphNoThread 资源。等价于 ReleaseCameraPropertyControl()。
+
+```csharp
+void ReleaseBrightnessControl()
+```
+
+### <a id="Ink_Canvas_Helpers_ICameraService_ReleaseCameraPropertyControl"></a> ReleaseCameraPropertyControl\(\)
+
+释放属性控制占用的常驻 FilterGraphNoThread 资源（切换摄像头/停止预览/退出展台时调用）。
+
+```csharp
+void ReleaseCameraPropertyControl()
+```
+
+### <a id="Ink_Canvas_Helpers_ICameraService_SetCameraPropertyValue_Ink_Canvas_Helpers_BoothCameraProperty_System_Int32_"></a> SetCameraPropertyValue\(BoothCameraProperty, int\)
+
+设置指定属性的归一化值（-100..100，自动 clamp）。setter 会异步应用到硬件，不阻塞 UI。
+摄像头不支持时静默忽略。
+
+```csharp
+void SetCameraPropertyValue(BoothCameraProperty prop, int value)
+```
+
+#### Parameters
+
+`prop` [BoothCameraProperty](Ink\_Canvas.Helpers.BoothCameraProperty.md)
+
+`value` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### <a id="Ink_Canvas_Helpers_ICameraService_SetSelectedResolutionIndexSilent_System_Int32_"></a> SetSelectedResolutionIndexSilent\(int\)
 

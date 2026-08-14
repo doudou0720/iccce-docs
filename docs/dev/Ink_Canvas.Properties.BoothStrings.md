@@ -74,6 +74,36 @@ public static string Acceleration_Tooltip { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_BoothStrings_Brightness"></a> Brightness
+
+```csharp
+public static string Brightness { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_BrightnessNotSupported"></a> BrightnessNotSupported
+
+```csharp
+public static string BrightnessNotSupported { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_Brightness_Tooltip"></a> Brightness\_Tooltip
+
+```csharp
+public static string Brightness_Tooltip { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_BoothStrings_CameraDevices"></a> CameraDevices
 
 ```csharp
@@ -114,6 +144,16 @@ public static string Close { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_BoothStrings_Contrast"></a> Contrast
+
+```csharp
+public static string Contrast { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_BoothStrings_Correction"></a> Correction
 
 ```csharp
@@ -134,10 +174,140 @@ public static CultureInfo Culture { get; set; }
 
  [CultureInfo](https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo)
 
+### <a id="Ink_Canvas_Properties_BoothStrings_Exposure"></a> Exposure
+
+```csharp
+public static string Exposure { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_Exposure_Tooltip"></a> Exposure\_Tooltip
+
+```csharp
+public static string Exposure_Tooltip { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_Focus"></a> Focus
+
+```csharp
+public static string Focus { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_Focus_Tooltip"></a> Focus\_Tooltip
+
+```csharp
+public static string Focus_Tooltip { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_Gain"></a> Gain
+
+```csharp
+public static string Gain { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_Gain_Tooltip"></a> Gain\_Tooltip
+
+```csharp
+public static string Gain_Tooltip { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_Mirror"></a> Mirror
+
+```csharp
+public static string Mirror { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_MirrorHorizontal"></a> MirrorHorizontal
+
+```csharp
+public static string MirrorHorizontal { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_MirrorVertical"></a> MirrorVertical
+
+```csharp
+public static string MirrorVertical { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_BoothStrings_Present"></a> Present
 
 ```csharp
 public static string Present { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_ProMode"></a> ProMode
+
+```csharp
+public static string ProMode { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_ProMode_Tooltip"></a> ProMode\_Tooltip
+
+```csharp
+public static string ProMode_Tooltip { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_PropNotSupported"></a> PropNotSupported
+
+```csharp
+public static string PropNotSupported { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_ResetDefault"></a> ResetDefault
+
+```csharp
+public static string ResetDefault { get; }
 ```
 
 #### Property Value
@@ -174,10 +344,40 @@ public static string Rotate { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_BoothStrings_Saturation"></a> Saturation
+
+```csharp
+public static string Saturation { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_BoothStrings_Title"></a> Title
 
 ```csharp
 public static string Title { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_WhiteBalance"></a> WhiteBalance
+
+```csharp
+public static string WhiteBalance { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_BoothStrings_WhiteBalance_Tooltip"></a> WhiteBalance\_Tooltip
+
+```csharp
+public static string WhiteBalance_Tooltip { get; }
 ```
 
 #### Property Value

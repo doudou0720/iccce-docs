@@ -684,6 +684,66 @@ public static string Random_Preview { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_QuickDraw_FinalJump"></a> Random\_QuickDraw\_FinalJump
+
+```csharp
+public static string Random_QuickDraw_FinalJump { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_QuickDraw_FinalJumpDelay"></a> Random\_QuickDraw\_FinalJumpDelay
+
+```csharp
+public static string Random_QuickDraw_FinalJumpDelay { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_QuickDraw_FinalJumpHint"></a> Random\_QuickDraw\_FinalJumpHint
+
+```csharp
+public static string Random_QuickDraw_FinalJumpHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_QuickDraw_FinalJumpProbability"></a> Random\_QuickDraw\_FinalJumpProbability
+
+```csharp
+public static string Random_QuickDraw_FinalJumpProbability { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_QuickDraw_FinalJumpPulse"></a> Random\_QuickDraw\_FinalJumpPulse
+
+```csharp
+public static string Random_QuickDraw_FinalJumpPulse { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_RandomStrings_Random_QuickDraw_FinalJumpPulseHint"></a> Random\_QuickDraw\_FinalJumpPulseHint
+
+```csharp
+public static string Random_QuickDraw_FinalJumpPulseHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_RandomStrings_Random_QuickDraw_Title"></a> Random\_QuickDraw\_Title
 
 ```csharp

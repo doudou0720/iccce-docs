@@ -118,6 +118,18 @@ public int? PdfPageCount { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)?
 
+### <a id="Ink_Canvas_CanvasElementInfo_SceneElementJson"></a> SceneElementJson
+
+Type == SvgScene 时，保存一个可编辑 SVG 场景元素的 JSON 描述。
+
+```csharp
+public string SceneElementJson { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_CanvasElementInfo_SourcePath"></a> SourcePath
 
 ```csharp
@@ -147,6 +159,18 @@ public double Top { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_CanvasElementInfo_TransformMatrix"></a> TransformMatrix
+
+保存 SvgScene 的 WPF 变换矩阵，保留移动、缩放和旋转后的视觉位置。
+
+```csharp
+public string TransformMatrix { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ### <a id="Ink_Canvas_CanvasElementInfo_Type"></a> Type
 

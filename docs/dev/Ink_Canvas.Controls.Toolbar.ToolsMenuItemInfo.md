@@ -24,6 +24,19 @@ public class ToolsMenuItemInfo
 
 ## Properties
 
+### <a id="Ink_Canvas_Controls_Toolbar_ToolsMenuItemInfo_CustomSettingsPanelFactory"></a> CustomSettingsPanelFactory
+
+自定义设置面板工厂。若提供，菜单页面将在"组件设置"中显示此工厂返回的 UI。
+适用于需要呈现全局设置的菜单项（如截图）。
+
+```csharp
+public Func<FrameworkElement> CustomSettingsPanelFactory { get; set; }
+```
+
+#### Property Value
+
+ [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<FrameworkElement\>
+
 ### <a id="Ink_Canvas_Controls_Toolbar_ToolsMenuItemInfo_Description"></a> Description
 
 ```csharp

@@ -64,6 +64,16 @@ public bool IsSaveFullPageStrokes
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Automation_ScreenshotSaveLocation"></a> ScreenshotSaveLocation
+
+```csharp
+public string ScreenshotSaveLocation
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ## Properties
 
 ### <a id="Ink_Canvas_Automation_AutoSaveStrokesIntervalMinutes"></a> AutoSaveStrokesIntervalMinutes
@@ -436,6 +446,16 @@ public bool IsAutoSaveStrokesAtScreenshot { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Automation_IsCopyScreenshotToClipboard"></a> IsCopyScreenshotToClipboard
+
+```csharp
+public bool IsCopyScreenshotToClipboard { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Automation_IsEnableAutoFold"></a> IsEnableAutoFold
 
 ```csharp
@@ -460,6 +480,16 @@ public bool IsEnableAutoSaveStrokes { get; set; }
 
 ```csharp
 public bool IsEnablePhotoCorrection { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Automation_IsSaveScreenshotToCustomLocation"></a> IsSaveScreenshotToCustomLocation
+
+```csharp
+public bool IsSaveScreenshotToCustomLocation { get; set; }
 ```
 
 #### Property Value

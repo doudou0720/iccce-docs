@@ -9,15 +9,17 @@ public enum TimeMachineHistoryType
 
 ## Fields
 
-`Clear = 2` 
+`Clear = 3` 
 
-`DrawingAttributes = 4` 
+`DrawingAttributes = 5` 
 
-`ElementInsert = 5` 
+`ElementEdit = 0` 
 
-`Manipulation = 3` 
+`ElementInsert = 6` 
 
-`ShapeRecognition = 1` 
+`Manipulation = 4` 
 
-`UserInput = 0` 
+`ShapeRecognition = 2` 
+
+`UserInput = 1` 
 

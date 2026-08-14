@@ -12,8 +12,6 @@
 
  [BoardToolbarButton](Ink\_Canvas.Controls.BoardToolbarButton.md)
 
-BoardToolbarButton
-
  [BoardToolsPopupContent](Ink\_Canvas.Controls.BoardToolsPopupContent.md)
 
  [BoothPopupContent](Ink\_Canvas.Controls.BoothPopupContent.md)
@@ -25,11 +23,7 @@ BoardToolbarButton
 
  [ColorPickerButton](Ink\_Canvas.Controls.ColorPickerButton.md)
 
-ColorPickerButton
-
  [CopyButton](Ink\_Canvas.Controls.CopyButton.md)
-
-CopyButton
 
  [DynamicNotificationControl](Ink\_Canvas.Controls.DynamicNotificationControl.md)
 
@@ -43,8 +37,6 @@ CopyButton
  [FloatingBarToolsPopupContent](Ink\_Canvas.Controls.FloatingBarToolsPopupContent.md)
 
  [GeometryButton](Ink\_Canvas.Controls.GeometryButton.md)
-
-GeometryButton
 
  [GesturePopupContent](Ink\_Canvas.Controls.GesturePopupContent.md)
 
@@ -60,11 +52,7 @@ GeometryButton
 
  [LabeledSettingsCard](Ink\_Canvas.Controls.LabeledSettingsCard.md)
 
-LabeledSettingsCard
-
  [LabeledToggleSwitch](Ink\_Canvas.Controls.LabeledToggleSwitch.md)
-
-LabeledToggleSwitch
 
  [PPTNavBar](Ink\_Canvas.Controls.PPTNavBar.md)
 
@@ -79,27 +67,17 @@ PPT 翻页 + 增强预览一体化控件。
 
  [PenColorButton](Ink\_Canvas.Controls.PenColorButton.md)
 
-PenColorButton
-
  [PenPalettePopupContent](Ink\_Canvas.Controls.PenPalettePopupContent.md)
 
  [PopupShellContent](Ink\_Canvas.Controls.PopupShellContent.md)
-
-PopupShellContent
 
  [PopupTabItem](Ink\_Canvas.Controls.PopupTabItem.md)
 
  [PopupTabShellContent](Ink\_Canvas.Controls.PopupTabShellContent.md)
 
-PopupTabShellContent
-
  [PopupTabTitleBar](Ink\_Canvas.Controls.PopupTabTitleBar.md)
 
-PopupTabTitleBar
-
  [PopupTitleBar](Ink\_Canvas.Controls.PopupTitleBar.md)
-
-PopupTitleBar
 
  [PPTNavBar.PreviewItem](Ink\_Canvas.Controls.PPTNavBar.PreviewItem.md)
 
@@ -111,19 +89,13 @@ PopupTitleBar
 
  [QuickPanelButton](Ink\_Canvas.Controls.QuickPanelButton.md)
 
-QuickPanelButton
-
  [ShapeDrawPopupContent](Ink\_Canvas.Controls.ShapeDrawPopupContent.md)
 
  [SidePanelToggle](Ink\_Canvas.Controls.SidePanelToggle.md)
 
  [ToolMenuButton](Ink\_Canvas.Controls.ToolMenuButton.md)
 
-ToolMenuButton
-
  [ToolbarImageButton](Ink\_Canvas.Controls.ToolbarImageButton.md)
-
-ToolbarImageButton
 
  [ToolsPopupContent](Ink\_Canvas.Controls.ToolsPopupContent.md)
 

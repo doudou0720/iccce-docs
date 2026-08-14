@@ -564,6 +564,16 @@ public static string Storage_Confirm_Title { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_CopyScreenshotToClipboard"></a> Storage\_CopyScreenshotToClipboard
+
+```csharp
+public static string Storage_CopyScreenshotToClipboard { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_StorageStrings_Storage_Core_Desc"></a> Storage\_Core\_Desc
 
 ```csharp
@@ -858,6 +868,26 @@ public static string Storage_SaveAsXml { get; }
 
 ```csharp
 public static string Storage_SaveFullPageStrokes { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_ScreenshotSaveLocation"></a> Storage\_ScreenshotSaveLocation
+
+```csharp
+public static string Storage_ScreenshotSaveLocation { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_ScreenshotSaveLocationDesc"></a> Storage\_ScreenshotSaveLocationDesc
+
+```csharp
+public static string Storage_ScreenshotSaveLocationDesc { get; }
 ```
 
 #### Property Value

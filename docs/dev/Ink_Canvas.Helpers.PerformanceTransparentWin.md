@@ -38,6 +38,16 @@ public bool IsUsingWindowChromeRendering { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Helpers_PerformanceTransparentWin_TransparentHitTestState"></a> TransparentHitTestState
+
+```csharp
+public string TransparentHitTestState { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ## Methods
 
 ### <a id="Ink_Canvas_Helpers_PerformanceTransparentWin_SetTransparentHitThrough"></a> SetTransparentHitThrough\(\)

@@ -680,6 +680,67 @@ public double VelocityBrushTipMix { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
+### <a id="Ink_Canvas_Canvas_VideoPresenterBrightness"></a> VideoPresenterBrightness
+
+视频展台亮度（曝光度）归一化值，范围 -100..100，0 为摄像头默认。
+通过 DirectShow IAMVideoProcAmp.Brightness 写入摄像头硬件；摄像头不支持时 UI 自动禁用滑块。
+
+```csharp
+public int VideoPresenterBrightness { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Canvas_VideoPresenterContrast"></a> VideoPresenterContrast
+
+对比度，-100..100，0=默认。IAMVideoProcAmp.Contrast。
+
+```csharp
+public int VideoPresenterContrast { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Canvas_VideoPresenterExposure"></a> VideoPresenterExposure
+
+快门（曝光时间），-100..100，0=默认。IAMCameraControl.Exposure，多数 USB 摄像头仅 Auto。
+
+```csharp
+public int VideoPresenterExposure { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Canvas_VideoPresenterFocus"></a> VideoPresenterFocus
+
+焦距（手动对焦），-100..100，0=默认。IAMCameraControl.Focus，需有马达的镜头。
+
+```csharp
+public int VideoPresenterFocus { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Canvas_VideoPresenterGain"></a> VideoPresenterGain
+
+增益（最接近手机 ISO），-100..100，0=默认。IAMVideoProcAmp.Gain。DirectShow 无 ISO 概念。
+
+```csharp
+public int VideoPresenterGain { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Ink_Canvas_Canvas_VideoPresenterLastCameraName"></a> VideoPresenterLastCameraName
 
 视频展台持久化：上次选中的摄像头设备名（DsDevice.Name）。
@@ -707,4 +768,52 @@ public string VideoPresenterLastResolutionKey { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Canvas_VideoPresenterMirrorHorizontal"></a> VideoPresenterMirrorHorizontal
+
+水平镜像（左右翻转）。
+
+```csharp
+public bool VideoPresenterMirrorHorizontal { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Canvas_VideoPresenterMirrorVertical"></a> VideoPresenterMirrorVertical
+
+垂直镜像（上下翻转）。
+
+```csharp
+public bool VideoPresenterMirrorVertical { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Canvas_VideoPresenterSaturation"></a> VideoPresenterSaturation
+
+饱和度，-100..100，0=默认。IAMVideoProcAmp.Saturation。
+
+```csharp
+public int VideoPresenterSaturation { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Canvas_VideoPresenterWhiteBalance"></a> VideoPresenterWhiteBalance
+
+色温（白平衡），-100..100，0=默认。IAMVideoProcAmp.WhiteBalance，写入时切到 Manual。
+
+```csharp
+public int VideoPresenterWhiteBalance { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -23,6 +23,7 @@ Window ←
 #### Inherited Members
 
 [PerformanceTransparentWin.IsUsingWindowChromeRendering](Ink\_Canvas.Helpers.PerformanceTransparentWin.md\#Ink\_Canvas\_Helpers\_PerformanceTransparentWin\_IsUsingWindowChromeRendering), 
+[PerformanceTransparentWin.TransparentHitTestState](Ink\_Canvas.Helpers.PerformanceTransparentWin.md\#Ink\_Canvas\_Helpers\_PerformanceTransparentWin\_TransparentHitTestState), 
 [PerformanceTransparentWin.SetTransparentHitThrough\(\)](Ink\_Canvas.Helpers.PerformanceTransparentWin.md\#Ink\_Canvas\_Helpers\_PerformanceTransparentWin\_SetTransparentHitThrough), 
 [PerformanceTransparentWin.SetTransparentNotHitThrough\(\)](Ink\_Canvas.Helpers.PerformanceTransparentWin.md\#Ink\_Canvas\_Helpers\_PerformanceTransparentWin\_SetTransparentNotHitThrough), 
 [PerformanceTransparentWin.ShouldHandleWindowChromeHitTest\(Point\)](Ink\_Canvas.Helpers.PerformanceTransparentWin.md\#Ink\_Canvas\_Helpers\_PerformanceTransparentWin\_ShouldHandleWindowChromeHitTest\_Point\_)

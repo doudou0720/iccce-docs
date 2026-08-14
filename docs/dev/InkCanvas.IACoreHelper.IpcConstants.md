@@ -9,178 +9,168 @@ public static class IpcConstants
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+object ← 
 [IpcConstants](InkCanvas.IACoreHelper.IpcConstants.md)
-
-#### Inherited Members
-
-[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
-[object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
-[object.Equals\(object, object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
-[object.ReferenceEquals\(object, object\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
-[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
-[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
-[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
 
 ## Fields
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_CmdPingSharedMemoryGeneration"></a> CmdPingSharedMemoryGeneration
 
 ```csharp
-public const byte CmdPingSharedMemoryGeneration = 4
+public const byte CmdPingSharedMemoryGeneration
 ```
 
 #### Field Value
 
- [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+ byte
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_CmdRecognize"></a> CmdRecognize
 
 ```csharp
-public const byte CmdRecognize = 1
+public const byte CmdRecognize
 ```
 
 #### Field Value
 
- [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+ byte
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_CmdRecognizeSharedMemory"></a> CmdRecognizeSharedMemory
 
 ```csharp
-public const byte CmdRecognizeSharedMemory = 2
+public const byte CmdRecognizeSharedMemory
 ```
 
 #### Field Value
 
- [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+ byte
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_CmdRecognizeTextSharedMemory"></a> CmdRecognizeTextSharedMemory
 
 ```csharp
-public const byte CmdRecognizeTextSharedMemory = 3
+public const byte CmdRecognizeTextSharedMemory
 ```
 
 #### Field Value
 
- [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+ byte
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_CmdShutdown"></a> CmdShutdown
 
 ```csharp
-public const byte CmdShutdown = 255
+public const byte CmdShutdown
 ```
 
 #### Field Value
 
- [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+ byte
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_DefaultSharedMemoryCapacity"></a> DefaultSharedMemoryCapacity
 
 ```csharp
-public const int DefaultSharedMemoryCapacity = 4194304
+public const int DefaultSharedMemoryCapacity
 ```
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_MaxSharedMemoryCapacity"></a> MaxSharedMemoryCapacity
 
 ```csharp
-public const int MaxSharedMemoryCapacity = 33554432
+public const int MaxSharedMemoryCapacity
 ```
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_PipeName"></a> PipeName
 
 ```csharp
-public const string PipeName = "ICC_IACoreHelper_{0}"
+public const string PipeName
 ```
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_ProtocolVersion"></a> ProtocolVersion
 
 ```csharp
-public const int ProtocolVersion = 2
+public const int ProtocolVersion
 ```
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_RequestTimeout"></a> RequestTimeout
 
 ```csharp
-public const int RequestTimeout = 5000
+public const int RequestTimeout
 ```
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_SharedMemoryHeaderSize"></a> SharedMemoryHeaderSize
 
 ```csharp
-public const int SharedMemoryHeaderSize = 24
+public const int SharedMemoryHeaderSize
 ```
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_SharedMemoryMagic"></a> SharedMemoryMagic
 
 ```csharp
-public const int SharedMemoryMagic = 1229013832
+public const int SharedMemoryMagic
 ```
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_SharedMemoryName"></a> SharedMemoryName
 
 ```csharp
-public const string SharedMemoryName = "ICC_IACoreHelper_Shared_{0}_{1}"
+public const string SharedMemoryName
 ```
 
 #### Field Value
 
- [string](https://learn.microsoft.com/dotnet/api/system.string)
+ string
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_StatusError"></a> StatusError
 
 ```csharp
-public const int StatusError = 1
+public const int StatusError
 ```
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_StatusOk"></a> StatusOk
 
 ```csharp
-public const int StatusOk = 0
+public const int StatusOk
 ```
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
 ### <a id="InkCanvas_IACoreHelper_IpcConstants_StatusResponseTooLarge"></a> StatusResponseTooLarge
 
 ```csharp
-public const int StatusResponseTooLarge = 2
+public const int StatusResponseTooLarge
 ```
 
 #### Field Value
 
- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+ int
 
