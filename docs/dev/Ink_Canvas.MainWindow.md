@@ -3,8 +3,15 @@
 Namespace: [Ink\_Canvas](Ink\_Canvas.md)  
 Assembly: InkCanvasForClass.dll  
 
-插件画布合成：背景层注入 + 按页墨迹缓存 + 「背景 + 墨迹」逐页渲染。
-对应 <xref href="Ink_Canvas.Plugins.ICanvasCompositionService" data-throw-if-not-resolved="false"></xref>，由 <xref href="Ink_Canvas.Plugins.CanvasCompositionService" data-throw-if-not-resolved="false"></xref> 转发。
+批注状态点提示：当用户在批注模式下反复点击同一区域时，
+在非屏幕边缘区域显示「当前正处于批注状态」的半透明提示，
+帮助教师意识到当前处于批注模式而非鼠标模式。
+同时支持点击画布即留下可见点状墨迹。
+
+<p>
+实现策略：全部逻辑在 <xref href="Ink_Canvas.MainWindow.ProcessCommittedStroke(Stroke)" data-throw-if-not-resolved="false"></xref> 后处理中完成，
+不拦截 PreviewMouse 事件，避免干扰 InkCanvas 的墨迹采集与平滑管线。
+</p>
 
 ```csharp
 public class MainWindow : PerformanceTransparentWin, IBoardToolbarHost

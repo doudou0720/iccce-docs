@@ -694,6 +694,146 @@ public static string Board_Undo { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_AnnotationDotHint_Exit"></a> Canvas\_AnnotationDotHint\_Exit
+
+```csharp
+public static string Canvas_AnnotationDotHint_Exit { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_AnnotationDotHint_Keep"></a> Canvas\_AnnotationDotHint\_Keep
+
+```csharp
+public static string Canvas_AnnotationDotHint_Keep { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_AnnotationDotHint_Settings_ClickCount"></a> Canvas\_AnnotationDotHint\_Settings\_ClickCount
+
+```csharp
+public static string Canvas_AnnotationDotHint_Settings_ClickCount { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_AnnotationDotHint_Settings_ClusterRadius"></a> Canvas\_AnnotationDotHint\_Settings\_ClusterRadius
+
+```csharp
+public static string Canvas_AnnotationDotHint_Settings_ClusterRadius { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_AnnotationDotHint_Settings_DisplayDuration"></a> Canvas\_AnnotationDotHint\_Settings\_DisplayDuration
+
+```csharp
+public static string Canvas_AnnotationDotHint_Settings_DisplayDuration { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_AnnotationDotHint_Settings_Enable"></a> Canvas\_AnnotationDotHint\_Settings\_Enable
+
+```csharp
+public static string Canvas_AnnotationDotHint_Settings_Enable { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_AnnotationDotHint_Settings_EnableHint"></a> Canvas\_AnnotationDotHint\_Settings\_EnableHint
+
+```csharp
+public static string Canvas_AnnotationDotHint_Settings_EnableHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_AnnotationDotHint_Settings_Preview"></a> Canvas\_AnnotationDotHint\_Settings\_Preview
+
+```csharp
+public static string Canvas_AnnotationDotHint_Settings_Preview { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_AnnotationDotHint_Settings_PreviewHint"></a> Canvas\_AnnotationDotHint\_Settings\_PreviewHint
+
+```csharp
+public static string Canvas_AnnotationDotHint_Settings_PreviewHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_AnnotationDotHint_Settings_PreviewLabel"></a> Canvas\_AnnotationDotHint\_Settings\_PreviewLabel
+
+```csharp
+public static string Canvas_AnnotationDotHint_Settings_PreviewLabel { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_AnnotationDotHint_Settings_PreviewPlaceholder"></a> Canvas\_AnnotationDotHint\_Settings\_PreviewPlaceholder
+
+```csharp
+public static string Canvas_AnnotationDotHint_Settings_PreviewPlaceholder { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_AnnotationDotHint_Settings_PreviewTriggered"></a> Canvas\_AnnotationDotHint\_Settings\_PreviewTriggered
+
+```csharp
+public static string Canvas_AnnotationDotHint_Settings_PreviewTriggered { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_AnnotationDotHint_Settings_StrokeLength"></a> Canvas\_AnnotationDotHint\_Settings\_StrokeLength
+
+```csharp
+public static string Canvas_AnnotationDotHint_Settings_StrokeLength { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_AnnotationDotHint_Text"></a> Canvas\_AnnotationDotHint\_Text
+
+```csharp
+public static string Canvas_AnnotationDotHint_Text { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_FloatingBarStrings_Canvas_EdgeExpandHint_Button"></a> Canvas\_EdgeExpandHint\_Button
 
 ```csharp

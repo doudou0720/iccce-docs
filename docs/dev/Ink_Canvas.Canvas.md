@@ -24,6 +24,54 @@ public class Canvas
 
 ## Properties
 
+### <a id="Ink_Canvas_Canvas_AnnotationDotHintClickCount"></a> AnnotationDotHintClickCount
+
+触发提示的最小连续点击次数。
+
+```csharp
+public int AnnotationDotHintClickCount { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Canvas_AnnotationDotHintClusterRadius"></a> AnnotationDotHintClusterRadius
+
+批注点提示的连续点击范围阈值（像素）。当连续点击的位置都在此半径范围内时触发提示。
+
+```csharp
+public double AnnotationDotHintClusterRadius { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Canvas_AnnotationDotHintDisplayDurationSeconds"></a> AnnotationDotHintDisplayDurationSeconds
+
+提示显示时长（秒）。超过后自动隐藏。
+
+```csharp
+public double AnnotationDotHintDisplayDurationSeconds { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="Ink_Canvas_Canvas_AnnotationDotHintStrokeLengthThreshold"></a> AnnotationDotHintStrokeLengthThreshold
+
+单次触发笔迹长度阈值（像素）。笔迹包围盒最大边长小于此值视为"点击"而非"书写"。
+
+```csharp
+public double AnnotationDotHintStrokeLengthThreshold { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 ### <a id="Ink_Canvas_Canvas_AutoStraightenLine"></a> AutoStraightenLine
 
 ```csharp
@@ -431,6 +479,19 @@ public double InkWidth { get; set; }
 
 ```csharp
 public bool IsCompressPicturesUploaded { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Canvas_IsEnableAnnotationDotHint"></a> IsEnableAnnotationDotHint
+
+是否启用批注状态点提示：在批注模式下连续点击画布时，显示提示提醒用户当前处于批注模式。
+默认开启，帮助教师避免忘记关闭批注。
+
+```csharp
+public bool IsEnableAnnotationDotHint { get; set; }
 ```
 
 #### Property Value
