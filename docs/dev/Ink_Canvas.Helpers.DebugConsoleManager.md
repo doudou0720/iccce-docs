@@ -48,13 +48,15 @@ public static void Hide()
 public static void Show()
 ```
 
-### <a id="Ink_Canvas_Helpers_DebugConsoleManager_WriteLine_System_String_"></a> WriteLine\(string\)
+### <a id="Ink_Canvas_Helpers_DebugConsoleManager_WriteLine_System_String_System_Nullable_System_ConsoleColor__"></a> WriteLine\(string, ConsoleColor?\)
 
 ```csharp
-public static void WriteLine(string line)
+public static void WriteLine(string line, ConsoleColor? color = null)
 ```
 
 #### Parameters
 
 `line` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`color` [ConsoleColor](https://learn.microsoft.com/dotnet/api/system.consolecolor)?
 

@@ -504,6 +504,26 @@ public static string LogByDate { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_AdvancedStrings_LogLevel"></a> LogLevel
+
+```csharp
+public static string LogLevel { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_AdvancedStrings_LogLevelHint"></a> LogLevelHint
+
+```csharp
+public static string LogLevelHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_AdvancedStrings_LogRotateHint"></a> LogRotateHint
 
 ```csharp

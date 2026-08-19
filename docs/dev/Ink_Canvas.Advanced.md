@@ -326,6 +326,16 @@ public DateTime LastAutoBackupTime { get; set; }
 
  [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
 
+### <a id="Ink_Canvas_Advanced_LogLevel"></a> LogLevel
+
+```csharp
+public string LogLevel { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Advanced_NibModeBoundsWidth"></a> NibModeBoundsWidth
 
 ```csharp
