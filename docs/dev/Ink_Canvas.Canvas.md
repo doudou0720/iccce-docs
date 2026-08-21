@@ -488,7 +488,7 @@ public bool IsCompressPicturesUploaded { get; set; }
 ### <a id="Ink_Canvas_Canvas_IsEnableAnnotationDotHint"></a> IsEnableAnnotationDotHint
 
 是否启用批注状态点提示：在批注模式下连续点击画布时，显示提示提醒用户当前处于批注模式。
-默认开启，帮助教师避免忘记关闭批注。
+默认关闭，避免打扰
 
 ```csharp
 public bool IsEnableAnnotationDotHint { get; set; }
