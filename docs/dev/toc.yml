@@ -292,6 +292,8 @@
     href: Ink_Canvas.Controls.ImageResizeCorner.md
   - name: PPTNavBar.NavDirection
     href: Ink_Canvas.Controls.PPTNavBar.NavDirection.md
+  - name: SelectionOverlayMode
+    href: Ink_Canvas.Controls.SelectionOverlayMode.md
 - name: Ink_Canvas.Controls.Toolbar
   href: Ink_Canvas.Controls.Toolbar.md
   items:

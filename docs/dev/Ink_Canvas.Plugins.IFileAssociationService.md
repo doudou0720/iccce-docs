@@ -27,12 +27,12 @@ bool IsRegistered(string extension)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="Ink_Canvas_Plugins_IFileAssociationService_Register_System_String_System_String_System_String_System_String_"></a> Register\(string, string, string, string\)
+### <a id="Ink_Canvas_Plugins_IFileAssociationService_Register_System_String_System_String_System_String_System_String_System_String_"></a> Register\(string, string, string, string, string\)
 
 注册文件关联（需要管理员权限）。
 
 ```csharp
-bool Register(string extension, string progId, string description, string iconPath = null)
+bool Register(string extension, string progId, string description, string iconPath = null, string pluginId = null)
 ```
 
 #### Parameters
@@ -52,6 +52,11 @@ bool Register(string extension, string progId, string description, string iconPa
 `iconPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 图标路径（可选）
+
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+归属插件 ID（可选）。调用发生在 <code>Initialize</code> 之外（如设置页）时宿主无法自动识别调用方，
+    必须显式传插件自身 ID，否则双击打开对应扩展名文件时宿主不派发任何插件；建议传插件的 <code>Manifest.Id</code>。
 
 #### Returns
 

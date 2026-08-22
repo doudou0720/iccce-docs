@@ -923,30 +923,6 @@ public PopupManagerHelper GetPopupManager()
 
  [PopupManagerHelper](Ink\_Canvas.Helpers.PopupManagerHelper.md)
 
-### <a id="Ink_Canvas_MainWindow_GetTouchBoundWidth_TouchEventArgs_"></a> GetTouchBoundWidth\(TouchEventArgs\)
-
-获取触摸边界宽度方法
-
-```csharp
-public double GetTouchBoundWidth(TouchEventArgs e)
-```
-
-#### Parameters
-
-`e` TouchEventArgs
-
-触摸事件参数
-
-#### Returns
-
- [double](https://learn.microsoft.com/dotnet/api/system.double)
-
-返回触摸边界宽度
-
-#### Remarks
-
-手掌擦阈值与特殊屏 <code>TouchMultiplier</code> 在激活逻辑中单独参与计算，此处仅返回几何接触尺寸。
-
 ### <a id="Ink_Canvas_MainWindow_HandleUriCommand_System_String_"></a> HandleUriCommand\(string\)
 
 ```csharp

@@ -34,6 +34,16 @@ public IInputElement CoordinateSource { get; set; }
 
 ## Methods
 
+### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_SetMode_Ink_Canvas_Controls_SelectionOverlayMode_"></a> SetMode\(SelectionOverlayMode\)
+
+```csharp
+public void SetMode(SelectionOverlayMode mode)
+```
+
+#### Parameters
+
+`mode` [SelectionOverlayMode](Ink\_Canvas.Controls.SelectionOverlayMode.md)
+
 ### <a id="Ink_Canvas_Controls_ImageSelectionOverlay_UpdateFrame_Point_System_Double_System_Double_System_Double_"></a> UpdateFrame\(Point, double, double, double\)
 
 Position overlay so its logical rect (width × height) is centered at centerCanvas,

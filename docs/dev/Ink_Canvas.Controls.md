@@ -112,3 +112,5 @@ PPT 翻页 + 增强预览一体化控件。
 
  [PPTNavBar.NavDirection](Ink\_Canvas.Controls.PPTNavBar.NavDirection.md)
 
+ [SelectionOverlayMode](Ink\_Canvas.Controls.SelectionOverlayMode.md)
+

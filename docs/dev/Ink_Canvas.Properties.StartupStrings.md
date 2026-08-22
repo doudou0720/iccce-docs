@@ -174,6 +174,26 @@ public static string NoFocusModeHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_StartupStrings_PPTOnlyMode"></a> PPTOnlyMode
+
+```csharp
+public static string PPTOnlyMode { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_PPTOnlyModeHint"></a> PPTOnlyModeHint
+
+```csharp
+public static string PPTOnlyModeHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_StartupStrings_ResourceManager"></a> ResourceManager
 
 ```csharp

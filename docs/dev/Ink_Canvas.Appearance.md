@@ -234,6 +234,16 @@ public bool EnableLiquidGlassBar { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Appearance_EnablePPTPageKeyHook"></a> EnablePPTPageKeyHook
+
+```csharp
+public bool EnablePPTPageKeyHook { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Appearance_EnableSplashScreen"></a> EnableSplashScreen
 
 ```csharp

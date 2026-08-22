@@ -174,6 +174,26 @@ public static string Hotkey_EnableHotkeysInMouseModeHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_EnablePPTPageKeyHook"></a> Hotkey\_EnablePPTPageKeyHook
+
+```csharp
+public static string Hotkey_EnablePPTPageKeyHook { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_EnablePPTPageKeyHookHint"></a> Hotkey\_EnablePPTPageKeyHookHint
+
+```csharp
+public static string Hotkey_EnablePPTPageKeyHookHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_HotkeyStrings_Hotkey_EraserTool"></a> Hotkey\_EraserTool
 
 ```csharp
