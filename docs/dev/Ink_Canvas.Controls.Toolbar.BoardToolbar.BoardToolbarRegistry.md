@@ -277,7 +277,7 @@ public static void RebuildToolbar(IBoardToolbarHost host, Panel leftContainer, P
 后续启动只加入组件库，避免用户删除组件后重启又被自动加回。
 
 ```csharp
-public static void RegisterPluginItem(PluginToolbarItemInfo itemInfo, bool autoAddToActiveConfig = true)
+public static bool RegisterPluginItem(PluginToolbarItemInfo itemInfo, bool autoAddToActiveConfig = true)
 ```
 
 #### Parameters
@@ -285,6 +285,10 @@ public static void RegisterPluginItem(PluginToolbarItemInfo itemInfo, bool autoA
 `itemInfo` PluginToolbarItemInfo
 
 `autoAddToActiveConfig` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_BoardToolbar_BoardToolbarRegistry_RemovePluginEntryFromAllConfigs_System_String_"></a> RemovePluginEntryFromAllConfigs\(string\)
 

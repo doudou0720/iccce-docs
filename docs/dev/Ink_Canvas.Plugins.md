@@ -4,6 +4,26 @@
 
  [AppRestartService](Ink\_Canvas.Plugins.AppRestartService.md)
 
+ [CanvasKeyEventArgs](Ink\_Canvas.Plugins.CanvasKeyEventArgs.md)
+
+与宿主内部键盘路由解耦的画布工具按键事件。
+
+ [CanvasLineFinalizedEventArgs](Ink\_Canvas.Plugins.CanvasLineFinalizedEventArgs.md)
+
+宿主完成全部笔迹后处理后发布的直线候选。候选令牌仅能成功消费一次。
+
+ [CanvasPointerEventArgs](Ink\_Canvas.Plugins.CanvasPointerEventArgs.md)
+
+与宿主内部输入类型解耦的画布指针事件。
+
+ [CanvasViewportTransformEventArgs](Ink\_Canvas.Plugins.CanvasViewportTransformEventArgs.md)
+
+宿主对整张普通白板内容应用的增量视口变换。
+
+ [CompatibilityResult](Ink\_Canvas.Plugins.CompatibilityResult.md)
+
+兼容性检查结果。
+
  [CompatibilityResult](Ink\_Canvas.Plugins.CompatibilityResult.md)
 
 兼容性检查结果。
@@ -45,6 +65,8 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
  [PluginCameraInfo](Ink\_Canvas.Plugins.PluginCameraInfo.md)
 
 摄像头信息。
+
+ [PluginCompatibility](Ink\_Canvas.Plugins.PluginCompatibility.md)
 
  [PluginCompatibility](Ink\_Canvas.Plugins.PluginCompatibility.md)
 
@@ -181,8 +203,6 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 
  [PluginToolbarItemInfo](Ink\_Canvas.Plugins.PluginToolbarItemInfo.md)
 
-插件工具栏项信息，用于向主程序注册工具栏组件。
-
  [PluginToolbarSettingInfo](Ink\_Canvas.Plugins.PluginToolbarSettingInfo.md)
 
 插件工具栏项的自定义设置描述。
@@ -210,6 +230,14 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
  [SecurityVerdict](Ink\_Canvas.Plugins.SecurityVerdict.md)
 
 评估结果，用于安装前的安全提示。
+
+ [WhiteboardPageChangedEventArgs](Ink\_Canvas.Plugins.WhiteboardPageChangedEventArgs.md)
+
+ [WhiteboardPageChangingEventArgs](Ink\_Canvas.Plugins.WhiteboardPageChangingEventArgs.md)
+
+ [WhiteboardPageInfo](Ink\_Canvas.Plugins.WhiteboardPageInfo.md)
+
+ [WhiteboardPageRemovedEventArgs](Ink\_Canvas.Plugins.WhiteboardPageRemovedEventArgs.md)
 
 ### Structs
 
@@ -243,6 +271,10 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 <p>底层复用宿主视频展台的 DirectShow 采集（<code>CameraServiceFactory.Create()</code>），
 与展台共用摄像头设备——插件启动预览可能抢占展台正在使用的设备。</p>
 <p>帧回调在后台线程触发，返回的 <xref href="System.Windows.Media.Imaging.BitmapSource" data-throw-if-not-resolved="false"></xref> 已 Freeze。</p>
+
+ [ICanvasAppearanceService](Ink\_Canvas.Plugins.ICanvasAppearanceService.md)
+
+Exposes presentation-neutral canvas appearance information to plugins.
 
  [ICanvasCompositionService](Ink\_Canvas.Plugins.ICanvasCompositionService.md)
 
@@ -283,6 +315,22 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 当前页处于墨迹冻结状态时，变更类操作会被拒绝并返回 <code>false</code>。
 </p>
 
+ [ICanvasLayerService](Ink\_Canvas.Plugins.ICanvasLayerService.md)
+
+插件画布图层服务。图层 ID 在同一插件内必须唯一；插件卸载时宿主会统一清理。
+
+ [ICanvasLineConversionService](Ink\_Canvas.Plugins.ICanvasLineConversionService.md)
+
+允许插件把宿主最终直线与自己的结构化状态作为一个撤销项进行原子转换。
+
+ [ICanvasToolService](Ink\_Canvas.Plugins.ICanvasToolService.md)
+
+ [ICanvasToolSession](Ink\_Canvas.Plugins.ICanvasToolSession.md)
+
+插件工具的独占输入会话。释放后宿主恢复进入工具前的普通墨迹模式。
+
+ [ICanvasViewportService](Ink\_Canvas.Plugins.ICanvasViewportService.md)
+
  [IClipboardService](Ink\_Canvas.Plugins.IClipboardService.md)
 
 剪贴板服务：允许插件读取/写入系统剪贴板文本与图像，并订阅剪贴板变化事件。
@@ -309,6 +357,11 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
 文件对话框服务：供插件弹出标准的 Windows 打开/保存文件对话框。
 
 <p>宿主内部切到 UI 线程展示对话框，以宿主主窗口为所有者。</p>
+
+ [IFocusInteractionService](Ink\_Canvas.Plugins.IFocusInteractionService.md)
+
+让插件的临时交互界面在宿主无焦点模式下仍可接收输入。
+同一插件重复设置为 active 不会重复计数；关闭或卸载时必须设置为 false。
 
  [IHotkeyService](Ink\_Canvas.Plugins.IHotkeyService.md)
 
@@ -442,11 +495,33 @@ PowerPoint 控制服务，供插件操控 PPT 联动。
 不会破坏宿主菜单的动态状态更新。
 </p>
 
+ [IUndoService](Ink\_Canvas.Plugins.IUndoService.md)
+
+将插件的结构化状态快照接入宿主统一撤销/重做链路。
+
  [IUpdateService](Ink\_Canvas.Plugins.IUpdateService.md)
 
 更新服务：供插件检查宿主是否有新版本、读取更新日志、触发安装或取消下载。
 
 <p>底层复用宿主 <code>AutoUpdateHelper</code>，与软件内置的检查更新共用同一套更新源与校验。</p>
+
+ [IWhiteboardCompanionStateProvider](Ink\_Canvas.Plugins.IWhiteboardCompanionStateProvider.md)
+
+可选契约：把某页已捕获的插件状态导出为与宿主文档并列的兼容文件。
+扩展名必须是无目录部分的复合扩展名，例如 ".feature.json"。
+
+ [IWhiteboardDocumentService](Ink\_Canvas.Plugins.IWhiteboardDocumentService.md)
+
+ [IWhiteboardInitialHistoryProvider](Ink\_Canvas.Plugins.IWhiteboardInitialHistoryProvider.md)
+
+可选契约：文档载入已有插件状态时，为宿主时间机器提供空白基线。
+
+ [IWhiteboardLegacyStateImporter](Ink\_Canvas.Plugins.IWhiteboardLegacyStateImporter.md)
+
+Optional importer for page state written by a feature before it became a plugin.
+Returning null means that no compatible legacy state exists at the supplied location.
+
+ [IWhiteboardPageStateProvider](Ink\_Canvas.Plugins.IWhiteboardPageStateProvider.md)
 
  [IWindowOverviewService](Ink\_Canvas.Plugins.IWindowOverviewService.md)
 
@@ -457,6 +532,16 @@ PowerPoint 控制服务，供插件操控 PPT 联动。
 窗口控制服务，供插件操控主窗口状态。
 
 ### Enums
+
+ [CanvasLayerPlacement](Ink\_Canvas.Plugins.CanvasLayerPlacement.md)
+
+插件画布图层相对于普通墨迹层的位置。
+
+ [CanvasLineSource](Ink\_Canvas.Plugins.CanvasLineSource.md)
+
+ [CanvasPointerAction](Ink\_Canvas.Plugins.CanvasPointerAction.md)
+
+ [CanvasPointerDeviceKind](Ink\_Canvas.Plugins.CanvasPointerDeviceKind.md)
 
  [DependencyIssueCode](Ink\_Canvas.Plugins.DependencyIssueCode.md)
 
@@ -485,6 +570,10 @@ PowerPoint 控制服务，供插件操控 PPT 联动。
  [PluginToolbarSettingType](Ink\_Canvas.Plugins.PluginToolbarSettingType.md)
 
 插件工具栏设置项类型。
+
+ [PluginToolbarSurface](Ink\_Canvas.Plugins.PluginToolbarSurface.md)
+
+插件工具栏项信息，用于向主程序注册工具栏组件。
 
  [PluginTrustLevel](Ink\_Canvas.Plugins.PluginTrustLevel.md)
 

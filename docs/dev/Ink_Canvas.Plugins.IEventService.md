@@ -9,6 +9,20 @@ Assembly: InkCanvas.PluginSdk.dll
 public interface IEventService
 ```
 
+## Properties
+
+### <a id="Ink_Canvas_Plugins_IEventService_IsWhiteboardMode"></a> IsWhiteboardMode
+
+当前是否处于普通白板模式。
+
+```csharp
+bool IsWhiteboardMode { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Plugins_IEventService_AppExiting"></a> AppExiting
 
 应用即将退出时触发

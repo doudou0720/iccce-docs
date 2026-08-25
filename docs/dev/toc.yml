@@ -493,6 +493,8 @@
     href: Ink_Canvas.Helpers.IpcIACoreClient.md
   - name: LocalizationHelper
     href: Ink_Canvas.Helpers.LocalizationHelper.md
+  - name: LogHelper
+    href: Ink_Canvas.Helpers.LogHelper.md
   - name: LrcChar
     href: Ink_Canvas.Helpers.LrcChar.md
   - name: LrcData
@@ -626,6 +628,8 @@
     href: Ink_Canvas.Helpers.InkSmoothingConfig.InkSmoothingQuality.md
   - name: InkSmoothingConfig.SmoothingQuality
     href: Ink_Canvas.Helpers.InkSmoothingConfig.SmoothingQuality.md
+  - name: LogHelper.LogType
+    href: Ink_Canvas.Helpers.LogHelper.LogType.md
   - name: RecognizeLanguage
     href: Ink_Canvas.Helpers.RecognizeLanguage.md
   - name: ShapeRecognitionEngineMode
@@ -678,6 +682,14 @@
   - name: Classes
   - name: AppRestartService
     href: Ink_Canvas.Plugins.AppRestartService.md
+  - name: CanvasKeyEventArgs
+    href: Ink_Canvas.Plugins.CanvasKeyEventArgs.md
+  - name: CanvasLineFinalizedEventArgs
+    href: Ink_Canvas.Plugins.CanvasLineFinalizedEventArgs.md
+  - name: CanvasPointerEventArgs
+    href: Ink_Canvas.Plugins.CanvasPointerEventArgs.md
+  - name: CanvasViewportTransformEventArgs
+    href: Ink_Canvas.Plugins.CanvasViewportTransformEventArgs.md
   - name: CompatibilityResult
     href: Ink_Canvas.Plugins.CompatibilityResult.md
   - name: DependencyAnalysis
@@ -780,6 +792,14 @@
     href: Ink_Canvas.Plugins.PresentationSourceDescriptor.md
   - name: SecurityVerdict
     href: Ink_Canvas.Plugins.SecurityVerdict.md
+  - name: WhiteboardPageChangedEventArgs
+    href: Ink_Canvas.Plugins.WhiteboardPageChangedEventArgs.md
+  - name: WhiteboardPageChangingEventArgs
+    href: Ink_Canvas.Plugins.WhiteboardPageChangingEventArgs.md
+  - name: WhiteboardPageInfo
+    href: Ink_Canvas.Plugins.WhiteboardPageInfo.md
+  - name: WhiteboardPageRemovedEventArgs
+    href: Ink_Canvas.Plugins.WhiteboardPageRemovedEventArgs.md
   - name: Structs
   - name: PluginVisiblePage
     href: Ink_Canvas.Plugins.PluginVisiblePage.md
@@ -794,12 +814,24 @@
     href: Ink_Canvas.Plugins.IBackupService.md
   - name: ICameraService
     href: Ink_Canvas.Plugins.ICameraService.md
+  - name: ICanvasAppearanceService
+    href: Ink_Canvas.Plugins.ICanvasAppearanceService.md
   - name: ICanvasCompositionService
     href: Ink_Canvas.Plugins.ICanvasCompositionService.md
   - name: ICanvasElementService
     href: Ink_Canvas.Plugins.ICanvasElementService.md
   - name: ICanvasInkService
     href: Ink_Canvas.Plugins.ICanvasInkService.md
+  - name: ICanvasLayerService
+    href: Ink_Canvas.Plugins.ICanvasLayerService.md
+  - name: ICanvasLineConversionService
+    href: Ink_Canvas.Plugins.ICanvasLineConversionService.md
+  - name: ICanvasToolService
+    href: Ink_Canvas.Plugins.ICanvasToolService.md
+  - name: ICanvasToolSession
+    href: Ink_Canvas.Plugins.ICanvasToolSession.md
+  - name: ICanvasViewportService
+    href: Ink_Canvas.Plugins.ICanvasViewportService.md
   - name: IClipboardService
     href: Ink_Canvas.Plugins.IClipboardService.md
   - name: IConfigProfileService
@@ -810,6 +842,8 @@
     href: Ink_Canvas.Plugins.IFileAssociationService.md
   - name: IFileDialogService
     href: Ink_Canvas.Plugins.IFileDialogService.md
+  - name: IFocusInteractionService
+    href: Ink_Canvas.Plugins.IFocusInteractionService.md
   - name: IHotkeyService
     href: Ink_Canvas.Plugins.IHotkeyService.md
   - name: IInkEffectService
@@ -848,13 +882,33 @@
     href: Ink_Canvas.Plugins.IThemeService.md
   - name: ITrayService
     href: Ink_Canvas.Plugins.ITrayService.md
+  - name: IUndoService
+    href: Ink_Canvas.Plugins.IUndoService.md
   - name: IUpdateService
     href: Ink_Canvas.Plugins.IUpdateService.md
+  - name: IWhiteboardCompanionStateProvider
+    href: Ink_Canvas.Plugins.IWhiteboardCompanionStateProvider.md
+  - name: IWhiteboardDocumentService
+    href: Ink_Canvas.Plugins.IWhiteboardDocumentService.md
+  - name: IWhiteboardInitialHistoryProvider
+    href: Ink_Canvas.Plugins.IWhiteboardInitialHistoryProvider.md
+  - name: IWhiteboardLegacyStateImporter
+    href: Ink_Canvas.Plugins.IWhiteboardLegacyStateImporter.md
+  - name: IWhiteboardPageStateProvider
+    href: Ink_Canvas.Plugins.IWhiteboardPageStateProvider.md
   - name: IWindowOverviewService
     href: Ink_Canvas.Plugins.IWindowOverviewService.md
   - name: IWindowService
     href: Ink_Canvas.Plugins.IWindowService.md
   - name: Enums
+  - name: CanvasLayerPlacement
+    href: Ink_Canvas.Plugins.CanvasLayerPlacement.md
+  - name: CanvasLineSource
+    href: Ink_Canvas.Plugins.CanvasLineSource.md
+  - name: CanvasPointerAction
+    href: Ink_Canvas.Plugins.CanvasPointerAction.md
+  - name: CanvasPointerDeviceKind
+    href: Ink_Canvas.Plugins.CanvasPointerDeviceKind.md
   - name: DependencyIssueCode
     href: Ink_Canvas.Plugins.DependencyIssueCode.md
   - name: IssueSeverity
@@ -871,6 +925,8 @@
     href: Ink_Canvas.Plugins.PluginTheme.md
   - name: PluginToolbarSettingType
     href: Ink_Canvas.Plugins.PluginToolbarSettingType.md
+  - name: PluginToolbarSurface
+    href: Ink_Canvas.Plugins.PluginToolbarSurface.md
   - name: PluginTrustLevel
     href: Ink_Canvas.Plugins.PluginTrustLevel.md
   - name: PluginUpdateChannel

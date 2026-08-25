@@ -3,8 +3,6 @@
 Namespace: [Ink\_Canvas.Plugins](Ink\_Canvas.Plugins.md)  
 Assembly: InkCanvas.PluginSdk.dll  
 
-插件工具栏项信息，用于向主程序注册工具栏组件。
-
 ```csharp
 public class PluginToolbarItemInfo
 ```
@@ -49,6 +47,18 @@ public Action<FrameworkElement, Dictionary<string, object>> ApplySettings { get;
 #### Property Value
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement), [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [object](https://learn.microsoft.com/dotnet/api/system.object)\>\>
+
+### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_BindPopupController"></a> BindPopupController
+
+宿主创建弹窗后调用此绑定回调，并提供一个可供插件请求打开或关闭弹窗的函数。
+
+```csharp
+public Action<Action<bool>> BindPopupController { get; set; }
+```
+
+#### Property Value
+
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>\>
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_CustomSettings"></a> CustomSettings
 
@@ -122,6 +132,30 @@ public Func<FrameworkElement> PopupContentFactory { get; set; }
 #### Property Value
 
  [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[FrameworkElement](https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement)\>
+
+### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_PopupStateChanged"></a> PopupStateChanged
+
+弹窗实际打开或关闭时由宿主通知插件。
+
+```csharp
+public Action<bool> PopupStateChanged { get; set; }
+```
+
+#### Property Value
+
+ [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
+
+### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_Surface"></a> Surface
+
+组件注册的目标工具栏（浮动/白板）。
+
+```csharp
+public PluginToolbarSurface Surface { get; set; }
+```
+
+#### Property Value
+
+ [PluginToolbarSurface](Ink\_Canvas.Plugins.PluginToolbarSurface.md)
 
 ### <a id="Ink_Canvas_Plugins_PluginToolbarItemInfo_ViewFactory"></a> ViewFactory
 

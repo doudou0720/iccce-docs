@@ -293,7 +293,7 @@ public static void Populate(IToolbarHost host, Panel rootPanel, ToolbarLayoutSet
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_RegisterPluginItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_System_Boolean_"></a> RegisterPluginItem\(PluginToolbarItemInfo, bool\)
 
 ```csharp
-public static void RegisterPluginItem(PluginToolbarItemInfo itemInfo, bool autoAddToActiveConfig = true)
+public static bool RegisterPluginItem(PluginToolbarItemInfo itemInfo, bool autoAddToActiveConfig = true)
 ```
 
 #### Parameters
@@ -301,6 +301,10 @@ public static void RegisterPluginItem(PluginToolbarItemInfo itemInfo, bool autoA
 `itemInfo` PluginToolbarItemInfo
 
 `autoAddToActiveConfig` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### <a id="Ink_Canvas_Controls_Toolbar_FloatingToolbar_ToolbarRegistry_RemovePluginEntryFromAllConfigs_System_String_"></a> RemovePluginEntryFromAllConfigs\(string\)
 

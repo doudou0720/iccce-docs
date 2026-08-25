@@ -1,7 +1,7 @@
 # <a id="Ink_Canvas_Plugins_CompatibilityResult"></a> Class CompatibilityResult
 
 Namespace: [Ink\_Canvas.Plugins](Ink\_Canvas.Plugins.md)  
-Assembly: InkCanvasForClass.dll  
+Assembly: InkCanvasForClass.dll, InkCanvas.PluginSdk.Tests.dll  
 
 兼容性检查结果。
 
@@ -36,6 +36,26 @@ public bool IsCompatible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Plugins_CompatibilityResult_IsCompatible"></a> IsCompatible
+
+```csharp
+public bool IsCompatible { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Plugins_CompatibilityResult_Reason"></a> Reason
+
+```csharp
+public string Reason { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Plugins_CompatibilityResult_Reason"></a> Reason
 
 ```csharp
@@ -57,6 +77,30 @@ public static CompatibilityResult Fail(string reason)
 #### Parameters
 
 `reason` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [CompatibilityResult](Ink\_Canvas.Plugins.CompatibilityResult.md)
+
+### <a id="Ink_Canvas_Plugins_CompatibilityResult_Fail_System_String_"></a> Fail\(string\)
+
+```csharp
+public static CompatibilityResult Fail(string reason)
+```
+
+#### Parameters
+
+`reason` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [CompatibilityResult](Ink\_Canvas.Plugins.CompatibilityResult.md)
+
+### <a id="Ink_Canvas_Plugins_CompatibilityResult_Ok"></a> Ok\(\)
+
+```csharp
+public static CompatibilityResult Ok()
+```
 
 #### Returns
 
