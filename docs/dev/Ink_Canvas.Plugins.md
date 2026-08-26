@@ -24,10 +24,6 @@
 
 兼容性检查结果。
 
- [CompatibilityResult](Ink\_Canvas.Plugins.CompatibilityResult.md)
-
-兼容性检查结果。
-
  [DependencyAnalysis](Ink\_Canvas.Plugins.DependencyAnalysis.md)
 
 一组 <xref href="Ink_Canvas.Plugins.DependencyIssue" data-throw-if-not-resolved="false"></xref> 的归纳报告。
@@ -65,8 +61,6 @@ IPC 消息结构（JSON 透明传输）。宿主与插件共用。
  [PluginCameraInfo](Ink\_Canvas.Plugins.PluginCameraInfo.md)
 
 摄像头信息。
-
- [PluginCompatibility](Ink\_Canvas.Plugins.PluginCompatibility.md)
 
  [PluginCompatibility](Ink\_Canvas.Plugins.PluginCompatibility.md)
 

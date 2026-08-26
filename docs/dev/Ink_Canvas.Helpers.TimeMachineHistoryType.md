@@ -1,7 +1,7 @@
 # <a id="Ink_Canvas_Helpers_TimeMachineHistoryType"></a> Enum TimeMachineHistoryType
 
 Namespace: [Ink\_Canvas.Helpers](Ink\_Canvas.Helpers.md)  
-Assembly: InkCanvasForClass.dll, InkCanvas.PluginSdk.Tests.dll  
+Assembly: InkCanvasForClass.dll  
 
 ```csharp
 public enum TimeMachineHistoryType

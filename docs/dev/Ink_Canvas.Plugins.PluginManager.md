@@ -351,6 +351,22 @@ public Task LoadAllAsync()
 
  [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)
 
+### <a id="Ink_Canvas_Plugins_PluginManager_LoadPlugin_System_String_"></a> LoadPlugin\(string\)
+
+加载指定插件。插件必须已经被发现且当前未处于 Loaded 状态。
+
+```csharp
+public bool LoadPlugin(string pluginId)
+```
+
+#### Parameters
+
+`pluginId` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### Returns
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Plugins_PluginManager_Log_System_String_"></a> Log\(string\)
 
 写入普通日志。仅写入当前插件独立的日志文件（<code>PluginLogs/&lt;plugin-id&gt;/</code>），
@@ -451,7 +467,7 @@ public bool OpenUri(string uri)
 ### <a id="Ink_Canvas_Plugins_PluginManager_PurgeUnloadedPlugin_Ink_Canvas_Plugins_PluginInfo_"></a> PurgeUnloadedPlugin\(PluginInfo\)
 
 删除一个未加载插件的全部磁盘残留：插件目录、配置目录、日志目录、
-错误恢复记录与禁用标记。已加载的插件请走 <xref href="Ink_Canvas.Plugins.PluginManager.UnloadPlugin(Ink_Canvas.Plugins.PluginInfo%2cSystem.Boolean)" data-throw-if-not-resolved="false"></xref>
+错误恢复记录与禁用标记。已加载的插件请走 <xref href="Ink_Canvas.Plugins.PluginManager.UnloadPlugin(Ink_Canvas.Plugins.PluginInfo%2cSystem.Boolean%2cSystem.Boolean)" data-throw-if-not-resolved="false"></xref>
 并传 <code>deleteFolder: true</code>。
 
 ```csharp
@@ -464,7 +480,10 @@ public void PurgeUnloadedPlugin(PluginInfo plugin)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_RegisterBoardToolbarItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterBoardToolbarItem\(PluginToolbarItemInfo\)
 
-向白板工具栏注册插件组件。行为与 <xref href="Ink_Canvas.Plugins.PluginManager.RegisterToolbarItem(Ink_Canvas.Plugins.PluginToolbarItemInfo)" data-throw-if-not-resolved="false"></xref> 相同，仅目标工具栏不同。
+旧版接口：固定向白板工具栏注册插件组件（无论 <xref href="Ink_Canvas.Plugins.PluginToolbarItemInfo.Surface" data-throw-if-not-resolved="false"></xref> 取值）。
+与 <xref href="Ink_Canvas.Plugins.PluginManager.RegisterToolbarItem(Ink_Canvas.Plugins.PluginToolbarItemInfo)" data-throw-if-not-resolved="false"></xref> 共用同一实现，同样按插件登记，
+卸载/初始化失败回滚时会由 <xref href="Ink_Canvas.Plugins.PluginManager.UnregisterToolbarItems(System.String)" data-throw-if-not-resolved="false"></xref> 统一撤销。
+新插件请改用 <xref href="Ink_Canvas.Plugins.PluginManager.RegisterToolbarItem(Ink_Canvas.Plugins.PluginToolbarItemInfo)" data-throw-if-not-resolved="false"></xref> 并设置 Surface = Whiteboard。
 
 ```csharp
 public void RegisterBoardToolbarItem(PluginToolbarItemInfo itemInfo)
@@ -524,7 +543,8 @@ public void RegisterService(Type serviceType, object service)
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_RegisterToolbarItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterToolbarItem\(PluginToolbarItemInfo\)
 
-向浮动工具栏注册插件组件。
+向工具栏注册插件组件。目标工具栏由 <xref href="Ink_Canvas.Plugins.PluginToolbarItemInfo.Surface" data-throw-if-not-resolved="false"></xref> 决定：
+Whiteboard 注册到白板工具栏，其余注册到浮动工具栏。
 
 ```csharp
 public void RegisterToolbarItem(PluginToolbarItemInfo itemInfo)
@@ -620,12 +640,12 @@ public bool TryDispatchUri(string pluginId, string subPath, string rawUri)
 public void UnloadAll()
 ```
 
-### <a id="Ink_Canvas_Plugins_PluginManager_UnloadPlugin_Ink_Canvas_Plugins_PluginInfo_System_Boolean_"></a> UnloadPlugin\(PluginInfo, bool\)
+### <a id="Ink_Canvas_Plugins_PluginManager_UnloadPlugin_Ink_Canvas_Plugins_PluginInfo_System_Boolean_System_Boolean_"></a> UnloadPlugin\(PluginInfo, bool, bool\)
 
 卸载插件：撤销所有宿主注册、释放 AssemblyLoadContext，并按需删除插件目录。
 
 ```csharp
-public void UnloadPlugin(PluginInfo plugin, bool deleteFolder = false)
+public void UnloadPlugin(PluginInfo plugin, bool deleteFolder = false, bool keepInList = false)
 ```
 
 #### Parameters
@@ -638,6 +658,10 @@ public void UnloadPlugin(PluginInfo plugin, bool deleteFolder = false)
 
 true = 真正卸载，连同插件目录一并删除（用户点"删除"）；
 false = 仅卸载实例并释放目录锁，保留文件（热重载 / 覆盖安装）。
+
+`keepInList` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+true = 保留插件信息以便稍后从页面再次加载；false = 从已安装列表移除（重载/删除流程）。
 
 ### <a id="Ink_Canvas_Plugins_PluginManager_WaitForUnload_System_String_System_Int32_"></a> WaitForUnload\(string, int\)
 

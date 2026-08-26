@@ -138,7 +138,9 @@ void LogError(string message, Exception ex = null)
 
 ### <a id="Ink_Canvas_Plugins_IPluginHost_RegisterBoardToolbarItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterBoardToolbarItem\(PluginToolbarItemInfo\)
 
-向白板工具栏注册插件组件。行为与 <xref href="Ink_Canvas.Plugins.IPluginHost.RegisterToolbarItem(Ink_Canvas.Plugins.PluginToolbarItemInfo)" data-throw-if-not-resolved="false"></xref> 相同，仅目标工具栏不同。
+旧版接口：固定向白板工具栏注册插件组件，与 <xref href="Ink_Canvas.Plugins.IPluginHost.RegisterToolbarItem(Ink_Canvas.Plugins.PluginToolbarItemInfo)" data-throw-if-not-resolved="false"></xref> 共用同一实现。
+新插件请改用 <xref href="Ink_Canvas.Plugins.IPluginHost.RegisterToolbarItem(Ink_Canvas.Plugins.PluginToolbarItemInfo)" data-throw-if-not-resolved="false"></xref> 并设置 <xref href="Ink_Canvas.Plugins.PluginToolbarItemInfo.Surface" data-throw-if-not-resolved="false"></xref>
+= <xref href="Ink_Canvas.Plugins.PluginToolbarSurface.Whiteboard" data-throw-if-not-resolved="false"></xref>。
 
 ```csharp
 void RegisterBoardToolbarItem(PluginToolbarItemInfo itemInfo)
@@ -193,7 +195,8 @@ void RegisterService<T>(T service) where T : class
 
 ### <a id="Ink_Canvas_Plugins_IPluginHost_RegisterToolbarItem_Ink_Canvas_Plugins_PluginToolbarItemInfo_"></a> RegisterToolbarItem\(PluginToolbarItemInfo\)
 
-向浮动工具栏注册插件组件。
+向工具栏注册插件组件。目标工具栏由 <xref href="Ink_Canvas.Plugins.PluginToolbarItemInfo.Surface" data-throw-if-not-resolved="false"></xref> 决定：
+Whiteboard 注册到白板工具栏，其余注册到浮动工具栏。
 
 ```csharp
 void RegisterToolbarItem(PluginToolbarItemInfo itemInfo)

@@ -54,8 +54,6 @@
 
  [PluginStrings](Ink\_Canvas.Properties.PluginStrings.md)
 
- [PluginStrings](Ink\_Canvas.Properties.PluginStrings.md)
-
  [PopupStrings](Ink\_Canvas.Properties.PopupStrings.md)
 
  [RandomStrings](Ink\_Canvas.Properties.RandomStrings.md)

@@ -493,8 +493,6 @@
     href: Ink_Canvas.Helpers.IpcIACoreClient.md
   - name: LocalizationHelper
     href: Ink_Canvas.Helpers.LocalizationHelper.md
-  - name: LogHelper
-    href: Ink_Canvas.Helpers.LogHelper.md
   - name: LrcChar
     href: Ink_Canvas.Helpers.LrcChar.md
   - name: LrcData
@@ -628,8 +626,6 @@
     href: Ink_Canvas.Helpers.InkSmoothingConfig.InkSmoothingQuality.md
   - name: InkSmoothingConfig.SmoothingQuality
     href: Ink_Canvas.Helpers.InkSmoothingConfig.SmoothingQuality.md
-  - name: LogHelper.LogType
-    href: Ink_Canvas.Helpers.LogHelper.LogType.md
   - name: RecognizeLanguage
     href: Ink_Canvas.Helpers.RecognizeLanguage.md
   - name: ShapeRecognitionEngineMode

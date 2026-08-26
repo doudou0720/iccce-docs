@@ -211,12 +211,6 @@ IACore 路径通过 IPC 调用 x86 辅助进程；WinRT 路径在主进程内直
 
  [LocalizationHelper](Ink\_Canvas.Helpers.LocalizationHelper.md)
 
- [LogHelper](Ink\_Canvas.Helpers.LogHelper.md)
-
-Lightweight LogHelper stub for the SDK test harness. The test project links
-host plugin files such as PluginCompatibility, which only need a logging sink;
-this avoids pulling the full host logging pipeline into the test project.
-
  [LrcChar](Ink\_Canvas.Helpers.LrcChar.md)
 
 Represents a single timed character within a lyric line.
@@ -339,10 +333,6 @@ Main-window base that can use WindowChrome for DWM-backed transparent rendering.
  [ThemeMarketManifest](Ink\_Canvas.Helpers.ThemeMarketManifest.md)
 
  [TimeMachine](Ink\_Canvas.Helpers.TimeMachine.md)
-
- [TimeMachine](Ink\_Canvas.Helpers.TimeMachine.md)
-
- [TimeMachineHistory](Ink\_Canvas.Helpers.TimeMachineHistory.md)
 
  [TimeMachineHistory](Ink\_Canvas.Helpers.TimeMachineHistory.md)
 
@@ -469,8 +459,6 @@ WebDav上传工具类
 
 拦截规则类型
 
- [LogHelper.LogType](Ink\_Canvas.Helpers.LogHelper.LogType.md)
-
  [RecognizeLanguage](Ink\_Canvas.Helpers.RecognizeLanguage.md)
 
  [ShapeRecognitionEngineMode](Ink\_Canvas.Helpers.ShapeRecognitionEngineMode.md)
@@ -481,17 +469,11 @@ WebDav上传工具类
 
  [TimeMachineHistoryType](Ink\_Canvas.Helpers.TimeMachineHistoryType.md)
 
- [TimeMachineHistoryType](Ink\_Canvas.Helpers.TimeMachineHistoryType.md)
-
  [FullScreenHelper.WindowPositionFlags](Ink\_Canvas.Helpers.FullScreenHelper.WindowPositionFlags.md)
 
 ### Delegates
 
  [TimeMachine.OnRedoStateChange](Ink\_Canvas.Helpers.TimeMachine.OnRedoStateChange.md)
-
- [TimeMachine.OnRedoStateChange](Ink\_Canvas.Helpers.TimeMachine.OnRedoStateChange.md)
-
- [TimeMachine.OnUndoStateChange](Ink\_Canvas.Helpers.TimeMachine.OnUndoStateChange.md)
 
  [TimeMachine.OnUndoStateChange](Ink\_Canvas.Helpers.TimeMachine.OnUndoStateChange.md)
 
