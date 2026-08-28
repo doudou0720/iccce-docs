@@ -14,8 +14,6 @@
 
  [AuthWithTokenResponse](Ink\_Canvas.Windows.SettingsViews.Pages.AuthWithTokenResponse.md)
 
- [AutomationPage](Ink\_Canvas.Windows.SettingsViews.Pages.AutomationPage.md)
-
  [AutomationSettingsPresenter](Ink\_Canvas.Windows.SettingsViews.Pages.AutomationSettingsPresenter.md)
 
  [AutomationWorkflowPage](Ink\_Canvas.Windows.SettingsViews.Pages.AutomationWorkflowPage.md)

@@ -215,6 +215,8 @@ ListView 展示行：把 NameRoster 的内容与"是否当前"状态合并展示
 OpenCL：GPU 通用加速（NVIDIA/AMD/Intel 集显均可，需驱动支持）。
 CUDA：仅 NVIDIA 显卡，需 OpenCvSharp4WithCuda 包 + 本地 CUDA runtime，否则自动回退到 OpenCL。
 
+ [StartupMode](Ink\_Canvas.StartupMode.md)
+
  [TelemetryUploadLevel](Ink\_Canvas.TelemetryUploadLevel.md)
 
 遥测上传等级

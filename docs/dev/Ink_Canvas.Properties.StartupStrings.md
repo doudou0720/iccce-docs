@@ -84,26 +84,6 @@ public static string ExternalProtocolHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="Ink_Canvas_Properties_StartupStrings_FastStartup"></a> FastStartup
-
-```csharp
-public static string FastStartup { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
-### <a id="Ink_Canvas_Properties_StartupStrings_FastStartupHint"></a> FastStartupHint
-
-```csharp
-public static string FastStartupHint { get; }
-```
-
-#### Property Value
-
- [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 ### <a id="Ink_Canvas_Properties_StartupStrings_FixVersionHint"></a> FixVersionHint
 
 ```csharp
@@ -278,6 +258,56 @@ public static string SmartUpdateHint { get; }
 
 ```csharp
 public static string Start { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_StartupMode"></a> StartupMode
+
+```csharp
+public static string StartupMode { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_StartupModeHint"></a> StartupModeHint
+
+```csharp
+public static string StartupModeHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_StartupMode_Default"></a> StartupMode\_Default
+
+```csharp
+public static string StartupMode_Default { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_StartupMode_Faster"></a> StartupMode\_Faster
+
+```csharp
+public static string StartupMode_Faster { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_StartupMode_Fastest"></a> StartupMode\_Fastest
+
+```csharp
+public static string StartupMode_Fastest { get; }
 ```
 
 #### Property Value

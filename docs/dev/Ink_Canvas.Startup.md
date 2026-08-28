@@ -64,16 +64,6 @@ public int CrashAction { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="Ink_Canvas_Startup_EnableFastStartup"></a> EnableFastStartup
-
-```csharp
-public bool EnableFastStartup { get; set; }
-```
-
-#### Property Value
-
- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 ### <a id="Ink_Canvas_Startup_EnableWindowChromeRendering"></a> EnableWindowChromeRendering
 
 ```csharp
@@ -163,6 +153,16 @@ public string SkippedVersion { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Startup_StartupMode"></a> StartupMode
+
+```csharp
+public StartupMode StartupMode { get; set; }
+```
+
+#### Property Value
+
+ [StartupMode](Ink\_Canvas.StartupMode.md)
 
 ### <a id="Ink_Canvas_Startup_TelemetryUploadLevel"></a> TelemetryUploadLevel
 

@@ -140,10 +140,40 @@ public static Process watchdogProcess
 
 ## Properties
 
-### <a id="Ink_Canvas_App_IsFastStartupEnabled"></a> IsFastStartupEnabled
+### <a id="Ink_Canvas_App_CurrentStartupMode"></a> CurrentStartupMode
 
 ```csharp
-public static bool IsFastStartupEnabled { get; }
+public static StartupMode CurrentStartupMode { get; }
+```
+
+#### Property Value
+
+ [StartupMode](Ink\_Canvas.StartupMode.md)
+
+### <a id="Ink_Canvas_App_IsDefaultStartupMode"></a> IsDefaultStartupMode
+
+```csharp
+public static bool IsDefaultStartupMode { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_App_IsFasterStartupMode"></a> IsFasterStartupMode
+
+```csharp
+public static bool IsFasterStartupMode { get; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_App_IsFastestStartupMode"></a> IsFastestStartupMode
+
+```csharp
+public static bool IsFastestStartupMode { get; }
 ```
 
 #### Property Value

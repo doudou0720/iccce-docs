@@ -189,6 +189,8 @@
     href: Ink_Canvas.PPTLinkMode.md
   - name: PhotoCorrectionAccelerationMode
     href: Ink_Canvas.PhotoCorrectionAccelerationMode.md
+  - name: StartupMode
+    href: Ink_Canvas.StartupMode.md
   - name: TelemetryUploadLevel
     href: Ink_Canvas.TelemetryUploadLevel.md
   - name: ToolbarPosition
@@ -1245,8 +1247,6 @@
     href: Ink_Canvas.Windows.SettingsViews.Pages.AppearancePage.md
   - name: AuthWithTokenResponse
     href: Ink_Canvas.Windows.SettingsViews.Pages.AuthWithTokenResponse.md
-  - name: AutomationPage
-    href: Ink_Canvas.Windows.SettingsViews.Pages.AutomationPage.md
   - name: AutomationSettingsPresenter
     href: Ink_Canvas.Windows.SettingsViews.Pages.AutomationSettingsPresenter.md
   - name: AutomationWorkflowPage
