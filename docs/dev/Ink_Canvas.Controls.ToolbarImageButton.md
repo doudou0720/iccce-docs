@@ -188,6 +188,33 @@ public void ApplyOrientation(bool isVertical)
 
 `isVertical` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Controls_ToolbarImageButton_ClearIconInnerOutline"></a> ClearIconInnerOutline\(\)
+
+移除图标描边。
+
+```csharp
+public void ClearIconInnerOutline()
+```
+
+### <a id="Ink_Canvas_Controls_ToolbarImageButton_SetIconInnerOutline_Brush_System_Double_"></a> SetIconInnerOutline\(Brush, double\)
+
+为图标添加向内描边：描边完全位于图标轮廓内部，不会改变图标的视觉大小。
+实现方式为以 2 倍线宽居中描边，并将整层裁剪到图标轮廓内，外半圈被裁掉，只保留向内的半圈。
+
+```csharp
+public void SetIconInnerOutline(Brush outlineBrush, double width)
+```
+
+#### Parameters
+
+`outlineBrush` Brush
+
+描边颜色
+
+`width` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+描边可见宽度（图标 24x24 坐标系单位）
+
 ### <a id="Ink_Canvas_Controls_ToolbarImageButton_SetSelectedVisualOffset_System_Boolean_"></a> SetSelectedVisualOffset\(bool\)
 
 ```csharp
