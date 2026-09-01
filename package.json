@@ -20,7 +20,7 @@
     "medium-zoom": "^1.1.0",
     "nprogress-v2": "^1.1.10",
     "oxc-minify": "^0.128.0",
-    "oxfmt": "^0.55.0",
+    "oxfmt": "^0.66.0",
     "oxlint": "^1.61.0",
     "vitepress": "^2.0.0-alpha.16",
     "vitepress-markdown-timeline": "^1.2.2",
