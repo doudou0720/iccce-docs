@@ -184,6 +184,26 @@ public static string Theme_Clear { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_ColorfulFloatingBar"></a> Theme\_ColorfulFloatingBar
+
+```csharp
+public static string Theme_ColorfulFloatingBar { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_ColorfulFloatingBarHint"></a> Theme\_ColorfulFloatingBarHint
+
+```csharp
+public static string Theme_ColorfulFloatingBarHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_ThemeStrings_Theme_CompactFloatingBar"></a> Theme\_CompactFloatingBar
 
 ```csharp

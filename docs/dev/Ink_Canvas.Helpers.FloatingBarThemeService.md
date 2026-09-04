@@ -50,6 +50,18 @@ public ObservableCollection<FloatingBarThemeService.ThemeInfo> Themes { get; }
 
 ## Methods
 
+### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_ApplyColorfulOverlay"></a> ApplyColorfulOverlay\(\)
+
+根据 IsColorfulViewboxFloatingBar 设置应用或移除彩色浮动栏背景覆盖。
+开启时在合并字典末尾追加只含 FloatingBarBackgroundBrush 的覆盖字典
+（历史蓝→绿对角半透明渐变 #9580B0FF → #95C0FFC0），
+其余前景/边框/悬停色继续沿用当前浮动栏主题；关闭时移除，回落到主题背景。
+覆盖字典始终位于 _themeDictionary 之后，主题切换后需重新调用本方法保持优先级。
+
+```csharp
+public void ApplyColorfulOverlay()
+```
+
 ### <a id="Ink_Canvas_Helpers_FloatingBarThemeService_ApplySavedTheme"></a> ApplySavedTheme\(\)
 
 ```csharp

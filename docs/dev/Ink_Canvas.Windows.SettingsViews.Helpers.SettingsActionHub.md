@@ -154,6 +154,12 @@ public static void OnChickenSoupSchemesChanged()
 public static void OnChickenSoupSourceChanged()
 ```
 
+### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnColorfulFloatingBarChanged"></a> OnColorfulFloatingBarChanged\(\)
+
+```csharp
+public static void OnColorfulFloatingBarChanged()
+```
+
 ### <a id="Ink_Canvas_Windows_SettingsViews_Helpers_SettingsActionHub_OnCompactFloatingBarChanged_System_Boolean_"></a> OnCompactFloatingBarChanged\(bool\)
 
 ```csharp
