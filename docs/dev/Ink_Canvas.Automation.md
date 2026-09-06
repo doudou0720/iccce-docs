@@ -569,6 +569,36 @@ public PhotoCorrectionAccelerationMode PhotoCorrectionAcceleration { get; set; }
 
  [PhotoCorrectionAccelerationMode](Ink\_Canvas.PhotoCorrectionAccelerationMode.md)
 
+### <a id="Ink_Canvas_Automation_ScreenshotJpegQuality"></a> ScreenshotJpegQuality
+
+```csharp
+public long ScreenshotJpegQuality { get; set; }
+```
+
+#### Property Value
+
+ [long](https://learn.microsoft.com/dotnet/api/system.int64)
+
+### <a id="Ink_Canvas_Automation_ScreenshotSaveFormat"></a> ScreenshotSaveFormat
+
+```csharp
+public int ScreenshotSaveFormat { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="Ink_Canvas_Automation_ScreenshotScaleMode"></a> ScreenshotScaleMode
+
+```csharp
+public int ScreenshotScaleMode { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### <a id="Ink_Canvas_Automation_ThoroughlyHideWhenFolded"></a> ThoroughlyHideWhenFolded
 
 ```csharp

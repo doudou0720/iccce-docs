@@ -874,6 +874,26 @@ public static string Storage_SaveFullPageStrokes { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_ScreenshotFormat"></a> Storage\_ScreenshotFormat
+
+```csharp
+public static string Storage_ScreenshotFormat { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_ScreenshotJpegQuality"></a> Storage\_ScreenshotJpegQuality
+
+```csharp
+public static string Storage_ScreenshotJpegQuality { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_StorageStrings_Storage_ScreenshotSaveLocation"></a> Storage\_ScreenshotSaveLocation
 
 ```csharp
@@ -888,6 +908,76 @@ public static string Storage_ScreenshotSaveLocation { get; }
 
 ```csharp
 public static string Storage_ScreenshotSaveLocationDesc { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_ScreenshotScale"></a> Storage\_ScreenshotScale
+
+```csharp
+public static string Storage_ScreenshotScale { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_ScreenshotScale_100"></a> Storage\_ScreenshotScale\_100
+
+```csharp
+public static string Storage_ScreenshotScale_100 { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_ScreenshotScale_25"></a> Storage\_ScreenshotScale\_25
+
+```csharp
+public static string Storage_ScreenshotScale_25 { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_ScreenshotScale_50"></a> Storage\_ScreenshotScale\_50
+
+```csharp
+public static string Storage_ScreenshotScale_50 { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_ScreenshotScale_75"></a> Storage\_ScreenshotScale\_75
+
+```csharp
+public static string Storage_ScreenshotScale_75 { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_ScreenshotSettings"></a> Storage\_ScreenshotSettings
+
+```csharp
+public static string Storage_ScreenshotSettings { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StorageStrings_Storage_ScreenshotSettingsDesc"></a> Storage\_ScreenshotSettingsDesc
+
+```csharp
+public static string Storage_ScreenshotSettingsDesc { get; }
 ```
 
 #### Property Value
