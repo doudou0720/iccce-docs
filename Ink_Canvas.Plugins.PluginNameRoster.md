@@ -1,0 +1,75 @@
+# <a id="Ink_Canvas_Plugins_PluginNameRoster"></a> Class PluginNameRoster
+
+Namespace: [Ink\_Canvas.Plugins](Ink\_Canvas.Plugins.md)  
+Assembly: InkCanvas.PluginSdk.dll  
+
+花名册（与宿主 Settings.NameRoster 一致）。
+
+```csharp
+public sealed class PluginNameRoster
+```
+
+#### Inheritance
+
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[PluginNameRoster](Ink\_Canvas.Plugins.PluginNameRoster.md)
+
+#### Inherited Members
+
+[object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+
+## Properties
+
+### <a id="Ink_Canvas_Plugins_PluginNameRoster_Guid"></a> Guid
+
+唯一标识。
+
+```csharp
+public string Guid { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Plugins_PluginNameRoster_Name"></a> Name
+
+方案名称。
+
+```csharp
+public string Name { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Plugins_PluginNameRoster_NamesContent"></a> NamesContent
+
+名单内容（每行一人）。
+
+```csharp
+public string NamesContent { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Plugins_PluginNameRoster_ReplaceContent"></a> ReplaceContent
+
+替换规则内容（每行一条）。
+
+```csharp
+public string ReplaceContent { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
