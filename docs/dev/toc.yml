@@ -1227,6 +1227,8 @@
     href: Ink_Canvas.Windows.SettingsViews.Helpers.TopMostModeSelectionItem.md
   - name: TopMostModeTemplateSelector
     href: Ink_Canvas.Windows.SettingsViews.Helpers.TopMostModeTemplateSelector.md
+  - name: UriSchemeShortcutHelper
+    href: Ink_Canvas.Windows.SettingsViews.Helpers.UriSchemeShortcutHelper.md
   - name: WindowSettingsHelper
     href: Ink_Canvas.Windows.SettingsViews.Helpers.WindowSettingsHelper.md
   - name: WrapPanelAutoResize

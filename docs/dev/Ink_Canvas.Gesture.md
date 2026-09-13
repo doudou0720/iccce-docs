@@ -94,6 +94,16 @@ public bool IsEnableTwoFingerRotationOnSelection { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### <a id="Ink_Canvas_Gesture_IsEnableTwoFingerRotationRoaming"></a> IsEnableTwoFingerRotationRoaming
+
+```csharp
+public bool IsEnableTwoFingerRotationRoaming { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### <a id="Ink_Canvas_Gesture_IsEnableTwoFingerTranslate"></a> IsEnableTwoFingerTranslate
 
 ```csharp
@@ -128,6 +138,16 @@ public bool IsEnableTwoFingerZoom { get; set; }
 
 ```csharp
 public bool IsEnableTwoFingerZoomBoard { get; set; }
+```
+
+#### Property Value
+
+ [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### <a id="Ink_Canvas_Gesture_IsEnableTwoFingerZoomRoaming"></a> IsEnableTwoFingerZoomRoaming
+
+```csharp
+public bool IsEnableTwoFingerZoomRoaming { get; set; }
 ```
 
 #### Property Value

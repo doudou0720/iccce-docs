@@ -42,6 +42,26 @@ public Image PreviewImageControl { get; }
 
  Image
 
+### <a id="Ink_Canvas_Controls_BoardRoamingPopupContent_TwoFingerRotationToggle"></a> TwoFingerRotationToggle
+
+```csharp
+public ToggleSwitch TwoFingerRotationToggle { get; }
+```
+
+#### Property Value
+
+ ToggleSwitch
+
+### <a id="Ink_Canvas_Controls_BoardRoamingPopupContent_TwoFingerZoomToggle"></a> TwoFingerZoomToggle
+
+```csharp
+public ToggleSwitch TwoFingerZoomToggle { get; }
+```
+
+#### Property Value
+
+ ToggleSwitch
+
 ## Methods
 
 ### <a id="Ink_Canvas_Controls_BoardRoamingPopupContent_SetViewport_Rect_Rect_System_String_"></a> SetViewport\(Rect, Rect, string\)

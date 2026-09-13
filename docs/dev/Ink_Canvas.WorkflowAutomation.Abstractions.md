@@ -10,13 +10,13 @@
 
 带强类型设置的行动设置控件基类。
 
- [RuleSettingsControlBase<T\>](Ink\_Canvas.WorkflowAutomation.Abstractions.RuleSettingsControlBase\-1.md)
-
-带强类型设置的规则设置控件基类。
-
  [RuleSettingsControlBase](Ink\_Canvas.WorkflowAutomation.Abstractions.RuleSettingsControlBase.md)
 
 规则设置控件的基类。
+
+ [RuleSettingsControlBase<T\>](Ink\_Canvas.WorkflowAutomation.Abstractions.RuleSettingsControlBase\-1.md)
+
+带强类型设置的规则设置控件基类。
 
  [TriggerBase<T\>](Ink\_Canvas.WorkflowAutomation.Abstractions.TriggerBase\-1.md)
 

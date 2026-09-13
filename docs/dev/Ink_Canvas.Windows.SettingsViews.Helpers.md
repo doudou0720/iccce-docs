@@ -42,6 +42,14 @@ null 值转 Visibility（null → Collapsed，非 null → Visible）。
 
  [TopMostModeTemplateSelector](Ink\_Canvas.Windows.SettingsViews.Helpers.TopMostModeTemplateSelector.md)
 
+ [UriSchemeShortcutHelper](Ink\_Canvas.Windows.SettingsViews.Helpers.UriSchemeShortcutHelper.md)
+
+创建指向 icc:// 外部协议命令的桌面快捷方式。
+快捷方式以主程序为目标并携带 icc:// 参数：已有实例运行时由 App 通过 IPC 转发命令，
+无实例时启动应用后按启动 URI 参数执行命令。
+快捷方式图标为按需生成的 .ico：半透明圆角矩形底 + 程序内图标 + 右下角半透明 ICC 文字，
+与设置页徽章按钮使用同一套绘制参数。
+
  [WindowSettingsHelper](Ink\_Canvas.Windows.SettingsViews.Helpers.WindowSettingsHelper.md)
 
  [WrapPanelAutoResize](Ink\_Canvas.Windows.SettingsViews.Helpers.WrapPanelAutoResize.md)

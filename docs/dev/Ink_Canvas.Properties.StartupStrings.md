@@ -84,6 +84,96 @@ public static string ExternalProtocolHint { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### <a id="Ink_Canvas_Properties_StartupStrings_ExternalProtocol_ShortcutCreate"></a> ExternalProtocol\_ShortcutCreate
+
+```csharp
+public static string ExternalProtocol_ShortcutCreate { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_ExternalProtocol_ShortcutCreateHint"></a> ExternalProtocol\_ShortcutCreateHint
+
+```csharp
+public static string ExternalProtocol_ShortcutCreateHint { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_ExternalProtocol_Shortcut_Annotate"></a> ExternalProtocol\_Shortcut\_Annotate
+
+```csharp
+public static string ExternalProtocol_Shortcut_Annotate { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_ExternalProtocol_Shortcut_Board"></a> ExternalProtocol\_Shortcut\_Board
+
+```csharp
+public static string ExternalProtocol_Shortcut_Board { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_ExternalProtocol_Shortcut_Booth"></a> ExternalProtocol\_Shortcut\_Booth
+
+```csharp
+public static string ExternalProtocol_Shortcut_Booth { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_ExternalProtocol_Shortcut_Created"></a> ExternalProtocol\_Shortcut\_Created
+
+```csharp
+public static string ExternalProtocol_Shortcut_Created { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_ExternalProtocol_Shortcut_Failed"></a> ExternalProtocol\_Shortcut\_Failed
+
+```csharp
+public static string ExternalProtocol_Shortcut_Failed { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_ExternalProtocol_Shortcut_Random"></a> ExternalProtocol\_Shortcut\_Random
+
+```csharp
+public static string ExternalProtocol_Shortcut_Random { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### <a id="Ink_Canvas_Properties_StartupStrings_ExternalProtocol_Shortcut_Settings"></a> ExternalProtocol\_Shortcut\_Settings
+
+```csharp
+public static string ExternalProtocol_Shortcut_Settings { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### <a id="Ink_Canvas_Properties_StartupStrings_FixVersionHint"></a> FixVersionHint
 
 ```csharp
