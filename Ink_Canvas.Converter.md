@@ -1,0 +1,26 @@
+# <a id="Ink_Canvas_Converter"></a> Namespace Ink\_Canvas.Converter
+
+### Classes
+
+ [BooleanToInverseBooleanConverter](Ink\_Canvas.Converter.BooleanToInverseBooleanConverter.md)
+
+ [BooleanToVisibilityConverter](Ink\_Canvas.Converter.BooleanToVisibilityConverter.md)
+
+ [IntNumberToString](Ink\_Canvas.Converter.IntNumberToString.md)
+
+ [IntNumberToString2](Ink\_Canvas.Converter.IntNumberToString2.md)
+
+ [InverseBooleanConverter](Ink\_Canvas.Converter.InverseBooleanConverter.md)
+
+ [InverseBooleanToVisibilityConverter](Ink\_Canvas.Converter.InverseBooleanToVisibilityConverter.md)
+
+ [IsEnabledToOpacityConverter](Ink\_Canvas.Converter.IsEnabledToOpacityConverter.md)
+
+ [NullToVisibilityConverter](Ink\_Canvas.Converter.NullToVisibilityConverter.md)
+
+ [RippleEffectTranslationConverter](Ink\_Canvas.Converter.RippleEffectTranslationConverter.md)
+
+ [StringToGeometryConverter](Ink\_Canvas.Converter.StringToGeometryConverter.md)
+
+ [VisibilityConverter](Ink\_Canvas.Converter.VisibilityConverter.md)
+

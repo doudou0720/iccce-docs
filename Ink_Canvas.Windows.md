@@ -1,0 +1,61 @@
+# <a id="Ink_Canvas_Windows"></a> Namespace Ink\_Canvas.Windows
+
+### Namespaces
+
+ [Ink\_Canvas.Windows.Controls](Ink\_Canvas.Windows.Controls.md)
+
+ [Ink\_Canvas.Windows.FeedbackPages](Ink\_Canvas.Windows.FeedbackPages.md)
+
+ [Ink\_Canvas.Windows.SettingsViews](Ink\_Canvas.Windows.SettingsViews.md)
+
+### Classes
+
+ [AnnouncementCenterWindow](Ink\_Canvas.Windows.AnnouncementCenterWindow.md)
+
+ [FullscreenTimerWindow](Ink\_Canvas.Windows.FullscreenTimerWindow.md)
+
+全屏计时器窗口
+
+ [HotkeyChangedEventArgs](Ink\_Canvas.Windows.HotkeyChangedEventArgs.md)
+
+快捷键变更事件参数
+
+ [HotkeyItem](Ink\_Canvas.Windows.HotkeyItem.md)
+
+快捷键项控件
+
+ [NewStyleMinimizedTimerWindow](Ink\_Canvas.Windows.NewStyleMinimizedTimerWindow.md)
+
+最小化计时器独立窗口
+
+ [NewStyleTimerWindow](Ink\_Canvas.Windows.NewStyleTimerWindow.md)
+
+新计时器UI风格的倒计时器窗口
+
+ [OobePresetWindow](Ink\_Canvas.Windows.OobePresetWindow.md)
+
+ [OobeWindow](Ink\_Canvas.Windows.OobeWindow.md)
+
+首次启动体验(OOBE)窗口。使用 iNKORE.UI.WPF.Modern 的 NavigationView 作为左侧导航,
+引导用户依次完成欢迎页、8 个配置步骤与完成摘要页。
+
+ [PPTQuickPanel](Ink\_Canvas.Windows.PPTQuickPanel.md)
+
+PPT侧滑快捷面板
+
+ [PPTTimeCapsule](Ink\_Canvas.Windows.PPTTimeCapsule.md)
+
+PPT时间显示胶囊控件
+
+ [RecentTimersData](Ink\_Canvas.Windows.RecentTimersData.md)
+
+最近计时记录数据模型
+
+ [SplashScreen](Ink\_Canvas.Windows.SplashScreen.md)
+
+SplashScreen.xaml 的交互逻辑
+
+### Enums
+
+ [OobePresetWindow.PresetKind](Ink\_Canvas.Windows.OobePresetWindow.PresetKind.md)
+
